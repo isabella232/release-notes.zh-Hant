@@ -11,7 +11,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 mini-toc-levels: '1'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f123e32395be3e2f83f6ed3004f142253c8f6d36
 
 ---
@@ -67,7 +67,7 @@ source-git-commit: f123e32395be3e2f83f6ed3004f142253c8f6d36
       + [2015 年 9 月](c-legacy-releases/2015/09172015.md)
       + [2015 年 8 月](c-legacy-releases/2015/08202015.md)
       + [2015 年 7 月](c-legacy-releases/2015/07162015.md)
-      + [2015年月](c-legacy-releases/2015/06182015.md)
+      + [2015 年 6 月](c-legacy-releases/2015/06182015.md)
       + [2015 年 5 月](c-legacy-releases/2015/05212015.md)
       + [2015 年 4 月](c-legacy-releases/2015/04162015.md)
       + [2015 年 3 月](c-legacy-releases/2015/03192015.md)
