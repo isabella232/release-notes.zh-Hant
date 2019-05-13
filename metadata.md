@@ -10,31 +10,31 @@ tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 mini-toc-levels: '1'
 git-repo: https://github.com/AdobeDocs/release-notes.en
 index: false
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
 
 ---
 
 
-# 中繼資料供內部使用
+# 供內部使用的中繼資料
 
-metadata. md檔案包含回推層級中繼資料，可通過回推的使用者指南TOC. md檔案。如果您想要變更任何使用手冊的中繼資料. md內容，請在任何TOC. md檔案中進行。
+metadata.md 檔案包含存放庫層級中繼資料，會傳送至存放庫中的使用手冊 TOC.md 檔案。如果您想變更任何使用手冊的 metadata.md 內容，可以在任何 TOC.md 檔案中進行更改。
 
-| 中繼資料 | 它的用途 |
+| 中繼資料 | 作用 |
 |--- |--- |
-| solution-title | 在文章標題中使用做為連結 |
-| solution-hub-url | 開啓Helpx中心頁面 |
-| solution-icon | 在解決方案標題旁顯示解決方案圖示。尚未實作 |
-| getting-started-title | 當教學課程不適合時很少使用 |
-| getting-started-url | 連結至說明快速入門頁面 |
-| 教學課程標題 | 當教學課程不適合時很少使用 |
-| 教學課程URL | 連結至教學課程影片—提供說明教學課程或KT教學課程 |
-| mini-toc-level | 決定顯示在右側邊欄中的標題層級數目。預設為 2 |
-| git-repo | 指定協同作業PO的位置。使用適用於公開文件的github.com鏡 |
+| solution-title | 在文章標題中作為連結使用 |
+| solution-hub-url | 開啟 helpx 中樞頁面 |
+| solution-icon | 在解決方案標題旁邊顯示解決方案圖示。尚未實作 |
+| getting-started-title | 教學課程不適合時極少使用 |
+| getting-started-url | helpx 快速入門頁面的連結 |
+| tutorials-title | 教學課程不適合時極少使用 |
+| tutorials-url | 教學課程影片 (helpx 或 KT 教學課程其中之一) 的連結 |
+| mini-toc-levels | 決定右邊欄中顯示的標頭層級數。預設為 2 |
+| git-repo | 指定共同作業存放庫的位置。針對公開文件使用 github.com 鏡像 |
 
-在TOC. md檔案中
+在 TOC.md 檔案中
 
-| 中繼資料 | 它的用途 |
+| 中繼資料 | 作用 |
 |--- |--- |
-| user-guide-title | 在文章標題中使用做為連結 |
-| user-guide-url | 開啓Helpx中心頁面 |
+| user-guide-title | 在文章標題中作為連結使用 |
+| user-guide-url | 開啟 helpx 中樞頁面 |
