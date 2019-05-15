@@ -4,15 +4,15 @@ product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 發行說明
 user-guide-url: https://www.adobe.com
 solution-title: Experience Cloud
-solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
+solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud.html
 solution-icon: assets/assets/experience-cloud-logo-24.png
 getting-started-title: 快速入門
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 mini-toc-levels: '1'
-translation-type: ht
-source-git-commit: f123e32395be3e2f83f6ed3004f142253c8f6d36
+translation-type: tm+mt
+source-git-commit: 3be54c2a7d063c6ebc9c0535efd6712abada071d
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: f123e32395be3e2f83f6ed3004f142253c8f6d36
 + [Adobe Experience Cloud 發行說明](current.md)
 + 上一版的發行說明 {#previous}
    + 2019 {#2019}
+      + [2019 年 4 月](c-legacy-releases/2019/04112019.md)
       + [2019 年 3 月](c-legacy-releases/2019/03072019.md)
       + [ 2019 年 2 月](c-legacy-releases/2019/02072019.md)
       + [2019 年 1 月](c-legacy-releases/2019/01172019.md)
