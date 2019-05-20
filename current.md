@@ -5,7 +5,7 @@ doc-type: 版本說明
 last-update: 2019 年 5 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3be54c2a7d063c6ebc9c0535efd6712abada071d
+source-git-commit: c5d973e002c607c1b9b7422c9d3abaa9c827a000
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud 中的新功能及修正。
 
 **發行日期：2019年月**
 
-* [Experience Platform](#platform)
+* [Adobe Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -30,9 +30,13 @@ Adobe Experience Cloud 中的新功能及修正。
 * [Magento](#magento)
 * [Primetime](#primetime)
 
-## Experience Platform {#platform}
+## Adobe Experience Platform {#platform}
 
-Experience Cloud Platform 發行說明，包括管理、啟用 (Experience Platform Launch)、ID 服務、資產、選件和 People。
+### Adobe Experience Platform發行說明
+
+2019年月15日版
+
+* 如需Experience Platform的最新更新，請參閱 [Adobe. io](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) 上的Experience Platform發行說明。
 
 ### Experience Platform Launch
 
