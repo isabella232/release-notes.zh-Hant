@@ -5,7 +5,7 @@ doc-type: 版本說明
 last-update: 2019 年 5 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c5d973e002c607c1b9b7422c9d3abaa9c827a000
+source-git-commit: eb567f2f7b740c2fab9b95540cfdf240cf1f6955
 
 ---
 
@@ -63,6 +63,7 @@ Adobe Analytics 中的新功能和修正:
 
 | 功能 | 說明 |
 | -----------| ---------- |  
+| **AppMeasurement2.14.0版** <ul><li>已修正當有多個點擊擱置時，追蹤參數狀態的問題。(AN-176931、AN-176629、DTM-12758)</li><li>已更新AppMeasurement以納入Visitor. js4.3.0(AN-180049)</li></ul> |
 | **分析工作區：** 新 _加入重復例項_ 流程視覺化設定 | _「包含重複例項」_流量設定可讓您選擇納入或排除重複例項，例如「頁面重新載入」。此外，現在所有「流量」視覺效果皆僅根據例項。 |
 | **臨機分析：** 與Java11相容 | Ad Hoc Analysis 現在與 Java 11 相容。瞭解如何在Java11上執行 [臨機分析](https://marketing.adobe.com/resources/help/en_US/dsc/adhoc-java.html)。 |
 | **資料收集：** 新s_ ecid Cookie | 新增全新第一方伺服器 Cookie s_ecid，資料彙集會將訪客的 ECID 儲存在此處。 |
@@ -86,12 +87,12 @@ Adobe Analytics 中的新功能和修正:
 
 | 注意 | 新增日期或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 報表總數計算方式近期變更 | 2019 年 4 月 16 日 | Adobe Analytics 預計於 **2019 年 6 月 13 日**統一所有維度和量度的&zwnb;_報表總數_&zwnb;計算方式。部分報表的總數會因此有所變動，通常會是「Prop」或「客戶屬性」報表。在此變更前，無論報表中是否出現&zwnb;_「未指定」_&zwnb;一項，部分「報表總數」納入或排除&zwnb;_「未指定」_&zwnb;項目的情況不一。<br/>自 2019 年 6 月 13 日起，即使「未指定」並未出現在報表項目中，報表總數都會一律顯示&zwnb;_「未指定」_&zwnb;。此外，在此變更後，使用&zwnb;_「存在」_&zwnb;或&zwnb;_「不存在」_&zwnb;邏輯的區段可能會看到部分維度的不同結果。到時，此變更將會影響 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和報表 API。 |
+| _報表總數_計算方式近期變更 | 2019 年 4 月 16 日 | Adobe Analytics 預計於 **2019 年 6 月 13 日**統一所有維度和量度的_報表總數_計算方式。部分報表的總數會因此有所變動，通常會是「Prop」或「客戶屬性」報表。在此變更前，無論報表中是否出現_「未指定」_一項，部分「報表總數」納入或排除_「未指定」_項目的情況不一。<br/>自 2019 年 6 月 13 日起，即使「未指定」並未出現在報表項目中，報表總數都會一律顯示_「未指定」_。此外，在此變更後，使用_「存在」_或_「不存在」_邏輯的區段可能會看到部分維度的不同結果。到時，此變更將會影響 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和報表 API。 |
 | 更新 Analysis Workspace 的 CSV 下載 | 2019 年 4 月 10 日 | 自 2019 年 4 月 11 日起，從 Analysis Workspace 下載 CSV 和複製到剪貼簿兩項功能會有諸多變動，以移除匯出資料中的格式設定。  <ul><li>不再使用千分位分隔符號。將繼續使用小數分隔符號，其將遵循**「元件** &gt; **報表設定** &gt; **千分位分隔符號」**中定義的格式。注意: 匯出的 CSV 會繼續引用使用逗號作為小數分隔符號的數值。</li><li>不再顯示貨幣符號。</li><li>不再顯示百分比符號。百分比將以小數形式表示，例如: 75% 會表示成 0.75。</li><li>時間會以秒數表示。</li><li>同類群組表格僅會顯示原始值; 百分比符號將會移除。</li><li>如果數字無效，則顯示空白儲存格。</li></ul> |
 | 即將變更 Analysis Workspace 偵錯工具命令 | 2019 年 4 月 4 日 | **2019 年 6 月 13 日**，開啟 Analysis Workspace 偵錯工具的控制台命令將變更為 adobeTools.debug.includeOberonXml。 |
 | 日期啟用和數值分類的近期支援變更 | 2019 年 2 月 28 日 | 匯入數值 2 與日期啟用分類的功能已自基底程式碼移除。此變更預計於 2019 年 6 月維護版本中生效。若您的匯入檔案中含有數值或日期啟用欄，系統會自動忽略這些儲存格，至於該檔案中的其他所有資料都將正常匯入。<br/>您仍可透過標準分類工作流程匯出現有分類，並繼續在報表中使用。 |
 | 大幅更新有關 getPercentPageViewed 外掛程式的說明文件。 | 2019 年 2 月 12 日 | [https://experiencecloud.adobe.com/resources/help/zh_TW/sc/implement/getPercentPageViewed.html](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/getPercentPageViewed.html) |
-| 管理員 &gt; 一般帳戶設定 | 2019 年 2 月 7 日 | * 2019 年 1 月後，在倫敦資料中心新建的所有報表套裝，都會預設啟用&zwnb;_「以 0 取代 IP 位址的最後八位數字」_&zwnb;設定，且僅限從 Admin Console 所列範本複製而來的報表套裝設定。若報表套裝的設定是複製自其他報表套裝，則會繼承所選報表套裝的所有設定。<br/> * 如果客戶已在 EMEA 中設定報表套裝，預設不再啟用&zwnb;_「IP 模糊化」_&zwnb;設定。 |
+| 管理員 &gt; 一般帳戶設定 | 2019 年 2 月 7 日 | * 2019 年 1 月後，在倫敦資料中心新建的所有報表套裝，都會預設啟用_「以 0 取代 IP 位址的最後八位數字」_設定，且僅限從 Admin Console 所列範本複製而來的報表套裝設定。若報表套裝的設定是複製自其他報表套裝，則會繼承所選報表套裝的所有設定。<br/> * 如果客戶已在 EMEA 中設定報表套裝，預設不再啟用_「IP 模糊化」_設定。 |
 | 行動瀏覽器版本編號 | 2019 年 2 月 7 日 | 自 2019 年 1 月 8 日起，行動瀏覽器版本編號的小數點位數已從 2 變更為 1。從該日起，版本只會顯示頭兩個層級 (例如 _Firefox 64.0.2_ 現在只會顯示為 _Firefox 64.0_)。 |
 | 終止 Ad Hoc Analysis 服務 | 2019 年 1 月 29 日更新 | Adobe 於 2018 年 8 月 6 日宣佈有意終止 Ad Hoc Analysis 服務，我們將會在確定後公佈服務終止日期。<br/>如需詳細資訊，包括在此期間相容的 Java 版本，請造訪 [Discover Workspace](https://adobe.ly/discoverworkspace)。 |
 | Analytics 報表短連結 | 2019 年 1 月 14 日 | 自 2019 年 1 月 17 日星期四起，我們將逐步清理並刪除任何一年內未經造訪的 Analytics 報表短連結。 |
