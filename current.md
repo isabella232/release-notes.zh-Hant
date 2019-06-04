@@ -5,7 +5,7 @@ doc-type: 版本說明
 last-update: 2019 年 5 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8517ef177c10b4a0e5228ccbcb9168d0e35577e0
+source-git-commit: c8db350233cea9b83993e4723601b01a8e301f87
 
 ---
 
@@ -15,8 +15,7 @@ source-git-commit: 8517ef177c10b4a0e5228ccbcb9168d0e35577e0
 Adobe Experience Cloud 中的新功能及修正。
 
 >[!NOTE]
->>訂閱 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。您會在發行前三至五個工作日收到通知。產品發行後才會發佈的新資訊皆會標示發佈日期。
-
+>訂閱 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。您會在發行前三至五個工作日收到通知。產品發行後才會發佈的新資訊皆會標示發佈日期。
 
 **發行日期：2019年月**
 
