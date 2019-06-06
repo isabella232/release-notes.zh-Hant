@@ -2,16 +2,16 @@
 cloud: experience-cloud
 solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud.html
-solution-icon: assets/experience-cloud-logo-24.png
-getting-started-title: Experience League
+solution-icon: assets/assets/experience-cloud-logo-24.png
+getting-started-title: 快速入門
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
 tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 mini-toc-levels: '1'
 git-repo: https://github.com/AdobeDocs/release-notes.en
-index: false
-translation-type: ht
-source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
+index: true
+translation-type: tm+mt
+source-git-commit: 8e54bd3d73d2729e22d09765069d311bc0bc5248
 
 ---
 
@@ -22,7 +22,7 @@ metadata.md 檔案包含存放庫層級中繼資料，會傳送至存放庫中�
 
 | 中繼資料 | 作用 |
 |--- |--- |
-| solution-title | 在文章標題中作為連結使用 |
+| solution-title | 在文章標題中作為連結使用。保持簡短。 |
 | solution-hub-url | 開啟 helpx 中樞頁面 |
 | solution-icon | 在解決方案標題旁邊顯示解決方案圖示。尚未實作 |
 | getting-started-title | 教學課程不適合時極少使用 |
