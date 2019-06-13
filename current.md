@@ -5,7 +5,7 @@ doc-type: 版本說明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d216b079f73662c1d43e154b2a4e8195d09a2f18
+source-git-commit: 0c4355bbb17d5b67a8f136a07b7fc2a682441a01
 
 ---
 
@@ -58,6 +58,8 @@ Adobe Analytics 中的新功能和修正:
 | **除錯程式** | 使用您的Adobe ID登入時，現在可以在Experience Cloud除錯程式中擷取處理後點擊。處理後點擊是伺服器呼叫經過 [!UICONTROL 處理規則] 和VISTA規則後，可讓您驗證 [!UICONTROL 處理規則] 和VISTA規則。**注意**：如果您使用A4T(ElementalDataID)，處理後資料可能需要幾分鐘的時間回來。 |
 | **Analysis Workspace:** | 新增立即可用的篩選至左側導軌搜尋。除了您今天看到的項目(維度、量度、核准等)，新篩選條件包括計算量度、客戶屬性、eVar、Prop、視訊等。的新增功能。 |
 | **Analysis Workspace** | 我們已對「流失視覺化」新增警告，將區段新增為接觸點-某些無效區段容器組合會導致無效的流失圖表，例如， <ul><li>以訪客為基礎的區段做為訪客內容流失視覺化中的接觸點</li><li>以訪客為基礎的區段做為瀏覽內容流失視覺化中的接觸點</li><li>在瀏覽內容流失視覺化中使用瀏覽型區段做為接觸點</li></ul> <br> [ 更多內容... ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) </br> |
+| **Analytics文件改進** | Analytics文件已重新整理，現在包含可讓您改善內容的協同作業功能！您可以記錄文件的問題，並建議編輯。doc集已移至 [新網域](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。重新導向應該生效。 |
+| **新技術註解使用者指南** | [Tech Notes使用指南](https://docs.adobe.com/content/help/en/analytics/technotes/home.html) 現已推出。目前，其目的在於協助使用者更熟悉第三方分析工具(例如Google Analytics)，以便更熟悉Adobe Analytics。技術註解使用者指南將於未來幾個月展開，納入其他內容。 |
 
 **Analysis Workspace 修正**
 
