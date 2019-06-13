@@ -5,22 +5,19 @@ doc-type: 版本說明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1055e2ece605b5c1147f92cfd06cf103860e3d4c
+source-git-commit: d216b079f73662c1d43e154b2a4e8195d09a2f18
 
 ---
 
 
-# 提早存取- Adobe Experience Cloud發行說明
+# Adobe Experience Cloud 發行說明
 
 Adobe Experience Cloud 中的新功能及修正。
-
->[!IMPORTANT]
->此頁面含有搶鮮版內容，於預計發行前可能會有所變更。
 
 >[!NOTE]
 >訂閱 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。您會在發行前三至五個工作日收到通知。產品發行後才會發佈的新資訊皆會標示發佈日期。
 
-**發行日期：2019年月**
+**發行日期: 2019 年 6 月 13 日**
 
 * [Adobe Experience Platform](#platform)
 * [Analytics](#analytics)
@@ -56,8 +53,8 @@ Adobe Analytics 中的新功能和修正:
 
 | 功能 | 說明 |
 | -----------| ---------- |  
-| **區段** | 區段中維度的新屬性模型：<ul><li>重復(預設)：包含維度的例項+持續值。</li><li>例項：包含維度的例項。</li><li>非重復例項：包含維度的唯一例項(不重復)。</li></ul> |
-| **區段** | 新區段運算子： **[!UICONTROL 等於任何]** 和 **[!UICONTROL 不等於任何一]** 個。 |
+| **區段** | 區段中維度的新屬性模型：<ul><li>重復(預設)：包含維度的例項+持續值。</li><li>例項：包含維度的例項。</li><li>非重復例項：包含維度的唯一例項(不重復)。</li></ul> [更多內容](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) |
+| **區段** | 新區段運算子： **[!UICONTROL 等於任何]** 和 **[!UICONTROL 不等於任何一]** 個。[更多內容...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-operators.html) |
 | **除錯程式** | 使用您的Adobe ID登入時，現在可以在Experience Cloud除錯程式中擷取處理後點擊。處理後點擊是伺服器呼叫經過 [!UICONTROL 處理規則] 和VISTA規則後，可讓您驗證 [!UICONTROL 處理規則] 和VISTA規則。**注意**：如果您使用A4T(ElementalDataID)，處理後資料可能需要幾分鐘的時間回來。 |
 | **Analysis Workspace:** | 新增立即可用的篩選至左側導軌搜尋。除了您今天看到的項目(維度、量度、核准等)，新篩選條件包括計算量度、客戶屬性、eVar、Prop、視訊等。的新增功能。 |
 | **Analysis Workspace** | 我們已對「流失視覺化」新增警告，將區段新增為接觸點-某些無效區段容器組合會導致無效的流失圖表，例如， <ul><li>以訪客為基礎的區段做為訪客內容流失視覺化中的接觸點</li><li>以訪客為基礎的區段做為瀏覽內容流失視覺化中的接觸點</li><li>在瀏覽內容流失視覺化中使用瀏覽型區段做為接觸點</li></ul> <br> [ 更多內容... ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) </br> |
