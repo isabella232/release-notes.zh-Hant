@@ -2,7 +2,7 @@
 title: Adobe Experience Cloud 發行說明
 description: Experience Cloud發行說明
 doc-type: 版本說明
-last-update: 2019年月
+last-update: 2019 年 6 月
 author: mfrei
 translation-type: tm+mt
 source-git-commit: 0c4355bbb17d5b67a8f136a07b7fc2a682441a01
@@ -269,7 +269,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 電子商務平台 Magento 提供線上商家彈性的購物車系統，且可控制線上商店的外觀、內容與功能。Magento 提供開放原始碼版本與功能更完整的商務版。
 
-Magento Commerce 屬於 Adobe Commerce Cloud 的一部分，提供具備企業級效能、無限制擴充能力及開放原始碼彈性的電子商務解決方案，適用於 B2C 與 B2B 體驗.
+Magento Commerce 屬於 Adobe Commerce Cloud 的一部分，提供具備企業級效能、無限制擴充能力及開放原始碼彈性的電子商務解決方案，適用於 B2C 與 B2B 體驗
 
 您可以在 [「發行資訊](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) 」頁面上找到我們Open Source和Commerce版本的發行說明。
 
