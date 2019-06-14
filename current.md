@@ -2,10 +2,10 @@
 title: Adobe Experience Cloud 發行說明
 description: Experience Cloud發行說明
 doc-type: 版本說明
-last-update: 2019 年 6 月
+last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0c4355bbb17d5b67a8f136a07b7fc2a682441a01
+source-git-commit: dbcd180c5fd07abd8a6b8ed9ec47b3b1d996f275
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Experience Cloud 中的新功能及修正。
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [促銷活動](#ac)
+* [[！DNL Campaign]](#ac)
 * [Mobile Services](#mobile)
 * [Advertising Cloud](#adcloud)
 * [Target Standard/Premium 19.6.1](#target)
@@ -34,11 +34,11 @@ Adobe Experience Cloud 中的新功能及修正。
 
 ### Adobe Experience Platform 發行說明
 
-* 如需Experience Platform的最新更新，請參閱 [Adobe. io](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) 上的Experience Platform發行說明。
+* 請參閱 [[！Adobe. io上的DNL Experience Platform]發行說明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) ，以取得最新更新 [!DNL Experience Platform]。
 
-### Experience Platform Launch
+### [!DNL Experience Platform Launch]
 
-* 如需最新資訊，請參閱 [Experience Platform Launch](https://docs.adobelaunch.com/) 。
+* 請參閱 [[！DNL Experience Platform Launch]，](https://docs.adobelaunch.com/) 以取得最新資訊。
 
 ## Analytics {#analytics}
 
@@ -101,7 +101,7 @@ Adobe Analytics 中的新功能和修正:
 * 解決造成特徵資料夾內容無法顯示，然後資料夾名稱包含括號和/或括號的問題。
 * 解決當僅選取一個特徵類型時，造成特徵排序失敗的問題。
 * 解決當您每次建立或更新新子檔案夾時，造成特徵檔案夾樹狀結構收合至 [!UICONTROL 「所有特徵] 」檢視的問題。
-* 解決當嘗試刪除合作夥伴時，需要VIEW_DATASOURCE權限的問題。
+* 解決嘗試刪除合作夥伴時 [!DNL VIEW_DATASOURCES] ，需要權限的問題。
 * 解決造成「區段」頁面中的「 [!UICONTROL 搜尋」][!UICONTROL 方塊] 搜尋所有資料夾而非選取的資料夾的問題。
 * 解決建立新演算法模型時，無法透過標題控制項排序 [!UICONTROL 排除特性] 表格的問題。
 * 解決造成Audience Manager在執行含空白間隔日期的報表時當機的問題。
@@ -213,23 +213,23 @@ Adobe Experience Manager (AEM) 中的新功能、修正及更新。Adobe 建議�
 * [Scene7 Publishing System 發行說明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 發行說明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
-## 促銷活動 {#ac}
+## [!DNL Campaign] {#ac}
 
 Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法提供一對一訊息。您現在可以使用客戶習慣和偏好判斷其體驗，預測他們想要的東西。
 
-### Campaign Classic19.1春季版
+### [!DNL Campaign Classic] 19.1春季發行版本
 
 | 功能 | 說明 |
 | ------------- | ----------- |
 | 控制面板 | 若要提高身為管理員使用者的工作效率，請監控儲存空間、安全的IP位址，並為每個執行個體安裝SSH金鑰來管理SFTP伺服器的設定。請注意，「控制台」僅適用於目前在AWS上代管的客戶。[透過Experience Cloud登入](https://experiencecloud.adobe.com/campaign/controlpanel/)。<br> 如需詳細資訊，請參閱 [詳細說明文件](https://helpx.adobe.com/campaign/kb/control-panel.html) 和 [教學影片](https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.html)。 |
 | 稽核線索 | 身為管理員，請監控並管理Adobe Campaign Classic實例中所做的變更，以提高生產力。「稽核線索」將會記錄在「來源結構」、「工作流程」和「選項」上的動作。您可以快速查看元素是否已建立、修改或刪除。<br>如需詳細資訊，請參閱 [詳細說明文件](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html) 和 [教學影片](https://helpx.adobe.com/campaign/kt/acc/using/acc-audit-trail-feature-video-use.html)。 |
-| GuardRAil、強穩與調整能力 | Campaign Classic已新增一系列改良功能。Campaign Classic發行說明中列出 [了GuardRAil、強穩和可擴充性改進](https://docs.campaign.adobe.com/doc/AC/en/RN.html)。 |
+| GuardRAil、強穩與調整能力 | 已新增一系列改良 [!DNL Campaign Classic]功能。Adobe Campaign [Classic發行說明中列出了GuardRAil、強穩和可擴充性的改進](https://docs.campaign.adobe.com/doc/AC/en/RN.html)。 |
 | 安全SMS Messaging(TLS) | 現在，透過延伸通用的SMPP Connector支援安全SMS。如此可讓使用者加密連線至提供者。<br>如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)。 |
 | 相容性矩陣更新 | 透過這個新版本，Adobe Campaign現在支援下列資料庫系統。請參閱 [相容性矩陣](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) <ul><li>Oracle18c</li><li>MySQL5.7(FDA)</li><li>SQL Server2017</li><li>Teradata16(FDA)</li><li>Post格雷QL11</li></ul> |
 
-有關修正和改善項目，請參閱 [Adobe Campaign Classic 發行說明](http://docs.campaign.adobe.com/doc/AC/en/RN.html)。
+如需修正和改進，請參閱 [Adobe Campaign Classic] 發行說明](英文)。
 
-### Campaign Standard19.2春季版
+### [!DNL Campaign Standard] 19.2春季發行版本
 
 | 功能 | 說明 |
 | ------------- | ----------- |
@@ -269,7 +269,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 電子商務平台 Magento 提供線上商家彈性的購物車系統，且可控制線上商店的外觀、內容與功能。Magento 提供開放原始碼版本與功能更完整的商務版。
 
-Magento Commerce 屬於 Adobe Commerce Cloud 的一部分，提供具備企業級效能、無限制擴充能力及開放原始碼彈性的電子商務解決方案，適用於 B2C 與 B2B 體驗
+Magento Commerce 屬於 Adobe Commerce Cloud 的一部分，提供具備企業級效能、無限制擴充能力及開放原始碼彈性的電子商務解決方案，適用於 B2C 與 B2B 體驗.
 
 您可以在 [「發行資訊](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) 」頁面上找到我們Open Source和Commerce版本的發行說明。
 
