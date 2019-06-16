@@ -5,7 +5,7 @@ doc-type: 版本說明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3db1b9386db42a9b63a9a313ef80f05f377f1c65
+source-git-commit: a4233ae2bcb89b8695b92385142ee25b654a2300
 
 ---
 
@@ -227,7 +227,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | 安全SMS Messaging(TLS) | 現在，透過延伸通用的SMPP Connector支援安全SMS。如此可讓使用者加密連線至提供者。<br>如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)。 |
 | 相容性矩陣更新 | 透過這個新版本，Adobe Campaign現在支援下列資料庫系統。請參閱 [相容性矩陣](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) <ul><li>Oracle18c</li><li>MySQL5.7(FDA)</li><li>SQL Server2017</li><li>Teradata16(FDA)</li><li>Post格雷QL11</li></ul> |
 
-如需修正和改進，請參閱 [Adobe Campaign Classic] 發行說明](英文)。
+有關修正和改善項目，請參閱 [Adobe Campaign Classic 發行說明](http://docs.campaign.adobe.com/doc/AC/en/RN.html)。
 
 ### [!DNL Campaign Standard] 19.2春季發行版本
 
