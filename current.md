@@ -5,7 +5,7 @@ doc-type: 版本說明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7708f905e8f5baf0843e7ccb6c652a3450dd5d82
+source-git-commit: 9fbbe902ba5f95b86f8bf2eed7d3e85b4785ba6e
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Experience Cloud 中的新功能及修正。
 
 ### Adobe Experience Platform 發行說明
 
-* 請參閱 [[！Adobe. io上的DNL Experience Platform]發行說明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) ，以取得最新更新 [!DNL Experience Platform]。
+* 如需最新更新，請參閱 [Adobe. io](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) 上的Adobe Experience Platform發行說明 [!DNL Experience Platform]。
 
 ### [!DNL Experience Platform Launch]
 
