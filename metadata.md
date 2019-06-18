@@ -6,11 +6,11 @@ solution-icon: assets/assets/experience-cloud-logo-24.png
 getting-started-title: 快速入門
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教學課程
-tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
+tutorials-url: https://helpx.adobe.com/tw/experience-cloud/tutorials.html
 mini-toc-levels: '1'
 git-repo: https://github.com/AdobeDocs/release-notes.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e54bd3d73d2729e22d09765069d311bc0bc5248
 
 ---
