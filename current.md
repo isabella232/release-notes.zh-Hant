@@ -4,8 +4,8 @@ description: 2019 年 6 月 Experience Cloud 發行說明
 doc-type: 發行說明
 last-update: 2019 年 6 月
 author: mfrei
-translation-type: ht
-source-git-commit: 9fbbe902ba5f95b86f8bf2eed7d3e85b4785ba6e
+translation-type: tm+mt
+source-git-commit: 271087e92e26cd3b0aa382fe9760021d50414a13
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud 中的新功能及修正。
 **發行日期: 2019 年 6 月 13 日**
 
 * [Adobe Experience Platform](#platform)
-* [Analytics](#analytics)
+* [Analytics](#analytics)**(2019年月24日更新)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -34,32 +34,32 @@ Adobe Experience Cloud 中的新功能及修正。
 
 ### Adobe Experience Platform 發行說明
 
-* 請參閱 Adobe.io 上的[ Adobe Experience Platform 發行說明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md)，了解 [!DNL Experience Platform] 的最新更新內容。
+* See [Adobe Experience Platform release notes](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) on Adobe.io for the latest updates to [!DNL Experience Platform].
 
 ### [!DNL Experience Platform Launch]
 
-* 如需最新資訊，請參閱 [!DNL Experience Platform Launch](https://docs.adobelaunch.com/)。
+* See [!DNL Experience Platform Launch](https://docs.adobelaunch.com/) for the latest information.
 
 ## Analytics {#analytics}
 
 Adobe Analytics 中的新功能和修正:
 
 * [Adobe Analytics 中的新功能和修正](#aa-features)
-* [給 Analytics 管理員的重要通知](#aa-notices)
+* [Analytics管理員的重要通知](#aa-notices)**(更新日期：19月24日)**
 
-如需產品文件，請參閱 [Analytics 說明首頁](https://marketing.adobe.com/resources/help/zh_TW/reference/)。
+如需產品文件，請參閱 [Analytics 說明首頁](https://marketing.adobe.com/resources/help/en_US/reference/)。
 
 ### Adobe Analytics 中的新功能和修正 {#aa-features}
 
-| 功能 | 說明 |
+| 功能/增強功能 | 說明 |
 | -----------| ---------- |  
-| **區段** | 適用於區段中維度的全新歸因模型:<ul><li>重復 (預設): 包含例項 + 維度的持續值。</li><li>例項: 包含維度的例項。</li><li>非重複例項：包含維度的獨特例項 (非重複)。</li></ul> [更多資訊](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) |
-| **區段** | 新區段運算子: **[!UICONTROL 等於任何]** 和 **[!UICONTROL 不等於任何]**。[更多內容…](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-operators.html) |
+| **區段** | 適用於區段中維度的全新歸因模型:<ul><li>重復 (預設): 包含例項 + 維度的持續值。</li><li>例項: 包含維度的例項。</li><li>非重複例項：包含維度的獨特例項 (非重複)。</li></ul> [更多內容](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) |
+| **區段** | 新區段運算子: **[!UICONTROL 等於任何]** 和 **[!UICONTROL 不等於任何]**。[更多內容...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-operators.html) |
 | **除錯程式** | 使用 Adobe ID 登入時，您現在可以選擇在 Experience Cloud Debugger 中擷取後續處理的點擊。後續處理的點擊是執行 [!UICONTROL 處理規則] 和 VISTA 規則後的伺服器呼叫，可讓您驗證 [!UICONTROL 處理規則] 和 VISTA 規則。**注意**: 如果您使用的是 A4T (SupplementalDataID)，後置處理資料可能需要幾分鐘的時間才會傳回。 |
 | **Analysis Workspace:** | 新增立即可用的篩選器至左側欄搜尋。除了您今天看到的項目 (維度、量度、已批准等)，新增了新的篩選器，包括計算量度、客戶屬性、eVar、Prop、視訊等，讓您能夠輕鬆找到您需要的元件。 |
-| **Analysis Workspace** | 我們已對流失視覺效果新增警告，在您新增區段作為接觸點時，某些無效區段容器組合會導致無效的流失圖表，例如 <ul><li>使用以訪客為基礎的區段，作為訪客內容流失視覺效果內的接觸點</li><li>使用以訪客為基礎的區段，作為造訪內容流失視覺效果內的接觸點</li><li>使用以造訪為基礎的區段，作為造訪內容流失視覺效果內的接觸點</li></ul> <br> [更多內容...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) </br> |
-| **Analytics 文件改善** | Analytics 文件已重新整理，現已納入可供您改善內容的協同作業功能! 您可以記錄文件的相關問題，並提出編輯建議。doc 集已移至[新網域](https://docs.adobe.com/content/help/tw/analytics/landing/home.html)。重新導向應該已可正常運作。 |
-| **新技術說明使用者指南** | [技術說明使用者指南](https://docs.adobe.com/content/help/tw/analytics/technotes/home.html)現已開放使用。目前，該指南旨在協助使用者更熟悉第三方分析工具 (例如 Google Analytics)，以便在使用 Adobe Analytics 時更快上手。接下來幾個月期間，技術說明使用者指南會增加更多內容。 |
+| **Analysis Workspace** | 我們已對流失視覺效果新增警告，在您新增區段作為接觸點時，某些無效區段容器組合會導致無效的流失圖表，例如 <ul><li>使用以訪客為基礎的區段，作為訪客內容流失視覺效果內的接觸點</li><li>使用以訪客為基礎的區段，作為造訪內容流失視覺效果內的接觸點</li><li>使用以造訪為基礎的區段，作為造訪內容流失視覺效果內的接觸點</li></ul> <br> [ 更多內容... ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) </br> |
+| **Analytics 文件改善** | Analytics 文件已重新整理，現已納入可供您改善內容的協同作業功能! 您可以記錄文件的相關問題，並提出編輯建議。The doc set has moved to a [new domain](https://docs.adobe.com/content/help/en/analytics/landing/home.html). 重新導向應該已可正常運作。 |
+| **新技術說明使用者指南** | [Tech Notes使用指南](https://docs.adobe.com/content/help/en/analytics/technotes/home.html) 現已推出。目前，該指南旨在協助使用者更熟悉第三方分析工具 (例如 Google Analytics)，以便在使用 Adobe Analytics 時更快上手。接下來幾個月期間，技術說明使用者指南會增加更多內容。 |
 
 **Analysis Workspace 修正**
 
@@ -77,8 +77,9 @@ Adobe Analytics 中的新功能和修正:
 ### 給 Analytics 管理員的重要通知 {#aa-notices}
 
 | 注意 | 新增日期或更新日期 | 說明 |
-| -----------| ---------- | ---------- |
-| 分類規則產生器限制 | 新增日期: 2019 年 6 月 5 日 | 這些限制不是新的，而是已新增至文件[這裡](https://marketing.adobe.com/resources/help/zh_TW/reference/classification_rule_builder.html)。 |
+| -----------| ---------- | ---------- | 
+| 稽核記錄UI變更 | 新增日期: 2019 年 6 月 24 日 | In the API `Logs.GetUsageLog`, the following changes were made to the UI: <ul><li>The response headers in the API were changed: a) from `timestamp` to `dateCreated`, b) from `login` to `companyLogin`, c) from `event_num` to `eventType`, d) from `event_type` to `event_type`, e) from `ip_address` to `ipAddress`, f) from `report_suite` to `rsid`, g) from `event_details` to `logText`. </li><li>時間戳記格式從Unix時間戳記變更為ISO8601時間</li><li>稽核記錄結果現在包含報表套裝ID，而非報表套裝名稱。 </li></ul> |
+| 分類規則產生器限制 | 新增日期: 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | 新區段運算子限制 | 新增日期: 2019 年 5 月 31 日 | 自 2019 年 7 月 18 日起，區段運算子「包含任何」、「不包含任何」、「包含所有」以及「不包含所有」，每個輸入欄位僅限 100 個字詞。此限制將套用至在此日期之後的所有新區段和修改區段。超出限制的現有區段仍會繼續獲得支援，但無法修改或儲存，直到輸入欄位的字詞減少為止。現正套用這些限制，同時藉此努力改善查詢效能。 |
 | **[!UICONTROL 日期啟用]** 和 **[!UICONTROL 數值 2 分類]** 的近期支援變更 | 2019 年 5 月 28 日更新 | 匯入數值 2 與日期啟用分類的功能已自基底程式碼移除。此變更預計於 2019 年 7 月維護版本中生效。若您的匯入檔案中含有數值或日期啟用欄，系統會自動忽略這些儲存格，至於該檔案中的其他所有資料都將正常匯入。<br/>您仍可透過標準分類工作流程匯出現有分類，並繼續在報表中使用。 |
 | _報表總數_ 計算方式近期變更 | 2019 年 5 月 2 日更新 | Adobe Analytics 預計於 **2019 年 6 月 13 日** 統一所有維度和量度的 _報表總數_ 計算方式。部分報表的總數會因此有所變動，通常會是「Prop」或「客戶屬性」報表。在此變更前，無論報表中是否出現 _未指定_ 一項，部分「報表總數」納入或排除 _未指定_ 項目的情況不一。<br/>自 2019 年 6 月 13 日起，即使「未指定」並未出現在報表項目中，報表總數都會一律顯示 _未指定_ 。此外，在此變更後，使用 _存在_ 或 _不存在_ 邏輯的區段可能會看到部分維度的不同結果。到時，此變更將會影響 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和報表 API。 |
@@ -87,7 +88,7 @@ Adobe Analytics 中的新功能和修正:
 | 行動瀏覽器版本編號 | 2019 年 2 月 7 日 | 自 2019 年 1 月 8 日起，行動瀏覽器版本編號的小數點位數已從 2 變更為 1。從該日起，版本只會顯示頭兩個層級 (例如 _Firefox 64.0.2_ 現在只會顯示為 _Firefox 64.0_)。 |
 | 終止 [!DNL Ad Hoc Analysis] 服務 | 2019 年 1 月 29 日 | Adobe 於 2018 年 8 月 6 日宣佈有意終止 [!DNL Ad Hoc Analysis] 服務。我們將會在確定後公佈服務終止日期。<br/>如需詳細資訊，包括在此期間相容的 Java 版本，請造訪 [Discover Workspace](https://adobe.ly/discoverworkspace)。 |
 | Analytics 報表短連結 | 2019 年 1 月 14 日 | 自 2019 年 1 月 17 日星期四起，我們將逐步清理並刪除任何一年內未經造訪的 Analytics 報表短連結。 |
-| 終止支援 TLS 1.0 | 2019 年 1 月 10 日更新 | 自 2019 年 2 月 11 日起，Adobe Analytics 報表不再支援 TLS (傳輸層安全性) 1.0 加密技術。我們做出此次變更，持續努力維持安全性的最高標準，並確保客戶資料安全無虞。如果您在 2019 年 2 月 11 日之後無法連接至 Adobe Analytics 報表，請將瀏覽器升級為[最新版本](https://marketing.adobe.com/resources/help/zh_TW/sc/user/requirements.html)。<br/>自 2019 年 2 月 20 日起，Adobe Analytics 資料彙集機制不再支援 TLS 1.0。隨著此變更正式發佈，若終端使用者使用不支援 TLS 1.1 (含) 以上版本的舊款裝置或網頁瀏覽器，Adobe 將不再彙集其 Analytics 資料。我們預計這不會對客戶資料或報告造成重大影響。(若您的網站已不支援 TLS 1.0，則不受影響。)<br/>自 2019 年 4 月 11 日起，Adobe Analytics 報告 API 不再支援 TLS 1.0 加密技術。存取該 API 的客戶應確認他們不會受到影響。 <ul><li>使用 Java 7 搭配預設設定的 API 用戶端將需要[進行修改以支援 TLS 1.2](https://www.java.com/en/configure_crypto.html)。(請參閱_變更用戶端端點預設 TLS 通訊協定版本: 從 TLS 1.0 到 TLS 1.2_ 。) </li><li>使用 Java 8 的 API 用戶端已預設為 TLS 1.2，應該不會受到影響。</li><li> 使用其他架構的 API 用戶端需聯絡其供應商，以瞭解 TLS 1.2 支援的詳細資訊。</li></ul> |
+| 終止支援 TLS 1.0 | 2019 年 1 月 10 日更新 | 自 2019 年 2 月 11 日起，Adobe Analytics 報表不再支援 TLS (傳輸層安全性) 1.0 加密技術。我們做出此次變更，持續努力維持安全性的最高標準，並確保客戶資料安全無虞。If you are unable to connect to Adobe Analytics reporting after February 11, 2019, you should upgrade your browser to the [latest version](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html).<br/>自 2019 年 2 月 20 日起，Adobe Analytics 資料彙集機制不再支援 TLS 1.0。隨著此變更正式發佈，若終端使用者使用不支援 TLS 1.1 (含) 以上版本的舊款裝置或網頁瀏覽器，Adobe 將不再彙集其 Analytics 資料。我們預計這不會對客戶資料或報告造成重大影響。(若您的網站已不支援 TLS 1.0，則不受影響。)<br/>自 2019 年 4 月 11 日起，Adobe Analytics 報告 API 不再支援 TLS 1.0 加密技術。存取該 API 的客戶應確認他們不會受到影響。 <ul><li>使用 Java 7 搭配預設設定的 API 用戶端將需要[進行修改以支援 TLS 1.2](https://www.java.com/en/configure_crypto.html)。(請參閱_變更用戶端端點預設 TLS 通訊協定版本: 從 TLS 1.0 到 TLS 1.2_ 。) </li><li>使用 Java 8 的 API 用戶端已預設為 TLS 1.2，應該不會受到影響。</li><li> 使用其他架構的 API 用戶端需聯絡其供應商，以瞭解 TLS 1.2 支援的詳細資訊。</li></ul> |
 | 資料摘要: post_product_list 欄 - 大小變更 | 2019 年 1 月 9 日 | Adobe 自 2019 年 2 月 7 日起，已將 post_product_list 欄的大小從 64 KB 擴增至 16 MB。此項變更確保處理期間新增至 post_product_list 的銷售 eVar 值，不會截斷產品與收入值。如果您有內嵌 post_product_list 值的程序，請確定這些程序可以處理長度多達 16 MB 的值，否則會在達到 16 KB 時截斷值，以避免資料內嵌失敗。 |
 | 影響非活動中 [!DNL Analytics Live Stream] 端點的管理變更 | 2018 年 12 月 20 日 | 自 2019 年 2 月 1 日起，90 天未與作用中消費者連線的 [!DNL Live Stream] 端點可能會遭到停用。您可以聯絡客戶服務以查詢您的 [!DNL Live Stream] 端點，並在必要時重新啟用。此外，請確定您的消費者程序按照該服務的設計意圖，維持穩定連線，並會在連線中斷時重新連線。 |
 | 請更新 Adobe [!DNL Report Builder] 因為已不再支援 TLS 1.0 | 2018 年 9 月 7 日 | 因為已不再支援 TLS 1.0，我們建議 [!DNL Report Builder] 使用者在 2019 年 2 月之前下載 5.6.21 版。在當天以後，舊版的 [!DNL Report Builder] 將無法繼續運作。 |
@@ -191,11 +192,11 @@ XML 文件解決方案 3.3 版現已推出。查看下列發行說明:
 
 ### 社群
 
-**[Cloud Manager 技能建立網路研討會系列](https://cloudmanagerskillbuilder.experienceleague.adobeevents.com/)**
+**[Cloud Manager技能產生器網路研討會系列](https://cloudmanagerskillbuilder.experienceleague.adobeevents.com/)**
 
 是否有興趣瞭解 DevOps 程序可以如何簡化雲端中 Adobe Experience Manager 管理的日常活動？不論您的組織正要開始 DevOps 轉型，或是在尋找策略以增強現有的 DevOps 程序，Cloud Manager 可為 Adobe Experience Manager 提供第一代雲端原生功能，實現雲端靈活性。
 
-[在此每月系列](https://cloudmanagerskillbuilder.experienceleague.adobeevents.com/)中，您可以直接向 Adobe 產品團隊學習如何入門和使用 Cloud Manager 功能，來簡化 Adobe Experience Manager 在雲端中的管理。
+[在這個每月系列中](https://cloudmanagerskillbuilder.experienceleague.adobeevents.com/)，您可以直接向Adobe產品團隊瞭解如何開始使用，並使用Cloud Manager功能簡化雲端的Adobe Experience Manager管理。
 
 您將學習下列內容:
 * 如何開始使用 Cloud Manager 和設定 CI/CD 管道
@@ -204,13 +205,13 @@ XML 文件解決方案 3.3 版現已推出。查看下列發行說明:
 
 ### 其他資源
 
-* [AEM 6.5 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-5.html)
-* [AEM 6.4 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-4.html)
-* [AEM 6.3 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-3.html)
-* [AEM 6.2 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-2.html)
-* [Cloud Manager 使用手冊](https://helpx.adobe.com/tw/experience-manager/cloud-manager/user-guide.html)
-* [舊版 AEM 文件](https://helpx.adobe.com/tw/experience-manager/aem-previous-versions.html)
-* [Scene7 Publishing System 發行說明](https://marketing.adobe.com/resources/help/zh_TW/s7/release_notes/index.html)
+* [AEM 6.5 學習和支援首頁](https://helpx.adobe.com/support/experience-manager/6-5.html)
+* [AEM 6.4 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [AEM 6.3 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-3.html)
+* [AEM 6.2 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-2.html)
+* [Cloud Manager 使用手冊](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
+* [舊版 AEM 文件](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [Scene7 Publishing System 發行說明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 發行說明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ## [!DNL Campaign] {#ac}
@@ -221,11 +222,11 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 | 功能 | 說明 |
 | ------------- | ----------- |
-| 控制面板 | 若要提高身為管理員使用者的工作效率，請監控儲存空間、將 IP 位址加入白名單，並為每個例項安裝 SSH 金鑰來管理 SFTP 伺服器的設定。請注意，控制面板僅適用於目前由 AWS 代管的客戶。[從 Experience Cloud](https://experiencecloud.adobe.com/campaign/controlpanel/) 登入。<br> 如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/tw/campaign/kb/control-panel.html)和[使用方法影片](https://helpx.adobe.com/tw/campaign/kt/acc/using/acc-control-panel-video-use.html). |
-| 稽核記錄 | 以管理員的身分，監控並管理在 Adobe Campaign Classic 例項中所做的變更，以提高生產力。稽核記錄將會記錄在來源結構、工作流程和選項上的動作。您可以快速查看元素是否已建立、修改或刪除。<br>如需詳細資訊，請參閱[詳細文件](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html)和[使用方法影片](https://helpx.adobe.com/tw/campaign/kt/acc/using/acc-audit-trail-feature-video-use.html)。 |
-| 防護性、健全性與可擴充性 | [!DNL Campaign Classic] 已新增一系列改善項目。[Adobe Campaign Classic 發行說明](https://docs.campaign.adobe.com/doc/AC/tw/RN.html)中列出防護性、健全性與可擴充性改善項目。 |
-| 安全的 SMS 傳訊 (TLS) | 現已透過 Extended Generic SMPP Connector 支援安全的 SMS。如此可讓您加密連線至提供者。<br> 如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/tw/campaign/kb/sms-connector-protocol-and-settings.html)。 |
-| 相容性對照表更新 | 透過這個新版本，Adobe Campaign 現在支援下列資料庫系統。請參閱[相容性對照表](https://helpx.adobe.com/tw/campaign/kb/compatibility-matrix.html) <ul><li>Oracle 18c</li><li>MySQL 5.7 (FDA)</li><li>SQL Server 2017</li><li>Teradata 16 (FDA)</li><li>PostgreSQL 11</li></ul> |
+| 控制面板 | 若要提高身為管理員使用者的工作效率，請監控儲存空間、將 IP 位址加入白名單，並為每個例項安裝 SSH 金鑰來管理 SFTP 伺服器的設定。請注意，控制面板僅適用於目前由 AWS 代管的客戶。[透過Experience Cloud登入](https://experiencecloud.adobe.com/campaign/controlpanel/)。<br> 如需詳細資訊，請參閱 [詳細說明文件](https://helpx.adobe.com/campaign/kb/control-panel.html) 和 [教學影片](https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.html)。 |
+| 稽核記錄 | 以管理員的身分，監控並管理在 Adobe Campaign Classic 例項中所做的變更，以提高生產力。稽核記錄將會記錄在來源結構、工作流程和選項上的動作。您可以快速查看元素是否已建立、修改或刪除。<br>如需詳細資訊，請參閱 [詳細說明文件](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html) 和 [教學影片](https://helpx.adobe.com/campaign/kt/acc/using/acc-audit-trail-feature-video-use.html)。 |
+| 防護性、健全性與可擴充性 | [!DNL Campaign Classic] 已新增一系列改善項目。Guardrail, robustness and scalability improvements are listed in [Adobe Campaign Classic Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html). |
+| 安全的 SMS 傳訊 (TLS) | 現已透過 Extended Generic SMPP Connector 支援安全的 SMS。如此可讓您加密連線至提供者。<br>如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)。 |
+| 相容性對照表更新 | 透過這個新版本，Adobe Campaign 現在支援下列資料庫系統。Refer to the [Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) <ul><li>Oracle 18c</li><li>MySQL 5.7 (FDA)</li><li>SQL Server 2017</li><li>Teradata 16 (FDA)</li><li>PostgreSQL 11</li></ul> |
 
 有關修正和改善項目，請參閱 [Adobe Campaign Classic 發行說明](http://docs.campaign.adobe.com/doc/AC/en/RN.html)。
 
@@ -233,15 +234,15 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 | 功能 | 說明 |
 | ------------- | ----------- |
-| 控制面板 | 您可以輕鬆監控例項容量和管理其設定 (從 SFTP 伺服器管理開始)，協助您提高作為管理員使用者身分的工作效率。<br> 如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/tw/campaign/kb/control-panel.html)和[使用方法影片](https://helpx.adobe.com/tw/campaign/kt/acs/using/acs-control-panel-video-use.html)。 |
-| 本機通知 | 本機通知傳訊功能，可讓您即使無法存取網際網路或行動應用程式在前景執行，也能在行動應用程式中有新資料可用時通知使用者。行動應用程式會在特定時間並根據事件來觸發本機通知。<br>如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/tw/campaign/standard/channels/using/customizing-an-in-app-message.html#customizing-a-local-notification-message-type)。 |
-| 工作流程增強功能 - 新增裝載至外部訊號活動 | 其他工作流程或 REST API 呼叫符合定義的條件時，即啟動具備裝載的工作流程，以便與外部系統整合。這也包括新的測試活動，您可以在此功能上執行測試。<br>如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/tw/campaign/standard/channels/using/customizing-an-in-app-message.html#customizing-a-local-notification-message-type)和[使用方法影片](https://helpx.adobe.com/tw/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html)。 |
-| 登陸頁面增強功能 - Google reCAPTCHA | 利用 Google reCAPTCHA 防止登陸頁面上出現垃圾郵件，無需客戶採取任何行動。<br>如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/tw/campaign/standard/channels/using/designing-a-landing-page.html#setting-google-recaptcha)。 |
+| 控制面板 | 您可以輕鬆監控例項容量和管理其設定 (從 SFTP 伺服器管理開始)，協助您提高作為管理員使用者身分的工作效率。<br> 如需詳細資訊，請參閱 [詳細說明文件](https://helpx.adobe.com/campaign/kb/control-panel.html) 和 [教學影片](https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html)。 |
+| 本機通知 | 本機通知傳訊功能，可讓您即使無法存取網際網路或行動應用程式在前景執行，也能在行動應用程式中有新資料可用時通知使用者。行動應用程式會在特定時間並根據事件來觸發本機通知。<br>如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html#customizing-a-local-notification-message-type)。 |
+| 工作流程增強功能 - 新增裝載至外部訊號活動 | 其他工作流程或 REST API 呼叫符合定義的條件時，即啟動具備裝載的工作流程，以便與外部系統整合。這也包括新的測試活動，您可以在此功能上執行測試。<br>如需詳細資訊，請參閱 [詳細說明文件](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html#customizing-a-local-notification-message-type) 和 [教學影片](https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html)。 |
+| 登陸頁面增強功能 - Google reCAPTCHA | 利用 Google reCAPTCHA 防止登陸頁面上出現垃圾郵件，無需客戶採取任何行動。<br>如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/campaign/standard/channels/using/designing-a-landing-page.html#setting-google-recaptcha)。 |
 
 如需產品文件，請參閱:
 
-* Adobe Campaign Standard: [文件](https://helpx.adobe.com/tw/support/campaign/standard.html) - [發行說明](https://helpx.adobe.com/tw/campaign/standard/rn/using/release-notes.html) - [功能影片](https://helpx.adobe.com/tw/campaign/kt/acs/index/acs-videos.html)
-* Adobe Campaign Classic: [文件](https://helpx.adobe.com/tw/support/campaign/classic.html) - [發行說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [功能影片](https://helpx.adobe.com/tw/campaign/kt/acc/index/acc-videos.html)
+* Adobe Campaign Standard: [文件](https://helpx.adobe.com/support/campaign/standard.html) - [ 發行說明](https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html) - [ 功能影片](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)
+* Adobe Campaign Classic: [文件](https://helpx.adobe.com/support/campaign/classic.html) - [發行說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [ 功能影片](https://helpx.adobe.com/campaign/kt/acc/index/acc-videos.html)
 
 ## Mobile Services {#mobile}
 
@@ -261,7 +262,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 如需最新發行資訊，請參閱 Adobe Target 發行說明。
 
-[Target 發行說明 (發行前)](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html)
+[Target 版本說明 (發行前)](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html)
 
 [Target 發行說明 (最新)](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 
@@ -271,7 +272,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 Magento Commerce 屬於 Adobe Commerce Cloud 的一部分，提供具備企業級效能、無限制擴充能力及開放原始碼彈性的電子商務解決方案，適用於 B2C 與 B2B 體驗.
 
-如需開放原始碼版和商務版的發行說明，請參閱[發行資訊](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html)頁面。
+Release Notes for both our Open Source and Commerce editions can be found on the [Release Information](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) page.
 
 ## Primetime {#primetime}
 
