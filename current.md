@@ -1,90 +1,128 @@
 ---
 title: Adobe Experience Cloud 發行說明
-description: 2019 年 6 月 Experience Cloud 發行說明
+description: 1919年月Experience Cloud發行說明
 doc-type: 發行說明
-last-update: 2019 年 6 月
+last-update: 2019 年 7 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1497ca9d05ff219055d8a08c9633bd2eb8bf5477
+source-git-commit: 78ffd561e625a5b75d2e6f3aa8c66629eda06c90
 
 ---
 
 
-# Adobe Experience Cloud 發行說明
+# 搶先使用 - Adobe Experience Cloud 發行說明
 
 Adobe Experience Cloud 中的新功能及修正。
 
+>[!IMPORTANT]
+>
+>此頁面含有搶鮮版內容，於預計發行前可能會有所變更。
+
 >[!NOTE]
+>
 >訂閱 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。您會在發行前三至五個工作日收到通知。產品發行後才會發佈的新資訊皆會標示發佈日期。
 
-**發行日期: 2019 年 6 月 13 日**
+**發行日期: 2019 年 7 月 18 日**
 
-* [Adobe Experience Platform](#platform)
-* [Analytics](#analytics) **(2019 年 7 月 9 日更新)**
+* [核心服務與管理](#experiencecloud)
+* [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [!DNL Campaign](#ac)
-* [Mobile Services](#mobile)
-* [Advertising Cloud](#adcloud)
-* [Target Standard/Premium 19.6.1](#target)
+* [促銷活動](#ac)
+* [Target](#target)
 * [Magento](#magento)
-* [Primetime](#primetime)
 
-## Adobe Experience Platform {#platform}
+## Core services and administration {#experiencecloud}
 
-### Adobe Experience Platform 發行說明
+Experience Cloud 介面 (包含[!UICONTROL 平台]核心服務與產品管理) 發行說明。
 
-* See [Adobe Experience Platform release notes](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) on Adobe.io for the latest updates to [!DNL Experience Platform].
+* [Experience Cloud ID 服務](#ecid)
+* [Mobile Services 與 Mobile SDK](#mobile)
+* [Experience Platform Launch](#launch)
+* [安全性公告和建議](#security)
 
-### [!DNL Experience Platform Launch]
+### Experience Cloud ID 服務 {#ecid}
 
-* See [!DNL Experience Platform Launch](https://docs.adobelaunch.com/) for the latest information.
+**修正和更新**
+
+* `cookieDomain` 組態更新：未設定 `cookieDomain` 時 `initConfig` ，程式庫會自動指派頂層Cookie網域。(CORE - 29223)
+
+* Fixed an issue for `getVisitorValue` in `localVisitor`. (CORE - 31287)
+
+* Fixed an inconsistency of `MCOPTOUT` value in parent visitor versus iframe child visitor from `getVisitorValue` method. (CORE - 29719)
+
+* 修正jQuery3.2.1中的弱點問題。(CORE - 31183)
+
+* Opt-in update: added `optIn.off` to unsubscribe from events.
+* Fixed an issue related to `setTimeout` function. (CORE - 30623)
+
+
+See [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) for cumulative release notes.
+
+### Mobile Services 與 Mobile SDK {#mobile}
+
+iOS和Android已更新如下：
+
+**iOS**
+
+* Adobe Target: All requests now include the client and the `sessionId` in the URL query parameters.
+* Adobe Target：已修正記憶體洩漏。
+* The double encoding of the visitor ID URL, which contains characters such as _%25_, was being flagged in security reviews. 此問題已修正。
+
+**Android**
+
+* 目標：所有請求現在都會在URL查詢參數中納入用戶端和sessionId。
+* 修正當訊息使用空點進URL觸發時，Android應用程式會當機的問題。
+* The double encoding of the visitor ID URL, which contains characters such as _%25_, was being flagged in security reviews. 此問題已修正。
+
+如需產品文件，請參閱 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)。
+
+如需 Mobile SDK 的詳細資訊，請參閱[適用於 Experience 解決方案的 Android SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) 和[適用於 Experience Cloud
+ 解決方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
+
+### Experience Platform Launch {#launch}
+
+See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) (links to product help) for release notes and product documentation.
+
+### Security bulletins and advisories {#security}
+
+See [Security bulletins and advisories](https://helpx.adobe.com/security.html) for important information regarding security vulnerabilities that could affect specific versions of Adobe products.
 
 ## Analytics {#analytics}
 
-Adobe Analytics 中的新功能和修正:
-
 * [Adobe Analytics 中的新功能和修正](#aa-features)
-* [Analytics管理員的重要通知](#aa-notices)**(更新日期：19月日)**
+* [給 Analytics 管理員的重要通知](#aa-notices)
 
-如需產品文件，請參閱 [Analytics 說明首頁](https://marketing.adobe.com/resources/help/en_US/reference/)。
+### New features in Analytics {#aa-features}
 
-### Adobe Analytics 中的新功能和修正 {#aa-features}
+如需產品文件，請參閱 [Analytics 說明首頁](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
 
-| 功能/增強功能 | 說明 |
+| 元件 | 說明 |
 | -----------| ---------- |  
-| **區段** | 適用於區段中維度的全新歸因模型:<ul><li>重復 (預設): 包含例項 + 維度的持續值。</li><li>例項: 包含維度的例項。</li><li>非重複例項：包含維度的獨特例項 (非重複)。</li></ul> [更多內容](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) |
-| **區段** | 新區段運算子: **[!UICONTROL 等於任何]** 和 **[!UICONTROL 不等於任何]**。[更多內容...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-operators.html) |
-| **除錯程式** | 使用 Adobe ID 登入時，您現在可以選擇在 Experience Cloud Debugger 中擷取後續處理的點擊。後續處理的點擊是執行 [!UICONTROL 處理規則] 和 VISTA 規則後的伺服器呼叫，可讓您驗證 [!UICONTROL 處理規則] 和 VISTA 規則。**注意**: 如果您使用的是 A4T (SupplementalDataID)，後置處理資料可能需要幾分鐘的時間才會傳回。 |
-| **Analysis Workspace:** | 新增立即可用的篩選器至左側欄搜尋。除了您今天看到的項目 (維度、量度、已批准等)，新增了新的篩選器，包括計算量度、客戶屬性、eVar、Prop、視訊等，讓您能夠輕鬆找到您需要的元件。 |
-| **Analysis Workspace** | 我們已對流失視覺效果新增警告，在您新增區段作為接觸點時，某些無效區段容器組合會導致無效的流失圖表，例如 <ul><li>使用以訪客為基礎的區段，作為訪客內容流失視覺效果內的接觸點</li><li>使用以訪客為基礎的區段，作為造訪內容流失視覺效果內的接觸點</li><li>使用以造訪為基礎的區段，作為造訪內容流失視覺效果內的接觸點</li></ul> <br> [ 更多內容... ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) </br> |
-| **Analytics 文件改善** | Analytics 文件已重新整理，現已納入可供您改善內容的協同作業功能! 您可以記錄文件的相關問題，並提出編輯建議。The doc set has moved to a [new domain](https://docs.adobe.com/content/help/en/analytics/landing/home.html). 重新導向應該已可正常運作。 |
-| **新技術說明使用者指南** | [Tech Notes使用指南](https://docs.adobe.com/content/help/en/analytics/technotes/home.html) 現已推出。目前，該指南旨在協助使用者更熟悉第三方分析工具 (例如 Google Analytics)，以便在使用 Adobe Analytics 時更快上手。接下來幾個月期間，技術說明使用者指南會增加更多內容。 |
+| Adobe Analytics Labs | _Labs_ 是新的原型入口網站，讓您提早檢視新興技術，讓您影響未來的解決方案優先順序和開發。 |
+| Analysis Workspace-世代分析增強功能 | 新增了「新世代分析」設定： <ul><li>僅顯示%</li><li>四捨五入至最接近的整數</li><li>沿著頂端顯示平均%列</li></ul> |
+| Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. 以前回顧期間最多為個月。如此可更輕鬆地比較去年的頁面或促銷活動，最多18個月前。 |
+| Analytics 資料摘要 | Users can now see the history for all feeds that are enabled with the _Make Feed Visible to Customer_ flag. |
 
-**Analysis Workspace 修正**
+#### [!DNL Analysis Workspace] 修正
 
-* 修正 [!DNL Analysis Workspace] 視覺效果中本地化日文日期資訊的問題。(AN-180114)
-* 修正在複製和貼上維度項目後發生的問題。後續的項目搜尋會導致錯誤。(AN-177394)
-* 修正在自由表格內區段面板中遺失編輯選項的問題。(AN-171703)
-* 修正 **[!UICONTROL 設定為著陸頁面]** 功能在與大量收件者共用時無法運作的問題。(AN-163922)
-* 修正字串在即時報表中遭垂直剪裁的問題。(AN-175980)
+* 修正劃分維度時，會向下顯示多位元組字元的問題。(AN-180112)
+* 修正視覺效果錯誤的問題-當發生視覺化錯誤時，我們現在會顯示紅色錯誤列。(AN-175542)
+* 修正本地化環境中維度名稱顯示為英文的問題。(AN-178695)
 
-**其他 Analytics 修正**
+#### [!DNL Reports & Analytics] 修正
 
-* 修正管理員使用者無法啓用 **[!UICONTROL 成功事件]** 的問題。(AN-176689)
-* 修正使用 **[!UICONTROL 退出率]** 量度建立警報時發生的問題。(AN-177476)
+* 修正即時深入報告中的折線圖空白的問題。(AN-181690)
 
 ### 給 Analytics 管理員的重要通知 {#aa-notices}
 
 | 注意 | 新增日期或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 資料收集更新 | 新增日期: 2019 年 6 月 27 日 | All Adobe Analytics cookies with the “same-site-by-default-cookies” flag now have this flag set to `SameSite=None`. |
-| 稽核記錄 UI 變更 | 更新日期: 2019 年 6 月 25 日 | 已在 API `Logs.GetUsageLog` 中對 UI 做出下列變更: <ul><li>API 中的回應標題: a) 從 `timestamp` 變更為 `dateCreated`，b) 從 `login` 變更為 `companyLogin`，c) 從 `event_num` 變更為 `eventType`，d) 從 `event_type` 變更為 `event_type`，e) 從 `ip_address` 變更為 `ipAddress`，f) 從 `report_suite` 變更為 `rsid`，g) 從 `event_details` 變更為 `logText`。 </li><li>時間戳記格式從 Unix 時間戳記變更為 ISO 8601 時間</li></ul><br>API 和稽核記錄 UI 中，稽核記錄結果現在會顯示報表套裝 ID，而非報表套裝名稱。 |
 | 分類規則產生器限制 | 新增日期: 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | 新區段運算子限制 | 新增日期: 2019 年 5 月 31 日 | 自 2019 年 7 月 18 日起，區段運算子「包含任何」、「不包含任何」、「包含所有」以及「不包含所有」，每個輸入欄位僅限 100 個字詞。此限制將套用至在此日期之後的所有新區段和修改區段。超出限制的現有區段仍會繼續獲得支援，但無法修改或儲存，直到輸入欄位的字詞減少為止。現正套用這些限制，同時藉此努力改善查詢效能。 |
 | **[!UICONTROL 日期啟用]** 和 **[!UICONTROL 數值 2 分類]** 的近期支援變更 | 2019 年 5 月 28 日更新 | 匯入數值 2 與日期啟用分類的功能已自基底程式碼移除。此變更預計於 2019 年 7 月維護版本中生效。若您的匯入檔案中含有數值或日期啟用欄，系統會自動忽略這些儲存格，至於該檔案中的其他所有資料都將正常匯入。<br/>您仍可透過標準分類工作流程匯出現有分類，並繼續在報表中使用。 |
 | _報表總數_ 計算方式近期變更 | 更新日期: 2019 年 7 月 9 日 | Adobe Analytics 預計於 **2019 年 6 月 18 日** 統一所有維度和量度的 _報表總數_ 計算方式。部分報表的總數會因此有所變動，通常會是「Prop」或「客戶屬性」報表。在此變更前，無論報表中是否出現 _未指定_ 一項，部分「報表總數」納入或排除 _未指定_ 項目的情況不一。<br/>自 2019 年 6 月 18 日起，即使「未指定」並未出現在報表項目中，報表總數都會一律顯示 _未指定_ 。Additionally, segments using _exists_ or _does not exist_ logic may see different results for some dimensions after this change, specifically dimensions where _Unspecified_ has a special name such as the &quot;Typed/Bookmarked&quot; line item for Referrer Type dimension or the &quot;Other&quot; line item for the Device Type dimension. 到時，此變更將會影響 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和報表 API。 |
-| 更新 的 CSV 下載 [!DNL Analysis Workspace] | 2019 年 4 月 10 日 | 自 2019 年 4 月 11 日起，[!DNL Analysis Workspace] 中的 **[!UICONTROL 「CSV 下載」]**(和 **[!UICONTROL 「複製到剪貼簿」]**) 功能已有諸多變動，移除了匯出資料中的格式設定。  <ul><li>不再使用千分位分隔符號。將繼續使用小數分隔符號，其將遵循 **[!UICONTROL 「元件 &gt; 報表設定 &gt; 千分位分隔符號」]** 中定義的格式。注意: 匯出的 CSV 會繼續引用使用逗號作為小數分隔符號的數值。</li><li>不再顯示貨幣符號。</li><li>不再顯示百分比符號。百分比將以小數形式表示，例如: 75% 會表示成 0.75。</li><li>時間會以秒數表示。</li><li>同類群組表格僅會顯示原始值; 百分比符號將會移除。</li><li>如果數字無效，則顯示空白儲存格。</li></ul> |
+| 更新 的 CSV 下載 [!DNL Analysis Workspace] | 2019 年 4 月 10 日 | 自 2019 年 4 月 11 日起，[!DNL Analysis Workspace] 中的 **[!UICONTROL 「CSV 下載」]**(和 **[!UICONTORL 「複製到剪貼簿」]**) 功能已有諸多變動，移除了匯出資料中的格式設定。  <ul><li>不再使用千分位分隔符號。將繼續使用小數分隔符號，其將遵循 **[!UICONTROL 「元件 &gt; 報表設定 &gt; 千分位分隔符號」]** 中定義的格式。注意: 匯出的 CSV 會繼續引用使用逗號作為小數分隔符號的數值。</li><li>不再顯示貨幣符號。</li><li>不再顯示百分比符號。百分比將以小數形式表示，例如: 75% 會表示成 0.75。</li><li>時間會以秒數表示。</li><li>同類群組表格僅會顯示原始值; 百分比符號將會移除。</li><li>如果數字無效，則顯示空白儲存格。</li></ul> |
 | 即將變更 [!DNL Analysis Workspace] 偵錯工具命令 | 2019 年 4 月 4 日 | **2019 年 6 月 13 日起**，開啟 [!DNL Analysis Workspace] 偵錯工具的控制台命令將變更為 adobeTools.debug.includeOberonXml。adobe.tools.debug.includeOberonXml 自當天起將無法使用。 |
 | 行動瀏覽器版本編號 | 2019 年 2 月 7 日 | 自 2019 年 1 月 8 日起，行動瀏覽器版本編號的小數點位數已從 2 變更為 1。從該日起，版本只會顯示頭兩個層級 (例如 _Firefox 64.0.2_ 現在只會顯示為 _Firefox 64.0_)。 |
 | 終止 [!DNL Ad Hoc Analysis] 服務 | 2019 年 1 月 29 日 | Adobe 於 2018 年 8 月 6 日宣佈有意終止 [!DNL Ad Hoc Analysis] 服務。我們將會在確定後公佈服務終止日期。<br/>如需詳細資訊，包括在此期間相容的 Java 版本，請造訪 [Discover Workspace](https://adobe.ly/discoverworkspace)。 |
@@ -94,19 +132,47 @@ Adobe Analytics 中的新功能和修正:
 | 影響非活動中 [!DNL Analytics Live Stream] 端點的管理變更 | 2018 年 12 月 20 日 | 自 2019 年 2 月 1 日起，90 天未與作用中消費者連線的 [!DNL Live Stream] 端點可能會遭到停用。您可以聯絡客戶服務以查詢您的 [!DNL Live Stream] 端點，並在必要時重新啟用。此外，請確定您的消費者程序按照該服務的設計意圖，維持穩定連線，並會在連線中斷時重新連線。 |
 | 請更新 Adobe [!DNL Report Builder] 因為已不再支援 TLS 1.0 | 2018 年 9 月 7 日 | 因為已不再支援 TLS 1.0，我們建議 [!DNL Report Builder] 使用者在 2019 年 2 月之前下載 5.6.21 版。在當天以後，舊版的 [!DNL Report Builder] 將無法繼續運作。 |
 
+### AppMeasurement {#appm}
+
+發行日期：2019年月15日
+
+**JavaScript 2.15.0**
+
+* 已將DIL7.2新增至AppMeasurememt。(AN-175142)
+* 修正Experience Cloud ID Service OptIn設為true時發生的問題，而MID不是在s. t()呼叫上產生，而不會重新載入頁面。(CORE - 30890)
+
+
+請參閱 [AppMeasurement 版本歷史記錄](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，此為下列平台上 AppMeasurement 之版本歷史記錄的內容:
+
+* JavaScript
+* iOS
+* Android
+* Flash-Flex
+* OSX
+* Windows Phone、XBOX、Silverlight 及 .NET
+* BlackBerry
+* Java
+* PHP
+* Symbian
+
+### Data Workbench {#aa-dwb}
+
+* Updated the help definition for [log (X, B)](https://marketing.adobe.com/resources/help/en_US/insight/client/c_syntx_mtrc_exp.html) metric syntax documentation. (AN-180527)
+
+如需最新資訊，請參閱 [Data Workbench 發行說明](https://marketing.adobe.com/resources/help/en_US/insight/whatsnew/)。
+
 ## Audience Manager {#aam}
 
-**修正、改良及淘汰內容**
+**修正和增強功能**
 
-* Audience Manager 現在只會計算使用中的演算法模型數量是否超過使用量上限。
-* 解決無法為使用相應模型的特徵顯示演算法模型觸及範圍的問題。
-* 解決造成特徵資料夾內容無法顯示，然後資料夾名稱包含圓括號和/或方括號的問題。
-* 解決僅選取一個特徵類型時，會造成特徵排序失敗的問題。
-* 解決當您每次建立新的子檔案夾或加以更新時，會造成特徵資料夾樹狀目錄摺疊為 [!UICONTROL 所有特徵] 檢視的問題。
-* 解決在嘗試刪除合作夥伴時，需要 [!DNL VIEW_DATASOURCES] 權限的問題。
-* 解決造成 [!UICONTROL 區段] 頁面中的 [!UICONTROL 搜尋] 方塊會在所有資料夾 (而非選取的資料夾) 中進行搜尋的問題。
-* 解決在建立新的演算法模型時，無法透過標題控制項排序 [!UICONTROL 排除特徵] 表的問題。
-* 解決在執行含空白間隔日期的報表時，會造成 Audience Manager 當機的問題。
+* [!UICONTROL 在區段概述] 頁面上，區段儲存資料夾的寬度現在有彈性。這可讓您區分較長名稱的區段。(AAM-48400)
+
+* Fixed an issue in [!UICONTROL Algorithmic Models], where moving the **Adjust Reach &amp; Accuracy** slider did not affect the model&#39;s reach or accuracy. (AAM-47996)
+
+* 修正Analytics目的地中，下載與資料匯出控制項衝突及/或第三方資料共用原則衝突的區段. csv檔案的問題。(AAM-48100)
+
+* 修正客戶登入Audience Manager使用者介面時，看到隨機「存取遭拒」錯誤的問題。(AAM-47632)
+
 
 ## Experience Manager {#aem}
 
@@ -114,95 +180,88 @@ Adobe Experience Manager (AEM) 中的新功能、修正及更新。Adobe 建議�
 
 ### 產品發行
 
-**Cloud Manager 2019.5.0**
+下列產品的新功能資訊：
 
-最新 Cloud Manager 版本 (2019.5.0) 不包含重大功能變更，但會提供一些錯誤修正。
+#### Cloud Manager 2019.6.0
 
-* [Cloud Manager 2019.5.0 發行說明](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
+The latest Cloud Manager release (2019.6.0) contains a new [Product Update Wizard](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/product-update-wizard/overview-productupdate-wizard.html) to help customers successfully run an AEM update.
 
-**適用於 AEM 的 XML 文件**
+* [Cloud Manager 2019.6.0 發行說明](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 
-XML 文件解決方案 3.3 版現已推出。查看下列發行說明:
+#### XML文件3.4
 
-***進階地圖功能***
-* 從存放庫檢視使用拖放功能，或使用橫條圖和元素目錄，即可新增主題參考資料。
-* 在主題參考資料、區塊 (例如導覽標題、格式、範圍等) 新增中繼資料。
-* 按一下主題參考資料應該會開啓編輯器中的主題 (如果未簽出則為預覽模式，然後停用編輯並啟用簽出)。
-* 新增主題標題和主題群組。
-* 使用 Frontmatter (主題、前言、圖書清單、通知等) 和 Backmatter (主題、附錄、字彙表等) 新增圖書地圖。
-* 在作者模式中，會螢光標示失效連結、顯示瀏覽軌跡，以及完整標籤視圖。
-* 設定地圖層級屬性的功能。
-* 設定 Title/BookTitle 的功能。
-* 支援 Reltables，可新增 rel 標題、欄、拖放地圖主題和存放庫至 rel 表格、為連結設定連結、範圍及其他參數，重新排序儲存格內的連結。
-* 工具列 Widget，可在前插入、在後插入以及插入元素。
-* 在主題上套用條件時螢光標示。
-* 可一次編輯多個地圖 (在相同瀏覽器上以多個索引標籤開啟各個地圖)。
-* 在地圖面板和存放庫檢視中，游標停留時顯示完整主題標題和檔案名稱。
+XML Document3.4解決方案現已推出。
 
-***完整標籤視圖***
+***發行說明***
 
-* 在兩個元素之間插入新標籤。
-* 複製和貼上標籤。
-* 拖放標籤至檔案內允許和不允許的位置。
-* 展開和摺疊標籤。
+* 已針對AEM6.5新增支援。
+* 編輯器變更：
+   * 地圖層級預覽。
+   * Tables - provided an option to copy an `entry` or a `complete` row within a table using copy and paste.
+   * 表格-提供選取欄中多個儲存格並加以合併或合併的選項。
+   * 表格-提供在網頁編輯器的「作者」模式中設定表格欄屬性的方式。
+   * 表格-提供調整標準表格中欄比例和大小的方式。
+   * 表格-在「作者」檢視中選取列和欄。
+   * 表格-在表格儲存格對齊中啓用網頁編輯器中的樣式和屬性(對齊、驗證)。
+   * 「完整標記檢視」的錯誤修正，包括複製和貼上和拖放內容的藍本。
+   * 在「編輯器」標籤中顯示主題標題。
+   * 已解決網頁編輯器中的效能問題。
+* 翻譯時將基準傳輸至翻譯的內容。
+* 翻譯工作流程期間的傳輸條件預設集。
+* 已新增從基準套用標籤至地圖所有從屬單位的功能。
+* 提供一個按鈕，將所有的從屬關係下載為郵遞區號。
+* XHTML轉換為DITA轉換改良功能：
+   * 產生的DIAMAP名稱現在等同於已上載zip檔案的名稱。
+   * 新增對其他HTML元素和屬性的支援。
+   * 支援並行html-zip檔案擷取。
+   * The sub-folder hierarchy where the zip is uploaded (*under input path as configured in h2d_io.xml*), is retained for the generated output (*under the configured output path*).
+* 提供稽核記錄，以查看誰回復至哪個版本及其原因。
+* AEM網站重新啓用：
+   * 停用子地圖的重制。
+   * 啓用後制工作流程可用於重新建立使用案例。
+   * 針對區塊主題停用重新產生選項，並針對套用區塊屬性的上層主題提供選項。
+* DITA搜尋現在適用於AEM資產搜尋的AND邏輯。
+* 結果無法帶出儲存在翻譯輸出資料夾中的暫存檔案。
+* 基線標籤：
+   * 開啓基準時的效能改進。
+   * 依日期選擇主題以處理用戶端時間戳記。
+* 用於刪除標籤的API。
 
-***DITA 專屬搜尋增強功能***
+#### 產品維護
 
-* 提供序列化工具來重新索引選取的內容
-* 使用者可在搜尋中使用 `contains` 和 `exact match`。他們也可以使用下列參數進行搜尋:
-   * 資產中繼資料。例如 `file name`, `title`，或任何客戶定義的自訂中繼資料。
-   * DITA 屬性名稱及其值。例如, `platform=winOS`.
-   * DITA 元素名稱及其值。例如, `author = Joe Smith`.
-   * DITA 元素名稱及其套用的屬性。例如，套用 product= SpaceBase 屬性名稱/值組的表格。
-   * DITA 主題和地圖中繼資料。
-   * DITA 資訊類型。例如地圖、主題、概念等。
-   * 資產所在的根資料夾路徑。
-   * 文件狀態。
-   * 簽出狀態。
-   * 修改日期範圍。
-   * CQ 標記。
-* 您可以合併上述一或多個搜尋參數來建立複雜的查詢。
+**AEM 6.2 SP1-CFP20**
 
-***審核功能變更***
+AEM6.2Service Pack- Cumulative Fix Pack20(6.2.1.20)(6.2.1.20)是一項重要更新，其中包含自2016年12月AEM6.2SP全面上市以來發行的重要客戶修正。
 
-* 給審核者的提示:
-   * 在升級至 3.3 版本之前，為進行中的審核匯入所有注釋並合併變更。
-   * 確定編輯器未開啓多個索引標籤。
-   * 確定未啓用完整索引標籤視圖。
-   * 當審核正在進行時，請勿在作者模式和來源模式之間切換。
-* 指定要審核的我的內容版本的功能。
-* 根據基準、日期、標籤或目前作用中版本選擇所選主題的版本，或在建立審核時指定每個主題的版本的功能。
-* 多次傳送相同主題/地圖以供審核，且作者可以存取編輯器審核面板中的所有審核。
-* 以發起人的身分為審核者推播內容更新版本的功能。推播新內容以供審核時，審核者將會收到通知。
-* 使用者能夠以作者身分在編輯器的審核面板中查看其所有版本內容的審核注釋。作者可依版本號碼篩選注釋。
-* 使用者能夠以作者身分，檢視並匯入編輯器中正在審核的舊版內容的注釋。
+* [發行說明](https://helpx.adobe.com/experience-manager/release-notes--aem-6-2-cumulative-fix-pack.html)
+* [AEM Forms CFP 發行版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
 
-***其他***
+**AEM 6.3.3.5**
 
-* 從存放庫檢視建立新資料夾、主題或地圖。
-* 在資產 UI 中檢視 – 新增資料夾和主題兩者的功能表選項 - 「在資產 UI 中檢視」。此選項會開啓資產 UI，使用者可以查看左側的內容樹狀目錄，以及右側清單檢視中的所有檔案 (連同頂端的所有資產功能表)。
-* 檢閱控制面板現可在 DITA 專案上作為磁貼，以追蹤審核者層級和審核任務層級的審核。
-* 已新增將 IDML 轉換為 DITA 的功能。
-* 提供可在基線中所有指定的版本上，套用指定標籤的 API。
-* 在 XHTML/DOCX 轉換至 DITA 的作業完成後啓用事件。您可以使用此事件，將專門屬性新增至轉換的內容，或用於您需要執行的任何其他自訂邏輯。
-* 已改良基線效能索引標籤。使用者必須先在所有現有基準上執行指令碼。
-* 已對 XHTML 至 DITA 的轉換進行增強。
-* 為發佈最佳化進行 DITA-OT 卸載。
-* 已修正清單檢視中類型欄的排序。
-* 現在可處理 Word 轉換為 DITA 的重疊樣式。
+AEM6.3.3.5(於2019年月日發行)是重要的更新，其中包含自2017年月AEM6.3全面上市以來的重要客戶修正。
 
-### 社群
+* [發行說明](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)
+* [AEM Forms CFP 發行版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
 
-**[Cloud Manager技能產生器網路研討會系列](https://cloudmanagerskillbuilder.experienceleague.adobeevents.com/)**
+**AEM 6.4.5.0**
 
-是否有興趣瞭解 DevOps 程序可以如何簡化雲端中 Adobe Experience Manager 管理的日常活動？不論您的組織正要開始 DevOps 轉型，或是在尋找策略以增強現有的 DevOps 程序，Cloud Manager 可為 Adobe Experience Manager 提供第一代雲端原生功能，實現雲端靈活性。
+AEM6.4.5.0是一項重要更新，其中包含自2018年月全面發行AEM6.4以來的重要客戶修正。
 
-[在這個每月系列中](https://cloudmanagerskillbuilder.experienceleague.adobeevents.com/)，您可以直接向Adobe產品團隊瞭解如何開始使用，並使用Cloud Manager功能簡化雲端的Adobe Experience Manager管理。
+* [發行說明](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
+* [AEM Forms CFP 發行版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
 
-您將學習下列內容:
-* 如何開始使用 Cloud Manager 和設定 CI/CD 管道
-* 自動調整大小和透明服務傳送如何運作，以及可以如何簡化 Adobe Experience Manager 在雲端中的環境管理作業
-* 如何使用 Cloud Manager API 並整合現有的 DevOps 程序
+**AEM 6.5.1.0**
+
+AEM6.5.1.0是一項重要更新，其中包含自2019年月全面發行AEM6.5以來的重要客戶修正。
+
+* [發行說明](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html)
+* [AEM Forms CFP 發行版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+
+### 自助式
+
+**AEM快取失效更新**
+
+An important AEM patch for the AEM 6.5 clientlibs cache invalidation is available by way of the [AEM 6.5.1.0 update](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html) or this [KB article](https://helpx.adobe.com/experience-manager/kb/avoid-crx-quickstart-deletion-in-aem-6-5.html).
 
 ### 其他資源
 
@@ -215,69 +274,29 @@ XML 文件解決方案 3.3 版現已推出。查看下列發行說明:
 * [Scene7 Publishing System 發行說明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 發行說明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
-## [!DNL Campaign] {#ac}
+## 促銷活動 {#ac}
 
 Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法提供一對一訊息。您現在可以使用客戶習慣和偏好判斷其體驗，預測他們想要的東西。
 
-### [!DNL Campaign Classic] 19.1 春季版
+如需發行說明，請參閱：
 
-| 功能 | 說明 |
-| ------------- | ----------- |
-| 控制面板 | 若要提高身為管理員使用者的工作效率，請監控儲存空間、將 IP 位址加入白名單，並為每個例項安裝 SSH 金鑰來管理 SFTP 伺服器的設定。請注意，控制面板僅適用於目前由 AWS 代管的客戶。[透過Experience Cloud登入](https://experiencecloud.adobe.com/campaign/controlpanel/)。<br> 如需詳細資訊，請參閱 [詳細說明文件](https://helpx.adobe.com/campaign/kb/control-panel.html) 和 [教學影片](https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.html)。 |
-| 稽核記錄 | 以管理員的身分，監控並管理在 Adobe Campaign Classic 例項中所做的變更，以提高生產力。稽核記錄將會記錄在來源結構、工作流程和選項上的動作。您可以快速查看元素是否已建立、修改或刪除。<br>如需詳細資訊，請參閱 [詳細說明文件](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html) 和 [教學影片](https://helpx.adobe.com/campaign/kt/acc/using/acc-audit-trail-feature-video-use.html)。 |
-| 防護性、健全性與可擴充性 | [!DNL Campaign Classic] 已新增一系列改善項目。Guardrail, robustness and scalability improvements are listed in [Adobe Campaign Classic Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html). |
-| 安全的 SMS 傳訊 (TLS) | 現已透過 Extended Generic SMPP Connector 支援安全的 SMS。如此可讓您加密連線至提供者。<br>如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)。 |
-| 相容性對照表更新 | 透過這個新版本，Adobe Campaign 現在支援下列資料庫系統。Refer to the [Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) <ul><li>Oracle 18c</li><li>MySQL 5.7 (FDA)</li><li>SQL Server 2017</li><li>Teradata 16 (FDA)</li><li>PostgreSQL 11</li></ul> |
-
-有關修正和改善項目，請參閱 [Adobe Campaign Classic 發行說明](http://docs.campaign.adobe.com/doc/AC/en/RN.html)。
-
-### [!DNL Campaign Standard] 19.2 春季版
-
-| 功能 | 說明 |
-| ------------- | ----------- |
-| 控制面板 | 您可以輕鬆監控例項容量和管理其設定 (從 SFTP 伺服器管理開始)，協助您提高作為管理員使用者身分的工作效率。<br> 如需詳細資訊，請參閱 [詳細說明文件](https://helpx.adobe.com/campaign/kb/control-panel.html) 和 [教學影片](https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html)。 |
-| 本機通知 | 本機通知傳訊功能，可讓您即使無法存取網際網路或行動應用程式在前景執行，也能在行動應用程式中有新資料可用時通知使用者。行動應用程式會在特定時間並根據事件來觸發本機通知。<br>如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html#customizing-a-local-notification-message-type)。 |
-| 工作流程增強功能 - 新增裝載至外部訊號活動 | 其他工作流程或 REST API 呼叫符合定義的條件時，即啟動具備裝載的工作流程，以便與外部系統整合。這也包括新的測試活動，您可以在此功能上執行測試。<br>如需詳細資訊，請參閱 [詳細說明文件](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html#customizing-a-local-notification-message-type) 和 [教學影片](https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html)。 |
-| 登陸頁面增強功能 - Google reCAPTCHA | 利用 Google reCAPTCHA 防止登陸頁面上出現垃圾郵件，無需客戶採取任何行動。<br>如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/campaign/standard/channels/using/designing-a-landing-page.html#setting-google-recaptcha)。 |
+* Adobe Campaign Classic [19.1.2](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – build 9029
+* Adobe Campaign Standard [19.2.3](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-19-2-3---june-2019)
+* Adobe Campaign Standard [19.2.4](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-19-2-4---june-2019)
+* Adobe Campaign Standard [19.2.7](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-19-2-7---july-2019)
 
 如需產品文件，請參閱:
 
 * Adobe Campaign Standard: [文件](https://helpx.adobe.com/support/campaign/standard.html) - [ 發行說明](https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html) - [ 功能影片](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)
 * Adobe Campaign Classic: [文件](https://helpx.adobe.com/support/campaign/classic.html) - [發行說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [ 功能影片](https://helpx.adobe.com/campaign/kt/acc/index/acc-videos.html)
 
-## Mobile Services {#mobile}
+## Target {#target}
 
-* 所有 Adobe 伺服器上已停用 TLS 1.0。針對透過 SSL 連線至 Adobe 服務的 Android 4.x 裝置，SDK 現在會在建立交握時強制執行 TLS 1.1/TLS 1.2。
-
-## Advertising Cloud {#adcloud}
-
-更新日期: 2019 年 5 月 6 日 (說明 6 月 8 日發行事項)
-
-| 產品 | 功能 | 說明 |
-| -----------| ---------- | ----------  |
-| 搜尋促銷活動、標籤分類和限制 | 鍵盤快速鍵 | 您現在可以按住 <b>Shift + 按一下滑鼠左鍵</b>來選取多個連續列，或是按住 <b>Ctrl + 按一下滑鼠左鍵</b>以選取多個非連續列。 |
-|  | 全部選取與選取頁面上的所有項目 | 在資料表格中，當您選取頂端核取方塊以選取所有列時，新預設值為選取頁面上所有列 (根據您是否正在檢視 25 列、50 列、100 列、200 列或連續捲動而定)。您仍然可以選擇選取所有可用的列。 |
-| 預設視圖、自訂視圖和獨立欄自訂設定 | 重新排序欄 | 新增向上和向下箭頭按鈕可讓您重新排序欄。您仍然可以像之前一樣拖放欄加以重新排序。 |
-
-## Target Standard/Premium 19.6.1 (2019 年 6 月 25 日) {#target}
-
-如需最新發行資訊，請參閱 Adobe Target 發行說明。
-
-[Target 版本說明 (發行前)](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html)
-
-[Target 發行說明 (最新)](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
+See [Target release notes (pre-release)](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) for the latest release infomration about Target.
 
 ## Magento {#magento}
 
-電子商務平台 Magento 提供線上商家彈性的購物車系統，且可控制線上商店的外觀、內容與功能。Magento 提供開放原始碼版本與功能更完整的商務版。
+如需Magento Commerce和Magen Open Source版本注意事項的詳細資訊，請參閱：
 
-Magento Commerce 屬於 Adobe Commerce Cloud 的一部分，提供具備企業級效能、無限制擴充能力及開放原始碼彈性的電子商務解決方案，適用於 B2C 與 B2B 體驗.
-
-Release Notes for both our Open Source and Commerce editions can be found on the [Release Information](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) page.
-
-## Primetime {#primetime}
-
-Adobe Primetime 是一種多螢幕電視平台，可協助媒體公司建立吸引人且個人化的觀看體驗，並從中獲利。
-
-[Primetime 發行說明](http://help.adobe.com/en_US/primetime/release_notes/index.html)
-[Primetime 說明首頁](http://help.adobe.com/en_US/primetime/)
+* [Magento Open Source2.3.2發行說明](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2OpenSource.html)
+* [Magento Commerce2.3.2發行說明](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2Commerce.html)
