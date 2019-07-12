@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 3 月 2019 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9bb54a57fa2b905fcc01951c81fd32e6444c8cd6
+source-git-commit: 450d03363720b88254413d7387665fc3d0eb0819
 
 ---
 
@@ -15,16 +15,16 @@ source-git-commit: 9bb54a57fa2b905fcc01951c81fd32e6444c8cd6
 Adobe Experience Cloud 中的新功能及修正。
 
 >[!IMPORTANT]
->>此頁面含有搶鮮版內容，於預計發行前可能會有所變更。
-
+>
+>此頁面含有搶鮮版內容，於預計發行前可能會有所變更。
 
 >[!NOTE]
->>訂閱 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。您會在發行前三至五個工作日收到通知。產品發行後才會發佈的新資訊皆會標示發佈日期。
-
+>
+>訂閱 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。您會在發行前三至五個工作日收到通知。產品發行後才會發佈的新資訊皆會標示發佈日期。
 
 **發行日期：2019**
 
-* [Experience Cloud 核心服務與管理](#experiencecloud)
+* [核心服務與管理](#experiencecloud)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -33,21 +33,22 @@ Adobe Experience Cloud 中的新功能及修正。
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (解決方案說明連結)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (解決方案說明連結)
 
-## Experience Cloud 核心服務與管理 {#experiencecloud}
+## Core services and administration {#experiencecloud}
 
-Experience Cloud 介面 (包含[!UICONTROL 平台]核心服務與產品管理) 發行說明。
+Release notes for the Experience Cloud interface, including [!UICONTROL Platform] core services, product administration, and security bulletins.
 
 * [核心服務](#core-services)
 * [Experience Cloud ID 服務](#ecid)
 * [Mobile Services 與 Mobile SDK](#mobile)
 * [管理與開發人員](#admin)
-* [Experience Cloud Launch](https://docs.adobelaunch.com/) (產品說明連結)
+* [Experience Platform Launch](#launch)
+* [安全性公告和建議](https://helpx.adobe.com/security.html) (所有Adobe產品)
 
 ### Core services {#core-services}
 
 功能和修正.
 
-For product documentation, see [Experience Cloud and Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/)
+For product documentation, see [Experience Cloud and Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
 
 ### Experience Cloud ID 服務 {#ecid}
 
@@ -68,16 +69,20 @@ For product documentation, see [Experience Cloud and Core Services](https://mark
 * 修正
 * 修正
 
-如需產品文件，請參閱 [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/)。
+如需產品文件，請參閱 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)。
 
 如需 Mobile SDK 的詳細資訊，請參閱[適用於 Experience 解決方案的 Android SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/android/) 和[適用於 Experience Cloud
- 解決方案的 iOS SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)。
+ 解決方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
 
 ### Administration and developer {#admin}
 
 功能和修正.
 
 如需產品文件，請參閱 [Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+
+### Experience Platform Launch {#launch}
+
+See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) for release notes and product documentation.
 
 ## [!DNL Analytics] {#analytics}
 
@@ -87,7 +92,7 @@ Adobe Analytics 中的新功能和修正:
 * [適用於 iOS 與 Android 的 Media Analytics SDK (原稱 VHL SDK)](#aa-va)
 * [給 Analytics 管理員的重要通知](analytics-important-notices.md)
 
-For product documentation, see [Adobe Analytics Help Home](https://marketing.adobe.com/resources/help/en_US/reference/).
+For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
 ### Adobe Analytics 中的新功能。{#aa-features}
 
@@ -124,7 +129,7 @@ For product documentation, see [Adobe Analytics Help Home](https://marketing.ado
 * 修正
 * 修正
 
-請參閱 [AppMeasurement 版本歷史記錄](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/index.html)，此為下列平台上 AppMeasurement 之版本歷史記錄的內容:
+請參閱 [AppMeasurement 版本歷史記錄](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，此為下列平台上 AppMeasurement 之版本歷史記錄的內容:
 
 * JavaScript
 * iOS
@@ -223,7 +228,7 @@ Adobe Experience Manager (AEM) 中的新功能、修正及更新。Adobe 建議�
 * 修正
 * 修正
 
-## [!DNL Campaign] {#ac}
+## [!DNL Campaign {#ac}
 
 Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法提供一對一訊息。您現在可以使用客戶習慣和偏好判斷其體驗，預測他們想要的東西。
 
@@ -241,11 +246,6 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 * 修正
 
 如需產品文件，請參閱:
-
-* [Adobe Campaign Classic 發行說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html)
-* [Adobe Campaign Classic 學習和支援](https://helpx.adobe.com/support/campaign/classic.html)
-* [Adobe Campaign Standard 發行說明](https://helpx.adobe.com/campaign/standard/rn/rn.html)
-* [Adobe Campaign Standard 學習和支援](https://helpx.adobe.com/support/campaign/standard.html)
 
 ## Advertising Cloud {#adcloud}
 
