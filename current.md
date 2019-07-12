@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 7 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 78ffd561e625a5b75d2e6f3aa8c66629eda06c90
+source-git-commit: 91126cc2d75b6c50afe429a1b4313309ab76108a
 
 ---
 
@@ -24,12 +24,12 @@ Adobe Experience Cloud 中的新功能及修正。
 
 **發行日期: 2019 年 7 月 18 日**
 
-* [核心服務與管理](#experiencecloud)
-* [Analytics](#analytics)
+* [Experience Cloud 核心服務與管理](#experiencecloud)
+* [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [促銷活動](#ac)
-* [Target](#target)
+* [!DNL Campaign](#ac)
+* [Target Standard/Premium 19.6.1](#target)
 * [Magento](#magento)
 
 ## Core services and administration {#experiencecloud}
@@ -88,18 +88,17 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 
 See [Security bulletins and advisories](https://helpx.adobe.com/security.html) for important information regarding security vulnerabilities that could affect specific versions of Adobe products.
 
-## Analytics {#analytics}
+## [!DNL Analytics] {#analytics}
 
 * [Adobe Analytics 中的新功能和修正](#aa-features)
 * [給 Analytics 管理員的重要通知](#aa-notices)
 
-### New features in Analytics {#aa-features}
+###  的新功能:[!DNL Analytics]{#aa-features}
 
 如需產品文件，請參閱 [Analytics 說明首頁](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
 
 | 元件 | 說明 |
-| -----------| ---------- |  
-| Adobe Analytics Labs | _Labs_ 是新的原型入口網站，讓您提早檢視新興技術，讓您影響未來的解決方案優先順序和開發。 |
+| -----------| ---------- |   
 | Analysis Workspace-世代分析增強功能 | 新增了「新世代分析」設定： <ul><li>僅顯示%</li><li>四捨五入至最接近的整數</li><li>沿著頂端顯示平均%列</li></ul> |
 | Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. 以前回顧期間最多為個月。如此可更輕鬆地比較去年的頁面或促銷活動，最多18個月前。 |
 | Analytics 資料摘要 | Users can now see the history for all feeds that are enabled with the _Make Feed Visible to Customer_ flag. |
@@ -114,7 +113,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 * 修正即時深入報告中的折線圖空白的問題。(AN-181690)
 
-### 給 Analytics 管理員的重要通知 {#aa-notices}
+### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
 | 注意 | 新增日期或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
@@ -126,8 +125,8 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 | 即將變更 [!DNL Analysis Workspace] 偵錯工具命令 | 2019 年 4 月 4 日 | **2019 年 6 月 13 日起**，開啟 [!DNL Analysis Workspace] 偵錯工具的控制台命令將變更為 adobeTools.debug.includeOberonXml。adobe.tools.debug.includeOberonXml 自當天起將無法使用。 |
 | 行動瀏覽器版本編號 | 2019 年 2 月 7 日 | 自 2019 年 1 月 8 日起，行動瀏覽器版本編號的小數點位數已從 2 變更為 1。從該日起，版本只會顯示頭兩個層級 (例如 _Firefox 64.0.2_ 現在只會顯示為 _Firefox 64.0_)。 |
 | 終止 [!DNL Ad Hoc Analysis] 服務 | 2019 年 1 月 29 日 | Adobe 於 2018 年 8 月 6 日宣佈有意終止 [!DNL Ad Hoc Analysis] 服務。我們將會在確定後公佈服務終止日期。<br/>如需詳細資訊，包括在此期間相容的 Java 版本，請造訪 [Discover Workspace](https://adobe.ly/discoverworkspace)。 |
-| Analytics 報表短連結 | 2019 年 1 月 14 日 | 自 2019 年 1 月 17 日星期四起，我們將逐步清理並刪除任何一年內未經造訪的 Analytics 報表短連結。 |
-| 終止支援 TLS 1.0 | 2019 年 1 月 10 日更新 | 自 2019 年 2 月 11 日起，Adobe Analytics 報表不再支援 TLS (傳輸層安全性) 1.0 加密技術。我們做出此次變更，持續努力維持安全性的最高標準，並確保客戶資料安全無虞。If you are unable to connect to Adobe Analytics reporting after February 11, 2019, you should upgrade your browser to the [latest version](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html).<br/>自 2019 年 2 月 20 日起，Adobe Analytics 資料彙集機制不再支援 TLS 1.0。隨著此變更正式發佈，若終端使用者使用不支援 TLS 1.1 (含) 以上版本的舊款裝置或網頁瀏覽器，Adobe 將不再彙集其 Analytics 資料。我們預計這不會對客戶資料或報告造成重大影響。(若您的網站已不支援 TLS 1.0，則不受影響。)<br/>自 2019 年 4 月 11 日起，Adobe Analytics 報告 API 不再支援 TLS 1.0 加密技術。存取該 API 的客戶應確認他們不會受到影響。 <ul><li>使用 Java 7 搭配預設設定的 API 用戶端將需要[進行修改以支援 TLS 1.2](https://www.java.com/en/configure_crypto.html)。(請參閱 _變更用戶端端點預設 TLS 通訊協定版本: 從 TLS 1.0 到 TLS 1.2_。) </li><li>使用 Java 8 的 API 用戶端已預設為 TLS 1.2，應該不會受到影響。</li><li> 使用其他架構的 API 用戶端需聯絡其供應商，以瞭解 TLS 1.2 支援的詳細資訊。</li></ul> |
+| Short [!DNL Analytics] report links | 2019 年 1 月 14 日 | Any short [!DNL Analytics] report links that have not been visited within one year will be cleaned up and deleted starting on Thursday, January 17, 2019, on a rolling schedule. |
+| 終止支援 TLS 1.0 | 2019 年 1 月 10 日更新 | 自 2019 年 2 月 11 日起，Adobe Analytics 報表不再支援 TLS (傳輸層安全性) 1.0 加密技術。我們做出此次變更，持續努力維持安全性的最高標準，並確保客戶資料安全無虞。If you are unable to connect to Adobe Analytics reporting after February 11, 2019, you should upgrade your browser to the [latest version](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html).<br/>[!DNL Analytics]自 2019 年 2 月 20 日起，Adobe 資料彙集機制不再支援 TLS 1.0。隨著此變更正式發佈，若終端使用者使用不支援 TLS 1.1 (含) 以上版本的舊款裝置或網頁瀏覽器，Adobe 將不再彙集其 Analytics 資料。我們預計這不會對客戶資料或報告造成重大影響。(若您的網站已不支援 TLS 1.0，則不受影響。)<br/>自 2019 年 4 月 11 日起，Adobe Analytics 報告 API 不再支援 TLS 1.0 加密技術。存取該 API 的客戶應確認他們不會受到影響。 <ul><li>使用 Java 7 搭配預設設定的 API 用戶端將需要[進行修改以支援 TLS 1.2](https://www.java.com/en/configure_crypto.html)。(請參閱 _變更用戶端端點預設 TLS 通訊協定版本: 從 TLS 1.0 到 TLS 1.2_。) </li><li>使用 Java 8 的 API 用戶端已預設為 TLS 1.2，應該不會受到影響。</li><li> 使用其他架構的 API 用戶端需聯絡其供應商，以瞭解 TLS 1.2 支援的詳細資訊。</li></ul> |
 | 資料摘要: post_product_list 欄 - 大小變更 | 2019 年 1 月 9 日 | Adobe 自 2019 年 2 月 7 日起，已將 post_product_list 欄的大小從 64 KB 擴增至 16 MB。此項變更確保處理期間新增至 post_product_list 的銷售 eVar 值，不會截斷產品與收入值。如果您有內嵌 post_product_list 值的程序，請確定這些程序可以處理長度多達 16 MB 的值，否則會在達到 16 KB 時截斷值，以避免資料內嵌失敗。 |
 | 影響非活動中 [!DNL Analytics Live Stream] 端點的管理變更 | 2018 年 12 月 20 日 | 自 2019 年 2 月 1 日起，90 天未與作用中消費者連線的 [!DNL Live Stream] 端點可能會遭到停用。您可以聯絡客戶服務以查詢您的 [!DNL Live Stream] 端點，並在必要時重新啟用。此外，請確定您的消費者程序按照該服務的設計意圖，維持穩定連線，並會在連線中斷時重新連線。 |
 | 請更新 Adobe [!DNL Report Builder] 因為已不再支援 TLS 1.0 | 2018 年 9 月 7 日 | 因為已不再支援 TLS 1.0，我們建議 [!DNL Report Builder] 使用者在 2019 年 2 月之前下載 5.6.21 版。在當天以後，舊版的 [!DNL Report Builder] 將無法繼續運作。 |
@@ -150,7 +149,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 * Flash-Flex
 * OSX
 * Windows Phone、XBOX、Silverlight 及 .NET
-* BlackBerry
+* [!DNL BlackBerry]
 * Java
 * PHP
 * Symbian
@@ -274,7 +273,7 @@ An important AEM patch for the AEM 6.5 clientlibs cache invalidation is availabl
 * [Scene7 Publishing System 發行說明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 發行說明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
-## 促銷活動 {#ac}
+## [!DNL Campaign] {#ac}
 
 Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法提供一對一訊息。您現在可以使用客戶習慣和偏好判斷其體驗，預測他們想要的東西。
 
@@ -290,7 +289,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 * Adobe Campaign Standard: [文件](https://helpx.adobe.com/support/campaign/standard.html) - [ 發行說明](https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html) - [ 功能影片](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)
 * Adobe Campaign Classic: [文件](https://helpx.adobe.com/support/campaign/classic.html) - [發行說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [ 功能影片](https://helpx.adobe.com/campaign/kt/acc/index/acc-videos.html)
 
-## Target {#target}
+## [!DNL Target] {#target}
 
 See [Target release notes (pre-release)](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) for the latest release infomration about Target.
 
