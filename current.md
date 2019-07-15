@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 7 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 91126cc2d75b6c50afe429a1b4313309ab76108a
+source-git-commit: 19b6c0547d06a3ec5887f6fd17bcd662528844ca
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Cloud 中的新功能及修正。
 **發行日期: 2019 年 7 月 18 日**
 
 * [Experience Cloud 核心服務與管理](#experiencecloud)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics)**(月15日更新)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -90,10 +90,10 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 ## [!DNL Analytics] {#analytics}
 
-* [Adobe Analytics 中的新功能和修正](#aa-features)
+* [Adobe Analytics中的新功能和修正](#aa-features)**(月15日更新)**
 * [給 Analytics 管理員的重要通知](#aa-notices)
 
-### 的新功能:[!DNL Analytics]{#aa-features}
+###  的新功能:[!DNL Analytics]{#aa-features}
 
 如需產品文件，請參閱 [Analytics 說明首頁](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
 
@@ -101,7 +101,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 | -----------| ---------- |   
 | Analysis Workspace-世代分析增強功能 | 新增了「新世代分析」設定： <ul><li>僅顯示%</li><li>四捨五入至最接近的整數</li><li>沿著頂端顯示平均%列</li></ul> |
 | Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. 以前回顧期間最多為個月。如此可更輕鬆地比較去年的頁面或促銷活動，最多18個月前。 |
-| Analytics 資料摘要 | Users can now see the history for all feeds that are enabled with the _Make Feed Visible to Customer_ flag. |
+| 新的分析工作區範本 | 我們新增了名為「Magento：行銷與商務」至分析工作區。它專為Magento e-Commerce客戶設計，但任何零售商都能使用它來獲得對其商務活動的獨特見解。 |
 
 #### [!DNL Analysis Workspace] 修正
 
@@ -109,9 +109,10 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 * 修正視覺效果錯誤的問題-當發生視覺化錯誤時，我們現在會顯示紅色錯誤列。(AN-175542)
 * 修正本地化環境中維度名稱顯示為英文的問題。(AN-178695)
 
-#### [!DNL Reports & Analytics] 修正
+#### [!DNL Analytics] 修正
 
 * 修正即時深入報告中的折線圖空白的問題。(AN-181690)
+* 修正在某些情況下，「管理控制台」UI中無法顯示部分資料饋送歷史記錄的問題。(AN-176219)
 
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
@@ -120,7 +121,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 | 分類規則產生器限制 | 新增日期: 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | 新區段運算子限制 | 新增日期: 2019 年 5 月 31 日 | 自 2019 年 7 月 18 日起，區段運算子「包含任何」、「不包含任何」、「包含所有」以及「不包含所有」，每個輸入欄位僅限 100 個字詞。此限制將套用至在此日期之後的所有新區段和修改區段。超出限制的現有區段仍會繼續獲得支援，但無法修改或儲存，直到輸入欄位的字詞減少為止。現正套用這些限制，同時藉此努力改善查詢效能。 |
 | **[!UICONTROL 日期啟用]** 和 **[!UICONTROL 數值 2 分類]** 的近期支援變更 | 2019 年 5 月 28 日更新 | 匯入數值 2 與日期啟用分類的功能已自基底程式碼移除。此變更預計於 2019 年 7 月維護版本中生效。若您的匯入檔案中含有數值或日期啟用欄，系統會自動忽略這些儲存格，至於該檔案中的其他所有資料都將正常匯入。<br/>您仍可透過標準分類工作流程匯出現有分類，並繼續在報表中使用。 |
-| &#x200B;_報表總數_&#x200B; 計算方式近期變更 | 更新日期: 2019 年 7 月 9 日 | Adobe Analytics 預計於 **2019 年 6 月 18 日** 統一所有維度和量度的 _報表總數_ 計算方式。部分報表的總數會因此有所變動，通常會是「Prop」或「客戶屬性」報表。在此變更前，無論報表中是否出現 _未指定_ 一項，部分「報表總數」納入或排除 _未指定_ 項目的情況不一。<br/>自 2019 年 6 月 18 日起，即使「未指定」並未出現在報表項目中，報表總數都會一律顯示 _未指定_ 。Additionally, segments using _exists_ or _does not exist_ logic may see different results for some dimensions after this change, specifically dimensions where _Unspecified_ has a special name such as the &quot;Typed/Bookmarked&quot; line item for Referrer Type dimension or the &quot;Other&quot; line item for the Device Type dimension. 到時，此變更將會影響 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和報表 API。 |
+| _報表總數_ 計算方式近期變更 | 更新日期: 2019 年 7 月 9 日 | Adobe Analytics 預計於 **2019 年 6 月 18 日** 統一所有維度和量度的 _報表總數_ 計算方式。部分報表的總數會因此有所變動，通常會是「Prop」或「客戶屬性」報表。在此變更前，無論報表中是否出現 _未指定_ 一項，部分「報表總數」納入或排除 _未指定_ 項目的情況不一。<br/>自 2019 年 6 月 18 日起，即使「未指定」並未出現在報表項目中，報表總數都會一律顯示 _未指定_ 。Additionally, segments using _exists_ or _does not exist_ logic may see different results for some dimensions after this change, specifically dimensions where _Unspecified_ has a special name such as the &quot;Typed/Bookmarked&quot; line item for Referrer Type dimension or the &quot;Other&quot; line item for the Device Type dimension. 到時，此變更將會影響 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和報表 API。 |
 | 更新 的 CSV 下載 [!DNL Analysis Workspace] | 2019 年 4 月 10 日 | 自 2019 年 4 月 11 日起，[!DNL Analysis Workspace] 中的 **[!UICONTROL 「CSV 下載」]**(和 **[!UICONTORL 「複製到剪貼簿」]**) 功能已有諸多變動，移除了匯出資料中的格式設定。  <ul><li>不再使用千分位分隔符號。將繼續使用小數分隔符號，其將遵循 **[!UICONTROL 「元件 &gt; 報表設定 &gt; 千分位分隔符號」]** 中定義的格式。注意: 匯出的 CSV 會繼續引用使用逗號作為小數分隔符號的數值。</li><li>不再顯示貨幣符號。</li><li>不再顯示百分比符號。百分比將以小數形式表示，例如: 75% 會表示成 0.75。</li><li>時間會以秒數表示。</li><li>同類群組表格僅會顯示原始值; 百分比符號將會移除。</li><li>如果數字無效，則顯示空白儲存格。</li></ul> |
 | 即將變更 [!DNL Analysis Workspace] 偵錯工具命令 | 2019 年 4 月 4 日 | **2019 年 6 月 13 日起**，開啟 [!DNL Analysis Workspace] 偵錯工具的控制台命令將變更為 adobeTools.debug.includeOberonXml。adobe.tools.debug.includeOberonXml 自當天起將無法使用。 |
 | 行動瀏覽器版本編號 | 2019 年 2 月 7 日 | 自 2019 年 1 月 8 日起，行動瀏覽器版本編號的小數點位數已從 2 變更為 1。從該日起，版本只會顯示頭兩個層級 (例如 _Firefox 64.0.2_ 現在只會顯示為 _Firefox 64.0_)。 |
