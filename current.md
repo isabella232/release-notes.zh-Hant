@@ -93,7 +93,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 * [Adobe Analytics中的新功能和修正](#aa-features)**(月15日更新)**
 * [給 Analytics 管理員的重要通知](#aa-notices)
 
-###  的新功能:[!DNL Analytics]{#aa-features}
+### 的新功能:[!DNL Analytics]{#aa-features}
 
 如需產品文件，請參閱 [Analytics 說明首頁](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
 
