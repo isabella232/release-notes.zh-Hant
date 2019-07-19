@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 7 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 50a8aaf58413337e4aa0478e5505f8ea9d8edd36
+source-git-commit: c45b9f49e0732e52b01677c0acb8e6b12d155e77
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Cloud 中的新功能及修正。
 **發行日期: 2019 年 7 月 18 日**
 
 * [Experience Cloud 核心服務與管理](#experiencecloud)
-* [!DNL Analytics](#analytics)  **(更新日期: 7 月 15 日)**
+* [!DNL Analytics](#analytics) - **(更新日期: 7 月 15 日)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -63,13 +63,13 @@ iOS 和 Android 已更新如下:
 
 * Adobe Target: 所有要求現在都會在 URL 查詢參數中納入用戶端和 `sessionId`。
 * Adobe Target: 修正記憶體流失。
-* Visitor ID Service: The `visitorAppendToURL` and `visitorGetUrlVariablesAsync` APIs no longer double-encode their return values. 雙重編碼導致這些API傳回的值被某些安全性審核標記。
+* 訪客 ID 服務: `visitorAppendToURL` 和 `visitorGetUrlVariablesAsync` API 不再將傳回的值雙重編碼。雙重編碼已導致這些 API 傳回的值遭某些安全性審核機制特別標記。
 
 **Android**
 
 * Target: 所有要求現在都會在 URL 查詢參數中納入用戶端和 sessionId。
-* 應用程式內訊息：修正當訊息使用空點進URL觸發時，Android應用程式會當機的問題。
-* Visitor ID Service: The `Visitor.appendToURL` and `Visitor.getUrlVariablesAsync` APIs no longer double-encode their return values. 雙重編碼導致這些API傳回的值被某些安全性審核標記。
+* 應用程式內傳訊: 修正透過空白點選連結 URL 觸發訊息時，Android 應用程式當機的問題。
+* 訪客 ID 服務: `Visitor.appendToURL` 和 `Visitor.getUrlVariablesAsync` API 不再將傳回的值雙重編碼。雙重編碼已導致這些 API 傳回的值遭某些安全性審核機制特別標記。
 
 如需產品文件，請參閱 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)。
 
@@ -132,10 +132,10 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 2019 年 7 月 15 日發行:
 
-**AppMeasurement for JavaScript2.150**
+**適用於 JavaScript 2.15.0 的 AppMeasurement**
 
-* 已新增Activity Map捲動觸及追蹤至Activity Map擴充功能(AN-172949)
-* 已將DIL9.2新增至AppMeasurement。(AN-182472)
+* 在 Activity Map 擴充功能中新增 Activity Map 捲動觸及追蹤功能 (AN-172949)
+* 將 DIL 9.2 新增至 AppMeasurement。(AN-182472)
 
 請參閱 [AppMeasurement 版本歷史記錄](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，此為下列平台上 AppMeasurement 之版本歷史記錄的內容:
 
