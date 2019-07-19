@@ -5,18 +5,14 @@ doc-type: 發行說明
 last-update: 2019 年 7 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e8470127c1cd343637d61bc0ac6bdd26339a8e2c
+source-git-commit: 50a8aaf58413337e4aa0478e5505f8ea9d8edd36
 
 ---
 
 
-# 搶先使用 - Adobe Experience Cloud 發行說明
+# Adobe Experience Cloud 發行說明
 
 Adobe Experience Cloud 中的新功能及修正。
-
->[!IMPORTANT]
->
->此頁面含有搶鮮版內容，於預計發行前可能會有所變更。
 
 >[!NOTE]
 >
