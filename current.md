@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 7 月
 author: mfrei
 translation-type: ht
-source-git-commit: 41b4cbb1b93fe857c80cebd631a785e234e2ce07
+source-git-commit: dd7674ce4a4dbac46ee7238ef3798513c3bd6ab4
 
 ---
 
@@ -134,7 +134,10 @@ iOS 和 Android 已更新如下:
 
 **適用於 JavaScript 2.15.0 的 AppMeasurement**
 
-* 在 Activity Map 擴充功能中新增 Activity Map 捲動觸及追蹤功能 (AN-172949)
+* 在 Activity Map 擴充功能中新增 Activity Map 捲動觸及追蹤功能 (AN-172949)。
+>[!NOTE]
+>
+>此功能的發行是 Activity Map 日後更新的先決條件。在其他元件發行之前，它可能並無作用。
 * 將 DIL 9.2 新增至 AppMeasurement。(AN-182472)
 
 如需以下平台的 AppMeasurement 的發行歷程記錄，請參閱 [AppMeasurement 發行歷程記錄](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html):
