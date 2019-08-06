@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 8 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 09b88aee612dfb84e3810d1f75da703d3d4c233d
+source-git-commit: 7a65c16ecebddc5baacefd675d0015af65ef1060
 
 ---
 
@@ -78,6 +78,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 注意 | 新增日期或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
+| 支援歷史時區位移 | 2019年月日 | Analytics現在會自動處理時間戳記點擊的時區位移。在月日變更後，歷史處理資料載入的系統將不再需要調整時區位移，再傳送資料。 |
 | 分類規則產生器限制 | 新增日期: 2019 年 6 月 5 日 | 這些限制不是新的，但已新增至 [此處](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html)的文件。 |
 | 新區段運算子限制 | 新增日期: 2019 年 5 月 31 日 | 自 2019 年 7 月 18 日起，區段運算子&#x200B;_「包含任何」_、_「不包含任何」_、_「包含所有」_&#x200B;以及&#x200B;_「不包含所有」_，每個輸入欄位僅限 100 個字詞。此限制將套用至在此日期之後的所有新區段和修改區段。超出限制的現有區段仍會繼續獲得支援，但無法修改或儲存，直到輸入欄位的字詞減少為止。現正套用這些限制，同時藉此努力改善查詢效能。 |
 | **[!UICONTROL 日期啟用]**&#x200B;和&#x200B;**[!UICONTROL 數值 2 分類]**&#x200B;的近期支援變更 | 2019 年 5 月 28 日更新 | 匯入數值 2 與日期啟用分類的功能已自基底程式碼移除。此變更預計於 2019 年 7 月維護版本中生效。若您的匯入檔案中含有數值或日期啟用欄，系統會自動忽略這些儲存格，至於該檔案中的其他所有資料都將正常匯入。<br/>您仍可透過標準分類工作流程匯出現有分類，並繼續在報表中使用。 |
