@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 8 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7a65c16ecebddc5baacefd675d0015af65ef1060
+source-git-commit: 6e1d9c4b083968fe1632d1309900058c90206fe1
 
 ---
 
@@ -68,7 +68,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 | -----------| ---------- |  
 | 支援 SameSite Cookie 設定 | The [SameSite cookie setting](https://web.dev/samesite-cookies-explained) will be added to all cookies sets by Analytics. 此變更可讓您符合需有 SameSite Cookie 欄位的 Chrome 變更。Analytics Cookie將預設為 `none`。如果您獨佔使用第一方網域(例如stats.domain.com)，您可以將Adobe `lax` ClientCare設定為第一方收集網域。 |
 | Workspace: 將下拉式篩選器的項目上限從 50 個提升至 200 個 | 我們將下拉式篩選器中可放置的項目上限從 50 個提升至 200 個。此增強功能適合多種使用案例，例如將所有國家 (195) 新增至篩選器，或新增所有美國州和省 (52)。 |
-| A4T量度啓用歸因IQ | 我們已為Attribution IQ啓用兩個Analytics for Target(A4T)量度：活動印象和活動轉換。在分析工作區中，相較於「報告與分析」，這些量度已膨脹。在此變更後，使用者現在可以套用「相同觸控」歸因模型，讓分析工作區與「報告與分析」一致。 |
+| 啓用屬性IQ的4T活動印象和活動轉換 | 我們已為Attribution IQ啓用兩個Analytics for Target(A4T)量度：活動印象和活動轉換。在分析工作區中，相較於「報告與分析」，這些量度已膨脹。有了這項變更，使用者現在可以套用「相同觸控」歸因模型，將分析工作區與「報告與分析」一致。 |
 
 #### 修正
 
