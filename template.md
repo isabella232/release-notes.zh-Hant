@@ -4,8 +4,8 @@ description: Experience Cloud 發行說明範本
 doc-type: 發行說明
 last-update: 2019 年 3 月
 author: mfrei
-translation-type: ht
-source-git-commit: 623ef62b2b1b3ce9d895e3fed3fc61ca80fc679f
+translation-type: tm+mt
+source-git-commit: 8ec590d7cbf63b67cfaf869f54c3707dbb5c2e83
 
 ---
 
@@ -24,16 +24,16 @@ Adobe Experience Cloud 中的新功能及修正。
 
 **發行日期: 2019 年**
 
-* [Experience Platform 和管理](#platform)
+* [Experience Cloud和Experience Platform](#platform)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [!DNL Target](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html) (解決方案說明連結)
-* [!DNL Primetime](https://helpx.adobe.com/tw/primetime/user-guide.html) (解決方案說明連結)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (解決方案說明連結)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (解決方案說明連結)
 
-## Experience Platform 和管理 {#platform}
+## Experience Cloud和Experience Platform{#platform}
 
 Experience Platform 的發行說明、Experience Cloud 介面、產品管理、Experience Platform Launch、身分服務和安全性佈告欄。
 
@@ -42,19 +42,19 @@ Experience Platform 的發行說明、Experience Cloud 介面、產品管理、E
 * [Mobile Services 與 Mobile SDK](#mobile)
 * [管理與開發人員](#admin)
 * [Experience Platform Launch](#launch)
-* [安全性佈告欄和建議](https://helpx.adobe.com/tw/security.html) (所有 Adobe 產品)
+* [安全性佈告欄和建議](https://helpx.adobe.com/security.html)(所有Adobe產品)
 
 ### 核心服務 {#core-services}
 
 功能和修正。
 
-如需產品文件，請參閱 [Experience Cloud 和核心服務](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html)
+For product documentation, see [Experience Cloud and Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
 
 ### Experience Cloud ID 服務 {#ecid}
 
 功能和修正。
 
-如需產品文件，請參閱 [Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/zh_TW/mcvid/)。
+如需產品文件，請參閱 [Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
 ### Mobile Services 與 Mobile SDK {#mobile}
 
@@ -71,18 +71,18 @@ Experience Platform 的發行說明、Experience Cloud 介面、產品管理、E
 
 如需產品文件，請參閱 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)。
 
-如需 Mobile SDK 的詳細資訊，請參閱: [適用於 Experience Cloud 解決方案的 Android SDK 4.x](https://marketing.adobe.com/resources/help/zh_TW/mobile/android/) 和[適用於 Experience Cloud
-解決方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
+如需 Mobile SDK 的詳細資訊，請參閱[適用於 Experience 解決方案的 Android SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/android/) 和[適用於 Experience Cloud
+ 解決方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
 
 ### 管理與開發人員 {#admin}
 
 功能和修正。
 
-如需產品文件，請參閱[管理使用者和產品](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html)。
+如需產品文件，請參閱 [「管理使用者和產品](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)」。
 
 ### Experience Platform Launch {#launch}
 
-如需發行說明和產品文件，請參閱 [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/release-notes/current.html)。
+See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) for release notes and product documentation.
 
 ## [!DNL Analytics] {#analytics}
 
@@ -92,7 +92,7 @@ Adobe Analytics 中的新功能和修正:
 * [適用於 iOS 與 Android 的 Media Analytics SDK (原稱 VHL SDK)](#aa-va)
 * [給 Analytics 管理員的重要通知](analytics-important-notices.md)
 
-如需產品文件，請參閱 [Adobe Analytics 說明首頁](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
+For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
 ### Adobe Analytics 中的新功能 {#aa-features}
 
@@ -129,7 +129,7 @@ Adobe Analytics 中的新功能和修正:
 * 修正
 * 修正
 
-如需以下平台的 AppMeasurement 的發行歷程記錄，請參閱 [AppMeasurement 發行歷程記錄](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html):
+請參閱 [AppMeasurement 版本歷史記錄](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，此為下列平台上 AppMeasurement 之版本歷史記錄的內容:
 
 * JavaScript
 * iOS
@@ -190,12 +190,12 @@ Adobe Experience Manager (AEM) 中的新功能、修正及更新。Adobe 建議�
 
 ### 其他資源
 
-* [AEM 6.4 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-4.html)
-* [AEM 6.3 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-3.html)
-* [AEM 6.2 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-2.html)
-* [Cloud Manager 使用手冊](https://helpx.adobe.com/tw/experience-manager/cloud-manager/user-guide.html)
-* [舊版 AEM 文件](https://helpx.adobe.com/tw/experience-manager/aem-previous-versions.html)
-* [Scene7 Publishing System 發行說明](https://marketing.adobe.com/resources/help/zh_TW/s7/release_notes/index.html)
+* [AEM 6.4 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [AEM 6.3 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-3.html)
+* [AEM 6.2 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-2.html)
+* [Cloud Manager 使用手冊](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
+* [舊版 AEM 文件](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [Scene7 Publishing System 發行說明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 發行說明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ### Livefyre {#livefyre}
