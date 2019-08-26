@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 8 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 71a796a132a752b69a10b9ac9cce3530b7d02b27
+source-git-commit: bf128d5ab0d16a15935f73fd8b80c7eab12b4e1f
 
 ---
 
@@ -64,7 +64,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 功能 | 說明 |
 | -----------| ---------- |  
-| 支援 SameSite Cookie 設定 | Analytics 會將 [SameSite 的 Cookie 設定](https://web.dev/samesite-cookies-explained)新增至所有 Cookie 集。此變更可讓您符合需有 SameSite Cookie 欄位的 Chrome 變更。Analytics Cookie 將預設為 `none`。如果您只使用第一方網域(例如 stats.domain.com)，您可以為第一方收集網域將 Adobe ClientCare 設定為 `lax`。 |
+| 支援 SameSite Cookie 設定 | Analytics 會將 [SameSite 的 Cookie 設定](https://web.dev/samesite-cookies-explained)新增至所有 Cookie 集。此變更可讓您符合需有 SameSite Cookie 欄位的 Chrome 變更。Analytics Cookie 將預設為 `none`。If you have exclusively used a 1st-party domain (e.g. stats.domain.com) you can have Adobe Customer Care set it to `lax` for 1st-party collection domains. |
 | Workspace: 將下拉式篩選器的項目上限從 50 個提升至 200 個 | 我們將下拉式篩選器中可放置的項目上限從 50 個提升至 200 個。此增強功能適合多種使用案例，例如將所有國家 (195) 新增至篩選器，或新增所有美國州和省 (52)。 |
 | 歸因 IQ 已啓用 A4T 活動曝光數和活動轉換數等度量 | 我們已為歸因 IQ 啓用兩個 Analytics for Target (A4T) 量度：活動曝光數和活動轉換數。以往，在 Analysis Workspace 中，這些量度會較「Reports &amp; Analytics」膨脹。經過此變更後，使用者現在可以套用「比照調整」歸因模型，使 Analysis Workspace 與 Reports &amp; Analytics 一致。 |
 
