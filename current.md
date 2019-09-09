@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2cf514449e70523a47b16dceb35d93ec7eff0824
+source-git-commit: 3b26af48364509946706cd183c1261ea8c15eab2
 
 ---
 
@@ -87,7 +87,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 功能 | 說明 |
 | -----------| ---------- |  
-| **旅程IQ：跨裝置分析** | Adobe Analytics於2019年月推出Analytics Ultimate客戶的早期存取功能，稱為歷程IQ：跨裝置分析。跨裝置分析(CDA)將Adobe Analytics從裝置導向至人員導向分析工具。使用CDA，您可以回答下列問題： <ul><li>有多少人與我的品牌互動？他們使用的裝置類型為何？如何重疊？</li><li>人們通常會在行動裝置上開始工作，然後稍後移至桌上型PC完成工作？在一台裝置上著陸的促銷活動點進是否會導致其他裝置轉換？</li><li>如果我考慮到跨裝置歷程，我對促銷活動有效性的理解如何？漏斗分析如何改變？</li><li>使用者在一個裝置間採取的最常見路徑是甚麼？他們在哪裡流失？他們是否成功？</li><li>有多個裝置的使用者行為如何與使用者使用單一裝置不同？</li></ul><br/>若要進一步瞭解 `adobe.ly/aacda`，請造訪。 |
+| **旅程IQ：跨裝置分析** | Adobe Analytics於2019年月推出Analytics Ultimate客戶的早期存取功能，稱為歷程IQ：跨裝置分析。跨裝置分析(CDA)將Adobe Analytics從裝置導向至人員導向分析工具。使用CDA，您可以回答下列問題： <ul><li>有多少人與我的品牌互動？他們使用的裝置類型為何？如何重疊？</li><li>人們通常會在行動裝置上開始工作，然後稍後移至桌上型PC完成工作？在一台裝置上著陸的促銷活動點進是否會導致其他裝置轉換？</li><li>如果我考慮到跨裝置歷程，我對促銷活動有效性的理解如何？漏斗分析如何改變？</li><li>使用者在一個裝置間採取的最常見路徑是甚麼？他們在哪裡流失？他們是否成功？</li><li>有多個裝置的使用者行為如何與使用者使用單一裝置不同？</li></ul><br/>若要進一步瞭解，請造訪 [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/)。 |
 | **更新的分類架構** | 自月起，分類架構的更新將會在數個月內移轉給客戶。月發行版本包含少數早期採用者的移轉。<br/>此更新可大幅減少上傳/吸收和提供報告時所需的時間(包括規則邏輯)。 |
 
 #### 修正
