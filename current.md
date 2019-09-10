@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3b26af48364509946706cd183c1261ea8c15eab2
+source-git-commit: 694a71cb6caaf04135c93d099988c9b9bbc8abf3
 
 ---
 
@@ -87,7 +87,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 功能 | 說明 |
 | -----------| ---------- |  
-| **旅程IQ：跨裝置分析** | Adobe Analytics於2019年月推出Analytics Ultimate客戶的早期存取功能，稱為歷程IQ：跨裝置分析。跨裝置分析(CDA)將Adobe Analytics從裝置導向至人員導向分析工具。使用CDA，您可以回答下列問題： <ul><li>有多少人與我的品牌互動？他們使用的裝置類型為何？如何重疊？</li><li>人們通常會在行動裝置上開始工作，然後稍後移至桌上型PC完成工作？在一台裝置上著陸的促銷活動點進是否會導致其他裝置轉換？</li><li>如果我考慮到跨裝置歷程，我對促銷活動有效性的理解如何？漏斗分析如何改變？</li><li>使用者在一個裝置間採取的最常見路徑是甚麼？他們在哪裡流失？他們是否成功？</li><li>有多個裝置的使用者行為如何與使用者使用單一裝置不同？</li></ul><br/>若要進一步瞭解，請造訪 [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/)。 |
+| **旅程IQ：跨裝置分析** | Adobe Analytics於19月推出了一項強大的新功能，稱為歷程IQ：跨裝置分析。(請注意，此功能僅適用於Analytics Ultimate客戶)。跨裝置分析(CDA)將Adobe Analytics從裝置導向至人員導向分析工具。使用CDA，您可以回答下列問題： <ul><li>有多少人與我的品牌互動？他們使用的裝置類型為何？如何重疊？</li><li>人們通常會在行動裝置上開始工作，然後稍後移至桌上型PC完成工作？在一台裝置上著陸的促銷活動點進是否會導致其他裝置轉換？</li><li>如果我考慮到跨裝置歷程，我對促銷活動有效性的理解如何？漏斗分析如何改變？</li><li>使用者在一個裝置間採取的最常見路徑是甚麼？他們在哪裡流失？他們是否成功？</li><li>有多個裝置的使用者行為如何與使用者使用單一裝置不同？</li></ul><br/>若要進一步瞭解，請造訪 [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/)。 |
 | **更新的分類架構** | 自月起，分類架構的更新將會在數個月內移轉給客戶。月發行版本包含少數早期採用者的移轉。<br/>此更新可大幅減少上傳/吸收和提供報告時所需的時間(包括規則邏輯)。 |
 
 #### 修正
@@ -133,7 +133,7 @@ Audience Manager中的新功能、增強功能和修正。
 
 | 功能 | 說明 |
 | -----------| ---------- |  
-| **[以人為本目標](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNLP以電子郵件為基礎的目的地是] 一種付費的Audience Manager增益集，可幫助您使用雜湊識別碼(例如電子郵件地址)，跨人員環境(例如Facebook)啓用第一方受眾細分。 |
+| **[[！DNL人員目標]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] 是一種付費的Audience Manager附加元件，可協助您使用雜湊識別碼(例如電子郵件地址)在以人員為基礎的環境(例如Facebook)上啓用第一方觀眾區段。 |
 | **[將Twitter自訂對象設定為自助服務裝置的目的地](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | 我們正在將Twitter目的地移轉至自助服務設定模型。本文說明您需要做甚麼，才能在移轉後繼續使用現有的Twitter整合。 |
 | **[Audience Marketplace帳單範例](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/audience-marketplace/audience-marketplace-for-data-buyers/marketplace-buyer-billing.html#billing-examples)** | 我們新增了一個範例3，說明帳單如何適用於具有啓動和模型使用案例的區段。 |
 
