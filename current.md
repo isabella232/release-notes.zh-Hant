@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 9 月
 author: mfrei
 translation-type: ht
-source-git-commit: adb17defaa34adc0866985a5eb5a621e9fb36c7d
+source-git-commit: 8e959510cb32eef2e619f562cd998b4e75c2c8d3
 
 ---
 
@@ -269,6 +269,8 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 * [Campaign Classic 19.1.5 更新](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – 版本編號 9033
 
 ### Adobe Campaign [!UICONTROL 控制面板]
+
+為管理員使用者新增功能，使其可將 IP 位址加入白名單，以連線 Campaign Classic 例項。此外，管理員使用者現在也能檢視例項清單，並具備版本升級資格。 如需詳細資訊，請參閱[專用文件](https://helpx.adobe.com/tw/campaign/kb/control-panel-instance-settings.html)。
 
 我們已新增新功能，讓管理員使用者在其網域的 SSL 憑證過期之前接收通知。如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/tw/campaign/kb/control-panel-subdomains-certificates.html)。
 
