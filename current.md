@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 9 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8e959510cb32eef2e619f562cd998b4e75c2c8d3
+source-git-commit: eb150b48019a2fc54c3de3fa58475a9eb475505f
 
 ---
 
@@ -26,8 +26,8 @@ Adobe Experience Cloud 中的新功能及修正。
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) （解決方案說明的連結）
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) （解決方案說明的連結）
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links to solution help)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links to solution help)
 
 ## Experience Cloud 介面 {#ecloud}
 
@@ -44,7 +44,7 @@ Experience Platform、Experience Platform Launch、身分服務和安全性佈�
 
 * [Experience Platform Launch](#launch)
 * [Mobile Services 與 Mobile SDK](#mobile)
-* [安全性公告和建議](https://helpx.adobe.com/security.html) （所有Adobe產品）
+* [Security bulletins and advisories (All Adobe products)](https://helpx.adobe.com/security.html)
 
 ### Experience Platform Launch {#launch}
 
@@ -54,18 +54,26 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 
 發行日期: **9 月 26 日**
 
-**iOS (4.18.8)**
+**iOS:版本4.18.8**
 
-* 已修正在每個 Analytics 呼叫上 SDK 資料已同步處理到配對的 WatchOS app 的錯誤。
-* 已修正無法使用推送點進裝載作為應用程式內傳訊特徵的錯誤。
-* 已更新為使用者通知架構 API，而非 UILoalNotification API (已經從 iOS10 起淘汰)。
-* 已更新為 WKWebView，而非 UIWebView (已經從 iOS12 起淘汰)。
+發行日期: 2019 年 9 月 20 日
 
-**Android 4.17.10**
+* In App Messaging:
+   * On devices running iOS 10 or newer, the UserNotifications framework is now used to schedule local notifications for apps that are linked to the UserNotifications.framework .
+   * Fullscreen messages now use WKWebViews from WebKit.framework, which must be linked in your Xcode project.
+   * 已修正推送點進裝載無法用作應用程式內訊息特徵的錯誤。
+   * Fixed a crash issue.
+* 一般——已修正每次Analytics呼叫時，SDK資料會同步至配對watchOS應用程式的錯誤。
 
-* 新增對 BCP47 語言標籤的支援。
+**Android:版本4.17.10**
+
+發行日期: 2019 年 9 月 20 日
+
+* General: Fixed locale string generation for some regions on Android API level 21 or newer.
 
 **Unity**
+
+發行日期: 2019 年 9 月 26 日
 
 * 外掛程式己更新為 4.18.7 (適用於 iOS) 和 4.17.9 (適用於 Android)
 
@@ -90,7 +98,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 * 已修正無法從 Experience Cloud 主功能表存取 [!UICONTROL 「人員」]和[!UICONTROL 「優惠」]核心服務的問題。(AN-184294)
 * 已修正 [!UICONTROL Analysis Workspace] 中的左側邊欄在有捲軸和無捲軸之間振盪，而導致飄動效果的問題。(AN-183904)
-* 已修正錯誤報告的問題。您會開始看到更具體的錯誤訊息，而不只是紅色的錯誤指示器。更具體的說，應該有助您瞭解問題是因為負載嚴重、錯誤或建立過於複雜的報表要求所致。(AN-184135)更 [多……](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
+* 已修正錯誤報告的問題。您會開始看到更具體的錯誤訊息，而不只是紅色的錯誤指示器。更具體的說，應該有助您瞭解問題是因為負載嚴重、錯誤或建立過於複雜的報表要求所致。(AN-184135) More…[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
 * 已修正無法成功下載 `.pdf/.xls/.rtf` 格式的流失報表問題。(AN-183165)
 * 已修正透過 Experience Cloud 登入並切換至不同 Experience Cloud 解決方案或切換至另一個登入公司的問題。(AN-183376)
 * 已修正排程專案的資產傳輸無法正常運作的問題。現在，群組是在 [!UICONTROL Admin Console] 中進行管理，因此在傳輸資產時，我們不會在使用者之間複製群組。(AN-183751)
@@ -103,7 +111,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 | 更新為 Analysis Workspace 自由表格總計 | 2019 年 9 月 12 日 | 在2019年10月，自由表格總計行將開始計入套用的報 [表篩選](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 。 就目前而言，總計僅計入分段。經過此變更後，將會更新依據的視覺效果 (例如連結的[!UICONTROL 摘要數字]視覺效果)，以及 CSV 和 PDF 資料。 |
 | 關於 Analytics 使用者 `createDate` 欄位的近期變更 | 2019 年 8 月 30 日 | 在 2019 年 10 月或 11 月期間，系統會使用時區資訊，將 Analytics 使用者的 `createDate` 欄位從美國太平洋時間更新為格式正確的日期/時間值。(AN-183468) |
 | 支援歷史時區位移 | 2019 年 8 月 8 日 | 現在起，Analytics 會自動處理時間戳記點擊的時區位移。8 月 8 日完成此變更後，系統載入歷史資料加以處理時，便不需要在傳送資料前調整時區位移。 |
-| 分類規則產生器限制 | 新增日期: 2019 年 6 月 5 日 | 這些限制並非新鮮，但已新增至此處的文 [件](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html)。 |
+| 分類規則產生器限制 | 新增日期: 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation here.[](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) |
 | 新區段運算子限制 | 新增日期: 2019 年 5 月 31 日 | 自 2019 年 7 月 18 日起，區段運算子&#x200B;_「包含任何」_、_「不包含任何」_、_「包含所有」_&#x200B;以及&#x200B;_「不包含所有」_，每個輸入欄位僅限 100 個字詞。此限制將套用至在此日期之後的所有新區段和修改區段。超出限制的現有區段仍會繼續獲得支援，但無法修改或儲存，直到輸入欄位的字詞減少為止。現正套用這些限制，同時藉此努力改善查詢效能。 |
 | **[!UICONTROL 日期啟用]**&#x200B;和&#x200B;**[!UICONTROL 數值 2 分類]**&#x200B;的支援變更 | 2019 年 5 月 28 日更新 | 匯入數值 2 與日期啟用分類的功能已自基底程式碼移除。此變更於 2019 年 7 月維護版本中生效。若您的匯入檔案中含有數值或日期啟用欄，系統會自動忽略這些儲存格，至於該檔案中的其他所有資料都將正常匯入。<br/>您仍可透過標準分類工作流程匯出現有分類，並繼續在報表中使用。 |
 | _報表總數_&#x200B;計算方式變更 | 更新日期: 2019 年 7 月 9 日 | Adobe Analytics 於 **2019 年 6 月 18 日**&#x200B;統一所有維度和量度的&#x200B;_報表總數_&#x200B;計算方式。部分報表的總數因此有所變動，通常會是「Prop」或「客戶屬性」報表。在此變更前，無論報表中是否出現 _未指定_ 一項，部分「報表總數」納入或排除 _未指定_ 項目的情況不一。<br/>自 2019 年 6 月 18 日起，即使「未指定」並未出現在報表項目中，報表總數都會一律顯示 _未指定_ 。此外，在這項變更後，使用&#x200B;_存在_&#x200B;或&#x200B;_不存在_&#x200B;邏輯的區段可能會看到某些維度的不同結果，具體而言就是&#x200B;_未指定_&#x200B;維度針對反向連結類型維度具有「已輸入/已加上書籤」條列項目特殊名稱，或針對裝置類型維度具有「其他」條列項目特殊名稱等。到時，此變更將會影響 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和報表 API。 |
@@ -130,7 +138,7 @@ Audience Manager 中的新功能、增強功能和修正
 | 功能 | 說明 |
 | -----------| ---------- |  
 | **[[!DNL基於人的目標]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] 是一種付費的 Audience Manager 附加元件，可協助您使用雜湊識別碼 (例如電子郵件地址)，在各種以人員為基礎的環境 (例如 Facebook) 中啟用第一方對象區段。 |
-| **[將Twitter量身訂做的觀眾設定為自助裝置型目標](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | 我們正在將 Twitter 目的地移轉至自助服務設定模型。本文說明為了在移轉後繼續使用現有 Twitter 整合所需採取的動作。 |
+| **[Configuring Twitter Tailored Audiences as a Self-Service Device-Based Destination](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | 我們正在將 Twitter 目的地移轉至自助服務設定模型。本文說明為了在移轉後繼續使用現有 Twitter 整合所需採取的動作。 |
 | **[Audience Marketplace帳單範例](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/audience-marketplace/audience-marketplace-for-data-buyers/marketplace-buyer-billing.html#billing-examples)** | 我們新增了一個案例 3 的範例，說明帳單如何適用於具有啟用和模型使用案例的區段。 |
 
 **修正和改良**
@@ -156,7 +164,7 @@ Cloud Manager 版本 2019.8.0 修正了各種小錯誤、改善建置效能，�
 
 **Software Distribution**
 
-[Software Distribution](https://downloads.experiencecloud.adobe.com/) 是專為簡化AEM套件的搜尋和下載而設計的全新使用者介面。 它目前處於測試狀態，僅供 Adobe Managed Services 客戶存取。
+[Software Distribution](https://downloads.experiencecloud.adobe.com/) is the new user interface designed to simplify the search and download of AEM Packages. 它目前處於測試狀態，僅供 Adobe Managed Services 客戶存取。
 
 * [在所有客戶都能存取「軟體散發](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html#PackageShare) 」之前，「套件共用」仍可供存取。
 * Package Share 和 Software Distribution 皆提供所有套件。
@@ -165,20 +173,20 @@ Cloud Manager 版本 2019.8.0 修正了各種小錯誤、改善建置效能，�
 
 **AEM 維護版本藍圖**
 
-See the AEM maintenance release roadmap as published here.[](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html)
+請參閱此處發佈的AEM維護髮行 [藍圖](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html)。
 
 ### 自助式
 
 **資產連結 1.1 搶鮮版**
 
-* [About Adobe Asset Link Prerelease](https://helpx.adobe.com/enterprise/using/adobe-asset-link-prerelease.html)
+* [關於Adobe Asset Link搶鮮版](https://helpx.adobe.com/enterprise/using/adobe-asset-link-prerelease.html)
 * [設定AEM for Adobe Asset Link的發行前版本](https://helpx.adobe.com/enterprise/using/configure-aem-for-aal-prerelease.html)
 
 **AEM Desktop App 2.0**
 
 AEM 桌面應用程式 2.0 (Mac 版) 已於 2019 年 8 月 30 日發行。AEM 桌面應用程式 2.0 (Windows 版) 將於 9 月初推出。
 
-Access documentation and downloads [here](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html).
+在這裡存取檔案和 [下載](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html)。
 
 **資產智慧標記**
 
@@ -190,7 +198,7 @@ Learn how to update a certificate after it has expired here.[](https://helpx.ado
 
 **自動化表單轉換服務**
 
-現已推出 AEM Forms 自動化表單轉換服務的說明文件。See [Introduction to Automated Forms Conversion service](https://helpx.adobe.com/experience-manager/Automated-Forms-Conversion-Service/introduction-to-automated-form-conversion-service.html).
+現已推出 AEM Forms 自動化表單轉換服務的說明文件。See Introduction to Automated Forms Conversion service.[](https://helpx.adobe.com/experience-manager/Automated-Forms-Conversion-Service/introduction-to-automated-form-conversion-service.html)
 
 ### 社群
 
@@ -239,8 +247,8 @@ Learn how to update a certificate after it has expired here.[](https://helpx.ado
 * [AEM 6.3 學習和支援首頁](https://helpx.adobe.com/support/experience-manager/6-3.html)
 * [AEM 6.2 學習和支援首頁](https://helpx.adobe.com/support/experience-manager/6-2.html)
 * [Cloud Manager 使用手冊](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [舊版AEM檔案](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
-* [Dynamic Media Classic Help Home](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+* [Older Versions of AEM Documentation](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [Dynamic Media Classic說明首頁](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
 * [Dynamic Media 發行說明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 發行說明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
@@ -265,8 +273,8 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### Adobe Campaign Classic
 
-* [Campaign Classic 19.1.4 update](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) – build 9032
-* [Campaign Classic 19.1.5 update](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033) – build 9033
+* [Campaign Classic 19.1.4 update – build 9032](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032)
+* [Campaign Classic 19.1.5 update – build 9033](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033)
 
 ### Adobe Campaign [!UICONTROL 控制面板]
 
