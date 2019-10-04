@@ -31,7 +31,7 @@ Adobe Experience Cloud 中的新功能及修正。
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) （解決方案說明的連結）
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) （解決方案說明的連結）
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links to solution help)
 
 ## Experience Cloud 和 Experience Platform{#platform}
 
@@ -42,7 +42,7 @@ Experience Platform 的發行說明、Experience Cloud 介面、產品管理、E
 * [Mobile Services 與 Mobile SDK](#mobile)
 * [管理與開發人員](#admin)
 * [Experience Platform Launch](#launch)
-* [安全性佈告欄和建議](https://helpx.adobe.com/security.html) （所有Adobe產品）
+* [安全性佈告欄和建議](https://helpx.adobe.com/security.html) (All Adobe products)
 
 ### 核心服務 {#core-services}
 
@@ -78,7 +78,7 @@ For product documentation, see [Experience Cloud and Core Services](https://docs
 
 功能和修正。
 
-For product documentation, see [Manage user and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+如需產品檔案，請參 [閱管理使用者和產品](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 ### Experience Platform Launch {#launch}
 
