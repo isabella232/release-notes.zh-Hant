@@ -2,10 +2,10 @@
 title: Adobe Experience Cloud 發行說明
 description: Experience Cloud 發行說明範本
 doc-type: 發行說明
-last-update: 2019 年 3 月
+last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 04228df4d9a7279fe2c8627aeb0bb7492d34327e
+source-git-commit: 94ac88d981c552deb801877398489b1819d1fc54
 
 ---
 
@@ -78,7 +78,7 @@ For product documentation, see [Experience Cloud and Core Services](https://docs
 
 功能和修正。
 
-如需產品檔案，請參 [閱管理使用者和產品](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)。
+For product documentation, see [Manage user and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Experience Platform Launch {#launch}
 
