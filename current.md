@@ -5,12 +5,12 @@ doc-type: 發行說明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 59bbe7ddd5cbbcb653d6c44223b644257dd94cb4
+source-git-commit: 8ef4569f130fe606dc9119a11e288f57205b7c0e
 
 ---
 
 
-# Early Access - Experience Cloud Release Notes - October 2019
+# 提早存取- Experience cloud發行說明- 2019年10月
 
 Adobe Experience Cloud 中的新功能及修正。
 
@@ -30,7 +30,7 @@ Adobe Experience Cloud 中的新功能及修正。
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links to solution help)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) （解決方案說明的連結）
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) （解決方案說明的連結）
 
 <!-- ## Experience Cloud interface {#ecloud}
@@ -47,7 +47,7 @@ For product documentation, see [Experience Cloud](https://docs.adobe.com/content
 Experience Platform、Experience Platform Launch、身分服務和安全性佈告欄的發行說明。
 
 * [Experience Platform Launch](#launch)
-* [安全性佈告欄和建議](https://helpx.adobe.com/security.html) (All Adobe products)
+* [安全性佈告欄和建議](https://helpx.adobe.com/security.html) （所有Adobe產品）
 
 ### Experience Platform Launch {#launch}
 
@@ -67,27 +67,27 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 功能 | 說明 |
 | -----------| ---------- |  
-| 隱私權服務API:CCPA | 加州消費者隱私法(CCPA)加強了美國加州居民的隱私權和消費者保護。 本法定於2020年1月1日生效。<br><br/>CCPA為加州居民提供新的資料隱私權，例如存取和刪除其個人資料的權利，以知道其個人資料是否被出售或被披露（以及向誰），以及拒絕銷售其個人資料。<br><br/>In anticipation of the CCPA, the Privacy Service will support requests to opt out of the selling of personal data.<br><br/>隱私權服務先前稱為GDPR服務，並保留所有先前的功能，現在已擴充以支援CCPA。<br/>CCPA in Analytics: (content forthcoming) <br><br/>[Privacy Service Overview](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
-| 隱私權報告：Analytics管理控制台 | 啟用Analytics的隱私權報表會將一組保留變數新增至報表套裝。  這些變數設計為協助在點擊層級收集消費者同意資料。<br/>新維度：<br/><ul><li>同意管理選擇退出</li><li>Consent Management Opt-In</li><li>Consent Management Variables: <!-- `[Link to new Consent Variables page in Analytics]()` --></li></ul> |
-| Audio and Video Analytics: Privacy Support | Two new variables have been added to the Media Collection API:<br/><ul><li> analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul>這些是可選變數，可用於擷取點擊時消費者同意的狀態。 [媒體收集API文](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/>件新的Analytics同意管理上下文資料變數已新增至同盟分析表單。 這些變數現在可用於標籤聯盟的退出分享或銷售點擊。 [Download Federated Form](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
-| 分析工作區：更新至自由表格總計 | Freeform tables now include two totals, a Table total and a Grand total. ********&#x200B;套用報表篩選的「表格」 [總列帳戶](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 。 以前，只有區段會影響總計。 [更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>資訊此外，「 **[!UICONTROL 欄設定」中已新增「顯]** 示總計」和「顯示總計 **[!UICONTROL 」選項]******。<br/>對自由格式總計的這項變更會更新相依視覺化(例如連結的摘要數字視覺化 **** )，以及匯出的CSV和PDF資料。 |
-| 分析工作區：移除「未指定／無」的選項 | The ability to easily remove ‘Unspecified (None)’ has been added as an option to report filters. |
-| 分析工作區：取代紫色粒度元件 | 紫色詳細程度的時間元件（分鐘、小時、日、周、月、季、年）已過時。 紫色時間元件的行為一向與橘色尺寸元件完全相同，因此這項變更將簡化體驗。 **如果您先前使用** 其中一個紫色時間元件，則不需要採取任何動作。<br/>With this change, the purple Time section has also been renamed to Date Ranges.******** |
+| 隱私權服務API:CCPA | 加州消費者隱私法(CCPA)加強了美國加州居民的隱私權和消費者保護。 本法定於2020年1月1日生效。<br><br/>CCPA為加州居民提供新的資料隱私權，例如存取和刪除其個人資料的權利，以知道其個人資料是否被出售或被披露（以及向誰），以及拒絕銷售其個人資料。<br><br/>在CCPA即將推出之前，隱私權服務將支援拒絕銷售個人資料的要求。<br><br/>隱私權服務先前稱為GDPR服務，並保留所有先前的功能，現在已擴充以支援CCPA。<br/>Analytics中的CCPA:（即將推出的內容）隱 <br><br/>[私權服務概觀](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
+| 隱私權報告：Analytics管理控制台 | 啟用Analytics的隱私權報表會將一組保留變數新增至報表套裝。  這些變數設計為協助在點擊層級收集消費者同意資料。<br/>新維度：<br/><ul><li>同意管理選擇退出</li><li>同意管理選擇加入</li><li>同意管理變數： <!-- `[Link to new Consent Variables page in Analytics]()` --></li></ul> |
+| 音訊和視訊分析：隱私權支援 | Media Collection API已新增兩個新變數：<br/><ul><li>analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul>這些是可選變數，可用於擷取點擊時消費者同意的狀態。 [媒體收集API文](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/>件新的Analytics同意管理上下文資料變數已新增至同盟分析表單。 這些變數現在可用於標籤聯盟的退出分享或銷售點擊。 [下載同盟表單](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
+| 分析工作區：更新至自由表格總計 | 自由表格現在包含兩個總計， **[!UICONTROL 一個表格總計]** ，一個 **[!UICONTROL 總計]**。 套用報表篩選的「表格」 [總列帳戶](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 。 以前，只有區段會影響總計。 [更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>資訊此外，「 **[!UICONTROL 欄設定」中已新增「顯]** 示總計」和「顯示總計 **[!UICONTROL 」選項]******。<br/>對自由格式總計的這項變更會更新相依視覺化(例如連結的摘要數字視覺化 **** )，以及匯出的CSV和PDF資料。 |
+| 分析工作區：移除「未指定／無」的選項 | 已新增可輕鬆移除「未指定（無）」的功能，做為報告篩選器的選項。 |
+| 分析工作區：取代紫色粒度元件 | 紫色詳細程度的時間元件（分鐘、小時、日、周、月、季、年）已過時。 紫色時間元件的行為一向與橘色尺寸元件完全相同，因此這項變更將簡化體驗。 **如果您先前使用** 其中一個紫色時間元件，則不需要採取任何動作。<br/>透過這項變更，紫色 **[!UICONTROL 時間]** (Purple Time **[!UICONTROL )區段也已重新命名為]**&#x200B;日期範圍。 |
 
 #### 修正
 
 * 分析工作區：修正搜尋左側導軌中的維度項目時，搜尋結果不正確的問題。 (AN-185065)
 * 已修正在Adobe Audience Manager(AAM)中無法刪除或取消發佈共用區段的問題。 修正是，如果AAM沒有回應，則不會刪除區段。 (AN-185882、AN-185883、AN-184607)
 * 修正臨機分析中無法載入區段的逾時問題。 (AN-184654)
-* Fixed an issue that occurred when the report suite you last used was subsequently hidden or you no longer had permissions to access this report suite. 在此情況下，您無法再透過Experience cloud登入。 (AN-181777)
+* 修正您上次使用的報表套裝隨後隱藏或您不再擁有存取此報表套裝權限時所發生的問題。 在此情況下，您無法再透過Experience cloud登入。 (AN-181777)
 * 修正區段中的逾時問題，此問題會讓您難以根據區段建立VRS。 (AN-179684)
 
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
 | 注意 | 新增日期或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 終止支援 TLS 1.1 | 2019 年 10 月 3 日 | By March 31, 2020, Adobe Analytics will remove support for TLS 1.1. This change is part of our ongoing efforts to maintain the highest security standards and promote the safety of customer data. |
-| San Jose FTP Broker Ending for London and Singapore | 2020 年 7 月 | 對於倫敦和新加坡的客戶，我們將不再支援在倫敦或新加坡與聖荷西資料中心 [ftp.omniture.com之間進行資料中介](ftp://ftp.omniture.com/)。<br/><ul><li>For London use [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>若是新加坡， [請使用ftp4.omniture.com](ftp://ftp4.omniture.com/)</li> |
+| 終止支援 TLS 1.1 | 2019 年 10 月 3 日 | 到2020年3月31日，Adobe Analytics將移除對TLS 1.1的支援。此項變更是我們持續努力的一部分，旨在維持最高的安全標準並提升客戶資料的安全性。 |
+| 聖荷西FTP經紀人倫敦和新加坡結束 | 2020 年 7 月 | 對於倫敦和新加坡的客戶，我們將不再支援在倫敦或新加坡與聖荷西資料中心 [ftp.omniture.com之間進行資料中介](ftp://ftp.omniture.com/)。<br/><ul><li>若是倫敦 [使用ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>若是新加坡， [請使用ftp4.omniture.com](ftp://ftp4.omniture.com/)</li> |
 | 更新為 Analysis Workspace 自由表格總計 | 2019 年 9 月 12 日 | 在2019年10月，自由表格總計行將開始計入套用的報 [表篩選](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 。 就目前而言，總計僅計入分段。經過此變更後，將會更新依據的視覺效果 (例如連結的[!UICONTROL 摘要數字]視覺效果)，以及 CSV 和 PDF 資料。 |
 | 關於 Analytics 使用者 `createDate` 欄位的近期變更 | 2019 年 8 月 30 日 | 在 2019 年 10 月或 11 月期間，系統會使用時區資訊，將 Analytics 使用者的 `createDate` 欄位從美國太平洋時間更新為格式正確的日期/時間值。(AN-183468) |
 | 支援歷史時區位移 | 2019 年 8 月 8 日 | 現在起，Analytics 會自動處理時間戳記點擊的時區位移。8 月 8 日完成此變更後，系統載入歷史資料加以處理時，便不需要在傳送資料前調整時區位移。 |
@@ -115,16 +115,23 @@ Audience Manager 中的新功能、增強功能和修正
 **修正和改良**
 
 * 所有在2019年7月1日之後建立的客戶帳戶都會自動獲得授權， [!DNL Tableau] 讓他們可以存取其報表。 如果您的帳戶是在2019年7月1日之前建立，而您仍無權存取報表，請連 [!DNL Tableau] 絡客戶服務。
-* We've removed incorrectly generated activity trait memberships for visitor profiles that did not have an ID synchronization with the trait data source (AAM-45371).
-* We've removed invalid global device IDs from global data sources. 請參 [閱全域資料來源](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html) ，瞭解Audience manager應接受哪些有效裝置ID(AAM-41259)。
+* 我們已移除未與特徵資料來源進行ID同步的訪客描述檔的錯誤產生活動特徵成員資格(AAM-45371)。
+* 我們已從全域資料來源移除無效的全域裝置ID。 請參 [閱全域資料來源](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html) ，瞭解Audience manager應接受哪些有效裝置ID(AAM-41259)。
 * 修正當您嘗試刪除受保護的區段時，造成「區段」頁面停止回應的錯誤(AAM-49881)。
 * 編輯「Twitter量身訂做的觀眾」的目標時， [!UICONTROL Account] （帳戶）選擇器現在只會在目標未指派帳戶 [!DNL Twitter Ads] 時啟用(AAM-49975)。
-* Fixed a bug preventing users from disabling Audience Marketplace data feeds when subscriptions are disabled (AAM-49640).
+* 已修正當訂閱停用時，使 [!UICONTROL 用者無法停用Audience Marketplace] 資料饋送的錯誤(AAM-49640)。
 * 我們對 Audience Manager 使用者介面的協助工具進行了幾項相關的改良。
 
 ## Experience Manager {#aem}
 
 Adobe Experience Manager (AEM) 中的新功能、修正及更新。Adobe 建議使用內部部署的客戶部署最新修補程式，以確保擁有更出色的穩定性、安全性及效能。
+
+### 產品發行
+
+* **Cloud Manager 2019.9.0**
+
+   Cloud Manager 2019.9.0（於2019年9月12日發行）會更新安全性測試標準、新增可下載的監控圖表，並修正客戶回報的可用性問題。
+   * [發行說明](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 
 ### 產品維護
 
@@ -146,24 +153,24 @@ Adobe Experience Manager (AEM) 中的新功能、修正及更新。Adobe 建議�
 
 ### 自助式
 
-* **Scene7: Reprocess Assets workflow**
+* **Scene7:重新處理資產工作流程**
 
    您現在可以重新處理已有現有處理設定檔的資料夾中的資產，而您稍後會加以變更。
 請參 [閱編輯資料夾的處理設定檔後，重新處理資產](https://helpx.adobe.com/experience-manager/6-5/assets/using/processing-profiles.html#Reprocessingassetsinafolderafteryouhaveediteditsprocessingprofile)。
 
-* **Integration of Dynamic Media Viewers with Adobe Analytics and Adobe Launch**
+* **將動態媒體檢視器與Adobe Analytics和Adobe Launch整合**
 
    Adobe Launch的Dynamic Media Viewers擴充功能以及Dynamic Media Viewers 5.13的發行，可讓Dynamic Media、Adobe Analytics和Adobe Launch的客戶在其Adobe Launch設定中使用Dynamic Media Viewers專屬的事件和資料。
-See Integrating Dynamic Media Viewers with Adobe Analytics and Adobe Launch.[](https://helpx.adobe.com/experience-manager/6-5/assets/using/launch.html)
+請參 [閱「整合動態媒體檢視器與Adobe Analytics和Adobe Launch」](https://helpx.adobe.com/experience-manager/6-5/assets/using/launch.html)。
 
 * **AEM案頭應用程式**
 
-   AEM desktop app 2.0 is now available for creatives, marketers, and line-of-business users, to work with AEM Assets.
-See the AEM desktop app Release notes.[](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html)
+   AEM案頭應用程式2.0現已可供創意人員、行銷人員和業務線使用者使用，以搭配AEM Assets使用。
+請參閱 [AEM案頭應用程式版本注意事項。](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html)
 
 * **核心元件**
    * 瞭解核心元件的本地化功能，以及它們如何使用AEM範本。
-      [See the example.](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/get-started/localization.html)
+      [請參閱範例](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/get-started/localization.html)。
    * 核心元件2.6.0提供體驗片段元件。 此元件現在可在GitHub上 [取得](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) ，以 [及製作檔案和開發人員詳細資](https://github.com/adobe/aem-core-wcm-components)訊以及專案下載。
 
 * **AEM Assets**
@@ -181,7 +188,7 @@ See the AEM desktop app Release notes.[](https://docs.adobe.com/content/help/en/
 * [AEM 6.3 學習和支援首頁](https://helpx.adobe.com/support/experience-manager/6-3.html)
 * [AEM 6.2 學習和支援首頁](https://helpx.adobe.com/support/experience-manager/6-2.html)
 * [Cloud Manager 使用手冊](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [Older Versions of AEM Documentation](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [舊版AEM檔案](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
 * [Dynamic Media Classic說明首頁](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
 * [Dynamic Media 發行說明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 發行說明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
@@ -192,7 +199,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### Adobe Campaign Classic
 
-* [Campaign Classic 19.1.4 update – build 9032](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032)
+* [Campaign Classic 19.1.4更新](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) -組建9032
 * [Campaign Classic 19.1.6更新](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html#release-19-1-6-build-9035) -組建9035
 
 ### 其他資源
