@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b4a973b8292ecfd8b203b7fac0b391e42924a7ca
+source-git-commit: 0b49b33936be089aaa6f910eeb1af9138a55ae17
 
 ---
 
@@ -132,7 +132,7 @@ Adobe Experience Manager (AEM) 中的新功能、修正及更新。Adobe 建議�
 
 * **Cloud Manager 2019.9.0**
 
-   Cloud Manager 2019.9.0（於2019年9月12日發行）會更新安全性測試標準、新增可下載的監控圖表，並修正客戶回報的可用性問題。
+   * Cloud Manager 2019.9.0（於2019年9月12日發行）會更新安全性測試標準、新增可下載的監控圖表，並修正客戶回報的可用性問題。
    * [發行說明](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 
 ### 產品維護
