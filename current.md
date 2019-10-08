@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6660591c30a677b429967c0b7dbee6a306ed7f54
+source-git-commit: b4a973b8292ecfd8b203b7fac0b391e42924a7ca
 
 ---
 
@@ -117,7 +117,7 @@ Audience Manager 中的新功能、增強功能和修正
 **修正和改良**
 
 * 所有在2019年7月1日之後建立的客戶帳戶都會自動獲得授權， [!DNL Tableau] 讓他們可以存取其報表。 如果您的帳戶是在2019年7月1日之前建立，而您仍無權存取報表，請連 [!DNL Tableau] 絡客戶服務。
-* 我們已移除未與特徵資料來源進行ID同步的訪客描述檔的錯誤產生活動特徵成員資格(AAM-45371)。
+* 我們已修正錯誤，造成錯誤產生活動特徵，並人為地提高比對率和受眾規模。 在此修正後，您可能會注意到使用自動產生的活動特徵所建立的區段大小會減少。 這是正常的預期行為(AAM-45371)。
 * 我們已從全域資料來源移除無效的全域裝置ID。 請參 [閱全域資料來源](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html) ，瞭解Audience manager應接受哪些有效裝置ID(AAM-41259)。
 * 修正當您嘗試刪除受保護的區段時，造成「區段」頁面停止回應的錯誤(AAM-49881)。
 * 編輯「Twitter量身訂做的觀眾」的目標時， [!UICONTROL Account] （帳戶）選擇器現在只會在目標未指派帳戶 [!DNL Twitter Ads] 時啟用(AAM-49975)。
