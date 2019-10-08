@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ef4569f130fe606dc9119a11e288f57205b7c0e
+source-git-commit: 6660591c30a677b429967c0b7dbee6a306ed7f54
 
 ---
 
@@ -81,6 +81,8 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 * 修正臨機分析中無法載入區段的逾時問題。 (AN-184654)
 * 修正您上次使用的報表套裝隨後隱藏或您不再擁有存取此報表套裝權限時所發生的問題。 在此情況下，您無法再透過Experience cloud登入。 (AN-181777)
 * 修正區段中的逾時問題，此問題會讓您難以根據區段建立VRS。 (AN-179684)
+* 修正當資料在少數情況下發生錯誤編碼時，會截斷的問題。 (AN-186707)
+* Yandex搜尋引擎現在可依國家／地區正確劃分。 (AN-181728)
 
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
