@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dc067709de5d85aa142067f4d2e14e80cca4476e
+source-git-commit: 3d35a004385f3e94feeb205d25e6c420e54ca835
 
 ---
 
@@ -67,8 +67,8 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 功能 | 說明 |
 | -----------| ---------- |  
-| 隱私權服務API:CCPA | 加州消費者隱私法(CCPA)加強了美國加州居民的隱私權和消費者保護。 本法定於2020年1月1日生效。<br/><br/>CCPA為加州居民提供新的資料隱私權，例如存取和刪除其個人資料的權利，以知道其個人資料是否被出售或被披露（以及向誰），以及拒絕銷售其個人資料。<br/><br/>在CCPA即將推出之前，隱私權服務將支援拒絕銷售個人資料的要求。<br/><br/>隱私權服務先前稱為GDPR服務，並保留所有先前的功能，現在已擴充以支援CCPA。<br/><br/>[Analytics中的CCPA](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br/><br/>`Link activating by 10/10/19 - [Privacy Service Overview](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)` |
-| 隱私權報告：Analytics管理控制台 | 啟用Analytics的隱私權報表會將一組保留變數新增至報表套裝。  這些變數設計為協助在點擊層級收集消費者同意資料。<br/><br/>新維度：<br/><ul><li>同意管理選擇退出</li><li>同意管理選擇加入</li><li>`Link activating by 10/10/19 - [Consent Management Variables](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)`</li></ul> |
+| 隱私權服務API:CCPA | 加州消費者隱私法(CCPA)加強了美國加州居民的隱私權和消費者保護。 本法定於2020年1月1日生效。<br/><br/>CCPA為加州居民提供新的資料隱私權，例如存取和刪除其個人資料的權利，以知道其個人資料是否被出售或被披露（以及向誰），以及拒絕銷售其個人資料。<br/><br/>在CCPA即將推出之前，隱私權服務將支援拒絕銷售個人資料的要求。<br/><br/>隱私權服務先前稱為GDPR服務，並保留所有先前的功能，現在已擴充以支援CCPA。<br/><br/>[Analytics中的CCPA隱](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br/><br/>[私權服務概述](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
+| 隱私權報告：Analytics管理控制台 | 啟用Analytics的隱私權報表會將一組保留變數新增至報表套裝。  這些變數設計為協助在點擊層級收集消費者同意資料。<br/><br/>新維度：<br/><ul><li>同意管理選擇退出</li><li>同意管理選擇加入</li><li>[同意管理變數](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)</li></ul> |
 | 音訊和視訊分析：隱私權支援 | Media Collection API已新增兩個新變數：<br/><ul><li>analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul><br/><br/>這些是可選變數，可用於擷取點擊時消費者同意的狀態。<br/><br/>[媒體收集API文](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/><br/>件新的Analytics同意管理上下文資料變數已新增至同盟分析表單。 這些變數現在可用於標籤聯盟的退出分享或銷售點擊。<br/><br/>[下載同盟表單](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
 | 分析工作區：更新至自由表格總計 | 自由表格現在包含兩個總計， **[!UICONTROL 一個表格總計]** ，一個 **[!UICONTROL 總計]**。 套用報表篩選的「表格」 [總列帳戶](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 。 以前，只有區段會影響總計。 [更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>資訊此外，「 **[!UICONTROL 欄設定」中已新增「顯]** 示總計」和「顯示總計 **[!UICONTROL 」選項]******。<br/>對自由格式總計的這項變更會更新相依視覺化(例如連結的摘要數字視覺化 **** )，以及匯出的CSV和PDF資料。 |
 | 分析工作區：移除「未指定／無」的選項 | 已新增可輕鬆移除「未指定（無）」的功能，做為報告篩選器的選項。 |
