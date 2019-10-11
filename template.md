@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 94ac88d981c552deb801877398489b1819d1fc54
+source-git-commit: bf2c8f512aac526511b959108b00023f02765de3
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Cloud 中的新功能及修正。
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) （解決方案說明的連結）
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links to solution help)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) （解決方案說明的連結）
 
 ## Experience Cloud 和 Experience Platform{#platform}
 
@@ -42,7 +42,7 @@ Experience Platform 的發行說明、Experience Cloud 介面、產品管理、E
 * [Mobile Services 與 Mobile SDK](#mobile)
 * [管理與開發人員](#admin)
 * [Experience Platform Launch](#launch)
-* [安全性佈告欄和建議](https://helpx.adobe.com/security.html) (All Adobe products)
+* [安全性佈告欄和建議](https://helpx.adobe.com/security.html) （所有Adobe產品）
 
 ### 核心服務 {#core-services}
 
@@ -245,7 +245,10 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 * 修正
 * 修正
 
-如需產品文件，請參閱:
+### 其他資源
+
+* Adobe Campaign Standard:文 [件](https://helpx.adobe.com/support/campaign/standard.html) -發 [行說明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [操作視訊](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) -發 [行規劃](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## Advertising Cloud {#adcloud}
 
