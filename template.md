@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bf2c8f512aac526511b959108b00023f02765de3
+source-git-commit: f29249827ee258caa8f4cc7e78d45ae4e6f84e08
 
 ---
 
@@ -245,7 +245,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 * 修正
 * 修正
 
-### 其他資源
+**其他資源**
 
 * Adobe Campaign Standard:文 [件](https://helpx.adobe.com/support/campaign/standard.html) -發 [行說明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [操作視訊](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) -發 [行規劃](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
