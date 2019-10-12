@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0b28b2835840757a936434b28597526069e19517
+source-git-commit: 0371f31dcb1feb368bd8a2937a9f2d9583e208dc
 
 ---
 
@@ -28,6 +28,7 @@ Adobe Experience Cloud 中的新功能及修正。
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) （解決方案說明的連結）
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) （解決方案說明的連結）
+* [!DNL Advertising Cloud](#adcloud)
 
 <!-- ## Experience Cloud interface {#ecloud}
 
@@ -204,3 +205,17 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 * Adobe Campaign Standard:文 [件](https://helpx.adobe.com/support/campaign/standard.html) -發 [行說明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [操作視訊](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) -發 [行規劃](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+
+## Advertising Cloud {#adcloud}
+
+2019年10月12日發行更新
+
+| 檢視 | 功能 |
+|------|---------|
+| 搜尋促銷活動 | Advertising cloud現在可以同步並提供Yahoo！上帳戶的廣告層級追蹤 日本顯示網路。 如果您提供帳戶的登入詳細資訊，則帳戶中所有現有的促銷活動、廣告群組和廣告都可在促銷活動管理檢視中顯示為唯讀。 您可在促銷活動管理檢視以及基本和進階報表中，使用點按、成本、轉換和其他績效資料。 |
+|  | （具有Google Analytics的廣告商）Advertising Cloud Search可以同步特定Google Analytics帳戶、屬性的轉換度量，並檢視組合以進行最佳化和報告。 頁面檢視、工作階段、反彈率（以彈回數／工作階段計算）和工作階段持續時間自動包含在內。 每個資料來源最多可包含16個額外度量。 |
+|  | （現有的Google Ads帳戶適用於具有Advertising Cloud-Adobe Analytics整合的廣告商）s_kwcid追蹤代碼有新格式，可讓Advertising cloud透過Adobe Analytics報告與分析功能分享帳戶相關資料。 最新格式包含促銷活動ID和廣告群組ID的參數，這是在Analytics的Google Drafts和Experies促銷活動中，在促銷活動和廣告群組層級準確報告的必要條件。 如果您現有的Google帳戶包含Google草稿和實驗促銷活動，請編輯每個帳戶的「帳戶追蹤」設定，以移轉至新的s_kwcid。 如果您沒有Google Drafts和Experies促銷活動，則移轉至新格式是選擇性的。 注意：所有新的Google帳戶都會自動使用新格式。 |
+| 搜尋 Advanced Campaign Management (ACM) | （Google廣告促銷活動）您現在可以設定Google文字廣告和購物廣告範本的促銷活動層級最終URL字尾。 |
+|  | （Google Ads促銷活動）Google擴充文字廣告可使用選用的「Headline 3」和「Description 2」欄位。 |
+| 報表 | 下列Bing Ads曝光分享量度（已與最新的Bing Ads API一起停止）不會在10月11日之後收集： 搜尋因排名而遺失%、搜尋因競標而遺失%(Bing)、搜尋因頁面相關性而遺失%(Bing)，以及搜尋因關鍵字相關性而遺失%(Bing)。 先前收集的量度仍可用於報告。 |
+| Adobe Analytics 整合功能 | （僅限具有Adobe Analytics的廣告商）在分析工作區中，「裝置(AMO ID)」維度（從未收集過資料）已不再提供。 若要報告線上Analytics資料，請使用「行動裝置類型」維度。若要依裝置類型報告搜尋引擎流量量度（例如點按、成本和印象），請繼續使用Advertising Cloud Search中的報告。 |
