@@ -2,7 +2,7 @@
 title: Adobe Experience Cloud 發行說明
 description: Experience Cloud 發行說明範本
 doc-type: 發行說明
-last-update: 2019 年 11 月 日
+last-update: 2019 年 10 月 30 日
 author: mfrei
 translation-type: tm+mt
 source-git-commit: 2c6076aa0af7b9a273e31b1f8919e006ff48e6b4
@@ -18,7 +18,7 @@ Adobe Experience Cloud 中的新功能及修正。
 
 > [!NOTE]訂閱 [[!DNL Adobe 優先產品更新]](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。產品發行後才會發佈的新資訊皆會標示發佈日期。
 
-**發行日期: 2019 年 30 月 10 日**
+**發行日期: 2019 年 10 月 30 日**
 
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
