@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 11 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0fba1b7a9cef1262a4fa03188ba81b1d1a15a2e4
+source-git-commit: 386664d1decd801eb894bead1afe848dfef22795
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Cloud 中的新功能及修正項目。
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (前往解決方案說明的連結)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (前往解決方案說明的連結)
-* [!DNL Advertising Cloud](#adcloud) （更新日期11/1）
+* [!DNL Advertising Cloud](#adcloud) (11 月 1 日更新)
 
 在找說明首頁嗎？ 請參閱 [Experience Cloud 學習與支援](https://helpx.adobe.com/support/experience-cloud.html)。
 
@@ -108,7 +108,7 @@ Adobe Analytics 中的新功能和修正:
 
 ## Audience Manager {#aam}
 
-Audience Manager 中的新功能、增強功能和修正
+### New features, enhancements, and fixes in Audience Manager {#aam-new-features}
 
 | 功能 | 說明 |
 |--- |----|
@@ -117,7 +117,20 @@ Audience Manager 中的新功能、增強功能和修正
 | [大量管理工具](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) | 我們已發佈新版的「大量管理」工作表，不僅能在 MacOS 和 Microsoft Windows 作業系統上使用，且支援 Experience Cloud 登入。 |
 | [HTTP Strict-Transport-Security](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts) | 新增 [!DNL HTTP Strict-Transport-Security] 的支援功能，此 Web 安全政策可抵禦 Cookie 劫持和通訊協定降級攻擊。 |
 
-**修正和改良**
+### 增強功能 {#aam-enhancements}
+
+自2019年11月起，除了先前支援的Cookie、IDFA和GAID裝置ID外，Audience manager還支援將Roku ID、Amazon Fire TV ID和Xbox/Microsoft ID傳送至Google Ad Manager和DV360目的地。 您不需要在現有的Google整合中變更任何項目。
+
+在Audience Manager中，Roku ID、Amazon Fire TV ID和Xbox/Microsoft ID稱為全域裝置ID。 您可以在Audience manager產品檔案中閱讀更多有關這些ID及其關聯的資料來源：
+
+* [全域裝置ID](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids)
+* [全球資料來源](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html)
+
+Roku、Amazon Fire TV和Xbox/Microsoft資料來源的資料擷取方式與IDFA和GAID的運作方式相同——當擷取已關閉資料的資料時，會自動產生Audience Manager ID並連結至DAID。 新ID會自動傳送至您帳戶中設定的現有和新Google目標。
+
+如需詳細資訊，請連絡您的Audience manager顧問或客戶服務。
+
+### 修正和改良 {#aam-fixes-and-improvements}
 
 * 已修正 Audience Marketplace 中，客戶提交每月區段使用情況時 UI 傳回「錯誤 409」的問題。(AAM-50825)
 * 已修正客戶暫時無法在「衍生訊號」中建立新衍生訊號的問題。(AAM-50968)
