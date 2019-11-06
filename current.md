@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 11 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 69b1516bd6bea67429843ba6a47082bf7e211a4c
+source-git-commit: 0fba1b7a9cef1262a4fa03188ba81b1d1a15a2e4
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 69b1516bd6bea67429843ba6a47082bf7e211a4c
 
 Adobe Experience Cloud 中的新功能及修正項目。
 
-> [!NOTE]訂閱[[!DNL Adobe 優先產品更新]](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。產品發行後才發佈的新資訊皆會標示發佈日期。
+> [!NOTE]訂閱 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。產品發行後才發佈的新資訊皆會標示發佈日期。
 
 **發行日期: 2019 年 10 月 31 日**
 
@@ -68,7 +68,7 @@ Adobe Analytics 中的新功能和修正:
 
 | 功能 | 說明 |
 | -----------| ---------- | 
-| 客戶歷程分析 | Adobe 將於 2019 年 11 月 21 日起，將以 Adobe Analytics 附加元件的形式提供[「客戶歷程分析」](https://www.adobe.com/analytics/customer-journey-analytics.html)。<br><br/>「客戶歷程分析」可將您從任何管道取得的所有客戶資料 (線上及離線皆可) 整合到 Adobe Experience Platform 中，接著依您目前使用 Analysis Workspace 分析現有數位資料的方式加以分析。「客戶歷程分析」可讓您控制如何在 Analysis Workspace 中連線任何常見客戶 ID 的線上和離線資料，進而允許您針對 Adobe Analytics 中的整個客戶資料集執行歸因、區段、流量、流失等分析。<br><br/>Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資格。如需詳細資訊，請連絡您的 Adobe 客戶團隊。 |
+| 客戶歷程分析 | On November 21, 2019, [Customer Journey Analytics](https://www.adobe.com/analytics/customer-journey-analytics.html) becomes available as an add-on to Adobe Analytics.<br><br/>客戶歷程分析可讓您從任何您選擇的通道中獲取客戶資料— 線上及線下皆可— 整合到Adobe Experience Platform中，然後像您現有的使用分析工作區分析資料一樣分析這些資料。 「客戶歷程分析」可讓您控制如何在 Analysis Workspace 中連線任何常見客戶 ID 的線上和離線資料，進而允許您針對 Adobe Analytics 中的整個客戶資料集執行歸因、區段、流量、流失等分析。<br><br/>Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資格。如需詳細資訊，請連絡您的 Adobe 客戶團隊。 |
 | 隱私權服務 API: CCPA | 加州消費者隱私權法案 (California Consumer Privacy Act, CCPA) 強化了美國加州居民的隱私權和消費者保護力道。此法案已訂於 2020 年 1 月 1 日生效。<br><br/>CCPA 為加州居民提供了新的資料隱私權，例如有權存取和刪除其個人資料、有權得知其個人資料是否遭到販售或揭露 (以及對象是誰)，以及有權拒絕廠商販售其個人資料。<br><br/>有鑑於 CCPA 即將生效，隱私權服務將會支援請求退出個人資料販售行列的功能。<br><br/>隱私權服務先前稱為 GDPR 服務，其不僅保留了先前的一切功能，現在更擴大為支援 CCPA。<br/><br/>[Analytics 中的 CCPA](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br><br/>[隱私權服務概觀](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
 | 隱私權報告: Analytics Admin Console | 為 Analytics 啟用隱私權報告時，報表套裝中會新增一組保留變數。這些變數的設計目的，是要協助系統在點擊層級收集消費者同意資料。<br><br/>新維度:<br/><ul><li>同意管理選擇退出</li><li>同意管理選擇加入</li><li>[同意管理變數](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)</li></ul> |
 | 音訊和視訊分析: 隱私權支援 | Media Collection API 已新增兩個新變數:<br/><ul><li>analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul><br/><br/>這兩者皆為可選變數，可用來擷取消費者在點擊時的同意狀態。<br/><br/>[媒體收集 API 文件](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/><br/>新的 Analytics 同意管理內容資料變數已新增至 Federated Analytics 表格。這些變數現在可用於標記選擇退出同盟的分享或販售點擊。<br/><br/>[下載 Federated Form](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
@@ -113,7 +113,7 @@ Audience Manager 中的新功能、增強功能和修正
 | 功能 | 說明 |
 |--- |----|
 | [設定檔合併規則增強功能](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html) | 我們針對[!UICONTROL 設定檔合併規則]發佈了一系列增強功能: <ul><li>現起支援批次區段評估，最多可評估 100 部裝置。</li><li>已改善特徵和區段人口的報表準確度。</li><li>已改善使用跨裝置 ID 產生批次檔案的準確度。</li><li>已更新說明文件，為各規則提供更詳細的使用案例。請參閱[設定檔合併規則一般使用案例](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rule-targeting-options.html)、[外部裝置圖形使用案例](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/external-graph-use-cases.html)，以及[設定檔連結裝置圖形使用案例](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/profile-link-use-case.html)。</li></ul> |
-| [Adobe Sensei支援的Audience Marketplace資料智慧建議](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/trait-recommendations.html) | 有了「特徵建議」，當您在「區段產生器」中建立或編輯區段時 [，現在會從](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder.html)Audience Marketplace  資料饋送獲得建議，建議您可加入其他特徵。 將建議的特徵加入區段，有助於擴大您的目標對象範圍。<br>  此外，我們已重新設計 [!UICONTROL Marketplace] 頁面，讓您更容易找到類似特性並篩選資料饋送。 |
+| [由 Adobe Sensei 提供技術支援的 Audience Marketplace 資料智慧建議](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/trait-recommendations.html) | 有了「特徵建議」，當您在[「區段產生器」](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder.html)中建立或編輯區段時，對於可以納入的其他特徵，您現在可以從尚未訂閱的 [!UICONTROL Audience Marketplace] 資料摘要獲得建議。將建議的特徵加入區段，有助於擴大您的目標對象範圍。<br>  此外，我們已重新設計 [!UICONTROL Marketplace] 頁面，讓您更容易找到類似特徵並篩選資料摘要。 |
 | [大量管理工具](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) | 我們已發佈新版的「大量管理」工作表，不僅能在 MacOS 和 Microsoft Windows 作業系統上使用，且支援 Experience Cloud 登入。 |
 | [HTTP Strict-Transport-Security](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts) | 新增 [!DNL HTTP Strict-Transport-Security] 的支援功能，此 Web 安全政策可抵禦 Cookie 劫持和通訊協定降級攻擊。 |
 
@@ -210,10 +210,10 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ## Advertising Cloud {#adcloud}
 
-2019年11月2日發行更新
+2019 年 11 月 2 日版本的更新
 
 | 檢視 | 功能 |
 |------|---------|
-| 轉換追蹤 | Advertising Cloud JavaScript轉換對應標籤現在支援追蹤來自Mozilla Firefox第69版及更新版本的點進次數，預設會封鎖協力廠商Cookie。 相同的標籤已包含對Apple Safari的支援。<br><br/>如果您使用Advertising cloud轉換追蹤，但尚未部署Advertising cloud轉換對應標籤，請在所有登陸頁面上部署下列程<br></br>`<script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>`<br></br>式碼：此標籤支援Advertising Cloud javaScript v2和v3轉換追蹤標籤，而非影像追蹤標籤。 |
-| 產品組合 | 啟用「啟用促銷活動最大支出%目標」作品集選項時，現在不會超過最大支出目標。 以前，Advertising cloud會超過最大支出目標，而這是最佳的。 |
-| 搜尋對象 | 您位於「搜尋&gt;觀眾&gt;資料庫」的觀眾庫現在會自動包含「觀眾大小」欄，此欄會每天從Bing廣告和Google廣告填入。 您可以選擇將欄用作資料篩選。 |
+| 轉換追蹤 | Advertising Cloud JavaScript 型轉換對應標記，現在支援追蹤來自 Mozilla Firefox 版本 69 及更新版本的點進次數，依預設會封鎖協力廠商 Cookie。相同的標記已包含對 Apple Safari 的支援。<br><br/>如果您使用 Advertising Cloud 轉換追蹤，但尚未部署 Advertising Cloud 轉換對應標記，請在所有登陸頁面上部署下列程式碼:<br></br>`<script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>`<br></br>注意: 此標記支援 Advertising Cloud JavaScript v2 和 v3 轉換追蹤標記，而非影像追蹤標記。 |
+| 產品組合 | 啟用「啟用促銷活動最大支出 % 目標」產品組合選項時，現在不會超過最大支出目標。 以前，如果超過最大支出目標為最佳，則 Advertising Cloud 便會如此。 |
+| 搜尋對象 | 您位於「搜尋 &gt; 對象 &gt; 資料庫」的對象庫現在會自動包含「對象大小」欄，此欄會每天從 Bing Ads 和 Google Ads 填入。您可以選擇使用此欄作為資料篩選。 |
