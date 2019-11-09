@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 11 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 386664d1decd801eb894bead1afe848dfef22795
+source-git-commit: 9a17edded46ddd9f95ea3c849e23bc1962075174
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Analytics 中的新功能和修正:
 
 | 功能 | 說明 |
 | -----------| ---------- | 
-| 客戶歷程分析 | On November 21, 2019, [Customer Journey Analytics](https://www.adobe.com/analytics/customer-journey-analytics.html) becomes available as an add-on to Adobe Analytics.<br><br/>客戶歷程分析可讓您從任何您選擇的通道中獲取客戶資料— 線上及線下皆可— 整合到Adobe Experience Platform中，然後像您現有的使用分析工作區分析資料一樣分析這些資料。 「客戶歷程分析」可讓您控制如何在 Analysis Workspace 中連線任何常見客戶 ID 的線上和離線資料，進而允許您針對 Adobe Analytics 中的整個客戶資料集執行歸因、區段、流量、流失等分析。<br><br/>Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資格。如需詳細資訊，請連絡您的 Adobe 客戶團隊。 |
+| 客戶歷程分析 | 於 2019 年 11 月 21 日起，將以 Adobe Analytics 附加元件的形式提供[「客戶歷程分析」](https://www.adobe.com/analytics/customer-journey-analytics.html)。<br><br/>「客戶歷程分析」可將您選擇之任何管道的客戶資料 (線上及離線皆可) 整合到 Adobe Experience Platform 中，接著依您目前使用 Analysis Workspace 分析現有數位資料的方式加以分析。「客戶歷程分析」可讓您控制如何在 Analysis Workspace 中連線任何常見客戶 ID 的線上和離線資料，進而允許您針對 Adobe Analytics 中的整個客戶資料集執行歸因、區段、流量、流失等分析。<br><br/>Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資格。如需詳細資訊，請連絡您的 Adobe 客戶團隊。 |
 | 隱私權服務 API: CCPA | 加州消費者隱私權法案 (California Consumer Privacy Act, CCPA) 強化了美國加州居民的隱私權和消費者保護力道。此法案已訂於 2020 年 1 月 1 日生效。<br><br/>CCPA 為加州居民提供了新的資料隱私權，例如有權存取和刪除其個人資料、有權得知其個人資料是否遭到販售或揭露 (以及對象是誰)，以及有權拒絕廠商販售其個人資料。<br><br/>有鑑於 CCPA 即將生效，隱私權服務將會支援請求退出個人資料販售行列的功能。<br><br/>隱私權服務先前稱為 GDPR 服務，其不僅保留了先前的一切功能，現在更擴大為支援 CCPA。<br/><br/>[Analytics 中的 CCPA](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br><br/>[隱私權服務概觀](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
 | 隱私權報告: Analytics Admin Console | 為 Analytics 啟用隱私權報告時，報表套裝中會新增一組保留變數。這些變數的設計目的，是要協助系統在點擊層級收集消費者同意資料。<br><br/>新維度:<br/><ul><li>同意管理選擇退出</li><li>同意管理選擇加入</li><li>[同意管理變數](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)</li></ul> |
 | 音訊和視訊分析: 隱私權支援 | Media Collection API 已新增兩個新變數:<br/><ul><li>analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul><br/><br/>這兩者皆為可選變數，可用來擷取消費者在點擊時的同意狀態。<br/><br/>[媒體收集 API 文件](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/><br/>新的 Analytics 同意管理內容資料變數已新增至 Federated Analytics 表格。這些變數現在可用於標記選擇退出同盟的分享或販售點擊。<br/><br/>[下載 Federated Form](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
@@ -223,10 +223,11 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ## Advertising Cloud {#adcloud}
 
-2019 年 11 月 2 日版本的更新
+於2019年11月8日更新，發行
 
 | 檢視 | 功能 |
 |------|---------|
 | 轉換追蹤 | Advertising Cloud JavaScript 型轉換對應標記，現在支援追蹤來自 Mozilla Firefox 版本 69 及更新版本的點進次數，依預設會封鎖協力廠商 Cookie。相同的標記已包含對 Apple Safari 的支援。<br><br/>如果您使用 Advertising Cloud 轉換追蹤，但尚未部署 Advertising Cloud 轉換對應標記，請在所有登陸頁面上部署下列程式碼:<br></br>`<script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>`<br></br>注意: 此標記支援 Advertising Cloud JavaScript v2 和 v3 轉換追蹤標記，而非影像追蹤標記。 |
 | 產品組合 | 啟用「啟用促銷活動最大支出 % 目標」產品組合選項時，現在不會超過最大支出目標。 以前，如果超過最大支出目標為最佳，則 Advertising Cloud 便會如此。 |
 | 搜尋對象 | 您位於「搜尋 &gt; 對象 &gt; 資料庫」的對象庫現在會自動包含「對象大小」欄，此欄會每天從 Bing Ads 和 Google Ads 填入。您可以選擇使用此欄作為資料篩選。 |
+| 與 Adobe Analytics 整合 | Analytics現在包含Advertising Cloud DSP促銷活動的「著陸類型(AMO ID)」維度。  使用此維度，根據訪客在網站上的登陸方式來劃分Analytics量度。 值包括「點進」和「檢視到」。<br><br/>**** 注意：2019年10月31日之前發生的檢視資料會顯示為點進資料。 因此，我們不建議在2019年11月中旬之前將此維度與資料搭配使用。 |
