@@ -5,7 +5,7 @@ doc-type: 發行說明
 last-update: 2019 年 11 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9a17edded46ddd9f95ea3c849e23bc1962075174
+source-git-commit: 72028146219c6244c501e55e30c03de925c54b3c
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Cloud 中的新功能及修正項目。
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (前往解決方案說明的連結)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (前往解決方案說明的連結)
-* [!DNL Advertising Cloud](#adcloud) (11 月 1 日更新)
+* [!DNL Advertising Cloud](#adcloud) (11 月 8 日更新)
 
 在找說明首頁嗎？ 請參閱 [Experience Cloud 學習與支援](https://helpx.adobe.com/support/experience-cloud.html)。
 
@@ -108,7 +108,7 @@ Adobe Analytics 中的新功能和修正:
 
 ## Audience Manager {#aam}
 
-### New features, enhancements, and fixes in Audience Manager {#aam-new-features}
+### Audience Manager 中的新功能、增強功能和修正 {#aam-new-features}
 
 | 功能 | 說明 |
 |--- |----|
@@ -119,16 +119,16 @@ Adobe Analytics 中的新功能和修正:
 
 ### 增強功能 {#aam-enhancements}
 
-自2019年11月起，除了先前支援的Cookie、IDFA和GAID裝置ID外，Audience manager還支援將Roku ID、Amazon Fire TV ID和Xbox/Microsoft ID傳送至Google Ad Manager和DV360目的地。 您不需要在現有的Google整合中變更任何項目。
+自 2019 年 11 月起，除了先前支援的 Cookie、IDFA 和 GAID 裝置 ID 外，Audience Manager 還支援將 Roku ID、Amazon Fire TV ID 和 Xbox/Microsoft ID 傳送至 Google Ad Manager 和 DV360 目的地。您無需在現有的 Google 整合中變更任何項目。
 
-在Audience Manager中，Roku ID、Amazon Fire TV ID和Xbox/Microsoft ID稱為全域裝置ID。 您可以在Audience manager產品檔案中閱讀更多有關這些ID及其關聯的資料來源：
+在 Audience Manager 中，Roku ID、Amazon Fire TV ID 和 Xbox/Microsoft ID 稱為全域裝置 ID。您可以在 Audience Manager 產品文件中深入了解有關這些 ID 及其關聯的資料來源:
 
-* [全域裝置ID](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids)
-* [全球資料來源](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html)
+* [全域裝置 ID](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html#global-device-ids)
+* [全域資料來源](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html)
 
-Roku、Amazon Fire TV和Xbox/Microsoft資料來源的資料擷取方式與IDFA和GAID的運作方式相同——當擷取已關閉資料的資料時，會自動產生Audience Manager ID並連結至DAID。 新ID會自動傳送至您帳戶中設定的現有和新Google目標。
+Roku、Amazon Fire TV 和 Xbox/Microsoft 資料來源的資料擷取方式與 IDFA 和 GAID 的運作方式相同，也就是當擷取已中斷之資料來源的資料時，會自動產生 Audience Manager ID 並連結至 DAID。新 ID 會自動傳送至您帳戶中設定的現有和新的 Google 目的地。
 
-如需詳細資訊，請連絡您的Audience manager顧問或客戶服務。
+如需詳細資訊，請聯絡您的 Audience Manager 顧問或客戶服務。
 
 ### 修正和改良 {#aam-fixes-and-improvements}
 
