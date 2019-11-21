@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99ff53a630caedb0073076d19e306504235a98ab
+source-git-commit: e023f8bb366a21e41013e6f94682d48e0a194ee6
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud 中的新功能及修正項目。
 
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) (**更新日期：2019年11月21日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -59,7 +59,7 @@ Experience Platform、Experience Platform Launch、身分服務和安全性佈�
 Adobe Analytics 中的新功能和修正:
 
 * [Adobe Analytics 中的新功能、增強功能和修正](#aa-features)
-* [給 Analytics 管理員的重要通知](#aa-notices)
+* [給 Analytics 管理員的重要通知](#aa-notices) (**更新日期：2019年11月21日**)
 * [AppMeasurement](#appm)
 
 如需產品文件，請參閱 [Adobe Analytics 說明首頁](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
@@ -81,7 +81,7 @@ Adobe Analytics 中的新功能和修正:
 
 | 注意 | 新增日期或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| **[!UICONTROL 強制 IP 登入限制]**&#x200B;選項的 EOL | 2019年11月21日 | Announcing the October, 2020, end-of-life date for the IP login whitelisting (**[!UICONTROL Enforce IP Login Restrictions]**) functionality under the **[!UICONTROL Admin &gt; Company Settings &gt; Security]** menu. （這項資訊最初於2020年1月公佈） |
+| **[!UICONTROL 強制 IP 登入限制]**&#x200B;選項的 EOL | 2019年11月21日 | Announcing the *October, 2020*, end-of-life date for the IP login whitelisting (**[!UICONTROL Enforce IP Login Restrictions]**) functionality under the **[!UICONTROL Admin &gt; Company Settings &gt; Security]** menu. （這項資訊最初於2020年1月公佈。） |
 | **[!UICONTROL 檢視封存]**&#x200B;選項的 EOL | 2019 年 10 月 30 日 | 宣佈儀表板管理員 (**[!UICONTROL 元件 &gt; 儀表板]**) 中的&#x200B;**[!UICONTROL 檢視封存]**&#x200B;選項將於 2020 年 1 月終止服務。 |
 | 已更新 SameSite 屬性對 Cookie 的處理方式 | 2019 年 10 月 15 日 | Adobe 於 2019 年 8 月宣佈，已將 SameSite Cookie 設定新增至由 Analytics 設定的所有 Cookie。在下列情況中套用邏輯更新:<ul><li>所有非採用 Webkit 的第三方 Cookie，其 SameSite 屬性均設為 `none`。</li><li>其他所有 Cookie 皆不設定 SameSite 屬性。</li></ul> |
 | 終止支援 TLS 1.1 | 2019 年 10 月 3 日 | 到了 2020 年 3 月 31 日時，Adobe Analytics 將會移除對於 TLS 1.1 的支援。此變更是我們為了保持最高安全標準並提升客戶資料安全性而不斷努力的其中一項成果。 |
