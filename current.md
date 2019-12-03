@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8d06f199f14455854bb8f54a5699f7538a674c3c
+source-git-commit: ba99a07c966a56306daa151606f4503586cb898a
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Experience Cloud 中的新功能及修正項目。
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (前往解決方案說明的連結)
 * [!DNL Advertising Cloud](#adcloud) (11 月 8 日更新)
 
-在找說明首頁嗎？請參閱 [Experience Cloud 學習與支援](https://helpx.adobe.com/support/experience-cloud.html)。
+在找說明首頁嗎？請參 [閱Adobe Experience cloud檔案](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)。
 
 ## Experience Cloud 介面 {#ecloud}
 
