@@ -4,51 +4,83 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: January 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 8a895d104abd20910aa37ec2ec3b6eeaccd8c461
+translation-type: tm+mt
+source-git-commit: d48cab564bb6a45022d5c8a388dd71d52a1b63f1
 
 ---
 
 
-# 內部審閱 - Adobe Experience Cloud 發行說明 - 2020 年 1 月
+# 提早存取- Adobe Experience cloud發行說明- 2020年1月
 
 Adobe Experience Cloud 中的新功能及修正項目。
 
-> [!NOTE]訂閱 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。產品發行後才發佈的新資訊皆會標示發佈日期。
+>[!IMPORTANT]
+>本頁包含發行前內容，並可能會在每個產品的計畫發行前變更。
 
-**發行日期：2020 年 1 月**
+>[!NOTE]
+>訂閱 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。產品發行後才發佈的新資訊皆會標示發佈日期。
 
-* [Experience Cloud 介面](#ecloud)
+**發行日期：2020年1月16日**
+
+* [Adobe系統狀態](#status)
+* [Experience cloud介面和核心服務](#ecloud)
 * [Experience Platform](#platform)
+* [行動服務與行動SDK](#mobile)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html) (前往解決方案說明的連結)
-* [!DNL Primetime](https://helpx.adobe.com/tw/primetime/user-guide.html) (前往解決方案說明的連結)
-* [!DNL Advertising Cloud](#adcloud) (11 月 8 日更新)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (前往解決方案說明的連結)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (前往解決方案說明的連結)
+* [!DNL Advertising Cloud](#adcloud)
 
 在找說明首頁嗎？請參閱 [Adobe Experience Cloud 檔案](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)。
 
-## Status.adobe.com
+## Adobe System Status {#status}
 
-您可以使用您的 Adobe ID，根據產品、地區和事件偏好設定，訂閱狀態事件通知。
+[!UICONTROL Adobe System Status] 提供有關Adobe雲端產品與服務中斷、中斷及維護事件的詳細資訊、狀態更新及電子郵件通知。 請造訪 [status.adobe.com](https://status.adobe.com/)。
+
+**新功能**
+
+* 使用您的Adobe ID，您可以根據產品、地區和事件偏好設定來訂閱事件通知。 設定其訂閱偏好的使用者在開啟、更新或關閉時，只會收到相關產品事件和維護事件的通知。 請造訪status.adobe.com/subscriptions [開始](https://status.adobe.com/proactive-notifications/subscriptions/edit)。
+
+**今天推出新功能和增強功能**
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 訂閱即時電子郵件通知 | <ul><li>支援 Experience Cloud、Creative Cloud、Document Cloud、AEP 和 Adobe 服務</li><li>支援地區和事件類型偏好設定</li><li>網頁、行動裝置和平板電腦介面 UX 支援</li></ul> |
-| 通知偏好設定管理 | <ul><li>隨時編輯和儲存通知偏好設定</li><li>隨時取消訂閱通知</li><li>項目</li></ul> |
-| 個人化且更快速傳送電子郵件 | <ul><li>開啟、更新或關閉 CSO 和 CMR 時，立即傳送事件通知</li><li>僅接收與您設定的偏好設定相符的相關事件通知</li><li>根據您帳戶偏好設定中設定的語言接收本地化通知</li></ul> |
-| 個人化產品內通知 | 符合通知偏好設定和產品權益的事件會顯示在「公告」面板中。 |
+| 訂閱主動式電子郵件通知 | <ul><li>支援Experience Cloud、Creative Cloud、Document Cloud、Adobe Experience platform和Adobe服務</li><li>支援地區和事件類型偏好設定</li></ul> |
+| 管理通知偏好設定 | <ul><li>隨時編輯和儲存通知偏好設定</li><li>隨時取消訂閱通知</li></ul> |
+| 取得個人化且更快速的電子郵件傳送 | <ul><li>事件一開啟、更新或關閉，就會立即傳送事件通知</li><li>僅接收與您設定的偏好設定相符的相關事件通知</li><li>根據您帳戶偏好設定中設定的語言接收本地化通知</li></ul> |
+| 取得個人化的產品內通知 | <ul><li>符合通知偏好設定和產品權益的事件會出現在「公告」面板中</li></ul> |
 
-## Experience Cloud 介面 {#ecloud}
+## Experience Cloud interface and core services {#ecloud}
 
-Experience Cloud 介面與產品管理的發行說明。
+Experience cloud介面中的新功能和修正，包括管理和核心服務（客戶屬性、觀眾、觸發器、Cookie等）。
 
-* 項目
-* 項目
+### 統一的產品網域
 
-如需產品文件，請參閱 [Experience Cloud](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html)。
+Adobe正在更新網域和介面標題，以統一並改善您在所有Experience cloud應用程式中的體驗。 這些增強功能旨在以小型但重要的方式簡化您的體驗。 這些增強功能不會變更您目前的工作流程。
+
+更新包括：
+
+* 新的解決方案URL:所 `experience.adobe.com/<application name>.` 有產品最終都會採用此URL模式。 尋找新的URL以在整個月內生效。 Adobe建議您在您看到重新導向至新網域後更新書籤。
+* 更輕鬆地在組織之間切換或切換至不同的應用程式。
+* 改良的產品說明：Experience League  已整合至產品中，因此說明搜尋也包含社群論壇和視訊內容的結果。 這項變更可簡化對更多內容的存取，並協助您充份運用Experience Cloud。 此外，按一 **[!UICONTROL 下「說明]**>**[!UICONTROL &#x200B;意見回應]** 」以報告問題，或與產品檔案團隊分享您的想法。
+* 改進通知：「通 [!UICONTROL 知] 」下拉式功能表現在有兩個標籤，一個用於您自己的產品通知，另一個用於全域產品公告。
+
+**** 注意：摘 [!UICONTROL 要] (Feed)頁面已於2020年1月停用。 請參閱產品中的淘汰通知。
+
+如需產品文件，請參閱 [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)。
+
+### Experience Cloud Cookie
+
+Adobe正在調整 `same-site` Cookies的設定，以準備Chrome在Chrome 80中所做的變更（將於2020年2月發行）。
+
+您不需要進行變更，除非您使用CNAME進行第一方資料收集，但在多個網域（友好的第三方網域）上使用該CNAME，且您不使用Experience Cloud（訪客）ID服務。 在Chrome 80版本中，Chrome會自動為Analytics訪客ID cookie提供SameSite值，以 `Lax,` 防止其用於其他網域。 如果您想要在網域間繼續使用CNAME，您必須聯絡Adobe客戶服務，並要求他們將您CNAME的SameSite值變更為 `None.`
+
+請注意，Adobe建議您針對每個網域使用個別的CNAME，不論您是否使用Experience Cloud ID服務。
+
+[更多內容…](https://medium.com/adobetech/adobe-experience-cloud-cookie-updates-for-google-chrome-19ad67cf1598)
 
 ## Experience Platform {#platform}
 
@@ -56,117 +88,196 @@ Experience Platform、Experience Platform Launch、身分服務和安全性佈�
 
 * [Experience Platform 發行說明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [安全性佈告和諮詢](https://helpx.adobe.com/tw/security.html) (所有 Adobe 產品)
+* [安全性佈告和諮詢](https://helpx.adobe.com/security.html) (所有 Adobe 產品)
 
 ### Experience Platform Launch {#launch}
 
-如需發行說明和產品文件，請參閱 [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/release-notes/current.html)。
+如需發行說明和產品文件，請參閱 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html)。
+
+## Mobile Services and Mobile SDKs {#mobile}
+
+2020年1月16日：4.18.0版
+
+* 贏取——新增新的API `Analytics.processGooglePlayInstallReferrerUrl(final String url)`，以支援「安 [!DNL Google Play] 裝反向連結API」。
+
+如需安裝反向連結API的詳細資訊，請參閱「仍然 [使用InstallBroadcast?」 在2020年3月1日前切換至播放反向連結API](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html)。
 
 ## [!DNL Analytics] {#analytics}
 
 Adobe Analytics 中的新功能和修正：
 
 * [Adobe Analytics 中的新功能、增強功能和修正](#aa-features)
-* [給 Analytics 管理員的重要通知](#aa-notices) (**2019 年 12 月 18 日更新**)
+* [給 Analytics 管理員的重要通知](#aa-notices)
 * [AppMeasurement](#appm)
 
-如需產品文件，請參閱 [Adobe Analytics 說明首頁](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html)。
+如需產品文件，請參閱 [Adobe Analytics 說明首頁](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
 
 ### Adobe Analytics 中的新功能、增強功能和修正 {#aa-features}
 
 | 功能 | 說明 |
 | -----------| ---------- | 
-|  |  |
+| 分析工作區——自由表格產生器 | 啟用「表格產生器」後，您可以拖放許多維度、劃分、量度和區段，以建立可回答更複雜商業問題的表格。 資料不會立即更新。 而是在您按一下「建置」 **[!UICONTROL 後進行更新]**，在您知道要建立的表格後，為您節省時間。 此外，此功能還提供：<ul><li>**預覽**:您可以先預覽表格格式，再花時間來轉換真實資料。</li><li>**彈性的列與劃分設定**:您可以為每個維度列設定行和劃分層級。 以前，工作區強加的預設值在資料傳回後，才會變更。</li><li>**依職位劃分**:您可以設定維度行，以一律 _依位置劃分_ ，而 _非依特定項目_ （預設值）劃分。</li><li>**手動靜態列順序**:您可以手動對靜態行排序，以便表行按需顯示。 以前，靜態列只能依量度欄或依字母順序排序。</li></ul>當這項功能於1月稍後發行時，相關檔案將會發佈。 |
+| 跨裝 [!UICONTROL 置分析] (CDA)的新已識別狀態維度 | 我們將新增名為「已識別狀 [!UICONTROL 態」的維度] ，加入CDA虛擬報表套裝。 維有兩個可能的值， _Identified_ 和 _Uniformined_。 _已識別_ ：表示人員已由裝置圖表識別。 _未識別_ ：表示裝置圖表未識別該人員。<br>這表示CDA使用者現在可以建立計算量度，例如「裝置圖表涵蓋範圍 」，該量度說明虛擬報表套裝中有多少人是透過裝置圖表得知的。 此度量有助於疑難排解CDA壓縮率。 如果沒有人被識別出來，縫合的程度就會很低。 |
+| 資料倉庫API中的VRS支援 | 虛擬報表套裝現在可透過資料倉庫API使用。 以前只能透過「資料倉儲」UI使用。 使用資料倉庫API時，您現在可以查看和查詢虛擬報表套裝，但前提是套用至虛擬報表套裝的區段與資料倉庫相容。 |
+| 隱私權服務 API：CCPA | 加州消費者隱私權法案 (California Consumer Privacy Act, CCPA) 強化了美國加州居民的隱私權和消費者保護力道。本法自2020年1月1日起生效。<br><br/>CCPA 為加州居民提供了新的資料隱私權，例如有權存取和刪除其個人資料、有權得知其個人資料是否遭到販售或揭露 (以及對象是誰)，以及有權拒絕廠商販售其個人資料。<br><br/>隱私權服務支援拒絕銷售個人資料的要求。<br><br/>隱私權服務原為GDPR服務，並保留所有先前的功能，現在已擴充以支援CCPA。<br/><br/>[Analytics 中的 CCPA](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br><br/>[隱私權服務概觀](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
 
 #### 修正
 
-* 修正
-* 修正
+* 修正警報通知無法傳送至埃及電話號碼的問題。 (AN-197079)
+* 已修正的多個問題 [!DNL DFA Data Connector]。 (AN-193281、AN-193075、AN-193484、AN-193737)
+* [!UICONTROL 報告與分析]:修正「產品轉換漏斗」報表被截斷並顯示不清楚數字的問題。 (AN-186901)
+* 修正使用者無法在「工作區」專案中，以新「分類」架構為基礎，切換報表套裝的問題。 (AN-199076)
+* 修正「計算量度」中 [!UICONTROL 的] 「累  計」功能無法正常運作的問題。 (AN-184257)
 
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
 | 注意 | 新增日期或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 新的 Adobe Analytics 網域 | 2019 年 12 月 18 日 | 2020 年 1 月 16 日，Adobe Analytics 將移至新的網域：https://experience.adobe.com/analytics 。這項變動可能會在 Safari 中載入 Analytics 時造成 Cookie 問題。在 Safari「隱私權偏好設定」中取消勾選「防止跨網站追蹤」，會在各網域 (以及所有跨網站體驗) 啟用 Cookie，並允許 Analytics 在這個新的 Adobe Experience Cloud 網域中運作。使用者可以順利使用其他瀏覽器，因為這只會影響 Safari 使用者。 |
-| **[!UICONTROL 檢視封存]** 選項的 EOL | 2019 年 10 月 30 日 | 宣佈儀表板管理員 (**[!UICONTROL 元件 > 儀表板]**) 中的 **[!UICONTROL &#x200B;檢視封存]** 選項將於 2020 年 1 月終止服務。 |
-| **[!UICONTROL 強制 IP 登入限制]** 選項的 EOL | 2019 年 10 月 30 日 | 宣佈&#x200B;**[!UICONTROL 管理 > 公司設定 > 安全性]** 選單中的 IP 登入白名單 (**[!UICONTROL &#x200B;強制 IP 登入限制]**) 功能將於 2020 年 1 月終止服務。 |
-| 已更新 SameSite 屬性對 Cookie 的處理方式 | 2019 年 10 月 15 日 | Adobe 於 2019 年 8 月宣佈，已將 SameSite Cookie 設定新增至由 Analytics 設定的所有 Cookie。在下列情況中套用邏輯更新：<ul><li>所有非採用 Webkit 的第三方 Cookie，其 SameSite 屬性均設為 `none`。</li><li>其他所有 Cookie 皆不設定 SameSite 屬性。</li></ul> |
+| 新的 Adobe Analytics 網域 | 2019 年 12 月 18 日 | 從2020年1月16日起，Adobe Analytics將開始移至新網域- `https://experience.adobe.com/analytics.`<br>**注意&#x200B;**:這項變更適用於使用其Adobe ID或Enterprise ID存取Analytics的所有使用者。<ul><li>網域變更在Safari中載入Analytics時，可能會造成Cookie問題。 Unchecking _Prevent cross-site tracking_ in the Safari Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Analytics to function on this new Adobe Experience Cloud domain. 您可以不產生任何問題地使用其他瀏覽器，因為這只會影響Safari使用者。</li><li>網域變更可能導致 [!UICONTROL Activity Map] 在某些特定情況下停 [止為某些客戶運作](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html)。</li></ul> |
+| 生命週期結束- Analytics舊版API | 2020 年 1 月 9 日 | 在2020年11月，下列Analytics舊版API服務將到期並關閉。 使用這些服務建立的目前整合將停止運作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>舊版OAuth驗證（OAuth和JWT）</li></ul>我們提供舊版 [API EOL常見問答集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) ，以協助您回答問題並提供如何繼續的指引。 採用這些服務的API整合可移轉至 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email)[或2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。 舊版OAuth帳戶可移轉至 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics整合帳戶，此帳戶可用來存取1.4 Analytics API和2.0 Analytics API。 |
+| **[!UICONTROL 檢視封存]**選項的 EOL | 2019 年 10 月 30 日 | 宣佈儀表板管理員 (**[!UICONTROL 元件 > 儀表板]**) 中的**[!UICONTROL &#x200B;檢視封存]**選項將於 2020 年 1 月終止服務。 |
+| **[!UICONTROL 強制 IP 登入限制]**選項的 EOL | 2019 年 10 月 30 日 | 宣佈&#x200B;**[!UICONTROL 管理 > 公司設定 > 安全性]**選單中的 IP 登入白名單 (**[!UICONTROL &#x200B;強制 IP 登入限制]**) 功能將於 2020 年 1 月終止服務。 |
 | 終止支援 TLS 1.1 | 2019 年 10 月 3 日 | 到了 2020 年 3 月 31 日時，Adobe Analytics 將會移除對於 TLS 1.1 的支援。此變更是我們為了保持最高安全標準並提升客戶資料安全性而不斷努力的其中一項成果。 |
-| San Jose FTP Broker 結束倫敦和新加坡的業務 | 2020 年 7 月 | 對於倫敦和新加坡的客戶，我們不再支援於倫敦或新加坡與聖荷西資料中心 [ftp.omniture.com](ftp://ftp.omniture.com/) 之間的代理資料。<br/><ul><li>如果在倫敦，請使用 [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>如果在新加坡，請使用 [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li> |
-| 更新為 Analysis Workspace 自由表格總計 | 2019 年 9 月 12 日 | 從 2019 年 10 月 開始，自由表格總計列會開始計入套用的[報表篩選器](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)。就目前而言，總計僅計入分段。經過此變更後，將會更新依據的視覺效果 (例如連結的[!UICONTROL 摘要數字]視覺效果)，以及 CSV 和 PDF 資料。 |
-| 關於 Analytics 使用者 `createDate` 欄位的近期變更 | 2019 年 8 月 30 日 | 在 2019 年 10 月或 11 月期間，系統會使用時區資訊，將 Analytics 使用者的 `createDate` 欄位從美國太平洋時間更新為格式正確的日期/時間值。(AN-183468) |
-| 支援歷史時區位移 | 2019 年 8 月 8 日 | 現在起，Analytics 會自動處理時間戳記點擊的時區位移。8 月 8 日完成此變更後，系統載入歷史資料加以處理時，便不需要在傳送資料前調整時區位移。 |
-| 分類規則產生器限制 | 新增日期：2019 年 6 月 5 日 | 這些限制不是新的，而是已新增至[這裡](https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html)的文件。 |
-| 新區段運算子限制 | 新增日期：2019 年 5 月 31 日 | 自 2019 年 7 月 18 日起，區段運算子&#x200B;_「包含任何」_、_「不包含任何」_、_「包含所有」_&#x200B;以及&#x200B;_「不包含所有」_，每個輸入欄位僅限 100 個字詞。此限制將套用至在此日期之後的所有新區段和修改區段。超出限制的現有區段仍會繼續獲得支援，但無法修改或儲存，直到輸入欄位的字詞減少為止。現正套用這些限制，同時藉此努力改善查詢效能。 |
-| **[!UICONTROL 日期啟用]** 和 **[!UICONTROL &#x200B;數值 2 分類]** 的支援變更 | 2019 年 5 月 28 日更新 | 匯入數值 2 與日期啟用分類的功能已自基底程式碼移除。此變更於 2019 年 7 月維護版本中生效。若您的匯入檔案中含有數值或日期啟用欄，系統會自動忽略這些儲存格，至於該檔案中的其他所有資料都將正常匯入。<br/>您仍可透過標準分類工作流程匯出現有分類，並繼續在報表中使用。 |
-| _報表總數_&#x200B;計算方式變更 | 更新日期：2019 年 7 月 9 日 | Adobe Analytics 於 **2019 年 6 月 18 日**&#x200B;統一所有維度和量度的&#x200B;_報表總數_&#x200B;計算方式。部分報表的總數因此有所變動，通常會是「Prop」或「客戶屬性」報表。在此變更前，無論報表中是否出現 _未指定_ 一項，部分「報表總數」納入或排除 _未指定_ 項目的情況不一。<br/>自 2019 年 6 月 18 日起，即使「未指定」並未出現在報表項目中，報表總數都會一律顯示 _未指定_ 。此外，在這項變更後，使用&#x200B;_存在_&#x200B;或&#x200B;_不存在_&#x200B;邏輯的區段可能會看到某些維度的不同結果，具體而言就是&#x200B;_未指定_&#x200B;維度針對反向連結類型維度具有「已輸入/已加上書籤」條列項目特殊名稱，或針對裝置類型維度具有「其他」條列項目特殊名稱等。到時，此變更將會影響 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和報表 API。<br>**注意&#x200B;**：此&#x200B;_報表總計_計算方式現在稱為&#x200B;_總量_。請參閱上方的「Analysis Workspace：更新為自由表格總計」。 |
-| 更新 Analysis Workspace 的 CSV 下載 | 2019 年 4 月 10 日 | 自 2019 年 4 月 11 日起，Analysis Workspace 中的&#x200B;**[!UICONTROL 「CSV 下載」]** (和 **[!UICONTORL 「複製到剪貼簿」]**) 功能已有諸多變動，移除了匯出資料中的格式設定。  <ul><li>不再使用千分位分隔符號。將繼續使用小數分隔符號，其將遵循&#x200B;**[!UICONTROL 「元件 > 報表設定 > 千分位分隔符號」]** 中定義的格式。注意：匯出的 CSV 會繼續引用使用逗號作為小數分隔符號的數值。</li><li>不再顯示貨幣符號。</li><li>不再顯示百分比符號。百分比將以小數形式表示，例如：75% 會表示成 0.75。</li><li>時間會以秒數表示。</li><li>同類群組表格僅會顯示原始值; 百分比符號將會移除。</li><li>如果數字無效，則顯示空白儲存格。</li></ul> |
-| 即將變更 Analysis Workspace 偵錯工具命令 | 2019 年 4 月 4 日 | **2019 年 6 月 13 日**，開啟 Analysis Workspace 偵錯工具的控制台命令將變更為 adobeTools.debug.includeOberonXml。adobe.tools.debug.includeOberonXml 自當天起將無法使用。 |
-| 行動瀏覽器版本編號 | 2019 年 2 月 7 日 | 自 2019 年 1 月 8 日起，行動瀏覽器版本編號的小數點位數已從 2 變更為 1。從該日起，版本只會顯示頭兩個層級 (例如 _Firefox 64.0.2_ 現在只會顯示為 _Firefox 64.0_)。 |
-| 終止 [!DNL Ad Hoc Analysis] 服務 | 2019 年 1 月 29 日 | Adobe 於 2018 年 8 月 6 日宣佈有意終止 [!DNL Ad Hoc Analysis] 服務。我們將會在確定後公佈服務終止日期。<br/>如需詳細資訊，包括在此期間相容的 Java 版本，請造訪 [[!DNL Discover Workspace]](https://adobe.ly/discoverworkspace)。 |
-| [!DNL Analytics] 報表短連結 | 2019 年 1 月 14 日 | 自 2019 年 1 月 17 日星期四起，我們將逐步清理並刪除任何一年內未經造訪的 [!DNL Analytics] 報表短連結。 |
-| 資料摘要：post_product_list 欄 - 大小變更 | 2019 年 1 月 9 日 | Adobe 自 2019 年 2 月 7 日起，已將 post_product_list 欄的大小從 64 KB 擴增至 16 MB。此項變更確保處理期間新增至 post_product_list 的銷售 eVar 值，不會截斷產品與收入值。如果您有內嵌 post_product_list 值的程序，請確定這些程序可以處理長度多達 16 MB 的值，否則會在達到 16 KB 時截斷值，以避免資料內嵌失敗。 |
-| 影響非活動中 [!DNL Analytics Live Stream] 端點的管理變更 | 2018 年 12 月 20 日 | 自 2019 年 2 月 1 日起，90 天未與作用中消費者連線的 [!DNL Live Stream] 端點可能會遭到停用。您可以聯絡客戶服務以查詢您的 [!DNL Live Stream] 端點，並在必要時重新啟用。此外，請確定您的消費者程序按照該服務的設計意圖，維持穩定連線，並會在連線中斷時重新連線。 |
-| 請更新 Adobe [!DNL Report Builder] 因為已不再支援 TLS 1.0 | 2018 年 9 月 7 日 | 因為已不再支援 TLS 1.0，我們建議 [!DNL Report Builder] 使用者在 2019 年 2 月之前下載 5.6.21 版。在當天以後，舊版的 [!DNL Report Builder] 將無法繼續運作。 |
+| San Jose FTP Broker 結束倫敦和新加坡的業務 | 2020 年 7 月 | 對於倫敦和新加坡的客戶，我們不再支援於倫敦或新加坡與聖荷西資料中心 [ftp.omniture.com](ftp://ftp.omniture.com/) 之間的代理資料。<br/><ul><li>如果在倫敦，請使用 [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>如果在新加坡，請使用 [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
+| 關於 Analytics 使用者 `createDate` 欄位的近期變更 | 2019 年 8 月 30 日 | In October or November 2019, the `createDate` field for Analytics users was updated from US Pacific Time to a correctly formatted date and time value with time zone information.(AN-183468) |
 
 ### [!DNL AppMeasurement] {#appm}
 
-請參閱 [AppMeasurement for Javascript 版本說明](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)。
+請參閱 [AppMeasurement for Javascript 版本說明](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)。
 
 ## Audience Manager {#aam}
 
-### Audience Manager 中的新功能、增強功能和修正 {#aam-new-features}
+Audience manager中新增的修正和功能。
+
+### Audience Manager 中的新功能、增強功能和修正 {#aam-features}
 
 | 功能 | 說明 |
-|--- |----|
-|  |  |
-
-### 增強功能 {#aam-enhancements}
-
-如需詳細資訊，請聯絡您的 Audience Manager 顧問或客戶服務。
+| -----------| ---------- |
+| [加州消費者隱私權法案(CCPA)支援與隱私權檔案大修](https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-privacy/data-privacy.html) | 2020 [年1月1日生效的加州消費者隱私法(CCPA)](https://www.caprivacy.org/about)，為加州居民提供個人資訊的新權利，並對在加州經營業務的特定實體負責資料保護。 <br><br> Audience manager可協助您透過 [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) （資料存取和刪除要求）等隱私權工具，遵守隱私權法規所規定的義務。 <br><br> 我們已更新目前 [的退出管理程式](https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-privacy/data-privacy-requests.html#opt-out-requests) ，加入退出任何宣告的ID（例如CRM ID）。 如果宣告的ID選擇退出，則宣告的ID和最後一個連結的裝置將選擇退出Audience manager資料收集。 選擇退出請求現在也會以批次和即時方式， [將取消分段請求傳送給支援此功能的](https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-privacy/data-privacy-requests.html#aam-partners-with-unsegmentation) 「目標合作夥伴」。 <br><br> 此外，我們已重新設計了 [Data Security](https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-security.html)、 [Data Privacy](https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-privacy/data-privacy.html)和 [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-governance.html) Data Governance檔案，讓您更容易找到符合上述法規的必要資訊。 |
 
 ### 修正和改良 {#aam-fixes-and-improvements}
 
-* 修正
-* 修正
+* 修正「建立目 [!UICONTROL 標] 」工作流程中，在選擇「整合平台」類別後，「基本資訊」 ****類別會消失，而無法完成工作流程的問題。 (AAM-52397、AAM-52414)
+* 我們修正了Apple Safari和Mozilla Firefox [!UICONTROL 瀏覽器無法載入「建立／編輯] 」目標頁面的錯誤。 (AAM-51784)
 
 ## Experience Manager {#aem}
 
 Adobe Experience Manager (AEM) 中的新功能、修正及更新。Adobe 建議使用內部部署的客戶部署最新修補程式，以確保擁有更出色的穩定性、安全性及效能。
 
+### 產品維護
+
+* **AEM 6.5.3.0** AEM 6.5,Service Pack 3.0（2019年12月12日發行的6.5.3.0）是重要的更新，其中包含自2019年4月AEM 6.5全面上市以來發行的關鍵客戶修正。
+   * [發行說明](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html)
+   * [AEM Forms CFP 發行版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+
+* **AEM 6.4.7.0**
+
+   AEM 6.4,Service Pack 7.0（2019年12月12日發行的6.4.7.0）是重要的更新，其中包含自2018年4月AEM 6.4全面上市以來發行的重要客戶修正。
+   * [發行說明](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
+   * [AEM Forms CFP 發行版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+
+* **AEM 6.3.3.7**
+
+   AEM 6.3, Service Pack 3, Cumulative Fix Pack 7（2019年12月12日發行的6.3.3.7）是重要的更新，其中包含自2017年4月AEM 6.3全面上市以來發行的重要客戶修正。
+   * [發行說明](https://helpx.adobe.com/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)
+   * [AEM Forms CFP 發行版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+
+* **AEM Desktop App 2.0.1.1**
+
+   AEM Desktop App 2.0.1.1提供「使用Okta進行單一登入」的更新，並可在「偏好設定」中指定暫存檔案的位置。 此版本不再支援AEM 6.3.x的案頭應用程式2.x。
+   * [發行說明](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html)
+
+* **Adobe Asset Link 1.1結束對AEM 6.3.x的支援**
+
+   自2019年4月起，Adobe Asset Link已不再支援AEM 6.3.x。 自2020年1月13日起，Adobe Asset Link 1.1將取消對AEM 6.3.x的支援。
+   * [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html)
+
 ### 產品發行
+
+* **自動化表單轉換服務**
+
+   Automated Forms Conversion Service是一種自動將PDF表單轉換為精美的行動HTML表單的服務，於2019年12月12日正式推出。
+
+   * [簡介](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/table-of-contents/introduction.html)
+   * [配置服務](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/table-of-contents/configure-service.html)
+   * [將PDF表單轉換為可調整的表單](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/table-of-contents/convert-existing-forms-to-adaptive-forms.html)
 
 ### 自助式
 
-* **AEM 文件更新**
+* **預覽3D資產**
 
-   請參閱 Adobe Experience Manager 過去三個月的重要文件變更和內容更新。
+   AEM 6.5支援3D資產的上傳、傳送和互動式預覽，做為製作程式的一部分。 您可從AEM的資產詳細資訊頁面取得互動式3D檢視器。 檢視器除了其他功能外，還包含一系列互動式相機控制項，可讓您環繞、縮放和平移3D資產。
+請參閱 [預覽3D資產](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/previewing-3d-assets.html)。
 
-   請參閱 [AEM 說明文件：近期文件更新](https://helpx.adobe.com/tw/experience-manager/documentation-updates.html)。
+* **核心元件**
+
+   Core Components 2.8.0, with numerous fixes, is now available along with [authoring documentation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) and [developer details and project download available on GitHub](https://github.com/adobe/aem-core-wcm-components).
+
+* **AEM 專案原型**
+
+   [AEM Project Archetype](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/uifrontend.html) 的 [](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/overview.html) ui.frontend模組是實用而有彈性的工具，可讓您更輕鬆地為AEM專案進行前端開發。
 
 ### 其他資源
 
-* [AEM 6.5 學習和支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-5.html)
-* [AEM 6.4 學習和支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-4.html)
-* [AEM 6.3 學習和支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-3.html)
-* [AEM 6.2 學習和支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-2.html)
-* [Cloud Manager 使用手冊](https://helpx.adobe.com/tw/experience-manager/cloud-manager/user-guide.html)
-* [舊版的 AEM 文件](https://helpx.adobe.com/tw/experience-manager/aem-previous-versions.html)
-* [動態媒體傳統說明首頁](https://docs.adobe.com/content/help/zh-Hant/dynamic-media-classic/using/home.html)
-* [Dynamic Media 發行說明](https://marketing.adobe.com/resources/help/zh_TW/s7/release_notes/index.html)
+* [AEM 6.5 學習和支援首頁](https://helpx.adobe.com/support/experience-manager/6-5.html)
+* [AEM 6.4 學習和支援首頁](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [AEM 6.3 學習和支援首頁](https://helpx.adobe.com/support/experience-manager/6-3.html)
+* [AEM 6.2 學習和支援首頁](https://helpx.adobe.com/support/experience-manager/6-2.html)
+* [Cloud Manager 使用手冊](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
+* [舊版的 AEM 文件](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [動態媒體傳統說明首頁](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+* [Dynamic Media 發行說明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 發行說明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ## [!DNL Campaign] {#ac}
 
 Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法提供一對一訊息。您現在可以使用客戶習慣和偏好判斷其體驗，預測他們想要的東西。
 
-### 說明文件資源
+### Campaign Classic 19.2
 
-* Adobe Campaign Standard：[文件](https://helpx.adobe.com/tw/support/campaign/standard.html) - [版本說明](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic：[文件](https://helpx.adobe.com/tw/support/campaign/classic.html) - [版本說明](https://docs.campaign.adobe.com/doc/AC/zh-Hant/RN.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+| 功能 | 說明 |
+| ------------- | ----------- |
+| 加州消費者隱私法(CCPA) | CCPA是加州新推出的隱私法，協調並現代化2020年1月1日生效的資料保護要求。 CCPA適用於持有居住在加州之資料主體資料的Adobe Campaign客戶。 <br> 除了現有的隱私權功能（包括許可管理、資料保留設定和使用者角色）外，Adobe Campaign還可協助您做好CCPA的準備： <ul><li>__ 存取權&#x200B;_,_&#x200B;刪除權：我們運用了為GDPR新增的功能。 [更多詳情](https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess) </li><li>您可以追蹤消費者是否已選擇退出個人資訊的銷售。 為此，您需要擴展「配置 [!UICONTROL 檔案] 」表，並添加 **[!UICONTROL 「退出CCPA」欄位]**。[更多詳情](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa)</li></ul> 請參閱 [how-to影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html)。 |
+| 工作流程即時監控 | 您現在可以使用預先定義的檢視來監視執行個體上所有工作流程的執行狀態。 <br> 如需詳細資訊，請參 [閱依據狀態篩選工作流程](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html#filtering-workflows-status)。 |
+| 使用AMP製作互動式內容 | Adobe Campaign可讓您試用新的互動式 [AMP for Email](https://amp.dev/about/email/) （電子郵件格式），讓行銷人員在訊息中加入AMP元件，以利用豐富、動態和互動式內容來增強電子郵件體驗，並直接在訊息中採取行動。 <br> 此功能會以公開測試版發佈。 <br> 如需詳細資訊，請參閱詳細 [的檔案](https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html) ，以及 [教學影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html)。 |
+| 安全的 SMS 傳訊 (TLS) | 現已透過 Extended Generic SMPP Connector 支援安全的 SMS。如此可讓您加密連線至提供者。<br> **警告**:這項功能要求所有伺服器上都有最新的憑證。 無效、已撤銷或已過期的憑證會產生影響整體SMS傳送功能的錯誤。 <br>如需詳細資訊，請參閱[詳細文件](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)。 |
+
+有關修正和改善項目，請參閱 [Adobe Campaign Classic 發行說明](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)。
+
+### Campaign Standard 19.4
+
+| 功能 | 說明 |
+| ------------- | ----------- |
+| 加州消費者隱私法(CCPA) | CCPA是加州新推出的隱私法，協調並現代化2020年1月1日生效的資料保護要求。 CCPA適用於持有居住在加州之資料主體資料的Adobe Campaign客戶。 <br> 除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們還將利用這個機會加入其他功能，以協助您做好CCPA的準備： <ul><li> 存取權與刪除權：我們運用了為GDPR新增的功能。 [更多詳情](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess) </li><li> 建立隱私權要求時，隱私權核心服務中已新增規則類型（GDPR或CCPA）。 此方法應用於所有存取和刪除請求。 不建議使用促銷活動API和介面來存取和刪除請求。 請參閱「已過 [時和已移除的功能」文章](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。 </li><li> 「設 **定檔」資源已新增「CCPA選擇退出** 」欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 [更多詳情](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa) </li></ul> 請參閱 [how-to影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html)。 |
+| Microsoft Dynamics 365整合(GA) | Adobe Campaign standard與Microsoft Dynamics 365的整合現已推出。 您將能夠將您的連絡人和自訂實體記錄從Dynamics 365傳輸至Campaign，並從Campaign將電子郵件事件資料傳回Dynamics 365，以便更好地協調銷售／行銷。 <br> 請參閱詳 [細檔案](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html) ，以設定此整合併檢 [視操作視訊](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html)。 |
+
+See [Adobe Campaign Standard Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) for fixes and improvements.
+
+### Adobe Campaign 控制面板
+
+我們已新增功能，讓管理員使用者可從「控制面板」委派子網域並續約SSL憑證。
+
+如需詳細資訊，請參閱以下頁面：
+
+* 設定新子網域——閱 [讀更多](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
+* 續約子網域的SSL憑證——詳 [細資訊](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html)
+
+>[!CAUTION]
+>
+>這些功能將於1月底之前在測試版中提供，而且可能會經常更新和修改，恕不另行通知。
+
+### 其他資源
+
+* Adobe Campaign Standard：[文件](https://helpx.adobe.com/support/campaign/standard.html) - [版本說明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Classic：[文件](https://helpx.adobe.com/support/campaign/classic.html) - [版本說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign控制面板：文 [件](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) -發 [行說明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
 ## Advertising Cloud {#adcloud}
 
+2020年1月11日發行更新
+
 | 檢視 | 功能 |
 |------|---------|
-|  |  |
+| 轉換追蹤 | 所有Advertising Cloud cookie都已更新，以符合Google Chrome 80的新Cookie控制需求，該需求將於2月4日發行。 變更是使用現有Cookie從Adobe伺服器實作，對訪客量度沒有任何影響。 不需要任何廣告商更新。 |
+| 前瞻分析>警報測試版、搜尋>促銷活動 | （僅限搜尋帳戶的測試版功能）新的警報測試版可讓您建立警報範本，以識別任何搜尋促銷活動、廣告群組、關鍵字或廣告何時符合特定條件— 例如效能量度— 然後產生警報。 警報適用於單一廣告商。 |
+| 報表 | 產品清單廣告的資料現在已包含在「標籤分類」、「標籤值」、「競標規則」和「約束」報表中。 |
