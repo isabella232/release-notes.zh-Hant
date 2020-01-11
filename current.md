@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d48cab564bb6a45022d5c8a388dd71d52a1b63f1
+source-git-commit: 51e45852d84bd30b5d0fb21640b2e9f31080840c
 
 ---
 
@@ -63,9 +63,9 @@ Adobe正在更新網域和介面標題，以統一並改善您在所有Experienc
 
 更新包括：
 
-* 新的解決方案URL:所 `experience.adobe.com/<application name>.` 有產品最終都會採用此URL模式。 尋找新的URL以在整個月內生效。 Adobe建議您在您看到重新導向至新網域後更新書籤。
+* 新的解決方案URL:所 `experience.adobe.com/<application name>.` 有產品最終都會採用此URL模式。 尋找新的URL以在整個月內生效。
 * 更輕鬆地在組織之間切換或切換至不同的應用程式。
-* 改良的產品說明：Experience League  已整合至產品中，因此說明搜尋也包含社群論壇和視訊內容的結果。 這項變更可簡化對更多內容的存取，並協助您充份運用Experience Cloud。 此外，按一 **[!UICONTROL 下「說明]**>**[!UICONTROL &#x200B;意見回應]** 」以報告問題，或與產品檔案團隊分享您的想法。
+* 改良的產品說明：Experience League  已整合至產品中，因此說明搜尋也包含社群論壇和視訊內容的結果。 這項變更可簡化對更多內容的存取，並協助您充份運用Experience Cloud。 此外，按一 **[!UICONTROL 下「說明]**>**[!UICONTROL &#x200B;意見回應]** 」以報告問題，或與產品Adobe分享您的想法。
 * 改進通知：「通 [!UICONTROL 知] 」下拉式功能表現在有兩個標籤，一個用於您自己的產品通知，另一個用於全域產品公告。
 
 **** 注意：摘 [!UICONTROL 要] (Feed)頁面已於2020年1月停用。 請參閱產品中的淘汰通知。
@@ -100,7 +100,7 @@ Experience Platform、Experience Platform Launch、身分服務和安全性佈�
 
 * 贏取——新增新的API `Analytics.processGooglePlayInstallReferrerUrl(final String url)`，以支援「安 [!DNL Google Play] 裝反向連結API」。
 
-如需安裝反向連結API的詳細資訊，請參閱「仍然 [使用InstallBroadcast?」 在2020年3月1日前切換至播放反向連結API](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html)。
+如需安裝反向連結API的詳細資訊，請參閱「仍然 [使用InstallBroadcast?」 在2020年3月1日前切換至「播放反向連結API」](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html)。
 
 ## [!DNL Analytics] {#analytics}
 
