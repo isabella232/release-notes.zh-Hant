@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 51e45852d84bd30b5d0fb21640b2e9f31080840c
+source-git-commit: b0f2fe07102a20e343f69b1c156f48ca4f284966
 
 ---
 
@@ -65,7 +65,7 @@ Adobe正在更新網域和介面標題，以統一並改善您在所有Experienc
 
 * 新的解決方案URL:所 `experience.adobe.com/<application name>.` 有產品最終都會採用此URL模式。 尋找新的URL以在整個月內生效。
 * 更輕鬆地在組織之間切換或切換至不同的應用程式。
-* 改良的產品說明：Experience League  已整合至產品中，因此說明搜尋也包含社群論壇和視訊內容的結果。 這項變更可簡化對更多內容的存取，並協助您充份運用Experience Cloud。 此外，按一 **[!UICONTROL 下「說明]**>**[!UICONTROL &#x200B;意見回應]** 」以報告問題，或與產品Adobe分享您的想法。
+* 改良的產品說明：Experience League  已整合至產品中，因此說明搜尋也包含社群論壇和視訊內容的結果。 這項變更可簡化對更多內容的存取，並協助您充份運用Experience Cloud。 此外，按一 **[!UICONTROL 下「說明]**>**[!UICONTROL &#x200B;意見回應]** 」以報告問題或與Adobe分享您的想法。
 * 改進通知：「通 [!UICONTROL 知] 」下拉式功能表現在有兩個標籤，一個用於您自己的產品通知，另一個用於全域產品公告。
 
 **** 注意：摘 [!UICONTROL 要] (Feed)頁面已於2020年1月停用。 請參閱產品中的淘汰通知。
@@ -249,7 +249,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | 功能 | 說明 |
 | ------------- | ----------- |
 | 加州消費者隱私法(CCPA) | CCPA是加州新推出的隱私法，協調並現代化2020年1月1日生效的資料保護要求。 CCPA適用於持有居住在加州之資料主體資料的Adobe Campaign客戶。 <br> 除了Adobe Campaign中已提供的隱私權功能（包括同意管理、資料保留設定和使用者角色）外，我們還將利用這個機會加入其他功能，以協助您做好CCPA的準備： <ul><li> 存取權與刪除權：我們運用了為GDPR新增的功能。 [更多詳情](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess) </li><li> 建立隱私權要求時，隱私權核心服務中已新增規則類型（GDPR或CCPA）。 此方法應用於所有存取和刪除請求。 不建議使用促銷活動API和介面來存取和刪除請求。 請參閱「已過 [時和已移除的功能」文章](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。 </li><li> 「設 **定檔」資源已新增「CCPA選擇退出** 」欄位，讓Adobe Campaign使用者追蹤消費者是否選擇退出個人資訊銷售。 [更多詳情](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa) </li></ul> 請參閱 [how-to影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html)。 |
-| Microsoft Dynamics 365整合(GA) | Adobe Campaign standard與Microsoft Dynamics 365的整合現已推出。 您將能夠將您的連絡人和自訂實體記錄從Dynamics 365傳輸至Campaign，並從Campaign將電子郵件事件資料傳回Dynamics 365，以便更好地協調銷售／行銷。 <br> 請參閱詳 [細檔案](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html) ，以設定此整合併檢 [視操作視訊](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html)。 |
+| Microsoft Dynamics 365整合(GA) | Adobe Campaign standard和Microsoft Dynamics 365之間的整合現已推出。 您將能夠將您的連絡人和自訂實體記錄從Dynamics 365傳輸至Campaign，並從Campaign將電子郵件事件資料傳回Dynamics 365，以便更好地協調銷售／行銷。 <br> 請參閱詳 [細檔案](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html) ，以設定此整合併檢 [視操作視訊](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html)。 |
 
 See [Adobe Campaign Standard Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) for fixes and improvements.
 
