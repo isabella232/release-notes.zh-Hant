@@ -68,7 +68,7 @@ Adobe正在更新網域和介面標題，以統一並改善您在所有Experienc
 * 改良的產品說明：Experience League  已整合至產品中，因此說明搜尋也包含社群論壇和視訊內容的結果。 這項變更可簡化對更多內容的存取，並協助您充份運用Experience Cloud。 此外，按一 **[!UICONTROL 下「說明]**>**[!UICONTROL &#x200B;意見回應]** 」以報告問題或與Adobe分享您的想法。
 * 改進通知：「通 [!UICONTROL 知] 」下拉式功能表現在有兩個標籤，一個用於您自己的產品通知，另一個用於全域產品公告。
 
-**** 注意：摘 [!UICONTROL 要] (Feed)頁面已於2020年1月停用。 請參閱產品中的淘汰通知。
+**注意：** 摘 [!UICONTROL 要] (Feed)頁面已於2020年1月停用。 請參閱產品中的淘汰通知。
 
 如需產品文件，請參閱 [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)。
 
@@ -135,8 +135,8 @@ Adobe Analytics 中的新功能和修正：
 | -----------| ---------- | ---------- |
 | 新的 Adobe Analytics 網域 | 2019 年 12 月 18 日 | 從2020年1月16日起，Adobe Analytics將開始移至新網域- `https://experience.adobe.com/analytics.`<br>**注意&#x200B;**:這項變更適用於使用其Adobe ID或Enterprise ID存取Analytics的所有使用者。<ul><li>網域變更在Safari中載入Analytics時，可能會造成Cookie問題。 Unchecking _Prevent cross-site tracking_ in the Safari Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Analytics to function on this new Adobe Experience Cloud domain. 您可以不產生任何問題地使用其他瀏覽器，因為這只會影響Safari使用者。</li><li>網域變更可能導致 [!UICONTROL Activity Map] 在某些特定情況下停 [止為某些客戶運作](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html)。</li></ul> |
 | 生命週期結束- Analytics舊版API | 2020 年 1 月 9 日 | 在2020年11月，下列Analytics舊版API服務將到期並關閉。 使用這些服務建立的目前整合將停止運作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>舊版OAuth驗證（OAuth和JWT）</li></ul>我們提供舊版 [API EOL常見問答集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) ，以協助您回答問題並提供如何繼續的指引。 採用這些服務的API整合可移轉至 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email)[或2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。 舊版OAuth帳戶可移轉至 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics整合帳戶，此帳戶可用來存取1.4 Analytics API和2.0 Analytics API。 |
-| **[!UICONTROL 檢視封存]**選項的 EOL | 2019 年 10 月 30 日 | 宣佈儀表板管理員 (**[!UICONTROL 元件 > 儀表板]**) 中的**[!UICONTROL &#x200B;檢視封存]**選項將於 2020 年 1 月終止服務。 |
-| **[!UICONTROL 強制 IP 登入限制]**選項的 EOL | 2019 年 10 月 30 日 | 宣佈&#x200B;**[!UICONTROL 管理 > 公司設定 > 安全性]**選單中的 IP 登入白名單 (**[!UICONTROL &#x200B;強制 IP 登入限制]**) 功能將於 2020 年 1 月終止服務。 |
+| **[!UICONTROL 檢視封存]** 選項的 EOL | 2019 年 10 月 30 日 | 宣佈儀表板管理員 (**[!UICONTROL 元件 > 儀表板]**) 中的 **[!UICONTROL &#x200B;檢視封存]** 選項將於 2020 年 1 月終止服務。 |
+| **[!UICONTROL 強制 IP 登入限制]** 選項的 EOL | 2019 年 10 月 30 日 | 宣佈&#x200B;**[!UICONTROL 管理 > 公司設定 > 安全性]** 選單中的 IP 登入白名單 (**[!UICONTROL &#x200B;強制 IP 登入限制]**) 功能將於 2020 年 1 月終止服務。 |
 | 終止支援 TLS 1.1 | 2019 年 10 月 3 日 | 到了 2020 年 3 月 31 日時，Adobe Analytics 將會移除對於 TLS 1.1 的支援。此變更是我們為了保持最高安全標準並提升客戶資料安全性而不斷努力的其中一項成果。 |
 | San Jose FTP Broker 結束倫敦和新加坡的業務 | 2020 年 7 月 | 對於倫敦和新加坡的客戶，我們不再支援於倫敦或新加坡與聖荷西資料中心 [ftp.omniture.com](ftp://ftp.omniture.com/) 之間的代理資料。<br/><ul><li>如果在倫敦，請使用 [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>如果在新加坡，請使用 [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
 | 關於 Analytics 使用者 `createDate` 欄位的近期變更 | 2019 年 8 月 30 日 | In October or November 2019, the `createDate` field for Analytics users was updated from US Pacific Time to a correctly formatted date and time value with time zone information.(AN-183468) |
@@ -157,7 +157,7 @@ Audience manager中新增的修正和功能。
 
 ### 修正和改良 {#aam-fixes-and-improvements}
 
-* 修正「建立目 [!UICONTROL 標] 」工作流程中，在選擇「整合平台」類別後，「基本資訊」 ****類別會消失，而無法完成工作流程的問題。 (AAM-52397、AAM-52414)
+* 修正「建立目 [!UICONTROL 標] 」工作流程中，在選擇「整合平台」類別後，「基本資訊」 類別會消失，而無法完成工作流程的問題。 (AAM-52397、AAM-52414)
 * 我們修正了Apple Safari和Mozilla Firefox [!UICONTROL 瀏覽器無法載入「建立／編輯] 」目標頁面的錯誤。 (AAM-51784)
 
 ## Experience Manager {#aem}
