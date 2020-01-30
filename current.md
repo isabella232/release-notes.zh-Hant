@@ -65,7 +65,7 @@ Adobe 正在更新網域和介面標題，以統一及提升您在所有 Experie
    * 瀏覽器支援：支援的瀏覽器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera] (最新版本)。**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別解決方案可能不會支援所有瀏覽器 (例如 [Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.translate.html) 不支援 [!DNL Opera]，[Target](https://docs.adobe.com/help/zh-Hant/target/using/implement-target/before-implement/supported-browsers.translate.html) 不支援 [!DNL Safari])。
    * (僅限 [!DNL Safari]) 網域變更可能導致 [!DNL Safari] 發生 Cookie 問題。在 [!DNL Safari] 的「隱私權偏好設定」中取消勾選&#x200B;_「防止跨網站追蹤」_，即可在各網域 (以及所有跨網站體驗) 啟用 Cookie，並允許 Experience Cloud 在這個新的網域中運作。
 * 在組織或不同應用程式之間更輕鬆地切換。
-* 改良產品說明：[!UICONTROL Experience League] 已整合至產品中，因此搜尋說明內容時，搜尋範圍會包含社群論壇和視訊內容。這項變更可讓您輕鬆存取更多內容，協助您充份運用 Experience Cloud。此外，按一下&#x200B;**[!UICONTROL 「說明]**>**[!UICONTROL &#x200B;意見回饋」]**即可回報問題，或與 Adobe 分享您的想法。
+* 改良產品說明：[!UICONTROL Experience League] 已整合至產品中，因此搜尋說明內容時，搜尋範圍會包含社群論壇和視訊內容。這項變更可讓您輕鬆存取更多內容，協助您充份運用 Experience Cloud。此外，按一下&#x200B;**[!UICONTROL 「說明]**&#x200B;>&#x200B;**[!UICONTROL &#x200B;意見回饋」]**&#x200B;即可回報問題，或與 Adobe 分享您的想法。
 * 改良通知：[!UICONTROL 「通知」]下拉式選單現在提供兩個標籤，其中一個顯示您的產品通知，另一個顯示全球產品公告。
 
 **注意：**[!UICONTROL 「摘要」]頁面將於 2020 年 1 月汰除。請參閱產品中的淘汰通知。
@@ -117,7 +117,7 @@ Adobe Analytics 中的新功能和修正：
 | 功能 | 說明 |
 | -----------| ---------- |
 | Analysis Workspace – 改善使用者介面 | Analysis Workspace 會於 2020 年 1 月 16 日開始改善使用者介面，將為期數個月。這些變更的目標是讓使用者更容易存取應用程式，並在 Adobe Experience cloud 中提供更一致的體驗。 |
-| Analysis Workspace – 自由表格產生器 | 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul>[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table.html)。 |
+| Analysis Workspace – 自由表格產生器 | 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul>[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table.html)。 |
 | 跨裝置分析 (CDA) 新增[!UICONTROL 識別狀態]維度 | 我們為 CDA 虛擬報表套裝新增[!UICONTROL 識別狀態]維度。此維度有兩個可能的值，分別是&#x200B;_已識別_&#x200B;和&#x200B;_未識別_。_已識別_：表示人員已由裝置圖表識別。_未識別_：表示裝置圖表未識別該人員。換句話說，<br>CDA 使用者現在可以建立經過計算的量度，例如[!UICONTROL 裝置圖表涵蓋範圍]，該量度可顯示虛擬報表套裝中有多少人已由裝置圖表識別。此度量有助於疑難排解 CDA 壓縮率的相關問題。如果識別的人數不多，結合度就會偏低。 |
 | 資料倉儲 API 中的 VRS 支援 | 現在，使用者可透過資料倉儲 API 使用虛擬報表套裝。相較之下，以前使用者只能透過資料倉儲 UI 使用此功能。現在使用資料倉儲 API 時，您可以查看及查詢虛擬報表套裝，但套用至虛擬報表套裝的區段必須與資料倉儲相容。 |
 | 隱私權服務 API：CCPA | 加州消費者隱私權法案 (California Consumer Privacy Act, CCPA) 強化了美國加州居民的隱私權和消費者保護力道。本法案自 2020 年 1 月 1 日起生效。<br><br/>CCPA 為加州居民提供了新的資料隱私權，例如有權存取和刪除其個人資料、有權得知其個人資料是否遭到販售或揭露 (以及對象是誰)，以及有權拒絕廠商販售其個人資料。<br><br/>隱私權服務可支援使用者提出拒絕銷售個人資料的要求。<br><br/>隱私權服務原本稱為 GDPR 服務，不僅保留之前的所有功能，現在更擴大範圍支援 CCPA。<br/><br/>[Analytics 中的 CCPA ](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/data-governance/an-ccpa-overview.html)<br><br/>[隱私權服務概觀](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
@@ -134,10 +134,10 @@ Adobe Analytics 中的新功能和修正：
 
 | 注意 | 新增日期或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 新的 Adobe Analytics 網域 | 2019 年 12 月 18 日 | 自 2020 年 1 月 16 日起，Adobe Analytics 將開始移動至新網域 - `https://experience.adobe.com/analytics.`<br>**注意&#x200B;**：這項變更適用於使用 Adobe ID 或 Enterprise ID 存取 Analytics 的所有使用者。<ul><li>這項網路異動可能會在 Safari 中載入 Analytics 時造成 Cookie 問題。在 Safari「隱私權偏好設定」中取消勾選&#x200B;_「防止跨網站追蹤」_，即可在各網域 (以及所有跨網站體驗) 啟用 Cookie，並允許 Analytics 在這個新的 Adobe Experience Cloud 網域中運作。只有 Safari 使用者會受到影響，建議使用其他瀏覽器，以免發生這類問題。</li><li>網域變更可能會導致 [!UICONTROL Activity Map] 在[部分特定情況下](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/activity-map/activity-map.html)停止運作。</li></ul> |
+| 新的 Adobe Analytics 網域 | 2019 年 12 月 18 日 | 自 2020 年 1 月 16 日起，Adobe Analytics 將開始移動至新網域 - `https://experience.adobe.com/analytics.`<br>**注意&#x200B;**&#x200B;：這項變更適用於使用 Adobe ID 或 Enterprise ID 存取 Analytics 的所有使用者。<ul><li>這項網路異動可能會在 Safari 中載入 Analytics 時造成 Cookie 問題。在 Safari「隱私權偏好設定」中取消勾選&#x200B;_「防止跨網站追蹤」_，即可在各網域 (以及所有跨網站體驗) 啟用 Cookie，並允許 Analytics 在這個新的 Adobe Experience Cloud 網域中運作。只有 Safari 使用者會受到影響，建議使用其他瀏覽器，以免發生這類問題。</li><li>網域變更可能會導致 [!UICONTROL Activity Map] 在[部分特定情況下](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/activity-map/activity-map.html)停止運作。</li></ul> |
 | 終止服務 - Analytics Legacy API | 2020 年 1 月 9 日 | 自 2020 年 11 月起，下列 Analytics Legacy API 服務將終止並關閉。透過這些服務建立的整合應用將會停止運作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy Oauth 驗證 (Oauth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問答集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy Oauth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
-| **[!UICONTROL 檢視封存]**選項的 EOL | 2019 年 10 月 30 日 | 宣佈儀表板管理員 (**[!UICONTROL 元件 > 儀表板]**) 中的**[!UICONTROL &#x200B;檢視封存]**選項將於 2020 年 1 月終止服務。 |
-| **[!UICONTROL 強制 IP 登入限制]**選項的 EOL | 2019 年 10 月 30 日 | 宣佈&#x200B;**[!UICONTROL 管理 > 公司設定 > 安全性]**選單中的 IP 登入白名單 (**[!UICONTROL &#x200B;強制 IP 登入限制]**) 功能將於 2020 年 1 月終止服務。 |
+| **[!UICONTROL 檢視封存]**&#x200B;選項的 EOL | 2019 年 10 月 30 日 | 宣佈儀表板管理員 (**[!UICONTROL 元件 > 儀表板]**) 中的**[!UICONTROL &#x200B;檢視封存]** 選項將於 2020 年 1 月終止服務。 |
+| **[!UICONTROL 強制 IP 登入限制]**&#x200B;選項的 EOL | 2019 年 10 月 30 日 | 宣佈&#x200B;**[!UICONTROL 管理 > 公司設定 > 安全性]**選單中的 IP 登入白名單 (**[!UICONTROL &#x200B;強制 IP 登入限制]** ) 功能將於 2020 年 1 月終止服務。 |
 | 終止支援 TLS 1.1 | 2019 年 10 月 3 日 | 到了 2020 年 3 月 31 日時，Adobe Analytics 將會移除對於 TLS 1.1 的支援。此變更是我們為了保持最高安全標準並提升客戶資料安全性而不斷努力的其中一項成果。 |
 | San Jose FTP Broker 結束倫敦和新加坡的業務 | 2020 年 7 月 | 對於倫敦和新加坡的客戶，我們不再支援於倫敦或新加坡與聖荷西資料中心 [ftp.omniture.com](ftp://ftp.omniture.com/) 之間的代理資料。<br/><ul><li>如果在倫敦，請使用 [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>如果在新加坡，請使用 [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
 | 關於 Analytics 使用者 `createDate` 欄位的近期變更 | 2019 年 8 月 30 日 | 2019 年 10 月或 11 月期間，Analytics 使用者的 `createDate` 欄位已從美國太平洋時間更新為格式正確的日期/時間值，並附上時區資訊。(AN-183468) |
@@ -158,7 +158,7 @@ Audience Manager 新增的修正項目和功能。
 
 ### 修正和改良 {#aam-fixes-and-improvements}
 
-* 修正在[!UICONTROL 「建立目標」]工作流程中，選擇&#x200B;**[!UICONTROL 「整合平台」]**[!UICONTROL 類別]即導致[!UICONTROL 「基本資訊」]區段消失而無法完成工作流程的問題。(AAM-52397、AAM-52414)
+* 修正在[!UICONTROL 「建立目標」]工作流程中，選擇&#x200B;**[!UICONTROL 「整合平台」]**&#x200B;[!UICONTROL 類別]即導致[!UICONTROL 「基本資訊」]區段消失而無法完成工作流程的問題。(AAM-52397、AAM-52414)
 * 我們已修正 Apple Safari 和 Mozilla Firefox 瀏覽器無法載入[!UICONTROL 「建立/編輯」]目標頁面的錯誤。(AAM-51784)
 
 ## Experience Manager {#aem}
