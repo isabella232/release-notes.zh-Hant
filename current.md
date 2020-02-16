@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d61884a3de7bd7c8d32fb9dc88727e82083ca5c1
+source-git-commit: 0a9f95d1d9a2bba69cecada0d0c39f70e507c995
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Cloud 中的新功能及修正。
 * [Experience Cloud 介面與核心服務](#ecloud)
 * [Experience Platform](#platform)
 * [Mobile Services 與 Mobile SDK](#mobile)
-* [!DNL Analytics](#analytics) **(2020 年 1 月 21 日更新)**
+* [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -55,7 +55,7 @@ Adobe Experience Cloud 中的新功能及修正。
 | -----------| ---------- |
 | 更快速地瞭解產品活動 | <ul><li>在即將到來的服務維護前30天獲知。 此功能提供更多的前置時間來評估對業務運營的潛在影響，使您能夠在需要時實施緩解計畫。</li><li>進階通知可在網頁／行動裝置／平板電腦介面上使用，也可透過電子郵件通知取得。</li></ul> |
 | 根據偏好的語言個人化您的體驗 | <ul><li>選擇電子郵件通知的偏好語言。 自訂功能現在提供十九種語言版本。</li></ul> |
-| 改善訂閱和通知使用者體驗 | <ul><li>只要按一下，即可指定您要訂閱之所有產品的地區和事件偏好設定。</li><li>當潛在問 _題提升_ 為次要或主要問 _題時_ , _收到通知_ 。</li><li>當任何產品或事件狀態更新時，瀏覽器頁面會自動重新整理。</li></ul> |
+| 改善訂閱和通知使用者體驗 | <ul><li>只要按一下，即可指定您要訂閱之所有產品的地區和事件偏好設定。</li><li>當潛在問題 _升級為_ 「次要」或「主要 _」時，會收到通知___ 。</li><li>當任何產品或事件狀態更新時，瀏覽器頁面會自動重新整理。</li></ul> |
 
 ## Experience Cloud 介面與核心服務 {#ecloud}
 
