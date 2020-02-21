@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c62d85f09ce596482a019aa5d0f1d517bf2df9fe
+source-git-commit: 7a8c0c680195b5308dfb6c0214b1d56ceda88584
 
 ---
 
@@ -21,13 +21,13 @@ Adobe Experience Cloud 中的新功能及修正項目。
 
 （特定產品發行日期可能有所不同）
 
-最新更新：2020年2月10日
+最新更新：2020年2月21日
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面與核心服務](#ecloud)
 * [Experience Platform](#platform)
 * [Mobile Services 與 Mobile SDK](#mobile)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) （更新日期：2020年2月21日）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -52,7 +52,7 @@ Adobe Experience Cloud 中的新功能及修正項目。
 | -----------| ---------- |
 | 更快速地瞭解產品活動 | <ul><li>在即將到來的服務維護前30天獲知。 此功能提供更多的前置時間來評估對業務運營的潛在影響，使您能夠在需要時實施緩解計畫。</li><li>進階通知可在網頁／行動裝置／平板電腦介面上使用，也可透過電子郵件通知取得。</li></ul> |
 | 根據偏好的語言個人化您的體驗 | <ul><li>選擇電子郵件通知的偏好語言。 自訂功能現在提供十九種語言版本。</li></ul> |
-| 改善訂閱和通知使用者體驗 | <ul><li>只要按一下，即可指定您要訂閱之所有產品的地區和事件偏好設定。</li><li>當潛在問題 _升級為_ 「次要」或「主要 _」時，會收到通知___ 。</li><li>當任何產品或事件狀態更新時，瀏覽器頁面會自動重新整理。</li></ul> |
+| 改善訂閱和通知使用者體驗 | <ul><li>只要按一下，即可指定您要訂閱之所有產品的地區和事件偏好設定。</li><li>當潛在問 _題提升_ 為次要或主要問 _題時_ , _收到通知_ 。</li><li>當任何產品或事件狀態更新時，瀏覽器頁面會自動重新整理。</li></ul> |
 
 ## Experience Cloud 介面與核心服務 {#ecloud}
 
@@ -105,9 +105,9 @@ Experience Platform、Experience Platform Launch、身分服務和安全性佈�
 
 Adobe Analytics 中的新功能和修正：
 
-* [Adobe Analytics 中的新功能、增強功能和修正](#aa-features) (2020 年 1 月 21 日更新)
+* [Adobe Analytics 中的新功能、增強功能和修正](#aa-features)
 * [給 Analytics 管理員的重要通知](#aa-notices)
-* [AppMeasurement](#appm)
+* [AppMeasurement](#appm) (2020 年 2 月 21 日更新)
 
 如需產品文件，請參閱 [Adobe Analytics 說明首頁](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
 
@@ -141,7 +141,7 @@ Adobe Analytics 中的新功能和修正：
 
 ### [!DNL AppMeasurement] {#appm}
 
-請參閱 [AppMeasurement for Javascript 版本說明](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)。2020年2月13日發行版本2.18.0。
+請參閱 [AppMeasurement for Javascript 版本說明](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)。版本2.19.0已於2020年2月21日發行。
 
 ## Audience Manager {#aam}
 
