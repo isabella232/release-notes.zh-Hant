@@ -5,17 +5,14 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 71ba31c62c66771c16273131db3b72bbaa614d52
+source-git-commit: c62d85f09ce596482a019aa5d0f1d517bf2df9fe
 
 ---
 
 
-# 提早存取- Adobe Experience cloud發行說明- 2020年2月
+# Adobe Experience cloud發行說明- 2020年2月
 
-Adobe Experience Cloud 中的新功能及修正。
-
->[!IMPORTANT]
->此頁面含有搶鮮版內容，於預計發行前可能會有所變更。
+Adobe Experience Cloud 中的新功能及修正項目。
 
 >[!NOTE]
 >訂閱 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。產品發行後才發佈的新資訊皆會標示發佈日期。
@@ -55,7 +52,7 @@ Adobe Experience Cloud 中的新功能及修正。
 | -----------| ---------- |
 | 更快速地瞭解產品活動 | <ul><li>在即將到來的服務維護前30天獲知。 此功能提供更多的前置時間來評估對業務運營的潛在影響，使您能夠在需要時實施緩解計畫。</li><li>進階通知可在網頁／行動裝置／平板電腦介面上使用，也可透過電子郵件通知取得。</li></ul> |
 | 根據偏好的語言個人化您的體驗 | <ul><li>選擇電子郵件通知的偏好語言。 自訂功能現在提供十九種語言版本。</li></ul> |
-| 改善訂閱和通知使用者體驗 | <ul><li>只要按一下，即可指定您要訂閱之所有產品的地區和事件偏好設定。</li><li>當潛在問 _題提升_ 為次要或主要問 _題時_ , _收到通知_ 。</li><li>當任何產品或事件狀態更新時，瀏覽器頁面會自動重新整理。</li></ul> |
+| 改善訂閱和通知使用者體驗 | <ul><li>只要按一下，即可指定您要訂閱之所有產品的地區和事件偏好設定。</li><li>當潛在問題 _升級為_ 「次要」或「主要 _」時，會收到通知___ 。</li><li>當任何產品或事件狀態更新時，瀏覽器頁面會自動重新整理。</li></ul> |
 
 ## Experience Cloud 介面與核心服務 {#ecloud}
 
@@ -162,7 +159,7 @@ Audience Manager 新增的修正項目和功能。
 * 已修正導覽演算法模型建立流程時造成UI中斷的錯誤(AAM-37942)。
 * 針對使用Adobe Experience platform整合的客戶，在新目的地或現有目的地儲存「資料匯出控制」時，造成「資料匯出」選項無法儲存的錯誤已經修正(AAM-52814)。
 * 修正造成第三方特徵建議在名稱中包含垂直號字元(`|`)的特徵上運作不正確的錯誤(AAM-51635)。
-* UI中的多種可存取性改進。
+* UI中的多種協助工具改良功能。
 
 ## Experience Manager {#aem}
 
@@ -209,16 +206,13 @@ Adobe Experience Manager (AEM) 中的新功能、修正及更新。Adobe 建議�
 
 Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法提供一對一訊息。您現在可以使用客戶習慣和偏好判斷其體驗，預測他們想要的東西。
 
-### Campaign Classic
+### Campaign Classic 19.2.3
 
-* [Campaign Classic 20.1](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
-* [Campaign Classic 19.2.3更新](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-2.html)
+若需修正和改善項目的相關資訊，請參閱 [Adobe Campaign Classic 發行說明](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)。
 
-### Campaign Standard
+### Campaign Standard 20.1
 
-* [Campaign Standard 20.1.3更新](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1-3---february-2020)
-* [Campaign Standard 20.1.2更新](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.htmll#release-20-1-2---february-2020)
-* [Campaign Standard 20.1](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1---february-2020)
+若需修正和改善項目的相關資訊，請參閱 [Adobe Campaign Standard 發行說明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html)。
 
 ### 其他資源
 
