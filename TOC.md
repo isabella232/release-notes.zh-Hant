@@ -3,7 +3,7 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Adobe Experience Cloud Release Notes
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb9cc4856218b48644a6198260e411d7742de61f
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: bb9cc4856218b48644a6198260e411d7742de61f
 
 + [發行說明](current.md)
 + 上一版的發行說明 {#previous}
-   + 2020 {#2020}
+   + 2020 年{#2020}
       + [2020 年 1 月](c-legacy-releases/2020/01162020.md)
-   + 2019 {#2019}
+   + 2019 年{#2019}
       + [2019 年 11 月](c-legacy-releases/2019/10312019.md)
       + [2019 年 10 月](c-legacy-releases/2019/10102019.md)
       + [2019 年 9 月](c-legacy-releases/2019/09122019.md)
@@ -27,7 +27,7 @@ source-git-commit: bb9cc4856218b48644a6198260e411d7742de61f
       + [2019 年 3 月](c-legacy-releases/2019/03072019.md)
       + [ 2019 年 2 月](c-legacy-releases/2019/02072019.md)
       + [2019 年 1 月](c-legacy-releases/2019/01172019.md)
-   + 2018 {#2018}
+   + 2018 年{#2018}
       + [2018 年 11 月](c-legacy-releases/2018/11012018.md)
       + [2018 年 10 月](c-legacy-releases/2018/10112018.md)
       + [2018 年 9 月](c-legacy-releases/2018/09132018.md)
@@ -39,7 +39,7 @@ source-git-commit: bb9cc4856218b48644a6198260e411d7742de61f
       + [2018 年 3 月](c-legacy-releases/2018/03082018.md)
       + [2018 年 2 月](c-legacy-releases/2018/02082018.md)
       + [2018 年 1 月](c-legacy-releases/2018/01182018.md)
-   + 2017 {#2017}
+   + 2017 年{#2017}
       + [2017 年 11 月](c-legacy-releases/2017/11092017.md)
       + [2017 年 10 月](c-legacy-releases/2017/10262017.md)
       + [2017 年 9 月](c-legacy-releases/2017/09212017.md)
@@ -51,7 +51,7 @@ source-git-commit: bb9cc4856218b48644a6198260e411d7742de61f
       + [2017 年 3 月](c-legacy-releases/2017/03092017.md)
       + [ 2017 年 2 月](c-legacy-releases/2017/02162017.md)
       + [2017 年 1 月](c-legacy-releases/2017/01192017.md)
-   + 2016 {#2016}
+   + 2016 年{#2016}
       + [2016 年 11 月](c-legacy-releases/2016/11102016.md)
       + [2016 年 10 月](c-legacy-releases/2016/10202016.md)
       + [2016年 9 月](c-legacy-releases/2016/09152016.md)
@@ -63,7 +63,7 @@ source-git-commit: bb9cc4856218b48644a6198260e411d7742de61f
       + [2016 年 3 月](c-legacy-releases/2016/03172016.md)
       + [ 2016 年 2 月](c-legacy-releases/2016/02182016.md)
       + [2016 年 1 月](c-legacy-releases/2016/01212016.md)
-   + 2015 {#2015}
+   + 2015 年{#2015}
       + [2015 年 11 月](c-legacy-releases/2015/11052015.md)
       + [2015 年 10 月](c-legacy-releases/2015/10152015.md)
       + [2015 年 9 月](c-legacy-releases/2015/09172015.md)
@@ -75,4 +75,4 @@ source-git-commit: bb9cc4856218b48644a6198260e411d7742de61f
       + [2015 年 3 月](c-legacy-releases/2015/03192015.md)
       + [2015 年 2 月](c-legacy-releases/2015/02192015.md)
       + [2015 年 1 月](c-legacy-releases/2015/01152015.md)
-   + [2014 以前](c-legacy-releases/2014-earlier.md)
+   + [2014 年以前](c-legacy-releases/2014-earlier.md)
