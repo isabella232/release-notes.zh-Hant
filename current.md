@@ -5,12 +5,12 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d6c2892cedd2641f35556f36c149b4a8a8203683
+source-git-commit: 8ee099db4445862bdae3c94010f70ba2696798f9
 
 ---
 
 
-# Adobe Experience cloud發行說明- 2020年2月
+# Adobe Experience Cloud 版本說明 - 2020 年 2 月
 
 Adobe Experience Cloud 的新功能及修正項目。
 
@@ -21,13 +21,13 @@ Adobe Experience Cloud 的新功能及修正項目。
 
 (特定產品發行日期可能有所不同)
 
-最新更新日期：2020 年 2 月 21 日
+最新更新日期：2020 年 2 月 26 日
 
 * [Adobe 系統狀態](#status)
-* [Experience Cloud 介面與核心服務](#ecloud)
+* [Experience Cloud 介面與核心服務](#ecloud) (更新日期: **2020 年 2 月 26 日**)
 * [Experience Platform](#platform)
 * [Mobile Services 與 Mobile SDK](#mobile)
-* [!DNL Analytics](#analytics) （更新日期：2020年2月21日）
+* [!DNL Analytics](#analytics) (更新：（2020年2月21日）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -35,6 +35,7 @@ Adobe Experience Cloud 的新功能及修正項目。
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (前往解決方案說明的連結)
 * [!DNL Advertising Cloud](#adcloud)
 * [!DNL Magento](#magento)
+* [!DNL Marketo](#marketo) (更新日期: **2019 年 2 月 26 日**)
 
 在找說明首頁嗎？請參閱 [Adobe Experience Cloud 檔案](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)。
 
@@ -56,7 +57,13 @@ Adobe Experience Cloud 的新功能及修正項目。
 
 ## Experience Cloud 介面與核心服務 {#ecloud}
 
+發行更新：2016 **年2月26日**
+
 Experience Cloud 介面的新功能和修正項目，包括管理和核心服務 (客戶屬性、對象、觸發器、Cookie 等)。
+
+| 功能 | 說明 |
+| -----------| ---------- |
+| 管理工具——檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有Experience cloud使用者及其詳細資料的可排序和可篩選清單。 使用者詳細資訊包括使用者的產品存取權、角色和上次存取的資訊。 如需詳 [細資訊，請參閱Experience cloud管理工具](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) 說明。 |
 
 **修正**
 
@@ -95,7 +102,7 @@ Experience Platform、Experience Platform Launch、身分服務和安全性佈�
 
 ## Mobile Services 與 Mobile SDK {#mobile}
 
-**2020 年 2 月 4 日：4.19.0 版**
+2020年2月4日：4.19.0版
 
 此版本已完成下列更新：
 
@@ -160,7 +167,7 @@ Audience Manager 新增的修正項目和功能。
 * 修正導覽演算法模型建立流程時，造成 UI 中斷的錯誤 (AAM-37942)。
 * 針對使用 Adobe Experience Platform 整合的客戶，修正在新目的地或現有目的地儲存「資料匯出控制項」時，造成所選取的「資料匯出」無法儲存的錯誤 (AAM-52814)。
 * 修正特徵名稱含有垂直號字元 (`|`) 時，第三方特徵建議無法正確運作的錯誤 (AAM-51635)。
-* UI中的多種協助工具改良功能。
+* UI 中的協助工具也有多處改良。
 
 ## Experience Manager {#aem}
 
@@ -237,3 +244,40 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 * [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
 * [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
+
+## [!DNL Marketo] {#marketo}
+
+[!DNL Marketo Engage] 是銷售機會管理和B2B行銷人員的完整解決方案，希望透過參與複雜購買歷程的每個階段來轉變客戶體驗。
+
+### 核心行銷商參與更新
+
+發行日期：2020 年 2 月 21 日
+
+* **_Microsoft流動_操作中的Microsoft Dynamics** Change Owner:直接從Market變更銷售線索或聯絡擁有者以吸引客戶。
+* **API呼叫的增強功能：**
+   * 使用者管理API
+   * 自訂物件結構API
+   * 著陸頁面重新導向規則API
+* **** 表單描述符快取：著陸頁面與表單的改進。
+
+See [!DNL Marketo] release notes for [February 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) for more information.
+
+### 近期功能
+
+本季度推出下列功能：
+
+| 檢視 | 功能 |
+|------|---------|
+| [!DNL Bizible] | <ul><li>新的帳戶型細分</li><li>儲存控制面板特定篩選</li><li>將可見的控制面板匯出為PDF</li></ul> |
+| Sales Connect | 合成窗口和命令中心更新／增強功能 |
+
+### 公告
+
+**·行**&#x200B;銷人員參與成功中心：於2020年2月推出。 成功中心是產品內的說明中心，可讓您搜尋產品檔案和社群、啟動操作指南、存取採用內容等。 注意：這項功能將作為測試版在澳新銀行推出，並將在本季度晚些時候在北美推出。
+
+### 淘汰
+
+* **** 資產API &quot;_method&quot;參數：在2020年9月之後，資產API端點將不再接受&quot;_method&quot;來傳遞POST內文中的查詢參數，以略過URI長度限制。
+* **** 取代Internet explorer支援：從2020年7月31日的7月版本開始，Internet explorer將不再支援Marketo Engage使用者介面。
+
+如需累計和歷史發行說明，請參閱 [Marketo發行說明](https://docs.marketo.com/x/CgA6Ag)。
