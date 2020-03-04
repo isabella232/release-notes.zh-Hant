@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: October 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 562b27b201dd095236fdb8a6a10f8db798b615e1
+source-git-commit: 2363a9f58f658e49054e3ac7a63083925a381eec
 
 ---
 
@@ -33,8 +33,6 @@ Adobe Experience Cloud 的新功能及修正項目。
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (前往解決方案說明的連結)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (前往解決方案說明的連結)
-* [!DNL Magento](#magento)
-* [!DNL Marketo](#marketo)
 
 在找說明首頁嗎？請參閱 [Adobe Experience Cloud 檔案](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)。
 
@@ -283,16 +281,3 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 * 修正
 * 修正
 * 修正
-
-## [!DNL Magento] {#magento}
-
-如需 Magento 發行說明，請參閱：
-
-* [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
-* [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
-
-## [!DNL Marketo] {#marketo}
-
-[!DNL Marketo Engage] 是銷售機會管理的完整解決方案，也適合 B2B 行銷人員使用，而透過該解決方案，他們可參與複雜購買歷程的每個階段，從中轉變客戶體驗。
-
-如需彙整資料和過往的發行說明，請參閱 [Marketo 發行說明](https://docs.marketo.com/x/CgA6Ag)。
