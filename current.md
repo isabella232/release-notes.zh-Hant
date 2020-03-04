@@ -5,21 +5,23 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9ed727b23cbc90965f44c4bb914728bbc2394d6b
+source-git-commit: 2363a9f58f658e49054e3ac7a63083925a381eec
 
 ---
 
 
-# Adobe Experience cloud發行說明- 2020年3月
+# Adobe Experience Cloud 版本說明 - 2020 年 2 月
 
 Adobe Experience Cloud 的新功能及修正項目。
 
 >[!NOTE]
 >訂閱 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。產品發行後才發佈的新資訊皆會標示發佈日期。
 
-**發行日期: 2020 年 3 月**
+**發行日期：2020 年 2 月 20 日**
 
 (特定產品發行日期可能有所不同)
+
+最新更新日期：2020 年 2 月 26 日
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面與核心服務](#ecloud) (更新日期：**2020 年 2 月 26 日**)
@@ -33,7 +35,7 @@ Adobe Experience Cloud 的新功能及修正項目。
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (前往解決方案說明的連結)
 * [!DNL Advertising Cloud](#adcloud)
 * [!DNL Magento](#magento)
-* [!DNL Marketo](#marketo)
+* [!DNL Marketo](#marketo) (更新日期：**2019 年 2 月 26 日**)
 
 在找說明首頁嗎？請參閱 [Adobe Experience Cloud 檔案](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)。
 
@@ -62,6 +64,11 @@ Experience Cloud 介面的新功能和修正項目，包括管理和核心服務
 | 功能 | 說明 |
 | -----------| ---------- |
 | 管理工具 - 檢視使用者詳細資訊 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取情形、角色，以及上次存取的資訊。 如需詳細資訊，請參閱 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)說明。 |
+
+**修正**
+
+* **客戶屬性：**&#x200B;客戶屬性 UI 現在會顯示 Target 中同步的其他設定檔狀態。(MCUI-10231)
+* **觸發核心服務：**&#x200B;由於鮮少使用，建立「放棄」類型觸發時的傾向分數「30 天內回訪的可能性」現已移除。(MCUI-10056)
 
 ### 統一產品網域
 
@@ -95,7 +102,11 @@ Experience Platform、Experience Platform Launch、身分服務和安全性佈�
 
 ## Mobile Services 與 Mobile SDK {#mobile}
 
-行動內容。
+2020 年 2 月 4 日：4.19.0 版
+
+此版本已完成下列更新：
+
+**生命週期：**&#x200B;新增 API (`pauseCollectingLifecycleData`)，以緩解某些舊 iOS 裝置回報的作業長度異常資料。
 
 ## [!DNL Analytics] {#analytics}
 
@@ -109,20 +120,24 @@ Adobe Analytics 的新功能和修正項目：
 
 ### Adobe Analytics 的新功能、增強功能和修正項目 {#aa-features}
 
-* **分析工作區中的多個報表套裝**:您現在可以將多個報表套裝的資料匯入單一分析工作區專案，以並排檢視。 從2020年3月12日開始，此功能將在數週內推出給所有客戶。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
-* **Experience cloud受眾最佳化**:此功能可讓您在8小時內（而非之前48小時的處理時間）將區段發佈至Experience Cloud。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+<!--* **Support for multiple report suites in Workspace:** You can now bring in data from multiple report suites into a single project to view side by side. Beginning on Feb 20, 2020, the feature will roll out to all customers over the course of several weeks. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)-->
+* **使用跨裝置分析的組織所適用的全新 Workspace 範本：**&#x200B;此範本可顯示 CDA 如何有效地將造訪拼接在一起，並能協助您了解 CDA 專屬的維度和量度。需使用 CDA 的報表套裝。如需詳細資訊，請參閱[設定跨裝置分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html)。
+* **若組織使用 Private Graph (私密圖表)，CDA 拼接延遲時間會縮短為一天：** Private Graph 功能已有所增強，將圖表產生延遲從每週批次處理減少為每日重新整理，CDA 客戶將能存取更新的識別圖表和連結。
+* **實驗室 (技術預覽)：**&#x200B;這項新的 Analytics 功能可讓您在生產環境中測試新功能的原型，為 Adobe 提供有價值的意見回饋。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html)
+* **Workspace 的全新快捷鍵：**<ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)
+* **Workspace 其他增強功能：**<ul><li>在 [!UICONTROL Workspace] 中置入面板或視覺化時，左側導軌會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件採取行動 (例如：加上標籤、標記為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單會提供 `+` 按鈕，方便您找不到所需內容時可以新增元件。</li></ul>
+* 「說明」功能表新增 **Workspace 偵錯程式**，供您以更順暢的方式啟用，以偵錯 Workspace 請求。[更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)
+* **以 Chromium 為基礎的 Microsoft Edge 瀏覽器：**&#x200B;此版本包含多項變更，可辨識以 Chromium 為基礎的 Microsoft Edge 瀏覽器 (79 版及更新版本) 以供報表使用。
 
 #### 修正
 
-* 修正「報告與分析」中客戶無法下載。xls報表的問題。(AN-206541、AN-204008)
-* 新殼層的推出修正了與轉換Experience cloud組織相關的數個客戶問題。(AN-200844、AN-186920)
+* 修正區段 UI 聲稱[!UICONTROL 「行銷管道」]維度與[!UICONTROL 「資料倉儲」]相容，但實際上並不相容的問題。未來，[!UICONTROL 「區段產生器」]不會再顯示這些維度能與[!UICONTROL 「資料倉儲」]相容。(AN-202297)
+* 修正 Analytics 更新所發佈區段名稱後，Audience Manager 未於 24 小時內跟進更新的問題。(AN-199974)
 
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
 | 注意 | 新增日期或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 「轉換等級」設定的EOL | 2020 年 3 月 3 日 | 2020年3月12 [日，UI將移除「管理工具](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) >報表套裝>一般帳戶設定」中的「轉換層級」無法運作的設定。 |
-| 控制面板封存的EOL | 2020 年 3 月 3 日 | 自2020年3月12日起，「報告與分析」中「管理控制面板」下的「檢視封存」設定將不再提供。 |
 | 新的 Adobe Analytics 網域 | 2019 年 12 月 18 日 | 自 2020 年 1 月 16 日起，Adobe Analytics 開始移動至新網域 - `https://experience.adobe.com/analytics.`<br>**注意：**凡是使用 Adobe ID 或 Enterprise ID 存取 Analytics 的所有使用者，均適用這項變更。<ul><li>這項網路異動可能會在 Safari 中載入 Analytics 時造成 Cookie 問題。在 Safari「隱私權偏好設定」中取消選取&#x200B;_「防止跨網站追蹤」_，即可在各網域 (以及所有跨網站體驗) 啟用 Cookie，並允許 Analytics 在這個新的 Adobe Experience Cloud 網域中運作。只有 Safari 使用者會受到影響，建議使用其他瀏覽器，以免發生這類問題。</li><li>網域變更可能會導致 [!UICONTROL Activity Map] 在[部分特定情況下](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html)停止運作。</li></ul> |
 | 終止服務 - Analytics Legacy API | 2020 年 1 月 9 日 | 自 2020 年 11 月起，下列 Analytics Legacy API 服務將終止並關閉。透過這些服務建立的整合應用將會停止運作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy Oauth 驗證 (Oauth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問答集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy Oauth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
 | **[!UICONTROL 檢視封存]**&#x200B;選項的 EOL | 2019 年 10 月 30 日 | 宣佈儀表板管理員 (**[!UICONTROL 元件 > 儀表板]**) 中的&#x200B;**[!UICONTROL 檢視封存]**&#x200B;選項將於 2020 年 1 月終止服務。 |
@@ -143,16 +158,44 @@ Audience Manager 新增的修正項目和功能。
 
 | 功能 | 說明 |
 |----|----|
-|  |  |
-|  |  |
+| [活動使用量報表](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/activity-usage-reporting.html) | [!UICONTROL 「活動使用量報表」]有助您檢視及追蹤 Audience Manager 例項的活動使用量，供您清楚了解活動使用量與合約承諾的落差。 |
+| [DIL 9.4](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-release-notes.html) | 我們已將 [!DNL Data Integration Library] ([!DNL DIL]) 更新至 9.4 版。此更新提升了與 [!DNL Google Chrome] [!DNL SameSite] Cookie 的相容性。 |
 
 ### 修正和改良 {#aam-fixes-and-improvements}
 
-AAM的修正。
+* 修正造成目的地建立流程中斷選擇「整合帳戶」之 UI 的錯誤 (AAM-52414)。
+* 修正導覽演算法模型建立流程時，造成 UI 中斷的錯誤 (AAM-37942)。
+* 針對使用 Adobe Experience Platform 整合的客戶，修正在新目的地或現有目的地儲存「資料匯出控制項」時，造成所選取的「資料匯出」無法儲存的錯誤 (AAM-52814)。
+* 修正特徵名稱含有垂直號字元 (`|`) 時，第三方特徵建議無法正確運作的錯誤 (AAM-51635)。
+* UI 中的協助工具也有多處改良。
 
 ## Experience Manager {#aem}
 
 Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建議使用內部部署的客戶部署最新修補程式，以確保擁有更出色的穩定性、安全性及效能。
+
+### 產品發行
+
+* **Cloud Manager 2020.2.0**
+
+   Cloud Manager 2020.2.0 可簡化 Adobe Experience Manager 雲端服務的沙箱自助服務管理作業。
+
+   請參閱[版本說明](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)。
+
+### 自助資源
+
+* **AEM 雲端服務的教學課程**
+
+   參照 [AEM 雲端服務的教學課程](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html)快速上手。
+
+* **AEM Forms 互動式通訊批次 API**
+
+   AEM Forms 互動式通訊的批次 API 可讓客戶自動或依需求產生多種互動式通訊。客戶可同時產生「列印」和「Web」輸出。
+請參閱[使用批次 API 產生多種互動式通訊](https://docs.adobe.com/content/help/en/experience-manager-65/forms/interactive-communications/generate-multiple-interactive-communication-using-batch-api.html)。
+
+* **AEM Forms on JEE 的支援平台**
+
+   新增對 AEM Forms on JEE 客戶的 Oracle 19c 支援。
+請參閱 [AEM Forms on JEE 的支援平台](https://docs.adobe.com/content/help/en/experience-manager-65/forms/install-aem-forms/jee-installation/aem-forms-jee-supported-platforms.html)。
 
 ### 其他資源
 
@@ -171,6 +214,14 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法提供一對一訊息。您現在可以使用客戶習慣和偏好判斷其體驗，預測他們想要的東西。
 
+### Campaign Classic 19.2.3
+
+若需修正和改善項目的相關資訊，請參閱 [Adobe Campaign Classic 發行說明](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)。
+
+### Campaign Standard 20.1
+
+若需修正和改善項目的相關資訊，請參閱 [Adobe Campaign Standard 發行說明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html)。
+
 ### 其他資源
 
 * Adobe Campaign Standard：[文件](https://helpx.adobe.com/support/campaign/standard.html) - [版本說明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
@@ -180,6 +231,12 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 ## Advertising Cloud {#adcloud}
 
 更新日期：2020 年 2 月 10 日 (適用於 2 月 8 日發行的版本)
+
+| 檢視 | 功能 |
+|------|---------|
+| 產品組合 | 現在起，您能在產品組合中新增Yahoo! Japan Display Network (YDN) 促銷活動，將促銷活動預算和廣告群組層級的出價最佳化。廣告群組中的所有廣告會套用相同出價。產品組合模擬作業會包含 YDN 促銷活動的資料。 |
+| 搜尋 > 大量表單 | 現在，您可以使用大量表單來建立、編輯及刪除 Google 回應式搜尋廣告 (RSA)。以前，您只能前往&#x200B;**[!UICONTROL 「搜尋]** > **[!UICONTROL 促銷活動」]**，透過標準促銷活動管理介面尋求支援 |
+| 搜尋 > 促銷活動、報表 | 現在起，所有基本報表和實體層級的促銷活動管理檢視均已提供 Google Ads 的「顯眼程度」度量 `Impr. (Abs. Top) %` 和 `Impr. (Top) %`，不過購物廣告產品群組、[!UICONTROL 「促銷活動每日曝光比重」]和[!UICONTROL 「關鍵字每日曝光比重」]報表，以及標籤和限制檢視除外。 |
 
 ## [!DNL Magento] {#magento}
 
