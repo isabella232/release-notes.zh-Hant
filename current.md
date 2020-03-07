@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e9fdb1166b47f17256afeaa7bced60f884de8d16
+source-git-commit: 101b94ed00ae148e946f17c134037ae880badc5d
 
 ---
 
@@ -133,7 +133,6 @@ Adobe Analytics 的新功能和修正項目：
 * 修正Attribution IQ中的首次接觸和上次接觸模型無法正確計算某些非現成尺寸行項目評分的問題。
 * 修正將一個日期維度劃分為另一個日期維度時，會傳回錯誤結果的問題。
 * 修正當套用至分類維度報表中的「未指定」時，有時會錯誤計算進入或退出量度的問題。
-
 
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
