@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ecee1c664485d710a62c9455e64eea3a16966780
+source-git-commit: e9fdb1166b47f17256afeaa7bced60f884de8d16
 
 ---
 
@@ -128,6 +128,12 @@ Adobe Analytics 的新功能和修正項目：
 
 * 修正「報告與分 [!UICONTROL 析」中無法下載報] 告的 `.xls` 問題。(AN-206541、AN-204008)
 * 新殼層的推出修正了與轉換Experience Cloud組織相關的數個客戶問題。(AN-200844、AN-186920)
+* 修正劃分的搜尋篩選器中未包含「未指定」（無）時，對 _Unspecified___ 行項目（或某些其他報告行項目）執行劃分時，不會傳回劃分結果的問題。
+* 修正使用分類維度時，進入或退出度量總計不符合劃分明細項目總計的問題。
+* 修正Attribution IQ中的首次接觸和上次接觸模型無法正確計算某些非現成尺寸行項目評分的問題。
+* 修正將一個日期維度劃分為另一個日期維度時，會傳回錯誤結果的問題。
+* 修正當套用至分類維度報表中的「未指定」時，有時會錯誤計算進入或退出量度的問題。
+
 
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
