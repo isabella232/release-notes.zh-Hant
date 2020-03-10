@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b58151e366ba9aef341a8bd6742d6275d5cd8b30
+source-git-commit: 2282dd7a9b0575021f2262e43f644af4b1dc3f0b
 
 ---
 
@@ -131,7 +131,7 @@ Adobe Analytics 的新功能和修正項目：
 
 ### Adobe Analytics 的新功能、增強功能和修正項目 {#aa-features}
 
-* **分析工作區中的多[!UICONTROL 個報表套裝&#x200B;]**:您現在可以將多個報表套裝的資料匯入單一[!UICONTROL Analysis Workspace]專案，並排檢視。 此功能將在數週內推出給所有客戶。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
+* **分析工作區中的多[!UICONTROL 個報表套裝&#x200B;]**:您現在可以將多個報表套裝的資料匯入至單一[!UICONTROL Analysis工作區專案]，以便在並排面板中檢視。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
 * **Experience Cloud受眾最佳化**:此功能可讓您在8小時內（而非之前48小時的處理時間）將區段發佈至Experience Cloud。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * **分析工作區——訓練教學課程範本**:此新標準範本會逐步帶您瞭解在工作區中建立第一個分析的常用術語和步驟。 它可作為「新建項目」模式中的標準範本使用，並替換目前存在於清單中沒有其他專案的新使用者的範例專案。 
 
