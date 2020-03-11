@@ -5,14 +5,14 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2282dd7a9b0575021f2262e43f644af4b1dc3f0b
+source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
 
 ---
 
 
 # 提早存取- Adobe Experience Cloud發行說明- 2020年3月
 
-Adobe Experience Cloud 的新功能及修正項目。
+[!DNL Adobe Experience Cloud] 中的新功能及修正。
 
 >[!IMPORTANT]
 >此頁面含有搶鮮版內容，於預計發行前可能會有所變更。
