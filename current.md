@@ -5,12 +5,14 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
+source-git-commit: 6fa8ddb48734849f15490dce814b1fd8763051d3
 
 ---
 
 
 # 提早存取- Adobe Experience Cloud發行說明- 2020年3月
+
+![橫幅](/assets/experience-cloud-banner-3.png)
 
 [!DNL Adobe Experience Cloud] 中的新功能及修正。
 
@@ -22,13 +24,11 @@ source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
 
 **發行日期: 2020 年 3 月**
 
-(特定產品發行日期可能有所不同)
+最新更新：2020年3月11日
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面與核心服務](#ecloud)
 * [Experience Platform](#platform)
-* [歷程協調](#journey)
-* [Mobile Services 與 Mobile SDK](#mobile)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -42,7 +42,9 @@ source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
 
 在找說明首頁嗎？請參閱 [Adobe Experience Cloud 檔案](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)。
 
-## Adobe 系統狀態 {#status}
+(特定產品發行日期可能有所不同.)
+
+## ![圖示](/assets/adobe.png) Adobe系統狀態 {#status}
 
 [!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/)。
 
@@ -58,7 +60,7 @@ source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
 | 根據使用者偏好提供個人化體驗 | <ul><li>電子郵件通知會使用根據瀏覽器設定的時區偏好設定。</li><li>使用所有選取的偏好設定，在訂閱／取消訂閱時傳送電子郵件確認。</li></ul> |
 | 更好地傳遞事件訊息 | <ul><li>事件歷史記錄會根據時間順序事件更新排序。</li><li>已新增至「主要／次要」已關閉問題的事件解析度時間戳記。</li></ul> |
 
-## Experience Cloud 介面與核心服務 {#ecloud}
+## ![Icon](/assets/experience-cloud.png) Experience Cloud介面和核心服務 {#ecloud}
 
 Experience Cloud 介面的新功能和修正項目，包括管理和核心服務 (客戶屬性、對象、觸發器、Cookie 等)。
 
@@ -84,29 +86,31 @@ Adobe 正在更新網域和介面標題，以統一及提升您在所有 Experie
 
 For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html) help.
 
-## Experience Platform {#platform}
+## ![Icon](/assets/platform.png) Experience Platform {#platform}
 
 Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience Platform Launch,] [!UICONTROL Identity Service,] and security bulletins.
 
 * [Experience Platform 發行說明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
+* [歷程協調](#journey)
+* [Mobile Services 與 Mobile SDK](#mobile)
 * [安全性佈告和諮詢](https://helpx.adobe.com/security.html) (所有 Adobe 產品)
 
 ### Experience Platform Launch {#launch}
 
 如需發行說明和產品文件，請參閱 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html)。
 
-## 歷程協調 {#journey}
+### 歷程協調 {#journey}
 
 使用Adobe Experience Platform，透過智慧地即時預測每個客戶的需求，跨不同體驗通道大規模策劃客戶歷程。
 
 第1季發行已發佈。 [閱讀更多資訊](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html#q1-release---march-2020)
 
-### 其他資源
+**其他資源**
 
 [檔案](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [發行說明](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [操作視訊](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
-## Mobile Services 與 Mobile SDK {#mobile}
+### Mobile Services 與 Mobile SDK {#mobile}
 
 **iOS v4.19.1**
 
@@ -117,7 +121,7 @@ Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience P
 
 * [!DNL Target] - [!DNL Target] Session ID現在會在傳送至Adobe Analytics的內部  Analytics-for-Target點擊中，新增為內容資料參數「a.target.sessionId」。
 
-## [!DNL Analytics] {#analytics}
+## ![圖示](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
 發行日期: **2020 年 3 月 12 日**
 
@@ -160,7 +164,7 @@ Adobe Analytics 的新功能和修正項目：
 
 請參閱 [AppMeasurement for Javascript 版本說明](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)。2020年3月5日發行版本2.20.0。
 
-## Audience Manager {#aam}
+## ![圖示](/assets/audience-manager.png) Audience Manager {#aam}
 
 Audience Manager的新功能和更新：
 
@@ -172,7 +176,7 @@ Audience Manager的新功能和更新：
 * 已修正區段API中 [!UICONTROL 的錯誤] ，因為有些區段沒有說明，當使用者嘗試存取這些區段，而使用者必須從該頁面導覽時，介面會凍結。 (AAM-53071)
 * 整個介面提供多種協助工具改良功能。 (AAM-48952、AAM-48969、AAM-48979、AAM-48993、AAM-49048、AAM-49057、AAM-49058、AAMaam-49392)
 
-## Experience Manager {#aem}
+## ![Icon](/assets/aem.png) Experience Manager {#aem}
 
 Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建議使用內部部署的客戶部署最新修補程式，以確保擁有更出色的穩定性、安全性及效能。
 
@@ -242,7 +246,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 * [Dynamic Media 發行說明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 發行說明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
-## [!DNL Campaign] {#ac}
+## ![圖示](/assets/campaign.png) [!DNL Campaign] {#ac}
 
 Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法提供一對一訊息。您現在可以使用客戶習慣和偏好判斷其體驗，預測他們想要的東西。
 
@@ -256,9 +260,9 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 * Adobe Campaign Classic：[文件](https://helpx.adobe.com/support/campaign/classic.html) - [版本說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [發行說明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
-## Advertising Cloud {#adcloud}
+## ![Icon](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
-更新日期：2020 年 2 月 10 日 (適用於 2 月 8 日發行的版本)：
+2020年2月10日更新，2月8日發行：
 
 | 檢視 | 功能 |
 |------|---------|
@@ -266,14 +270,14 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | [!UICONTROL 搜尋] >大量 [!UICONTROL 工作表] | 現在，您可以使用大量表單來建立、編輯及刪除 Google 回應式搜尋廣告 (RSA)。以前，您只能前往&#x200B;**[!UICONTROL 「搜尋]** > **[!UICONTROL 促銷活動」]**，透過標準促銷活動管理介面尋求支援 |
 | [!UICONTROL 搜尋] >促銷 [!UICONTROL 活動、報表] | 現在起，所有基本報表和實體層級的促銷活動管理檢視均已提供 Google Ads 的「顯眼程度」度量 `Impr. (Abs. Top) %` 和 `Impr. (Top) %`，不過購物廣告產品群組、[!UICONTROL 「促銷活動每日曝光比重」]和[!UICONTROL 「關鍵字每日曝光比重」]報表，以及標籤和限制檢視除外。 |
 
-## [!DNL Magento] {#magento}
+## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
 
 如需 Magento 發行說明，請參閱：
 
 * [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
 * [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
 
-## [!DNL Marketo] {#marketo}
+## ![圖示](/assets/marketo.png) [!DNL Marketo] {#marketo}
 
 [!DNL Marketo Engage] 是銷售機會管理的完整解決方案，也適合 B2B 行銷人員使用，而透過該解決方案，他們可參與複雜購買歷程的每個階段，從中轉變客戶體驗。
 
@@ -310,7 +314,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 如需彙整資料和過往的發行說明，請參閱 [Marketo 發行說明](https://docs.marketo.com/x/CgA6Ag)。
 
-## 新檔案與教學課程 {#selfhelp}
+## ![圖示](/assets/experience-cloud.png) ：新檔案與教學課程 {#selfhelp}
 
 最新和最新的自助文章和影片。 <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
