@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 745a054c15f05d7957e8c98b8adfa41b665b6fa6
+source-git-commit: 11dd1c361df84ef52b54734e2cbd231fce0cfda3
 
 ---
 
@@ -151,7 +151,7 @@ Adobe Analytics 的新功能和修正項目：
 
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
-| 注意 | 新增日期或更新日期 | 說明 |
+| 通知 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
 | **[!UICONTROL 「轉換級別」]**&#x200B;設定確定汰除 | 2020 年 3 月 3 日 | **[!UICONTROL 「管理工具]>[!UICONTROL 報表套裝]>[!UICONTROL 一般帳戶設定」]**&#x200B;中沒有作用的[「轉換級別」](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html)設定，預計於 2020 年 3 月 12 日從 UI 中移除。 |
 | **[!UICONTROL 控制面板封存]**&#x200B;確定汰除 | 2020 年 3 月 3 日 | 自 2020 年 3 月 12 日起，[!UICONTROL Reports &amp; Analytics] 中&#x200B;**[!UICONTROL 「管理控制面板」]**&#x200B;底下的&#x200B;**[!UICONTROL 「檢視封存」]**&#x200B;設定將不再提供使用。 |
@@ -272,9 +272,11 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 | 檢視 | 功能 |
 |------|---------|
-| [!UICONTROL 產品組合] | 您現在可新增 [!DNL Yahoo!] Yahoo! Japan Display Network (YDN) 促銷活動，將促銷活動預算和廣告群組層級的出價最佳化。廣告群組中的所有廣告會套用相同出價。產品組合模擬作業會包含 Japan Display Network 促銷活動的資料。 |
-| [!UICONTROL 搜尋] > [!UICONTROL 大量表單] | 現在，您可以使用大量表單來建立、編輯及刪除 Google 回應式搜尋廣告 (RSA)。以前，您只能前往&#x200B;**[!UICONTROL 「搜尋]** > **[!UICONTROL 促銷活動」]**，透過標準促銷活動管理介面尋求支援 |
-| [!UICONTROL 搜尋] > [!UICONTROL 促銷活動、報表] | 現在起，所有基本報表和實體層級的促銷活動管理檢視均已提供 Google Ads 的「顯眼程度」度量 `Impr. (Abs. Top) %` 和 `Impr. (Top) %`，不過購物廣告產品群組、[!UICONTROL 「促銷活動每日曝光比重」]和[!UICONTROL 「關鍵字每日曝光比重」]報表，以及標籤和限制檢視除外。 |
+| [!UICONTROL 產品組合] | 如需如何管理您的作品集以處理因COVID-19而產生的流量變更的指引，請連絡您的客戶經理。 |
+|  | （Google Ads和Microsoft Ads促銷活動）在具有「自動最佳化競標調整值」選項的最佳化作品集中，Advertising Cloud不再使用增強的每次點按成本(eCPC)競標策略，自動最佳化促銷活動的競標調整設定。 搜尋引擎在拍賣時最佳化所有競標調整。 Advertising Cloud仍能最佳化基本競標，以及 啟用「自動調整促銷活動預算限制」選項時— 促銷活動預算。 |
+| [!UICONTROL 警報測試版] | （測試版功能）您現在可以建立警報範本，以識別任何作品集何時符合特定條件— 例如效能量度— 然後產生警報。 您可以從「分析與報告 **[!UICONTROL >警報（測試版）]** 」建立投資組合層級警報，但不 **[!UICONTROL 能從「最佳化]** >投資 ********&#x200B;組合」建立警報。 **注意：** 從舊版「警報測試版」（已於1月取代）建立的任何警報都無法再使用。 |
+|  |
+| [!UICONTROL 管理員] >交 [!UICONTROL 易屬性] | 新的「屬性ID」欄會顯示每個交易屬性的唯一屬性ID。 您可以搜尋欄值中包含的任何字串。 |
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
 
