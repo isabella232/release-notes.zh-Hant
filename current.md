@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 84d38312b8486b99fe12ada6d358682e3ae43847
+source-git-commit: 01a3dab2c109edf6664ed79814022d61d2b82675
 
 ---
 
@@ -275,7 +275,6 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | [!UICONTROL 產品組合] | 如需如何管理您的作品集以處理因COVID-19而產生的流量變更的指引，請連絡您的客戶經理。 |
 | Google Ads和Microsoft Ads促銷活動 | 在具有「自動最佳化競價調整值」選項的最佳化作品集中，Advertising Cloud不再使用增強的每次點按成本(eCPC)競標策略，自動最佳化促銷活動的競標調整設定。 搜尋引擎在拍賣時最佳化所有競標調整。 Advertising Cloud仍能最佳化基本競標，以及 啟用「自動調整促銷活動預算限制」選項時— 促銷活動預算。 |
 | [!UICONTROL 警報測試版] | （測試版功能）您現在可以建立警報範本，以識別任何作品集何時符合特定條件— 例如效能量度— 然後產生警報。 您可以從「分析與報告 **[!UICONTROL >警報（測試版）]** 」建立投資組合層級警報，但不 **[!UICONTROL 能從「最佳化]** >投資 ********&#x200B;組合」建立警報。 **注意：** 從舊版「警報測試版」（已於1月取代）建立的任何警報都無法再使用。 |
-|  |
 | [!UICONTROL 管理員] >交 [!UICONTROL 易屬性] | 新的「屬性ID」欄會顯示每個交易屬性的唯一屬性ID。 您可以搜尋欄值中包含的任何字串。 |
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
