@@ -4,8 +4,8 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: abf763ddf0ed4ae9d8df5b7dcef4e664db4cf682
+translation-type: tm+mt
+source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: abf763ddf0ed4ae9d8df5b7dcef4e664db4cf682
 | 根據使用者偏好提供個人化體驗 | <ul><li>電子郵件通知會根據瀏覽器設定提供您偏好的時區設定。</li><li>依所有選取的偏好設定，在訂閱/取消訂閱時透過電子郵件傳送確認函。</li></ul> |
 | 事件訊息的傳送作業更完善 | <ul><li>事件歷史記錄會根據事件更新的時間順序排序。</li><li>主要/次要的結案問題新增事件的解決時間戳記。</li></ul> |
 
-## ![圖示](/assets/experience-cloud.png) Experience Cloud 介面與核心服務 {#ecloud}
+## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 介面與核心服務 {#ecloud}
 
 Experience Cloud 介面的新功能和修正項目，包括管理和核心服務 (客戶屬性、對象、觸發器、Cookie 等)。
 
@@ -86,7 +86,7 @@ Adobe 正在更新網域和介面標題，以統一及提升您在所有 Experie
 
 如需產品文件，請參閱 [Experience Cloud](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html) 說明。
 
-## ![圖示](/assets/platform.png) Experience Platform {#platform}
+## ![圖示](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 [!UICONTROL Experience Platform]、[!UICONTROL Experience Platform Launch]、[!UICONTROL 身分服務]、Journey Orchestration、Mobile Services 和安全性佈告欄的發行說明。
 
@@ -321,7 +321,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 如需彙整資料和過往的發行說明，請參閱 [Marketo 發行說明](https://docs.marketo.com/x/CgA6Ag)。
 
-## ![圖示](/assets/experience-cloud.png)新文件與教學課程 {#selfhelp}
+## ![圖示](/assets/ec_appicon_24.png)新文件與教學課程 {#selfhelp}
 
 近期的全新自助文章和影片。<!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
