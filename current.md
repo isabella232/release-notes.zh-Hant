@@ -4,8 +4,8 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
+translation-type: tm+mt
+source-git-commit: 5147d6252a3bf0bcf0426490c3d3bd96cb1739d5
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面與核心服務](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - 發行日期：**2020 年 3 月 12 日**(更新日期 2020 年 3 月 27 日)
+* [!DNL Analytics](#analytics) - 發行日期：**2020 年 3 月 12 日** （更新日期：2020年4月7日）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -128,7 +128,7 @@ Adobe 正在更新網域和介面標題，以統一及提升您在所有 Experie
 Adobe Analytics 的新功能和修正項目：
 
 * [Adobe Analytics 的新功能、增強功能和修正項目](#aa-features)
-* [給 Analytics 管理員的重要通知](#aa-notices)(更新日期 2020 年 3 月 27 日)
+* [給 Analytics 管理員的重要通知](#aa-notices) （更新日期：2020年4月7日）
 * [AppMeasurement](#appm)
 
 如需產品文件，請參閱 [Adobe Analytics 說明首頁](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html)。
@@ -153,6 +153,7 @@ Adobe Analytics 的新功能和修正項目：
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
+| 變更在工作區中計算登入／退出的方式 | 2020年4月7日 | 在分析工作區中，從2020年3月起，我們已變更「無」值與登入／退出的互動方式。 由於您現在可以在分析工作區中開啟或關閉「無」，因此我們會在進入或退出後套用「無」，而（對於eVar）以前會套用它。 例如，假設瀏覽的第一次點擊對eVarx沒有任何值，但第二次點擊對eVarx沒有任何值。 在「報告與分析」中，它會對「項目」顯示為「未指定」，但在「分析工作區」中，它會顯示為第二次點擊的值。 |
 | **[!UICONTROL 「轉換級別」]**&#x200B;設定確定汰除 | 2020 年 3 月 3 日 | **[!UICONTROL 「管理工具]>[!UICONTROL 報表套裝]>[!UICONTROL 一般帳戶設定」]**&#x200B;中沒有作用的[「轉換級別」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/general-acct-settings-admin.html)設定，預計於 2020 年 3 月 12 日從 UI 中移除。 |
 | **[!UICONTROL 控制面板封存]**&#x200B;確定汰除 | 2020 年 3 月 27 日 | 自 2020 年 10 月起，[!UICONTROL Reports &amp; Analytics] 中&#x200B;**[!UICONTROL 「管理控制面板」]**&#x200B;底下的&#x200B;**[!UICONTROL 「檢視封存」]**&#x200B;設定將不再提供使用。 |
 | 終止支援 TLS 1.1 | 2019 年 10 月 3 日 | 到了 2020 年 3 月 31 日時，Adobe Analytics 將會移除對於 TLS 1.1 的支援。此變更是我們為了保持最高安全標準並提升客戶資料安全性而不斷努力的其中一項成果。 |
