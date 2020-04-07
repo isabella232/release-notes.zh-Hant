@@ -63,7 +63,7 @@ Experience Cloud 介面的新功能和修正項目，包括管理和核心服務
 
 | 功能 | 發行日期 | 說明 |
 | ----|----|---- |
-| 管理工具 - 檢視使用者詳細資訊 | 2020 年 2 月 26 日 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取情形、角色，以及上次存取的資訊。如需詳細資訊，請參閱 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)說明。 |
+| 管理工具 - 檢視使用者詳細資訊 | 2020 年 2 月 26 日 | 管理員可以在新的管理工具中，檢視所有 Experience Cloud 使用者及其詳細資訊，並可將清單加以排序及篩選。使用者詳細資訊包括使用者的產品存取情形、角色，以及上次存取的資訊。如需詳細資訊，請參閱 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)說明。 |
 
 ### 統一產品網域
 
