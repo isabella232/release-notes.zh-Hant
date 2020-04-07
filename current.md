@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5147d6252a3bf0bcf0426490c3d3bd96cb1739d5
+source-git-commit: 96d931c9b5001ddbaf9887b45a95adcc468a0376
 
 ---
 
@@ -273,10 +273,10 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 | 檢視 | 功能 |
 |------|---------|
-| [!UICONTROL 產品組合] | 如需如何管理您的產品組合，以便因應新型冠狀病毒肺炎 (COVID-19) 所導致之流量變更的指引，請聯絡您的客戶經理。 |
-| Google Ads 和 Microsoft Ads 行銷活動 | 在具有「自動最佳化出價調整幅度值」選項的最佳化產品組合中，Advertising Cloud 不再使用增強型每次點按成本 (eCPC) 競標策略來自動最佳化行銷活動的出價調整設定。在拍賣時間，搜尋引擎會最佳化所有出價調整。Advertising Cloud 仍會最佳化基本出價，而啟用「自動調整行銷活動預算限制」選項時，便會最佳化行銷活動預算。 |
+| [!UICONTROL 產品組合] | For guidelines on how to manage your portfolios to account for traffic changes resulting from [!DNL COVID-19], contact your account manager. |
+| Google Ads 和 Microsoft Ads 行銷活動 | In optimized portfolios with the [!UICONTROL Auto-optimize Bid Adjustment Values] option, Advertising Cloud no longer automatically optimizes the bid adjustment settings for campaigns using the enhanced cost per click (eCPC) bid strategy. 在拍賣時間，搜尋引擎會最佳化所有出價調整。Advertising Cloud still optimizes the base bids and — when the [!UICONTROL Auto adjust campaign budget limits] option is enabled — the campaign budget. |
 | [!UICONTROL 警報測試版] | (測試版功能) 您現在可以建立警報範本，以在指定期間識別任何產品組合符合特定條件 (例如效能量度) 的情況，然後產生警報。您可以從&#x200B;**[!UICONTROL 「分析與報表]** > **[!UICONTROL 警報 (測試版)」]**&#x200B;建立產品組合層級的警報，但不能從&#x200B;**[!UICONTROL 「最佳化]** > **[!UICONTROL 產品組合」]**&#x200B;建立警報。**注意：**&#x200B;從舊版「警報測試版」(已於 1 月汰換) 建立的任何警報都無法再使用。 |
-| [!UICONTROL 「管理員] > [!UICONTROL 交易屬性」] | 全新的「屬性 ID」欄會顯示每個交易屬性的唯一屬性 ID。您可以搜尋欄值中包含的任何字串。 |
+| [!UICONTROL 「管理員] > [!UICONTROL 交易屬性」] | A new [!UICONTROL Property ID] column shows the unique property ID for each transaction property. 您可以搜尋欄值中包含的任何字串。 |
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
 
