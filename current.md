@@ -4,7 +4,7 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8858c0e35b44936624540fb10067cd9a8b1589c6
 
 ---
@@ -21,12 +21,12 @@ source-git-commit: 8858c0e35b44936624540fb10067cd9a8b1589c6
 
 **發行日期：2020 年 3 月**
 
-Latest update: **March 11, 2020**
+上次更新：**2020 年 3 月 11 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面與核心服務](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - 發行日期：**2020 年 3 月 12 日** （更新日期：2020年4月7日）
+* [!DNL Analytics](#analytics) - 發行日期：**2020 年 3 月 12 日** (更新日期：2020 年 4 月 7 日)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -39,7 +39,7 @@ Latest update: **March 11, 2020**
 
 在找說明首頁嗎？請參閱 [Adobe Experience Cloud 檔案](https://docs.adobe.com/content/help/zh-Hant/experience-cloud/user-guides/home.html)。
 
-(特定產品的發行日期可能有所不同。)
+(特定產品的發行日期可能有所不同)
 
 ## ![圖示](/assets/adobe.png) Adobe 系統狀態 {#status}
 
@@ -125,7 +125,7 @@ Adobe 正在更新網域和介面標題，以統一及提升您在所有 Experie
 Adobe Analytics 的新功能和修正項目：
 
 * [Adobe Analytics 的新功能、增強功能和修正項目](#aa-features)
-* [給 Analytics 管理員的重要通知](#aa-notices) （更新日期：2020年4月7日）
+* [給 Analytics 管理員的重要通知](#aa-notices) (更新日期：2020 年 4 月 7 日)
 * [AppMeasurement](#appm)
 
 如需產品文件，請參閱 [Adobe Analytics 說明首頁](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html)。
@@ -150,7 +150,7 @@ Adobe Analytics 的新功能和修正項目：
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 變更在工作區中計算登入／退出的方式 | 2020年4月7日 | 在分析工作區中，從2020年3月起，我們已變更「無」值與登入／退出的互動方式。 由於您現在可以在分析工作區中開啟或關閉「無」，因此我們會在進入或退出後套用「無」，而（對於eVar）以前會套用它。 例如，假設瀏覽的第一次點擊對eVarx沒有任何值，但第二次點擊對eVarx沒有任何值。 在「報告與分析」中，它會對「項目」顯示為「未指定」，但在「分析工作區」中，它會顯示為第二次點擊的值。 |
+| 變更 Workspace 計算輸入/結束次數的方式 | 2020 年 4 月 7 日 | 自 2020 年 3 月起，Analysis Workspace 已變更「無」值與輸入/結束動作的互動方式。由於您現在可以在 Analysis Workspace 中開啟或關閉「無」，因此我們會在使用者輸入或結束後套用「無」，但 (eVars) 以往都是事前就先套用。例如，假設瀏覽活動的第一次點擊未對 eVarx 輸入任何值，但第二次點擊有對 eVarx 輸入值。在「Reports &amp; Analytics」中，該輸入會顯示「未指定」，但在 Analysis Workspace 中，這會顯示第二次點擊的值。 |
 | **[!UICONTROL 「轉換級別」]**&#x200B;設定確定汰除 | 2020 年 3 月 3 日 | **[!UICONTROL 「管理工具]>[!UICONTROL 報表套裝]>[!UICONTROL 一般帳戶設定」]**&#x200B;中沒有作用的[「轉換級別」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/general-acct-settings-admin.html)設定，預計於 2020 年 3 月 12 日從 UI 中移除。 |
 | **[!UICONTROL 控制面板封存]**&#x200B;確定汰除 | 2020 年 3 月 27 日 | 自 2020 年 10 月起，[!UICONTROL Reports &amp; Analytics] 中&#x200B;**[!UICONTROL 「管理控制面板」]**&#x200B;底下的&#x200B;**[!UICONTROL 「檢視封存」]**&#x200B;設定將不再提供使用。 |
 | 終止支援 TLS 1.1 | 2019 年 10 月 3 日 | 到了 2020 年 3 月 31 日時，Adobe Analytics 將會移除對於 TLS 1.1 的支援。此變更是我們為了保持最高安全標準並提升客戶資料安全性而不斷努力的其中一項成果。 |
@@ -270,10 +270,10 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 | 檢視 | 功能 |
 |------|---------|
-| [!UICONTROL 產品組合] | For guidelines on how to manage your portfolios to account for traffic changes resulting from [!DNL COVID-19], contact your account manager. |
-| Google Ads 和 Microsoft Ads 行銷活動 | In optimized portfolios with the [!UICONTROL Auto-optimize Bid Adjustment Values] option, Advertising Cloud no longer automatically optimizes the bid adjustment settings for campaigns using the enhanced cost per click (eCPC) bid strategy. 在拍賣時間，搜尋引擎會最佳化所有出價調整。Advertising Cloud still optimizes the base bids and — when the [!UICONTROL Auto adjust campaign budget limits] option is enabled — the campaign budget. |
+| [!UICONTROL 產品組合] | 如需如何管理您的產品組合，以便因應新型冠狀病毒肺炎 ([!DNL COVID-19]) 所導致之流量變更的指引，請聯絡您的客戶經理。 |
+| Google Ads 和 Microsoft Ads 行銷活動 | 在具有[!UICONTROL 「自動最佳化出價調整幅度值」]選項的最佳化產品組合中，Advertising Cloud 不再使用增強型每次點按成本 (eCPC) 競標策略來自動最佳化行銷活動的出價調整設定。在拍賣時間，搜尋引擎會最佳化所有出價調整。Advertising Cloud 仍會最佳化基本出價，而啟用[!UICONTROL 「自動調整行銷活動預算限制」]選項時，便會最佳化行銷活動預算。 |
 | [!UICONTROL 警報測試版] | (測試版功能) 您現在可以建立警報範本，以在指定期間識別任何產品組合符合特定條件 (例如效能量度) 的情況，然後產生警報。您可以從&#x200B;**[!UICONTROL 「分析與報表]** > **[!UICONTROL 警報 (測試版)」]**&#x200B;建立產品組合層級的警報，但不能從&#x200B;**[!UICONTROL 「最佳化]** > **[!UICONTROL 產品組合」]**&#x200B;建立警報。**注意：**&#x200B;從舊版「警報測試版」(已於 1 月汰換) 建立的任何警報都無法再使用。 |
-| [!UICONTROL 「管理員] > [!UICONTROL 交易屬性」] | A new [!UICONTROL Property ID] column shows the unique property ID for each transaction property. 您可以搜尋欄值中包含的任何字串。 |
+| [!UICONTROL 「管理員] > [!UICONTROL 交易屬性」] | 全新的[!UICONTROL 「屬性 ID」]欄會顯示每個交易屬性的唯一屬性 ID。您可以搜尋欄值中包含的任何字串。 |
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
 
