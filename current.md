@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3e124e820e573047298f878cf8cb2bf2a6b7f7dd
+source-git-commit: 87f42aedd2b8c987b092c614468d536fa48ae724
 
 ---
 
@@ -166,6 +166,10 @@ AN-212151;AN-214343;AN-215017;AN-115525;AN-123869;AN-101871;AN-152580;AN-160480;
 
 Adobe Audience Manager中的新功能和修正：
 
+| 功能 | 說明 |
+| -----------| ---------- |  
+| [主要客戶支援問題](../support-issues/support-issues-overview.md) | 我們在檔案入口網站中新增了一個章節，其中包含客戶支援團隊最常收到的問題解答。 |
+
 * 修正導致Audience Lab中「重複 [!UICONTROL 測試] 」和「重複配 [!UICONTROL 置範本」按鈕] 無法運作的問題。 (AAM-53388)
 * 修正當目標設定為 [!UICONTROL 匯出UUID時，「比對率] 」和「區段可定址對象  」顯示為0的問題。 「比 [!UICONTROL 對率] 」和「 [!UICONTROL 區段可定址對象] 」現在會顯示為100%。 (AAM-51615)
 * 修正包含特殊字元的特徵名稱HTML編碼兩次的問題。 (AAM-54001)
@@ -228,7 +232,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 | [AEM架構堆疊簡介](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-architecture.html) | CIF專案原型會建立最小的Adobe Experience Manager(AEM)CIF專案，做為使用CIF核心元件之客戶專案的起點。 |
 | [OSGi簡介](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-osgi.html) | OSGi簡介，這是Java應用程式的動態模組化架構，是Adobe Experience Manager的基礎。 |
 | [Java Content Repository(JCR)簡介](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-jcr.html) | Adobe Experience Manager使用的[Java內容存放庫(JCR)簡介。 |
-| [Sling簡介](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-sling.html) | Adobe Experience Manager基 [!DNL Sling]礎技術堆疊的開放原始碼REST風格網頁架構簡介。 |
+| [Sling簡介](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-sling.html) | Adobe Experience Manager基 [!DNL Sling]礎技術堆疊的開放原始碼REST風格Web架構簡介。 |
 | [作者與發佈層簡介](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-author-publish.html) | Adobe Experience Manager架構 [!UICONTROL 中Author][!UICONTROL 和Publish] 層簡介。 |
 | [Dispatcher簡介](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-dispatcher.html) | 介紹作為AEM架構一部分的Dispatcher的功能和功能。 |
 | [元件開發簡介](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/components/component-development.html) | 使用Adobe Experience Manager Sites開發元件的概觀。 包含Dialogs [!UICONTROL 、]Sling Models [!UICONTROL 、]HTL Scripts [!UICONTROL 和]Client-Side Libraries的簡介。 |
