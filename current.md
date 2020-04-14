@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1cbba06183a2cd2897303e99dd7da89041a2d106
+source-git-commit: 26ff9349ed0c5dc19167e4d21c03f5261f802e73
 
 ---
 
@@ -181,8 +181,9 @@ Adobe Audience Manager中的新功能和修正：
 
 | 功能 | 說明 |
 | -----------| ---------- |  
-| 主要客戶支援問題 | 我們在檔案入口網站中新增了一個章節，其中包含客戶支援團隊最常收到的問題解答。 |
+| [主要客戶支援問題](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | 我們在檔案入口網站中新增了一個章節，其中包含客戶支援團隊最常收到的問題解答。 |
 
+* 修正包含行動裝置ID之區段的「可尋 [址對象](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html) 」報告不正確的問題。 在此更新後，您可能會看到「可定址對象」 [增加](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html)。
 * 修正導致Audience Lab中「重複 [!UICONTROL 測試] 」和「重複配 [!UICONTROL 置範本」按鈕] 無法運作的問題。 (AAM-53388)
 * 修正當目標設定為 [!UICONTROL 匯出UUID時，「比對率] 」和「區段可定址對象  」顯示為0的問題。 「比 [!UICONTROL 對率] 」和「 [!UICONTROL 區段可定址對象] 」現在會顯示為100%。 (AAM-51615)
 * 修正包含特殊字元的特徵名稱HTML編碼兩次的問題。 (AAM-54001)
