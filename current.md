@@ -116,7 +116,7 @@ iOS 4.19.0 (2020 年 3 月 10 日)：
 
 >[!IMPORTANT]
 >
->Adobe Analytics 4月維護髮行已移至2020年5月21日。 如需最新的Analytics發行資訊，請參閱3 [月發行說明](c-legacy-releases\2020\03122020.md)
+>Adobe Analytics 4月維護髮行已移至2020年5月21日。 如需最新的Analytics發行資訊，請參閱3 [月發行說明](c-legacy-releases/2020/03122020.md)
 
 <!-- * [New features, enhancements, and fixes in Adobe Analytics](#aa-features)
 * [Important notices for Analytics administrators](#aa-notices) (Updated April 7, 2020)
