@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: be1e03f7420ea4a1bd9c2797a087cbb42246049c
+source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
 
 ---
 
@@ -116,7 +116,7 @@ iOS 4.19.0 (2020 年 3 月 10 日)：
 
 >[!IMPORTANT]
 >
->大部分的Adobe Analytics 4月維護髮行已移至2020年5月21日。 如需最新的Analytics發行資訊，請參閱3 [月發行說明](c-legacy-releases/2020/03122020.md)
+>Adobe Analytics 4月維護髮行已移至2020年5月21日。 如需最新的Analytics發行資訊，請參閱3 [月發行說明](c-legacy-releases/2020/03122020.md)
 
 * [客戶歷程分析](#cust-journey)
 <!--* [New features in Adobe Analytics](#aa-features)-->
@@ -189,9 +189,9 @@ Adobe Audience Manager 的新功能和修正項目：
 
 | 功能 | 說明 |
 | -----------| ---------- |  
-| [主要客戶支援問題](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | 我們在檔案入口網站中新增了一個章節，其中包含客戶支援團隊最常收到的問題解答。 |
+| [客戶支援主要問題](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | 我們在文件入口網站中新增了一個區段，針對客戶支援團隊最常收到的問題提供解答。 |
 
-* 修正包含行動裝置ID之區段的「可尋 [址對象](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html) 」報告不正確的問題。 在此更新後，您可能會看到「可定址對象」 [增加](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html)。
+* 修正內含行動裝置 ID 之區段[可定址對象](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/addressable-audiences.html)報告有誤的問題。更新後，[可定址對象](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/addressable-audiences.html)數量可能會增加。
 * 修正 [!UICONTROL Audience Lab] 中[!UICONTROL 「重複測試」]和[!UICONTROL 「重複配置範本」]按鈕無法運作的問題。(AAM-53388)
 * 修正當目標設定為匯出 UUID 時，[!UICONTROL 「比對率 」]和[!UICONTROL 「區段可定址對象」]顯示為 0 的問題。[!UICONTROL 「比對率」]和[!UICONTROL 「區段可定址對象」]現在已顯示為 100%。(AAM-51615)
 * 修正含有特殊字元的特徵名稱會經過兩次 HTML 編碼的問題。(AAM-54001)
