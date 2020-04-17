@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 78a2b7841c4b404cc96b912cef2a3702c7e29ec8
+source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
 
 ---
 
@@ -27,20 +27,20 @@ Adobe Experience Cloud 的新功能及修正項目。
 **發行日期：2020 年**
 
 * [Adobe 系統狀態](#status)
-* [[!UICONTROL Experience Cloud 以及核心服務]](#ecloud)
+* [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [促銷活動](#ac)
-* [Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) （解決方案說明的連結）
+* [Target](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html) （解決方案說明的連結）
 * [Advertising Cloud](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
-* [Primetime](https://helpx.adobe.com/primetime/user-guide.html) (解決方案說明連結)
+* [Primetime](https://helpx.adobe.com/tw/primetime/user-guide.html) (解決方案說明連結)
 * [新文件與教學課程](#selfhelp)
 
-在找說明首頁嗎？請參閱 [Adobe Experience Cloud 檔案](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)。
+在找說明首頁嗎？請參閱 [Adobe Experience Cloud 檔案](https://docs.adobe.com/content/help/zh-Hant/experience-cloud/user-guides/home.html)。
 
 ## Adobe 系統狀態 {#status}
 
@@ -48,7 +48,7 @@ Adobe Experience Cloud 的新功能及修正項目。
 
 請參閱 [Adobe 系統狀態](https://status.adobe.com/)。
 
-## Experience Cloud and [!UICONTROL core services]{#ecloud}
+## Experience Cloud 介面{#ecloud}
 
 Experience Cloud 介面的新功能和修正項目，包括管理和核心服務 (客戶屬性、對象、觸發器、Cookie 等)。
 
@@ -59,34 +59,36 @@ Experience Cloud 介面的新功能和修正項目，包括管理和核心服務
 
 功能和修正。
 
-如需產品文件，請參閱 [Experience Cloud 和核心服務](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
+For product documentation, see [Experience Cloud interface](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html)
 
 ### 管理與開發人員 {#admin}
 
 功能和修正。
 
-如需產品文件，請參閱[管理使用者和產品](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)。
+如需產品文件，請參閱[管理使用者和產品](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 ## [!UICONTROL Experience Platform] {#platform}
 
-[!UICONTROL Experience Platform]、[!UICONTROL Experience Platform Launch]、[!UICONTROL 身分服務]、[!UICONTROL 歷程協調]、[!UICONTROL Mobile Services] 和安全性佈告欄的發行說明。
+## ![圖示](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
+
+發行說明，包括協調 [!DNL Experience Platform,] 、優惠、人 [!DNL Experience Platform Launch,] 員旅程 [!UICONTROL 、地點、]移動服務、線上服務、安全性公告。
 
 * [Experience Cloud ID 服務](#ecid)
 * [Experience Platform 發行說明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
 * [歷程協調](#journey)
 * [Mobile Services 與 Mobile SDK](#mobile)
-* [安全性佈告和諮詢](https://helpx.adobe.com/security.html) (所有 Adobe 產品)
+* [安全性佈告和諮詢](https://helpx.adobe.com/tw/security.html) (所有 Adobe 產品)
 
 ### [!UICONTROL Experience Cloud ID 服務] {#ecid}
 
 功能和修正。
 
-如需產品文件，請參閱 [Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+如需產品文件，請參閱 [Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/zh_TW/mcvid/)。
 
 ### [!UICONTROL Experience Platform Launch] {#launch}
 
-如需發行說明和產品文件，請參閱 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html)。
+如需發行說明和產品文件，請參閱 [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/release-notes/current.html)。
 
 ### [!UICONTROL 歷程協調] {#journey}
 
@@ -94,7 +96,7 @@ Experience Cloud 介面的新功能和修正項目，包括管理和核心服務
 
 #### [!UICONTROL 歷程協調]的其他資源
 
-[文件](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [發行說明](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### [!UICONTROL Mobile Services] 與 [!UICONTROL Mobile SDK] {#mobile}
 
@@ -109,9 +111,9 @@ Experience Cloud 介面的新功能和修正項目，包括管理和核心服務
 * 修正
 * 修正
 
-如需產品文件，請參閱 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)。
+如需產品文件，請參閱 [Mobile Services](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)。
 
-如需 Mobile SDK 的詳細資訊，請參閱[適用於 Experience 解決方案的 Android SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/android/) 和[適用於 Experience Cloud 解決方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
+如需 Mobile SDK 的詳細資訊，請參閱[適用於 Experience 解決方案的 Android SDK 4.x](https://marketing.adobe.com/resources/help/zh_TW/mobile/android/) 和[適用於 Experience Cloud 解決方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/zh-Hant/mobile-services/ios/overview.html)。
 
 ## Analytics {#analytics}
 
@@ -121,7 +123,7 @@ Adobe Analytics 的新功能和修正項目：
 * [適用於 iOS 與 Android 的 Media Analytics SDK (原稱 VHL SDK)](#aa-va)
 * [給 Analytics 管理員的重要通知](analytics-important-notices.md)
 
-如需產品文件，請參閱 [Adobe Analytics 說明首頁](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
+如需產品文件，請參閱 [Adobe Analytics 說明首頁](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html)。
 
 ### Adobe Analytics 的新功能 {#aa-features}
 
@@ -158,7 +160,7 @@ Adobe Analytics 的新功能和修正項目：
 * 修正
 * 修正
 
-請參閱 [AppMeasurement 版本歷史記錄](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，此為下列平台上 AppMeasurement 之版本歷史記錄的內容：
+請參閱 [AppMeasurement 版本歷史記錄](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，此為下列平台上 AppMeasurement 之版本歷史記錄的內容：
 
 * [!DNL JavaScript]
 * [!DNL iOS]
@@ -219,12 +221,12 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 ### 其他資源
 
-* [AEM 6.4 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [AEM 6.3 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-3.html)
-* [AEM 6.2 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-2.html)
-* [Cloud Manager 使用手冊](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [舊版 AEM 文件](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
-* [Scene7 Publishing System 發行說明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
+* [AEM 6.4 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-4.html)
+* [AEM 6.3 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-3.html)
+* [AEM 6.2 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-2.html)
+* [Cloud Manager 使用手冊](https://helpx.adobe.com/tw/experience-manager/cloud-manager/user-guide.html)
+* [舊版 AEM 文件](https://helpx.adobe.com/tw/experience-manager/aem-previous-versions.html)
+* [Scene7 Publishing System發行說明](https://marketing.adobe.com/resources/help/zh_TW/s7/release_notes/index.html)
 * [Livefyre 發行說明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ### [!DNL Livefyre] {#livefyre}
@@ -263,9 +265,9 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### 其他資源
 
-* Adobe Campaign Standard：[文件](https://helpx.adobe.com/support/campaign/standard.html) - [版本說明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic：[文件](https://helpx.adobe.com/support/campaign/classic.html) - [版本說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
-* Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [發行說明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
+* Adobe Campaign Standard：[文件](https://helpx.adobe.com/tw/support/campaign/standard.html) - [版本說明](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Classic：[文件](https://helpx.adobe.com/tw/support/campaign/classic.html) - [版本說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)
 
 ## Advertising Cloud {#adcloud}
 
