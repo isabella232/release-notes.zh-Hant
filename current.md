@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
+source-git-commit: 16804e8f1eeb1d836b904c85a8c538077166242b
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
 
 **發行日期：2020 年 4 月**
 
-(特定解決方案的發行日期可能不盡相同)
+（具體發行日期視情況而定）。
 
 * [Adobe 系統狀態](#status)
 * [Experience Platform](#platform)
@@ -34,10 +34,10 @@ source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html) (解決方案說明頁面連結)
+* [!DNL Target](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html) （Target說明頁面的連結）
 * [!DNL Magento](#magento)
 * [!DNL Marketo](#marketo)
-* [!DNL Primetime](https://helpx.adobe.com/tw/primetime/user-guide.html) (解決方案說明頁面連結)
+* [!DNL Primetime](https://helpx.adobe.com/tw/primetime/user-guide.html) （Primetime說明頁面的連結）
 
 在找說明首頁嗎？請參閱 [Adobe Experience Cloud 檔案](https://docs.adobe.com/content/help/zh-Hant/experience-cloud/user-guides/home.html)。
 
@@ -71,9 +71,9 @@ Adobe 正在更新網域和介面標題，以統一及提升您在所有 Experie
 
 更新包括：
 
-* 新解決方案 URL：`experience.adobe.com/<application name>`：
+* 新的應用程式URL: `experience.adobe.com/<application name>`:
    * 所有產品最終都會採用此 URL 模式。尋找新的 URL，使效期能持續一整個月。
-   * 瀏覽器支援：支援的瀏覽器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera] (最新版本)。**注意：**&#x200B;雖然 Experience Cloud 介面可支援這些瀏覽器，但個別解決方案可能不會支援所有瀏覽器(例如 [Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.translate.html) 不支援 [!DNL Opera]，[Target](https://docs.adobe.com/help/zh-Hant/target/using/implement-target/before-implement/supported-browsers.translate.html) 不支援 [!DNL Safari])。
+   * 瀏覽器支援：支援的瀏覽器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera] (最新版本)。**注意：** 雖然Experience Cloud介面支援這些瀏覽器，但個別應用程式可能不支援每個瀏覽器。 (例如 [Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.translate.html) 不支援 [!DNL Opera]，[Target](https://docs.adobe.com/help/zh-Hant/target/using/implement-target/before-implement/supported-browsers.translate.html) 不支援 [!DNL Safari])。
    * (僅限 [!DNL Safari]) 網域變更可能導致 [!DNL Safari] 發生 Cookie 問題。在 [!DNL Safari] 的「隱私權偏好設定」中取消選取&#x200B;_「防止跨網站追蹤」_，即可在各網域 (以及所有跨網站體驗) 啟用 Cookie，並允許 Experience Cloud 在這個新的網域中運作。
 * 在組織或不同應用程式之間更輕鬆地切換。
 * 改良產品說明：[!UICONTROL Experience League] 已整合至產品中，因此搜尋說明內容時，搜尋範圍會包含社群論壇和影片內容。這項變更可讓您輕鬆存取更多內容，協助您充份運用 Experience Cloud。此外，按一下&#x200B;**[!UICONTROL 「說明]** > **[!UICONTROL 意見回饋」]**&#x200B;即可回報問題，或與 Adobe 分享您的想法。
@@ -194,7 +194,7 @@ Adobe Audience Manager 的新功能和修正項目：
 * 修正 [!UICONTROL Audience Lab] 中[!UICONTROL 「重複測試」]和[!UICONTROL 「重複配置範本」]按鈕無法運作的問題。(AAM-53388)
 * 修正當目標設定為匯出 UUID 時，[!UICONTROL 「比對率 」]和[!UICONTROL 「區段可定址對象」]顯示為 0 的問題。[!UICONTROL 「比對率」]和[!UICONTROL 「區段可定址對象」]現在已顯示為 100%。(AAM-51615)
 * 修正含有特殊字元的特徵名稱會經過兩次 HTML 編碼的問題。(AAM-54001)
-* 修正部分使用者無法從 [!DNL Audience Manager] 使用者介面切換至其他 Adobe Experience Cloud 解決方案的問題。(AAM-52917)
+* Fixed an issue blocking some users from switching to other Adobe Experience Cloud applications from the [!DNL Audience Manager] user interface. (AAM-52917)
 * 修正部分使用者無法為以人員為根據的目的地建立 SHA256 資料來源的問題。(AAM-53525)
 * 整個介面的協助工具有多處改良。(AAM-48986、AAM-49009、AAM-48984、AAM-48939、AAM-48940、AAM-48964、AAM-49032、AAM-49360)
 
@@ -307,7 +307,7 @@ Advertising Cloud release notes. -->
 
 ## ![圖示](/assets/marketo.png) [!DNL Marketo] {#marketo}
 
-[!DNL Marketo Engage] 是銷售機會管理的完整解決方案，也適合 B2B 行銷人員使用，而透過該解決方案，他們可參與複雜購買歷程的每個階段，從中轉變客戶體驗。
+[!DNL Marketo Engage] 是銷售機會管理和B2B行銷人員的完整應用程式，希望透過參與複雜購買歷程的每個階段來轉變客戶體驗。
 
 ### Marketo Engage 核心更新
 
