@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 16804e8f1eeb1d836b904c85a8c538077166242b
+source-git-commit: 14d29e8e2baf7f09929353acbb71466eee3b0de2
 
 ---
 
@@ -15,10 +15,6 @@ source-git-commit: 16804e8f1eeb1d836b904c85a8c538077166242b
 ![橫幅](/assets/experience-cloud-banner-3.png)
 
 [!DNL Adobe Experience Cloud] 中的新功能及修正。
-
->[!IMPORTANT]
->
->此頁面含有搶先版內容，於預計發行前可能會有所變更。
 
 >[!NOTE]
 >
