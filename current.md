@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 14d29e8e2baf7f09929353acbb71466eee3b0de2
+source-git-commit: 2d9a0e6ae9e796bdb09ce7d27e4e4a765462283a
 
 ---
 
@@ -59,7 +59,7 @@ Experience Cloud介面中的新功能和修正：
 * 淘汰 Experience Cloud[!UICONTROL 「摘要」]頁面。(EXC-8505)
 * Experience Cloud 登入頁面更新，反映新的品牌元素。(EXC-10747)
 
-如需產品文件，請參閱 [Experience Cloud](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html) 說明。
+For product documentation, see [Experience Cloud interface help](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html).
 
 ### 統一產品網域
 
