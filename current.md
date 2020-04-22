@@ -4,7 +4,7 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3a66c0ee04a336a702ea9ff502a0f2ce6c5b2109
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 3a66c0ee04a336a702ea9ff502a0f2ce6c5b2109
 
 * [Adobe 系統狀態](#status)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) **（4月16日更新）**
+* [!DNL Analytics](#analytics) **(更新日期：4 月 16 日)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -155,7 +155,7 @@ AN-212151; AN-214343; AN-215017; AN-115525; AN-123869; AN-101871; AN-152580; AN-
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 已移除「在資料倉庫中套用的區段」檢查 | 2020 年 4 月 16 日 | 自2020年4月16日起，我們不再從「區段產生器」檢查區段是否套用至「資料倉儲」請求。 以前，此檢查會尋找套用在Data Warehouse請求中的單一區段（排除套用的多個區段），並傳回警告通知（如果為真）。 此變更不會影響區段的資料倉庫產品相容性檢查。 |
+| 移除「資料倉儲套用區段」檢查 | 2020 年 4 月 16 日 | 自 2020 年 4 月 16 日起，系統不再透過 Segment Builder 檢查資料倉儲要求中是否套用區段。以前，這項檢查會尋找套用到資料倉儲要求的單一區段 (排除套用的多個區段)，並回傳警告通知 (如果檢查結果為真)。此變更不會影響資料倉儲產品的區段相容性檢查。 |
 | 變更 [!UICONTROL Workspace] 計算[!UICONTROL 輸入/結束]次數的方式 | 2020 年 4 月 7 日 | 自 2020 年 3 月起，[!UICONTROL Analysis Workspace] 已變更&#x200B;_「無」_&#x200B;值與[!UICONTROL 輸入/結束]動作的互動方式。由於您現在可以在 [!UICONTROL Analysis Workspace] 中開啟或關閉&#x200B;_「無」_，因此我們會在使用者輸入或結束後套用&#x200B;_「無」_，但 (eVars) 以往都是事前就先套用。例如，假設瀏覽活動的第一次點擊未對 eVarx 輸入任何值，但第二次點擊有對 eVars 輸入值。在 [!UICONTROL Reports &amp; Analytics] 中，該輸入會顯示&#x200B;_「未指定」_，但在 [!UICONTROL Analysis Workspace] 中則會顯示第二次點擊的值。 |
 | **[!UICONTROL 「轉換級別」]**&#x200B;設定確定汰除 | 2020 年 3 月 3 日 | **[!UICONTROL 「管理工具]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 一般帳戶設定」]**&#x200B;中的[「轉換級別」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/general-acct-settings-admin.html)設定早已停止作用，預計於 2020 年 3 月 12 日從介面中移除。 |
 | **[!UICONTROL 控制面板封存]**&#x200B;確定汰除 | 2020 年 3 月 27 日 | 自 2020 年 10 月起，[!UICONTROL Reports &amp; Analytics] 中&#x200B;**[!UICONTROL 「管理控制面板」]**&#x200B;底下的&#x200B;**[!UICONTROL 「檢視封存」]**&#x200B;設定將不再提供使用。 |
