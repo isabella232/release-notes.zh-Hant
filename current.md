@@ -4,7 +4,7 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bdd987971b9bb9afbc97847642c5d797f122e67d
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: bdd987971b9bb9afbc97847642c5d797f122e67d
 
 **發行日期：2020 年 4 月**
 
-最新更新：2020 **年4月29日**
+最新更新：**2020 年 4 月 29 日**
 
 (特定解決方案的發行日期可能不盡相同)
 
@@ -125,7 +125,7 @@ iOS 4.19.0 (2020 年 3 月 10 日)：
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| Data Workbench 6.74 (**Update 4/29/2020**) | 在伺服器實作中更新身分管理服務(IMS)TLS憑證剖析。 此更新會從字串比對擴充剖析至規則運算式，包括處理主旨替代名稱(SAN)憑證的功能。 See [Data Workbench release notes](https://docs.adobe.com/content/help/en/data-workbench/using/release-notes/release-notes.html) for more information. |
+| Data Workbench 6.74 (**2020 年 4 月 29 日更新**) | 在伺服器實作中更新身分管理服務 (IMS) TLS 憑證剖析。此更新將剖析功能從字串比對擴充至規則運算式，包括處理主旨替代名稱 (SAN) 憑證的功能。如需詳細資訊，請參閱 [Data Workbench 發行說明](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/release-notes/release-notes.translate.html)。 |
 | [!UICONTROL Customer Journey Analytics]：自動化資料集回填 | 此新選項可讓您將連線的所有歷史資料匯入 [!UICONTROL Customer Journey Analytics]。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html) |
 
 <!--### New features in Adobe Analytics {#aa-features}
