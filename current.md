@@ -4,8 +4,8 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: bdd987971b9bb9afbc97847642c5d797f122e67d
+translation-type: tm+mt
+source-git-commit: a9f229b5766e90c4fef37d5c35f055856aa42f5a
 
 ---
 
@@ -188,6 +188,8 @@ Adobe Audience Manager 的新功能和修正項目：
 
 | 功能 | 說明 |
 | -----------| ---------- |  
+| [預測性觀眾](../features/algorithmic-models/predictive-audiences.md) | [!UICONTROL Predictive Audiences] 可協助您使用進階資料科學技術，即時將未知的觀眾分類為不同的角色。 <br><br> 在行銷環境中，角色是由訪客、使用者或潛在購買者所定義的受眾群體，這些訪客或潛在購買者共用一組特定特徵，例如人口統計、瀏覽習慣、購物歷史記錄等。<br><br>[!UICONTROL Predictive Audiences] 模型可讓您使用Audience Manager的機器學習功能，將未知的觀眾分類為不同的角色，進一步提升此概念。 <br><br>Audience Manager可協助您計算未知第一方受眾對一組已知第一方受眾的傾向，以達成此目標。 |
+| Additional [!UICONTROL Profile Merge Rules] Enhancements | [!UICONTROL 個人檔案合併規則] ，讓Audience Manager客戶能夠根據身分而非裝置定義、管理和啟用受眾細分。 <br><br> 自4月29日起，Audience Manager客戶將能夠在Audience Manager UI中，更清楚瞭解個別區段和大量報告中，特徵和區段的裝置和跨裝置ID人口族群劃分。 <br><br> 這可讓客戶在Audience Manager中獲得更深入的身分識別見解，從而全面瞭解依裝置、人員和家庭的細分總人口。 跨裝置和裝置ID的大量特徵匯出也會更新，以反映這些增強功能。<br><br>  特定更新包括： <ul><li>在「一 [般」和「趨勢](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/reference/ids-in-aam.html) 」報表 [中](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/general-reports.html) ，針對跨裝置ID [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/trend-reports.html) 進行報表；</li><li>增強「區 [!UICONTROL 段產生器] 」中的「特徵選取器 [」，以包含與](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/segments/segment-builder.html) CRM ID關聯的特徵族群 [](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/reference/ids-in-aam.html);</li><li>建立精確的跨裝置ID [輸出特徵](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/reference/ids-in-aam.html);</li><li>建立與裝置ID鎖定的精確特 [徵匯出](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/reference/ids-in-aam.html) （應排除已驗證的特徵）;</li><li>使用BAAM工具提出要求時，傳回與 [CRM ID相關](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/reference/ids-in-aam.html) 之特徵的 [正確計數](https://docs.adobe.com/help/zh-Hant/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) 。</li></ul> |
 | [客戶支援主要問題](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | 我們在文件入口網站中新增了一個區段，針對客戶支援團隊最常收到的問題提供解答。 |
 
 * 修正內含行動裝置 ID 之區段[可定址對象](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/addressable-audiences.html)報告有誤的問題。更新後，[可定址對象](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/addressable-audiences.html)數量可能會增加。
