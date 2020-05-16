@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b41cdd18c7e3251218bf41aee62979e5f79a4c2a
+source-git-commit: de8c5772f391dffac4458a736f0e0ea38c53c701
 workflow-type: tm+mt
-source-wordcount: '4722'
-ht-degree: 39%
+source-wordcount: '4764'
+ht-degree: 38%
 
 ---
 
@@ -188,7 +188,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 * 修正ExactTarget [!UICONTROL 資料連接器]。 (AN-210794)
 * 已修正大量擷取API [!UICONTROL 的延遲問題]。 (AN-210165)
 * 修正使用者無法使用同盟ID登入 [!UICONTROL Report Builder] 的問題。 (AN-207750)
-* 修正Advertising Analytics中 [!UICONTROL 無法顯示資][!DNL Google AdWords] 料的問題。 (AN-213249)
+* 修正Advertising Analytics中無 [!UICONTROL 法顯示資料][!DNL Google AdWords] 的問題。 (AN-213249)
 * 修正「工作區」「已檢 [!UICONTROL 視] 的專案」  ，事件無法顯示在記錄檔中的問題。 (AN-214134)
 * 修正變更工作區中的日期範圍並選取「套用至所 [!UICONTROL 有面板] 」時 **[!UICONTROL 發生的問題]**。 某些面板中的日期並未變更。 (AN-214944)
 * 修正無法建立或編輯警報的問題。 (AN-215920)
@@ -345,39 +345,41 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### Campaign Standard
 
-控制面板版本：
-
-| 功能 | 說明 |
-| -----------| ---------- |  
-| GPG密鑰管理 | 在行銷實例上安裝及／或產生GPG金鑰，以加密從Campaign傳送的資料並解密傳入的資料。 |
-| CNAME子網域的憑證管理 | 控制面板現在可讓您續約已透過CNAME方法委派之子網域的SSL憑證。 |
-
-* [Adobe Campaign Standard 20.3](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html)
+* [Adobe Campaign Standard 20.3版本](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html)
 
 ### Campaign Classic
 
 * [Adobe Campaign Classic 20.1.3](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html#release-20-1-3-build-9124)
 * [Adobe Campaign Classic 19.1.4](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
 
-### 全新 Campaign Standard 教學課程 {#tutorials-acs}
+### 促銷活動控制面板
+
+| 功能 | 說明 |
+| -----------| ---------- |  
+| GPG密鑰管理 | 在行銷實例上安裝及／或產生GPG金鑰，以加密從Campaign傳送的資料並解密傳入的資料。 |
+| CNAME子網域的憑證管理 | 控制面板現在可讓您續約已透過CNAME方法委派之子網域的SSL憑證。 |
+
+### 新的Campaign教學課程
+
+* 全新 Campaign Standard 教學課程
 
 | 內容 | 說明 |
 | -----------| ---------- |  
 | [控制面板- Google TXT記錄管理](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html) | 瞭解如何使用「促銷活動控制面板」，將Google TXT網站驗證記錄新增至您用來傳送電子郵件至GMAIL位址的所有子網域。 |
 | [使用「外部API」活動設定並執行工作流程](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) | 瞭解如何使用「外部API」活動呼叫外部REST API端點。 |
-| (ACS)Android [推播通知快速入門——教學課程](https://jira.corp.adobe.com/browse/KT-3846) | 本教學課程說明使用ACS和Android應用程式設定推播通知所需的步驟。 |
+| (ACS)Android [推播通知快速入門——教學課程](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 本教學課程說明使用Campaign Standard和Android應用程式設定推播通知所需的步驟。 |
 
-### New Campaign Classic tutorials {#tutorials-acc}
+* 新的Campaign Classic教學課程
 
 | 內容 | 說明 |
 | -----------| ---------- |  
 | [雪花的大資料管理](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | 瞭解如何在Adobe Campaign Classic中運用Snowflake連接器。 |
 | [控制面板- Google TXT記錄管理](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html) | 瞭解如何使用「促銷活動控制面板」，將Google TXT網站驗證記錄新增至您用來傳送電子郵件至GMAIL位址的所有子網域。 |
 
-### 其他 Campaign 說明資源
+### 促銷活動說明資源
 
-* Adobe Campaign Standard：[文件](https://helpx.adobe.com/tw/support/campaign/standard.html) - [版本說明](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic：[文件](https://helpx.adobe.com/tw/support/campaign/classic.html) - [版本說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign Standard: [幫助中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) -發 [行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) -操作視頻 [-計畫發](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) 行 [](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.htmll)[] - Lease Latest documentation updates(https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic: [說明中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [發行說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) -操作視 [訊——最新檔案更新](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)[資訊] (https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)
 
 ## ![圖示](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
