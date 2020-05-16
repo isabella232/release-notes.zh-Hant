@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: de8c5772f391dffac4458a736f0e0ea38c53c701
+source-git-commit: ea42901b975981a10d42b9681d494604c385018c
 workflow-type: tm+mt
-source-wordcount: '4764'
+source-wordcount: '4766'
 ht-degree: 38%
 
 ---
@@ -49,6 +49,8 @@ ht-degree: 38%
 ## ![圖示](/assets/adobe.png) Adobe 系統狀態 {#status}
 
 [!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/)。
+
+發行日期: **2020 年 5 月 21 日**
 
 **新功能**
 
