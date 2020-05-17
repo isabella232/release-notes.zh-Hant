@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ed0b98440cd68357d792abaec2a99dccbfa47dc
+source-git-commit: 2cd60d72cfd5fa7d7ab0a17ba230162601f69b13
 workflow-type: tm+mt
-source-wordcount: '4766'
+source-wordcount: '4768'
 ht-degree: 38%
 
 ---
@@ -369,7 +369,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | -----------| ---------- |  
 | [控制面板- Google TXT記錄管理](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html) | 瞭解如何使用「促銷活動控制面板」，將Google TXT網站驗證記錄新增至您用來傳送電子郵件至GMAIL位址的所有子網域。 |
 | [使用「外部API」活動設定並執行工作流程](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) | 瞭解如何使用「外部API」活動呼叫外部REST API端點。 |
-| (ACS)Android [推播通知快速入門——教學課程](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 本教學課程說明使用Campaign Standard和Android應用程式設定推播通知所需的步驟。 |
+| [Android推播通知快速入門——教學課程](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 本教學課程說明使用Campaign Standard和Android應用程式設定推播通知所需的步驟。 |
 
 * 新的Campaign Classic教學課程
 
@@ -380,8 +380,8 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### 促銷活動說明資源
 
-* Adobe Campaign Standard: [幫助中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) -發 [行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) -操作視頻 [-計畫發](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) 行 [](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.htmll)[] - Lease Latest documentation updates(https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic: [說明中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [發行說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) -操作視 [訊——最新檔案更新](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)[資訊] (https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign Standard: [幫助中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) -發 [行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) -操作視 [頻——發行計畫](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) -最新文檔更新 [](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.html)[- Lease Documentation Updates](https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic: [說明中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) -發 [行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html) -操 [作視訊——最新文](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-classic-tutorials/overview.html)[件更新](https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)
 
 ## ![圖示](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
