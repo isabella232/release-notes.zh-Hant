@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2cd60d72cfd5fa7d7ab0a17ba230162601f69b13
+source-git-commit: e10656f2a2d2180295c61b7aad9e75391e23ccbd
 workflow-type: tm+mt
-source-wordcount: '4768'
+source-wordcount: '4800'
 ht-degree: 38%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 38%
 
 **發行日期: 2020 年 5 月**
 
-最新更新： **2020年5月16日**
+最新更新： **2020年5月19日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
@@ -160,6 +160,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL Adobe Experience Platform Edge Network的分析支援] | 可讓您使用單一標籤將資料傳送至多個Adobe解決方案，例如Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile和Experience Cloud ID服務。 [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/experience-platform/edge/home.html) |
 | [!UICONTROL Adobe Analytics儀表板] | [!UICONTROL Adobe Analytics儀表板] 是行動應用程式，可讓使用者隨時隨地存取Adobe Analytics的見解。 此應用程式適用於尋求關鍵量度隨身存取權的主管。 它可讓您存取已策劃的互動式記分卡，而且將可供iOS和Android作業系統使用。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL Workspace][!UICONTROL ：從空白狀態自動建立自由表格] | Previously, you could not drop components directly into a blank project or blank panel; you had to add a [!UICONTROL Freeform Table] first. You can now drop components directly into a blank project or panel, and a [!UICONTROL Freeform Table] is automatically built for you in a recommended format. 此外，對混合元件類型（例如維度和量度）在一起放入空白自由表格時的處理方式做了改進。 |
+| [!UICONTROL 「功能存取層級] 」頁面 [!UICONTROL 中新增的Adobe Analytics Package] | 您現在可以在「管理員 [!UICONTROL >] 公司設定 [!UICONTROL >存取層級] Clevel Access Level Page」(  SKU)頁面上檢視您公司有權使用的Adobe Analytics Package(SKU)。 |
 
 #### Adobe Analytics修正
 
