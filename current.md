@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99e67d659f3da76d0613629dfc7e7d853a9e1349
+source-git-commit: 16d1b900c55d8e9674275c4113298a109de09df6
 workflow-type: tm+mt
-source-wordcount: '4798'
+source-wordcount: '4811'
 ht-degree: 38%
 
 ---
@@ -97,6 +97,10 @@ Adobe已更新網域和介面標題，以統一並改善您在所有Experience C
 | Places Service | `experience.adobe.com/places` |
 | Software Distribution | `experience.adobe.com/downloads` |
 | 管理工具（測試版） | `experience.adobe.com/admin` |
+
+>[!NOTE]
+>
+>**[!UICONTROL 展示板與系列]**(Marketing Cloud資產選擇器中 [!UICONTROL 的舊有篩選] )即將終止服務。
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
@@ -191,7 +195,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 * 修正ExactTarget [!UICONTROL 資料連接器]。 (AN-210794)
 * 已修正大量擷取API [!UICONTROL 的延遲問題]。 (AN-210165)
 * 修正使用者無法使用同盟ID登入 [!UICONTROL Report Builder] 的問題。 (AN-207750)
-* 修正Advertising Analytics中 [!UICONTROL 無法顯示資][!DNL Google AdWords] 料的問題。 (AN-213249)
+* 修正Advertising Analytics中無 [!UICONTROL 法顯示資料][!DNL Google AdWords] 的問題。 (AN-213249)
 * 修正「工作區」「已檢 [!UICONTROL 視] 的專案」  ，事件無法顯示在記錄檔中的問題。 (AN-214134)
 * 修正變更工作區中的日期範圍並選取「套用至所 [!UICONTROL 有面板] 」時 **[!UICONTROL 發生的問題]**。 某些面板中的日期並未變更。 (AN-214944)
 * 修正無法建立或編輯警報的問題。 (AN-215920)
