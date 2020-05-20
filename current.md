@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 16d1b900c55d8e9674275c4113298a109de09df6
+source-git-commit: 4ad9ee85f4eba950bf6cc1a6a18ece9d3eb5e61a
 workflow-type: tm+mt
-source-wordcount: '4811'
+source-wordcount: '4835'
 ht-degree: 38%
 
 ---
@@ -165,6 +165,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL Adobe Analytics儀表板] | [!UICONTROL Adobe Analytics儀表板] 是行動應用程式，可讓使用者隨時隨地存取Adobe Analytics的見解。 此應用程式適用於尋求關鍵量度隨身存取權的主管。 它可讓您存取已策劃的互動式記分卡，而且將可供iOS和Android作業系統使用。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL Workspace][!UICONTROL ：從空白狀態自動建立自由表格] | Previously, you could not drop components directly into a blank project or blank panel; you had to add a [!UICONTROL Freeform Table] first. You can now drop components directly into a blank project or panel, and a [!UICONTROL Freeform Table] is automatically built for you in a recommended format. 此外，對混合元件類型（例如維度和量度）在一起放入空白自由表格時的處理方式做了改進。 |
 | [!UICONTROL 「功能存取層級] 」頁面 [!UICONTROL 中新增的Adobe Analytics Package] | 您現在可以在「管理員 [!UICONTROL >公司設定] >存取層級Access Level Access **[!UICONTROL 」中檢視您公司有權使用的Adobe Analytics Package]**********(SKU)。 |
+| 協助工具改進 | Adobe Analytics團隊對分析工作區做了幾項協助工具改良，包括改良的鍵盤導覽、色彩對比和螢幕閱讀器支援。 |
 
 #### Adobe Analytics修正
 
@@ -195,7 +196,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 * 修正ExactTarget [!UICONTROL 資料連接器]。 (AN-210794)
 * 已修正大量擷取API [!UICONTROL 的延遲問題]。 (AN-210165)
 * 修正使用者無法使用同盟ID登入 [!UICONTROL Report Builder] 的問題。 (AN-207750)
-* 修正Advertising Analytics中無 [!UICONTROL 法顯示資料][!DNL Google AdWords] 的問題。 (AN-213249)
+* 修正Advertising Analytics中 [!UICONTROL 無法顯示資][!DNL Google AdWords] 料的問題。 (AN-213249)
 * 修正「工作區」「已檢 [!UICONTROL 視] 的專案」  ，事件無法顯示在記錄檔中的問題。 (AN-214134)
 * 修正變更工作區中的日期範圍並選取「套用至所 [!UICONTROL 有面板] 」時 **[!UICONTROL 發生的問題]**。 某些面板中的日期並未變更。 (AN-214944)
 * 修正無法建立或編輯警報的問題。 (AN-215920)
