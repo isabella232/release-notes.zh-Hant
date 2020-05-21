@@ -3,11 +3,11 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 發行說明
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b41cdd18c7e3251218bf41aee62979e5f79a4c2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 97%
 + [發行說明](current.md)
 + 上一版的發行說明 {#previous}
    + 2020 年{#2020}
-      + [2020年4月](c-legacy-releases/2020/04162020.md)
-      + [2020年3月](c-legacy-releases/2020/03122020.md)
+      + [2020 年 4 月](c-legacy-releases/2020/04162020.md)
+      + [2020 年 3 月](c-legacy-releases/2020/03122020.md)
       + [2020 年 2 月](c-legacy-releases/2020/02202020.md)
       + [2020 年 1 月](c-legacy-releases/2020/01162020.md)
    + 2019 年{#2019}
