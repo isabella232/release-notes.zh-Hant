@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c0a5d3cca0320f8459aeb4ee34bfd655d032c23c
+source-git-commit: 2a41fbc7e69c9c2a262c71e20808e6b672037c6a
 workflow-type: tm+mt
-source-wordcount: '4895'
-ht-degree: 95%
+source-wordcount: '5024'
+ht-degree: 92%
 
 ---
 
@@ -144,6 +144,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 * [Customer Journey Analytics 的新功能](#cust-journey)
 * [Adobe Analytics 的新功能](#aa-features)
 * [Analytics管理員的重要注意事項](#aa-notices) (**於2020年5月21日更新**)
+* [Adobe Analytics修正](#aa-fixes) (**2020年5月21日更新**)
 * [AppMeasurement](#appm)
 * [全新 Analytics 教學課程](#tutorials-analytics)
 
@@ -167,8 +168,10 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL 「功能存取層級] 」頁面 [!UICONTROL 中新增的Adobe Analytics Package] | 您現在可以在「管理員 [!UICONTROL >公司設定] >存取層級Access Level Access **[!UICONTROL 」中檢視您公司有權使用的Adobe Analytics Package]**********(SKU)。 |
 | 協助工具改進 | Adobe Analytics團隊對分析工作區做了幾項協助工具改良，包括改良的鍵盤導覽、色彩對比和螢幕閱讀器支援。 |
 
-#### Adobe Analytics 修正項目
+#### Adobe Analytics修正(#aa-fix)
 
+* Adobe將「逗 [!UICONTROL 留時間] 」量度變更為從不包含「無」。 這表示，無論使用者介面是否表示包含無，我們都會在「逗留時間」計算中設定特殊例外，一律排除「 [!UICONTROL 無」] 。 因此，即使您將包含「逗留時間  」量度的報表設定為「包含無」，仍會傳回「無」行項目的0逗留時間。 請注意，這可能會變更「報告與分析」以及「報告API v1.4」中的歷史報告。 (AN-197958)
+* 已修正此問題：例項／瀏覽／訪客未計入「逗留時間」度量的分 [!UICONTROL 母] 。  當沒有維度值的點擊(例如 [!UICONTROL Pagename])在同一秒後跟時，就會發生這種情況。 (AN-211074)
 * 修正 Audience Manager 中導致 [!DNL Analytics] 區段資料遺失的問題。(AN-206221)
 * 修正[!UICONTROL 「資料來源」]處理時顯示錯誤日期的問題。(AN-213604)
 * 修正分類檔案無法正確上傳至 FTP 的問題。(AN-214102)
