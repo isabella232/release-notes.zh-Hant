@@ -5,23 +5,19 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2a41fbc7e69c9c2a262c71e20808e6b672037c6a
+source-git-commit: 36c098558e178fdaea0bab49528e54a93980ac0b
 workflow-type: tm+mt
-source-wordcount: '5024'
+source-wordcount: '4998'
 ht-degree: 92%
 
 ---
 
 
-# 搶先使用 - Adobe Experience Cloud 發行說明 - 2020 年 5 月
+# Adobe Experience Cloud發行說明- 2020年5月
 
 ![橫幅](/assets/experience-cloud-banner-3.png)
 
 此頁面主要說明 [!DNL Adobe Experience Cloud] 的新功能、修正項目和重要注意事項。解決方案的發行日期可能不盡相同。請時常返回查看最新更新。
-
->[!IMPORTANT]
->
->此頁面包含搶鮮版內容，不過 2020 年 5 月 21 日前，內容可能會有變動。其後發佈的新資訊將會註明新增日期。
 
 >[!NOTE]
 >
