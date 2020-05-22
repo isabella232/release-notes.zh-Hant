@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 36c098558e178fdaea0bab49528e54a93980ac0b
+source-git-commit: 4bdb8dde04f55703e52aca1295aad03374f3eb25
 workflow-type: tm+mt
 source-wordcount: '4998'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 92%
 
 [!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/)。
 
-發行日期: **2020 年 5 月 21 日**
+發行日期：**2020 年 5 月 21 日**
 
 **新功能**
 
@@ -56,7 +56,7 @@ ht-degree: 92%
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 更理想的訂閱和使用者通知體驗 | <ul><li>系統現在會根據您所選取的產品清單，篩選 [!DNL Marketo Engage] 區域位置。</li><li>[!DNL Marketo Engage] 電子郵件通知與使用者的地區、位置和環境偏好相關。</li></ul> |
+| 更理想的訂閱和使用者通知體驗 | <ul><li>系統現在會根據您所選取的產品清單，篩選 [!DNL Marketo Engage] 區域位置。</li><li>[!DNL Marketo Engage] 電子郵件通知與使用者的地區、位置和環境偏好設定相關。</li></ul> |
 | 事件訂閱確認 | <ul><li>現在訂閱進行中的單一事件更新時，會收到電子郵件確認。</li></ul> |
 | 全域導覽可用性增強功能 | <ul><li>頂層導覽功能表提供與 `Adobe.com` 一致的使用者體驗。</li></ul> |
 
@@ -96,7 +96,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 >[!NOTE]
 >
->**[!UICONTROL 展示板與系列]**(Marketing Cloud資產選擇器中 [!UICONTROL 的舊有篩選] )即將終止服務。
+>[!UICONTROL Marketing Cloud Assets] 選取器中的舊版篩選器&#x200B;**[!UICONTROL 「展示板和系列」]**&#x200B;即將終止服務。
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
@@ -161,13 +161,13 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | Analytics 對 [!UICONTROL Adobe Experience Platform 邊緣網路]提供支援 | 可讓您使用單一標記將資料傳送至多個 Adobe 解決方案，例如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服務。[更多詳情...](https://docs.adobe.com/content/help/en/experience-platform/edge/solutions/analytics/analytics-overview.html) |
 | [!UICONTROL Adobe Analytics 儀表板] | [!UICONTROL Adobe Analytics 儀表板]是一款行動應用程式，可讓使用者隨時隨地存取 Adobe Analytics 的深入分析。此應用程式適合需要隨處存取關鍵量度的高階管理者。這能讓您存取精心設計的互動式計分卡，且在 iOS 和 Android 作業系統上都能使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL Workspace][!UICONTROL ：從空白狀態自動建立自由表格] | 過去，您必須先新增[!UICONTROL 自由表格]，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立[!UICONTROL 自由表格]。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
-| [!UICONTROL 「功能存取層級] 」頁面 [!UICONTROL 中新增的Adobe Analytics Package] | 您現在可以在「管理員 [!UICONTROL >公司設定] >存取層級Access Level Access **[!UICONTROL 」中檢視您公司有權使用的Adobe Analytics Package]**********(SKU)。 |
-| 協助工具改進 | Adobe Analytics團隊對分析工作區做了幾項協助工具改良，包括改良的鍵盤導覽、色彩對比和螢幕閱讀器支援。 |
+| [!UICONTROL 「功能存取層級」]頁面新增 [!UICONTROL Adobe Analytics Package] | 您現在可以在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 功能存取層級」]**&#x200B;中，檢視您公司有權使用的 [!UICONTROL Adobe Analytics Package] (SKU)。 |
+| 改善協助工具 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。 |
 
 #### Adobe Analytics修正(#aa-fix)
 
-* Adobe將「逗 [!UICONTROL 留時間] 」量度變更為從不包含「無」。 這表示，無論使用者介面是否表示包含無，我們都會在「逗留時間」計算中設定特殊例外，一律排除「 [!UICONTROL 無」] 。 因此，即使您將包含「逗留時間  」量度的報表設定為「包含無」，仍會傳回「無」行項目的0逗留時間。 請注意，這可能會變更「報告與分析」以及「報告API v1.4」中的歷史報告。 (AN-197958)
-* 已修正此問題：例項／瀏覽／訪客未計入「逗留時間」度量的分 [!UICONTROL 母] 。  當沒有維度值的點擊(例如 [!UICONTROL Pagename])在同一秒後跟時，就會發生這種情況。 (AN-211074)
+* Adobe將「逗 [!UICONTROL 留時間] 」量度變更為從未在計算中包含「未指定」。 這表示，無論使用者介面是否指出包含「未指定」，我們都會在「逗留時間」計算中設定特殊例外，一律排除「未 [!UICONTROL 指定」] 。 因此，即使您設定包含「逗留時間  」量度的報表來包含「未指定」，它仍會傳回「未指定」行項目的0逗留時間。 請注意，這可能會變更「報告與分析」以及「報告API v1.4」中的歷史報告。 (AN-197958)
+* 已修正此問題：例項／瀏覽／訪客未計入「逗留時間」度量的分 [!UICONTROL 母] 。  當在同一秒內追蹤沒有維度值(例如 [!UICONTROL Pagename])的點擊時，就會發生這種情況。 (AN-211074)
 * 修正 Audience Manager 中導致 [!DNL Analytics] 區段資料遺失的問題。(AN-206221)
 * 修正[!UICONTROL 「資料來源」]處理時顯示錯誤日期的問題。(AN-213604)
 * 修正分類檔案無法正確上傳至 FTP 的問題。(AN-214102)
@@ -353,21 +353,21 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### Campaign Standard
 
-* [Adobe Campaign Standard 20.3版本](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html)
+* [Adobe Campaign Standard 20.3 版本](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html)
 
 ### Campaign Classic
 
 * [Adobe Campaign Classic 20.1.3](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html#release-20-1-3-build-9124)
 * [Adobe Campaign Classic 19.1.4](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
 
-### 促銷活動控制面板
+### Campaign 控制面板
 
 | 功能 | 說明 |
 | -----------| ---------- |  
 | GPG 金鑰管理 | 在行銷例項上安裝及/或產生 GPG 金鑰，以便將 Campaign 傳送的資料加密，並為傳入的資料解密。 |
 | CNAME 子網域的憑證管理 | 現在，控制面板可讓您續訂已透過 CNAME 方法委派之子網域的 SSL 憑證。 |
 
-### 新的Campaign教學課程
+### 全新 Campaign 教學課程
 
 * 全新 Campaign Standard 教學課程
 
@@ -375,7 +375,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | -----------| ---------- |  
 | [控制面板 - Google TXT 記錄管理](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html) | 了解如何使用 Campaign 控制面板，將 Google TXT 網站驗證記錄新增至您將電子郵件傳送至 GMAIL 地址所需的所有子網域。 |
 | [使用外部 API 活動設定及執行工作流程](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) | 了解如何使用「外部 API」活動呼叫外部 REST API 端點。 |
-| [開始使用 Android 的推播通知 - 教學課程](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 本教學課程說明使用Campaign Standard和Android應用程式設定推播通知所需的步驟。 |
+| [開始使用 Android 的推播通知 - 教學課程](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 本教學課程說明使用 Campaign Standard 和 Android 應用程式設定推播通知所需執行的步驟。 |
 
 * 全新 Campaign Classic 教學課程
 
@@ -384,10 +384,10 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | [Snowflake 巨量資料管理](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | 了解如何在 Adobe Campaign Classic 中使用 Snowflake 連接器。 |
 | [控制面板 - Google TXT 記錄管理](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html) | 了解如何使用 Campaign 控制面板，將 Google TXT 網站驗證記錄新增至您將電子郵件傳送至 GMAIL 地址所需的所有子網域。 |
 
-### 促銷活動說明資源
+### Campaign 說明資源
 
-* Adobe Campaign Standard: [幫助中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) -發 [行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) -操作視 [頻——發行計畫](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) -最新文檔更新 [](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.html)[- Lease Documentation Updates](https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic: [說明中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) -發 [行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html) -操 [作視訊——最新文](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-classic-tutorials/overview.html)[件更新](https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign Standard：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) - [作法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-planning.html) - [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic：[說明中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)
 
 ## ![圖示](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
