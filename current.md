@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4bdb8dde04f55703e52aca1295aad03374f3eb25
+source-git-commit: 1784b66efbcd85c25145fbf5b84f95c0285412ab
 workflow-type: tm+mt
-source-wordcount: '4998'
+source-wordcount: '4997'
 ht-degree: 95%
 
 ---
@@ -164,7 +164,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL 「功能存取層級」]頁面新增 [!UICONTROL Adobe Analytics Package] | 您現在可以在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 功能存取層級」]**&#x200B;中，檢視您公司有權使用的 [!UICONTROL Adobe Analytics Package] (SKU)。 |
 | 改善協助工具 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。 |
 
-#### Adobe Analytics修正(#aa-fix)
+#### Adobe Analytics 修正項目 {#aa-fixes}
 
 * Adobe將「逗 [!UICONTROL 留時間] 」量度變更為從未在計算中包含「未指定」。 這表示，無論使用者介面是否指出包含「未指定」，我們都會在「逗留時間」計算中設定特殊例外，一律排除「未 [!UICONTROL 指定」] 。 因此，即使您設定包含「逗留時間  」量度的報表來包含「未指定」，它仍會傳回「未指定」行項目的0逗留時間。 請注意，這可能會變更「報告與分析」以及「報告API v1.4」中的歷史報告。 (AN-197958)
 * 已修正此問題：例項／瀏覽／訪客未計入「逗留時間」度量的分 [!UICONTROL 母] 。  當在同一秒內追蹤沒有維度值(例如 [!UICONTROL Pagename])的點擊時，就會發生這種情況。 (AN-211074)
