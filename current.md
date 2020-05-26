@@ -4,16 +4,16 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1784b66efbcd85c25145fbf5b84f95c0285412ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4997'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Cloud發行說明- 2020年5月
+# Adobe Experience Cloud 發行說明 - 2020 年 5 月
 
 ![橫幅](/assets/experience-cloud-banner-3.png)
 
@@ -30,7 +30,7 @@ ht-degree: 95%
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**更新日期：2020年5月21日**)
+* [!DNL Analytics](#analytics) (**2020 年 5 月 21 日更新**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -139,12 +139,12 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 * [Customer Journey Analytics 的新功能](#cust-journey)
 * [Adobe Analytics 的新功能](#aa-features)
-* [Analytics管理員的重要注意事項](#aa-notices) (**於2020年5月21日更新**)
-* [Adobe Analytics修正](#aa-fixes) (**2020年5月21日更新**)
+* [Analytics 管理員重要事項](#aa-notices) (**2020 年 5 月 21 日更新**)
+* [Adobe Analytics 修正](#aa-fixes) (**2020 年 5 月 21 日更新**)
 * [AppMeasurement](#appm)
 * [全新 Analytics 教學課程](#tutorials-analytics)
 
-### Customer Journey Analytics 的新功能{#cust-journey}
+### Customer Journey Analytics 的新功能 {#cust-journey}
 
 | 功能 | 說明 |
 | -----------| ---------- |
@@ -158,7 +158,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| Analytics 對 [!UICONTROL Adobe Experience Platform 邊緣網路]提供支援 | 可讓您使用單一標記將資料傳送至多個 Adobe 解決方案，例如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服務。[更多詳情...](https://docs.adobe.com/content/help/en/experience-platform/edge/solutions/analytics/analytics-overview.html) |
+| Analytics 對 [!UICONTROL Adobe Experience Platform 邊緣網路]提供支援 | 可讓您使用單一標記將資料傳送至多個 Adobe 解決方案，例如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服務。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/experience-platform/edge/solutions/analytics/analytics-overview.html) |
 | [!UICONTROL Adobe Analytics 儀表板] | [!UICONTROL Adobe Analytics 儀表板]是一款行動應用程式，可讓使用者隨時隨地存取 Adobe Analytics 的深入分析。此應用程式適合需要隨處存取關鍵量度的高階管理者。這能讓您存取精心設計的互動式計分卡，且在 iOS 和 Android 作業系統上都能使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL Workspace][!UICONTROL ：從空白狀態自動建立自由表格] | 過去，您必須先新增[!UICONTROL 自由表格]，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立[!UICONTROL 自由表格]。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
 | [!UICONTROL 「功能存取層級」]頁面新增 [!UICONTROL Adobe Analytics Package] | 您現在可以在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 功能存取層級」]**&#x200B;中，檢視您公司有權使用的 [!UICONTROL Adobe Analytics Package] (SKU)。 |
@@ -166,8 +166,8 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 #### Adobe Analytics 修正項目 {#aa-fixes}
 
-* Adobe將「逗 [!UICONTROL 留時間] 」量度變更為從未在計算中包含「未指定」。 這表示，無論使用者介面是否指出包含「未指定」，我們都會在「逗留時間」計算中設定特殊例外，一律排除「未 [!UICONTROL 指定」] 。 因此，即使您設定包含「逗留時間  」量度的報表來包含「未指定」，它仍會傳回「未指定」行項目的0逗留時間。 請注意，這可能會變更「報告與分析」以及「報告API v1.4」中的歷史報告。 (AN-197958)
-* 已修正此問題：例項／瀏覽／訪客未計入「逗留時間」度量的分 [!UICONTROL 母] 。  當在同一秒內追蹤沒有維度值(例如 [!UICONTROL Pagename])的點擊時，就會發生這種情況。 (AN-211074)
+* Adobe 將[!UICONTROL 「逗留時間」]量度變更為不在計算中加入「未指定」。這表示，無論使用者介面是否指出加入「未指定」，我們都會設定特殊例外情況，一律在[!UICONTROL 「逗留時間」]計算中排除「未指定」。因此，即使您將包含[!UICONTROL 「逗留時間」]量度的報表設定為加入「未指定」，仍會一律對「未指定」條列項目傳回 0 逗留時間。請注意，這可能會變更 Reports &amp; Analytics 及報告 API v1.4 中的歷史報告。(AN-197958)
+* 修正例項/造訪/訪客未計入[!UICONTROL 「逗留時間」]量度分母的問題。同一秒內接下來的點擊沒有維度 (例如 [!UICONTROL Pagename]) 值時，就會發生此情況。(AN-211074)
 * 修正 Audience Manager 中導致 [!DNL Analytics] 區段資料遺失的問題。(AN-206221)
 * 修正[!UICONTROL 「資料來源」]處理時顯示錯誤日期的問題。(AN-213604)
 * 修正分類檔案無法正確上傳至 FTP 的問題。(AN-214102)
@@ -209,7 +209,7 @@ AN-101871、AN-115525、AN-123869、AN-152580、AN-160480、AN-178128、AN-18690
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 改善Analysis Workspace可用性的備援 | 2020年5月21日 | 為確保分析工作區的可用性，我們新增次要CDN（內容傳送網路）以改善備援。 應將下列URL添加到任何必要的網路防火牆白名單中：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
+| 改善 Analysis Workspace 可用性的備援 | 2020 年 5 月 21 日 | 為確保 Analysis Workspace 的可用性，我們新增次要 CDN (內容傳遞網路) 以改善備援。應將下列 URL 新增至任何必要的網路防火牆白名單：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | 變更 [!UICONTROL Workspace] 計算[!UICONTROL 輸入/結束]次數的方式 | 2020 年 4 月 7 日 | 自 2020 年 3 月起，[!UICONTROL Analysis Workspace] 已變更&#x200B;_「無」_&#x200B;值與[!UICONTROL 輸入/結束]動作的互動方式。由於您現在可以在 [!UICONTROL Analysis Workspace] 中開啟或關閉&#x200B;_「無」_，因此我們會在使用者輸入或結束後套用&#x200B;_「無」_，但 (eVars) 以往都是在輸入或結束之前就先套用。例如，假設造訪事件的第一次點擊未輸入 eVars 的值，但第二次點擊則有輸入。在 [!UICONTROL Reports &amp; Analytics] 中，第一次點擊的輸入會顯示為&#x200B;_「未指定」_，但在 [!UICONTROL Analysis Workspace] 中則會顯示第二次點擊的值。 |
 | **[!UICONTROL 「轉換級別」]**&#x200B;設定確定汰除 | 2020 年 3 月 3 日 | **[!UICONTROL 「管理工具]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 一般帳戶設定」]**&#x200B;中的[「轉換級別」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/general-acct-settings-admin.html)設定早已停止作用，預計於 2020 年 3 月 12 日從介面中移除。 |
 | **[!UICONTROL 控制面板封存]**&#x200B;確定汰除 | 2020 年 3 月 27 日 | 自 2020 年 10 月起，[!UICONTROL Reports &amp; Analytics] 中&#x200B;**[!UICONTROL 「管理控制面板」]**&#x200B;底下的&#x200B;**[!UICONTROL 「檢視封存」]**&#x200B;設定將不再提供使用。 |
@@ -223,7 +223,7 @@ AN-101871、AN-115525、AN-123869、AN-152580、AN-160480、AN-178128、AN-18690
 
 請參閱 [AppMeasurement for Javascript 版本說明](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/appmeasurement-updates.html)。2.20.0 版已於 2020 年 3 月 5 日發行。
 
-### 全新 Analytics 教學課程{#tutorials-analytics}
+### 全新 Analytics 教學課程 {#tutorials-analytics}
 
 | 內容 | 說明 |
 | -----------| ---------- |
