@@ -4,11 +4,11 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 1784b66efbcd85c25145fbf5b84f95c0285412ab
-workflow-type: ht
-source-wordcount: '4997'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: be366e4ce14fe1f095ba60b85cc9adcd633cb3eb
+workflow-type: tm+mt
+source-wordcount: '5040'
+ht-degree: 99%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 100%
 
 **發行日期：2020 年 5 月**
 
-最新更新：**2020 年 5 月 21 日**
+最新更新：**2020 年 5 月 26 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**2020 年 5 月 21 日更新**)
+* [!DNL Analytics](#analytics) (**2020 年 5 月 26 日更新**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -139,7 +139,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 * [Customer Journey Analytics 的新功能](#cust-journey)
 * [Adobe Analytics 的新功能](#aa-features)
-* [Analytics 管理員重要事項](#aa-notices) (**2020 年 5 月 21 日更新**)
+* [Analytics 管理員重要事項](#aa-notices) (**2020 年 5 月 26 日更新**)
 * [Adobe Analytics 修正](#aa-fixes) (**2020 年 5 月 21 日更新**)
 * [AppMeasurement](#appm)
 * [全新 Analytics 教學課程](#tutorials-analytics)
@@ -209,6 +209,7 @@ AN-101871、AN-115525、AN-123869、AN-152580、AN-160480、AN-178128、AN-18690
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
+| 協力廠商技術白名單 | 2020年3月12日（生效日期） | Adobe Analytics已開始運用協力廠商技術來進行功能推出管理和產品內支援。 應將下列URL新增至任何必要的網路防火牆白名單，以確保完整功能存取：<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>啟動Darkly: https://app.launchdarkly.com</li></ul> |
 | 改善 Analysis Workspace 可用性的備援 | 2020 年 5 月 21 日 | 為確保 Analysis Workspace 的可用性，我們新增次要 CDN (內容傳遞網路) 以改善備援。應將下列 URL 新增至任何必要的網路防火牆白名單：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | 變更 [!UICONTROL Workspace] 計算[!UICONTROL 輸入/結束]次數的方式 | 2020 年 4 月 7 日 | 自 2020 年 3 月起，[!UICONTROL Analysis Workspace] 已變更&#x200B;_「無」_&#x200B;值與[!UICONTROL 輸入/結束]動作的互動方式。由於您現在可以在 [!UICONTROL Analysis Workspace] 中開啟或關閉&#x200B;_「無」_，因此我們會在使用者輸入或結束後套用&#x200B;_「無」_，但 (eVars) 以往都是在輸入或結束之前就先套用。例如，假設造訪事件的第一次點擊未輸入 eVars 的值，但第二次點擊則有輸入。在 [!UICONTROL Reports &amp; Analytics] 中，第一次點擊的輸入會顯示為&#x200B;_「未指定」_，但在 [!UICONTROL Analysis Workspace] 中則會顯示第二次點擊的值。 |
 | **[!UICONTROL 「轉換級別」]**&#x200B;設定確定汰除 | 2020 年 3 月 3 日 | **[!UICONTROL 「管理工具]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 一般帳戶設定」]**&#x200B;中的[「轉換級別」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/general-acct-settings-admin.html)設定早已停止作用，預計於 2020 年 3 月 12 日從介面中移除。 |
