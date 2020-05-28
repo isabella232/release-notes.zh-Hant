@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8296d1788e4768e12b7dcbb6b520c534419d6360
+source-git-commit: 5283f48c529ee5d1eca229bbd0164bb9e8864aa6
 workflow-type: tm+mt
-source-wordcount: '5161'
-ht-degree: 97%
+source-wordcount: '5201'
+ht-degree: 99%
 
 ---
 
@@ -137,11 +137,11 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 ## ![圖示](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-Updated **May 27, 2020**
+**2020 年 5 月 27 日**&#x200B;更新
 
 * [Customer Journey Analytics 的新功能](#cust-journey)
 * [Adobe Analytics 的新功能](#aa-features)
-* [Media Analytics的新功能](#media-aa) (**2020年5月27日更新**)
+* [Media Analytics 的新功能](#media-aa) (**2020 年 5 月 27 日更新**)
 * [Analytics 管理員重要事項](#aa-notices) (**2020 年 5 月 26 日更新**)
 * [Adobe Analytics 修正](#aa-fixes) (**2020 年 5 月 21 日更新**)
 * [AppMeasurement](#appm)
@@ -167,16 +167,16 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL 「功能存取層級」]頁面新增 [!UICONTROL Adobe Analytics Package] | 您現在可以在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 功能存取層級」]**&#x200B;中，檢視您公司有權使用的 [!UICONTROL Adobe Analytics Package] (SKU)。 |
 | 改善協助工具 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。 |
 
-#### New features in [!UICONTROL Media Analytics] {#media-aa}
+#### [!UICONTROL Media Analytics] 中的新功能{#media-aa}
 
-Date added: **May 27, 2020**
+新增日期：**2020 年 5 月 27 日**
 
-**播放器狀態追蹤：** [!UICONTROL Media Analytics] 客戶可在播放時使用全螢幕、隱藏字幕、靜音、畫中畫和焦點的標準解決方案變數集來擷取檢視者互動。 您也可以彈性建立自訂播放器狀態。 「播放器狀態追蹤」變數現在可用於分析工作區 [!UICONTROL 中的報表]。 此功能需要下列其中一項：
+**播放器狀態追蹤：**[!UICONTROL Media Analytics] 客戶可使用全螢幕、隱藏式字幕、靜音、子母畫面和觀看中的標準解決方案變數集，擷取檢視者在播放時的互動。您也可以彈性建立自訂播放器狀態。「播放器狀態追蹤」變數現在可用於 [!UICONTROL Analysis Workspace] 中的報告。此功能需有下列任一個項目：
 
-* Media [!DNL JavaScript] SDK 3.0或更新版本
-* 與(AEP) [!DNL Adobe Experience Platform] SDK搭配使用：
-   * [!UICONTROL Media Analytics Extension] （適用於網頁）: [!UICONTROL 音訊和視訊v1.0或更新版本的Adobe Media Analytics] (3.x SDK)
-   * [!UICONTROL Media Analytics Extension] （適用於行動裝置）: [!UICONTROL Adobe Media Analytics for Audio] and Video v2.0或更高版本
+* Media [!DNL JavaScript] SDK 3.0 或更新版本
+* 與 [!DNL Adobe Experience Platform] (AEP) SDK 搭配使用：
+   * [!UICONTROL Media Analytics 擴充功能] (適用於網頁)：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更新版本
+   * [!UICONTROL Media Analytics 擴充功能] (適用於行動裝置)：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更新版本
 * [!UICONTROL Media Collection]
 
 即將提供內容連結。
@@ -226,7 +226,8 @@ AN-101871、AN-115525、AN-123869、AN-152580、AN-160480、AN-178128、AN-18690
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 協力廠商技術白名單 | 2020 年 3 月 12 日 (生效日期) | Adobe Analytics 已開始運用協力廠商技術進行功能推出管理和產品內支援。應將下列 URL 新增至任何必要的網路防火牆白名單，確保完整功能存取權限：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
+| 新的Adobe Analytics預設登陸頁面 | 生效日期： 2020年6月18日 | 在2020年6月18日，Adobe Analytics的預設著陸頁面將從「報表」變 [!UICONTROL 更] 為「工 [!UICONTROL 作區」]。 先前未設定自訂登陸頁面的使用者，將會發生此變更。 |
+| 協力廠商技術白名單 | (生效日期： 2020年3月12日 | Adobe Analytics 已開始運用協力廠商技術進行功能推出管理和產品內支援。應將下列 URL 新增至任何必要的網路防火牆白名單，確保完整功能存取權限：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
 | 改善 Analysis Workspace 可用性的備援 | 2020 年 5 月 21 日 | 為確保 Analysis Workspace 的可用性，我們新增次要 CDN (內容傳遞網路) 以改善備援。應將下列 URL 新增至任何必要的網路防火牆白名單：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | 變更 [!UICONTROL Workspace] 計算[!UICONTROL 輸入/結束]次數的方式 | 2020 年 4 月 7 日 | 自 2020 年 3 月起，[!UICONTROL Analysis Workspace] 已變更&#x200B;_「無」_&#x200B;值與[!UICONTROL 輸入/結束]動作的互動方式。由於您現在可以在 [!UICONTROL Analysis Workspace] 中開啟或關閉&#x200B;_「無」_，因此我們會在使用者輸入或結束後套用&#x200B;_「無」_，但 (eVars) 以往都是在輸入或結束之前就先套用。例如，假設造訪事件的第一次點擊未輸入 eVars 的值，但第二次點擊則有輸入。在 [!UICONTROL Reports &amp; Analytics] 中，第一次點擊的輸入會顯示為&#x200B;_「未指定」_，但在 [!UICONTROL Analysis Workspace] 中則會顯示第二次點擊的值。 |
 | **[!UICONTROL 「轉換級別」]**&#x200B;設定確定汰除 | 2020 年 3 月 3 日 | **[!UICONTROL 「管理工具]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 一般帳戶設定」]**&#x200B;中的[「轉換級別」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/general-acct-settings-admin.html)設定早已停止作用，預計於 2020 年 3 月 12 日從介面中移除。 |
