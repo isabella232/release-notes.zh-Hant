@@ -4,11 +4,11 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 5283f48c529ee5d1eca229bbd0164bb9e8864aa6
-workflow-type: ht
-source-wordcount: '5201'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8e6be9e0d672aceac0cb99ec0973de6122e3ad51
+workflow-type: tm+mt
+source-wordcount: '5212'
+ht-degree: 99%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 100%
 
 **發行日期：2020 年 5 月**
 
-最新更新：**2020 年 5 月 27 日**
+最新更新：**2020 年 5 月 29 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**2020 年 5 月 27 日更新**)
+* [!DNL Analytics](#analytics) (**2020 年 5 月 29 日更新**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -137,11 +137,11 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 ## ![圖示](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-**2020 年 5 月 27 日**&#x200B;更新
+**2020 年 5 月 29 日**&#x200B;更新
 
 * [Customer Journey Analytics 的新功能](#cust-journey)
 * [Adobe Analytics 的新功能](#aa-features)
-* [Media Analytics 的新功能](#media-aa) (**2020 年 5 月 27 日更新**)
+* [Media Analytics 的新功能](#media-aa) (**2020 年 5 月 29 日更新**)
 * [Analytics 管理員重要事項](#aa-notices) (**2020 年 5 月 26 日更新**)
 * [Adobe Analytics 修正](#aa-fixes) (**2020 年 5 月 21 日更新**)
 * [AppMeasurement](#appm)
@@ -169,7 +169,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 #### [!UICONTROL Media Analytics] 中的新功能{#media-aa}
 
-新增日期：**2020 年 5 月 27 日**
+更新日期： **2020年5月29日**
 
 **播放器狀態追蹤：**[!UICONTROL Media Analytics] 客戶可使用全螢幕、隱藏式字幕、靜音、子母畫面和觀看中的標準解決方案變數集，擷取檢視者在播放時的互動。您也可以彈性建立自訂播放器狀態。「播放器狀態追蹤」變數現在可用於 [!UICONTROL Analysis Workspace] 中的報告。此功能需有下列任一個項目：
 
@@ -179,7 +179,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
    * [!UICONTROL Media Analytics 擴充功能] (適用於行動裝置)：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更新版本
 * [!UICONTROL 媒體收集]
 
-即將提供內容連結。
+請參閱 [關於播放器狀態追蹤](https://docs.adobe.com/content/help/en/media-analytics/using/player-state-tracking/player-state-overview.html)。
 
 #### Adobe Analytics 修正項目 {#aa-fixes}
 
