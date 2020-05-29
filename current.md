@@ -4,11 +4,11 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5283f48c529ee5d1eca229bbd0164bb9e8864aa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5201'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 | Adobe Launch | `experience.adobe.com/launch` |
 | Adobe Experience Platform | `experience.adobe.com/platform` |
 | 歷程管理 | `experience.adobe.com/journeys` |
-| 客戶歷程分析 | `experience.adobe.com/platform/analytics` |
+| Customer Journey Analytics | `experience.adobe.com/platform/analytics` |
 | Adobe Campaign 控制面板 | `experience.adobe.com/controlpanel` |
 | Cloud Manager | `experience.adobe.com/cloud-manager` |
 | Places Service | `experience.adobe.com/places` |
@@ -177,7 +177,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 * 與 [!DNL Adobe Experience Platform] (AEP) SDK 搭配使用：
    * [!UICONTROL Media Analytics 擴充功能] (適用於網頁)：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更新版本
    * [!UICONTROL Media Analytics 擴充功能] (適用於行動裝置)：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更新版本
-* [!UICONTROL Media Collection]
+* [!UICONTROL 媒體收集]
 
 即將提供內容連結。
 
@@ -226,8 +226,8 @@ AN-101871、AN-115525、AN-123869、AN-152580、AN-160480、AN-178128、AN-18690
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 新的Adobe Analytics預設登陸頁面 | 生效日期： 2020年6月18日 | 在2020年6月18日，Adobe Analytics的預設著陸頁面將從「報表」變 [!UICONTROL 更] 為「工 [!UICONTROL 作區」]。 先前未設定自訂登陸頁面的使用者，將會發生此變更。 |
-| 協力廠商技術白名單 | (生效日期： 2020年3月12日 | Adobe Analytics 已開始運用協力廠商技術進行功能推出管理和產品內支援。應將下列 URL 新增至任何必要的網路防火牆白名單，確保完整功能存取權限：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
+| 全新 Adobe Analytics 預設登陸頁面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日起，Adobe Analytics 的預設登陸頁面將從[!UICONTROL 報告]變更為[!UICONTROL 工作區]。未設定自訂登陸頁面的使用者，將一律適用此變更。 |
+| 協力廠商技術白名單 | 生效日期：2020 年 3 月 12 日 | Adobe Analytics 已開始運用協力廠商技術進行功能推出管理和產品內支援。應將下列 URL 新增至任何必要的網路防火牆白名單，確保完整功能存取權限：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
 | 改善 Analysis Workspace 可用性的備援 | 2020 年 5 月 21 日 | 為確保 Analysis Workspace 的可用性，我們新增次要 CDN (內容傳遞網路) 以改善備援。應將下列 URL 新增至任何必要的網路防火牆白名單：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | 變更 [!UICONTROL Workspace] 計算[!UICONTROL 輸入/結束]次數的方式 | 2020 年 4 月 7 日 | 自 2020 年 3 月起，[!UICONTROL Analysis Workspace] 已變更&#x200B;_「無」_&#x200B;值與[!UICONTROL 輸入/結束]動作的互動方式。由於您現在可以在 [!UICONTROL Analysis Workspace] 中開啟或關閉&#x200B;_「無」_，因此我們會在使用者輸入或結束後套用&#x200B;_「無」_，但 (eVars) 以往都是在輸入或結束之前就先套用。例如，假設造訪事件的第一次點擊未輸入 eVars 的值，但第二次點擊則有輸入。在 [!UICONTROL Reports &amp; Analytics] 中，第一次點擊的輸入會顯示為&#x200B;_「未指定」_，但在 [!UICONTROL Analysis Workspace] 中則會顯示第二次點擊的值。 |
 | **[!UICONTROL 「轉換級別」]**&#x200B;設定確定汰除 | 2020 年 3 月 3 日 | **[!UICONTROL 「管理工具]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 一般帳戶設定」]**&#x200B;中的[「轉換級別」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/general-acct-settings-admin.html)設定早已停止作用，預計於 2020 年 3 月 12 日從介面中移除。 |
