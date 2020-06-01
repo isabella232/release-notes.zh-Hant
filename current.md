@@ -4,11 +4,11 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 8e6be9e0d672aceac0cb99ec0973de6122e3ad51
-workflow-type: ht
-source-wordcount: '5212'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6c9c4b782fdf3dc9283d98d78d459bd38fef648d
+workflow-type: tm+mt
+source-wordcount: '5322'
+ht-degree: 97%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 100%
 
 **發行日期：2020 年 5 月**
 
-最新更新：**2020 年 5 月 29 日**
+最新更新： **2020年6月1日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**2020 年 5 月 29 日更新**)
+* [!DNL Analytics](#analytics) (**更新日期：2020年6月1日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -142,7 +142,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 * [Customer Journey Analytics 的新功能](#cust-journey)
 * [Adobe Analytics 的新功能](#aa-features)
 * [Media Analytics 的新功能](#media-aa) (**2020 年 5 月 29 日更新**)
-* [Analytics 管理員重要事項](#aa-notices) (**2020 年 5 月 26 日更新**)
+* [Analytics管理員的重要注意事項](#aa-notices) (**於2020年6月1日更新**)
 * [Adobe Analytics 修正](#aa-fixes) (**2020 年 5 月 21 日更新**)
 * [AppMeasurement](#appm)
 * [全新 Analytics 教學課程](#tutorials-analytics)
@@ -226,6 +226,7 @@ AN-101871、AN-115525、AN-123869、AN-152580、AN-160480、AN-178128、AN-18690
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
+| 移轉至統一的產品域 | 生效日期： 2020年5月28日 | 從2020年1月開始，Adobe Analytics移轉至統一產品網域的工作已於2020年5月28日完成。 雖然Adobe Analytics會從其架構中移除所 `omniture.com` 有網域參考，但必須將其列為 `omniture.com` 協力廠商Cookie的白名單。 完成完整架構移轉後，我們將透過發行說明通知您，不再需要此白名單步驟。 [以下](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html) ，是建議IP位址和網域的完整清單，您應將之列入白名單。<br>如果貴組織封鎖第三方Cookie，請聯絡客戶服務以重新取得Adobe Analytics的存取權。 |
 | 全新 Adobe Analytics 預設登陸頁面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日起，Adobe Analytics 的預設登陸頁面將從[!UICONTROL 報告]變更為[!UICONTROL 工作區]。未設定自訂登陸頁面的使用者，將一律適用此變更。 |
 | 協力廠商技術白名單 | 生效日期：2020 年 3 月 12 日 | Adobe Analytics 已開始運用協力廠商技術進行功能推出管理和產品內支援。應將下列 URL 新增至任何必要的網路防火牆白名單，確保完整功能存取權限：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
 | 改善 Analysis Workspace 可用性的備援 | 2020 年 5 月 21 日 | 為確保 Analysis Workspace 的可用性，我們新增次要 CDN (內容傳遞網路) 以改善備援。應將下列 URL 新增至任何必要的網路防火牆白名單：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
