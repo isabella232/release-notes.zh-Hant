@@ -4,11 +4,11 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 6c9c4b782fdf3dc9283d98d78d459bd38fef648d
-workflow-type: ht
-source-wordcount: '5322'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 02f473e0c7908d44aa0444ce99f4540d9e79b254
+workflow-type: tm+mt
+source-wordcount: '5368'
+ht-degree: 99%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 100%
 
 **發行日期：2020 年 5 月**
 
-最近更新：**2020 年 6 月 1 日**
+最近更新：**2020 年 6 月 2 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**更新日期: 2020 年 6 月 1 日**)
+* [!DNL Analytics](#analytics) (**更新日期: 2020 年 6 月 2 日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -140,7 +140,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 **2020 年 5 月 29 日**&#x200B;更新
 
 * [Customer Journey Analytics 的新功能](#cust-journey)
-* [Adobe Analytics 的新功能](#aa-features)
+* [Adobe Analytics 的新功能](#aa-features) (**更新日期: 2020 年 6 月 2 日**)
 * [Media Analytics 的新功能](#media-aa) (**2020 年 5 月 29 日更新**)
 * [Analytics 管理員重要事項](#aa-notices) **(2020 年 6 月 1 日更新**)
 * [Adobe Analytics 修正](#aa-fixes) (**2020 年 5 月 21 日更新**)
@@ -156,16 +156,16 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 ### Adobe Analytics 的新功能 {#aa-features}
 
-<!-- Bulk Ingest: Enables you to ingest batches of Analytics data. Useful for server-side and offline data. Learn more...
-First-Party Domains Available in China RDC: Enables customers with a cn domain to request a 1st-party domain for use inside of Mainland China. Learn more... -->
+<!--First-Party Domains Available in China RDC: Enables customers with a cn domain to request a 1st-party domain for use inside of Mainland China. Learn more... -->
 
-| 功能 | 說明 |
-| -----------| ---------- |
-| Analytics 對 [!UICONTROL Adobe Experience Platform 邊緣網路]提供支援 | 可讓您使用單一標記將資料傳送至多個 Adobe 解決方案，例如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服務。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/experience-platform/edge/solutions/analytics/analytics-overview.html) |
-| [!UICONTROL Adobe Analytics 儀表板] | [!UICONTROL Adobe Analytics 儀表板]是一款行動應用程式，可讓使用者隨時隨地存取 Adobe Analytics 的深入分析。此應用程式適合需要隨處存取關鍵量度的高階管理者。這能讓您存取精心設計的互動式計分卡，且在 iOS 和 Android 作業系統上都能使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html) |
-| [!UICONTROL Workspace][!UICONTROL ：從空白狀態自動建立自由表格] | 過去，您必須先新增[!UICONTROL 自由表格]，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立[!UICONTROL 自由表格]。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
-| [!UICONTROL 「功能存取層級」]頁面新增 [!UICONTROL Adobe Analytics Package] | 您現在可以在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 功能存取層級」]**&#x200B;中，檢視您公司有權使用的 [!UICONTROL Adobe Analytics Package] (SKU)。 |
-| 改善協助工具 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。 |
+| 功能 | 一般上市日期 | 說明 |
+| -----------| ------------ | ---------- |
+| 大量資料插入API | 2020 年 5 月 31 日 | 可讓您輕鬆且獨立地收錄批次的Analytics資料。 適用於伺服器端和離線資料。 [更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
+| Analytics 對 [!UICONTROL Adobe Experience Platform 邊緣網路]提供支援 | 2020 年 5 月 31 日 | 可讓您使用單一標記將資料傳送至多個 Adobe 解決方案，例如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服務。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/experience-platform/edge/solutions/analytics/analytics-overview.html) |
+| [!UICONTROL Adobe Analytics 儀表板] | 2020 年 5 月 31 日 | [!UICONTROL Adobe Analytics 儀表板]是一款行動應用程式，可讓使用者隨時隨地存取 Adobe Analytics 的深入分析。此應用程式適合需要隨處存取關鍵量度的高階管理者。這能讓您存取精心設計的互動式計分卡，且在 iOS 和 Android 作業系統上都能使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html) |
+| [!UICONTROL 工作區]: 自動從空 [白狀態建立2020年5月21日！UICONCONTROL自由表格] | 過去，您必須先新增[!UICONTROL 自由表格]，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立[!UICONTROL 自由表格]。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
+| [!UICONTROL 「功能存取層級」]頁面新增 [!UICONTROL Adobe Analytics Package] | 2020 年 5 月 21 日 | 您現在可以在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 功能存取層級」]**&#x200B;中，檢視您公司有權使用的 [!UICONTROL Adobe Analytics Package] (SKU)。 |
+| 改善協助工具 | 2020 年 5 月 21 日 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。 |
 
 #### [!UICONTROL Media Analytics] 中的新功能{#media-aa}
 
