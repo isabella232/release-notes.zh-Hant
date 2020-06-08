@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9ca2b181b020052ec1f2cc968e9c2cf1bdfa7fdc
+source-git-commit: feb921205059c7ab4ba9d59964fae9b1954d12a0
 workflow-type: tm+mt
-source-wordcount: '5386'
-ht-degree: 98%
+source-wordcount: '5640'
+ht-degree: 96%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 98%
 
 **發行日期：2020 年 5 月**
 
-最近更新：**2020 年 6 月 2 日**
+最近更新：**2020 年 6 月 4 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**更新日期: 2020 年 6 月 2 日**)
+* [!DNL Analytics](#analytics) (**更新日期：2020 年 6 月 4 日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -137,32 +137,38 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 ## ![圖示](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-* [Customer Journey Analytics 的新功能](#cust-journey)
-* [Adobe Analytics 的新功能](#aa-features) (**更新日期: 2020 年 6 月 2 日**)
+* [Adobe Analytics的新功能](#aa-features) (**2020年6月4日更新**)
+* [客戶歷程分析的新功能](#cust-journey) (**2020年6月4日更新**)
 * [Media Analytics 的新功能](#media-aa) (**2020 年 5 月 29 日更新**)
 * [Analytics 管理員重要事項](#aa-notices) **(2020 年 6 月 1 日更新**)
 * [Adobe Analytics 修正](#aa-fixes) (**2020 年 5 月 21 日更新**)
 * [AppMeasurement](#appm)
 * [全新 Analytics 教學課程](#tutorials-analytics)
 
-### Customer Journey Analytics 的新功能 {#cust-journey}
-
-| 功能 | 說明 |
-| -----------| ---------- |
-| [!UICONTROL Customer Journey Analytics]：全域可用性 | 使 EMEA 和 APAC 的客戶得以使用 [!UICONTROL Customer Journey Analytics]。 |
-| [!UICONTROL Customer Journey Analytics]：支援 [!UICONTROL Adobe Experience Platform 沙箱] | 允許選取特定的 [!UICONTROL Adobe Experience Platform 沙箱]，以便建立 CJA 連線。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html) |
-
 ### Adobe Analytics 的新功能 {#aa-features}
 
-<!--First-Party Domains Available in China RDC: Enables customers with a cn domain to request a 1st-party domain for use inside of Mainland China. Learn more... -->
+<!--First-Party Domains Available in China RDC: June 18 - Enables customers with a cn domain to request a 1st-party domain for use inside of Mainland China. Learn more... 
+Anomaly det. support in CJA - June 18; Project Sharing Roles - June 18; Blank panel in WS now includes panels and vizs - June 18; -->
 
-| 功能 | [目標一般可用日期](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) | 說明 |
+| 功能 | [一般可用性](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) -目標日期 | 說明 |
 | -----------| ------------ | ---------- |
-| 大量資料插入API | 2020 年 5 月 31 日 | 可讓您輕鬆且獨立地收錄批次的Analytics資料。 適用於伺服器端和離線資料。 [更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
-| Analytics 對 [!UICONTROL Adobe Experience Platform 邊緣網路]提供支援 | 2020 年 5 月 31 日 | 可讓您使用單一標記將資料傳送至多個 Adobe 解決方案，例如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服務。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/experience-platform/edge/solutions/analytics/analytics-overview.html) |
+| [!UICONTROL 工作區中的Analytics] for Target面 [!UICONTROL 板] | 2020年6月25日 | 「 [!UICONTROL Analytics for Target] (A4T)」面板可讓您分析分析分析工作區中的Adobe Target活 [!UICONTROL 動和體驗。] [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| [!UICONTROL 工作區中的] 「快速洞察」面 [!UICONTROL 板] | 2020年6月25日 | [!UICONTROL Quick Insights] 為分析工作區的非分析師和新使用者提供指引，以瞭解如何快速輕鬆地回答業務問題。 [更多詳情](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
+| [!UICONTROL 大量資料插入 API] | 2020 年 5 月 31 日 | 讓您輕鬆獨立擷取多批次 Analytics 資料。對處理伺服器端和離線資料相當實用。[更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
+| Adobe Analytics support for [!UICONTROL Adobe Experience Platform Edge Network] | 2020 年 5 月 31 日 | 可讓您使用單一標記將資料傳送至多個 Adobe 解決方案，例如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服務。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/experience-platform/edge/solutions/analytics/analytics-overview.html) |
 | [!UICONTROL Adobe Analytics 儀表板] | 2020 年 5 月 21 日 | [!UICONTROL Adobe Analytics 儀表板]是一款行動應用程式，可讓使用者隨時隨地存取 Adobe Analytics 的深入分析。此應用程式適合需要隨處存取關鍵量度的高階管理者。這能讓您存取精心設計的互動式計分卡，且在 iOS 和 Android 作業系統上都能使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL Workspace][!UICONTROL ：從空白狀態自動建立自由表格] | [2020 年 5 月 21 日 | 過去，您必須先新增[!UICONTROL 自由表格]，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立[!UICONTROL 自由表格]。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
 | [!UICONTROL 「功能存取層級」]頁面新增 [!UICONTROL Adobe Analytics Package] | 2020 年 5 月 21 日 | 您現在可以在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 功能存取層級」]**&#x200B;中，檢視您公司有權使用的 [!UICONTROL Adobe Analytics Package] (SKU)。 |
+| 改善協助工具 | 2020 年 5 月 21 日 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+
+### Customer Journey Analytics 的新功能 {#cust-journey}
+
+| 功能 | [一般可用性](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) -目標日期 | 說明 |
+| -----------| --------- | ---------- |
+| [!UICONTROL 工作區中的] 「快速洞察」面 [!UICONTROL 板] | 2020年6月25日 | [!UICONTROL Quick Insights] 為分析工作區的非分析師和新使用者提供指引，以瞭解如何快速輕鬆地回答業務問題。 [更多詳情](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
+| [!UICONTROL Customer Journey Analytics]：全域可用性 | 2020 年 5 月 21 日 | 使 EMEA 和 APAC 的客戶得以使用 [!UICONTROL Customer Journey Analytics]。 |
+| [!UICONTROL Customer Journey Analytics]：支援 [!UICONTROL Adobe Experience Platform 沙箱] | 2020 年 5 月 21 日 | 允許選取特定的 [!UICONTROL Adobe Experience Platform 沙箱]，以便建立 CJA 連線。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html) |
+| [!UICONTROL Workspace][!UICONTROL ：從空白狀態自動建立自由表格] | [2020 年 5 月 21 日 | 過去，您必須先新增[!UICONTROL 自由表格]，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立[!UICONTROL 自由表格]。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
 | 改善協助工具 | 2020 年 5 月 21 日 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 #### [!UICONTROL Media Analytics] 中的新功能{#media-aa}
