@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: feb921205059c7ab4ba9d59964fae9b1954d12a0
+source-git-commit: be2f2b5ad468ad63bfcb2fdd67d063203ac08654
 workflow-type: tm+mt
-source-wordcount: '5640'
-ht-degree: 96%
+source-wordcount: '5030'
+ht-degree: 81%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**更新日期：2020 年 6 月 4 日**)
+* [!DNL Analytics](#analytics) (**2020 年 6 月 4 日更新**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -137,41 +137,40 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 ## ![圖示](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-* [Adobe Analytics的新功能](#aa-features) (**2020年6月4日更新**)
-* [客戶歷程分析的新功能](#cust-journey) (**2020年6月4日更新**)
-* [Media Analytics 的新功能](#media-aa) (**2020 年 5 月 29 日更新**)
-* [Analytics 管理員重要事項](#aa-notices) **(2020 年 6 月 1 日更新**)
-* [Adobe Analytics 修正](#aa-fixes) (**2020 年 5 月 21 日更新**)
+Updated **June, 2020**
+
+* [Adobe Analytics 的新功能](#aa-features)
+* [Customer Journey Analytics 的新功能](#cust-journey)
+* [Media Analytics](#media-aa) 的新功能
+* [Adobe Analytics 修正項目](#aa-fixes)
+* [給 Analytics 管理員的重要通知](#aa-notices)
 * [AppMeasurement](#appm)
 * [全新 Analytics 教學課程](#tutorials-analytics)
 
 ### Adobe Analytics 的新功能 {#aa-features}
 
-<!--First-Party Domains Available in China RDC: June 18 - Enables customers with a cn domain to request a 1st-party domain for use inside of Mainland China. Learn more... 
-Anomaly det. support in CJA - June 18; Project Sharing Roles - June 18; Blank panel in WS now includes panels and vizs - June 18; -->
-
-| 功能 | [一般可用性](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) -目標日期 | 說明 |
-| -----------| ------------ | ---------- |
-| [!UICONTROL 工作區中的Analytics] for Target面 [!UICONTROL 板] | 2020年6月25日 | 「 [!UICONTROL Analytics for Target] (A4T)」面板可讓您分析分析分析工作區中的Adobe Target活 [!UICONTROL 動和體驗。] [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
-| [!UICONTROL 工作區中的] 「快速洞察」面 [!UICONTROL 板] | 2020年6月25日 | [!UICONTROL Quick Insights] 為分析工作區的非分析師和新使用者提供指引，以瞭解如何快速輕鬆地回答業務問題。 [更多詳情](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
-| [!UICONTROL 大量資料插入 API] | 2020 年 5 月 31 日 | 讓您輕鬆獨立擷取多批次 Analytics 資料。對處理伺服器端和離線資料相當實用。[更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
-| Adobe Analytics support for [!UICONTROL Adobe Experience Platform Edge Network] | 2020 年 5 月 31 日 | 可讓您使用單一標記將資料傳送至多個 Adobe 解決方案，例如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服務。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/experience-platform/edge/solutions/analytics/analytics-overview.html) |
-| [!UICONTROL Adobe Analytics 儀表板] | 2020 年 5 月 21 日 | [!UICONTROL Adobe Analytics 儀表板]是一款行動應用程式，可讓使用者隨時隨地存取 Adobe Analytics 的深入分析。此應用程式適合需要隨處存取關鍵量度的高階管理者。這能讓您存取精心設計的互動式計分卡，且在 iOS 和 Android 作業系統上都能使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html) |
-| [!UICONTROL Workspace][!UICONTROL ：從空白狀態自動建立自由表格] | [2020 年 5 月 21 日 | 過去，您必須先新增[!UICONTROL 自由表格]，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立[!UICONTROL 自由表格]。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
-| [!UICONTROL 「功能存取層級」]頁面新增 [!UICONTROL Adobe Analytics Package] | 2020 年 5 月 21 日 | 您現在可以在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 功能存取層級」]**&#x200B;中，檢視您公司有權使用的 [!UICONTROL Adobe Analytics Package] (SKU)。 |
-| 改善協助工具 | 2020 年 5 月 21 日 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| -----------| ---------- |-------|
+| 歸因IQ: 演算法歸因 | 2020 年 6 月 18 日 | 分析工 [!UICONTROL 作區中的演算法歸因] (Algorithmic Attribution)模型會使用統計技術，動態地決定所選量度的評分最佳配置。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 歸因IQ: 自訂回顧視窗 | 2020 年 6 月 18 日 | 您現在可以在 [!UICONTROL Attribution IQ中設定任何歸因模型] ，以便在報告時段前最多90天加入觸點。 這通常會計算上個月的互動，以提高報告期間早期發生事件的歸因準確度。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| 共用工作區專案的專案角色 | 2020 年 6 月 18 日 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於三個專案角色之一： 編輯、複製和檢視。 [進一步瞭解……](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 僅限檢視的工作區專案 | 2020 年 6 月 18 日 | 工作區專案可以共用給使用者，僅「可以檢視」。 當「檢視」收件者開啟共用專案時，他們會收到限制較嚴格的專案體驗，而且沒有左側導軌和有限的互動。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| 可共同編輯工作區專案 | 2020 年 6 月 18 日 | 新增至「可編輯」角色的收件者可儲存已共用給他們的專案。 這可擴及管理員和非管理員。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 更新工作區中的「空白」面板 | 2020 年 6 月 18 日 | 工作區中的空白麵板現在包含面板和視覺化，提供您更順暢的方式來挑選最適合您的分析工作流程。 |
+| 中國RDC提供的第一方網域 | 2020 年 6 月 18 日 | 讓具有網域 `.cn` 的客戶可要求第一方網域，以便在中國大陸境內使用。 （購買「中國效能最佳化」SKU時提供的檔案）。 |
+| Workspace 中的「快速深入分析」面板 | 2020 年 6 月 25 日 | 「快速深入分析」為 Analysis Workspace 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
+| Workspace 中的「Analytics for Target」面板 | 2020 年 6 月 25 日 | 「Analytics for Target」(A4T) 面板可讓您在 Analysis Workspace 中分析 Adobe Target 活動和體驗。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
 
 ### Customer Journey Analytics 的新功能 {#cust-journey}
 
-| 功能 | [一般可用性](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) -目標日期 | 說明 |
-| -----------| --------- | ---------- |
-| [!UICONTROL 工作區中的] 「快速洞察」面 [!UICONTROL 板] | 2020年6月25日 | [!UICONTROL Quick Insights] 為分析工作區的非分析師和新使用者提供指引，以瞭解如何快速輕鬆地回答業務問題。 [更多詳情](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
-| [!UICONTROL Customer Journey Analytics]：全域可用性 | 2020 年 5 月 21 日 | 使 EMEA 和 APAC 的客戶得以使用 [!UICONTROL Customer Journey Analytics]。 |
-| [!UICONTROL Customer Journey Analytics]：支援 [!UICONTROL Adobe Experience Platform 沙箱] | 2020 年 5 月 21 日 | 允許選取特定的 [!UICONTROL Adobe Experience Platform 沙箱]，以便建立 CJA 連線。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html) |
-| [!UICONTROL Workspace][!UICONTROL ：從空白狀態自動建立自由表格] | [2020 年 5 月 21 日 | 過去，您必須先新增[!UICONTROL 自由表格]，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立[!UICONTROL 自由表格]。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
-| 改善協助工具 | 2020 年 5 月 21 日 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| -----------| ---------- |-----|
+| 支援異常偵測 | 2020 年 6 月 18 日 | 異常偵測提供統計方法，以判斷指定量度與先前資料的變更方式。 [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| 共用工作區專案的專案角色 | 2020 年 6 月 18 日 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於三個專案角色之一： 編輯、複製和檢視。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 僅限檢視的工作區專案 | 2020 年 6 月 18 日 | 工作區專案可以共用給使用者，僅「可以檢視」。 當「檢視」收件者開啟共用專案時，他們會收到限制較嚴格的專案體驗，而且沒有左側導軌和有限的互動。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| 可共同編輯工作區專案 | 2020 年 6 月 18 日 | 新增至「可編輯」角色的收件者可儲存已共用給他們的專案。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 
-#### [!UICONTROL Media Analytics] 中的新功能{#media-aa}
+### [!UICONTROL Media Analytics] 的新功能{#media-aa}
 
 更新日期：**2020 年 5 月 29 日**
 
@@ -185,63 +184,40 @@ Anomaly det. support in CJA - June 18; Project Sharing Roles - June 18; Blank pa
 
 請參閱[關於播放器狀態追蹤](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/player-state-tracking/player-state-overview.html)。
 
-#### Adobe Analytics 修正項目 {#aa-fixes}
+### Adobe Analytics Fixes {#aa-fixes}
 
-* Adobe 將[!UICONTROL 「逗留時間」]量度變更為不在計算中加入「未指定」。這表示，無論使用者介面是否指出加入「未指定」，我們都會設定特殊例外情況，一律在[!UICONTROL 「逗留時間」]計算中排除「未指定」。因此，即使您將包含[!UICONTROL 「逗留時間」]量度的報表設定為加入「未指定」，仍會一律對「未指定」條列項目傳回 0 逗留時間。請注意，這可能會變更 Reports &amp; Analytics 及報告 API v1.4 中的歷史報告。(AN-197958)
-* 修正例項/造訪/訪客未計入[!UICONTROL 「逗留時間」]量度分母的問題。同一秒內接下來的點擊沒有維度 (例如 [!UICONTROL Pagename]) 值時，就會發生此情況。(AN-211074)
-* 修正 Audience Manager 中導致 [!DNL Analytics] 區段資料遺失的問題。(AN-206221)
-* 修正[!UICONTROL 「資料來源」]處理時顯示錯誤日期的問題。(AN-213604)
-* 修正分類檔案無法正確上傳至 FTP 的問題。(AN-214102)
-* 修正 API 方法 `Segments.Get` 未傳回完整回應的問題。(AN-206210)
-* 修正表格明細項目在 [!DNL Workspace] PDF 下載內容中轉換為特殊字元的問題。(AN-196153)
-* 修正 Adobe Analytics API 1.4 呼叫 `visattrcustomeridcustomerattributes` 無法正常運作的問題。(AN-186873)
-* 修正資料顯示於報表中，但未顯示於[!UICONTROL 「資料摘要」]的問題。(AN-211923)
-* 修正[!UICONTROL 「產品設定檔」]權限無法複製的問題 。(AN-211113)
-* 修正使用者無法以 Federated ID 登入 [!UICONTROL Report Builder] 的問題。(AN-207750)
-* 修正 [!UICONTROL AdWords] 資料無法顯示於 [!UICONTROL Advertising Analytics] 的問題。(AN-213249)
-* 修正趨勢檢視未顯示分類資料的問題。(AN-212761)
-* 修正[!UICONTROL 「區段管理器」]中發佈區段計數有誤的問題。(AN-213374)
-* 修正[!UICONTROL 「計算量度編輯器」]中&#x200B;**[!UICONTROL 「將向上趨勢顯示為...」]**&#x200B;選項的問題 - 套用篩選器時無法運作。(AN-214223)
-* 修正[!UICONTROL 分類]匯入和匯出的多個問題。(AN-213488、AN-215309、AN-216345、AN-215307、AN-216671)
-* 修正[!UICONTROL 分類規則產生器]的多項問題。(AN-213826、AN-213550、AN-213095)
-* 修正[!UICONTROL 資料來源]在處理方面的問題。(AN-218083、AN-213604、AN-214102、AN-215485、AN-215339、AN-212911、AN-217551、AN-217947、AN-219018、AN-214691、AN-218401)
-* 修正 FTP 連線問題。(AN-115525)
-* 修正多項 [!DNL Analytics] [!UICONTROL 資料摘要]問題。(AN-176769、AN-160480、AN-211923、AN-204286、AN-212977、AN-214528、AN-215080、AN-217784、AN-219093、AN-218817、AN-217798、AN-218267、AN-218382)
-* 修正 [!UICONTROL Data Warehouse] 要求的問題。(AN-181836)
-* 修正在 PDF 下載的 [!UICONTROL Workspace] 專案中，值會轉換為特殊字元的問題。(AN-196153)
-* 修正無法在 [!UICONTROL Admin Console] 中複製[!UICONTROL 「產品設定檔」]權限的問題。(AN-211113)
-* 修正計算量度中時間格式會因負值而損壞的問題。(AN-210900)
-* 修正使用者無法對靜態列量度變更[!UICONTROL 歸因模型]的問題。(AN-207872)
-* 修正[!UICONTROL 排程報表]產生器停滯於已排入佇列狀態的問題。(AN-215317)
-* 修正 [!UICONTROL ExactTarget Data Connector]。(AN-210794)
-* 修正[!UICONTROL 大量擷取 API] 的延遲問題。(AN-210165)
-* 修正使用者無法使用 Federated ID 登入 [!UICONTROL Report Builder] 的問題。(AN-207750)
-* 修正 [!UICONTROL Advertising Analytics] 中導致 [!DNL Google AdWords] 資料無法顯示的問題。(AN-213249)
-* 修正記錄中無法顯示[!UICONTROL 「已檢視 Workspace 專案」]事件的問題。(AN-214134)
-* 修正在變更 [!UICONTROL Workspace] 的日期範圍及選取&#x200B;**[!UICONTROL 「套用至所有面板」]**&#x200B;時所發生的問題。某些面板中的日期並未變更。(AN-214944)
-* 修正無法建立或編輯警報的問題。(AN-215920)
-* 修正 [!UICONTROL Workspace] 中所有動態日期範圍因一週的第一天偶爾會從星期一切換為星期日，而導致顯示錯誤日期的問題。(AN-218835)
+* 修正造成具有多位元組搜尋的特定報表套裝的區段無法比對的問題。 現在它們會符合正確的字串。 AN-220043
+* 修正「報告與分析」中的「項目篩選」無法運作的問題。 AN-206132
+* 修正「排程專案UI」的回應速度緩慢。 AN-214837
+* 修正Analytics Reporting API 2.0造成日期範圍錯誤的問題。 AN-215087
+* 已修正此情況：例項／瀏覽／訪客未計入「逗留時間」度量的分母。 如果點擊的維度（例如頁面名稱）沒有值，則會發生此情況，且點擊的秒數相同。 AN-211074
+* 修正使用者無法存取與他們共用之工作區專案的問題。 AN-217561
+* 修正索引鍵未由分類規則產生器分類的問題。 AN-221538
+* 修正「伺服器呼叫使用狀況」未報告任何使用狀況資料的問題。 AN-210452
+* 修正已發佈Adobe Analytics區段在AAM中遺失資料的問題。 AN-220208、AN-220659
+* 修正報告顯示資料但「資料饋送」記錄顯示「無資料倉庫資料」的問題。 AN-220784、AN-220858
+* 修正無法從網域啟動臨機分析的 `experiencecloud.com` 問題。 AN-219680、AN-221629
+* 已修正使用「Ctrl（或Command）+ C」快速鍵的問題。 AN-221101、AN-221537
+* 已修正啟用Activity Map頁面的問題。 AN-222029、AN-221242
+* 修正無法在「流失」視覺化中新增觸點的問題。 AN-221648
 
 #### 其他 Adobe Analytics 修正項目
 
-AN-101871、AN-115525、AN-123869、AN-152580、AN-160480、AN-178128、AN-186907、AN-199299、AN-201342、AN-201397、AN-204286、AN-204518、AN-206045、AN-206948、AN-208607、AN-209486、AN-210743、AN-211550、AN-211539、AN-211826、AN-211943、AN-212130、AN-212151、AN-212653、AN-212673、AN-212709、AN-212833、AN-212961、AN-212977、AN-213095、AN-213422、AN-213450、AN-213490、AN-213752、AN-213827、AN-214094、AN-214153、AN-214214、AN-214234、AN-214253、AN-214255、AN-214343、AN-214355、AN-214401、AN-214427、AN-214528、AN-214642、AN-214691、AN-214772、AN-214793、AN-214924、AN-215017、AN-215080、AN-215212、AN-215312、AN-215377、AN-215402、AN-215545、AN-215905、AN-215963、AN-216447、AN-216676、AN-216880、AN-216999、AN-217245、AN-218450、AN-218899、AN-219487、AN-219677
+AN-218269; AN-218455; AN-218492; AN-219888; AN-220447; AN-220546; AN-220788; AN-220866; AN-221165; AN-221545; AN-221712; AN-221832; AN-221853; AN-222000; AN-222505; AN-222559
 
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 移轉至統一的產品網域 | 生效日期：2020 年 5 月 28 日 | 從 2020 年 1 月開始，Adobe Analytics 就開始移轉至統一的產品網域，相關作業已於 2020 年 5 月 28 日完成。雖然 Adobe Analytics 已著手從架構中移除所有`omniture.com`網域參考，但請務必將其放入協力廠商 Cookie 白名單`omniture.com`。完整架構即將移轉完成，作業完成後，我們會透過發行說明通知您，到時您就不需再執行此白名單步驟。請參閱這份 IP 位址和網域[完整清單](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)，將各位址和網域列入白名單。<br>如果貴組織封鎖第三方 Cookie，請連絡客戶服務人員，以重新取得 Adobe Analytics 的存取權限。 |
-| 全新 Adobe Analytics 預設登陸頁面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日起，Adobe Analytics 的預設登陸頁面將從[!UICONTROL 報告]變更為[!UICONTROL 工作區]。未設定自訂登陸頁面的使用者，將一律適用此變更。 |
-| 協力廠商技術白名單 | 生效日期：2020 年 3 月 12 日 | Adobe Analytics 已開始運用協力廠商技術進行功能推出管理和產品內支援。應將下列 URL 新增至任何必要的網路防火牆白名單，確保完整功能存取權限：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
-| 改善 Analysis Workspace 可用性的備援 | 2020 年 5 月 21 日 | 為確保 Analysis Workspace 的可用性，我們新增次要 CDN (內容傳遞網路) 以改善備援。應將下列 URL 新增至任何必要的網路防火牆白名單：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
-| 變更 [!UICONTROL Workspace] 計算[!UICONTROL 輸入/結束]次數的方式 | 2020 年 4 月 7 日 | 自 2020 年 3 月起，[!UICONTROL Analysis Workspace] 已變更&#x200B;_「無」_&#x200B;值與[!UICONTROL 輸入/結束]動作的互動方式。由於您現在可以在 [!UICONTROL Analysis Workspace] 中開啟或關閉&#x200B;_「無」_，因此我們會在使用者輸入或結束後套用&#x200B;_「無」_，但 (eVars) 以往都是在輸入或結束之前就先套用。例如，假設造訪事件的第一次點擊未輸入 eVars 的值，但第二次點擊則有輸入。在 [!UICONTROL Reports &amp; Analytics] 中，第一次點擊的輸入會顯示為&#x200B;_「未指定」_，但在 [!UICONTROL Analysis Workspace] 中則會顯示第二次點擊的值。 |
-| **[!UICONTROL 「轉換級別」]**&#x200B;設定確定汰除 | 2020 年 3 月 3 日 | **[!UICONTROL 「管理工具]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 一般帳戶設定」]**&#x200B;中的[「轉換級別」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/general-acct-settings-admin.html)設定早已停止作用，預計於 2020 年 3 月 12 日從介面中移除。 |
-| **[!UICONTROL 控制面板封存]**&#x200B;確定汰除 | 2020 年 3 月 27 日 | 自 2020 年 10 月起，[!UICONTROL Reports &amp; Analytics] 中&#x200B;**[!UICONTROL 「管理控制面板」]**&#x200B;底下的&#x200B;**[!UICONTROL 「檢視封存」]**&#x200B;設定將不再提供使用。 |
-| 終止支援 TLS 1.1 | 2019 年 10 月 3 日 | 到了 2020 年 3 月 31 日時，Adobe Analytics 將會移除對於 TLS 1.1 的支援。此變更是我們為了保持最高安全標準並提升客戶資料安全性而不斷努力的其中一項成果。 |
-| 新的 Adobe Analytics 網域 | 2019 年 12 月 18 日 | 自 2020 年 1 月 16 日起，Adobe Analytics 開始移動至新網域 - `https://experience.adobe.com/analytics.`<br>**注意：**凡是使用 Adobe ID 或 Enterprise ID 存取 Analytics 的所有使用者，均適用這項變更。<ul><li>這項網路異動可能會在 Safari 中載入 Analytics 時造成 Cookie 問題。在 「隱私權偏好設定」中取消選取&#x200B;_「防止跨網站追蹤」_，即可在各網域 (以及所有跨網站體驗) 啟用 Cookie，並允許 Analytics 在這個新的 Adobe Experience Cloud 網域中運作。[!DNL Safari]只有 [!DNL Safari] 使用者會受此問題影響，使用其他瀏覽器不會發生問題。</li><li>網域變更可能會導致 [!UICONTROL Activity Map] 在[部分特定情況下](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/activity-map/activity-map.html)停止運作。</li></ul> |
-| 終止服務 - Analytics Legacy API | 2020 年 1 月 9 日 | 自 2020 年 11 月起，下列 Analytics Legacy API 服務將終止並關閉。透過這些服務建立的整合應用將會停止運作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy Oauth 驗證 (Oauth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問答集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy Oauth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
-| San Jose FTP Broker 結束倫敦和新加坡的業務 | 2020 年 7 月 | 若為倫敦和新加坡的客戶，我們將不再於倫敦或新加坡與聖荷西資料中心 [ftp.omniture.com](ftp://ftp.omniture.com/) 之間支援資料代理。<br/><ul><li>如果您是在倫敦，請使用 [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>如果您是在新加坡，請使用 [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
-| 終止 Ad Hoc Analysis 服務 | 2018 年 8 月 6 日 | Adobe 已宣佈有意終止 Ad Hoc Analysis 服務。我們將會在確定後公佈服務終止日期。如需詳細資訊，請造訪[探索 Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
+| 移轉至統一的產品網域 | 生效日期：2020 年 5 月 28 日 | 從 2020 年 1 月開始，Adobe Analytics 就開始移轉至統一的產品網域，相關作業已於 2020 年 5 月 28 日完成。While Adobe Analytics works to remove all `omniture.com` domain references from its architecture, it is important to allowlist `omniture.com` as a third-party cookie. 完整架構即將移轉完成，作業完成後，我們會透過發行說明通知您，到時您就不需再執行此白名單步驟。[以下](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html) 是建議IP位址和網域的完整清單，您應允許列出這些位址和網域。<br>如果貴組織封鎖第三方 Cookie，請連絡客戶服務人員，以重新取得 Adobe Analytics 的存取權限。 |
+如果貴組織封鎖第三方 Cookie，請連絡客戶服務人員，以重新取得 Adobe Analytics 的存取權限。|新Adobe Analytics預設登陸頁面|生效日期： 2020年6月18日| 2020年6月18日，Adobe Analytics的預設著陸頁面將從「報表」變更為「工作區」。 未設定自訂登陸頁面的使用者，將一律適用此變更。|
+|協力廠商技術allowlist|2020年3月12日（生效日期）|Adobe Analytics已開始運用協力廠商技術進行功能推出管理和產品內支援。 應將下列URL新增至任何必要的網路防火牆允許清單，以確保完整功能存取：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul>|
+|分析工作區可用性的增強備援| 2020年5月21日|為確保分析工作區的可用性，我們新增次要CDN（內容傳送網路）以改善備援性。 應將下列 URL 新增至任何必要的網路防火牆白名單：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul>|
+從2020年3月20日起，我們對  Jornes Journes/Exits與JornesJornesJornes的關係進行了變更。在2020年4月7日的 [!UICONTROL Workspace]Analysis Prores中， __Jonenes與Jornenesonenesones的關係的關係發生了變化。 由於您現在可以在 [!UICONTROL Analysis Workspace] 中開啟或關閉&#x200B;_「無」_，因此我們會在使用者輸入或結束後套用&#x200B;_「無」_，但 (eVars) 以往都是在輸入或結束之前就先套用。例如，假設造訪事件的第一次點擊未輸入 eVars 的值，但第二次點擊則有輸入。在 [!UICONTROL Reports &amp; Analytics] 中，第一次點擊的輸入會顯示為&#x200B;_「未指定」_，但在 [!UICONTROL Analysis Workspace] 中則會顯示第二次點擊的值。|
+|EOL of **[!UICONTROL Dashboard Archive]**|March 27, 2020|The **[!UICONTROL View Archive]** setting under **[!UICONTROL Manage Dashboards]** in [!UICONTROL Reports &amp; Analytics] will no longer be available as of October, 2020.|
+|生命週期結束- Analytics舊版API|2020年1月9日|2020年11月，下列Analytics舊版API服務將到期並關閉。 透過這些服務建立的整合應用將會停止運作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy Oauth 驗證 (Oauth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問答集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy Oauth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。|
+San Jose FTP Broker Ending for London and Singapore|2020年7月|對於倫敦和新加坡的客戶，我們將不再支援在倫敦或新加坡與San Jose資料中心 [ftp.omniture.com之間進行資料中介](ftp://ftp.omniture.com/)。<br/><ul><li>如果您是在倫敦，請使用 [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>如果您是在新加坡，請使用 [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul>|
+|臨機分析的EOL|2018年8月6日|Adobe宣佈打算終止臨機分析。 我們將會在確定後公佈服務終止日期。如需詳細資訊，請造訪[探索 Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。|
 
 ### [!DNL AppMeasurement] {#appm}
 
