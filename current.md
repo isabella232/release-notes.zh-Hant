@@ -157,7 +157,7 @@ Anomaly det. support in CJA - June 18; Project Sharing Roles - June 18; Blank pa
 | [!UICONTROL 大量資料插入] API | 2020 年 5 月 31 日 | 讓您輕鬆獨立擷取多批次 Analytics 資料。對處理伺服器端和離線資料相當實用。[更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | 適用於 [!UICONTROL Adobe Experience Platform Edge Network] 的 Adobe Analytics 支援 | 2020 年 5 月 31 日 | 可讓您使用單一標記將資料傳送至多個 Adobe 解決方案，例如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服務。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/experience-platform/edge/solutions/analytics/analytics-overview.html) |
 | [!UICONTROL Adobe Analytics 儀表板] | 2020 年 5 月 21 日 | [!UICONTROL Adobe Analytics 儀表板]是一款行動應用程式，可讓使用者隨時隨地存取 Adobe Analytics 的深入分析。此應用程式適合需要隨處存取關鍵量度的高階管理者。這能讓您存取精心設計的互動式計分卡，且在 iOS 和 Android 作業系統上都能使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html) |
-| [!UICONTROL Workspace][!UICONTROL ：從空白狀態自動建立自由表格] | [2020 年 5 月 21 日 | 過去，您必須先新增[!UICONTROL 自由表格]，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立[!UICONTROL 自由表格]。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
+| [!UICONTROL 工作區]：從空白狀態自動建立[!UICONTROL 自由表格] | [2020 年 5 月 21 日 | 過去，您必須先新增[!UICONTROL 自由表格]，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立[!UICONTROL 自由表格]。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
 | [!UICONTROL 「功能存取層級」]頁面新增 [!UICONTROL Adobe Analytics Package] | 2020 年 5 月 21 日 | 您現在可以在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 功能存取層級」]**&#x200B;中，檢視您公司有權使用的 [!UICONTROL Adobe Analytics Package] (SKU)。 |
 | 改善協助工具 | 2020 年 5 月 21 日 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
@@ -168,7 +168,7 @@ Anomaly det. support in CJA - June 18; Project Sharing Roles - June 18; Blank pa
 | [!UICONTROL Workspace] 中的[!UICONTROL 「快速深入分析」]面板 | 2020 年 6 月 25 日 | [!UICONTROL 「快速深入分析」]為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 | [!UICONTROL Customer Journey Analytics]：全域可用性 | 2020 年 5 月 21 日 | 使 EMEA 和 APAC 的客戶得以使用 [!UICONTROL Customer Journey Analytics]。 |
 | [!UICONTROL Customer Journey Analytics]：支援 [!UICONTROL Adobe Experience Platform 沙箱] | 2020 年 5 月 21 日 | 允許選取特定的 [!UICONTROL Adobe Experience Platform 沙箱]，以便建立 CJA 連線。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html) |
-| [!UICONTROL Workspace][!UICONTROL ：從空白狀態自動建立自由表格] | [2020 年 5 月 21 日 | 過去，您必須先新增[!UICONTROL 自由表格]，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立[!UICONTROL 自由表格]。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
+| [!UICONTROL 工作區]：從空白狀態自動建立[!UICONTROL 自由表格] | [2020 年 5 月 21 日 | 過去，您必須先新增[!UICONTROL 自由表格]，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立[!UICONTROL 自由表格]。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
 | 改善協助工具 | 2020 年 5 月 21 日 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 #### [!UICONTROL Media Analytics] 的新功能{#media-aa}
@@ -208,7 +208,7 @@ Anomaly det. support in CJA - June 18; Project Sharing Roles - June 18; Blank pa
 * 修正 FTP 連線問題。(AN-115525)
 * 修正多項 [!DNL Analytics] [!UICONTROL 資料摘要]問題。(AN-176769、AN-160480、AN-211923、AN-204286、AN-212977、AN-214528、AN-215080、AN-217784、AN-219093、AN-218817、AN-217798、AN-218267、AN-218382)
 * 修正 [!UICONTROL Data Warehouse] 要求的問題。(AN-181836)
-* 修正在 PDF 下載的 [!UICONTROL Workspace] 專案中，值會轉換為特殊字元的問題。(AN-196153)
+* 修正在 PDF 下載的 [!UICONTROL 工作區] 專案中，值會轉換為特殊字元的問題。(AN-196153)
 * 修正無法在 [!UICONTROL Admin Console] 中複製[!UICONTROL 「產品設定檔」]權限的問題。(AN-211113)
 * 修正計算量度中時間格式會因負值而損壞的問題。(AN-210900)
 * 修正使用者無法對靜態列量度變更[!UICONTROL 歸因模型]的問題。(AN-207872)
@@ -218,9 +218,9 @@ Anomaly det. support in CJA - June 18; Project Sharing Roles - June 18; Blank pa
 * 修正使用者無法使用 Federated ID 登入 [!UICONTROL Report Builder] 的問題。(AN-207750)
 * 修正 [!UICONTROL Advertising Analytics] 中導致 [!DNL Google AdWords] 資料無法顯示的問題。(AN-213249)
 * 修正記錄中無法顯示[!UICONTROL 「已檢視 Workspace 專案」]事件的問題。(AN-214134)
-* 修正在變更 [!UICONTROL Workspace] 的日期範圍及選取&#x200B;**[!UICONTROL 「套用至所有面板」]**&#x200B;時所發生的問題。某些面板中的日期並未變更。(AN-214944)
+* 修正在變更 [!UICONTROL 工作區] 的日期範圍及選取&#x200B;**[!UICONTROL 「套用至所有面板」]**&#x200B;時所發生的問題。某些面板中的日期並未變更。(AN-214944)
 * 修正無法建立或編輯警報的問題。(AN-215920)
-* 修正 [!UICONTROL Workspace] 中所有動態日期範圍因一週的第一天偶爾會從星期一切換為星期日，而導致顯示錯誤日期的問題。(AN-218835)
+* 修正 [!UICONTROL 工作區] 中所有動態日期範圍因一週的第一天偶爾會從星期一切換為星期日，而導致顯示錯誤日期的問題。(AN-218835)
 
 #### 其他 Adobe Analytics 修正項目
 
@@ -254,7 +254,7 @@ AN-101871、AN-115525、AN-123869、AN-152580、AN-160480、AN-178128、AN-18690
 | [Analysis Workspace 培訓教學課程範本](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/training-tutorial-template-in-analysis-workspace.html) | [!UICONTROL Analysis Workspace] 培訓教學課程會逐步引導您了解在 [!UICONTROL Workspace] 中建立第一個專案的常用術語和步驟。 |
 | [新增前一個月和前一年的趨勢比較](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/adding-prior-month-and-year-comparisons-to-trends.html) | 了解如何套用自訂日期範圍，以針對 [!UICONTROL Analysis Workspace] 中的任何量度建立每月和每年的趨勢比較。 |
 | [Analysis Workspace 深色模式擴充功能](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/dark-mode-extension-for-analysis-workspace.html) | 啟用 Dark Reader Chrome 擴充功能，將 Analysis Workspace 變暗。 |
-| [定義自訂調色盤的色彩滴管擴充功能](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/color-eyedropper-extension-for-defining-custom-palettes.html) | 了解如何使用 ColorPick EyeDropper Chrome 擴充功能，輕鬆找出您在 [!UICONTROL Workspace] 專案中自訂調色盤所需的十六進位值。 |
+| [定義自訂調色盤的色彩滴管擴充功能](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/color-eyedropper-extension-for-defining-custom-palettes.html) | 了解如何使用 ColorPick EyeDropper Chrome 擴充功能，輕鬆找出您在 [!UICONTROL 工作區] 專案中自訂調色盤所需的十六進位值。 |
 
 #### Analytics 說明資源
 
