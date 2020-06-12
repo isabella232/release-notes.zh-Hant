@@ -4,9 +4,9 @@ description: Experience Cloud 發行說明範本
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1afcf2185512cf05aa2fd7444c5835186681432e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5640'
 ht-degree: 100%
 
