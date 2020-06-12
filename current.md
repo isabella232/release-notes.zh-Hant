@@ -152,7 +152,7 @@ Anomaly det. support in CJA - June 18; Project Sharing Roles - June 18; Blank pa
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ------------ | ---------- |
-| [!UICONTROL Workspace] 中的[!UICONTROL 「Analytics for Target」]面板 | 2020 年 6 月 25 日 | [!UICONTROL 「Analytics for Target」](A4T) 面板可讓您在 [!UICONTROL Analysis Workspace 中分析 Adobe Target 活動和體驗。] [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| [!UICONTROL Workspace] 中的[!UICONTROL 「Analytics for Target」]面板 | 2020 年 6 月 25 日 | [!UICONTROL 「Analytics for Target」] (A4T) 面板可讓您在 [!UICONTROL Analysis Workspace 中分析 Adobe Target 活動和體驗。] [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
 | [!UICONTROL Workspace] 中的[!UICONTROL 「快速深入分析」]面板 | 2020 年 6 月 25 日 | [!UICONTROL 「快速深入分析」]為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 | [!UICONTROL 大量資料插入] API | 2020 年 5 月 31 日 | 讓您輕鬆獨立擷取多批次 Analytics 資料。對處理伺服器端和離線資料相當實用。[更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | 適用於 [!UICONTROL Adobe Experience Platform Edge Network] 的 Adobe Analytics 支援 | 2020 年 5 月 31 日 | 可讓您使用單一標記將資料傳送至多個 Adobe 解決方案，例如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服務。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/experience-platform/edge/solutions/analytics/analytics-overview.html) |
