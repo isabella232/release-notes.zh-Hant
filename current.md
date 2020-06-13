@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e239cc0afb9ebde272f37fa0181b1454412ac2ae
+source-git-commit: dd357da4e362c01ab350891b1082020c90eb77fe
 workflow-type: tm+mt
-source-wordcount: '6520'
+source-wordcount: '6522'
 ht-degree: 37%
 
 ---
@@ -366,7 +366,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * **移轉至AEM做為雲端服務**
 
-   [以雲端服務的形式移轉至AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) ，說明現有AEM客戶移轉至雲端服務的建議轉換歷程。 本說明檔案的目標是提供客戶資訊、指引和最佳實務，協助他們為此次轉型做好準備，並讓這一歷程有條不紊且可預測。
+   [以雲端服務的形式移轉至AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) ，說明現有AEM客戶移轉至雲端服務的建議轉換歷程。 本說明檔案的目標是提供客戶資訊、指引和最佳實務，協助他們為此轉變做好準備，並讓這一歷程有條理且可預測。
 
    其中一個雲端轉換工具——內容傳輸工具已發行。 [內容傳輸工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) (Content Transfer Tool)由Adobe開發，可用來將現有內容從來源AEM例項（內部部署或AMS）移至目標AEM Cloud服務例項。
 
@@ -406,7 +406,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 | [AEM Web Console元件](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | 教學影片 | 瞭解如何使用「元件」網頁主控台，將AEM除錯為Cloud Service SDK的本機快速入門。 |
 | [使用記錄檔除錯AEM SDK的本機快速入門](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教學影片 | 瞭解如何使用Bundles網頁主控台，將AEM除錯為Cloud Service SDK的本機快速入門。 |
 | [遠端除錯AEM作為Cloud Service SDK的本機快速入門](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/remote-debugging.html) | 教學影片 | 從IDE瞭解遠端Java除錯，讓您逐步執行AEM中的即時程式碼執行，以瞭解確切的執行流程。 |
-| [智慧型標籤設定](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | 使用Adobe I/O將Adobe Experience Manager(AEM)與智慧型內容服務整合的逐步指示。 |
+| [智慧型標籤設定](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | 教學影片 | 使用Adobe I/O將Adobe Experience Manager(AEM)與智慧型內容服務整合的逐步指示。 |
 | [批次產生檔案](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/interactive-communications/batch-generation-interactive-communications.html) | 文章 | 瞭解如何使用批次API從範本產生多種互動式通訊。 |
 | [在AEM Forms中建立列印渠道檔案](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html) | 文章 | 瞭解建立適用於列印頻道的互動式通訊所需的步驟。 |
 | [存取Adobe Asset Link](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/launch-adobe-asset-link.html) | 教學影片 | 瞭解如何存取儲存在Adobe Experience Manager Assets(AEM Assets)中的內容，而不需離開您最熟悉的Creative Cloud案頭應用程式。 |
