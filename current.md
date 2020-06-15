@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: dd357da4e362c01ab350891b1082020c90eb77fe
 workflow-type: tm+mt
 source-wordcount: '6522'
-ht-degree: 37%
+ht-degree: 43%
 
 ---
 
@@ -79,7 +79,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 * 新應用程式 URL：`experience.adobe.com/<application name>`：
    * 所有產品最終都會採用此 URL 模式。尋找新的 URL，使效期能持續一整個月。
-   * 瀏覽器支援：支援的瀏覽器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera] (最新版本)。**注意：** 雖然Experience Cloud介面支援這些瀏覽器，但個別應用程式可能不支援每個瀏覽器。 (例如 [Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.translate.html) 不支援 [!DNL Opera]，[Target](https://docs.adobe.com/help/zh-Hant/target/using/implement-target/before-implement/supported-browsers.translate.html) 不支援 [!DNL Safari])。
+   * 瀏覽器支援：支援的瀏覽器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera] (最新版本)。**注意：** 雖然Experience Cloud介面支援這些瀏覽器，但個別應用程式可能不支援每個瀏覽器。 (例如 [Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.html) 不支援 [!DNL Opera]，[Target](https://docs.adobe.com/help/zh-Hant/target/using/implement-target/before-implement/supported-browsers.html) 不支援 [!DNL Safari])。
    * (僅限 [!DNL Safari]) 網域變更可能導致 [!DNL Safari] 發生 Cookie 問題。在 [!DNL Safari] 的「隱私權偏好設定」中取消選取&#x200B;_「防止跨網站追蹤」_，即可在各網域 (以及所有跨網站體驗) 啟用 Cookie，並允許 Experience Cloud 在這個新的網域中運作。
 * 在不同組織或應用程式之間更輕鬆地切換。
 * 改良產品說明：[!UICONTROL Experience League] 已整合至產品中，因此搜尋說明內容時，搜尋範圍會包含社群論壇和影片內容。這項變更可讓您輕鬆存取更多內容，協助您充份運用 Experience Cloud。此外，按一下&#x200B;**[!UICONTROL 「說明]** > **[!UICONTROL 意見回饋」]**&#x200B;即可回報問題，或與 Adobe 分享您的想法。
@@ -169,13 +169,13 @@ Updated **June 10, 2020**
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-------|
-| 歸因IQ: [!UICONTROL 演算法歸因] | 2020 年 6 月 18 日 | 分析 [!UICONTROL 工作區中的演算法歸因] (Algorithm Attribution [!UICONTROL model)] 使用統計技術動態決定所選量度的評分最佳配置。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 歸因IQ: 自訂回顧視窗 | 2020 年 6 月 18 日 | 您現在可以在 [!UICONTROL Attribution IQ中設定任何歸因模型] ，以納入最多90天前的觸點。 這通常會計算上個月的互動，以提高報告期間早期發生事件的歸因準確度。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| 共用工作區專案的 [!UICONTROL 專案角色] 。 | 2020 年 6 月 18 日 | 共用工 [!UICONTROL 作區專案時] ，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於三個專案角色中的其中一個角色： 編輯、複製和檢視。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 僅限檢視的工 [!UICONTROL 作區專案] | 2020 年 6 月 18 日 | [!UICONTROL 工作區] 專案可共用給使用者，如 _[!UICONTROL 「僅限檢視]_」。 當「檢視」收件者開啟共用專案時，他們會收到限制較嚴格的專案體驗，而且沒有左側導軌和有限的互動。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 可共同編輯工作區 [!UICONTROL 專案] | 2020 年 6 月 18 日 | 新增至「可編 _[!UICONTROL 輯」角色的收件者]_，可儲存已共用給他們的專案。 這可擴及管理員和非管理員。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 更新工作區中的「空白」面 [!UICONTROL 板] | 2020 年 6 月 18 日 | 工作區中的「 [!UICONTROL 空白] 」面板現在包含面板和視覺化，讓您更順暢地挑選最適合您的分析工作流程。 |
-| 中國RDC提供的第一方網域 | 2020 年 6 月 18 日 | 讓具有網域 `.cn` 的客戶可要求第一方網域，以便在中國大陸境內使用。 （購買「中國效能最佳化SKU」時提供的檔案）。 |
+| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020 年 6 月 18 日 | Analysis Workspace 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| Project roles for shared [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| View-only [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | [!UICONTROL 工作區] 專案可共用給使用者，如 _[!UICONTROL 「僅限檢視]_」。 當「檢視」收件者開啟共用專案時，他們會收到限制較嚴格的專案體驗，而且沒有左側導軌和有限的互動。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Ability to co-edit [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them. 無論管理員或非管理人員均可適用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Updated Blank panel in [!UICONTROL Workspace] | 2020 年 6 月 18 日 | The Blank panel in [!UICONTROL Workspace] now includes panels and visualizations, giving you a more seamless way to pick the analysis workflow that works best for you. |
+| 中國 RDC 允許使用的第一方網域 | 2020 年 6 月 18 日 | 讓擁有 `.cn` 網域的客戶可請求第一方網域，以便在中國大陸境內使用（購買「中國效能最佳化SKU」時提供的檔案）。 |
 | [!UICONTROL Workspace] 中的「快速深入分析」面板 | 2020 年 6 月 25 日 | 「快速深入分析」為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 | [!UICONTROL Workspace] 中的[!UICONTROL 「Analytics for Target」]面板 | 2020 年 6 月 25 日 | The [!UICONTROL Analytics for Target] (A4T) panel lets you analyze your Adobe Target activities and experiences in [!UICONTROL Analysis Workspace]. [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
 
@@ -183,12 +183,12 @@ Updated **June 10, 2020**
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-----|
-| 歸因IQ: [!UICONTROL 演算法歸因] | 2020 年 6 月 18 日 | 分析 [!UICONTROL 工作區中的演算法歸因] (Algorithm Attribution [!UICONTROL model)] 使用統計技術動態決定所選量度的評分最佳配置。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 歸因IQ: 自訂回顧視窗 | 2020 年 6 月 18 日 | 您現在可以在 [!UICONTROL Attribution IQ中設定任何歸因模型] ，以納入最多90天前的觸點。 這通常會計算上個月的互動，以提高報告期間早期發生事件的歸因準確度。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| 異常偵 [!UICONTROL 測支援] | 2020 年 6 月 18 日 | [!UICONTROL 異常偵測] (Anomaly Detection)提供統計方法，以判斷指定量度與先前資料的變更方式。 [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
-| 共用工作區專案的 [!UICONTROL 專案角色] 。 | 2020 年 6 月 18 日 | 共用工 [!UICONTROL 作區專案時] ，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於三個專案角色中的其中一個角色： 編輯、複製和檢視。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 僅限檢視的工 [!UICONTROL 作區專案] | 2020 年 6 月 18 日 | [!UICONTROL 工作區] 專案可共用給使用者，如 _[!UICONTROL 「僅限檢視]_」。 當「檢視」收件者開啟共用專案時，他們會收到限制較嚴格的專案體驗，而且沒有左側導軌和有限的互動。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 可共同編輯工作區 [!UICONTROL 專案] | 2020 年 6 月 18 日 | 新增至「可編 _[!UICONTROL 輯」角色的收件者]_，可儲存已共用給他們的專案。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020 年 6 月 18 日 | Analysis Workspace 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| Support for [!UICONTROL Anomaly Detection] | 2020 年 6 月 18 日 | [!UICONTROL 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。][更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| Project roles for shared [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| View-only [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | [!UICONTROL 工作區] 專案可共用給使用者，如 _[!UICONTROL 「僅限檢視]_」。 當「檢視」收件者開啟共用專案時，他們會收到限制較嚴格的專案體驗，而且沒有左側導軌和有限的互動。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Ability to co-edit [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them.[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | [!UICONTROL Workspace] 中的「快速深入分析」面板 | 2020 年 6 月 25 日 | 「快速深入分析」為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 
 ### [!UICONTROL Media Analytics] 的新功能{#media-aa}
@@ -207,38 +207,38 @@ Updated **June 10, 2020**
 
 ### Adobe Analytics中的修正 {#aa-fixes}
 
-* 修正造成具有多位元組搜尋的特定報表套裝的區段無法比對的問題。 現在它們會符合正確的字串。 (AN-220043)
-* 修正「報告與分析」 [!UICONTROL 中的「項目篩選] 」 [!UICONTROL 無法運作的問題] 。 (AN-206132)
-* 修正「排程專案」介面 [!UICONTROL 的回應速度] 慢。 (AN-214837)
-* 修正Analytics Reporting API 2.0造成日期範圍錯誤的問題。 (AN-215087)
-* Fixed a case in which the instance/visit/visitor wasn&#39;t being counted in the denominator for the [!UICONTROL Time Spent] metrics. 如果點擊的維度（例如頁面名稱）沒有值，則會發生此情況，且點擊的秒數相同。 (AN-211074)
-* 修正使用者無法存取與他們共用之 [!UICONTROL Workspace] 專案的問題。 (AN-217561)
-* 修正索引鍵未由分類規則產生 [!UICONTROL 器分類的問題]。 (AN-221538)
-* 修正「伺服器呼叫使 [!UICONTROL 用情況」未報告任何使用狀況] 資料的問題。 (AN-210452)
+* 修正特定報表套裝中，具多位元組搜尋條件的區段找不到任何相符項目的問題。現在，這類區段已能找到正確的相符字串。(AN-220043)
+* Fixed an issue with the [!UICONTROL Item Filter] in [!UICONTROL Reports &amp; Analytics] not working. (AN-206132)
+* Fixed slow response time in [!UICONTROL Scheduled Projects] interface. (AN-214837)
+* 修正 Analytics 報表 API 2.0 所造成日期範圍錯誤的問題。(AN-215087)
+* Fixed a case in which the instance/visit/visitor wasn&#39;t being counted in the denominator for the [!UICONTROL Time Spent] metrics. 同一秒內的後續點擊沒有維度值 (例如 Pagename) 時，就會發生此現象。(AN-211074)
+* Fixed an issue with users unable to access [!UICONTROL Workspace] projects shared with them. (AN-217561)
+* Fixed issue with keys not being classified by [!UICONTROL Classification Rule Builder]. (AN-221538)
+* Fixed an issue with the [!UICONTROL Server Call Usage] not reporting any usage data. (AN-210452)
 * 已修正已發佈的Adobe Analytics區段在Audience Manager中遺失資料的問題。 (AN-220208、AN-220659)
-* 修正報告顯示資料但「資料饋送」記 [!UICONTROL 錄顯示「無資料倉庫資料] 」的問題。 (AN-220784、AN-220858)
-* 修正無法從網域啟 [!UICONTROL 動臨機分析] 的 `experiencecloud.com` 問題。 (AN-219680、AN-221629)
-* 已修正使用「Ctrl（或Command）+ C」快速鍵的問題。 (AN-221101、AN-221537)
-* 已修正啟用 [!UICONTROL Activity Map頁面的問] 題。 (AN-222029、AN-221242)
-* 修正無法在流失視覺化中新增觸點的 [!UICONTROL 問題] 。 (AN-221648)
+* Fixed an issue with reports showing data but [!UICONTROL Data Feeds] logs saying &quot;No Data Warehouse data&quot;. (AN-220784、AN-220858)
+* Fixed issues that prevented the launch of [!UICONTROL Ad Hoc Analysis] from the `experiencecloud.com` domain. (AN-219680、AN-221629)
+* 修正使用「Ctrl (或 Command) + C」快速鍵時發生的問題。(AN-221101、AN-221537)
+* Fixed an issue with the [!UICONTROL Activity Map] enablement page. (AN-222029、AN-221242)
+* Fixed an issue with not being able to add a touch-point in the middle of a [!UICONTROL Fallout] visualization. (AN-221648)
 
 #### 其他 Adobe Analytics 修正項目
 
-AN-218269; AN-218455; AN-218492; AN-219888; AN-220447; AN-220546; AN-220788; AN-220866; AN-221165; AN-221545; AN-221712; AN-221832; AN-221853; AN-222000; AN-222505; AN-222559
+AN-218269；AN-218455；AN-218492；AN-219888；AN-220447；AN-220546；AN-220788；AN-220866；AN-221165；AN-221545；AN-221712；AN-221832；AN-221853；AN-222000；AN-222505；AN-222559
 
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 移轉至統一的產品網域 | 生效日期：2020 年 5 月 28 日 | 從 2020 年 1 月開始，Adobe Analytics 就開始移轉至統一的產品網域，相關作業已於 2020 年 5 月 28 日完成。While Adobe Analytics works to remove all `omniture.com` domain references from its architecture, it is important to allowlist (formerly, allowlist) `omniture.com` as a third-party cookie. 當完成完整架構移轉時，我們將透過發行說明通知您，不再需要此allowlist步驟。 [以下](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html) 是建議IP位址和網域的完整清單，您應允許列出這些位址和網域。<br>如果貴組織封鎖第三方 Cookie，請連絡客戶服務人員，以重新取得 Adobe Analytics 的存取權限。 |
+| 移轉至統一的產品網域 | 生效日期：2020 年 5 月 28 日 | 從 2020 年 1 月開始，Adobe Analytics 就開始移轉至統一的產品網域，相關作業已於 2020 年 5 月 28 日完成。While Adobe Analytics works to remove all `omniture.com` domain references from its architecture, it is important to allowlist (formerly, allowlist) `omniture.com` as a third-party cookie. 當完成完整架構移轉時，我們將透過發行說明通知您，不再需要此allowlist步驟。 請參閱這份建議 IP 位址和網域的[完整清單](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)，這些位址和網域均應列入允許清單。<br>如果貴組織封鎖第三方 Cookie，請連絡客戶服務人員，以重新取得 Adobe Analytics 的存取權限。 |
 | 全新 Adobe Analytics 預設登陸頁面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日起，Adobe Analytics 的預設登陸頁面將從[!UICONTROL 報告]變更為[!UICONTROL 工作區]。未設定自訂登陸頁面的使用者，將一律適用此變更。 |
-| 協力廠商技術許可清單 | 2020 年 3 月 12 日 (生效日期) | Adobe Analytics 已開始運用協力廠商技術進行功能推出管理和產品內支援。應將下列URL新增至任何必要的網路防火牆允許清單，以確保完整功能存取：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
+| 協力廠商技術許可清單 | 2020 年 3 月 12 日 (生效日期) | Adobe Analytics 已開始運用協力廠商技術進行功能推出管理和產品內支援。下列 URL 應新增至任何必要的網路防火牆允許清單，確保完整的功能存取權限：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
 | Improved redundancy for [!UICONTROL Analysis Workspace] availability | 2020 年 5 月 21 日 | In order to ensure availability of [!UICONTROL Analysis Workspace], we are adding a secondary CDN (Content Delivery Network) for improved redundancy. 應將下列URL添加到任何必要的網路防火牆允許清單：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | 變更 [!UICONTROL Workspace] 計算[!UICONTROL 輸入/結束]次數的方式 | 2020 年 4 月 7 日 | 自 2020 年 3 月起，[!UICONTROL Analysis Workspace] 已變更&#x200B;_「無」_&#x200B;值與[!UICONTROL 輸入/結束]動作的互動方式。由於您現在可以在 [!UICONTROL Analysis Workspace] 中開啟或關閉&#x200B;_「無」_，因此我們會在使用者輸入或結束後套用&#x200B;_「無」_，但 (eVars) 以往都是在輸入或結束之前就先套用。例如，假設造訪事件的第一次點擊未輸入 eVars 的值，但第二次點擊則有輸入。在 [!UICONTROL Reports &amp; Analytics] 中，第一次點擊的輸入會顯示為&#x200B;_「未指定」_，但在 [!UICONTROL Analysis Workspace] 中則會顯示第二次點擊的值。 |
 | **[!UICONTROL 控制面板封存]**&#x200B;確定汰除 | 2020 年 3 月 27 日 | 自 2020 年 10 月起，[!UICONTROL Reports &amp; Analytics] 中&#x200B;**[!UICONTROL 「管理控制面板」]**&#x200B;底下的&#x200B;**[!UICONTROL 「檢視封存」]**&#x200B;設定將不再提供使用。 |
 | 終止服務 - Analytics Legacy API | 2020 年 1 月 9 日 | 自 2020 年 11 月起，下列 Analytics Legacy API 服務將終止並關閉。透過這些服務建立的整合應用將會停止運作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy Oauth 驗證 (Oauth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問答集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy Oauth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
 | San Jose FTP Broker 結束倫敦和新加坡的業務 | 2020 年 7 月 | 若為倫敦和新加坡的客戶，我們將不再於倫敦或新加坡與聖荷西資料中心 [ftp.omniture.com](ftp://ftp.omniture.com/) 之間支援資料代理。<br/><ul><li>如果您是在倫敦，請使用 [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>如果您是在新加坡，請使用 [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
-| 終止 Ad Hoc Analysis 服務 | 2018 年 8 月 6 日 | Adobe 已宣佈有意終止 Ad Hoc Analysis 服務。我們將會在確定後公佈服務終止日期。如需詳細資訊，請造訪[探索 Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
+| 終止 Ad Hoc Analysis 服務 | 2018 年 8 月 6 日 | Adobe 已宣佈有意終止 Ad Hoc Analysis 服務。我們將會在確定後公佈服務終止日期。如需詳細資訊，請造訪[探索工作區](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 
 #### 全新Analytics課程與教學課程 {#tutorials-analytics}
 
@@ -346,12 +346,10 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
       * Cloud Manager中增強的自助沙盒支援可讓有權使用的使用者刪除沙盒內的所有環境並接收點數。
       * 自動休眠沙盒環境會在閒置一段時間後自動「休眠」沙盒。 客戶可以主動觸發「去休眠」。
    * 支援雲端加速的轉換工具
-
    為了減少從現場服務過渡到雲服務的時間和成本，本月推出了兩種過渡工具。 這些工具旨在自動化過渡過程中的某些關鍵任務，從而減少整體工作量。 .
 
    1. [使用內容傳輸工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) （SD提供）可簡化內容傳輸活動，並讓其可擴充。 此工具提供使用者友好的UI，可讓轉換至AEM做為雲端服務的現有客戶和合作夥伴（在預備/AMS）自助服務。
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) （開放原始碼）工具，可自動將AMS Dispatcher組態轉換為Cloud Service Dispatcher組態。
-
    [AEM a Cloud Service 2020.6.0的發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    轉換工具：
@@ -366,7 +364,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * **移轉至AEM做為雲端服務**
 
-   [以雲端服務的形式移轉至AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) ，說明現有AEM客戶移轉至雲端服務的建議轉換歷程。 本說明檔案的目標是提供客戶資訊、指引和最佳實務，協助他們為此轉變做好準備，並讓這一歷程有條理且可預測。
+   [以雲端服務的形式移轉至AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) ，說明現有AEM客戶移轉至雲端服務的建議轉換歷程。 本說明檔案的目標是提供客戶資訊、指引和最佳實務，協助他們為此次轉型做好準備，並讓這一歷程有條不紊且可預測。
 
    其中一個雲端轉換工具——內容傳輸工具已發行。 [內容傳輸工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) (Content Transfer Tool)由Adobe開發，可用來將現有內容從來源AEM例項（內部部署或AMS）移至目標AEM Cloud服務例項。
 
@@ -466,7 +464,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 ### Campaign 說明資源
 
 * Adobe Campaign Standard：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) - [作法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-planning.html) - [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic：[說明中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign Classic：[說明中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html) - [作法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) - Campaign Standard / [Campaign Classic的使用說](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)[明影片](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![圖示](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
