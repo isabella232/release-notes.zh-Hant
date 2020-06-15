@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7f127b38a8c27f5e7a439d7130dd2577d987bf0d
+source-git-commit: d5f592e1e804a94619ccf3ce34a4a310867f9f70
 workflow-type: tm+mt
-source-wordcount: '6484'
+source-wordcount: '6487'
 ht-degree: 45%
 
 ---
@@ -140,13 +140,13 @@ Release notes for the [!DNL Experience Platform] and application services, inclu
 
 ### 最新版本
 
-第 2 季版本已發佈。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html)
+如需最新版本更新，請參閱 [Journey Orchestration版本注意事項](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html)
 
 ### 全新的歷程協調課程與教學課程 {#jo-tutorials}
 
 | 內容 | 內容類型 | 說明 |
 | -----------| ---------- | ---------- |
-| [管理員的歷程協調快速入門](https://experienceleague.adobe.com/?recommended=JourneyOrchestration-A-1-2020.2) | 課程 | 瞭解如何設定和使用Journey Orchestration。 本課程涵蓋重要概念，以及協調歷程所需的設定步驟。 瞭解如何建立、發佈，以及如何報告及分析您精心策劃的歷程。 |
+| [管理員的歷程協調快速入門](https://experienceleague.adobe.com/?recommended=JourneyOrchestration-A-1-2020.2) | 課程 | 瞭解如何設定和使用Journey Orchestration。 本課程涵蓋重要概念，以及協調歷程所需的設定步驟。 瞭解如何建立、發佈以及如何報告及分析您精心策劃的歷程。 |
 | [面向商業使用者的Journey Orchestration快速入門](https://experienceleague.corp.adobe.com/?recommended=JourneyOrchestration-U-1-2020.1) | 課程 | 瞭解如何設定和使用Journey Orchestration。 本課程涵蓋主要概念。 您將學習如何建立、發佈、報告及分析您精心策劃的歷程。 |
 
 ### Journey Orchestration 的其他資源
@@ -346,12 +346,10 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
       * Cloud Manager中增強的自助沙盒支援可讓有權使用的使用者刪除沙盒內的所有環境並接收點數。
       * 自動休眠沙盒環境會在閒置一段時間後自動「休眠」沙盒。 客戶可以主動觸發「去休眠」。
    * 支援雲端加速的轉換工具
-
    為了減少從現場服務過渡到雲服務的時間和成本，本月推出了兩種過渡工具。 這些工具旨在自動化過渡過程中的某些關鍵任務，從而減少整體工作量。 .
 
    1. [使用內容傳輸工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) （SD提供）可簡化內容傳輸活動，並讓其可擴充。 此工具提供使用者友好的UI，可讓轉換至AEM做為雲端服務的現有客戶和合作夥伴（在預備/AMS）自助服務。
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) （開放原始碼）工具，可自動將AMS Dispatcher組態轉換為Cloud Service Dispatcher組態。
-
    [AEM a Cloud Service 2020.6.0的發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    轉換工具：
