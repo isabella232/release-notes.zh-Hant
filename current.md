@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c794742334033a11c712fd6cabfcc1b382fbefce
+source-git-commit: 3dd0f7e9f8712786acc31a01dc0fdece9f4004b9
 workflow-type: tm+mt
-source-wordcount: '6530'
+source-wordcount: '6484'
 ht-degree: 45%
 
 ---
@@ -146,7 +146,7 @@ Release notes for the [!DNL Experience Platform] and application services, inclu
 
 | 內容 | 內容類型 | 說明 |
 | -----------| ---------- | ---------- |
-| [管理員的歷程協調快速入門](https://experienceleague.adobe.com/?recommended=JourneyOrchestration-A-1-2020.2) | 課程 | 瞭解如何設定和使用Journey Orchestration。 本課程涵蓋重要概念，以及協調歷程所需的設定步驟。 瞭解如何建立、發佈，以及如何報告及分析您精心策劃的歷程。 |
+| [管理員的歷程協調快速入門](https://experienceleague.adobe.com/?recommended=JourneyOrchestration-A-1-2020.2) | 課程 | 瞭解如何設定和使用Journey Orchestration。 本課程涵蓋重要概念，以及協調歷程所需的設定步驟。 瞭解如何建立、發佈以及如何報告及分析您精心策劃的歷程。 |
 | [面向商業使用者的Journey Orchestration快速入門](https://experienceleague.corp.adobe.com/?recommended=JourneyOrchestration-U-1-2020.1) | 課程 | 瞭解如何設定和使用Journey Orchestration。 本課程涵蓋主要概念。 您將學習如何建立、發佈、報告及分析您精心策劃的歷程。 |
 
 ### Journey Orchestration 的其他資源
@@ -366,7 +366,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * **移轉至AEM做為雲端服務**
 
-   [以雲端服務的形式移轉至AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) ，說明現有AEM客戶移轉至雲端服務的建議轉換歷程。 本說明檔案的目標是提供客戶資訊、指引和最佳實務，協助他們為此轉變做好準備，並讓這一歷程有條理且可預測。
+   [以雲端服務的形式移轉至AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) ，說明現有AEM客戶移轉至雲端服務的建議轉換歷程。 本說明檔案的目標是提供客戶資訊、指引和最佳實務，協助他們為此次轉型做好準備，並讓這一歷程有條不紊且可預測。
 
    其中一個雲端轉換工具——內容傳輸工具已發行。 [內容傳輸工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) (Content Transfer Tool)由Adobe開發，可用來將現有內容從來源AEM例項（內部部署或AMS）移至目標AEM Cloud服務例項。
 
@@ -437,34 +437,21 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法提供一對一訊息。您現在可以使用客戶習慣和偏好判斷其體驗，預測他們想要的東西。
 
-### Campaign Standard
+### 新產品版本
 
-#### 新的Campaign Standard課程和教學課程
+[Adobe Campaign Classic 20.2版本包括](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html) :
+
+* _支援Emoticon_ - _Azure Synapse FDA Connector_ —— 新的隱 _私法規_
+* 促銷活動控制面板： [主動式描述檔監控](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)
+
+### 新的Campaign課程和教學課程
 
 | 內容 | 內容類型 | 說明 |
 | -----------| ---------- | ---------- |  
 | [適用於商業使用者的Adobe Campaign Standard快速入門](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 課程 | 瞭解如何導覽介面、處理傳送，以及建立和管理收件者資料。 |
+| [安裝和設定Adobe Campaign用戶端](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 影片 | 瞭解如何下載和安裝Adobe Campaign Client主控台、建立和管理您與多個環境的連線，以及驗證Adobe Campaign主控台的存取權 |
 
-### Campaign Classic
-
-#### 最新版本
-
-[Adobe Campaign Classic 20.2版本](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html)
-
-#### Campaign Classic教學課程
-
-| 內容 | 內容類型 | 說明 |
-| -----------| ---------- | ---------- |  
-| [安裝和設定Adobe Campaign用戶端](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | 教學影片 | 瞭解如何下載和安裝Adobe Campaign Client主控台、建立和管理您與多個環境的連線，以及驗證Adobe Campaign主控台的存取權。 |
-
-### Campaign 控制面板
-
-| 功能 | 說明 |
-| -----------| ---------- |  
-| 活動配置檔案監視 | 「控制面板」可讓您監控每個促銷活動例項的作用中描述檔使用情形。 此功能是測試版，適用於AWS上代管的Campaign Standard 10368構建版和Campaign Classic 8931構建版的客戶。 [更多詳情](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html) |
-
-### Campaign 說明資源
-
+### 說明資源
 * Adobe Campaign Standard：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) - [作法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-planning.html) - [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic：[說明中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html) - [作法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html) - Campaign Standard / [Campaign Classic的使用說](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)[明影片](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
