@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dd357da4e362c01ab350891b1082020c90eb77fe
+source-git-commit: 233093d41875b9fba88afefa0ecbfc9ace21a900
 workflow-type: tm+mt
-source-wordcount: '6522'
-ht-degree: 43%
+source-wordcount: '6530'
+ht-degree: 45%
 
 ---
 
@@ -31,13 +31,13 @@ This page describes new features, fixes, and important notices in [!DNL Adobe Ex
 
 產品發行日期可能會有所不同。 請經常返回以取得更新。
 
-最近更新：**2020 年 6 月 12 日**
+最近更新：**2020 年 6 月 15 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
 * [歷程協調](#journey-orch)
-* [Analytics](#analytics)
+* [Analytics](#analytics) (和 [客戶歷程分析](#cust-journey))
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [促銷活動](#ac)
@@ -169,15 +169,15 @@ Updated **June 10, 2020**
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-------|
-| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020 年 6 月 18 日 | Analysis Workspace 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| Project roles for shared [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| View-only [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | [!UICONTROL 工作區] 專案可共用給使用者，如 _[!UICONTROL 「僅限檢視]_」。 當「檢視」收件者開啟共用專案時，他們會收到限制較嚴格的專案體驗，而且沒有左側導軌和有限的互動。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Ability to co-edit [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them. 無論管理員或非管理人員均可適用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Updated Blank panel in [!UICONTROL Workspace] | 2020 年 6 月 18 日 | The Blank panel in [!UICONTROL Workspace] now includes panels and visualizations, giving you a more seamless way to pick the analysis workflow that works best for you. |
-| 中國 RDC 允許使用的第一方網域 | 2020 年 6 月 18 日 | 讓擁有 `.cn` 網域的客戶可請求第一方網域，以便在中國大陸境內使用（購買「中國效能最佳化SKU」時提供的檔案）。 |
-| [!UICONTROL Workspace] 中的「快速深入分析」面板 | 2020 年 6 月 25 日 | 「快速深入分析」為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
-| [!UICONTROL Workspace] 中的[!UICONTROL 「Analytics for Target」]面板 | 2020 年 6 月 25 日 | The [!UICONTROL Analytics for Target] (A4T) panel lets you analyze your Adobe Target activities and experiences in [!UICONTROL Analysis Workspace]. [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| 歸因 IQ：演算法歸因 | 2020 年 6 月 18 日 | Analysis Workspace 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | 您現在可以在[!UICONTROL 歸因 IQ] 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| 共用工作區專案的專案角色 | 2020 年 6 月 18 日 | 現在共用工作區專案時，您可以根據您希望收件者擁有的專案體驗，將收件者設為下列三個專案角色：編輯、複製和檢視。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 僅限檢視的工作區專案 | 2020 年 6 月 18 日 | 工作區專案能僅以「可供檢視」狀態與使用者共用。「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| 可共同編輯工作區專案 | 2020 年 6 月 18 日 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 更新工作區中的空白面板 | 2020 年 6 月 18 日 | 工作區中的空白面板現在增設多種面板和視覺效果，提供您更順暢的操作方式，以便您挑選最適合的分析工作流程。 |
+| 中國 RDC 允許使用的第一方網域 | 2020 年 6 月 18 日 | 讓擁有 `.cn` 網域的客戶可請求第一方網域，以便在中國大陸境內使用(購買「中國效能最佳化」SKU 時可拿到相關文件)。 |
+| 工作區中的「快速深入分析」面板 | 2020 年 6 月 25 日 | 「快速深入分析」為 Analysis Workspace 的非分析師和新使用者提供指引，了解如何快速輕鬆回答業務問題。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
+| 工作區中的「Analytics for Target」面板 | 2020 年 6 月 25 日 | 「Analytics for Target」(A4T)面板可讓您在分析工作區中，以提升度和自信的方式分析Adobe Target活動和體驗。 [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
 
 ### Customer Journey Analytics 的新功能 {#cust-journey}
 
@@ -346,10 +346,12 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
       * Cloud Manager中增強的自助沙盒支援可讓有權使用的使用者刪除沙盒內的所有環境並接收點數。
       * 自動休眠沙盒環境會在閒置一段時間後自動「休眠」沙盒。 客戶可以主動觸發「去休眠」。
    * 支援雲端加速的轉換工具
+
    為了減少從現場服務過渡到雲服務的時間和成本，本月推出了兩種過渡工具。 這些工具旨在自動化過渡過程中的某些關鍵任務，從而減少整體工作量。 .
 
    1. [使用內容傳輸工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) （SD提供）可簡化內容傳輸活動，並讓其可擴充。 此工具提供使用者友好的UI，可讓轉換至AEM做為雲端服務的現有客戶和合作夥伴（在預備/AMS）自助服務。
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) （開放原始碼）工具，可自動將AMS Dispatcher組態轉換為Cloud Service Dispatcher組態。
+
    [AEM a Cloud Service 2020.6.0的發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    轉換工具：
