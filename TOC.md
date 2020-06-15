@@ -4,7 +4,7 @@ product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 發行說明
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: c794742334033a11c712fd6cabfcc1b382fbefce
+source-git-commit: bb83a8031e9f82a957fc95057f92d36c92502e3e
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 95%
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 # Experience Cloud 發行說明 {#experience-cloud}
 
-+ Adobe Experience Cloud 發行說明
++ Adobe Experience Cloud 發行說明{#exl-rns}
    + [最新發行說明](current.md)
 + 上一版的發行說明 {#previous}
    + 2020 年{#2020}
