@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: acbbe734e4d1e6881b32a6ef33439eeac6e92715
+source-git-commit: c794742334033a11c712fd6cabfcc1b382fbefce
 workflow-type: tm+mt
-source-wordcount: '6531'
+source-wordcount: '6530'
 ht-degree: 45%
 
 ---
@@ -67,7 +67,7 @@ This page describes new features, fixes, and important notices in [!DNL Adobe Ex
 | 事件訂閱確認 | <ul><li>現在訂閱進行中的單一事件更新時，會收到電子郵件確認。</li></ul> |
 | 全域導覽可用性增強功能 | <ul><li>頂層導覽功能表提供與 `Adobe.com` 一致的使用者體驗。</li></ul> |
 
-## ![圖示](/assets/ec_appicon_24.png) Adobe Experience Cloud介面 {#ecloud}
+## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 介面 {#ecloud}
 
 Experience Cloud介面的一般更新。
 
