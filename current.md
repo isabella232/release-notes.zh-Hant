@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2a69ecde6ebbe9ffbb67d6a82daf7d026e28ed19
+source-git-commit: 0c5c9f6f0c03b68eb4c5695db71fca94afc9141b
 workflow-type: tm+mt
-source-wordcount: '6487'
+source-wordcount: '6486'
 ht-degree: 45%
 
 ---
@@ -146,7 +146,7 @@ Release notes for the [!DNL Experience Platform] and application services, inclu
 
 | 內容 | 內容類型 | 說明 |
 | -----------| ---------- | ---------- |
-| [管理員的歷程協調快速入門](https://experienceleague.adobe.com/?recommended=JourneyOrchestration-A-1-2020.2) | 課程 | 瞭解如何設定和使用Journey Orchestration。 本課程涵蓋重要概念，以及協調歷程所需的設定步驟。 瞭解如何建立、發佈以及如何報告及分析您精心策劃的歷程。 |
+| [管理員的歷程協調快速入門](https://experienceleague.adobe.com/?recommended=JourneyOrchestration-A-1-2020.2) | 課程 | 瞭解如何設定和使用Journey Orchestration。 本課程涵蓋重要概念，以及協調歷程所需的設定步驟。 瞭解如何建立、發佈，以及如何報告及分析您精心策劃的歷程。 |
 | [面向商業使用者的Journey Orchestration快速入門](https://experienceleague.corp.adobe.com/?recommended=JourneyOrchestration-U-1-2020.1) | 課程 | 瞭解如何設定和使用Journey Orchestration。 本課程涵蓋主要概念。 您將學習如何建立、發佈、報告及分析您精心策劃的歷程。 |
 
 ### Journey Orchestration 的其他資源
@@ -362,7 +362,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * **核心元件**
 
-   核心元件2.9.0版提供與 [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) 和全新進度列元件的整合，現在提供製作檔案和開發人員詳細資訊，以及GitHub上提供的專案下載 [](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/introduction.html)[](https://github.com/adobe/aem-core-wcm-components)。
+   核心元件2.9.0與 [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) （用戶端資料層）和全新的進度列元件整合，現在提供製作檔案和開發人員詳細資訊，以及GitHub上提供的專案下載 [](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/introduction.html)[](https://github.com/adobe/aem-core-wcm-components)。
 
 * **移轉至AEM做為雲端服務**
 
