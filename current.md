@@ -5,23 +5,19 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 05310c3c03c09918aee45015bd6c9bc341dce724
+source-git-commit: 07935d47bd84291ede7cfd2dcfab422a95b7cf71
 workflow-type: tm+mt
-source-wordcount: '6509'
-ht-degree: 45%
+source-wordcount: '6580'
+ht-degree: 43%
 
 ---
 
 
-# 提早存取- Adobe Experience Cloud發行說明- 2020年6月
+# Adobe Experience Cloud發行說明- 2020年6月
 
 ![橫幅](/assets/experience-cloud-banner-3.png)
 
 This page describes new features, fixes, and important notices in [!DNL Adobe Experience Cloud]. 此外，還著重說明全新檔案、訓練課程和視訊教學課程，以協助您充份運用Experience Cloud。
-
->[!IMPORTANT]
->
->此頁面含有搶先版內容，於預計發行前可能會有所變更。
 
 >[!NOTE]
 >
@@ -31,7 +27,7 @@ This page describes new features, fixes, and important notices in [!DNL Adobe Ex
 
 產品發行日期可能會有所不同。 請經常返回以取得更新。
 
-最近更新：**2020 年 6 月 15 日**
+最近更新：**2020 年 6 月 18 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
@@ -178,19 +174,21 @@ Updated **June 10, 2020**
 | 中國 RDC 允許使用的第一方網域 | 2020 年 6 月 18 日 | 讓擁有 `.cn` 網域的客戶可請求第一方網域，以便在中國大陸境內使用(購買「中國效能最佳化」SKU 時可拿到相關文件)。 |
 | 工作區中的「快速深入分析」面板 | 2020 年 6 月 25 日 | 「快速深入分析」為 Analysis Workspace 的非分析師和新使用者提供指引，了解如何快速輕鬆回答業務問題。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 | 工作區中的「Analytics for Target」面板 | 2020 年 6 月 25 日 | 「Analytics for Target」(A4T)面板可讓您在分析工作區中，以提升度和自信的方式分析Adobe Target活動和體驗。 [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| [!UICONTROL 關於工作區] 」頁 | 18,2020 年 6 月 | 「關 [!UICONTROL 於工作區] 」頁面提供您分析工作區環境、Adobe Analytics管理員的相關資訊（如果您需要支援），以及提供產品內部意見回應的方式。 它可在「工作區 **[!UICONTROL >說明]** >關於工作 **[!UICONTROL 區」下找到]******。 |
 
 ### Customer Journey Analytics 的新功能 {#cust-journey}
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-----|
-| 支援物件陣列 | 2020 年 6 月 18 日 | CJA客戶現在可以報告顯示在其AEP資料集結構中之物件陣列中的維度和量度。 更多詳情... |
-| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020 年 6 月 18 日 | Analysis Workspace 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| Support for [!UICONTROL Anomaly Detection] | 2020 年 6 月 18 日 | [!UICONTROL 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。][更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
-| Project roles for shared [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| View-only [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | [!UICONTROL 工作區] 專案可共用給使用者，如 _[!UICONTROL 「僅限檢視]_」。 當「檢視」收件者開啟共用專案時，他們會收到限制較嚴格的專案體驗，而且沒有左側導軌和有限的互動。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Ability to co-edit [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them.[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| [!UICONTROL Workspace] 中的「快速深入分析」面板 | 2020 年 6 月 25 日 | 「快速深入分析」為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
+| 支援物件陣列 | 2020 年 6 月 18 日 | CJA客戶現在可以報告其Adobe Experience Platform資料集結構中，物件陣列中顯示的維度和量度。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
+| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020 年 6 月 18 日 | Analysis Workspace 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
+| 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/models.html) |
+| Support for [!UICONTROL Anomaly Detection] | 2020 年 6 月 18 日 | [!UICONTROL 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。][更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| Project roles for shared [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| View-only [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | [!UICONTROL 工作區] 專案可共用給使用者，如 _[!UICONTROL 「僅限檢視]_」。 當「檢視」收件者開啟共用專案時，他們會收到限制較嚴格的專案體驗，而且沒有左側導軌和有限的互動。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
+| Ability to co-edit [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them.[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| [!UICONTROL Workspace] 中的「快速深入分析」面板 | 2020 年 6 月 25 日 | 「快速深入分析」為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
+| [!UICONTROL 關於工作區] 」頁 | 18,2020 年 6 月 | 「關 [!UICONTROL 於工作區] 」頁面提供您分析工作區環境、Adobe Analytics管理員的相關資訊（如果您需要支援），以及提供產品內部意見回應的方式。 它可在「工作區 **[!UICONTROL >說明]** >關於工作 **[!UICONTROL 區」下找到]******。 |
 
 ### [!UICONTROL Media Analytics] 的新功能{#media-aa}
 
@@ -347,10 +345,12 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
       * Cloud Manager中增強的自助沙盒支援可讓有權使用的使用者刪除沙盒內的所有環境並接收點數。
       * 自動休眠沙盒環境會在閒置一段時間後自動「休眠」沙盒。 客戶可以主動觸發「去休眠」。
    * 支援雲端加速的轉換工具
+
    為了減少從現場服務過渡到雲服務的時間和成本，本月推出了兩種過渡工具。 這些工具旨在自動化過渡過程中的某些關鍵任務，從而減少整體工作量。 .
 
    1. [使用內容傳輸工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) （SD提供）可簡化內容傳輸活動，並讓其可擴充。 此工具提供使用者友好的UI，可讓轉換至AEM做為雲端服務的現有客戶和合作夥伴（在預備/AMS）自助服務。
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) （開放原始碼）工具，可自動將AMS Dispatcher組態轉換為Cloud Service Dispatcher組態。
+
    [AEM a Cloud Service 2020.6.0的發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    轉換工具：
@@ -365,7 +365,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * **移轉至AEM做為雲端服務**
 
-   [以雲端服務的形式移轉至AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) ，說明現有AEM客戶移轉至雲端服務的建議轉換歷程。 本說明檔案的目標是提供客戶資訊、指引和最佳實務，協助他們為此次轉型做好準備，並讓這一歷程有條不紊且可預測。
+   [以雲端服務的形式移轉至AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) ，說明現有AEM客戶移轉至雲端服務的建議轉換歷程。 本說明檔案的目標是提供客戶資訊、指引和最佳實務，協助他們為此轉變做好準備，並讓這一歷程有條理且可預測。
 
    其中一個雲端轉換工具——內容傳輸工具已發行。 [內容傳輸工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) (Content Transfer Tool)由Adobe開發，可用來將現有內容從來源AEM例項（內部部署或AMS）移至目標AEM Cloud服務例項。
 
