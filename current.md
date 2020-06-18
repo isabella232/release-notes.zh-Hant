@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0c5c9f6f0c03b68eb4c5695db71fca94afc9141b
+source-git-commit: af0ded4b9a09349d811a998a002b0f1c0f72403f
 workflow-type: tm+mt
 source-wordcount: '6486'
 ht-degree: 45%
@@ -171,7 +171,7 @@ Updated **June 10, 2020**
 | -----------| ---------- |-------|
 | 歸因 IQ：演算法歸因 | 2020 年 6 月 18 日 | Analysis Workspace 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
 | 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | 您現在可以在[!UICONTROL 歸因 IQ] 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| 共用工作區專案的專案角色 | 2020 年 6 月 18 日 | 現在共用工作區專案時，您可以根據您希望收件者擁有的專案體驗，將收件者設為下列三個專案角色：編輯、複製和檢視。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 共用工作區專案的專案角色 | 2020 年 6 月 18 日 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 僅限檢視的工作區專案 | 2020 年 6 月 18 日 | 工作區專案能僅以「可供檢視」狀態與使用者共用。「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | 可共同編輯工作區專案 | 2020 年 6 月 18 日 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 更新工作區中的空白面板 | 2020 年 6 月 18 日 | 工作區中的空白面板現在增設多種面板和視覺效果，提供您更順暢的操作方式，以便您挑選最適合的分析工作流程。 |
@@ -366,7 +366,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * **移轉至AEM做為雲端服務**
 
-   [以雲端服務的形式移轉至AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) ，說明現有AEM客戶移轉至雲端服務的建議轉換歷程。 本說明檔案的目標是提供客戶資訊、指引和最佳實務，協助他們為此次轉型做好準備，並讓這一歷程有條不紊且可預測。
+   [以雲端服務的形式移轉至AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) ，說明現有AEM客戶移轉至雲端服務的建議轉換歷程。 本說明檔案的目標是提供客戶資訊、指引和最佳實務，協助他們為此轉變做好準備，並讓這一歷程有條理且可預測。
 
    其中一個雲端轉換工具——內容傳輸工具已發行。 [內容傳輸工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) (Content Transfer Tool)由Adobe開發，可用來將現有內容從來源AEM例項（內部部署或AMS）移至目標AEM Cloud服務例項。
 
