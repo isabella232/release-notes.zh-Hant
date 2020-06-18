@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: af0ded4b9a09349d811a998a002b0f1c0f72403f
+source-git-commit: 1f0caf618aad2dd27a0642852a7a45c20b76bf07
 workflow-type: tm+mt
-source-wordcount: '6486'
+source-wordcount: '6484'
 ht-degree: 45%
 
 ---
@@ -146,7 +146,7 @@ Release notes for the [!DNL Experience Platform] and application services, inclu
 
 | 內容 | 內容類型 | 說明 |
 | -----------| ---------- | ---------- |
-| [管理員的歷程協調快速入門](https://experienceleague.adobe.com/?recommended=JourneyOrchestration-A-1-2020.2) | 課程 | 瞭解如何設定和使用Journey Orchestration。 本課程涵蓋重要概念，以及協調歷程所需的設定步驟。 瞭解如何建立、發佈，以及如何報告及分析您精心策劃的歷程。 |
+| [管理員的歷程協調快速入門](https://experienceleague.adobe.com/?recommended=JourneyOrchestration-A-1-2020.2) | 課程 | 瞭解如何設定和使用Journey Orchestration。 本課程涵蓋重要概念，以及協調歷程所需的設定步驟。 瞭解如何建立、發佈以及如何報告及分析您精心策劃的歷程。 |
 | [面向商業使用者的Journey Orchestration快速入門](https://experienceleague.corp.adobe.com/?recommended=JourneyOrchestration-U-1-2020.1) | 課程 | 瞭解如何設定和使用Journey Orchestration。 本課程涵蓋主要概念。 您將學習如何建立、發佈、報告及分析您精心策劃的歷程。 |
 
 ### Journey Orchestration 的其他資源
@@ -230,7 +230,7 @@ AN-218269；AN-218455；AN-218492；AN-219888；AN-220447；AN-220546；AN-22078
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 移轉至統一的產品網域 | 生效日期：2020 年 5 月 28 日 | 從 2020 年 1 月開始，Adobe Analytics 就開始移轉至統一的產品網域，相關作業已於 2020 年 5 月 28 日完成。While Adobe Analytics works to remove all `omniture.com` domain references from its architecture, it is important to allowlist (formerly, allowlist) `omniture.com` as a third-party cookie. 當完成完整架構移轉時，我們將透過發行說明通知您，不再需要此allowlist步驟。 請參閱這份建議 IP 位址和網域的[完整清單](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)，這些位址和網域均應列入允許清單。<br>如果貴組織封鎖第三方 Cookie，請連絡客戶服務人員，以重新取得 Adobe Analytics 的存取權限。 |
+| 移轉至統一的產品網域 | 生效日期：2020 年 5 月 28 日 | 從 2020 年 1 月開始，Adobe Analytics 就開始移轉至統一的產品網域，相關作業已於 2020 年 5 月 28 日完成。雖然 Adobe Analytics 已著手從架構中移除所有 `omniture.com` 網域參考，但請務必將 `omniture.com` 放入協力廠商 Cookie 允許清單。當完成完整架構移轉時，我們將透過發行說明通知您，不再需要此allowlist步驟。 請參閱這份建議 IP 位址和網域的[完整清單](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)，這些位址和網域均應列入允許清單。<br>如果貴組織封鎖第三方 Cookie，請連絡客戶服務人員，以重新取得 Adobe Analytics 的存取權限。 |
 | 全新 Adobe Analytics 預設登陸頁面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日起，Adobe Analytics 的預設登陸頁面將從[!UICONTROL 報告]變更為[!UICONTROL 工作區]。未設定自訂登陸頁面的使用者，將一律適用此變更。 |
 | 協力廠商技術許可清單 | 2020 年 3 月 12 日 (生效日期) | Adobe Analytics 已開始運用協力廠商技術進行功能推出管理和產品內支援。下列 URL 應新增至任何必要的網路防火牆允許清單，確保完整的功能存取權限：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
 | Improved redundancy for [!UICONTROL Analysis Workspace] availability | 2020 年 5 月 21 日 | In order to ensure availability of [!UICONTROL Analysis Workspace], we are adding a secondary CDN (Content Delivery Network) for improved redundancy. 應將下列URL添加到任何必要的網路防火牆允許清單：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
