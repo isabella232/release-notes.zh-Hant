@@ -1,11 +1,14 @@
 ---
 title: Adobe Experience Cloud 發行說明
-description: Experience Cloud 發行說明範本
+description: Experience Cloud 發行說明
 doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
+source-git-commit: b99aa5d06316964f374b99547215643ad8208bbf
+workflow-type: tm+mt
+source-wordcount: '2537'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +74,7 @@ For product documentation, see [Experience Cloud interface](https://docs.adobe.c
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-發行說明，包括協調 [!DNL Experience Platform,] 、優惠、人 [!DNL Experience Platform Launch,] 員旅程 [!UICONTROL 、地點、]移動服務、線上服務、安全性公告。
+[!DNL Experience Platform,] 的發行說明，內容包括 [!DNL Experience Platform Launch,] [!UICONTROL 歷程協調]、[!UICONTROL Offers]、[!UICONTROL People]、[!UICONTROL Places]、[!UICONTROL Mobile Services]、安全性公告。
 
 * [Experience Cloud ID 服務](#ecid)
 * [Experience Platform 發行說明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
