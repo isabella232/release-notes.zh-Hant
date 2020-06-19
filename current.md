@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a9dfcbc1fdd459212ffb898e2a1c508d9aaf84f7
+source-git-commit: b909c99b4389be6ad67536e49224d33b3fb10af8
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6688'
 ht-degree: 43%
 
 ---
@@ -151,7 +151,7 @@ Release notes for the [!DNL Experience Platform] and application services, inclu
 
 ## ![圖示](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-Updated **June 10, 2020**
+發行日期: **2020 年 6 月 18 日**
 
 * [Adobe Analytics 的新功能](#aa-features)
 * [Customer Journey Analytics 的新功能](#cust-journey)
@@ -360,7 +360,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * **移轉至AEM做為雲端服務**
 
-   [以雲端服務的形式移轉至AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) ，說明現有AEM客戶移轉至雲端服務的建議轉換歷程。 本說明檔案的目標是提供客戶資訊、指引和最佳實務，協助他們為此次轉型做好準備，並讓這一歷程有條不紊且可預測。
+   [以雲端服務的形式移轉至AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/home.html) ，說明現有AEM客戶移轉至雲端服務的建議轉換歷程。 本說明檔案的目標是提供客戶資訊、指引和最佳實務，協助他們為此轉變做好準備，並讓這一歷程有條理且可預測。
 
    其中一個雲端轉換工具——內容傳輸工具已發行。 [內容傳輸工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/overview-content-transfer-tool.html) (Content Transfer Tool)由Adobe開發，可用來將現有內容從來源AEM例項（內部部署或AMS）移至目標AEM Cloud服務例項。
 
