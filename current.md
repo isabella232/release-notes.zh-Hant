@@ -155,7 +155,7 @@ Release notes for the [!DNL Experience Platform] and application services, inclu
 
 * [Adobe Analytics 的新功能](#aa-features)
 * [Customer Journey Analytics 的新功能](#cust-journey)
-* [Media Analytics](#media-aa) 的新功能
+* [Media Analytics 的新功能](#media-aa)
 * [Adobe Analytics中的修正](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
 * [全新Adobe Analytics課程與教學課程](#tutorials-analytics)
@@ -183,7 +183,7 @@ Release notes for the [!DNL Experience Platform] and application services, inclu
 | 支援物件陣列 | 2020 年 6 月 18 日 | CJA客戶現在可以報告其Adobe Experience Platform資料集結構中，物件陣列中顯示的維度和量度。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
 | Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020 年 6 月 18 日 | Analysis Workspace 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。適用於Adobe Analytics Ultimate客戶。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
 | 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/models.html) |
-| Support for [!UICONTROL Anomaly Detection] | 2020 年 6 月 18 日 | [!UICONTROL 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。][更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| 支援[!UICONTROL 「異常偵測」] | 2020 年 6 月 18 日 | [!UICONTROL 「異常偵測」]提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
 | Project roles for shared [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
 | View-only [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | [!UICONTROL 工作區] 專案可共用給使用者，如 _[!UICONTROL 「僅限檢視]_」。 當「檢視」收件者開啟共用專案時，他們會收到限制較嚴格的專案體驗，而且沒有左側導軌和有限的互動。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
 | Ability to co-edit [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them.[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
