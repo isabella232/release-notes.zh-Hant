@@ -315,14 +315,14 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
    AEM 6.5 Service Pack 5 (6.5.5.0，已於 2020 年 6 月 4 日發行) 是項重要更新，其中包括自 2019 年 4 月 AEM 6.5 全面發行以來所推出的新功能、客戶要求的重要增強功能，以及效能、穩定性和安全性等方面的改善項目。
 
    * [發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
-   * [AEM Forms 發行交付項目](/content/help/tw/zh-Hang/aem-forms/kb/aem-forms-releases.html)
+   * [AEM Forms 發行交付項目](https://helpx.adobe.com/tw/aem-forms/kb/aem-forms-releases.html)
 
 * **AEM 6.4.8.1**
 
    AEM 6.4 Service Pack 8 Cumulative Fix Pack (6.4.8.1，已於 2020 年 6 月 4 日發行) 是項重要更新，其中包括自 2020 年 3 月 AEM 6.4 Service Pack 8 (6.4.8.0) 全面發行以來所推出的多項內部和客戶修正項目。
 
    * [發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-64/release-notes/cfp-release-notes.html)
-   * [AEM Forms 發行交付項目](/content/help/tw/zh-Hang/aem-forms/kb/aem-forms-releases.html)
+   * [AEM Forms 發行交付項目](https://helpx.adobe.com/tw/aem-forms/kb/aem-forms-releases.html)
 
 ### 自助資源
 
