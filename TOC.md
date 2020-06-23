@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: e038294d1cfa28a2fa24acf104d9af887eb57237
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
    + [發行說明](current.md)
 + 上一版的發行說明 {#previous}
    + 2020 年{#2020}
-      + [2020年5月](c-legacy-releases/2020/05212020.md)
+      + [2020 年 5 月](c-legacy-releases/2020/05212020.md)
       + [2020 年 4 月](c-legacy-releases/2020/04162020.md)
       + [2020 年 3 月](c-legacy-releases/2020/03122020.md)
       + [2020 年 2 月](c-legacy-releases/2020/02202020.md)
