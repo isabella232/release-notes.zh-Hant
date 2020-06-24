@@ -4,16 +4,16 @@ description: Adobe Experience Cloud 發行說明
 doc-type: release notes
 last-update: June 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a88748f592df569028641cd53d563e3b6c1d1201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6688'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Cloud發行說明- 2020年6月
+# Adobe Experience Cloud 發行說明 - 2020 年 6 月
 
 ![橫幅](/assets/experience-cloud-banner-3.png)
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) (和 [客戶歷程分析](#cust-journey))
+* [Analytics](#analytics) (以及 [Customer Journey Analytics](#cust-journey))
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [行銷活動](#ac)
@@ -136,7 +136,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 ### 最新版本
 
-如需最新版本更新，請參閱 [Journey Orchestration版本注意事項](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html)
+如需最新版本的更新資訊，請參閱 [Journey Orchestration 發行說明](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html)
 
 ### 最新 Journey Orchestration 課程與教學課程 {#jo-tutorials}
 
@@ -165,39 +165,39 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-------|
-| 歸因 IQ：演算法歸因 | 2020 年 6 月 18 日 | Analysis Workspace 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。適用於Adobe Analytics Ultimate客戶。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | 您現在可以在[!UICONTROL 歸因 IQ] 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。適用於Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete和Ultimate客戶。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| 歸因 IQ：演算法歸因 | 2020 年 6 月 18 日 | Analysis Workspace 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。Adobe Analytics Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | 您現在可以在[!UICONTROL 歸因 IQ] 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
 | 共用工作區專案的專案角色 | 2020 年 6 月 18 日 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 僅限檢視的工作區專案 | 2020 年 6 月 18 日 | 工作區專案能僅以「可供檢視」狀態與使用者共用。「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | 可共同編輯工作區專案 | 2020 年 6 月 18 日 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 更新工作區中的空白面板 | 2020 年 6 月 18 日 | 工作區中的空白面板現在增設多種面板和視覺效果，提供您更順暢的操作方式，以便您挑選最適合的分析工作流程。 |
 | 中國 RDC 允許使用的第一方網域 | 2020 年 6 月 18 日 | 讓擁有 `.cn` 網域的客戶可請求第一方網域，以便在中國大陸境內使用(購買「中國效能最佳化」SKU 時可拿到相關文件)。 |
 | 工作區中的「快速深入分析」面板 | 2020 年 6 月 25 日 | 「快速深入分析」為 Analysis Workspace 的非分析師和新使用者提供指引，了解如何快速輕鬆回答業務問題。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
-| 工作區中的「Analytics for Target」面板 | 2020 年 6 月 25 日 | 「Analytics for Target」(A4T)面板可讓您在分析工作區中，以提升度和自信的方式分析Adobe Target活動和體驗。 [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
-| [!UICONTROL 關於工作區] 」頁 | 18,2020 年 6 月 | 「關 [!UICONTROL 於工作區] 」頁面提供您分析工作區環境、Adobe Analytics管理員的相關資訊（如果您需要支援），以及提供產品內部意見回應的方式。 它可在「工作區 **[!UICONTROL >說明]** >關於工作 **[!UICONTROL 區」下找到]******。 |
+| 工作區中的「Analytics for Target」面板 | 2020 年 6 月 25 日 | 「Analytics for Target」(A4T) 面板可讓您在 Analysis Workspace 中輕鬆分析 Adobe Target 活動和體驗。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| [!UICONTROL 「Workspace 簡介」]頁面 | 2020 年 6 月 18 日 | [!UICONTROL 「Workspace 簡介」]頁面提供了 Analysis Workspace 環境和 Adobe Analytics 管理員 (如果您需要協助) 的相關資訊，以及產品內意見反應方法。此頁面位於&#x200B;**[!UICONTROL 「Workspace]** > **[!UICONTROL 說明]** > **[!UICONTROL Workspace 簡介」]**。 |
 
 ### Customer Journey Analytics 的新功能 {#cust-journey}
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-----|
-| 支援物件陣列 | 2020 年 6 月 18 日 | CJA客戶現在可以報告其Adobe Experience Platform資料集結構中，物件陣列中顯示的維度和量度。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
-| 歸因 IQ：[!UICONTROL 演算法歸因] | 2020 年 6 月 18 日 | [!UICONTROL Analysis Workspace] 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。適用於Adobe Analytics Ultimate客戶。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
-| 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | 您現在可以在[!UICONTROL 歸因 IQ] 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/models.html) |
-| 支援[!UICONTROL 異常偵測] | 2020 年 6 月 18 日 | [!UICONTROL 「異常偵測」]提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
-| 共用[!UICONTROL 工作區]專案的專案角色 | 2020 年 6 月 18 日 | 共用[!UICONTROL 工作區]專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
-| 僅限檢視的[!UICONTROL 工作區]專案 | 2020 年 6 月 18 日 | [!UICONTROL 工作區]專案能僅以&#x200B;_[!UICONTROL 「可供檢視」]_狀態與使用者共用。「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
-| 可共同編輯[!UICONTROL 工作區]專案 | 2020 年 6 月 18 日 | 新增至&#x200B;_[!UICONTROL 「可編輯」]_角色的收件者可在已與他們共用的專案中進行儲存。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
-| [!UICONTROL 工作區]中的「快速深入分析」面板 | 2020 年 6 月 25 日 | 「快速深入分析」為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
-| [!UICONTROL 關於工作區] 」頁 | 18,2020 年 6 月 | 「關 [!UICONTROL 於工作區] 」頁面提供您分析工作區環境、Adobe Analytics管理員的相關資訊（如果您需要支援），以及提供產品內部意見回應的方式。 它可在「工作區 **[!UICONTROL >說明]** >關於工作 **[!UICONTROL 區」下找到]******。 |
+| 支援物件陣列 | 2020 年 6 月 18 日 | CJA 客戶現在可以針對 Adobe Experience Platform 資料集結構中物件陣列所含的維度和量度產生報表。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
+| 歸因 IQ：[!UICONTROL 演算法歸因] | 2020 年 6 月 18 日 | [!UICONTROL Analysis Workspace] 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。Adobe Analytics Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
+| 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | 您現在可以在[!UICONTROL 歸因 IQ] 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/attribution/models.html) |
+| 支援[!UICONTROL 異常偵測] | 2020 年 6 月 18 日 | [!UICONTROL 「異常偵測」]提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| 共用[!UICONTROL 工作區]專案的專案角色 | 2020 年 6 月 18 日 | 共用[!UICONTROL 工作區]專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| 僅限檢視的[!UICONTROL 工作區]專案 | 2020 年 6 月 18 日 | [!UICONTROL 工作區]專案能僅以&#x200B;_[!UICONTROL 「可供檢視」]_狀態與使用者共用。「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
+| 可共同編輯[!UICONTROL 工作區]專案 | 2020 年 6 月 18 日 | 新增至&#x200B;_[!UICONTROL 「可編輯」]_角色的收件者可在已與他們共用的專案中進行儲存。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| [!UICONTROL 工作區]中的「快速深入分析」面板 | 2020 年 6 月 25 日 | 「快速深入分析」為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
+| [!UICONTROL 「Workspace 簡介」]頁面 | 2020 年 6 月 18 日 | [!UICONTROL 「Workspace 簡介」]頁面提供了 Analysis Workspace 環境和 Adobe Analytics 管理員 (如果您需要協助) 的相關資訊，以及產品內意見反應方法。此頁面位於&#x200B;**[!UICONTROL 「Workspace]** > **[!UICONTROL 說明]** > **[!UICONTROL Workspace 簡介」]**。 |
 
 ### [!UICONTROL Media Analytics] 的新功能{#media-aa}
 
-更新日期： **2020年6月18日**
+更新日期：**2020 年 6 月 18 日**
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- | ---------- |
-| [支援的裝置和平台](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 含AEP SDK的Media Launch Extension現在支援下列OTT裝置：<ul><li>Apple TV  (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |  | [支援的裝置和平台](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 含AEP SDK的Media Launch Extension現在支援下列OTT裝置：<ul><li>Apple TV  (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
-| [播放器狀態追蹤](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020 年 5 月 29 日 | [!UICONTROL Media Analytics] 客戶可在播放時使用全螢幕、隱藏字幕、靜音、畫中畫和焦點的標準解決方案變數集來擷取檢視者互動。 您也可以彈性建立自訂播放器狀態。「播放器狀態追蹤」變數現在可用於 [!UICONTROL Analysis Workspace] 中的報告。此功能需有下列任一個項目： <ul><li>Media [!DNL JavaScript] SDK 3.0 或更新版本</li><li>與 [!DNL Adobe Experience Platform] (AEP) SDK 搭配使用：</li><li>[!UICONTROL Media Analytics 擴充功能] (適用於網頁)：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更新版本</li><li>[!UICONTROL Media Analytics 擴充功能] (適用於行動裝置)：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更新版本</li><li>[!UICONTROL 媒體收集]</li></ul> |
+| [支援的裝置和平台](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 含 AEP SDK 的 Media Launch 擴充功能現在支援下列 OTT 裝置：<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |  | [支援的裝置和平台](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 含 AEP SDK 的 Media Launch 擴充功能現在支援下列 OTT 裝置：<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
+| [播放器狀態追蹤](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020 年 5 月 29 日 | [!UICONTROL Media Analytics] 客戶可使用全螢幕、隱藏式字幕、靜音、子母畫面和觀看中的標準解決方案變數集，擷取檢視者在播放時的互動。您也可以彈性建立自訂播放器狀態。「播放器狀態追蹤」變數現在可用於 [!UICONTROL Analysis Workspace] 中的報告。此功能需有下列任一個項目： <ul><li>Media [!DNL JavaScript] SDK 3.0 或更新版本</li><li>與 [!DNL Adobe Experience Platform] (AEP) SDK 搭配使用：</li><li>[!UICONTROL Media Analytics 擴充功能] (適用於網頁)：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更新版本</li><li>[!UICONTROL Media Analytics 擴充功能] (適用於行動裝置)：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更新版本</li><li>[!UICONTROL 媒體收集]</li></ul> |
 
 ### Adobe Analytics 的修正項目 {#aa-fixes}
 
@@ -340,12 +340,10 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
       * Cloud Manager 的增強自助服務沙箱支援，可讓有權使用的使用者刪除沙箱內的所有環境並獲得評分。
       * 自動休眠沙箱環境會在閒置一段時間後自動讓沙箱「休眠」。客戶可以主動觸發「解除休眠」。
    * 支援加速雲端化的轉換工具
-
    為了減少從內部部署轉換至雲端服務的時間和成本，我們在本月推出了兩項轉換工具。這些工具旨在讓轉換過程中的一些重要工作自動化，藉此降低減少整體工作負載。
 
-   1. [使用內容移轉工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (可在 SD 取得) 簡化內容移轉活動，並使其可擴充。此工具的 UI 簡單易用，可供要轉換至「AEM 雲端服務」的現有客戶和合作夥伴 (內部部署/AMS) 自助使用。
+   1. [使用內容移轉工具](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (可在 SD 取得) 簡化內容移轉活動，並使其可擴充。此工具的 UI 簡單易用，可供要轉換至「AEM 雲端服務」的現有客戶和合作夥伴 (內部部署/AMS) 自助使用。
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (開放原始碼) 工具可讓 AMS Dispatcher 設定到雲端服務 Dispatcher 設定的轉換過程自動化。
-
    [AEM 雲端服務 2020.6.0 版發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    轉換工具：
@@ -356,7 +354,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * **核心元件**
 
-   Core Components 2.9.0 introduces integration with the [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) and a new Progress Bar Component and is now available along with [authoring documentation](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/introduction.html) and [developer details and project download available on GitHub](https://github.com/adobe/aem-core-wcm-components).
+   核心元件 2.9.0 導入了 [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) 整合與最新進度列元件，現在可與[撰寫文件](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/introduction.html)，以及[ GitHub 上的開發人員詳細資料和專案下載專案](https://github.com/adobe/aem-core-wcm-components)一併取得。
 
 * **移至 AEM 雲端服務**
 
@@ -433,17 +431,17 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### 新產品版本
 
-[Adobe Campaign Classic 20.2版本包括](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html) :
+[Adobe Campaign Classic 20.2 版本](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html)包括：
 
-* _支援Emoticon_ - _Azure Synapse FDA Connector_ —— 新的隱 _私法規_
-* 促銷活動控制面板： [主動式描述檔監控](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/performance-monitoring/active-profiles-monitoring.html)
+* _支援表情符號_ – _Azure Synapse FDA Connector_ – _新隱私權法規_
+* Campaign 控制面板：[有效設定檔監控](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/performance-monitoring/active-profiles-monitoring.html)
 
 ### 最新 Campaign 課程與教學課程
 
 | 內容 | 內容類型 | 說明 |
 | -----------| ---------- | ---------- |  
 | [商業使用者專用 Adobe Campaign Standard 快速入門](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 課程 | 了解如何導覽介面、處理傳送，以及建立和管理收件者資料。 |
-| [安裝和設定 Adobe Campaign Client](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 影片 | 瞭解如何下載和安裝Adobe Campaign Client主控台、建立和管理您與多個環境的連線，以及驗證Adobe Campaign主控台的存取權 |
+| [安裝和設定 Adobe Campaign Client](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 影片 | 了解如何下載和安裝 Adobe Campaign Client 主控台、建立和管理您與多個環境的連線，以及驗證 Adobe Campaign Client 主控台的存取權 |
 
 ### 說明資源
 
