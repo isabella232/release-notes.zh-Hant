@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: bcf089494e56dd5ece46bd7575bf661e352dc9f0
 workflow-type: tm+mt
 source-wordcount: '7035'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -340,12 +340,10 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
       * Cloud Manager 的增強自助服務沙箱支援，可讓有權使用的使用者刪除沙箱內的所有環境並獲得評分。
       * 自動休眠沙箱環境會在閒置一段時間後自動讓沙箱「休眠」。客戶可以主動觸發「解除休眠」。
    * 支援加速雲端化的轉換工具
-
    為了減少從內部部署轉換至雲端服務的時間和成本，我們在本月推出了兩項轉換工具。這些工具旨在讓轉換過程中的一些重要工作自動化，藉此降低減少整體工作負載。
 
    1. [使用內容移轉工具](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (可在 SD 取得) 簡化內容移轉活動，並使其可擴充。此工具的 UI 簡單易用，可供要轉換至「AEM 雲端服務」的現有客戶和合作夥伴 (內部部署/AMS) 自助使用。
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (開放原始碼) 工具可讓 AMS Dispatcher 設定到雲端服務 Dispatcher 設定的轉換過程自動化。
-
    [AEM 雲端服務 2020.6.0 版發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    轉換工具：
@@ -462,18 +460,18 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 網域移轉 | （6月22日發行版本）Advertising Cloud DSP已從https://www.tubemogul.com移轉至 [https://advertising.adobe.com](https://advertising.adobe.com)。 |
-| Adobe Analytics 整合 | （6月18日發行）DSP現在可選擇從傳送至Analytics的資料中隱藏「AMO成本」量度。 若要隱藏量度，請連絡您的Adobe客戶經理。 |
-| 以人為本的裝置圖 | （6月22日版本）自助式DSP客戶現在可以運用裝置圖表（Adobe Experience Cloud Device Co-op或LiveRamp），在任何新的宣傳活動中以人員為基礎進行鎖定和頻率管理。 這可確保您透過其擁有的裝置觸及受眾，並限制其廣告曝光度。 |
-| CCPA選擇退出銷售 | （6月22日發行）您現在可以使用新的CCPA選擇退出銷售區段，將CCPA選擇退出銷售請求傳達給Advertising Cloud，您可從「觀眾>區段」 [!UICONTROL 建立此區段]。 您也可以使用Advertising Cloud販賣API，從「對象」>「區段」或b)擷取客戶已提交以申請退出帳戶a)之銷售要求之ID的每月報表。  如需詳細資訊，請參閱https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html。 |
-| DoubleVerify真實品牌安全 | （6月22日發行版本）廣告商現在可以鎖定單一DoubleVerify區段ID的出價前出價，並具備完整的品牌安全篩選條件，以便使用DoubleVerify模擬其出價後封鎖規則。 您現在可以在「設定>廣告商」上廣告商設定的「媒體品質定位」區 [!UICONTROL 段中這麼做]。 若要進一步瞭解此服務，請聯絡programmaticsales@doubleverify.com。 此功能需支付額外費用。 |
-| CPA/ROAS 最佳化 | (5 月 20 日發行版本) 行銷活動管理員不再需要在套件中限制新刊登版位，以防止預算超額分配。位置現在會根據其CPM或CPA/ROAS績效接收動態預算分配。 |
+| 網域移轉 | (6 月 22 日發行版本) Advertising Cloud DSP 已從 https://www.tubemogul.com 移轉至 [https://advertising.adobe.com](https://advertising.adobe.com)。 |
+| Adobe Analytics 整合 | (6 月 18 日發行版本) DSP 現在可選擇從傳送至 Analytics 的資料中隱藏「AMO 成本」量度。若要隱藏該量度，請連絡您的 Adobe 客戶經理。 |
+| 以人物為基礎的裝置圖表 | (6 月 22 日發行版本) 自助式 DSP 客戶現在可以運用裝置圖表 (Adobe Experience Cloud Device Co-op 或 LiveRamp)，針對任何新的行銷活動以人物為基礎鎖定受眾及管理頻率。這能確保您在受眾擁有的裝置上觸及目標對象，並限制其廣告曝光度。 |
+| CCPA 選擇退出銷售 | (6 月 22 日發行版本) 您現在可以使用新的 CCPA 選擇退出銷售區段 (從[!UICONTROL 「受眾 > 區段」]建立)，將 CCPA 選擇退出銷售的請求傳遞給 Advertising Cloud。此外，您也可以 a) 透過[!UICONTROL 「受眾 > 區段」]或 b) 使用 Advertising Cloud Trafficking API，依月份擷取客戶針對退出銷售請求所提交的 ID 報表。如需詳細資訊，請參閱 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html。 |
+| DoubleVerify 真實品牌安全 | (6 月 22 日發行版本) 廣告商現在可以鎖定單一 DoubleVerify 區段 ID 預先出價，並利用完整的品牌安全篩選條件，透過 DoubleVerify 模擬其出價後封鎖規則。現在，只要到[!UICONTROL 「設定 > 廣告商」]中廣告商設定的「媒體品質」目標鎖定區段，就能執行相同操作。若要進一步了解此服務，請連絡 programmaticsales@doubleverify.com。此功能需額外付費使用。 |
+| CPA/ROAS 最佳化 | (5 月 20 日發行版本) 行銷活動管理員不再需要在套件中限制新刊登版位，以防止預算超額分配。刊登版位現在會根據其 CPM 或 CPA/ROAS 效能，接收動態預算分配。 |
 | [!UICONTROL Campaign] 首頁 | (6 月 3 日發行版本) 提供最新行銷活動層級步調量度，其依據為提供的行銷活動預算和經過的時間。 |
-| [!UICONTROL 版位] | （6月22日發行）已移除「網站多樣化」和「播放器大小」篩選，以簡化位置設定。 |
+| [!UICONTROL 版位] | (6 月 22 日發行版本) 移除「網站多樣性」和「播放器大小」篩選條件，簡化版位設定。 |
 | 刊登版位預測 | (6 月 3 日發行版本) 對於具有刊登版位 層級最佳化的 CTV 和視訊刊登版位 ，刊登版位設定現包含對多個廣告長度 (15 秒和 30 秒) 的預測。此外也有對 VAST 和 VPAID 庫存的預測。 |
-| [!UICONTROL 庫存] | （6月22日beta版）新的交易ID表單可讓您快速設定已談判的私人交易。 |
-|  | （6月22日測試版）互動式前期整合功能現在可供VAST庫存使用。 您可以設定單一互動式前段廣告和位置，減少廣告和位置的數量。 |
-| ACTV Audience Lens | （6月18日版本）觀眾鏡頭可讓使用者建立次要觀眾讀數，並將之套用至其規劃、訂購和報告工作流程。 這可讓他們(1)快速洞察次要受眾，(2)靈活處理偏好受眾，並(3)透過多個受眾的「鏡頭」評估促銷活動的執行。 |
+| [!UICONTROL 庫存] | (6 月 22 日測試版) 設立新的交易 ID 表單，讓您快速設定已商議完畢的私人交易。 |
+|  | (6 月 22 日測試版) 互動式前段廣告現在可適用於 VAST 庫存。您可以設定單一互動式前段廣告和刊登版位，減少廣告和刊登版位的數量。 |
+| ACTV Audience Lens | (6 月 18 日發行版本) Audience Lens 可讓使用者建立次要受眾讀數，並套用至規劃、訂購和報告工作流程。這可讓使用者 (1) 快速深入分析次要受眾，(2) 靈活處理偏好受眾，以及 (3) 透過多個受眾的「角度」評估行銷活動的執行成效。 |
 
 ### [!UICONTROL Advertising Cloud Search] 新功能 {#adcloud-search}
 
