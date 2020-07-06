@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bcf089494e56dd5ece46bd7575bf661e352dc9f0
+source-git-commit: d081c9c185e4709eb758c1562466af2f92af593e
 workflow-type: tm+mt
-source-wordcount: '7035'
+source-wordcount: '6998'
 ht-degree: 100%
 
 ---
@@ -183,12 +183,13 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 | 支援物件陣列 | 2020 年 6 月 18 日 | CJA 客戶現在可以針對 Adobe Experience Platform 資料集結構中物件陣列所含的維度和量度產生報表。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
 | 歸因 IQ：[!UICONTROL 演算法歸因] | 2020 年 6 月 18 日 | [!UICONTROL Analysis Workspace] 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。Adobe Analytics Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
 | 歸因 IQ：自訂回顧期間 | 2020 年 6 月 18 日 | 您現在可以在[!UICONTROL 歸因 IQ] 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/attribution/models.html) |
-| 支援[!UICONTROL 異常偵測] | 2020 年 6 月 18 日 | [!UICONTROL 「異常偵測」]提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
 | 共用[!UICONTROL 工作區]專案的專案角色 | 2020 年 6 月 18 日 | 共用[!UICONTROL 工作區]專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
 | 僅限檢視的[!UICONTROL 工作區]專案 | 2020 年 6 月 18 日 | [!UICONTROL 工作區]專案能僅以&#x200B;_[!UICONTROL 「可供檢視」]_狀態與使用者共用。「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
 | 可共同編輯[!UICONTROL 工作區]專案 | 2020 年 6 月 18 日 | 新增至&#x200B;_[!UICONTROL 「可編輯」]_角色的收件者可在已與他們共用的專案中進行儲存。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
 | [!UICONTROL 工作區]中的「快速深入分析」面板 | 2020 年 6 月 25 日 | 「快速深入分析」為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
 | [!UICONTROL 「Workspace 簡介」]頁面 | 2020 年 6 月 18 日 | [!UICONTROL 「Workspace 簡介」]頁面提供了 Analysis Workspace 環境和 Adobe Analytics 管理員 (如果您需要協助) 的相關資訊，以及產品內意見反應方法。此頁面位於&#x200B;**[!UICONTROL 「Workspace]** > **[!UICONTROL 說明]** > **[!UICONTROL Workspace 簡介」]**。 |
+
+<!-->Support for [!UICONTROL Anomaly Detection] - July ??, 2020 - [!UICONTROL Anomaly Detection] provides a statistical method to determine how a given metric has changed in relation to previous data. [Learn more...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)<-->
 
 ### [!UICONTROL Media Analytics] 的新功能{#media-aa}
 
@@ -340,10 +341,12 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
       * Cloud Manager 的增強自助服務沙箱支援，可讓有權使用的使用者刪除沙箱內的所有環境並獲得評分。
       * 自動休眠沙箱環境會在閒置一段時間後自動讓沙箱「休眠」。客戶可以主動觸發「解除休眠」。
    * 支援加速雲端化的轉換工具
+
    為了減少從內部部署轉換至雲端服務的時間和成本，我們在本月推出了兩項轉換工具。這些工具旨在讓轉換過程中的一些重要工作自動化，藉此降低減少整體工作負載。
 
    1. [使用內容移轉工具](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) (可在 SD 取得) 簡化內容移轉活動，並使其可擴充。此工具的 UI 簡單易用，可供要轉換至「AEM 雲端服務」的現有客戶和合作夥伴 (內部部署/AMS) 自助使用。
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (開放原始碼) 工具可讓 AMS Dispatcher 設定到雲端服務 Dispatcher 設定的轉換過程自動化。
+
    [AEM 雲端服務 2020.6.0 版發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    轉換工具：
@@ -463,7 +466,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | 網域移轉 | (6 月 22 日發行版本) Advertising Cloud DSP 已從 https://www.tubemogul.com 移轉至 [https://advertising.adobe.com](https://advertising.adobe.com)。 |
 | Adobe Analytics 整合 | (6 月 18 日發行版本) DSP 現在可選擇從傳送至 Analytics 的資料中隱藏「AMO 成本」量度。若要隱藏該量度，請連絡您的 Adobe 客戶經理。 |
 | 以人物為基礎的裝置圖表 | (6 月 22 日發行版本) 自助式 DSP 客戶現在可以運用裝置圖表 (Adobe Experience Cloud Device Co-op 或 LiveRamp)，針對任何新的行銷活動以人物為基礎鎖定受眾及管理頻率。這能確保您在受眾擁有的裝置上觸及目標對象，並限制其廣告曝光度。 |
-| CCPA 選擇退出銷售 | (6 月 22 日發行版本) 您現在可以使用新的 CCPA 選擇退出銷售區段 (從[!UICONTROL 「受眾 > 區段」]建立)，將 CCPA 選擇退出銷售的請求傳遞給 Advertising Cloud。此外，您也可以 a) 透過[!UICONTROL 「受眾 > 區段」]或 b) 使用 Advertising Cloud Trafficking API，依月份擷取客戶針對退出銷售請求所提交的 ID 報表。如需詳細資訊，請參閱 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html。 |
+| CCPA 選擇退出銷售 | (6 月 22 日發行版本) 您現在可以使用新的 CCPA 選擇退出銷售區段 (從[!UICONTROL 「受眾 > 區段」]建立)，將 CCPA 選擇退出銷售的請求傳遞給 Advertising Cloud。此外，您也可以 a) 透過[!UICONTROL 「受眾 > 區段」]或 b) 使用 Advertising Cloud Trafficking API，依月份擷取客戶針對退出銷售請求所提交的 ID 報表。如需詳細資訊，請參閱 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html |
 | DoubleVerify 真實品牌安全 | (6 月 22 日發行版本) 廣告商現在可以鎖定單一 DoubleVerify 區段 ID 預先出價，並利用完整的品牌安全篩選條件，透過 DoubleVerify 模擬其出價後封鎖規則。現在，只要到[!UICONTROL 「設定 > 廣告商」]中廣告商設定的「媒體品質」目標鎖定區段，就能執行相同操作。若要進一步了解此服務，請連絡 programmaticsales@doubleverify.com。此功能需額外付費使用。 |
 | CPA/ROAS 最佳化 | (5 月 20 日發行版本) 行銷活動管理員不再需要在套件中限制新刊登版位，以防止預算超額分配。刊登版位現在會根據其 CPM 或 CPA/ROAS 效能，接收動態預算分配。 |
 | [!UICONTROL Campaign] 首頁 | (6 月 3 日發行版本) 提供最新行銷活動層級步調量度，其依據為提供的行銷活動預算和經過的時間。 |
