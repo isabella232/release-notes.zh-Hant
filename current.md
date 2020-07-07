@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 發行說明
 doc-type: release notes
 last-update: June 2020
 author: mfrei
-translation-type: ht
-source-git-commit: d081c9c185e4709eb758c1562466af2f92af593e
-workflow-type: ht
-source-wordcount: '6998'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: efd848cda1046613c889825fff57b868b67e1c80
+workflow-type: tm+mt
+source-wordcount: '7021'
+ht-degree: 99%
 
 ---
 
@@ -251,6 +251,10 @@ Analytics 和 Customer Journey Analytics 的最新課程、教學課程影片和
 | [Adobe Analytics 儀表板計分卡產生器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | 教學課程影片 | 此影片可讓您了解如何在 [!UICONTROL Analysis Workspace] 中建立和共用[!UICONTROL 計分卡]，以便透過 Adobe Analytics 儀表板 (行動應用程式) 檢視。 |
 | [Adobe Analytics 儀表板應用程式內體驗](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | 教學課程影片 | 此影片可讓您了解如何使用 Adobe Analytics 儀表板 (行動應用程式) 存取及檢視您所建立或與您共用的[!UICONTROL 記分卡]。 |
 
+#### AppMeasurement {#appm}
+
+如需AppMeasurement發行的最新更新，請參閱「 [JavaScript適用的AppMeasurement」發行說明](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/appmeasurement-updates.html)。
+
 #### Analytics 說明資源
 
 * [Adobe Analytics 教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)
@@ -465,7 +469,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | -----------| ---------- |
 | 網域移轉 | (6 月 22 日發行版本) Advertising Cloud DSP 已從 https://www.tubemogul.com 移轉至 [https://advertising.adobe.com](https://advertising.adobe.com)。 |
 | Adobe Analytics 整合 | (6 月 18 日發行版本) DSP 現在可選擇從傳送至 Analytics 的資料中隱藏「AMO 成本」量度。若要隱藏該量度，請連絡您的 Adobe 客戶經理。 |
-| 以人物為基礎的裝置圖表 | (6 月 22 日發行版本) 自助式 DSP 客戶現在可以運用裝置圖表 (Adobe Experience Cloud Device Co-op 或 LiveRamp)，針對任何新的行銷活動以人物為基礎鎖定受眾及管理頻率。這能確保您在受眾擁有的裝置上觸及目標對象，並限制其廣告曝光度。 |
+| 以人為本的裝置圖表 | (6 月 22 日發行版本) 自助式 DSP 客戶現在可以運用裝置圖表 (Adobe Experience Cloud Device Co-op 或 LiveRamp)，針對任何新的行銷活動以人物為基礎鎖定受眾及管理頻率。這能確保您在受眾擁有的裝置上觸及目標對象，並限制其廣告曝光度。 |
 | CCPA 選擇退出銷售 | (6 月 22 日發行版本) 您現在可以使用新的 CCPA 選擇退出銷售區段 (從[!UICONTROL 「受眾 > 區段」]建立)，將 CCPA 選擇退出銷售的請求傳遞給 Advertising Cloud。此外，您也可以 a) 透過[!UICONTROL 「受眾 > 區段」]或 b) 使用 Advertising Cloud Trafficking API，依月份擷取客戶針對退出銷售請求所提交的 ID 報表。如需詳細資訊，請參閱 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html |
 | DoubleVerify 真實品牌安全 | (6 月 22 日發行版本) 廣告商現在可以鎖定單一 DoubleVerify 區段 ID 預先出價，並利用完整的品牌安全篩選條件，透過 DoubleVerify 模擬其出價後封鎖規則。現在，只要到[!UICONTROL 「設定 > 廣告商」]中廣告商設定的「媒體品質」目標鎖定區段，就能執行相同操作。若要進一步了解此服務，請連絡 programmaticsales@doubleverify.com。此功能需額外付費使用。 |
 | CPA/ROAS 最佳化 | (5 月 20 日發行版本) 行銷活動管理員不再需要在套件中限制新刊登版位，以防止預算超額分配。刊登版位現在會根據其 CPM 或 CPA/ROAS 效能，接收動態預算分配。 |
