@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c6a73c783440eeeedcb612a1ea898271766684b0
+source-git-commit: 65fea3351137d311bbda846058bea34284b0054e
 workflow-type: tm+mt
-source-wordcount: '4154'
-ht-degree: 59%
+source-wordcount: '4205'
+ht-degree: 60%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 59%
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
+* [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和客 [戶歷程分析](#cust-journey)
 * [Audience Manager](#aam)
@@ -110,6 +111,14 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 >[!NOTE]
 >
 >[!UICONTROL Marketing Cloud Assets] 選取器中的舊版篩選器&#x200B;**[!UICONTROL 「展示板和系列」]**&#x200B;即將終止服務。
+
+## ![圖示](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
+
+[!DNL Experience Platform] 和應用程式服務的發行說明，內容包括 [!DNL Experience Platform Launch,] [!UICONTROL Offers]、[!UICONTROL People]、[!UICONTROL Places]、[!UICONTROL Mobile Services]、安全性公告。
+
+未更新最新發行日期： **2020年6月10日**
+
+如需 [Experience Platform的最新資訊](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md) ，請參閱Experience Platform發行說明。
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
