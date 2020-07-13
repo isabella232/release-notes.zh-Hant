@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 19591a3d807cd772df0eb20e457d94cc9f7d5cfb
+source-git-commit: 5022132f52411a07b6e91a8bc0d8da400464c143
 workflow-type: tm+mt
-source-wordcount: '4203'
-ht-degree: 60%
+source-wordcount: '4281'
+ht-degree: 59%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 60%
 
 產品的發行日期可能不盡相同。請時常回訪以取得更新內容。
 
-最新更新： **2020年7月10日**
+最新更新： **2020年7月13日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和客 [戶歷程分析](#cust-journey)
+* [Analytics](#analytics) 和 [客戶歷程分析](#cust-journey) （2020年7月13日更新）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [行銷活動](#ac)
@@ -136,7 +136,7 @@ Latest release date: **June 10, 2020**
 * [Customer Journey Analytics 的新功能](#cust-journey)
 * [Media Analytics 的新功能](#media-aa)
 * [Adobe Analytics 的修正項目](#aa-fixes)
-* [給 Analytics 管理員的重要通知](#aa-notices)
+* [給 Analytics 管理員的重要通知](#aa-notices) (更新日期：2020 年 7 月 13 日)
 * [最新 Adobe Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -184,6 +184,7 @@ AN-222672、AN-222813; AN-222892; AN-223272,AN-223432; AN-224062; AN-224108; AN-
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
+| 生命週期結束： Adobe資料連接器 | 2020年7月13日 | Adobe Data Connectors採用已不再可行或不受支援的舊式技術。 我們在 [Adobe Exchange合作夥伴計畫中有一項新標準](https://partners.adobe.com/exchangeprogram/experiencecloud) ，對於任何希望繼續提供和支援的整合，都應採用此標準。 正式的終止日期仍有待確定，但我們預計未來12-18個月（2021年中至2021年底）將終止。 |
 | 報表套裝對應至IMS組織 | 2020 年 7 月 | 報表套裝對應工具將於2020年11月中止。 此功能可促進整合，例如Adobe Analytics中的Advertising Analytics和Experience Cloud細分發佈。 報表套裝必須對應至IMS組織，才能啟用這些和其他服務。 較新的報表套裝會在建立時自動對應。 不過，舊版報表套裝必須手動對應至IMS組織。 請參 [閱核心服務使用指南中的](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html) 「將報表套裝對應至組織」，以確定所有報表套裝都屬於IMS組織。 |
 | 移轉至統一的產品網域 | 生效日期：2020 年 5 月 28 日 | 從 2020 年 1 月開始，Adobe Analytics 就開始移轉至統一的產品網域，相關作業已於 2020 年 5 月 28 日完成。雖然 Adobe Analytics 已著手從架構中移除所有 `omniture.com` 網域參考，但請務必將 `omniture.com` 放入協力廠商 Cookie 允許清單。完整架構即將移轉完成，作業完成後我們會透過發行說明通知您，到時您就不需再執行此允許清單步驟。請參閱這份建議 IP 位址和網域的[完整清單](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)，這些位址和網域均應列入允許清單。<br>如果貴組織封鎖第三方 Cookie，請洽詢客戶服務人員，以重新取得 Adobe Analytics 的存取權限。 |
 | 全新 Adobe Analytics 預設登陸頁面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日起，Adobe Analytics 的預設登陸頁面將從[!UICONTROL 報告]變更為[!UICONTROL 工作區]。未設定自訂登陸頁面的使用者，將一律適用此變更。 |
