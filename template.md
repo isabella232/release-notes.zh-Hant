@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b99aa5d06316964f374b99547215643ad8208bbf
+source-git-commit: bd027ba7bbbfd6c8e510b48e4e0fff9168403da8
 workflow-type: tm+mt
 source-wordcount: '2537'
 ht-degree: 97%
@@ -20,12 +20,12 @@ ht-degree: 97%
 Adobe Experience Cloud 的新功能及修正項目。
 
 >[!IMPORTANT]
->>此頁面含有搶先版內容，於預計發行前可能會有所變更。
-
+>
+>此頁面含有搶先版內容，於預計發行前可能會有所變更。
 
 >[!NOTE]
->>訂閱 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。產品發行後才發佈的新資訊皆會標示發佈日期。
-
+>
+>訂閱 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。產品發行後才發佈的新資訊皆會標示發佈日期。
 
 **發行日期：2020 年**
 
@@ -35,7 +35,7 @@ Adobe Experience Cloud 的新功能及修正項目。
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [促銷活動](#ac)
+* [行銷活動](#ac)
 * [Target](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html) （解決方案說明的連結）
 * [Advertising Cloud](#adcloud)
 * [Magento](#magento)
@@ -317,7 +317,7 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 
 | 功能 | 說明 |
 |------|---------|
-| [!DNL Bizible] | <ul><li>全新的帳戶型分段</li><li>儲存控制面板專有的篩選器</li><li>將 Bizible 控制面板匯出為 PDF</li></ul> |
+| [!DNL Bizible] | <ul><li>全新的帳戶型細分</li><li>儲存儀表板專有的篩選器</li><li>將 Bizible 儀表板匯出為 PDF</li></ul> |
 | Sales Connect | Compose Window 和 Command Center 更新/增強功能 |
 
 ### 公告
