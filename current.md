@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2de2c1053df1b2e243efc3e918c0cc27612d040b
+source-git-commit: 079138eeaeb4a61ab892abaff66b15d51b751bf4
 workflow-type: tm+mt
-source-wordcount: '4292'
+source-wordcount: '4321'
 ht-degree: 58%
 
 ---
@@ -175,6 +175,7 @@ Latest release date: **June 10, 2020**
 * 修正「智慧型警 [!UICONTROL 報」中] ,「選擇退出此排 __ 程」電子郵件連結無法運作的問題。 (AN-223875)
 * 修正虛擬報表套裝顯示錯誤貨幣的問題。 (AN-224781)
 * 修正虛擬報表套 _裝中遺失元件_ 錯誤的問題。 (AN-224782)
+* 修正當與具有參與率配置集的計算量度搭配使用時，將維度分類劃分為另一個維度可能會傳回空白結果的問題。 (AN-214089)
 
 #### 其他 Adobe Analytics 修正項目
 
@@ -184,7 +185,7 @@ AN-222672、AN-222813; AN-222892; AN-223272,AN-223432; AN-224062; AN-224108; AN-
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 生命週期結束： Adobe資料連接器 | 2020 年 7 月 13 日 | Adobe Data Connectors採用已不再可行或不受支援的舊式技術。 我們在 [Adobe Exchange合作夥伴計畫中有一項新標準](https://partners.adobe.com/exchangeprogram/experiencecloud) ，對於任何希望繼續提供和支援的整合，都應採用此標準。 正式的終止日期仍有待確定，但我們預計未來12-18個月（2021年中至2021年底）將終止。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/data-connectors-eol.html) |
+| Adobe Data Connectors的EOL | 2020 年 7 月 13 日 | Adobe Data Connectors採用已不再可行或不受支援的舊式技術。 我們在 [Adobe Exchange合作夥伴計畫中有一項新標準](https://partners.adobe.com/exchangeprogram/experiencecloud) ，對於任何希望繼續提供和支援的整合，都應採用此標準。 正式的終止日期仍有待確定，但我們預計未來12-18個月（2021年中至2021年底）將終止。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/data-connectors-eol.html) |
 | 報表套裝對應至IMS組織 | 2020 年 7 月 | 報表套裝對應工具將於2020年11月中止。 此功能可促進整合，例如Adobe Analytics中的Advertising Analytics和Experience Cloud細分發佈。 報表套裝必須對應至IMS組織，才能啟用這些和其他服務。 較新的報表套裝會在建立時自動對應。 不過，舊版報表套裝必須手動對應至IMS組織。 請參 [閱核心服務使用指南中的](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html) 「將報表套裝對應至組織」，以確定所有報表套裝都屬於IMS組織。 |
 | 移轉至統一的產品網域 | 生效日期：2020 年 5 月 28 日 | 從 2020 年 1 月開始，Adobe Analytics 就開始移轉至統一的產品網域，相關作業已於 2020 年 5 月 28 日完成。雖然 Adobe Analytics 已著手從架構中移除所有 `omniture.com` 網域參考，但請務必將 `omniture.com` 放入協力廠商 Cookie 允許清單。完整架構即將移轉完成，作業完成後我們會透過發行說明通知您，到時您就不需再執行此允許清單步驟。請參閱這份建議 IP 位址和網域的[完整清單](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)，這些位址和網域均應列入允許清單。<br>如果貴組織封鎖第三方 Cookie，請洽詢客戶服務人員，以重新取得 Adobe Analytics 的存取權限。 |
 | 全新 Adobe Analytics 預設登陸頁面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日起，Adobe Analytics 的預設登陸頁面將從[!UICONTROL 報告]變更為[!UICONTROL 工作區]。未設定自訂登陸頁面的使用者，將一律適用此變更。 |
@@ -192,7 +193,7 @@ AN-222672、AN-222813; AN-222892; AN-223272,AN-223432; AN-224062; AN-224108; AN-
 | 改善 [!UICONTROL Analysis Workspace] 可用性的備援 | 2020 年 5 月 21 日 | 為確保 [!UICONTROL Analysis Workspace] 的可用性，我們新增次要 CDN (內容傳遞網路) 以改善備援。應將下列 URL 新增至任何必要的網路防火牆允許清單：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | 變更[!UICONTROL 工作區]計算[!UICONTROL 輸入/結束]次數的方式 | 2020 年 4 月 7 日 | 自 2020 年 3 月起，[!UICONTROL Analysis Workspace] 已變更&#x200B;_「無」_&#x200B;值與[!UICONTROL 輸入/結束]動作的互動方式。由於您現在可以在 [!UICONTROL Analysis Workspace] 中開啟或關閉&#x200B;_「無」_，因此我們會在使用者輸入或結束後套用&#x200B;_「無」_，但 (eVars) 以往都是在輸入或結束之前就先套用。例如，假設造訪事件的第一次點擊未輸入 eVars 的值，但第二次點擊則有輸入。在 [!UICONTROL Reports &amp; Analytics] 中，第一次點擊的輸入會顯示為&#x200B;_「未指定」_，但在 [!UICONTROL Analysis Workspace] 中則會顯示第二次點擊的值。 |
 | **[!UICONTROL 控制面板封存]**&#x200B;確定汰除 | 2020 年 3 月 27 日 | 自 2020 年 10 月起，[!UICONTROL Reports &amp; Analytics] 中&#x200B;**[!UICONTROL 「管理控制面板」]**&#x200B;底下的&#x200B;**[!UICONTROL 「檢視封存」]**&#x200B;設定將不再提供使用。 |
-| 終止服務 - Analytics Legacy API | 2020 年 1 月 9 日 | 自 2020 年 11 月起，下列 Analytics Legacy API 服務將終止並關閉。透過這些服務建立的整合應用將會停止運作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
+| Analytics舊版API的EOL | 2020 年 1 月 9 日 | 自 2020 年 11 月起，下列 Analytics Legacy API 服務將終止並關閉。透過這些服務建立的整合應用將會停止運作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
 | San Jose FTP Broker 結束倫敦和新加坡的業務 | 2020 年 7 月 | 若為倫敦和新加坡的客戶，我們將不再於倫敦或新加坡與聖荷西資料中心 [ftp.omniture.com](ftp://ftp.omniture.com/) 之間支援資料代理。<br/><ul><li>如果您是在倫敦，請使用 [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>如果您是在新加坡，請使用 [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
 | 終止 Ad Hoc Analysis 服務 | 2018 年 8 月 6 日 | Adobe 已宣佈有意終止 Ad Hoc Analysis 服務。我們將會在確定後公佈服務終止日期。如需詳細資訊，請造訪[探索工作區](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 
