@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: fbe2b9ebb091c2898c97a205fcee480143f540e4
+source-git-commit: 2de2c1053df1b2e243efc3e918c0cc27612d040b
 workflow-type: tm+mt
 source-wordcount: '4292'
 ht-degree: 58%
@@ -184,7 +184,7 @@ AN-222672、AN-222813; AN-222892; AN-223272,AN-223432; AN-224062; AN-224108; AN-
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| 生命週期結束： Adobe資料連接器 | 2020年7月13日 | Adobe Data Connectors採用已不再可行或不受支援的舊式技術。 我們在 [Adobe Exchange合作夥伴計畫中有一項新標準](https://partners.adobe.com/exchangeprogram/experiencecloud) ，對於任何希望繼續提供和支援的整合，都應採用此標準。 正式的終止日期仍有待確定，但我們預計未來12-18個月（2021年中至2021年底）將終止。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/data-connectors-eol.md) |
+| 生命週期結束： Adobe資料連接器 | 2020 年 7 月 13 日 | Adobe Data Connectors採用已不再可行或不受支援的舊式技術。 我們在 [Adobe Exchange合作夥伴計畫中有一項新標準](https://partners.adobe.com/exchangeprogram/experiencecloud) ，對於任何希望繼續提供和支援的整合，都應採用此標準。 正式的終止日期仍有待確定，但我們預計未來12-18個月（2021年中至2021年底）將終止。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/data-connectors-eol.html) |
 | 報表套裝對應至IMS組織 | 2020 年 7 月 | 報表套裝對應工具將於2020年11月中止。 此功能可促進整合，例如Adobe Analytics中的Advertising Analytics和Experience Cloud細分發佈。 報表套裝必須對應至IMS組織，才能啟用這些和其他服務。 較新的報表套裝會在建立時自動對應。 不過，舊版報表套裝必須手動對應至IMS組織。 請參 [閱核心服務使用指南中的](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html) 「將報表套裝對應至組織」，以確定所有報表套裝都屬於IMS組織。 |
 | 移轉至統一的產品網域 | 生效日期：2020 年 5 月 28 日 | 從 2020 年 1 月開始，Adobe Analytics 就開始移轉至統一的產品網域，相關作業已於 2020 年 5 月 28 日完成。雖然 Adobe Analytics 已著手從架構中移除所有 `omniture.com` 網域參考，但請務必將 `omniture.com` 放入協力廠商 Cookie 允許清單。完整架構即將移轉完成，作業完成後我們會透過發行說明通知您，到時您就不需再執行此允許清單步驟。請參閱這份建議 IP 位址和網域的[完整清單](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)，這些位址和網域均應列入允許清單。<br>如果貴組織封鎖第三方 Cookie，請洽詢客戶服務人員，以重新取得 Adobe Analytics 的存取權限。 |
 | 全新 Adobe Analytics 預設登陸頁面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日起，Adobe Analytics 的預設登陸頁面將從[!UICONTROL 報告]變更為[!UICONTROL 工作區]。未設定自訂登陸頁面的使用者，將一律適用此變更。 |
@@ -238,7 +238,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
    AEM 6.5和AEM中的Dynamic Media（雲端服務）現在可讓您上傳、管理、檢視和傳遞3D資產，成為身歷其境的體驗。
 
    * 在AEM as a Cloud Service，請參閱「在 [動態媒體中使用3D資產」。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/assets-3d.html)
-   * 在AEM 6.5中，請參閱「在 [動態媒體中使用3D資產」。](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/assets-3d.html)
+   * In AEM 6.5, see [Working with 3D assets in Dynamic Media.](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/assets-3d.html)
 
 ### 自助資源
 
