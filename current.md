@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 079138eeaeb4a61ab892abaff66b15d51b751bf4
+source-git-commit: 985ec5f911f0cfa433e12abb5e55724dbecadb2e
 workflow-type: tm+mt
-source-wordcount: '4321'
-ht-degree: 58%
+source-wordcount: '4373'
+ht-degree: 57%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 58%
 
 產品的發行日期可能不盡相同。請時常回訪以取得更新內容。
 
-最新更新： **2020年7月13日**
+最新更新： **2020年7月14日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [客戶歷程分析](#cust-journey) （2020年7月13日更新）
+* [Analytics](#analytics) 和 [客戶歷程分析](#cust-journey) （2020年7月14日更新）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [行銷活動](#ac)
@@ -145,7 +145,7 @@ Latest release date: **June 10, 2020**
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-------|
 | 工作區： 新的日期範圍預設集 | 新增4個新的日期範圍(_本週／月/季／年_ （除今天外）)，讓使用者可以從不包含今天部分日期資料的日期範圍中選擇。 |
-| 資料修復API —— 公開測試版 | 「資料修復API」提供自助選項，讓客戶刪除Adobe Analytics資料的欄。 發行公開測試版後，API將支援刪除Activity Map資料。 稍後將推出其他功能。 請連絡客戶服務以取得此API的存取權。 |
+| 資料修復API —— 公開測試版(更新 **2020年7月14日**) | 「資料修復API」提供您刪除或編輯特定現有Adobe Analytics資料的機制。 「資料修復」要求是透過將工作定義提交至「資料修復API」來提出，此API包括要套用至資料的報表套裝、日期範圍、變數和動作。 在公開測試版開始後，資料修復API將支援刪除Activity Map資料。 稍後將推出其他功能。 請連絡客戶服務以加入Data Repair API公開測試版。 [更多詳情...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
 ### Customer Journey Analytics 的新功能 {#cust-journey}
 
