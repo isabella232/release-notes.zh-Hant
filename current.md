@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3947290a3d13ab4cef1d6d9ec639fa70a250c36a
+source-git-commit: bfcc23bd8eaf02956fd2dacf711ce774d6bddb85
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 99%
@@ -187,7 +187,7 @@ AN-222672、AN-222813、AN-222892、AN-223272、AN-223432、AN-224062、AN-22410
 | 移轉至統一的產品網域 | 生效日期：2020 年 5 月 28 日 | 從 2020 年 1 月開始，Adobe Analytics 就開始移轉至統一的產品網域，相關作業已於 2020 年 5 月 28 日完成。雖然 Adobe Analytics 已著手從架構中移除所有 `omniture.com` 網域參考，但請務必將 `omniture.com` 放入協力廠商 Cookie 允許清單。完整架構即將移轉完成，作業完成後我們會透過發行說明通知您，到時您就不需再執行此允許清單步驟。請參閱這份建議 IP 位址和網域的[完整清單](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)，這些位址和網域均應列入允許清單。<br>如果貴組織封鎖第三方 Cookie，請洽詢客戶服務人員，以重新取得 Adobe Analytics 的存取權限。 |
 | 全新 Adobe Analytics 預設登陸頁面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日起，Adobe Analytics 的預設登陸頁面將從[!UICONTROL 報告]變更為[!UICONTROL 工作區]。未設定自訂登陸頁面的使用者，將一律適用此變更。 |
 | 協力廠商技術允許清單 | 2020 年 3 月 12 日 (生效日期) | Adobe Analytics 已開始運用協力廠商技術進行功能推出管理和產品內支援。下列 URL 應新增至任何必要的網路防火牆允許清單，確保完整的功能存取權限：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
-| 改善 [!UICONTROL Analysis Workspace] 可用性的備援 | 2020 年 5 月 21 日 | 為確保 [!UICONTROL Analysis Workspace] 的可用性，我們新增次要 CDN (內容傳遞網路) 以改善備援。應將下列 URL 新增至任何必要的網路防火牆允許清單：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
+| 改善 [!UICONTROL Analysis Workspace] 可用性的備援 | 2020 年 5 月 21 日 | 為確保 [!UICONTROL Analysis Workspace] 的可用性，我們新增次要 CDN (內容傳遞網路) 以改善備援。應將下列 URL 新增至任何必要的網路防火牆允許清單：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws.com</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | 變更[!UICONTROL 工作區]計算[!UICONTROL 輸入/結束]次數的方式 | 2020 年 4 月 7 日 | 自 2020 年 3 月起，[!UICONTROL Analysis Workspace] 已變更&#x200B;_「無」_&#x200B;值與[!UICONTROL 輸入/結束]動作的互動方式。由於您現在可以在 [!UICONTROL Analysis Workspace] 中開啟或關閉&#x200B;_「無」_，因此我們會在使用者輸入或結束後套用&#x200B;_「無」_，但 (eVars) 以往都是在輸入或結束之前就先套用。例如，假設造訪事件的第一次點擊未輸入 eVars 的值，但第二次點擊則有輸入。在 [!UICONTROL Reports &amp; Analytics] 中，第一次點擊的輸入會顯示為&#x200B;_「未指定」_，但在 [!UICONTROL Analysis Workspace] 中則會顯示第二次點擊的值。 |
 | **[!UICONTROL 控制面板封存]**&#x200B;確定汰除 | 2020 年 3 月 27 日 | 自 2020 年 10 月起，[!UICONTROL Reports &amp; Analytics] 中&#x200B;**[!UICONTROL 「管理控制面板」]**&#x200B;底下的&#x200B;**[!UICONTROL 「檢視封存」]**&#x200B;設定將不再提供使用。 |
 | Analytics Legacy API 終止服務 | 2020 年 1 月 9 日 | 自 2020 年 11 月起，下列 Analytics Legacy API 服務將終止並關閉。透過這些服務建立的整合應用將會停止運作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
