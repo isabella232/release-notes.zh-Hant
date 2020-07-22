@@ -140,7 +140,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-------|
-| CDA: 現場拼接 | 2020 年 7 月 27 日 | 跨裝置分析的新方法，可讓您使用自訂變數來協助識別訪客。 |
+| CDA：依欄位彙整 | 2020 年 7 月 27 日 | 提供跨裝置分析的新方法，讓您能使用自訂變數來協助識別訪客。 |
 | 工作區：新增日期範圍預設集 | 2020 年 7 月 16 日 | 新增 4 個新的日期範圍 (_本週/本月/本季/今年_ (排除今日))，供使用者選擇未包括今日部分資料的日期範圍。 |
 | 資料修復 API 公開測試版 | 2020 年 7 月 14 日 | [!UICONTROL 資料修復 API] 提供刪除或編輯現有特定 Adobe Analytics 資料的機制。[!UICONTROL 資料修復]請求是透過將工作定義提交給[!UICONTROL 資料修復 API] (包括套用至資料的報表套裝、日期範圍、變數和動作) 而成立。公開測試版發佈後，[!UICONTROL 資料修復 API] 將可支援刪除 [!UICONTROL Activity Map] 資料。其他功能將會陸續推出。請連絡客戶服務人員，以試用資料修復 API 公開測試版。[更多詳情...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
