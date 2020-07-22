@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bfcc23bd8eaf02956fd2dacf711ce774d6bddb85
+source-git-commit: 07dd75d1b05e0768cf41934eaf40b5460ca85696
 workflow-type: tm+mt
-source-wordcount: '4377'
+source-wordcount: '4388'
 ht-degree: 99%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 99%
 
 產品的發行日期可能不盡相同。請時常回訪以取得更新內容。
 
-最近更新日期：**2020 年 7 月 14 日**
+最近更新日期：**2020 年 7 月 21 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：2020 年 7 月 14 日)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：2020 年 7 月 21 日)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [行銷活動](#ac)
@@ -128,11 +128,11 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 發行日期：**2020 年 7 月 16 日**
 
-* [Adobe Analytics 的新功能](#aa-features)
+* [Adobe Analytics的新功能](#aa-features) （2020年7月21日更新）
 * [Customer Journey Analytics 的新功能](#cust-journey)
 * [Media Analytics 的新功能](#media-aa)
 * [Adobe Analytics 的修正項目](#aa-fixes)
-* [給 Analytics 管理員的重要通知](#aa-notices) (更新日期：2020 年 7 月 13 日)
+* [給 Analytics 管理員的重要通知](#aa-notices)
 * [最新 Adobe Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -140,7 +140,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-------|
-| CDA：依欄位彙整 | 2020 年 7 月 27 日 | 提供跨裝置分析的新方法，讓您能使用自訂變數來協助識別訪客。 |
+| CDA：依欄位彙整 | 2020 年 7 月 27 日 | 提供跨裝置分析的新方法，讓您能使用自訂變數來協助識別訪客。&lt;!-->[更多詳情...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html)&lt;--> |
 | 工作區：新增日期範圍預設集 | 2020 年 7 月 16 日 | 新增 4 個新的日期範圍 (_本週/本月/本季/今年_ (排除今日))，供使用者選擇未包括今日部分資料的日期範圍。 |
 | 資料修復 API 公開測試版 | 2020 年 7 月 14 日 | [!UICONTROL 資料修復 API] 提供刪除或編輯現有特定 Adobe Analytics 資料的機制。[!UICONTROL 資料修復]請求是透過將工作定義提交給[!UICONTROL 資料修復 API] (包括套用至資料的報表套裝、日期範圍、變數和動作) 而成立。公開測試版發佈後，[!UICONTROL 資料修復 API] 將可支援刪除 [!UICONTROL Activity Map] 資料。其他功能將會陸續推出。請連絡客戶服務人員，以試用資料修復 API 公開測試版。[更多詳情...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
