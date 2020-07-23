@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 07dd75d1b05e0768cf41934eaf40b5460ca85696
 workflow-type: tm+mt
 source-wordcount: '4388'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 發行日期：**2020 年 7 月 16 日**
 
-* [Adobe Analytics的新功能](#aa-features) （2020年7月21日更新）
+* [Adobe Analytics 的新功能](#aa-features) (2020 年 7 月 21 日更新)
 * [Customer Journey Analytics 的新功能](#cust-journey)
 * [Media Analytics 的新功能](#media-aa)
 * [Adobe Analytics 的修正項目](#aa-fixes)
