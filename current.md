@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 07dd75d1b05e0768cf41934eaf40b5460ca85696
+source-git-commit: 9f46f208d31ffea1d637bcffb02d869eb0f29974
 workflow-type: tm+mt
-source-wordcount: '4388'
-ht-degree: 100%
+source-wordcount: '4563'
+ht-degree: 96%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 100%
 最近更新日期：**2020 年 7 月 21 日**
 
 * [Adobe 系統狀態](#status)
-* [Experience Cloud 介面](#ecloud)
+* [Experience Cloud 介面](#ecloud) (更新日期：2020 年 7 月 27 日)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：2020 年 7 月 21 日)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem)
+* [Experience Manager](#aem) （更新日期：2020年7月27日）
 * [行銷活動](#ac)
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html)
@@ -66,6 +66,14 @@ ht-degree: 100%
 ## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 介面 {#ecloud}
 
 Experience Cloud 介面的一般更新。
+
+### Adobe Summit Lab的新檔案
+
+2020年從Adobe Summit labs發佈的新內容。
+
+| 已發佈 | 名稱 | 類型 | 說明 |
+| -----------| ---------- | ---------- | ---------- |
+| 2020 年 7 月 27 日 | [使用Adobe Document Cloud釋放數位體驗](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | 文章 | 在本實驗中，透過學習如何數位化並運用PDF做更多事，將您的生產力和創意提升到新的境界，並轉變客戶和員工體驗。 |
 
 **介面功能表更新**
 
@@ -267,6 +275,8 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 7 月 27 日 | [圖樣偵測](https://docs.adobe.com/content/help/en/experience-manager-pattern-detection/table-of-contents/aso.html) | 參考 | 僅在Experience Manager升 `upgrade.log` 級期間提供。 |
+| 2020 年 7 月 27 日 | [Software Distribution](https://docs.adobe.com/content/help/zh-Hant/experience-cloud/software-distribution/home.html) | 文章 | As of June 2020, the Experience Cloud solution Software Distribution replaces the download platforms [!UICONTROL PackageShare] for AEM and [!DNL Neolane] for [!DNL Campaign] and provides a more efficient experience to find and download your software. 直覺的使用者介面、簡化的搜尋功能，以及大幅提升的下載速度，讓您在下載 Experience Cloud 產品的軟體套件時，能享有絕佳的使用體驗。 |
 | 2020 年 6 月 25 日 | [Adaptive Forms 快速入門](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 此教學課程會帶您了解如何逐步建立內含多個分頁的適應性表單。了解如何使用表格、accordion 版面配置和規則編輯器來編寫業務規則。 |
 | 2020 年 6 月 25 日 | [以 AEM Forms 建立審核工作流程](https://video.tv.adobe.com/v/35821/quality=9?captions=chi_hant) | 影片 | 了解如何以作用中的表格提交功能，建立提交資料的審核工作流程。 |
 | 2020 年 6 月 23 日 | [處理設定檔](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/processing-profiles.html) | 影片 | 處理設定檔能針對在 AEM 雲端服務中所建立資產，定義轉譯作業。 |
@@ -370,7 +380,9 @@ Adobe Advertising Cloud 發行說明。
 
 ### Marketo Engage 核心更新
 
-如需最新版本的資訊，請參閱 [!DNL Marketo] [發行說明](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)。
+Marketo Sky的 [!UICONTROL 檔案現已在] Here上發 [布](https://docs.adobe.com/content/help/en/marketo/sky/home.html)。
+
+如需最新版本的資訊，請參閱 [!DNL Marketo] [發行說明](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720)。
 
 ### 即將推出的功能
 
