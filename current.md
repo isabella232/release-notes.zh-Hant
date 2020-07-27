@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9f46f208d31ffea1d637bcffb02d869eb0f29974
+source-git-commit: 6f1be637b529833baf987c4727ec2d7e4980b779
 workflow-type: tm+mt
-source-wordcount: '4563'
+source-wordcount: '4561'
 ht-degree: 96%
 
 ---
@@ -380,8 +380,6 @@ Adobe Advertising Cloud 發行說明。
 
 ### Marketo Engage 核心更新
 
-Marketo Sky的 [!UICONTROL 檔案現已在] Here上發 [布](https://docs.adobe.com/content/help/en/marketo/sky/home.html)。
-
 如需最新版本的資訊，請參閱 [!DNL Marketo] [發行說明](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720)。
 
 ### 即將推出的功能
@@ -401,5 +399,9 @@ Marketo Sky的 [!UICONTROL 檔案現已在] Here上發 [布](https://docs.adobe.
 
 * **資產 API「_method」參數：** 2020 年 9 月後，資產 API 端點將不再接受於 POST 主體中使用 `_method` 傳遞查詢參數，以略過 URI 長度限制。
 * **Internet Explorer 支援淘汰：**&#x200B;從 2020 年 7 月 31 日推出的七月版開始，Marketo Engage 使用者介面將不再支援 Internet Explorer。
+
+>[!NOTE]
+>
+>這裡提供 [!UICONTROL Marketo Sky] 介面的說 [明檔案](https://docs.adobe.com/content/help/en/marketo/sky/home.html)。
 
 如需彙整資料和過往的發行說明，請參閱 [Marketo 發行說明](https://docs.marketo.com/x/CgA6Ag)。
