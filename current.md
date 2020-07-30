@@ -30,10 +30,10 @@ ht-degree: 98%
 最近更新日期：**2020 年 7 月 29 日**
 
 * [Adobe 系統狀態](#status)
-* [Experience Cloud 介面](#ecloud) (更新日期：2020 年 7 月 27 日)
+* [Experience Cloud 介面](#ecloud) (更新日期：2020 年 7 月 27 日)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：2020 年 7 月 29 日)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：2020 年 7 月 29 日)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (更新日期：2020 年 7 月 27 日)
 * [行銷活動](#ac)
@@ -397,10 +397,10 @@ Adobe Advertising Cloud 發行說明。
 ### 淘汰
 
 * **資產 API「_method」參數：** 2020 年 9 月後，資產 API 端點將不再接受於 POST 主體中使用 `_method` 傳遞查詢參數，以略過 URI 長度限制。
-* **Internet Explorer 支援淘汰：**&#x200B;從 2020 年 7 月 31 日推出的七月版開始，Marketo Engage 使用者介面將不再支援 Internet Explorer。
+* **停止支援 Internet Explorer：**&#x200B;自 2020 年 7 月 31 日推出的版本開始，Marketo Engage 使用者介面將不再支援 Internet Explorer。
 
 >[!NOTE]
 >
->這裡提供 [!UICONTROL Marketo Sky] 介面的說 [明檔案](https://docs.adobe.com/content/help/en/marketo/sky/home.html)。
+>若需 [!UICONTROL Marketo Sky] 介面的相關說明，請前往[此處](https://docs.adobe.com/content/help/en/marketo/sky/home.html)。
 
 如需彙整資料和過往的發行說明，請參閱 [Marketo 發行說明](https://docs.marketo.com/x/CgA6Ag)。
