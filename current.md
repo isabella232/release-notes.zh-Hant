@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b5109b2b7d98da696cbd397ab9358daf843c8e4b
+source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
 workflow-type: tm+mt
-source-wordcount: '4618'
+source-wordcount: '4597'
 ht-degree: 98%
 
 ---
@@ -275,7 +275,6 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 7 月 27 日 | [圖樣偵測](https://docs.adobe.com/content/help/en/experience-manager-pattern-detection/table-of-contents/aso.html) | 參考 | 僅限 Experience Manager 升級期間由 `upgrade.log` 提供。 |
 | 2020 年 7 月 27 日 | [Software Distribution](https://docs.adobe.com/content/help/zh-Hant/experience-cloud/software-distribution/home.html) | 文章 | 自 2020 年 6 月起，Experience Cloud 解決方案 Software Distribution 已取代下載平台 [!UICONTROL PackageShare] for AEM 和 [!DNL Neolane] for [!DNL Campaign]，提供更有效率的軟體搜尋和下載體驗。直覺的使用者介面、簡化的搜尋功能，以及大幅提升的下載速度，讓您在下載 Experience Cloud 產品的軟體套件時，能享有絕佳的使用體驗。 |
 | 2020 年 6 月 25 日 | [Adaptive Forms 快速入門](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 此教學課程會帶您了解如何逐步建立內含多個分頁的適應性表單。了解如何使用表格、accordion 版面配置和規則編輯器來編寫業務規則。 |
 | 2020 年 6 月 25 日 | [以 AEM Forms 建立審核工作流程](https://video.tv.adobe.com/v/35821/quality=9?captions=chi_hant) | 影片 | 了解如何以作用中的表格提交功能，建立提交資料的審核工作流程。 |
