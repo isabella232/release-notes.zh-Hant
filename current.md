@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
 workflow-type: tm+mt
 source-wordcount: '4597'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 98%
 最近更新日期：**2020 年 7 月 29 日**
 
 * [Adobe 系統狀態](#status)
-* [Experience Cloud 介面](#ecloud) (更新日期：2020 年 7 月 27 日)
+* [Experience Cloud 介面](#ecloud) (更新日期：2020 年 7 月 27 日)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：2020 年 7 月 29 日)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：2020 年 7 月 29 日)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (更新日期：2020 年 7 月 27 日)
 * [行銷活動](#ac)
@@ -137,7 +137,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 發行日期：**2020 年 7 月 16 日**
 
 * [Adobe Analytics 的新功能](#aa-features) (2020 年 7 月 21 日更新)
-* [客戶歷程分析的新功能](#cust-journey) （2020年7月29日更新）
+* [Customer Journey Analytics 的新功能](#cust-journey) (2020 年 7 月 29 日更新)
 * [Media Analytics 的新功能](#media-aa)
 * [Adobe Analytics 的修正項目](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
@@ -156,7 +156,7 @@ Adobe 持續更新網域和介面標題，以統一及提升您使用所有 Expe
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-----|
-| 人員ID的「身分圖」選項 | 2020 年 6 月 26 日 | Identity Map是一種地圖資料結構，可讓您在「客戶歷程分析」中建立連線時，上傳金鑰->值配對。 密鑰是標識名稱空間，值是保存標識值的結構。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
+| 選擇以 Identity Map 作為人員 ID | 2020 年 6 月 26 日 | Identity Map 是一種對應資料結構，可讓您在建立 Customer Journey Analytics 中的連線時上傳索引鍵/值組。索引鍵是身分識別命名空間，值是保存身分識別值的結構。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
 ### [!UICONTROL Media Analytics] 的新功能{#media-aa}
 
