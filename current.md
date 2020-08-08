@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dab2c3fb8b9920f079195693a584f7c48b813e23
+source-git-commit: 94f346f9c1f7f23630c731769e4457bc5e0b7222
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6209'
 ht-degree: 42%
 
 ---
@@ -75,9 +75,9 @@ Latest release date: **July 15, 2020**
 
 過去一個月內發佈的新影片、教學課程或課程。
 
-| 已發佈 | 名稱 | 說明 |
-| ----------- | ---------- | ---------- |  
-| 2020 年 7 月 10 日 | [向Adobe Experience Platform報告體驗階段活動](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html) | 瞭解哪些歷程步驟事件，以及哪些資料步驟會在Experience Platform上自動建立，以及如何探索這些步驟。 |
+| 已發佈 | 名稱 | 類型 | 說明 |
+| ----------- | ---------- | ---------- |---------- |  
+| 2020 年 7 月 10 日 | [向Adobe Experience Platform報告體驗階段活動](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html) | 教學課程 | 瞭解哪些歷程步驟事件，以及哪些資料步驟會在Experience Platform上自動建立，以及如何探索這些步驟。 |
 
 ### Journey Orchestration 的其他資源
 
@@ -159,7 +159,7 @@ AN-219351;AN-220960;AN-223788;AN-224630;AN-224948;AN-225618;AN-226261;AN-226828;
 
 Analytics 和 Customer Journey Analytics 的最新課程、教學課程影片和文章。
 
-| 已發佈 | 名稱 | 解決方法 | 說明 |
+| 已發佈 | 名稱 | 類型 | 說明 |
 | ----------- | ----------- | ---------- | ---------- |  
 | 2020 年 7 月 30 日 | [在管理控制台中限制報表套裝存取權](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/limit-report-suite-access-in-the-admin-console.html) | 教學課程 | 瞭解如何使用 [!UICONTROL Admin Console] ，以確保使用者只能存取其角色所需的報表套裝。 |
 | 2020 年 7 月 24 日 | [新增管理員至Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics.html) | 教學課程 | 瞭解如何在Adobe [!UICONTROL Admin Console中新增使用者為管理員]。 |
@@ -203,7 +203,7 @@ Audience Manager 的新功能、修正項目、說明文件和教學課程。
 
 ### 全新 Audience Manager 教學課程 {#tutorials-aam}
 
-| 已發佈 | 名稱 | 解決方法 | 說明 |
+| 已發佈 | 名稱 | 類型 | 說明 |
 | ----------- | ----------- | ---------- | ---------- |
 | 2020 年 8 月 7 日 | [透過抑制廣告轉換器，節省金錢並最佳化客戶體驗](https://experienceleague.adobe.com/?recommended=AudienceManager-A-1-2020.1) | 教學課程 | 在本課程中，從觸及宣傳中移除現有客戶，瞭解從頭到尾的所有概念，包括節省金錢和最佳化客戶體驗的使用案例。 這包括建立特徵和區段、新增正確的描述檔合併規則、新增區段至目標，甚至在您使用此使用案例時計算投資報酬率。 |
 | 2020 年 8 月 7 日 | [選擇正確的描述檔合併規則](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/choosing-the-right-profile-merge-rule.html) | 教學課程 | 在此影片中，瞭解「描述檔合併規則」的三個最常用的使 [!UICONTROL 用案例]，以及它們如何協助您的行銷工作。 |
@@ -341,7 +341,7 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 
 過去一個月內發佈的新影片、教學課程或課程。
 
-| 已發佈 | 名稱 | 解決方法 | 說明 |
+| 已發佈 | 名稱 | 類型 | 說明 |
 | ----------- | ----------- | ---------- | ---------- |  
 | 2020 年 7 月 10 日 | [控制面板- GPG密鑰管理——解密資料](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) | Campaign Classic | 瞭解如何建立公開金鑰，並將其匯入及安裝於 Campaign 執行個體，以解密傳入的資料。 |
 | 2020 年 7 月 10 日 | [控制面板- GPG密鑰管理——使用GPG密鑰加密資料](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Classic | 瞭解如何使用安裝在控制面板的 GPG 金鑰匯出資料。 |
