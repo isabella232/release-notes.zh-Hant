@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 94f346f9c1f7f23630c731769e4457bc5e0b7222
+source-git-commit: 4692634440160952dc46ee85c9dbdb77b9778fbf
 workflow-type: tm+mt
-source-wordcount: '6209'
-ht-degree: 42%
+source-wordcount: '6174'
+ht-degree: 41%
 
 ---
 
@@ -113,7 +113,6 @@ Latest release date: **July 15, 2020**
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- | ---------- |
 | [支援的裝置和平台](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | The [!UICONTROL Media Launch Extension] with AEP SDK now supports the following OTT devices:<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
-| [支援的裝置和平台](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 含 AEP SDK 的 Media Launch 擴充功能現在支援下列 OTT 裝置：<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
 | [播放器狀態追蹤](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020 年 5 月 29 日 | [!UICONTROL Media Analytics] 客戶可使用全螢幕、隱藏式字幕、靜音、子母畫面和觀看中的標準解決方案變數集，擷取檢視者在播放時的互動。您也可以彈性建立自訂播放器狀態。[!UICONTROL 「播放器狀態追蹤] 」變數現在可用於分析工 [!UICONTROL 作區中報告]。 此功能需有下列任一個項目： <ul><li>Media [!DNL JavaScript] SDK 3.0 或更新版本</li><li>與 [!DNL Adobe Experience Platform] (AEP) SDK 搭配使用：</li><li>[!UICONTROL Media Analytics 擴充功能] (適用於網頁)：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更新版本</li><li>[!UICONTROL Media Analytics 擴充功能] (適用於行動裝置)：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更新版本</li><li>[!UICONTROL 媒體收集]</li></ul> |
 
 ### Adobe Analytics 修正項目 {#aa-fixes}
