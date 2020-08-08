@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4692634440160952dc46ee85c9dbdb77b9778fbf
+source-git-commit: c3d6d35f2a56d003514549150db7b060440389f9
 workflow-type: tm+mt
-source-wordcount: '6174'
+source-wordcount: '6287'
 ht-degree: 41%
 
 ---
@@ -228,6 +228,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
    * AEM Commerce現在可在Cloud Service上使用。 請參 [閱「AEM Commerce as a Cloud Service」快速入門。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/getting-started.html)
    * Adobe Target和Adobe Analytics增強功能的連接器包括使用者介面改良、傳統UI取代以及Adobe Launch整合。 請參 [閱整合Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html)[與整合Adobe Target。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)
    * 資產計算服務是一種可擴展和可擴展的服務，用於處理資產。 管理員可以設定Experience Manager，以叫用使用Asset Compute Service建立的自訂工作者。 開發人員可使用本服務來建立專業的自訂工作者，以配合複雜的使用案例。 此網站服務可針對不同的檔案類型產生縮圖、從Adobe檔案格式產生高品質的影像轉譯、編碼視訊（未來）、擷取中繼資料、擷取全文做為索引的先驅，並透過所有可用的Sensei服務執行資產。 請參 [閱使用資產微服務和處理設定檔。](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)
+   * [資產計算服務](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) (Asset Compute Service)可供延伸，以建立自訂應用程式。 它是處理數位資產的可擴充 [!DNL Adobe Experience Cloud] 且可擴充的服務。 它可將影像、視訊、檔案和其他檔案格式轉換為不同的轉譯，包括縮圖、擷取的文字和中繼資料、封存等。 開發人員可建立自訂應用程式（也稱為自訂工作者），以處理自訂的使用案例。 它是使用 [Project Firefly建立](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) ，可在無伺服器 [Adobe I/O Runtime中運作](https://www.adobe.io/apis/experienceplatform/runtime.html)。
    * AEM中「雲端服務」中「工作流程模型」和「動態媒體」的多項改進。
    * Release 2.11.0 of the [AEM Core Components](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/introduction.html) is now available as part of AEM Sites including the following:
       * 新的 [PDF檢視器元件簡介。](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)
@@ -241,6 +242,10 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
    * 請參閱 [AEM的完整版本注意事項： Cloud Service。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)
 
 ### 自助資源
+
+* **AEM Assets**
+
+   * 已新增更多 [Experience Manager案頭應用程式](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/troubleshoot.html) 的疑難排解提示。
 
 * **AEM 表格**
 
@@ -290,7 +295,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 | 2020 年 7 月 21 日 | [使用記錄檔對 AEM SDK 的本機 Quickstart 進行除錯](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教學課程 | 記錄檔是除錯AEM應用程式的前線，但需視部署的AEM應用程式中的適當登入而定。 |
 | 2020 年 7 月 21 日 | [SPA編輯器簡介](https://video.tv.adobe.com/v/37705?quality=12&learn=on&captions=chi_hant) | 教學課程 | 開發人員適用的AEM SPA編輯器快速入門課程簡介。 |
 | 2020 | [基線權限](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/baseline-permissions.html) | 教學課程 | 管理基準資產資料夾上的使用者存取權是治理中的重要方面，並確保程式可以正確支援。 |
-| 2020 年 7 月 21 日 | [自動啟動工作流程](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/auto-start-workflows.html) | 教學課程 | 自動啟動工作流程可在上傳或重新處理時自動叫用自訂工作流程，將AEM中的資產處理延伸為Cloud Service。 |
+| 2020 年 7 月 21 日 | [自動啟動工作流程](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/auto-start-workflows.html) | 教學課程 | 自動啟動工作流程可在上傳或重新處理時自動叫用自訂工作流程，將AEM中的資產處理擴充為Cloud Service。 |
 | 2020 年 7 月 21 日 | [使用記錄檔對 AEM SDK 的本機 Quickstart 進行除錯](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教學課程 | 記錄檔是除錯AEM應用程式的前線，但需視部署的AEM應用程式中的適當登入而定。 |
 | 2020 年 7 月 21 日 | [建立最適化表單範本](https://video.tv.adobe.com/v/37324?captions=chi_hant) | 教學課程 | 當作者使用範本建立最適化表單時，新表單會繼承您在範本中指定的結構和元件。 |
 | 2020 年 7 月 21 日 | [建立Apache Sling Connection Pooled DataSource](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/prefill-fdm-db/create-form-data-model.html) | 教學課程 | 建立RDBMS支援的表單資料模型的第一步是設定Apache Sling Connection Pooled DataSource。 |
