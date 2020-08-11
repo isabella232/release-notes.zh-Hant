@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c3d6d35f2a56d003514549150db7b060440389f9
+source-git-commit: 1a9860da58454f3e23650b8cf98e20f2819ac3be
 workflow-type: tm+mt
-source-wordcount: '6287'
-ht-degree: 41%
+source-wordcount: '6333'
+ht-degree: 92%
 
 ---
 
@@ -97,8 +97,9 @@ Latest release date: **July 15, 2020**
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-------|
 | 中國資料收集的增強功能 | 2020年8月13日 | 增強功能包括：支援Experience Cloud ID服務；支援第一方SSL;並支援伺服器端轉送。 如需檔案，請聯絡您的Adobe銷售代表。 |
-| [!UICONTROL 跨裝置分析]:歐洲、中東和非洲地區和亞太地區的上市情況 | 2020年8月31日 | [跨裝置分析](https://docs.adobe.com/content/help/en/analytics/components/cda/overview.html) 和私人圖表將適用於EMEA和亞太地區的客戶。 |
-| 跨裝置分析中欄位 [!UICONTROL 拼接的增強功能] （在美洲和EMEA地區提供） | 2020年8月17日 | 此簡化的 [!UICONTROL Cross-Device Analytics] （跨裝置分析）新客戶實作方案可讓您選擇根據儲存在Analytics欄位（prop或eVar）中的使用者ID來接合，而不使用裝置圖形（合作或私用）。 此增強功能移除了實作ECID的需求，並移除了為CDA目的實作ID同步的需求。 （某些其他功能仍需要ECID和ID同步。） |
+| [!UICONTROL 跨裝置分析]:歐洲、中東和非洲地區和亞太地區的上市情況 | 2020 年 8 月 31 日 | [跨裝置分析](https://docs.adobe.com/content/help/en/analytics/components/cda/overview.html) 和私人圖表將適用於EMEA和亞太地區的客戶。 |
+| 跨裝置分析中欄位 [!UICONTROL 拼接的增強功能] （在美洲和EMEA地區提供） | 2020 年 8 月 17 日 | 此簡化的 [!UICONTROL Cross-Device Analytics] （跨裝置分析）新客戶實作方案可讓您選擇根據儲存在Analytics欄位（prop或eVar）中的使用者ID來接合，而不使用裝置圖形（合作或私用）。 此增強功能移除了實作ECID的需求，並移除了為CDA目的實作ID同步的需求。 （某些其他功能仍需要ECID和ID同步。） |
+| 工作區：下載單一維度的5萬個項目 | 2020年9月17日 | [提早發佈] ：您將可針對自由表格中的單一維度下載50,000個項目，並套用區段和篩選器。 這可讓您存取分析工作區以外的400列以上資料。 |
 
 ### Customer Journey Analytics 的新功能 {#cust-journey}
 
@@ -207,7 +208,7 @@ Audience Manager 的新功能、修正項目、說明文件和教學課程。
 | 2020 年 8 月 7 日 | [透過抑制廣告轉換器，節省金錢並最佳化客戶體驗](https://experienceleague.adobe.com/?recommended=AudienceManager-A-1-2020.1) | 教學課程 | 在本課程中，從觸及宣傳中移除現有客戶，瞭解從頭到尾的所有概念，包括節省金錢和最佳化客戶體驗的使用案例。 這包括建立特徵和區段、新增正確的描述檔合併規則、新增區段至目標，甚至在您使用此使用案例時計算投資報酬率。 |
 | 2020 年 8 月 7 日 | [選擇正確的描述檔合併規則](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/choosing-the-right-profile-merge-rule.html) | 教學課程 | 在此影片中，瞭解「描述檔合併規則」的三個最常用的使 [!UICONTROL 用案例]，以及它們如何協助您的行銷工作。 |
 | 2020 年 8 月 5 日 | [建立段分類法](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-a-segment-taxonomy.html) | 教學課程 | 在Audience Manager中建立區段時，您會將區段儲存在資料夾架構或分類 _法中_。 瞭解建立和管理區段分類法的一些秘訣。 |
-| 2020年8月4日 | [在Adobe I/O中擷取API認證](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/api/retrieve-api-credentials-in-adobe-io.html) | 教學課程 | 您不必聯絡Adobe諮詢或客戶服務以取得使用REST API的認證，只需在瀏覽器 `Adobe.io` 中擷取或註冊您自己的認證。 |
+| 2020 年 8 月 4 日 | [在Adobe I/O中擷取API認證](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/api/retrieve-api-credentials-in-adobe-io.html) | 教學課程 | 您不必聯絡Adobe諮詢或客戶服務以取得使用REST API的認證，只需在瀏覽器 `Adobe.io` 中擷取或註冊您自己的認證。 |
 | 2020 年 7 月 31 日 | [在區段中使用時近和頻率](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-recency-and-frequency-in-segments.html) | 教學課程 | 使用 [!UICONTROL 「時近] 」和「頻  率」來提供您的區段參數，說明訪客在特定時段內必須符合某特徵的次數。 最適合內容相似性和頻率上限使用案例以及其他使用案例。 |
 | 2020 年 7 月 22 日 | [建立區段的基本概念](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/the-basics-of-creating-segments.html) | 教學課程 | 瀏覽UI中的欄位，在Audience Manager中建立區段。 |
 | 2020 年 7 月 22 日 | [實用區段定義與建立](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/practical-segment-definition-and-creation.html) | 教學課程 | 這段視訊會逐步帶您定義區段，然後依您建立區段所需的特性和訊號加以劃分。 |
@@ -249,7 +250,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * **AEM 表格**
 
-   * AEM Forms新增套件現在可在 [AEM Software Distribution取得](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?2_group.propertyvalues.property=.%2Fjcr%3Content%2Fmetadata%2Fdc%3Asolution&amp;2_group.propertyvalues.operation=equals&amp;2_group.propertyvalues.0_values=target-solution%3Aaem%2Fforms&amp;orderby=%40jcr%3Content%2Fjcr%3AstModify&amp;orderbyModied&amp;orderby.sort.st.st&amp;st.st.sort.st&amp;st.st&amp;ord&amp;ord&amp;ordesc=d&amp;ordesc=desc&amp;ord&amp;ord&amp;ordes=desc&amp;ordeslayout=list&amp;p.offset=0&amp;p.limit=24)。 您可以在 [AEM Forms發行文章中找到每個支援版本的套件直接連結](https://helpx.adobe.com/tw/aem-forms/kb/aem-forms-releases.html) 。
+   * AEM Forms新增套件現在可在 [AEM Software Distribution取得](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?2_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Asolution&amp;2_group.propertyvalues.operation=equals&amp;2_group.propertyvalues.0_values=target-solution%3Aaem%2Fforms&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=24)。 您可以在 [AEM Forms發行文章中找到每個支援版本的套件直接連結](https://helpx.adobe.com/tw/aem-forms/kb/aem-forms-releases.html) 。
    * 使用參 [考網站](https://docs.adobe.com/content/help/en/experience-manager-65/forms/getting-started/aem-forms-reference-collaterals/forms-gov-reference-site-user-demo.html) ，瞭解Automated Forms Conversion服務的端對端工作流程。
    * AEM [6.5.5.0和AEM](https://helpx.adobe.com/experience-manager/6-5/forms/javadocs/index.html) 6.4.8.1版的Javadoc [](https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/index.html) 已推出。
    * [在JEE環境中強化AEM Forms時](https://docs.adobe.com/content/help/en/experience-manager-65/forms/manage-administer-aem-forms/hardening-aem-forms-environment/hardening-aem-forms-jee-environment.html#configuring-ssl) ，將信任的憑證匯入JVM。
@@ -295,7 +296,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 | 2020 年 7 月 21 日 | [使用記錄檔對 AEM SDK 的本機 Quickstart 進行除錯](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教學課程 | 記錄檔是除錯AEM應用程式的前線，但需視部署的AEM應用程式中的適當登入而定。 |
 | 2020 年 7 月 21 日 | [SPA編輯器簡介](https://video.tv.adobe.com/v/37705?quality=12&learn=on&captions=chi_hant) | 教學課程 | 開發人員適用的AEM SPA編輯器快速入門課程簡介。 |
 | 2020 | [基線權限](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/baseline-permissions.html) | 教學課程 | 管理基準資產資料夾上的使用者存取權是治理中的重要方面，並確保程式可以正確支援。 |
-| 2020 年 7 月 21 日 | [自動啟動工作流程](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/auto-start-workflows.html) | 教學課程 | 自動啟動工作流程可在上傳或重新處理時自動叫用自訂工作流程，將AEM中的資產處理擴充為Cloud Service。 |
+| 2020 年 7 月 21 日 | [自動啟動工作流程](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/auto-start-workflows.html) | 教學課程 | 自動啟動工作流程可在上傳或重新處理時自動叫用自訂工作流程，將AEM中的資產處理延伸為Cloud Service。 |
 | 2020 年 7 月 21 日 | [使用記錄檔對 AEM SDK 的本機 Quickstart 進行除錯](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教學課程 | 記錄檔是除錯AEM應用程式的前線，但需視部署的AEM應用程式中的適當登入而定。 |
 | 2020 年 7 月 21 日 | [建立最適化表單範本](https://video.tv.adobe.com/v/37324?captions=chi_hant) | 教學課程 | 當作者使用範本建立最適化表單時，新表單會繼承您在範本中指定的結構和元件。 |
 | 2020 年 7 月 21 日 | [建立Apache Sling Connection Pooled DataSource](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/prefill-fdm-db/create-form-data-model.html) | 教學課程 | 建立RDBMS支援的表單資料模型的第一步是設定Apache Sling Connection Pooled DataSource。 |
