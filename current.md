@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1a9860da58454f3e23650b8cf98e20f2819ac3be
+source-git-commit: 8eec282ba5b97526aecf904b58819b446be35db0
 workflow-type: tm+mt
-source-wordcount: '6333'
+source-wordcount: '6337'
 ht-degree: 92%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 92%
 
 產品的發行日期可能不盡相同。請時常回訪以取得更新內容。
 
-最新更新： **2020年8月7日**
+最新更新： **2020年8月11日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) （更新日期：2020年8月11日）和客 [戶歷程分析](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [行銷活動](#ac)
@@ -93,6 +93,8 @@ Latest release date: **July 15, 2020**
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics 的新功能 {#aa-features}
+
+（更新日期：2020年8月11日）
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-------|
