@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bc30808217e8734e639246602be45efd02d2dc60
+source-git-commit: 5fa62cfefa6118c72d3c997c198f9f5ad7123b6d
 workflow-type: tm+mt
-source-wordcount: '6402'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 96%
 
 產品的發行日期可能不盡相同。請時常回訪以取得更新內容。
 
-最新更新：**2020 年 8 月 11 日**
+最新更新：**2020 年 8 月 13 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) （更新日期：2020年8月11日）和客 [戶歷程分析](#cust-journey)
+* [Analytics](#analytics) （更新日期：2020年8月13日）和客 [戶歷程分析](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -94,13 +94,12 @@ ht-degree: 96%
 
 ### Adobe Analytics 新功能 {#aa-features}
 
-（更新日期：2020年8月11日）
+（更新日期：2020年8月13日）
 
 | 功能 | [全面推出](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-------|
-| 中國資料彙集增強功能 | 2020 年 8 月 13 日 | 增強功能包括：支援 Experience Cloud ID 服務、第一方 SSL，以及支援伺服器端轉送。如需說明文件，請連絡您的 Adobe 銷售代表。 |
 | [!UICONTROL 跨裝置分析]：歐洲、中東和非洲地區及亞太地區的上市情況 | 2020 年 8 月 31 日 | [跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/overview.html)和私密圖表將在歐洲、中東和非洲地區及亞太地區推出，供客戶使用。 |
-| 改良[!UICONTROL 跨裝置分析]的欄位結合功能 (適用於美洲、歐洲、中東和非洲地區) | 2020 年 8 月 17 日 | 透過這套簡化的[!UICONTROL 跨裝置分析]新客戶實作方案，您可選擇根據 Analytics 欄位 (prop 或 eVar) 所儲存的使用者 ID，執行結合作業，而不使用裝置圖表 (co-op 或私密圖表)。此增強功能移除了實作 ECID 與以 CDA 為目的而實作 ID 同步的需求(部分功能仍需同步 ECID 和 ID)。 |
+| 改良[!UICONTROL 跨裝置分析]的欄位結合功能 (適用於美洲、歐洲、中東和非洲地區) | 2020 年 8 月 31 日 | 透過這套簡化的[!UICONTROL 跨裝置分析]新客戶實作方案，您可選擇根據 Analytics 欄位 (prop 或 eVar) 所儲存的使用者 ID，執行結合作業，而不使用裝置圖表 (co-op 或私密圖表)。此增強功能移除了實作 ECID 與以 CDA 為目的而實作 ID 同步的需求(部分功能仍需同步 ECID 和 ID)。 |
 | （提前發佈）工作區：下載單一維度的5萬個項目 | 2020年9月17日 | 您將可針對自由表格中的單一維度下載50,000個項目，並套用區段和篩選器。 這可讓您存取分析工作區以外的400列以上資料。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
