@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: 8eec282ba5b97526aecf904b58819b446be35db0
 workflow-type: tm+mt
 source-wordcount: '6337'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
 
-# 提早存取- Adobe Experience Cloud發行說明- 2020年8月
+# 搶先使用 - Adobe Experience Cloud 發行說明 - 2020 年 8 月
 
 ![橫幅](/assets/experience-cloud-banner-3.png)
 
@@ -27,11 +27,11 @@ ht-degree: 92%
 >
 >訂閱 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。
 
-**發行日期：2020 年 13 月 8 日**
+**發行日期：2020 年 8 月 13 日**
 
 產品的發行日期可能不盡相同。請時常回訪以取得更新內容。
 
-最新更新： **2020年8月11日**
+最新更新：**2020 年 8 月 11 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
@@ -40,30 +40,30 @@ ht-degree: 92%
 * [Analytics](#analytics) （更新日期：2020年8月11日）和客 [戶歷程分析](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [行銷活動](#ac)
+* [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html)
 * [!DNL Magento](#magento)
 * [!DNL Marketo Engage](#marketo)
-* [!DNL Primetime](https://docs.adobe.com/content/help/en/primetime/release-notes/home.html)
+* [!DNL Primetime](https://docs.adobe.com/content/help/zh-Hant/primetime/release-notes/home.html)
 
 需要協助嗎？請造訪 [Adobe Experience League](https://experienceleague.adobe.com/#home)，尋找產品和技術文件、Adobe 策畫的課程、教學課程影片、快速解答、社群見解，以及由講師授課的訓練課程。
 
 ## ![圖示](/assets/adobe.png) Adobe 系統狀態 {#status}
 
-[!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/)。
+[!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/tw/)。
 
-如需 [最新發行資訊](c-legacy-releases/2020/05212020.md#status) ，請參閱2020年5月21日。
+如需最新發行資訊，請參閱 [2020 年 5 月 21 日](c-legacy-releases/2020/05212020.md#status)。
 
 ## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 介面 {#ecloud}
 
-如需更新介面與統 [一產品網域的最新發行資訊](c-legacy-releases/2020/07162020.md#ecloud) ，請參閱7月的先前發行說明。
+如需更新介面與統一產品網域的最新發行資訊，請參閱 7 月的[舊版發行說明](c-legacy-releases/2020/07162020.md#ecloud)。
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
 [!DNL Experience Platform] 和應用程式服務的發行說明，內容包括 [!DNL Experience Platform Launch,] [!UICONTROL Offers]、[!UICONTROL People]、[!UICONTROL Places]、[!UICONTROL Mobile Services]、安全性公告。
 
-Latest release date: **July 15, 2020**
+最新發行日期：**2020 年 7 月 15 日**
 
 如需 Experience Platform 的最新資訊，請參閱 [Experience Platform 發行說明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)。
 
@@ -77,72 +77,72 @@ Latest release date: **July 15, 2020**
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | ----------- | ---------- | ---------- |---------- |  
-| 2020 年 7 月 10 日 | [向Adobe Experience Platform報告體驗階段活動](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html) | 教學課程 | 瞭解哪些歷程步驟事件，以及哪些資料步驟會在Experience Platform上自動建立，以及如何探索這些步驟。 |
+| 2020 年 7 月 10 日 | [向 Adobe Experience Platform 回報歷程步驟事件](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html) | 教學課程 | 了解歷程步驟事件、Experience Platform 上會自動建立哪些資料步驟，以及如何探索這些步驟。 |
 
 ### Journey Orchestration 的其他資源
 
-[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/understanding-journey-orchestration.translate.html)
 
 ## ![圖示](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-* [Adobe Analytics 的新功能](#aa-features)
-* [Customer Journey Analytics 的新功能](#cust-journey)
-* [Media Analytics 的新功能](#media-aa)
-* [Adobe Analytics 的修正項目](#aa-fixes)
+* [Adobe Analytics 新功能](#aa-features)
+* [Customer Journey Analytics 新功能](#cust-journey)
+* [Media Analytics 新功能](#media-aa)
+* [Adobe Analytics 修正項目](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
 * [AppMeasurement](#appm)
 
-### Adobe Analytics 的新功能 {#aa-features}
+### Adobe Analytics 新功能 {#aa-features}
 
 （更新日期：2020年8月11日）
 
-| 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| 功能 | [全面推出](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-------|
-| 中國資料收集的增強功能 | 2020年8月13日 | 增強功能包括：支援Experience Cloud ID服務；支援第一方SSL;並支援伺服器端轉送。 如需檔案，請聯絡您的Adobe銷售代表。 |
-| [!UICONTROL 跨裝置分析]:歐洲、中東和非洲地區和亞太地區的上市情況 | 2020 年 8 月 31 日 | [跨裝置分析](https://docs.adobe.com/content/help/en/analytics/components/cda/overview.html) 和私人圖表將適用於EMEA和亞太地區的客戶。 |
-| 跨裝置分析中欄位 [!UICONTROL 拼接的增強功能] （在美洲和EMEA地區提供） | 2020 年 8 月 17 日 | 此簡化的 [!UICONTROL Cross-Device Analytics] （跨裝置分析）新客戶實作方案可讓您選擇根據儲存在Analytics欄位（prop或eVar）中的使用者ID來接合，而不使用裝置圖形（合作或私用）。 此增強功能移除了實作ECID的需求，並移除了為CDA目的實作ID同步的需求。 （某些其他功能仍需要ECID和ID同步。） |
+| 中國資料彙集增強功能 | 2020 年 8 月 13 日 | 增強功能包括：支援 Experience Cloud ID 服務、第一方 SSL，以及支援伺服器端轉送。如需說明文件，請連絡您的 Adobe 銷售代表。 |
+| [!UICONTROL 跨裝置分析]：歐洲、中東和非洲地區及亞太地區的上市情況 | 2020 年 8 月 31 日 | [跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/overview.html)和私密圖表將在歐洲、中東和非洲地區及亞太地區推出，供客戶使用。 |
+| 改良[!UICONTROL 跨裝置分析]的欄位結合功能 (適用於美洲、歐洲、中東和非洲地區) | 2020 年 8 月 17 日 | 透過這套簡化的[!UICONTROL 跨裝置分析]新客戶實作方案，您可選擇根據 Analytics 欄位 (prop 或 eVar) 所儲存的使用者 ID，執行結合作業，而不使用裝置圖表 (co-op 或私密圖表)。此增強功能移除了實作 ECID 與以 CDA 為目的而實作 ID 同步的需求(部分功能仍需同步 ECID 和 ID)。 |
 | 工作區：下載單一維度的5萬個項目 | 2020年9月17日 | [提早發佈] ：您將可針對自由表格中的單一維度下載50,000個項目，並套用區段和篩選器。 這可讓您存取分析工作區以外的400列以上資料。 |
 
-### Customer Journey Analytics 的新功能 {#cust-journey}
+### Customer Journey Analytics 新功能 {#cust-journey}
 
-| 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| 功能 | [全面推出](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- |-----|
-| [!UICONTROL 選擇以 Identity Map 作為人員 ID] | 2020 年 6 月 26 日 | [!UICONTROL Identity Map] 是一種地圖資料結構，可讓您在「客戶歷程分析」中建立連線時，上傳關鍵值 [!UICONTROL 配對]。 索引鍵是身分識別命名空間，值是保存身分識別值的結構。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
+| 以[!UICONTROL 身分對應]作為人員 ID | 2020 年 6 月 26 日 | [!UICONTROL 身分對應]是一種對應資料結構，可讓您在 [!UICONTROL Customer Journey Analytics] 建立連線時上傳索引鍵/值組。索引鍵是身分識別命名空間，值是保存身分識別值的結構。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
-### [!UICONTROL Media Analytics] 的新功能{#media-aa}
+### [!UICONTROL Media Analytics] 新功能{#media-aa}
 
 發行日期：**2020 年 7 月 16 日**
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | -----------| ---------- | ---------- |
-| [支援的裝置和平台](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | The [!UICONTROL Media Launch Extension] with AEP SDK now supports the following OTT devices:<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
-| [播放器狀態追蹤](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020 年 5 月 29 日 | [!UICONTROL Media Analytics] 客戶可使用全螢幕、隱藏式字幕、靜音、子母畫面和觀看中的標準解決方案變數集，擷取檢視者在播放時的互動。您也可以彈性建立自訂播放器狀態。[!UICONTROL 「播放器狀態追蹤] 」變數現在可用於分析工 [!UICONTROL 作區中報告]。 此功能需有下列任一個項目： <ul><li>Media [!DNL JavaScript] SDK 3.0 或更新版本</li><li>與 [!DNL Adobe Experience Platform] (AEP) SDK 搭配使用：</li><li>[!UICONTROL Media Analytics 擴充功能] (適用於網頁)：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更新版本</li><li>[!UICONTROL Media Analytics 擴充功能] (適用於行動裝置)：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更新版本</li><li>[!UICONTROL 媒體收集]</li></ul> |
+| [支援的裝置和平台](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 含 AEP SDK 的 [!UICONTROL Media Launch 擴充功能]現起支援下列 OTT 裝置：<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
+| [播放器狀態追蹤](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020 年 5 月 29 日 | [!UICONTROL Media Analytics] 客戶可使用全螢幕、隱藏式字幕、靜音、子母畫面和觀看中的標準解決方案變數集，擷取檢視者在播放時的互動。您也可以彈性建立自訂播放器狀態。[!UICONTROL Analysis Workspace] 中的報表現可使用[!UICONTROL 「播放器狀態追蹤」]變數。此功能需有下列任一個項目： <ul><li>Media [!DNL JavaScript] SDK 3.0 或更新版本</li><li>與 [!DNL Adobe Experience Platform] (AEP) SDK 搭配使用：</li><li>[!UICONTROL Media Analytics 擴充功能] (適用於網頁)：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更新版本</li><li>[!UICONTROL Media Analytics 擴充功能] (適用於行動裝置)：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更新版本</li><li>[!UICONTROL 媒體收集]</li></ul> |
 
 ### Adobe Analytics 修正項目 {#aa-fixes}
 
-* 修正報告API未傳回最新量度值的問題。 (AN-225617)
-* 修正「分類規則」無 [!UICONTROL 法為「行銷管道] 」詳細資訊分 [!UICONTROL 類資料的問題]。 (AN-224832)
-* 修正在虛擬報表套裝中建 _立新專案時_ ，造成「遺失元 [!UICONTROL 件」錯誤的問題]。(AN-226808)
-* 修正組織虛擬報表套 _裝時造成_ 「遺失元件」錯誤的問題。 (AN-228257)
-* 修正無法建立新「報告與分析」 [!UICONTROL 目標和日曆] 事件的問題。 (AN-224872、AN-224890、AN-224914、AN-226661)
-* 修正在工作區中造成A4T面板中遺失活動的 [!UICONTROL 問題]。 (AN-224606)
-* 修正「資料饋送」中重複點擊 [!UICONTROL 的問題]。 (AN-226308)
-* 修正具有參與率歸因的計算量度無法傳回正確值的問題。 (AN-224642、AN-225190)
-* 已修正區段資料共用 [!DNL Analytics] 至三 [!DNL Audience Manager] 天以上才顯示的問題 [!DNL Audience Manager]。(AN-226649)
-* 已修正無法在智慧型警報電子郵件中使 [!UICONTROL 用「分析][!UICONTROL 進一步」連結的問題] 。 (AN-226823)
-* 修正無法在虛擬報表套裝中建立區 [!UICONTROL 段的問題]。 (AN-227039)
-* 修正無法編輯智慧型警報的問題。 (AN-227162)
+* 修正報表 API 未傳回最新量度值的問題。(AN-225617)
+* 修正[!UICONTROL 「分類規則」]無法為[!UICONTROL 「行銷管道詳細資訊」]分類資料的問題。(AN-224832)
+* 修正在&#x200B;_虛擬報表套裝_&#x200B;中建立新專案時，造成[!UICONTROL 「元件遺失」]錯誤的問題。(AN-226808)
+* 修正組織虛擬報表套裝時，造成&#x200B;_「元件遺失」_&#x200B;錯誤的問題。(AN-228257)
+* 修正無法建立[!UICONTROL 「Reports &amp; Analytics」]新目標和日曆事件的問題。(AN-224872、AN-224890、AN-224914、AN-226661)
+* 修正[!UICONTROL 工作區]中造成 A4T 面板活動短缺的問題。(AN-224606)
+* 修正[!UICONTROL 「資料摘要」]中重複點擊的問題。(AN-226308)
+* 修正具有參與率歸因的計算量度無法傳回正確值的問題。(AN-224642、AN-225190)
+* 修正 [!DNL Analytics] 的區段資料與 [!DNL Audience Manager] 共用，卻需超過三天才顯示於 [!DNL Audience Manager] 的問題。(AN-226649)
+* 修正[!UICONTROL 智慧型警報]電子郵件中[!UICONTROL 「進一步分析」]連結無法使用的問題。(AN-226823)
+* 修正無法在[!UICONTROL 虛擬報表套裝]中建立區段的問題。(AN-227039)
+* 修正無法編輯智慧型警報的問題。(AN-227162)
 
 #### 其他 Adobe Analytics 修正項目
 
-AN-219351;AN-220960;AN-223788;AN-224630;AN-224948;AN-225618;AN-226261;AN-226828;AN-226845;AN-226937;AN-226961;AN-227070;AN-227079;AN-227521;AN-227610;AN-228203;AN-228451;AN-228466;AN-228538
+AN-219351、AN-220960、AN-223788、AN-224630、AN-224948、AN-225618、AN-226261、AN-226828、AN-226845、AN-226937、AN-226961、AN-227070、AN-227079、AN-227521、AN-227610、AN-228203、AN-228451、AN-228466、AN-228538
 
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
 | 注意 | 新增或更新日期 | 說明 |
 | -----------| ---------- | ---------- |
-| Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] are powered by legacy technology that is no longer viable or supported. 我們在 [Adobe Exchange 合作夥伴計畫推行一項新標準](https://partners.adobe.com/tw/exchangeprogram/experiencecloud)，任何希望能繼續提供服務及取得支援的整合項目，都應採用此標準。確切日期仍未決定，但預計未來 12 至 18 個月內 (2021 年中至 2021 年底) 能正式終止服務。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/import/dataconnectors/data-connectors-eol.html) |
-| 報告套裝對應至 IMS 組織 | 2020 年 7 月 | 報告套裝對應工具將於 2020 年 11 月終止提供。此功能可提升 Advertising Analytics 和 Experience Cloud 在 Adobe Analytics 中發佈區段的整合程度。報告套裝必須與 IMS 組織對應，才能啟用各項服務。較新的報告套裝會在建立時自動完成對應。然而，先前的報告套裝必須以手動方式與 IMS 組織對應。See [Map report suites to an organization](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html) in the Experience Cloud interface (Core Services) user guide to make sure all report suites belong to an IMS org. |
+| Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange 合作夥伴計畫已推出一項新標準](https://partners.adobe.com/tw/exchangeprogram/experiencecloud)，任何希望能繼續使用服務及取得支援的整合項目，都應採用此標準。確切日期仍未決定，但預計未來 12 至 18 個月內 (2021 年中至 2021 年底) 將會正式終止服務。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/import/dataconnectors/data-connectors-eol.html) |
+| 報告套裝對應至 IMS 組織 | 2020 年 7 月 | 報告套裝對應工具將於 2020 年 11 月終止提供。此功能可提升 Advertising Analytics 和 Experience Cloud 在 Adobe Analytics 中發佈區段的整合程度。報告套裝必須與 IMS 組織對應，才能啟用各項服務。較新的報告套裝會在建立時自動完成對應。然而，先前的報告套裝必須以手動方式與 IMS 組織對應。請參閱 Experience Cloud 介面 (核心服務) 使用指南中的[「將報表套裝對應至組織」](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)，確認所有報表套裝均有歸屬的 IMS 組織。 |
 | 移轉至統一的產品網域 | 生效日期：2020 年 5 月 28 日 | 從 2020 年 1 月開始，Adobe Analytics 就開始移轉至統一的產品網域，相關作業已於 2020 年 5 月 28 日完成。雖然 Adobe Analytics 已著手從架構中移除所有 `omniture.com` 網域參考，但請務必將 `omniture.com` 放入協力廠商 Cookie 允許清單。完整架構即將移轉完成，作業完成後我們會透過發行說明通知您，到時您就不需再執行此允許清單步驟。請參閱這份建議 IP 位址和網域的[完整清單](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)，這些位址和網域均應列入允許清單。<br>如果貴組織封鎖第三方 Cookie，請洽詢客戶服務人員，以重新取得 Adobe Analytics 的存取權限。 |
 | 全新 Adobe Analytics 預設登陸頁面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日起，Adobe Analytics 的預設登陸頁面將從[!UICONTROL 報告]變更為[!UICONTROL 工作區]。未設定自訂登陸頁面的使用者，將一律適用此變更。 |
 | 協力廠商技術允許清單 | 2020 年 3 月 12 日 (生效日期) | Adobe Analytics 已開始運用協力廠商技術進行功能推出管理和產品內支援。下列 URL 應新增至任何必要的網路防火牆允許清單，確保完整的功能存取權限：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
@@ -163,19 +163,19 @@ Analytics 和 Customer Journey Analytics 的最新課程、教學課程影片和
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | ----------- | ----------- | ---------- | ---------- |  
-| 2020 年 7 月 30 日 | [在管理控制台中限制報表套裝存取權](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/limit-report-suite-access-in-the-admin-console.html) | 教學課程 | 瞭解如何使用 [!UICONTROL Admin Console] ，以確保使用者只能存取其角色所需的報表套裝。 |
-| 2020 年 7 月 24 日 | [新增管理員至Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics.html) | 教學課程 | 瞭解如何在Adobe [!UICONTROL Admin Console中新增使用者為管理員]。 |
-| 2020 年 7 月 17 日 | [分析工作區中的快速洞察面板](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace.html) | 教學課程 | 「快速深入分析」為 Analysis Workspace 的非分析師和新使用者提供指引，了解如何快速輕鬆回答業務問題。 |
-| 2020 年 7 月 17 日 | [分析工作區中的Analytics for Target(A4T)面板](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace.html) | 教學課程 | The [!UICONTROL Analytics for Target] (A4T) panel lets you analyze your Adobe Target activities and experiences, with lift and confidence, in Analysis Workspace. |
-| 2020 年 7 月 6 日 | [使用Adobe Analytics建立Advertising Cloud儀表板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-dashboards-with-adobe-analytics.html?lang=en#tutorials) | 教學課程 | 建立Advertising Cloud儀表板以進行即時促銷活動監控的技巧。 |
-| 2020 年 7 月 6 日 | [使用Advertising Cloud資料建立Analytics自訂量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-analytics-custom-metrics-with-advertising-cloud-data.html?lang=en#tutorials) | 教學課程 | 在Adobe Analytics中使用Advertising Cloud資料時建立的實用自訂度量。 |
-| 2020 年 7 月 6 日 | [建立Analytics網站歷程描述檔](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-analytics-site-journey-profiles.html?lang=en#tutorials) | 教學課程 | 如何使用Adobe Analytics為Advertising Cloud再行銷建立強穩的網站重新定位群組。 |
-| 2020 年 7 月 6 日 | [建立Analytics區段以進行啟動和報告](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-analytics-segments-for-activation-and-reporting.html?lang=en#tutorials) | 教學課程 | 使用Advertising Cloud維度建立區段，以簡化報告和分析。 |
-| 2020 年 7 月 6 日 | [使用Adobe Analytics建立啟動前促銷活動分析](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/reporting-with-advertising-cloud-marketing-channels.html?lang=en#tutorials) | 教學課程 | 如何使用Adobe Analytics為啟動Advertising Cloud付費媒體宣傳奠定基礎。 |
-| 2020 年 7 月 6 日 | [分析工作區中的專案共用](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/project-sharing-in-analysis-workspace.html?lang=en#tutorials) | 教學課程 | 專案共用是將資料和見解從分析工作區民主化到組織中使用者的一種方式。 您可以根據您希望收件者擁有的專案體驗（編輯、複製和檢視），將收件者置於三個專案角色之一。 |
-| 2020 年 6 月 26 日 | [歸因IQ中的自訂回顧視窗](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/custom-lookback-windows-in-attribution-iq.html?lang=en#tutorials) | 教學課程 | 自訂回顧視窗可讓您將歸因視窗擴展至報告範圍以外（最多90天），並套用至報告範圍內的每個轉換。 |
-| 2020 年 6 月 26 日 | [分析工作區中僅檢視的專案](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/view-only-projects-in-analysis-workspace.html?lang=en#tutorials) | 教學課程 | Workspace projects can be shared to users as _Can view_ only. When a _View_ recipient opens the shared project, they receive a more restrictive project experience, with no left rail and limited interactions. |
-| 2020 年 6 月 26 日 | [歸因IQ中的算法模型](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq.html?lang=en#tutorials) | 教學課程 | Analysis Workspace 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。 |
+| 2020 年 7 月 30 日 | [在 Admin Console 限制報表套裝的存取權限](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/limit-report-suite-access-in-the-admin-console.html) | 教學課程 | 了解如何使用 [!UICONTROL Admin Console] 確保使用者只能存取其角色所需的報表套裝。 |
+| 2020 年 7 月 24 日 | [新增管理員至 Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics.html) | 教學課程 | 了解如何在 Adobe [!UICONTROL Admin Console] 將使用者新增為管理員。 |
+| 2020 年 7 月 17 日 | [Analysis Workspace 的「快速深入分析」面板](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace.html) | 教學課程 | 「快速深入分析」能為 Analysis Workspace 分析師以外人員和新使用者提供相關指引，協助其了解如何快速輕鬆地回答業務問題。 |
+| 2020 年 7 月 17 日 | [Analysis Workspace 中的 Analytics for Target (A4T) 面板](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace.html) | 教學課程 | [!UICONTROL Analytics for Target] (A4T) 面板可讓您在 Analysis Workspace 中輕鬆分析 Adobe Target 活動和體驗。 |
+| 2020 年 7 月 6 日 | [使用 Adobe Analytics 建立 Advertising Cloud 控制面板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-dashboards-with-adobe-analytics.html?lang=zh-Hant#tutorials) | 教學課程 | 建立 Advertising Cloud 控制面板以即時監控行銷活動的技巧。 |
+| 2020 年 7 月 6 日 | [使用 Advertising Cloud 資料建立 Analytics 自訂量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-analytics-custom-metrics-with-advertising-cloud-data.html?lang=zh-Hant#tutorials) | 教學課程 | 在 Adobe Analytics 中使用 Advertising Cloud 資料時可建立的實用自訂度量。 |
+| 2020 年 7 月 6 日 | [建立 Analytics 網站歷程描述檔](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-analytics-site-journey-profiles.html?lang=zh-Hant#tutorials) | 教學課程 | 如何使用 Adobe Analytics 為 Advertising Cloud 再行銷工作，建立強大的網站重新鎖定群組。 |
+| 2020 年 7 月 6 日 | [建立 Analytics 區段以利執行啟動和報表彙整作業](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-analytics-segments-for-activation-and-reporting.html?lang=zh-Hant#tutorials) | 教學課程 | 使用 Advertising Cloud 維度建立區段，以簡化報表和分析作業。 |
+| 2020 年 7 月 6 日 | [使用 Adobe Analytics 在發起行銷活動前建立分析作業](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/reporting-with-advertising-cloud-marketing-channels.html?lang=zh-Hant#tutorials) | 教學課程 | 如何使用 Adobe Analytics 為發起 Advertising Cloud 付費媒體行銷活動奠定基礎。 |
+| 2020 年 7 月 6 日 | [Analysis Workspace 專案共用](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/project-sharing-in-analysis-workspace.html?lang=zh-Hant#tutorials) | 教學課程 | 專案共用是開放使用者取用 Analysis Workspace 資料和深入分析的一種方式。您可以根據您希望收件者擁有的專案體驗，賦予收件者下列三個專案角色：編輯、複製和檢視。 |
+| 2020 年 6 月 26 日 | [自訂歸因 IQ 的回顧期間](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/custom-lookback-windows-in-attribution-iq.html?lang=zh-Hant#tutorials) | 教學課程 | 自訂回顧期間可讓您將歸因期間擴展至報表範圍以外 (最多 90 天)，並套用至報表範圍內的每個轉換。 |
+| 2020 年 6 月 26 日 | [Analysis Workspace 中僅限檢視的專案](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/view-only-projects-in-analysis-workspace.html?lang=zh-Hant#tutorials) | 教學課程 | 工作區專案能僅以&#x200B;_「可供檢視」_&#x200B;狀態與使用者共用。_「檢視」_&#x200B;收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側邊欄，互動也會受限。 |
+| 2020 年 6 月 26 日 | [歸因 IQ 演算法模型](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq.html?lang=zh-Hant#tutorials) | 教學課程 | Analysis Workspace 的[!UICONTROL 演算法歸因]模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。 |
 
 #### Analytics 說明資源
 
@@ -186,37 +186,37 @@ Analytics 和 Customer Journey Analytics 的最新課程、教學課程影片和
 
 Audience Manager 的新功能、修正項目、說明文件和教學課程。
 
-發行日期: **2020 年 8 月 13 日**
+發行日期：**2020 年 8 月 13 日**
 
 ### Adobe Audience Manager 新功能和修正項目
 
-* [預測性對象](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) 現在支援在建立模型時， [!UICONTROL 針對每個模型選取「描述檔合併規則] 」。 (AAM-55178)
-* 目標對應開始和結束日期現在會顯示在每個區段的頁面中。 (AAM-40056)
-* 修正在建立新特 [!UICONTROL 徵時，特徵的「裝置類型] 」自動設為「 [!UICONTROL 跨裝置] 」的問題。 (AAM-55368)
-* 已修正無法載 [!UICONTROL 入Audience Marketplace] 的問題。 (AAM-55549)
-* 當無法擷取參數時，您現在可 [!DNL Google] 以從目的 [!DNL Google UserList] 地取消映射區段。 (AAM-42655)
-* 修正新增多個區段至目標時，無法始終正確運作的問題。 (AAM-55651)
-* 已修正限制增加的使用者無 [!DNL Profile Merge Rules] 法看到「新增規 [!UICONTROL 則」按鈕的問題] 。 (AAM-55700)
-* 修正「資料饋送報 [!UICONTROL 表量度」中] ,「30天重疊獨特使用者」標題 [!UICONTROL 遺失的問題]。 (AAM-55801)
-* 當目標設定為匯出時，期限 [!UICONTROL 度量現在會從「目標] 」檢視中排 [!DNL UUID]除。(AAM-54196)
-* 修正使用者無法檢視報表的 [!DNL Tableau] 問題。 (AAM-55868)
-* 修正使用者在建立新的「預測性對象」模型時，會收到錯誤 [!UICONTROL 的問題] 。 (AAM-55921)
+* [「預測對象」](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html)現在支援使用者在建立模型時，為個別模型選取[!UICONTROL 「描述檔合併規則」]。(AAM-55178)
+* 每個區段頁面現在會顯示目的地對應的開始和結束日期。(AAM-40056)
+* 修正建立新特徵時，特徵的[!UICONTROL 「裝置類型」]自動設為[!UICONTROL 「跨裝置」]的問題。(AAM-55368)
+* 修正無法載入 [!UICONTROL Audience Marketplace] 的問題。(AAM-55549)
+* 無法擷取[!DNL Google UserList]參數時，您現在可以從 [!DNL Google] 目的地取消對應區段。(AAM-42655)
+* 修正有時無法將多個區段正確新增至目的地的問題。(AAM-55651)
+* 修正[!DNL Profile Merge Rules]限制增加的使用者無法看到[!UICONTROL 「新增規則」]按鈕的問題。(AAM-55700)
+* 修正[!UICONTROL 「資料摘要報表量度」]中缺少[!UICONTROL 「30 天重疊不重複訪客」]標題的問題。(AAM-55801)
+* 現在開始，目標設定為匯出 [!DNL UUID] 時，期限度量會從[!UICONTROL 「目的地」]檢視中排除。(AAM-54196)
+* 修正使用者無法檢視 [!DNL Tableau] 報表的問題。(AAM-55868)
+* 修正使用者建立新的[!UICONTROL 「預測對象」]模型時發生錯誤的問題。(AAM-55921)
 * 整個介面的協助工具有多處改良。(AAM-49062、AAM-49063、AAM-49365)。
 
 ### 全新 Audience Manager 教學課程 {#tutorials-aam}
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | ----------- | ----------- | ---------- | ---------- |
-| 2020 年 8 月 7 日 | [透過抑制廣告轉換器，節省金錢並最佳化客戶體驗](https://experienceleague.adobe.com/?recommended=AudienceManager-A-1-2020.1) | 教學課程 | 在本課程中，從觸及宣傳中移除現有客戶，瞭解從頭到尾的所有概念，包括節省金錢和最佳化客戶體驗的使用案例。 這包括建立特徵和區段、新增正確的描述檔合併規則、新增區段至目標，甚至在您使用此使用案例時計算投資報酬率。 |
-| 2020 年 8 月 7 日 | [選擇正確的描述檔合併規則](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/choosing-the-right-profile-merge-rule.html) | 教學課程 | 在此影片中，瞭解「描述檔合併規則」的三個最常用的使 [!UICONTROL 用案例]，以及它們如何協助您的行銷工作。 |
-| 2020 年 8 月 5 日 | [建立段分類法](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-a-segment-taxonomy.html) | 教學課程 | 在Audience Manager中建立區段時，您會將區段儲存在資料夾架構或分類 _法中_。 瞭解建立和管理區段分類法的一些秘訣。 |
-| 2020 年 8 月 4 日 | [在Adobe I/O中擷取API認證](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/api/retrieve-api-credentials-in-adobe-io.html) | 教學課程 | 您不必聯絡Adobe諮詢或客戶服務以取得使用REST API的認證，只需在瀏覽器 `Adobe.io` 中擷取或註冊您自己的認證。 |
-| 2020 年 7 月 31 日 | [在區段中使用時近和頻率](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-recency-and-frequency-in-segments.html) | 教學課程 | 使用 [!UICONTROL 「時近] 」和「頻  率」來提供您的區段參數，說明訪客在特定時段內必須符合某特徵的次數。 最適合內容相似性和頻率上限使用案例以及其他使用案例。 |
-| 2020 年 7 月 22 日 | [建立區段的基本概念](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/the-basics-of-creating-segments.html) | 教學課程 | 瀏覽UI中的欄位，在Audience Manager中建立區段。 |
-| 2020 年 7 月 22 日 | [實用區段定義與建立](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/practical-segment-definition-and-creation.html) | 教學課程 | 這段視訊會逐步帶您定義區段，然後依您建立區段所需的特性和訊號加以劃分。 |
-| 2020 年 7 月 17 日 | [抑制廣告轉換器](https://video.tv.adobe.com/v/36658?captions=chi_hant) | 教學課程 | 透過抑制廣告轉換器，節省金錢並最佳化客戶體驗。 |
-| 2020 年 7 月 15 日 | [在客戶抑制使用案例中測量投資報酬率](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/value-realization/measuring-roi-in-a-customer-suppression-use-case.html) | 教學課程 | 瞭解如何使用幾個公式來決定透過隱藏廣告給現有客戶而節省的促銷活動成本。 |
-| 2020 年 7 月 10 日 | [建立區段以隱藏廣告給客戶](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/building-a-segment-to-suppress-ads-to-customers.html) | 教學課程 | 此影片討論建立區段以排除已轉換為客戶狀態的群體的選項。 |
+| 2020 年 8 月 7 日 | [對已轉換的客戶抑制廣告，藉此節省成本並提供最佳客戶體驗](https://experienceleague.adobe.com/?recommended=AudienceManager-A-1-2020.1) | 教學課程 | 本課程中會透過使用案例，全面說明如何移除觸及行銷活動的現有客戶，以達到節省成本及提供最佳客戶體驗的目的。相關的使用案例包括建立特徵和區段、新增正確的描述檔合併規則、新增區段至目的地，以及計算投資報酬率 (ROI)。 |
+| 2020 年 8 月 7 日 | [選擇正確的描述檔合併規則](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/choosing-the-right-profile-merge-rule.html) | 教學課程 | 此影片將會介紹[!UICONTROL 「描述檔合併規則」]最常見的三種使用案例，並說明各種案例對行銷的效益。 |
+| 2020 年 8 月 5 日 | [建立區段分類法](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-a-segment-taxonomy.html) | 教學課程 | 在 Audience Manager 中建立區段時，區段會依資料夾架構或&#x200B;_分類法_&#x200B;儲存。了解建立及管理區段分類法的幾個秘訣。 |
+| 2020 年 8 月 4 日 | [在 Adobe I/O 中擷取 API 認證](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/api/retrieve-api-credentials-in-adobe-io.html) | 教學課程 | 若要取得使用 REST API 的認證，您不必連絡 Adobe 諮詢或客戶服務，只需以瀏覽器前往 `Adobe.io` 並擷取或註冊您的專屬認證即可。 |
+| 2020 年 7 月 31 日 | [在區段中使用造訪間隔和頻率](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-recency-and-frequency-in-segments.html) | 教學課程 | 使用[!UICONTROL 「造訪間隔」]和[!UICONTROL 「頻率」]為您的區段提供參數，說明訪客在特定時段內必須符合某特徵的次數。這適合內容相似性和頻率限定使用案例，也適用於其他用途。 |
+| 2020 年 7 月 22 日 | [區段建立基本概念](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/the-basics-of-creating-segments.html) | 教學課程 | 介紹在 Audience Manager 中建立區段所需的各個 UI 欄位。 |
+| 2020 年 7 月 22 日 | [定義及建立實用區段](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/practical-segment-definition-and-creation.html) | 教學課程 | 這部影片會逐步示範如何定義區段，接著依您建立區段所需的特徵和訊號加以劃分。 |
+| 2020 年 7 月 17 日 | [對已轉換的客戶抑制廣告](https://video.tv.adobe.com/v/36658?captions=chi_hant) | 教學課程 | 針對已轉換的客戶抑制廣告，藉此節省成本並提供最佳客戶體驗。 |
+| 2020 年 7 月 15 日 | [在抑制廣告的使用案例中測量投資報酬率](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/intro-to-audience-manager/value-realization/measuring-roi-in-a-customer-suppression-use-case.html) | 教學課程 | 了解如何運用公式向現有客戶抑制廣告，為您的行銷活動節省成本。 |
+| 2020 年 7 月 10 日 | [建立區段以向客戶抑制廣告](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/building-a-segment-to-suppress-ads-to-customers.html) | 教學課程 | 本影片探討如何建立區段，以排除已轉換為客戶狀態的群體。 |
 
 ## ![圖示](/assets/aem.png) Adobe Experience Manager {#aem}
 
@@ -226,23 +226,23 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * **AEM 雲端服務**
 
-   AEM的Cloud Service有哪些新功能？ 精選內容包括：
+   AEM 雲端服務新增了哪些功能？精選重點包括：
 
-   * AEM Commerce現在可在Cloud Service上使用。 請參 [閱「AEM Commerce as a Cloud Service」快速入門。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/getting-started.html)
-   * Adobe Target和Adobe Analytics增強功能的連接器包括使用者介面改良、傳統UI取代以及Adobe Launch整合。 請參 [閱整合Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html)[與整合Adobe Target。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)
-   * 資產計算服務是一種可擴展和可擴展的服務，用於處理資產。 管理員可以設定Experience Manager，以叫用使用Asset Compute Service建立的自訂工作者。 開發人員可使用本服務來建立專業的自訂工作者，以配合複雜的使用案例。 此網站服務可針對不同的檔案類型產生縮圖、從Adobe檔案格式產生高品質的影像轉譯、編碼視訊（未來）、擷取中繼資料、擷取全文做為索引的先驅，並透過所有可用的Sensei服務執行資產。 請參 [閱使用資產微服務和處理設定檔。](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)
+   * 現在可透過雲端服務使用 AEM Commerce。請參閱 [AEM Commerce 雲端服務快速入門](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/commerce/getting-started.html)。
+   * Adobe Target 和 Adobe Analytics Connectors 的改良項目包括改善使用者介面、汰換傳統 UI，以及整合 Adobe Launch。請參閱[整合 Adobe Analytics](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) 與[整合 Adobe Target](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)。
+   * 資產計算服務是一種可擴展與延伸的資產處理服務。管理員可設定 Experience Manager，以叫用使用資產計算服務建立的自訂工作角色。開發人員可利用本服務，量身打造適用於複雜使用案例的自訂工作角色。此網站服務可針對不同檔案類型產生縮圖、以 Adobe 檔案格式製作高品質的影像轉譯、編碼視訊 (日後推出)、擷取中繼資料、擷取全文作為索引的前驅，並透過所有可用的 Sensei 服務執行資產。請參閱[使用資產微型服務和處理描述檔](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)。
    * [資產計算服務](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) (Asset Compute Service)可供延伸，以建立自訂應用程式。 它是處理數位資產的可擴充 [!DNL Adobe Experience Cloud] 且可擴充的服務。 它可將影像、視訊、檔案和其他檔案格式轉換為不同的轉譯，包括縮圖、擷取的文字和中繼資料、封存等。 開發人員可建立自訂應用程式（也稱為自訂工作者），以處理自訂的使用案例。 它是使用 [Project Firefly建立](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) ，可在無伺服器 [Adobe I/O Runtime中運作](https://www.adobe.io/apis/experienceplatform/runtime.html)。
-   * AEM中「雲端服務」中「工作流程模型」和「動態媒體」的多項改進。
-   * Release 2.11.0 of the [AEM Core Components](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/introduction.html) is now available as part of AEM Sites including the following:
-      * 新的 [PDF檢視器元件簡介。](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)
-      * 核心元件的加速行動頁面(AMP)支援。 從Google行動搜尋結果進入網站時，透過即時轉換頁面，有助於提高客戶體驗，進而改善使用者參與度和搜尋引擎最佳化(SEO)。 請參 [閱核心元件的AMP支援。](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html)
-      * 與 [Adobe Client資料層1.0.2版相容](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html)。
-   * Cloud Manager中的多項UI改進。
-   * Cloud Manager 管道現在支援客戶設定變數和機密。請參 [閱管線變數。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/getting-access/creating-aem-application-project.html#pipeline-variables)
-   * [日誌可以轉發到Splunk帳戶](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/logging.html#splunk-logs)，這可讓組織利用其 [!DNL Splunk] 投資。
-   * 您可以為 [以Java程式碼寫程式的出站流量指派靜態、專用的出站IP位址](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/development-guidelines.html#dedicated-egress-ip-address) ，這對某些整合可能很有用。
-   * Cloud Readiness Analyzer v1.0.2已發佈。 請參 [閱在AEM 6.1上安裝CRA。](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html#installing-on-aem61)
-   * 請參閱 [AEM的完整版本注意事項： Cloud Service。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)
+   * AEM 雲端服務的工作流程模型和 Dynamic Media 有多處改良。
+   * [AEM Core Components](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/introduction.html) 2.11.0 現已隨附於 AEM Sites，其中包含：
+      * 導入全新 [PDF Viewer 元件](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)。
+      * Core Components 支援加速行動頁面 (AMP)。從 Google 行動搜尋結果進入網站時，利用即時的頁面轉換加速客戶體驗，以此提升使用者參與度和搜尋引擎最佳化 (SEO)。請參閱 [Core Components AMP 支援](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/developing/data-layer/overview.html)。
+      * 相容於 [Adobe Client Data Layer 1.0.2 版](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/developing/data-layer/overview.html)。
+   * Cloud Manager 內部 UI 多處改良。
+   * Cloud Manager 管道現在支援客戶設定變數和機密。請參閱[管道變數](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/onboarding/getting-access/creating-aem-application-project.html#pipeline-variables)。
+   * [記錄檔可轉發到 Splunk 帳戶](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/developing/logging.html#splunk-logs)，以便其他組織利用 [!DNL Splunk] 投資。
+   * 您可以 Java 程式碼為出站流量指派[靜態的專屬上傳 IP 位址](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/developing/development-guidelines.html#dedicated-egress-ip-address)，如此能有助於部分整合。
+   * Cloud Readiness Analyzer v1.0.2 版現已發佈。請參閱[在 AEM 6.1 安裝 CRA](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html#installing-on-aem61)。
+   * 請參閱 [AEM 雲端服務完整發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)。
 
 ### 自助資源
 
@@ -250,23 +250,23 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
    * 已新增更多 [Experience Manager案頭應用程式](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/troubleshoot.html) 的疑難排解提示。
 
-* **AEM 表格**
+* **AEM Forms**
 
-   * AEM Forms新增套件現在可在 [AEM Software Distribution取得](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?2_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Asolution&amp;2_group.propertyvalues.operation=equals&amp;2_group.propertyvalues.0_values=target-solution%3Aaem%2Fforms&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=24)。 您可以在 [AEM Forms發行文章中找到每個支援版本的套件直接連結](https://helpx.adobe.com/tw/aem-forms/kb/aem-forms-releases.html) 。
-   * 使用參 [考網站](https://docs.adobe.com/content/help/en/experience-manager-65/forms/getting-started/aem-forms-reference-collaterals/forms-gov-reference-site-user-demo.html) ，瞭解Automated Forms Conversion服務的端對端工作流程。
-   * AEM [6.5.5.0和AEM](https://helpx.adobe.com/experience-manager/6-5/forms/javadocs/index.html) 6.4.8.1版的Javadoc [](https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/index.html) 已推出。
-   * [在JEE環境中強化AEM Forms時](https://docs.adobe.com/content/help/en/experience-manager-65/forms/manage-administer-aem-forms/hardening-aem-forms-environment/hardening-aem-forms-jee-environment.html#configuring-ssl) ，將信任的憑證匯入JVM。
-   * 已改善 [PDF產生器設定檔案。](https://docs.adobe.com/content/help/en/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html)
+   * [AEM Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?2_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Asolution&amp;2_group.propertyvalues.operation=equals&amp;2_group.propertyvalues.0_values=target-solution%3Aaem%2Fforms&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=24)現已提供 AEM Forms 附加套件。[AEM Forms 發行文章](https://helpx.adobe.com/tw/aem-forms/kb/aem-forms-releases.html)會提供支援套件版本的直接連結。
+   * [參考網站](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/forms/getting-started/aem-forms-reference-collaterals/forms-gov-reference-site-user-demo.html)可供了解 Automated Forms Conversion 服務的端對端工作流程。
+   * AEM [6.5.5.0](https://helpx.adobe.com/experience-manager/6-5/forms/javadocs/index.html) 和 AEM [6.4.8.1](https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/index.html) 等版本的 Javadoc 現已發佈。
+   * 於 JEE 環境中強化 AEM Forms 時，請在 JVM [匯入信任的憑證](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/forms/manage-administer-aem-forms/hardening-aem-forms-environment/hardening-aem-forms-jee-environment.html#configuring-ssl)。
+   * [PDF Generator 設定文件](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html)的品質已有所提升。
 
-* **核心元件**
+* **Core Components**
 
-   核心元件2.11.0版提供AMP支援，現在提供製作檔案 [和開發人員](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/introduction.html)[詳細資訊，以及GitHub專案下載。](https://github.com/adobe/aem-core-wcm-components)
+   Core Components 2.11.0 提供 AMP 支援，連同[程式編寫文件](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/introduction.html)以及[開發人員詳細資訊和專案均可從 GitHub 下載取得](https://github.com/adobe/aem-core-wcm-components)
 
 ### **社群**
 
-* **Experience League的最新AEM內容**
+* **Experience League 的最新 AEM 內容**
 
-   這是Adobe製作之數位體驗技術內容的官方來源。 請參閱此處的完整 [清單。](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/list-of-latest-adobe-experience-manager-content-on-experience/qaq-p/373396)
+   此為 Adobe 提供之數位體驗技術內容的官方來源。若需參閱完整清單，請前往[此處](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/list-of-latest-adobe-experience-manager-content-on-experience/qaq-p/373396)。
 
 ### 最新 Experience Manager 課程與教學課程 
 
@@ -274,36 +274,36 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 8 月 7 日 | [針對商業使用者的多網站管理快速入門](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.sites.msm) | 課程 | 瞭解如何設定核心顧慮，從設定基準內容架構和分類法到自訂中繼資料和資產處理，為您的AEM Assets實作奠定堅實的基礎。 |
-| 2020 年 8 月 7 日 | [為管理員設定AEM資產](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2020.1.assets) | 教學課程 | 說明 |
-| 2020 年 7 月 19 日 | [使用內容傳輸工具](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/migration/content-transfer-tool.html) | 教學課程 | 內 [!UICONTROL 容傳輸工具] ，是將內容從內部部署或AMS代管版本的Experience Manager移轉至 [!UICONTROL AEM做為雲端服務環境的建議方式] 。 |
-| 2020 年 7 月 21 日 | [建立即時副本](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/create-live-copy.html) | 教學課程 | 瞭解如何使用「建 [!UICONTROL 立即時副本] 」精靈，從 [!UICONTROL Blueprint] 建立 [!UICONTROL 網站的即時副本] 。 |
-| 2020 年 7 月 21 日 | [即時複製控制台](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/live-copy-overview-console.html) | 教學課程 | 瞭解如何使用即時副本概述主控台檢視或管理網站上的繼承，或執行轉出作業。 |
-| 2020 年 7 月 21 日 | [翻譯專案](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/manage-translation-projects.html) | 教學課程 | 瞭解如何建立、編輯和管理您的語言文案的翻 [!UICONTROL 譯專案]。 |
-| 2020 年 7 月 21 日 | [翻譯工作](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/manage-translation-projects.html) | 教學課程 | 瞭解如何將翻譯作業添加到現有的翻譯項目。 |
-| 2020 年 7 月 21 日 | [使用啟動更新語言副本](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/updating-language-copy.html) | 教學課程 | 瞭解如何透過啟動的協助，更新、審 [!UICONTROL 閱和核准語言] 「內容」中的變更。 |
-| 2020 年 7 月 21 日 | [多網站管理概觀](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/language-copy-overview.html) | 教學課程 | 概略瞭解如何使用 [!UICONTROL AEM Sites中的「語言復本」建立多語] 言網站 。 |
-| 2020 年 7 月 21 日 | [即時文案和藍圖](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/live-copy-and-blueprint.html) | 教學課程 | 瞭解「即時文案 [!UICONTROL 」與「] AEM網站」中「Blueprint [!UICONTROL 」之間的關係]。 |
-| 2020 年 7 月 21 日 | [管理頁面上的即時副本繼承](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/manage-page-inheritance-live-copy.html) | 教學課程 | 瞭解如何在頁面層級管理 [!UICONTROL 即時副本][!UICONTROL 與Blueprint] 之間的繼承。 |
-| 2020 年 7 月 21 日 | [管理元件上的即時副本繼承](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/manage-component-inheritance-live-copy.html) | 教學課程 | 瞭解如何在元件層級管 [!UICONTROL 理即時副本][!UICONTROL 與其Blueprint] 之間的繼承。 |
+| 2020 年 8 月 7 日 | [商務使用者專用多網站管理快速入門](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.sites.msm) | 課程 | 了解如何設定核心關注點，從設定基準內容架構和分類法，乃至自訂中繼資料和資產處理程序，為您的 AEM Assets 實作奠定堅實的基礎。 |
+| 2020 年 8 月 7 日 | [為管理員設定 AEM Assets](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2020.1.assets) | 教學課程 | 說明 |
+| 2020 年 7 月 19 日 | [使用內容傳送工具](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/migration/content-transfer-tool.html) | 教學課程 | 若要將內容從內部部署或 AMS 代管版本的 Experience Manager 移轉至 [!UICONTROL AEM 雲端服務]環境，建議使用[!UICONTROL 內容傳送]工具。 |
+| 2020 年 7 月 21 日 | [建立即時副本](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/create-live-copy.html) | 教學課程 | 了解如何在 [!UICONTROL Blueprint] 使用[!UICONTROL 建立即時副本]精靈，為您的網站建立[!UICONTROL 即時副本]。 |
+| 2020 年 7 月 21 日 | [即時副本主控台](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/live-copy-overview-console.html) | 教學課程 | 了解如何使用「即時副本概覽」主控台檢視或管理網站上的繼承，或執行轉出作業。 |
+| 2020 年 7 月 21 日 | [翻譯專案](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/manage-translation-projects.html) | 教學課程 | 了解如何建立、編輯及管理您的[!UICONTROL 語言副本]翻譯專案。 |
+| 2020 年 7 月 21 日 | [翻譯工作](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/manage-translation-projects.html) | 教學課程 | 了解如何為現有的翻譯專案新增翻譯工作。 |
+| 2020 年 7 月 21 日 | [透過 Launch 更新語言副本](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/updating-language-copy.html) | 教學課程 | 了解如何透過 Launch 更新、審核及核准[!UICONTROL 語言副本]中的變更。 |
+| 2020 年 7 月 21 日 | [多網站管理概覽](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/language-copy-overview.html) | 教學課程 | 概略了解如何使用 [!UICONTROL AEM Sites] 中的[!UICONTROL 語言副本]建立多語言網站。 |
+| 2020 年 7 月 21 日 | [即時副本和 Blueprint](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/live-copy-and-blueprint.html) | 教學課程 | 了解 [!UICONTROL AEM Sites] 中[!UICONTROL 即時副本]與其 [!UICONTROL Blueprint] 之間的關係。 |
+| 2020 年 7 月 21 日 | [管理頁面上的即時副本繼承](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/manage-page-inheritance-live-copy.html) | 教學課程 | 了解如何從頁面層級管理[!UICONTROL 即時副本]與其 [!UICONTROL Blueprint] 之間的繼承情形。 |
+| 2020 年 7 月 21 日 | [管理元件的即時副本繼承](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/manage-component-inheritance-live-copy.html) | 教學課程 | 了解如何從元件層級管理[!UICONTROL 即時副本]與其 [!UICONTROL Blueprint] 之間的繼承情形。 |
 | 2020 年 7 月 21 日 | [建立語言副本](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/manage-component-inheritance-live-copy.html) | 教學課程 | 說明。 |
-| 2020 年 7 月 21 日 | [建立語言副本](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/create-launguage-copy.html) | 教學課程 | 使用「建立語言復 [!UICONTROL 制」精靈] ，探索如何為AEM網站 [!UICONTROL 建立語言復本]。 |
-| 2020 年 7 月 21 日 | [建立多語言翻譯專案](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/create-multinational-translational-project.html) | 教學課程 | 瞭解如何從AEM的Project主控台建立、編輯及管理多語言 [!UICONTROL 翻譯專案] ，以供您的「語言副本」使用。 |
-| 2020 年 7 月 21 日 | [建立國家網站](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/create-new-site.html) | 教學課程 | 瞭解如何使用「建立網站」精靈，從現 [!UICONTROL 有的語言副本][!UICONTROL 建立國家網站] 。 |
-| 2020 年 7 月 21 日 | [「建立語言副本」頁](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/create-new-page-language-copy.html) | 教學課程 | 瞭解如何在現有的語言文案中建立 [!UICONTROL 頁面]，然後將內容翻譯成其 [!UICONTROL 他語言文案]。 |
-| 2020 年 7 月 21 日 | [翻譯作業狀態](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/translation-job-status.html) | 教學課程 | 瞭解與翻譯任務或任務中的物料關聯的不同狀態。 |
-| 2020 年 7 月 21 日 | [多網站管理簡介](https://video.tv.adobe.com/v/36686?captions=chi_hant) | 教學課程 | 企業使用者多網站管理快速入門課程簡介。 |
-| 2020 年 7 月 21 日 | [建立最適化表單片段](https://video.tv.adobe.com/v/37325?captions=chi_hant) | 教學課程 | 最適化表單提供一種便利的機制，可建立表單區段（例如面板或欄位群組），只需一次，即可跨最適化表單重複使用。 這些可重複使用和獨立作業的區段稱為最適化表單片段。 |
-| 2020 年 7 月 21 日 | [AEM收件匣](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/inbox-customization/introduction.html) | 教學課程 | [!UICONTROL AEM Inbox] 整合來自各種AEM元件（包括Forms工作流程）的通知和工作。 |
-| 2020 年 7 月 21 日 | [使用記錄檔對 AEM SDK 的本機 Quickstart 進行除錯](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教學課程 | 記錄檔是除錯AEM應用程式的前線，但需視部署的AEM應用程式中的適當登入而定。 |
-| 2020 年 7 月 21 日 | [SPA編輯器簡介](https://video.tv.adobe.com/v/37705?quality=12&learn=on&captions=chi_hant) | 教學課程 | 開發人員適用的AEM SPA編輯器快速入門課程簡介。 |
-| 2020 | [基線權限](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/baseline-permissions.html) | 教學課程 | 管理基準資產資料夾上的使用者存取權是治理中的重要方面，並確保程式可以正確支援。 |
-| 2020 年 7 月 21 日 | [自動啟動工作流程](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/auto-start-workflows.html) | 教學課程 | 自動啟動工作流程可在上傳或重新處理時自動叫用自訂工作流程，將AEM中的資產處理延伸為Cloud Service。 |
-| 2020 年 7 月 21 日 | [使用記錄檔對 AEM SDK 的本機 Quickstart 進行除錯](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教學課程 | 記錄檔是除錯AEM應用程式的前線，但需視部署的AEM應用程式中的適當登入而定。 |
-| 2020 年 7 月 21 日 | [建立最適化表單範本](https://video.tv.adobe.com/v/37324?captions=chi_hant) | 教學課程 | 當作者使用範本建立最適化表單時，新表單會繼承您在範本中指定的結構和元件。 |
-| 2020 年 7 月 21 日 | [建立Apache Sling Connection Pooled DataSource](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/prefill-fdm-db/create-form-data-model.html) | 教學課程 | 建立RDBMS支援的表單資料模型的第一步是設定Apache Sling Connection Pooled DataSource。 |
-| 2020 年 7 月 21 日 | [使用表單資料模型預先填寫最適化表單](https://video.tv.adobe.com/v/36387?captions=chi_hant) | 教學課程 | 簡介使用表單資料模型預先填寫表單。 |
-| 2020 年 7 月 21 日 | [建立您的第一個最適化表單](https://video.tv.adobe.com/v/37701?captions=chi_hant) | 教學課程 | 在此影片中，瞭解如何建立您的第一個最適化表單。 |
+| 2020 年 7 月 21 日 | [建立語言副本](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/create-launguage-copy.html) | 教學課程 | 探索如何使用[!UICONTROL 語言副本建立精靈]為 AEM 網站建立[!UICONTROL 語言副本]。 |
+| 2020 年 7 月 21 日 | [建立多語言翻譯專案](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/create-multinational-translational-project.html) | 教學課程 | 了解如何從 AEM 的專案主控台為[!UICONTROL 語言副本]建立、編輯及管理多語言翻譯專案。 |
+| 2020 年 7 月 21 日 | [建立國家/地區網站](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/create-new-site.html) | 教學課程 | 了解如何使用[!UICONTROL 建立網站]精靈，從現有的[!UICONTROL 語言副本]建立國家/地區網站。 |
+| 2020 年 7 月 21 日 | [建立語言副本頁面](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/create-new-page-language-copy.html) | 教學課程 | 了解如何在現有的[!UICONTROL 語言副本]中建立頁面，然後將內容翻譯成其他[!UICONTROL 語言副本]。 |
+| 2020 年 7 月 21 日 | [翻譯工作狀態](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/multi-site-management/translation-job-status.html) | 教學課程 | 了解與翻譯工作或工作項目相關的各種狀態。 |
+| 2020 年 7 月 21 日 | [多網站管理簡介](https://video.tv.adobe.com/v/36686?captions=chi_hant) | 教學課程 | 企業使用者的多網站管理快速入門課程簡介。 |
+| 2020 年 7 月 21 日 | [建立最適化表單片段](https://video.tv.adobe.com/v/37325?captions=chi_hant) | 教學課程 | 最適化表單提供一種便利的機制，讓您只需建立一次表單區段 (例如面板或欄位群組)，即可在最適化表單中重複使用。這些可重複使用的獨立區段即稱為最適化表單片段。 |
+| 2020 年 7 月 21 日 | [AEM 收件匣](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/inbox-customization/introduction.html) | 教學課程 | [!UICONTROL AEM 收件匣]整合來自各種 AEM 元件 (包括 Forms 工作流程) 的通知和工作。 |
+| 2020 年 7 月 21 日 | [使用記錄檔對 AEM SDK 的本機 Quickstart 執行偵錯作業](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教學課程 | 記錄檔是 AEM 應用程式偵錯作業的最前線，但部署的 AEM 應用程式必須具備充足記錄。 |
+| 2020 年 7 月 21 日 | [SPA 編輯器簡介](https://video.tv.adobe.com/v/37705?quality=12&learn=on&captions=chi_hant) | 教學課程 | 開發人員適用的 AEM SPA 編輯器快速入門課程簡介。 |
+| 2020 | [基線權限](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/baseline-permissions.html) | 教學課程 | 管理基線資產資料夾的使用者存取權限是重要的管理課題，同時也得確保該程序能獲得妥善支援。 |
+| 2020 年 7 月 21 日 | [自動開始工作流程](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/auto-start-workflows.html) | 教學課程 | 自動開始工作流程可在上傳或重新處理時，自動執行自訂工作流程，延伸 AEM 雲端服務的資產處理作業。 |
+| 2020 年 7 月 21 日 | [使用記錄檔對 AEM SDK 的本機 Quickstart 執行偵錯作業](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教學課程 | 記錄檔是 AEM 應用程式偵錯作業的最前線，但部署的 AEM 應用程式必須具備充足記錄。 |
+| 2020 年 7 月 21 日 | [建立最適化表單範本](https://video.tv.adobe.com/v/37324?captions=chi_hant) | 教學課程 | 作者使用範本建立最適化表單時，新表單會繼承您在範本中指定的結構和元件。 |
+| 2020 年 7 月 21 日 | [建立 Apache Sling Connection Pooled DataSource](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/prefill-fdm-db/create-form-data-model.html) | 教學課程 | 建立 RDBMS 支援表單資料模型的第一步，即是設定 Apache Sling Connection Pooled DataSource。 |
+| 2020 年 7 月 21 日 | [使用表單資料模型預先填寫最適化表單](https://video.tv.adobe.com/v/36387?captions=chi_hant) | 教學課程 | 說明如何使用表單資料模型預先填寫表單。 |
+| 2020 年 7 月 21 日 | [建立第一個最適化表單](https://video.tv.adobe.com/v/37701?captions=chi_hant) | 教學課程 | 此影片會說明如何建立第一個最適化表單。 |
 
 ### Experience Manager 發行資訊
 
@@ -318,7 +318,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 * [AEM Brand Portal 發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
 * [AEM 桌面應用程式發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-desktop-app/using/release-notes.translate.html)
 * [AEM Dispatcher 發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-dispatcher/using/getting-started/release-notes.html)
-* [Adobe Primetime 發行說明](https://docs.adobe.com/content/help/en/primetime/release-notes/home.html)
+* [Adobe Primetime 發行說明](https://docs.adobe.com/content/help/zh-Hant/primetime/release-notes/home.html)
 * [Livefyre 發行說明](https://docs.adobe.com/content/help/zh-Hant/livefyre/using/release-notes/c-rn.translate.html)
 
 ### AEM 其他說明資源
@@ -342,7 +342,7 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 
 #### Campaign Classic
 
-* 20.2.1版——閱 [讀更多](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html#release-20-2-2-build-9180)
+* 20.2.1 版 - [深入了解](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html#release-20-2-2-build-9180)
 
 ### 最新 Campaign 課程與教學課程
 
@@ -350,19 +350,19 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | ----------- | ----------- | ---------- | ---------- |  
-| 2020 年 7 月 10 日 | [控制面板- GPG密鑰管理——解密資料](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) | Campaign Classic | 瞭解如何建立公開金鑰，並將其匯入及安裝於 Campaign 執行個體，以解密傳入的資料。 |
-| 2020 年 7 月 10 日 | [控制面板- GPG密鑰管理——使用GPG密鑰加密資料](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Classic | 瞭解如何使用安裝在控制面板的 GPG 金鑰匯出資料。 |
-| 2020 年 7 月 10 日 | [控制面板——產生並安裝GPG金鑰以進行資料加密](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html) | Campaign Classic | 瞭解如何產生公用／私用GPG金鑰對，並將公用金鑰安裝至「控制面板」，以便在從您的例項傳送資料之前，先加密資料。 |
-| 2020 年 7 月 21 日 | [管理行銷宣傳](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/managing-marketing-campaigns.html) | Campaign Classic | 瞭解Adobe Campaign的主要概念，協助您有效規劃、執行和衡量跨通道行銷宣傳。 |
-| 2020 年 7 月 22 日 | [建立行銷計畫、計畫和促銷活動](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/creating-a-marketing-plan-programs-and-campaigns.html) | Campaign Classic | 瞭解如何建立行銷計畫、方案和促銷活動、設定促銷活動的屬性，並瞭解如何使用排程。 視訊會引導您進行一項練習，您可以隨後進行。 |
-| 2020 年 7 月 23 日 | [建立和管理設定檔](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/create-and-manage-profiles.html) | Campaign Classic | 瞭解Adobe Campaign Classic中設定檔的概念。 瞭解如何存取描述檔資料、排序和篩選描述檔，以及手動建立和管理描述檔。 |
-| 2020 年 7 月 28 日 | [使用條件式內容個人化電子郵件](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/personalizing-emails-create-a-multi-lingual-newsletter-using-conditional-content.html) | Campaign Classic | 透過多語言電子報的範例，瞭解如何將條件式內容新增至傳送內容。 |
-| 2020 年 7 月 28 日 | [使用個人化欄位個人化電子郵件](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/personalizing-emails-using-personalization-fields.html) | Campaign Classic | 瞭解如何將個人化欄位新增至主旨行，以及電子郵件傳送的內容。 |
-| 2020 年 7 月 28 日 | [在工作流程中定位描述檔](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/targeting-profiles-in-a-workflow.html) | Campaign Classic | 瞭解促銷活動工作流程的使用，並瞭解如何使用篩選條件建立工作流程並定位工作流程中的設定檔。 |
-| 2020 年 7 月 31 日 | [產生描述性分析報表](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/reporting/generating-a-descriptive-analysis-report.html) | Campaign Classic | 瞭解如何產生描述性分析報表。 |
-| 2020 年 7 月 9 日 | [控制面板- GPG密鑰管理——使用GPG密鑰加密資料](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Standard | 瞭解如何使用安裝在控制面板的 GPG 金鑰匯出資料。 |
-| 2020 年 7 月 9 日 | [控制面板- GPG密鑰管理——解密資料](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html) | Campaign Standard | 瞭解如何建立公開金鑰，並將其匯入及安裝於 Campaign 執行個體，以解密傳入的資料。 |
-| 2020 年 7 月 9 日 | [控制面板- GPG密鑰管理——生成並安裝用於資料加密的GPG密鑰](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html) | Campaign Standard | 瞭解如何在指定的 Campaign 執行個體產生和安裝公開/私用金鑰組，以加密傳出資料。 |
+| 2020 年 7 月 10 日 | [控制面板 - GPG 金鑰管理 - 解密資料](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) | Campaign Classic | 了解如何建立公開金鑰，並將其匯入及安裝於 Campaign 執行個體，以將傳入的資料解密。 |
+| 2020 年 7 月 10 日 | [控制面板 - GPG 金鑰管理 - 使用 GPG 金鑰為資料加密](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Classic | 了解如何使用安裝於控制面板的 GPG 金鑰匯出資料。 |
+| 2020 年 7 月 10 日 | [控制面板 - 產生並安裝資料加密所需的 GPG 金鑰](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html) | Campaign Classic | 了解如何產生公用/私密 GPG 金鑰組，並將公用金鑰安裝至控制面板，以便從執行個體傳送資料前先行加密資料。 |
+| 2020 年 7 月 21 日 | [管理行銷活動](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/managing-marketing-campaigns.html) | Campaign Classic | 了解 Adobe Campaign 的主要概念，協助您有效規劃、執行及評估跨管道行銷活動。 |
+| 2020 年 7 月 22 日 | [建立行銷計畫、方案和行銷活動](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/creating-a-marketing-plan-programs-and-campaigns.html) | Campaign Classic | 了解如何建立行銷計畫、方案和行銷活動、設定行銷活動的屬性，以及排程功能的使用方法。該影片會帶您展開練習，方便您逐步學習。 |
+| 2020 年 7 月 23 日 | [建立及管理描述檔](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/create-and-manage-profiles.html) | Campaign Classic | 了解 Adobe Campaign Classic 中的描述檔概念。了解如何存取描述檔資料、排序及篩選描述檔，以及手動建立和管理描述檔。 |
+| 2020 年 7 月 28 日 | [使用條件式內容製作個人化電子郵件](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/personalizing-emails-create-a-multi-lingual-newsletter-using-conditional-content.html) | Campaign Classic | 透過多語言電子報範例，了解如何將條件式內容新增至傳送作業。 |
+| 2020 年 7 月 28 日 | [使用個人化欄位製作個人化電子郵件](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/personalizing-emails-using-personalization-fields.html) | Campaign Classic | 了解如何將個人化欄位新增至主旨行與電子郵件的傳送內容。 |
+| 2020 年 7 月 28 日 | [在工作流程中鎖定描述檔](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/targeting-profiles-in-a-workflow.html) | Campaign Classic | 了解如何使用行銷活動工作流程，以及運用篩選條件建立工作流程並鎖定工作流程中的描述檔。 |
+| 2020 年 7 月 31 日 | [產生描述性分析報表](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/reporting/generating-a-descriptive-analysis-report.html) | Campaign Classic | 了解如何產生描述性分析報表。 |
+| 2020 年 7 月 9 日 | [控制面板 - GPG 金鑰管理 - 使用 GPG 金鑰為資料加密](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Standard | 了解如何使用安裝於控制面板的 GPG 金鑰匯出資料。 |
+| 2020 年 7 月 9 日 | [控制面板 - GPG 金鑰管理 - 解密資料](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html) | Campaign Standard | 了解如何建立公開金鑰，並將其匯入及安裝於 Campaign 執行個體，以將傳入的資料解密。 |
+| 2020 年 7 月 9 日 | [控制面板 - GPG 金鑰管理 - 產生並安裝資料加密所需的 GPG 金鑰](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html) | Campaign Standard | 了解如何在指定的 Campaign 執行個體產生及安裝公開/私用金鑰組，以加密傳出資料。 |
 
 ### 說明資源
 
@@ -376,13 +376,13 @@ Adobe Advertising Cloud 發行說明。
 
 ### [!UICONTROL Advertising Cloud Search] 新功能 {#adcloud-search}
 
-**8月8日發行**
+**8 月 8 日**&#x200B;發行
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| [!UICONTROL 產品組合] | 投資組合設定不再提供投資組合層級的位置限制。 所有先前建立的位置限制都已移除。 |
-| [!UICONTROL 限制] | 不再支援基於位置的約束和約束條件：<br/><ul><li>「最小位置」和「最大位置」限制已不再提供，且已從所有先前建立的「競價與位置限制」和「曝光共用」限制中移除。</li><li>包含職位限制但未暫停競標限制的現有競標與職位限制。 它們仍可在UI和報表中使用。</li><li>競標與位置限制已重新命名為競標限制。</li><li>已移除任何類型限制中所有以位置為基礎的條件（使用「平均位置」、「加權平均位置」或「最後已知位置」量度）。</li></ul><br/>**注意：**只要可從搜尋引擎取得位置資料，就會繼續填入。 Microsoft Ads將於2020年9月退休。 |  |
-| [!UICONTROL 行銷活動] | （Google Ads促銷活動）Advertising Cloud Search現在支援自適應搜尋廣告(RSA)中的廣告自訂者。 以前，除了RSA之外，所有廣告類型都支援這些廣告。 |
+| [!UICONTROL 產品組合] | 產品組合設定不再提供產品組合層級的位置限制。先前建立的所有位置限制均已移除。 |
+| [!UICONTROL 限制] | 不再支援以位置為基礎的限制和限制條件：<br/><ul><li>不再提供「最小位置」和「最大位置」等限制，且已從先前建立的所有「競價與位置」限制和「曝光共用」限制中移除。</li><li>內含位置限制但無競價限制的現有「競價與位置」限制均已暫停。上述限制仍可在 UI 和報表中使用。</li><li>「競價與位置」限制已重新命名為「競價」限制。</li><li>任意類型的限制中，所有以位置為基礎的條件 (使用「平均位置」、「加權平均位置」或「最後已知位置」量度) 均已移除。</li></ul><br/>**注意：**&#x200B;如果從搜尋引擎能取得位置資料，系統仍會繼續將其填入。Microsoft Ads 將於 2020 年 9 月終止「位置」功能。 |  |
+| [!UICONTROL 行銷活動] | (Google Ads 行銷活動) Advertising Cloud Search 現在支援在回應式搜尋廣告 (RSA) 中自訂廣告。之前，RSA 以外的所有廣告類型皆已支援此功能。 |
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
 
