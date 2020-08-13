@@ -3,9 +3,9 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 發行說明
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dab2c3fb8b9920f079195693a584f7c48b813e23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ ht-degree: 100%
       + 2016 年{#2016}
          + [2016 年 11 月](c-legacy-releases/2016/11102016.md)
          + [2016 年 10 月](c-legacy-releases/2016/10202016.md)
-         + [2016年 9 月](c-legacy-releases/2016/09152016.md)
+         + [2016 年 9 月](c-legacy-releases/2016/09152016.md)
          + [2016 年 8 月](c-legacy-releases/2016/08182016.md)
          + [2016 年 7 月](c-legacy-releases/2016/07212016.md)
          + [2016 年 6 月](c-legacy-releases/2016/06162016.md)
