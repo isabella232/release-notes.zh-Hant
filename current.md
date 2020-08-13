@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8eec282ba5b97526aecf904b58819b446be35db0
+source-git-commit: 287bdc8c8460e9700474bb0bf1e79631182945bb
 workflow-type: tm+mt
-source-wordcount: '6337'
-ht-degree: 97%
+source-wordcount: '6402'
+ht-degree: 96%
 
 ---
 
@@ -190,6 +190,7 @@ Audience Manager 的新功能、修正項目、說明文件和教學課程。
 
 ### Adobe Audience Manager 新功能和修正項目
 
+* 您現在可以透過 [以人為本的目標](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) ，來定位使用者 [!DNL Google Customer Match]。 您必須先將您新 [!UICONTROL 增至其允許清單，才能使用「以人為本的目的地] 」將您的第一方對象區段傳送至 [!DNL Google Customer Match][!DNL Google] 目的地。 如需詳細 [資訊，請參閱以人為本的目標](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) 。 (PLAT-53962)
 * [「預測對象」](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html)現在支援使用者在建立模型時，為個別模型選取[!UICONTROL 「描述檔合併規則」]。(AAM-55178)
 * 每個區段頁面現在會顯示目的地對應的開始和結束日期。(AAM-40056)
 * 修正建立新特徵時，特徵的[!UICONTROL 「裝置類型」]自動設為[!UICONTROL 「跨裝置」]的問題。(AAM-55368)
