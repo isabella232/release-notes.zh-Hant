@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bd027ba7bbbfd6c8e510b48e4e0fff9168403da8
+source-git-commit: 949872e465b54e68051c62f61530591117f54a6a
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '2526'
 ht-degree: 97%
 
 ---
@@ -35,7 +35,7 @@ Adobe Experience Cloud 的新功能及修正項目。
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [行銷活動](#ac)
+* [Campaign](#ac)
 * [Target](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html) （解決方案說明的連結）
 * [Advertising Cloud](#adcloud)
 * [Magento](#magento)
@@ -99,7 +99,7 @@ For product documentation, see [Experience Cloud interface](https://docs.adobe.c
 
 #### [!UICONTROL 歷程協調]的其他資源
 
-[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/understanding-journey-orchestration.translate.html)
 
 ### [!UICONTROL Mobile Services] 與 [!UICONTROL Mobile SDK] {#mobile}
 
@@ -131,7 +131,7 @@ Adobe Analytics 的新功能和修正項目：
 ### Adobe Analytics 的新功能 {#aa-features}
 
 | 功能 | 說明 |
-| -----------| ---------- |  
+| ------- | ------- |
 | 功能 A | 文字 |
 | 功能 B | 文字 |
 | 功能 C | 文字 |
@@ -139,7 +139,7 @@ Adobe Analytics 的新功能和修正項目：
 ### 適用於 [!DNL iOS] 與 [!DNL Android] 的 [!DNL Media Analytics] SDK (原稱 VHL SDK){#aa-va}
 
 | 功能 | 說明 |
-| -----------| ---------- |  
+| ------- | ------- |
 | 功能 A | 文字 |
 | 功能 B | 文字 |
 | 功能 C | 文字 |
@@ -151,7 +151,7 @@ Adobe Analytics 的新功能和修正項目：
 ### AppMeasurement {#appm}
 
 | 功能 | 說明 |
-| -----------| ---------- |
+| ------- | ------- |
 | 功能 A | 文字 |
 | 功能 B | 文字 |
 | 功能 C | 文字 |
@@ -179,7 +179,7 @@ Adobe Analytics 的新功能和修正項目：
 ## Audience Manager {#aam}
 
 | 功能 | 說明 |
-| -----------| ---------- |  
+| ------- | ------- |
 | 功能 A | 文字 |
 | 功能 B | 文字 |
 | 功能 C | 文字 |
@@ -235,7 +235,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 ### [!DNL Livefyre] {#livefyre}
 
 | 功能 | 說明 |
-| -----------| ---------- |  
+| ------- | ------- |
 | 功能 A | 文字 |
 | 功能 B | 文字 |
 | 功能 C | 文字 |
@@ -250,7 +250,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 ## 社交 {#soc}
 
 | 功能 | 說明 |
-| -----------| ---------- |  
+| ------- | ------- |
 | 功能 A | 文字 |
 | 功能 B | 文字 |
 | 功能 C | 文字 |
@@ -275,7 +275,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 ## Advertising Cloud {#adcloud}
 
 | 功能 | 說明 |
-| -----------| ---------- |  
+| ------- | ------- |
 | 功能 A | 文字 |
 | 功能 B | 文字 |
 | 功能 C | 文字 |
@@ -316,9 +316,10 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 本季預計推出下列功能：
 
 | 功能 | 說明 |
-|------|---------|
-| [!DNL Bizible] | <ul><li>全新的帳戶型細分</li><li>儲存儀表板專有的篩選器</li><li>將 Bizible 儀表板匯出為 PDF</li></ul> |
-| Sales Connect | Compose Window 和 Command Center 更新/增強功能 |
+| ------- | ------- |
+| 功能 A | 文字 |
+| 功能 B | 文字 |
+| 功能 C | 文字 |
 
 ### 公告
 
@@ -336,7 +337,7 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 近期的全新自助文章和影片。<!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
 | 解決方法 | 內容 | 說明 |
-|----------| -----------| ---------- |  
+| ---------- | ----------- | ---------- |
 | [!UICONTROL AEM Commerce] | 影片 - [建立多個類別和產品頁面](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/04-style-cif-component.md) | 了解如何使用 CIF 核心元件，建立最簡化的 Adobe Experience Manager (AEM) CIF 專案，作為客戶專案的起點。將主題和 CSS 樣式套用至元件，並檢查由原型產生的新 AEM CIF 專案。此外，也能了解 CIF 核心元件使用的 CSS 和 JavaScript 如何組織。 |
 | [!UICONTROL AEM 表格] | 文章 - [使用 OKTA 驗證 AEM 作者](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/single-sign-on-with-okta.html) | 了解如何在 OKTA 入口網站上設定您的應用程式，以及註冊新應用程式時通常會使用的相關設定。 |
 | [!UICONTROL AEM Commerce] | 教學課程 - [自訂 CIF 核心元件](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/05-customize-cif-components.md) | 檢視 CIF 核心元件及 AEM 一般所提供的數個不同擴充點。CIF 核心元件提供一套標準的 Commerce 元件，可加速推動整合了 Adobe Experience Manager (AEM) 和 Magento 解決方案的專案。 |
@@ -350,7 +351,7 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 | [!DNL Adobe Campaign] - AEP 資料連接器 | 影片 - [對應自訂資源](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-custom-resources.html) | 了解如何對應 Adobe Campaign Standard 和 Adobe Experience Platform 之間不同的資料類型。 |
 | [!DNL Adobe Campaign] - AEP 資料連接器 | 影片 - [了解 Adobe Experience Platform 資料連接器](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) | 了解如何將 XTK 資料 (在 Campaign中擷取的資料) 對應至 Adobe Experience Platform 上的 Experience Data Model (XDM) 資料，以便您的資料可在 Adobe Experience Platform 上使用。 |
 | [!DNL Adobe Campaign] - AEP 資料連接器 | 影片 - [對應種子表資料](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-seed-table-data.html) | 了解如何使用 Adobe Experience Platform 對應您的種子資料/測試設定檔。 |
-| [!DNL Adobe Campaign]- 對象目的地 | 影片 - [變更平台對象傳送作業的定位維度](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/changing-targeting-dimension.html) | 了解如何在 Adobe Campaign Standard 主要設定檔表格之外的位置，變更平台對象傳送作業的定位維度。 |
+| [!DNL Adobe Campaign] - 對象目的地 | 影片 - [變更平台對象傳送作業的定位維度](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/changing-targeting-dimension.html) | 了解如何在 Adobe Campaign Standard 主要設定檔表格之外的位置，變更平台對象傳送作業的定位維度。 |
 | [!DNL Adobe Campaign] | 影片 - [管理 Snowflake 的大型資料](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | 在 Adobe Campaign Classic 中運用 Snowflake 連接器。 |
 | [!DNL Adobe Campaign] - 對象目的地 | 文章 - [對象目的地 (測試版)- 概觀](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) | 了解如何在 Adobe Campaign Standard 中，運用 Adobe Experience Platform 提供的集中整合式設定檔資料推展行銷活動。 |
 | [!DNL Adobe Target] - Mobile SDK | 教學課程 - [使用 Adobe Target 提供個人化應用程式體驗](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | 在您自己的 Android 應用程式中實作 Adobe Target。驗證 Mobile Services SDK 設定並實作預先擷取內容、封鎖請求等 [!DNL Target] 請求。 |
