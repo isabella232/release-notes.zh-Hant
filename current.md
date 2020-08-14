@@ -5,23 +5,19 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5fa62cfefa6118c72d3c997c198f9f5ad7123b6d
+source-git-commit: dc785dde4088570baa004f5296d134d16a503562
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '6378'
+ht-degree: 95%
 
 ---
 
 
-# 搶先使用 - Adobe Experience Cloud 發行說明 - 2020 年 8 月
+# Adobe Experience Cloud發行說明- 2020年8月
 
 ![橫幅](/assets/experience-cloud-banner-3.png)
 
 此頁面主要說明 [!DNL Adobe Experience Cloud] 的新功能、修正項目和重要注意事項。此外還有最新文件、訓練課程和教學課程影片，協助您充份運用 Experience Cloud。
-
->[!IMPORTANT]
->
->此頁面含有搶先版內容，於預計發行前可能會有所變更。
 
 >[!NOTE]
 >
@@ -241,7 +237,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
    * Cloud Manager 管道現在支援客戶設定變數和機密。請參閱[管道變數](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/onboarding/getting-access/creating-aem-application-project.html#pipeline-variables)。
    * [記錄檔可轉發到 Splunk 帳戶](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/developing/logging.html#splunk-logs)，以便其他組織利用 [!DNL Splunk] 投資。
    * 您可以 Java 程式碼為出站流量指派[靜態的專屬上傳 IP 位址](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/developing/development-guidelines.html#dedicated-egress-ip-address)，如此能有助於部分整合。
-   * Cloud Readiness Analyzer v1.0.2 版現已發佈。請參閱[在 AEM 6.1 安裝 CRA](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html#installing-on-aem61)。
+   * [!UICONTROL Cloud Readiness Analyzer] v1.0.2已發佈。 See detailed [Release Notes](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-2020-7-0.html#cloud-readiness-analyzer) for more information. 要開始使用 [!UICONTROL Cloud Readiness Analyzer]，請參 [閱使用Cloud Readiness Analyzer](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html)。
    * 請參閱 [AEM 雲端服務完整發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)。
 
 ### 自助資源
