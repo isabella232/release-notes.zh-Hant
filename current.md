@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dc785dde4088570baa004f5296d134d16a503562
+source-git-commit: b570d8c8abaaea1d18fb4d09486adef522486572
 workflow-type: tm+mt
 source-wordcount: '6378'
 ht-degree: 95%
@@ -92,16 +92,16 @@ ht-degree: 95%
 
 （更新日期：2020年8月13日）
 
-| 功能 | [全面推出](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
-| -----------| ---------- |-------|
+| 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| ----------- | ---------- | ------- |
 | [!UICONTROL 跨裝置分析]：歐洲、中東和非洲地區及亞太地區的上市情況 | 2020 年 8 月 31 日 | [跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/overview.html)和私密圖表將在歐洲、中東和非洲地區及亞太地區推出，供客戶使用。 |
 | 改良[!UICONTROL 跨裝置分析]的欄位結合功能 (適用於美洲、歐洲、中東和非洲地區) | 2020 年 8 月 31 日 | 透過這套簡化的[!UICONTROL 跨裝置分析]新客戶實作方案，您可選擇根據 Analytics 欄位 (prop 或 eVar) 所儲存的使用者 ID，執行結合作業，而不使用裝置圖表 (co-op 或私密圖表)。此增強功能移除了實作 ECID 與以 CDA 為目的而實作 ID 同步的需求(部分功能仍需同步 ECID 和 ID)。 |
 | （提前發佈）工作區：下載單一維度的5萬個項目 | 2020年9月17日 | 您將可針對自由表格中的單一維度下載50,000個項目，並套用區段和篩選器。 這可讓您存取分析工作區以外的400列以上資料。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
-| 功能 | [全面推出](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
-| -----------| ---------- |-----|
+| 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| ----------- | ---------- | ----- |
 | 以[!UICONTROL 身分對應]作為人員 ID | 2020 年 6 月 26 日 | [!UICONTROL 身分對應]是一種對應資料結構，可讓您在 [!UICONTROL Customer Journey Analytics] 建立連線時上傳索引鍵/值組。索引鍵是身分識別命名空間，值是保存身分識別值的結構。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
 ### [!UICONTROL Media Analytics] 新功能{#media-aa}
@@ -109,7 +109,7 @@ ht-degree: 95%
 發行日期：**2020 年 7 月 16 日**
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
-| -----------| ---------- | ---------- |
+| ----------- | ---------- | ---------- |
 | [支援的裝置和平台](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 含 AEP SDK 的 [!UICONTROL Media Launch 擴充功能]現起支援下列 OTT 裝置：<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
 | [播放器狀態追蹤](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020 年 5 月 29 日 | [!UICONTROL Media Analytics] 客戶可使用全螢幕、隱藏式字幕、靜音、子母畫面和觀看中的標準解決方案變數集，擷取檢視者在播放時的互動。您也可以彈性建立自訂播放器狀態。[!UICONTROL Analysis Workspace] 中的報表現可使用[!UICONTROL 「播放器狀態追蹤」]變數。此功能需有下列任一個項目： <ul><li>Media [!DNL JavaScript] SDK 3.0 或更新版本</li><li>與 [!DNL Adobe Experience Platform] (AEP) SDK 搭配使用：</li><li>[!UICONTROL Media Analytics 擴充功能] (適用於網頁)：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更新版本</li><li>[!UICONTROL Media Analytics 擴充功能] (適用於行動裝置)：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更新版本</li><li>[!UICONTROL 媒體收集]</li></ul> |
 
@@ -135,7 +135,7 @@ AN-219351、AN-220960、AN-223788、AN-224630、AN-224948、AN-225618、AN-22626
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
 | 注意 | 新增或更新日期 | 說明 |
-| -----------| ---------- | ---------- |
+| ----------- | ---------- | ---------- |
 | Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange 合作夥伴計畫已推出一項新標準](https://partners.adobe.com/tw/exchangeprogram/experiencecloud)，任何希望能繼續使用服務及取得支援的整合項目，都應採用此標準。確切日期仍未決定，但預計未來 12 至 18 個月內 (2021 年中至 2021 年底) 將會正式終止服務。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/import/dataconnectors/data-connectors-eol.html) |
 | 報告套裝對應至 IMS 組織 | 2020 年 7 月 | 報告套裝對應工具將於 2020 年 11 月終止提供。此功能可提升 Advertising Analytics 和 Experience Cloud 在 Adobe Analytics 中發佈區段的整合程度。報告套裝必須與 IMS 組織對應，才能啟用各項服務。較新的報告套裝會在建立時自動完成對應。然而，先前的報告套裝必須以手動方式與 IMS 組織對應。請參閱 Experience Cloud 介面 (核心服務) 使用指南中的[「將報表套裝對應至組織」](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)，確認所有報表套裝均有歸屬的 IMS 組織。 |
 | 移轉至統一的產品網域 | 生效日期：2020 年 5 月 28 日 | 從 2020 年 1 月開始，Adobe Analytics 就開始移轉至統一的產品網域，相關作業已於 2020 年 5 月 28 日完成。雖然 Adobe Analytics 已著手從架構中移除所有 `omniture.com` 網域參考，但請務必將 `omniture.com` 放入協力廠商 Cookie 允許清單。完整架構即將移轉完成，作業完成後我們會透過發行說明通知您，到時您就不需再執行此允許清單步驟。請參閱這份建議 IP 位址和網域的[完整清單](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)，這些位址和網域均應列入允許清單。<br>如果貴組織封鎖第三方 Cookie，請洽詢客戶服務人員，以重新取得 Adobe Analytics 的存取權限。 |
@@ -157,7 +157,7 @@ AN-219351、AN-220960、AN-223788、AN-224630、AN-224948、AN-225618、AN-22626
 Analytics 和 Customer Journey Analytics 的最新課程、教學課程影片和文章。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
-| ----------- | ----------- | ---------- | ---------- |  
+| ----------- | ----------- | ---------- | ---------- |
 | 2020 年 7 月 30 日 | [在 Admin Console 限制報表套裝的存取權限](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/limit-report-suite-access-in-the-admin-console.html) | 教學課程 | 了解如何使用 [!UICONTROL Admin Console] 確保使用者只能存取其角色所需的報表套裝。 |
 | 2020 年 7 月 24 日 | [新增管理員至 Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics.html) | 教學課程 | 了解如何在 Adobe [!UICONTROL Admin Console] 將使用者新增為管理員。 |
 | 2020 年 7 月 17 日 | [Analysis Workspace 的「快速深入分析」面板](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace.html) | 教學課程 | 「快速深入分析」能為 Analysis Workspace 分析師以外人員和新使用者提供相關指引，協助其了解如何快速輕鬆地回答業務問題。 |
@@ -269,7 +269,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 過去一個月內發佈的新影片、教學課程或課程。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
-| -----------| ---------- | ---------- | ---------- |
+| ----------- | ---------- | ---------- | ---------- |
 | 2020 年 8 月 7 日 | [商務使用者專用多網站管理快速入門](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.sites.msm) | 課程 | 了解如何設定核心關注點，從設定基準內容架構和分類法，乃至自訂中繼資料和資產處理程序，為您的 AEM Assets 實作奠定堅實的基礎。 |
 | 2020 年 8 月 7 日 | [為管理員設定 AEM Assets](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2020.1.assets) | 教學課程 | 說明 |
 | 2020 年 7 月 19 日 | [使用內容傳送工具](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/migration/content-transfer-tool.html) | 教學課程 | 若要將內容從內部部署或 AMS 代管版本的 Experience Manager 移轉至 [!UICONTROL AEM 雲端服務]環境，建議使用[!UICONTROL 內容傳送]工具。 |
@@ -293,7 +293,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 | 2020 年 7 月 21 日 | [AEM 收件匣](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/inbox-customization/introduction.html) | 教學課程 | [!UICONTROL AEM 收件匣]整合來自各種 AEM 元件 (包括 Forms 工作流程) 的通知和工作。 |
 | 2020 年 7 月 21 日 | [使用記錄檔對 AEM SDK 的本機 Quickstart 執行偵錯作業](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教學課程 | 記錄檔是 AEM 應用程式偵錯作業的最前線，但部署的 AEM 應用程式必須具備充足記錄。 |
 | 2020 年 7 月 21 日 | [SPA 編輯器簡介](https://video.tv.adobe.com/v/37705?quality=12&learn=on&captions=chi_hant) | 教學課程 | 開發人員適用的 AEM SPA 編輯器快速入門課程簡介。 |
-| 2020 | [基線權限](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/baseline-permissions.html) | 教學課程 | 管理基線資產資料夾的使用者存取權限是重要的管理課題，同時也得確保該程序能獲得妥善支援。 |
+| 2020 年 7 月 21 日 | [基線權限](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/baseline-permissions.html) | 教學課程 | 管理基線資產資料夾的使用者存取權限是重要的管理課題，同時也得確保該程序能獲得妥善支援。 |
 | 2020 年 7 月 21 日 | [自動開始工作流程](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/auto-start-workflows.html) | 教學課程 | 自動開始工作流程可在上傳或重新處理時，自動執行自訂工作流程，延伸 AEM 雲端服務的資產處理作業。 |
 | 2020 年 7 月 21 日 | [使用記錄檔對 AEM SDK 的本機 Quickstart 執行偵錯作業](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教學課程 | 記錄檔是 AEM 應用程式偵錯作業的最前線，但部署的 AEM 應用程式必須具備充足記錄。 |
 | 2020 年 7 月 21 日 | [建立最適化表單範本](https://video.tv.adobe.com/v/37324?captions=chi_hant) | 教學課程 | 作者使用範本建立最適化表單時，新表單會繼承您在範本中指定的結構和元件。 |
@@ -345,7 +345,7 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 過去一個月內發佈的新影片、教學課程或課程。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
-| ----------- | ----------- | ---------- | ---------- |  
+| ----------- | ----------- | ---------- | ---------- |
 | 2020 年 7 月 10 日 | [控制面板 - GPG 金鑰管理 - 解密資料](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) | Campaign Classic | 了解如何建立公開金鑰，並將其匯入及安裝於 Campaign 執行個體，以將傳入的資料解密。 |
 | 2020 年 7 月 10 日 | [控制面板 - GPG 金鑰管理 - 使用 GPG 金鑰為資料加密](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Classic | 了解如何使用安裝於控制面板的 GPG 金鑰匯出資料。 |
 | 2020 年 7 月 10 日 | [控制面板 - 產生並安裝資料加密所需的 GPG 金鑰](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html) | Campaign Classic | 了解如何產生公用/私密 GPG 金鑰組，並將公用金鑰安裝至控制面板，以便從執行個體傳送資料前先行加密資料。 |
@@ -375,9 +375,9 @@ Adobe Advertising Cloud 發行說明。
 **8 月 8 日**&#x200B;發行
 
 | 功能 | 說明 |
-| -----------| ---------- |
+| ----------- | ---------- |
 | [!UICONTROL 產品組合] | 產品組合設定不再提供產品組合層級的位置限制。先前建立的所有位置限制均已移除。 |
-| [!UICONTROL 限制] | 不再支援以位置為基礎的限制和限制條件：<br/><ul><li>不再提供「最小位置」和「最大位置」等限制，且已從先前建立的所有「競價與位置」限制和「曝光共用」限制中移除。</li><li>內含位置限制但無競價限制的現有「競價與位置」限制均已暫停。上述限制仍可在 UI 和報表中使用。</li><li>「競價與位置」限制已重新命名為「競價」限制。</li><li>任意類型的限制中，所有以位置為基礎的條件 (使用「平均位置」、「加權平均位置」或「最後已知位置」量度) 均已移除。</li></ul><br/>**注意：**&#x200B;如果從搜尋引擎能取得位置資料，系統仍會繼續將其填入。Microsoft Ads 將於 2020 年 9 月終止「位置」功能。 |  |
+| [!UICONTROL 限制] | 不再支援以位置為基礎的限制和限制條件：<br/> <ul><li>不再提供「最小位置」和「最大位置」等限制，且已從先前建立的所有「競價與位置」限制和「曝光共用」限制中移除。</li><li>內含位置限制但無競價限制的現有「競價與位置」限制均已暫停。上述限制仍可在 UI 和報表中使用。</li><li>「競價與位置」限制已重新命名為「競價」限制。</li><li>任意類型的限制中，所有以位置為基礎的條件 (使用「平均位置」、「加權平均位置」或「最後已知位置」量度) 均已移除。</li></ul> <br/> **注意：**&#x200B;如果從搜尋引擎能取得位置資料，系統仍會繼續將其填入。Microsoft Ads 將於 2020 年 9 月終止「位置」功能。 |
 | [!UICONTROL 行銷活動] | (Google Ads 行銷活動) Advertising Cloud Search 現在支援在回應式搜尋廣告 (RSA) 中自訂廣告。之前，RSA 以外的所有廣告類型皆已支援此功能。 |
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
@@ -400,7 +400,7 @@ Adobe Advertising Cloud 發行說明。
 本季預計推出下列功能：
 
 | 功能 | 說明 |
-|------|---------|
+| ------ | --------- |
 | [!DNL Bizible] | <ul><li>全新的帳戶型細分</li><li>儲存儀表板專有的篩選器</li><li>將 Bizible 儀表板匯出為 PDF</li></ul> |
 | Sales Connect | Compose Window 和 Command Center 更新/增強功能 |
 
