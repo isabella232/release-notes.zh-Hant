@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 1fc011a1dbdc71052547679e69ac4f853f7fa4c2
 workflow-type: tm+mt
 source-wordcount: '6445'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) （更新日期：2020年8月13日）和客 [戶歷程分析](#cust-journey)
+* [Analytics](#analytics) (2020 年 8 月 13 日更新) 和 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -90,13 +90,13 @@ ht-degree: 95%
 
 ### Adobe Analytics 新功能 {#aa-features}
 
-（更新日期：2020年8月13日）
+(2020 年 8 月 13 日更新)
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
 | [!UICONTROL 跨裝置分析]：歐洲、中東和非洲地區及亞太地區的上市情況 | 2020 年 8 月 31 日 | [跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/overview.html)和私密圖表將在歐洲、中東和非洲地區及亞太地區推出，供客戶使用。 |
 | 改良[!UICONTROL 跨裝置分析]的欄位結合功能 (適用於美洲、歐洲、中東和非洲地區) | 2020 年 8 月 31 日 | 透過這套簡化的[!UICONTROL 跨裝置分析]新客戶實作方案，您可選擇根據 Analytics 欄位 (prop 或 eVar) 所儲存的使用者 ID，執行結合作業，而不使用裝置圖表 (co-op 或私密圖表)。此增強功能移除了實作 ECID 與以 CDA 為目的而實作 ID 同步的需求(部分功能仍需同步 ECID 和 ID)。 |
-| （提前發佈）工作區：下載單一維度的5萬個項目 | 2020年9月17日 | 您將可針對自由表格中的單一維度下載50,000個項目，並套用區段和篩選器。 這可讓您存取分析工作區以外的400列以上資料。 |
+| （提前發佈）工作區：下載單一維度的5萬個項目 | 2020 年 9 月 17 日 | 您將可針對自由表格中的單一維度下載50,000個項目，並套用區段和篩選器。 這可讓您存取 Analysis Workspace 以外超過 400 列的資料。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
@@ -227,7 +227,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
    * 現在可透過雲端服務使用 AEM Commerce。請參閱 [AEM Commerce 雲端服務快速入門](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/commerce/getting-started.html)。
    * Adobe Target 和 Adobe Analytics Connectors 的改良項目包括改善使用者介面、汰換傳統 UI，以及整合 Adobe Launch。請參閱[整合 Adobe Analytics](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) 與[整合 Adobe Target](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)。
    * 資產計算服務是一種可擴展與延伸的資產處理服務。管理員可設定 Experience Manager，以叫用使用資產計算服務建立的自訂工作角色。開發人員可利用本服務，量身打造適用於複雜使用案例的自訂工作角色。此網站服務可針對不同檔案類型產生縮圖、以 Adobe 檔案格式製作高品質的影像轉譯、編碼視訊 (日後推出)、擷取中繼資料、擷取全文作為索引的前驅，並透過所有可用的 Sensei 服務執行資產。請參閱[使用資產微型服務和處理描述檔](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)。
-   * [資產計算服務](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) (Asset Compute Service)可供延伸，以建立自訂應用程式。 它是處理數位資產的可擴充 [!DNL Adobe Experience Cloud] 且可擴充的服務。 它可將影像、視訊、檔案和其他檔案格式轉換為不同的轉譯，包括縮圖、擷取的文字和中繼資料、封存等。 開發人員可建立自訂應用程式（也稱為自訂工作者），以處理自訂的使用案例。 它是使用 [Project Firefly建立](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) ，可在無伺服器 [Adobe I/O Runtime中運作](https://www.adobe.io/apis/experienceplatform/runtime.html)。
+   * [資產計算服務](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) 可延伸應用，以建立自訂應用程式。這是一種可擴展與延伸的 [!DNL Adobe Experience Cloud] 服務，用途為處理數位資產。資產計算服務可將影像、影片、文件和其他檔案格式轉換為不同的轉譯項目，包括縮圖、擷取文字和中繼資料、封存等等。開發人員可建立自訂應用程式 (也稱為自訂工作角色)，以處理自訂使用案例。這是使用 [Project Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) 所建立的服務，可在無伺服器的 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) 中運作。
    * AEM 雲端服務的工作流程模型和 Dynamic Media 有多處改良。
    * [AEM Core Components](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/introduction.html) 2.11.0 現已隨附於 AEM Sites，其中包含：
       * 導入全新 [PDF Viewer 元件](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)。
@@ -244,7 +244,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * **AEM Assets**
 
-   * 已新增更多 [Experience Manager案頭應用程式](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/troubleshoot.html) 的疑難排解提示。
+   * 新增更多 Experience Manager 桌面應用程式的[疑難排解提示](https://docs.adobe.com/content/help/zh-Hant/experience-manager-desktop-app/using/troubleshoot.html)。
 
 * **AEM Forms**
 
