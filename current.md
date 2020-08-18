@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: 1fc011a1dbdc71052547679e69ac4f853f7fa4c2
 workflow-type: tm+mt
 source-wordcount: '6445'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Cloud發行說明- 2020年8月
+# Adobe Experience Cloud 發行說明 - 2020 年 8 月
 
 ![橫幅](/assets/experience-cloud-banner-3.png)
 
@@ -95,8 +95,8 @@ ht-degree: 97%
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
 | [!UICONTROL 跨裝置分析]：歐洲、中東和非洲地區及亞太地區的上市情況 | 2020 年 8 月 31 日 | [跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/overview.html)和私密圖表將在歐洲、中東和非洲地區及亞太地區推出，供客戶使用。 |
-| 改良[!UICONTROL 跨裝置分析]的欄位結合功能 (適用於美洲、歐洲、中東和非洲地區) | 2020 年 8 月 31 日 | 透過這套簡化的[!UICONTROL 跨裝置分析]新客戶實作方案，您可選擇根據 Analytics 欄位 (prop 或 eVar) 所儲存的使用者 ID，執行結合作業，而不使用裝置圖表 (co-op 或私密圖表)。此增強功能移除了實作 ECID 與以 CDA 為目的而實作 ID 同步的需求(部分功能仍需同步 ECID 和 ID)。 |
-| （提前發佈）工作區：下載單一維度的5萬個項目 | 2020 年 9 月 17 日 | 您將可針對自由表格中的單一維度下載50,000個項目，並套用區段和篩選器。 這可讓您存取 Analysis Workspace 以外超過 400 列的資料。 |
+| 改良[!UICONTROL 跨裝置分析]的欄位結合功能 (適用於美洲、歐洲、中東和非洲地區) | 2020 年 8 月 31 日 | 透過這套簡化的[!UICONTROL 跨裝置分析]新客戶實作方案，您可選擇根據 Analytics 欄位 (prop 或 eVar) 所儲存的使用者 ID，執行結合作業，而不使用裝置圖表 (co-op 或私密圖表)。此增強功能移除了實作 ECID 與以 CDA 為目的而實作 ID 同步的需求 (部分功能仍需同步 ECID 和 ID)。 |
+| (預告) 工作區：可針對單一維度下載 50,000 個項目 | 2020 年 9 月 17 日 | 您將能以自由格式表格，針對單一維度下載 50,000 個項目，並套用區段和篩選條件。這可讓您存取 Analysis Workspace 以外超過 400 列的資料。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
@@ -185,7 +185,7 @@ Audience Manager 的新功能、修正項目、說明文件和教學課程。
 
 ### Adobe Audience Manager 新功能和修正項目
 
-* 您現在可以透過 [以人為本的目標](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) ，來定位使用者 [!DNL Google Customer Match]。 您必須先將您新 [!UICONTROL 增至其允許清單，才能使用「以人為本的目的地] 」將您的第一方對象區段傳送至 [!DNL Google Customer Match][!DNL Google] 目的地。 如需詳細 [資訊，請參閱以人為本的目標](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) 。 (PLAT-53962)
+* 現在您可以透過 [!DNL Google Customer Match]，使用 [People-Based Destinations](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.translate.html) 功能來鎖定使用者。使用 [!UICONTROL People-Based Destinations] 將第一方對象區段傳送至 [!DNL Google Customer Match] 目的地前，請務必確認 [!DNL Google] 已將您新增至允許清單。如需詳細資訊，請參閱 [People-Based Destinations](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.translate.html) 說明文件。(PLAT-53962)
 * [「預測對象」](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html)現在支援使用者在建立模型時，為個別模型選取[!UICONTROL 「描述檔合併規則」]。(AAM-55178)
 * 每個區段頁面現在會顯示目的地對應的開始和結束日期。(AAM-40056)
 * 修正建立新特徵時，特徵的[!UICONTROL 「裝置類型」]自動設為[!UICONTROL 「跨裝置」]的問題。(AAM-55368)
@@ -227,7 +227,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
    * 現在可透過雲端服務使用 AEM Commerce。請參閱 [AEM Commerce 雲端服務快速入門](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/commerce/getting-started.html)。
    * Adobe Target 和 Adobe Analytics Connectors 的改良項目包括改善使用者介面、汰換傳統 UI，以及整合 Adobe Launch。請參閱[整合 Adobe Analytics](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) 與[整合 Adobe Target](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)。
    * 資產計算服務是一種可擴展與延伸的資產處理服務。管理員可設定 Experience Manager，以叫用使用資產計算服務建立的自訂工作角色。開發人員可利用本服務，量身打造適用於複雜使用案例的自訂工作角色。此網站服務可針對不同檔案類型產生縮圖、以 Adobe 檔案格式製作高品質的影像轉譯、編碼視訊 (日後推出)、擷取中繼資料、擷取全文作為索引的前驅，並透過所有可用的 Sensei 服務執行資產。請參閱[使用資產微型服務和處理描述檔](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)。
-   * [資產計算服務](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) 可延伸應用，以建立自訂應用程式。這是一種可擴展與延伸的 [!DNL Adobe Experience Cloud] 服務，用途為處理數位資產。資產計算服務可將影像、影片、文件和其他檔案格式轉換為不同的轉譯項目，包括縮圖、擷取文字和中繼資料、封存等等。開發人員可建立自訂應用程式 (也稱為自訂工作角色)，以處理自訂使用案例。這是使用 [Project Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) 所建立的服務，可在無伺服器的 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) 中運作。
+   * [資產計算服務](https://docs.adobe.com/content/help/en/asset-compute/using/home.html)可延伸應用，以建立自訂應用程式。這是一種可擴展與延伸的 [!DNL Adobe Experience Cloud] 服務，用途為處理數位資產。資產計算服務可將影像、影片、文件和其他檔案格式轉換為不同的轉譯項目，包括縮圖、擷取文字和中繼資料、封存等等。開發人員可建立自訂應用程式 (也稱為自訂工作角色)，以處理自訂使用案例。這是使用 [Project Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) 所建立的服務，可在無伺服器的 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) 中運作。
    * AEM 雲端服務的工作流程模型和 Dynamic Media 有多處改良。
    * [AEM Core Components](https://docs.adobe.com/content/help/zh-Hant/experience-manager-core-components/using/introduction.html) 2.11.0 現已隨附於 AEM Sites，其中包含：
       * 導入全新 [PDF Viewer 元件](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)。
@@ -237,7 +237,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
    * Cloud Manager 管道現在支援客戶設定變數和機密。請參閱[管道變數](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/onboarding/getting-access/creating-aem-application-project.html#pipeline-variables)。
    * [記錄檔可轉發到 Splunk 帳戶](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/developing/logging.html#splunk-logs)，以便其他組織利用 [!DNL Splunk] 投資。
    * 您可以 Java 程式碼為出站流量指派[靜態的專屬上傳 IP 位址](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/developing/development-guidelines.html#dedicated-egress-ip-address)，如此能有助於部分整合。
-   * [!UICONTROL Cloud Readiness Analyzer] v1.0.2已發佈。 See detailed [Release Notes](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-2020-7-0.html#cloud-readiness-analyzer) for more information. 要開始使用 [!UICONTROL Cloud Readiness Analyzer]，請參 [閱使用Cloud Readiness Analyzer](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html)。
+   * [!UICONTROL Cloud Readiness Analyzer] v1.0.2 現已發佈。如需詳細資訊，請參閱[發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/release-notes/release-notes-2020-7-0.translate.html#cloud-readiness-analyzer)。若要開始使用 [!UICONTROL Cloud Readiness Analyzer]，請參閱[使用 Cloud Readiness Analyzer](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html)。
    * 請參閱 [AEM 雲端服務完整發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)。
 
 ### 自助資源
@@ -248,7 +248,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * **AEM Forms**
 
-   * [AEM Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?2_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Asolution&amp;2_group.propertyvalues.operation=equals&amp;2_group.propertyvalues.0_values=target-solution%3Aaem%2Fforms&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=24)現已提供 AEM Forms 附加套件。[AEM Forms 發行文章](https://helpx.adobe.com/tw/aem-forms/kb/aem-forms-releases.html)會提供支援套件版本的直接連結。
+   * [AEM Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?2_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Asolution&amp;2_group.propertyvalues.operation=equals&amp;2_group.propertyvalues.0_values=target-solution%3Aaem%2Fforms&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=24) 現已提供 AEM Forms 附加套件。[AEM Forms 發行文章](https://helpx.adobe.com/tw/aem-forms/kb/aem-forms-releases.html)會提供支援套件版本的直接連結。
    * [參考網站](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/forms/getting-started/aem-forms-reference-collaterals/forms-gov-reference-site-user-demo.html)可供了解 Automated Forms Conversion 服務的端對端工作流程。
    * AEM [6.5.5.0](https://helpx.adobe.com/experience-manager/6-5/forms/javadocs/index.html) 和 AEM [6.4.8.1](https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/index.html) 等版本的 Javadoc 現已發佈。
    * 於 JEE 環境中強化 AEM Forms 時，請在 JVM [匯入信任的憑證](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/forms/manage-administer-aem-forms/hardening-aem-forms-environment/hardening-aem-forms-jee-environment.html#configuring-ssl)。
@@ -373,11 +373,11 @@ Adobe Advertising Cloud 發行說明。
 * [Advertising Cloud DSP 新功能](#adcloud-dsp)
 * [Advertising Cloud Search 新功能](#adcloud-search)
 
-### New features in [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
+### [!UICONTROL Advertising Cloud DSP] 新功能{#adcloud-dsp}
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 互動式預錄功能擴充，加入VAST庫存 | 每個互動式前期投放和廣告現在都可支援VPAID和VAST庫存。 **注意：** 如果您的主要KPI是可檢視性，請繼續建立個別的VPAID和VAST位置和廣告，因為可檢視印象不適用於VAST廣告。 |
+| 延長互動式影片前置內容的時間，加入 VAST 詳細目錄支援 | 現在，每個互動式影片前置內容版位和廣告均可支援 VPAID 和 VAST 詳細目錄。**注意：**&#x200B;如果您的主要 KPI 是可視度，請繼續建立個別的 VPAID 和 VAST 版位和廣告，因為可視度曝光率不適用於 VAST 廣告。 |
 
 ### [!UICONTROL Advertising Cloud Search] 新功能 {#adcloud-search}
 
