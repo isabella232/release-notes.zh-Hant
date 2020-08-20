@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: f62e9f844bf396cda7fc711808a0f532de75a52d
 workflow-type: tm+mt
 source-wordcount: '6522'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 最新更新：**2020 年 8 月 19 日**
 
 * [Adobe 系統狀態](#status)
-* [Experience Cloud 介面](#ecloud) (updated **August 19, 2020**)
+* [Experience Cloud 介面](#ecloud) (**2020 年 8 月 19 日**&#x200B;更新)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) (2020 年 8 月 13 日更新) 和 [Customer Journey Analytics](#cust-journey)
@@ -53,11 +53,11 @@ ht-degree: 99%
 
 ## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 介面 {#ecloud}
 
-更新日期: **2020 年 8 月 19 日**
+更新日期：**2020 年 8 月 19 日**
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 管理工具——功能與效能改進 | 2020年8月版的 [!UICONTROL Admin Tool] ，可讓系統管理員檢視產品設定檔清單，並檢視或匯出每個產品設定檔的詳細檢視。 已新增載入上次登入資料的效能增強功能，以修正逾時問題。 如需詳細資訊，請參閱 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)說明。 |
+| 管理工具 - 功能與效能改進 | 2020 年 8 月版[!UICONTROL 「管理工具」]可讓系統管理員檢視產品設定檔清單，並檢視或匯出每個產品設定檔的詳細檢視。已改進載入上次登入資料的效能，修正逾時問題。如需詳細資訊，請參閱 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)說明。 |
 
 如需更新介面與統一產品網域的最新發行資訊，請參閱 7 月的[舊版發行說明](c-legacy-releases/2020/07162020.md#ecloud)。
 
