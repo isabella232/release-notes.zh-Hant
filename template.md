@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d714bd852687c7121f44bc31e35fe1ccc0eef43a
+source-git-commit: 2a73b43fedf1c745f89640a11b7aa64244a78bc4
 workflow-type: tm+mt
 source-wordcount: '2526'
 ht-degree: 97%
@@ -296,7 +296,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ## Marketo {#marketo}
 
-Marketo Engage是銷售機會管理和B2B行銷人員的完整解決方案，希望透過參與複雜購買歷程的每個階段來轉變客戶體驗。
+Marketo Engage is a complete solution for lead management and B2B marketers looking to transform customer experiences by engaging across every stage of complex buying journeys.
 
 ### Marketo Engage 核心更新
 
@@ -369,4 +369,4 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 | Adobe Analytics | 影片 - [CJA 的跨管道歸因](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | 了解如何在 [!UICONTROL Customer Journey Analytics] 中使用視覺化功能顯示跨管道歸因 (評分)。 |
 | Adobe Analytics | 文章- [繼續 Adobe Analytics 學習歷程的客戶秘訣](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | 三位 Adobe 客戶現身說法，為您提供從 Adobe Analytics 獲致最大價值的秘訣。 |
 | Adobe Analytics | 影片 - [在 CJA 中建立跨管道視覺化效果](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | 了解 [!UICONTROL Customer Journey Analytics] 可如何協助您將資料視覺化，其中包含多種管道所提供多個資料集的資料，而且還包括依訪客整併的資料類型。 |
-| Adobe Analytics | 影片 - [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | 說明在 [!UICONTROL Customer Journey Analytics] 中重新建立 Analytics [!UICONTROLC計算量度]的秘訣。 |
+| Adobe Analytics | 影片 - [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Find tips for re-creating your Analytics [!UICONTROL Calculated Metrics] in [!UICONTROL Customer Journey Analytics]. |
