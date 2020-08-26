@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 發行說明
 doc-type: release notes
 last-update: August 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 9d5563a21cae0b1db1448f5f99ffbb1436257077
-workflow-type: ht
-source-wordcount: '6627'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 97082d9f11c29deee363e000e0bb6db422d6fbe8
+workflow-type: tm+mt
+source-wordcount: '6639'
+ht-degree: 99%
 
 ---
 
@@ -383,8 +383,11 @@ Adobe Advertising Cloud 發行說明。
 
 ### [!UICONTROL Advertising Cloud DSP] 新功能{#adcloud-dsp}
 
+**8月20日更新**
+
 | 功能 | 說明 |
 | -----------| ---------- |
+| Forecasting for Roku | Roku位置現在提供預測功能。 |
 | 延長互動式影片前置內容的時間，加入 VAST 詳細目錄支援 | 現在，每個互動式影片前置內容版位和廣告均可支援 VPAID 和 VAST 詳細目錄。**注意：**&#x200B;如果您的主要 KPI 是可視度，請繼續建立個別的 VPAID 和 VAST 版位和廣告，因為可視度曝光率不適用於 VAST 廣告。 |
 
 ### [!UICONTROL Advertising Cloud Search] 新功能 {#adcloud-search}
