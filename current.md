@@ -101,7 +101,7 @@ ht-degree: 99%
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
 | [!UICONTROL 跨裝置分析]：歐洲、中東和非洲地區及亞太地區的上市情況 | 2020 年 8 月 31 日 | [跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/overview.html)和私密圖表將在歐洲、中東和非洲地區及亞太地區推出，供客戶使用。 |
-| 改良[!UICONTROL 跨裝置分析]的欄位結合功能 (適用於美洲、歐洲、中東和非洲地區) | 2020 年 8 月 31 日 | 透過這套簡化的[!UICONTROL 跨裝置分析]新客戶實作方案，您可選擇根據 Analytics 欄位 (prop 或 eVar) 所儲存的使用者 ID，執行結合作業，而不使用裝置圖表 (co-op 或私密圖表)。此增強功能移除了實作 ECID 與以 CDA 為目的而實作 ID 同步的需求 (部分功能仍需同步 ECID 和 ID)。 |
+| 改良[!UICONTROL 跨裝置分析]的欄位結合功能 (適用於美洲、歐洲、中東和非洲地區) | 2020 年 8 月 31 日 | 透過這套簡化的[!UICONTROL 跨裝置分析]新客戶實作方案，您可選擇根據 Analytics 欄位 (prop 或 eVar) 所儲存的使用者 ID，執行結合作業，而不使用裝置圖表 (co-op 或私密圖表)。此增強功能移除了實作 ECID 與以 CDA 為目的而實作 ID 同步的需求(部分功能仍需同步 ECID 和 ID)。 |
 | (預告) 工作區：可針對單一維度下載 50,000 個項目 | 2020 年 9 月 17 日 | 您將能以自由格式表格，針對單一維度下載 50,000 個項目，並套用區段和篩選條件。這可讓您存取 Analysis Workspace 以外超過 400 列的資料。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
@@ -383,11 +383,11 @@ Adobe Advertising Cloud 發行說明。
 
 ### [!UICONTROL Advertising Cloud DSP] 新功能{#adcloud-dsp}
 
-**8月20日更新**
+**8 月 20 日更新**
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| Forecasting for Roku | Roku位置現在提供預測功能。 |
+| Roku 的預測功能 | Roku 現在提供刊登版位預測功能。 |
 | 延長互動式影片前置內容的時間，加入 VAST 詳細目錄支援 | 現在，每個互動式影片前置內容版位和廣告均可支援 VPAID 和 VAST 詳細目錄。**注意：**&#x200B;如果您的主要 KPI 是可視度，請繼續建立個別的 VPAID 和 VAST 版位和廣告，因為可視度曝光率不適用於 VAST 廣告。 |
 
 ### [!UICONTROL Advertising Cloud Search] 新功能 {#adcloud-search}
