@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2a73b43fedf1c745f89640a11b7aa64244a78bc4
+source-git-commit: 1ec71f66a34b17fb62831973cd46426ecc9f0d10
 workflow-type: tm+mt
-source-wordcount: '2526'
+source-wordcount: '2527'
 ht-degree: 97%
 
 ---
@@ -87,7 +87,7 @@ For product documentation, see [Experience Cloud interface](https://docs.adobe.c
 
 功能和修正。
 
-如需產品文件，請參閱 [Experience Cloud ID 服務](https://marketing.adobe.com/resources/help/zh_TW/mcvid/)。
+如需產品文件，請參閱 [Experience Cloud ID 服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。
 
 ### [!UICONTROL Experience Platform Launch] {#launch}
 
@@ -116,7 +116,7 @@ For product documentation, see [Experience Cloud interface](https://docs.adobe.c
 
 如需產品文件，請參閱 [Mobile Services](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)。
 
-如需 Mobile SDK 的詳細資訊，請參閱[適用於 Experience 解決方案的 Android SDK 4.x](https://marketing.adobe.com/resources/help/zh_TW/mobile/android/) 和[適用於 Experience Cloud 解決方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/zh-Hant/mobile-services/ios/overview.html)。
+如需 Mobile SDK 的詳細資訊，請參閱[適用於 Experience 解決方案的 Android SDK 4.x](https://docs.adobe.com/content/help/zh-Hant/mobile-services/android/overview.html) 和[適用於 Experience Cloud 解決方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/zh-Hant/mobile-services/ios/overview.html)。
 
 ## Analytics {#analytics}
 
@@ -296,7 +296,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ## Marketo {#marketo}
 
-Marketo Engage is a complete solution for lead management and B2B marketers looking to transform customer experiences by engaging across every stage of complex buying journeys.
+Marketo Engage是銷售機會管理和B2B行銷人員的完整解決方案，希望透過參與複雜購買歷程的每個階段來轉變客戶體驗。
 
 ### Marketo Engage 核心更新
 
