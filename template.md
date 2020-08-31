@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1ec71f66a34b17fb62831973cd46426ecc9f0d10
+source-git-commit: 8ac62e2402e3d41cbcea6670b8e482bc295b9a14
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 97%
+source-wordcount: '1352'
+ht-degree: 94%
 
 ---
 
@@ -146,7 +146,7 @@ Adobe Analytics 的新功能和修正項目：
 
 ### Data Workbench {#aa-dwb}
 
-如需最新資訊，請參閱 [Data Workbench 發行說明](https://marketing.adobe.com/resources/help/en_US/insight/whatsnew/)。
+如需最新資訊，請參閱 [Data Workbench 發行說明](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/release-notes/release-notes.translate.html)。
 
 ### AppMeasurement {#appm}
 
@@ -229,8 +229,8 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 * [AEM 6.2 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-2.html)
 * [Cloud Manager 使用手冊](https://helpx.adobe.com/tw/experience-manager/cloud-manager/user-guide.html)
 * [舊版 AEM 文件](https://helpx.adobe.com/tw/experience-manager/aem-previous-versions.html)
-* [Scene7 Publishing System發行說明](https://marketing.adobe.com/resources/help/zh_TW/s7/release_notes/index.html)
-* [Livefyre 發行說明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
+* [Scene7 Publishing System發行說明](https://docs.adobe.com/content/help/zh-Hant/dynamic-media-developer-resources/release-notes/s7rn2017.html)
+* [Livefyre 發行說明](https://docs.adobe.com/content/help/zh-Hant/livefyre/using/release-notes/c-rn.translate.html)
 
 ### [!DNL Livefyre] {#livefyre}
 
@@ -332,41 +332,19 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 
 如需彙整資料和過往的發行說明，請參閱 [Marketo 發行說明](https://docs.marketo.com/x/CgA6Ag)。
 
-## 新文件與教學課程 {#selfhelp}
+### 全新解決方案名稱課程與教學課程
 
-近期的全新自助文章和影片。<!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
+過去一個月內發佈的新影片、教學課程或課程。
 
-| 解決方法 | 內容 | 說明 |
-| ---------- | ----------- | ---------- |
-| [!UICONTROL AEM Commerce] | 影片 - [建立多個類別和產品頁面](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/04-style-cif-component.md) | 了解如何使用 CIF 核心元件，建立最簡化的 Adobe Experience Manager (AEM) CIF 專案，作為客戶專案的起點。將主題和 CSS 樣式套用至元件，並檢查由原型產生的新 AEM CIF 專案。此外，也能了解 CIF 核心元件使用的 CSS 和 JavaScript 如何組織。 |
-| [!UICONTROL AEM 表格] | 文章 - [使用 OKTA 驗證 AEM 作者](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/single-sign-on-with-okta.html) | 了解如何在 OKTA 入口網站上設定您的應用程式，以及註冊新應用程式時通常會使用的相關設定。 |
-| [!UICONTROL AEM Commerce] | 教學課程 - [自訂 CIF 核心元件](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/05-customize-cif-components.md) | 檢視 CIF 核心元件及 AEM 一般所提供的數個不同擴充點。CIF 核心元件提供一套標準的 Commerce 元件，可加速推動整合了 Adobe Experience Manager (AEM) 和 Magento 解決方案的專案。 |
-| [!DNL Adobe Campaign] - 對象目的地 | 影片 - [建立對象...](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/creating-audiences-using-segment-builder.html) | 使用 Adobe [!UICONTROL Experience Platform 區段產生器]，在 Campaign Standard 中建立對象。您可以直接在 Adobe Campaign Standard 中，透過[!UICONTROL 「對象」]模組存取此功能。 |
-| [!DNL Adobe Campaign] - 對象目的地 | 影片 - [在行銷工作流程中啟用 Adobe Experience Platform 對象](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/activating-aep-audiences.html) | 了解如何使用[!UICONTROL 「讀取對象」]活動，在工作流程中啟動[!UICONTROL 「資料服務查詢對象」]。 |
-| [!DNL Adobe Campaign] | 教學課程 - [使用 Android 的推播通知](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/push/getting-started-push-notifications/getting-started-with-push-notifications-android.html) | 向 iOS 和 Android 行動裝置傳送個人化和分段的推播通知。本教學課程會逐步引導您完成相關步驟，順利從 Adobe Campaign 傳送推播通知，以及在 Android 應用程式中接收這些通知。 |
-| [!DNL Adobe Campaign] | 影片 - [建立推播通知](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/push/creating-a-push-notification.html) | 在 Adobe Campaign Standard 中建立推播通知。您可以向 iOS 和 Android 行動裝置傳送個人化和分段的推播通知。 |
-| [!DNL Adobe Campaign] - AEP 資料連接器 | 影片 - [檢查資料擷取工作的狀態](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/checking-status-of-data-ingestion-jobs.html) | 了解如何檢查資料擷取工作的狀態，以及資料是否已從 Adobe Campaign Standard 擷取到 Adobe Experience Platform。 |
-| [!DNL Adobe Campaign] - AEP 資料連接器 | 影片 - [修改資料對應工作](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/modifying-data-mapping.html) | 了解如何檢查狀態並修改資料對應工作。 |
-| [!DNL Adobe Campaign] - AEP 資料連接器 | 影片 - [對應體驗事件](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-experience-events.html) | 了解如何在 Adobe Experience Platform 中對應體驗事件。 |
-| [!DNL Adobe Campaign] - AEP 資料連接器 | 影片 - [對應自訂資源](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-custom-resources.html) | 了解如何對應 Adobe Campaign Standard 和 Adobe Experience Platform 之間不同的資料類型。 |
-| [!DNL Adobe Campaign] - AEP 資料連接器 | 影片 - [了解 Adobe Experience Platform 資料連接器](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) | 了解如何將 XTK 資料 (在 Campaign中擷取的資料) 對應至 Adobe Experience Platform 上的 Experience Data Model (XDM) 資料，以便您的資料可在 Adobe Experience Platform 上使用。 |
-| [!DNL Adobe Campaign] - AEP 資料連接器 | 影片 - [對應種子表資料](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-seed-table-data.html) | 了解如何使用 Adobe Experience Platform 對應您的種子資料/測試設定檔。 |
-| [!DNL Adobe Campaign] - 對象目的地 | 影片 - [變更平台對象傳送作業的定位維度](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/changing-targeting-dimension.html) | 了解如何在 Adobe Campaign Standard 主要設定檔表格之外的位置，變更平台對象傳送作業的定位維度。 |
-| [!DNL Adobe Campaign] | 影片 - [管理 Snowflake 的大型資料](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | 在 Adobe Campaign Classic 中運用 Snowflake 連接器。 |
-| [!DNL Adobe Campaign] - 對象目的地 | 文章 - [對象目的地 (測試版)- 概觀](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) | 了解如何在 Adobe Campaign Standard 中，運用 Adobe Experience Platform 提供的集中整合式設定檔資料推展行銷活動。 |
-| [!DNL Adobe Target] - Mobile SDK | 教學課程 - [使用 Adobe Target 提供個人化應用程式體驗](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | 在您自己的 Android 應用程式中實作 Adobe Target。驗證 Mobile Services SDK 設定並實作預先擷取內容、封鎖請求等 [!DNL Target] 請求。 |
-| Adobe Analytics | 影片 - [Adobe Summit 2019 超級座談](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | 觀看 2019 年 Summit 高科技業「超級座談」的精選片段。 |
-| Adobe Analytics | 影片 - [Customer Journey Analytics 計算量度簡介](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | 逐步說明在 [!UICONTROL Customer Journey Analytics] 中[!UICONTROL 建立計算量度]的基本知識。 |
-| Adobe Analytics | 影片 - [Adobe Summit 2019 超級座談](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | 觀看 2019 年 Summit 旅宿業座談的精選片段。 |
-| Adobe Analytics | 影片 - [Adobe Summit 2019 超級座談](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | 觀看 2019 年 Summit 零售業座談的精選片段。 |
-| Adobe Analytics | 影片 - [客戶使用案例：Accent Group 集團斥資提升客戶體驗以促進業績](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | 觀看 Accent Group 集團如何使用 Adobe Experience Cloud 打造順暢的數位體驗。 |
-| Adobe Analytics | 影片 - [客戶使用案例：ServiceNow 取得與潛在客戶建立連結的正確見解](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/servicenow-gets-the-right-insights-to-connect-with-prospects.html) | 了解 [!DNL ServiceNow] 如何透過 Adobe Advertising Cloud 和 Adobe Analytics 從行銷管道取得寶貴資料並據以行動，提高付費搜尋廣告的 ROI。 |
-| Adobe Analytics | 影片 - [Adobe Analytics - 不僅僅是資料，還是客戶情報](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-analytics-customer-intelligence.html) | 了解資料導向行銷的概念，掌握如何運用成熟的分析能力，從收集資料、建構見解，最後轉化為實際行動。 |
-| Adobe Analytics | 影片 - [Adobe Sensei 和 Adobe Analytics - 加長版](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-sensei-and-adobe-analytics.html) | 一覽採用 [!DNL Sensei,] 技術之 Adobe Analytics 的主要功能，包括[!UICONTROL 異常偵測]、[!UICONTROL 貢獻分析]、[!UICONTROL 智慧型警報]、[!UICONTROL 叢集]、[!UICONTROL 區段 IQ] 和[!UICONTROL 傾向模型]。 |
-| Adobe Analytics | 影片 - [Adobe Analysis Workspace 如何改變業務現況](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business.html) | 了解如何使用 Analysis Workspace 執行 Ad Hoc Analysis、彈性分析、同類群組分析和[!UICONTROL 流失分析]。您也可以與所有同仁共用分析工作環境，而透過拖放功能，每個人都能輕鬆分析資料並快速獲得寶貴見解。 |
-| Adobe Analytics | 影片 - [客戶使用案例：The Home Depot 使用客戶體驗管理推動創新](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/the-home-depot-innovates-with-customer-experience-management.html) | 了解 [!DNL Home Depot] 如何使用 Adobe 解決方案，透過個人化的自訂購物體驗，提升品牌忠誠度和客戶滿意度。 |
-| Adobe Analytics | 簡報 - [了解 Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/understanding-customer-journey-analytics.html) | 了解 Adobe 的 [!UICONTROL Customer Journey Analytics] (以 [!DNL Adobe Experience Platform] 為基礎的應用程式服務) 如何將 [!UICONTROL Analysis Workspace] 導入 Experience Platform。藉由此功能，您可以對任何 [!DNL Adobe Experience Platform] 資料集執行多管道分析。 |
-| Adobe Analytics | 影片 - [CJA 的跨管道歸因](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | 了解如何在 [!UICONTROL Customer Journey Analytics] 中使用視覺化功能顯示跨管道歸因 (評分)。 |
-| Adobe Analytics | 文章- [繼續 Adobe Analytics 學習歷程的客戶秘訣](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | 三位 Adobe 客戶現身說法，為您提供從 Adobe Analytics 獲致最大價值的秘訣。 |
-| Adobe Analytics | 影片 - [在 CJA 中建立跨管道視覺化效果](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | 了解 [!UICONTROL Customer Journey Analytics] 可如何協助您將資料視覺化，其中包含多種管道所提供多個資料集的資料，而且還包括依訪客整併的資料類型。 |
-| Adobe Analytics | 影片 - [將計算量度從 Adobe Analytics 移至 Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Find tips for re-creating your Analytics [!UICONTROL Calculated Metrics] in [!UICONTROL Customer Journey Analytics]. |
+| 已發佈 | 名稱 | 類型 | 說明 |
+| -----------| ---------- | ---------- | ---------- |
+| 日期， 2020 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
+| 日期， 2020 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
+| 日期， 2020 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
+| 日期， 2020 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
+| 日期， 2020 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
+| 日期， 2020 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
+| 日期， 2020 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
+| 日期， 2020 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
+| 日期， 2020 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
+| 日期， 2020 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
