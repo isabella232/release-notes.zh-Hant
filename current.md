@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b91db168aeb1b9f653061f0cd6e19ec8d36a8155
+source-git-commit: c6a071b2e8946d2b7fcfe20f835354ca6d552575
 workflow-type: tm+mt
-source-wordcount: '6673'
+source-wordcount: '6685'
 ht-degree: 96%
 
 ---
@@ -110,7 +110,7 @@ ht-degree: 96%
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
-| 工作區：線條視覺化增強功能 | 2020年9月17日 | <ul><li>可顯示或隱藏任何線條視覺化的x軸和y軸。 當您的線條視覺化更精簡時，這特別有用。</li><li>您可以在任何線條視覺化上覆蓋最小值和最大值標籤，以快速反白顯示量度中的尖峰和低谷。</li><li>您可以在任何線條視覺化上覆蓋不同的回歸趨勢線，以便更輕鬆地在資料中查看趨勢。 選項包括線性、對數、指數、冪和二次。</li></ul> |
+| 工作區：線條視覺化增強功能 | 2020年9月17日 | <ul><li>可顯示或隱藏任何線條視覺化的x軸和y軸。 當您的線條視覺化更精簡時，這特別有用。</li><li>您可以在任何線條視覺化上覆蓋最小值和最大值標籤，以快速反白顯示量度中的尖峰和低谷。</li><li>您可以在任何線條視覺化上覆蓋不同的回歸趨勢線，以便更輕鬆地在資料中查看趨勢。 選項包括線性、對數、指數、冪和二次。</li></ul>[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 ### [!UICONTROL Media Analytics] 新功能{#media-aa}
 
