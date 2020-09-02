@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bae18faf738a3750ceb63a3048750e77c1ebfa5c
+source-git-commit: 9e8ab72d5c5ac0db9cde3ca99013a42e33251aa0
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6688'
 ht-degree: 99%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 99%
 
 不論客戶處於哪個歷程階段，Adobe Experience Platform 均可聰明地即時預測每個人的需求，以便大規模協調不同體驗管道的客戶歷程。
 
-### 最新 Campaign 課程與教學課程
+### 最新 Journey Orchestration 課程與教學課程
 
 過去一個月內發佈的新影片、教學課程或課程。
 
