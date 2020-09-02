@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c6a071b2e8946d2b7fcfe20f835354ca6d552575
+source-git-commit: bae18faf738a3750ceb63a3048750e77c1ebfa5c
 workflow-type: tm+mt
-source-wordcount: '6685'
-ht-degree: 100%
+source-wordcount: '6687'
+ht-degree: 99%
 
 ---
 
@@ -349,7 +349,7 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 
 * 20.2.1 版 - [深入了解](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html#release-20-2-2-build-9180)
 
-### 最新 Campaign 課程與教學課程
+### 全新和更新的Campaign課程單元和教學課程
 
 過去一個月內發佈的新影片、教學課程或課程。
 
