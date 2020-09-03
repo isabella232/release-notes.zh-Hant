@@ -349,7 +349,7 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 
 * 20.2.1 版 - [深入了解](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html#release-20-2-2-build-9180)
 
-### 全新和更新的 Campaign 課程和教學課程
+### 最新和更新的 Campaign 課程與教學課程
 
 過去一個月內發佈的新影片、教學課程或課程。
 
