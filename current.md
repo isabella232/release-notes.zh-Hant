@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9e8ab72d5c5ac0db9cde3ca99013a42e33251aa0
 workflow-type: tm+mt
 source-wordcount: '6688'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 最新更新：**2020 年 8 月 31 日**
 
 * [Adobe 系統狀態](#status)
-* [Experience Cloud 介面](#ecloud) (**2020 年 8 月 19 日**&#x200B;更新)
+* [Experience Cloud 介面](#ecloud) (**2020 年 8 月 19 日**&#x200B;更新)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) (2020 年 8 月 31 日更新) 和 [Customer Journey Analytics](#cust-journey)
@@ -91,7 +91,7 @@ ht-degree: 99%
 * [Customer Journey Analytics 新功能](#cust-journey)
 * [Media Analytics 新功能](#media-aa)
 * [Adobe Analytics 修正項目](#aa-fixes)
-* [給 Analytics 管理員的重要通知](#aa-notices) (2020 年 8 月 21 日更新)
+* [給 Analytics 管理員的重要通知](#aa-notices) (2020 年 8 月 21 日更新)
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics 新功能 {#aa-features}
@@ -349,7 +349,7 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 
 * 20.2.1 版 - [深入了解](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html#release-20-2-2-build-9180)
 
-### 全新和更新的Campaign課程單元和教學課程
+### 全新和更新的 Campaign 課程和教學課程
 
 過去一個月內發佈的新影片、教學課程或課程。
 
