@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: September 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2bda04891fdfe3a57208f4f6accf7ac0d5c49432
+source-git-commit: 2670c9b311ff63f308ca380657be1bb399dcf2e6
 workflow-type: tm+mt
-source-wordcount: '6728'
+source-wordcount: '6737'
 ht-degree: 39%
 
 ---
@@ -42,10 +42,10 @@ ht-degree: 39%
 * [Experience Manager](#aem)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [!DNL Target](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html)
-* [!DNL Magento](#magento)
-* [!DNL Marketo Engage](#marketo)
-* [!DNL Primetime](https://docs.adobe.com/content/help/zh-Hant/primetime/release-notes/home.html)
+* [[!DNL Target]](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html)
+* [[!DNL Magento]](#magento)
+* [[!DNL Marketo Engage]](#marketo)
+* [[!DNL Primetime]](https://docs.adobe.com/content/help/zh-Hant/primetime/release-notes/home.html)
 
 需要協助嗎？請造訪 [Adobe Experience League](https://experienceleague.adobe.com/#home)，尋找產品和技術文件、Adobe 策畫的課程、教學課程影片、快速解答、社群見解，以及由講師授課的訓練課程。
 
