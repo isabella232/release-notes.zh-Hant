@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: September 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2670c9b311ff63f308ca380657be1bb399dcf2e6
+source-git-commit: 113528f8e43d06e75d9fbb9db8bc229056e6f0f2
 workflow-type: tm+mt
-source-wordcount: '6737'
+source-wordcount: '6762'
 ht-degree: 39%
 
 ---
@@ -127,14 +127,14 @@ Adobe Experience Platform現有功能的更新：
 | 跨裝置分析中欄位裝訂 [!UICONTROL 的增強功能] （全球提供） | 2020 年 8 月 31 日 | 透過這套簡化的[!UICONTROL 跨裝置分析]新客戶實作方案，您可選擇根據 Analytics 欄位 (prop 或 eVar) 所儲存的使用者 ID，執行結合作業，而不使用裝置圖表 (co-op 或私密圖表)。此增強功能移除了實作 ECID 與以 CDA 為目的而實作 ID 同步的需求(部分功能仍需同步 ECID 和 ID)。 |
 | China Data Collection，第2階段 | 2020 年 9 月 1 日 | 擴充支援第一方SSL。 |
 | 工作區中的新日期範圍 | 2020 年 9 月 10 日 | 我們新增了5個日期範圍，因此您可以從不包含今天部分日期資料的日期範圍中選擇：最近7個完整天、最近14個完整天、最近30個完整天、最近60個完整天、最近90個完整天 |
-| Workspace：下載單一維度的 50,000 個項目 | 2020 年 9 月 17 日 | 您將能以自由格式表格，針對單一維度下載 50,000 個項目，並套用區段和篩選條件。這可讓您存取 Analysis Workspace 以外超過 400 列的資料。 |
+| Workspace：下載單一維度的 50,000 個項目 | 2020 年 9 月 17 日 | 您將能以自由格式表格，針對單一維度下載 50,000 個項目，並套用區段和篩選條件。這可讓您存取 Analysis Workspace 以外超過 400 列的資料。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) |
 | 工作區：Line視覺化 [!UICONTROL 增強功能] | 2020 年 9 月 17 日 | <ul><li>You can show or hide the x-axis and y-axis of any [!UICONTROL Line] visualization. This can be especially helpful when your [!UICONTROL Line] visualizations are more compact.</li><li>You can overlay a minimum and maximum value label on any [!UICONTROL Line] visualization to quickly highlight the peaks and valleys in a metric.</li><li>You can overlay different regression trend lines on any [!UICONTROL Line] visualization to more easily see the trend in the data. Options include [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] and [!UICONTROL Quadratic].</li></ul> [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
-| 客戶歷程分析權限的變更 | 2020 年 9 月 9 日 | CJA將不再將所有使用者視為管理員。 只有在 [Adobe Admin Console中指定為產品管理員的使用者](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html) ，才能執行下列動作：<ul><li>建立／更新／刪除連 [!UICONTROL 線] 或資 [!UICONTROL 料檢視]</li><li>更新／刪除其他使用者建立的專案、篩選或計算量度</li><li>將工作區專案共用給所有使用者</li></ul> |
+| 客戶歷程分析權限的變更 | 2020 年 9 月 9 日 | CJA將不再將所有使用者視為管理員。 只有在 [Adobe Admin Console中指定為產品管理員的使用者](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html) ，才能執行下列動作：<ul><li>建立／更新／刪除連 [!UICONTROL 線] 或資 [!UICONTROL 料檢視]</li><li>更新／刪除其他使用者建立的專案、篩選或計算量度</li><li>將工作區專案共用給所有使用者</li></ul>[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions) |
 | 支援[!UICONTROL 異常偵測] | 2020 年 9 月 10 日 | [!UICONTROL 異常偵測] (Anomaly Detection)可讓您識別哪些統計波動很重要，哪些不重要。客戶歷程分析現在支 [!UICONTROL 援此功能]。 |
 | 工作區中的新日期範圍 | 2020 年 9 月 10 日 | 我們新增了5個日期範圍，因此您可以從不包含今天部分日期資料的日期範圍中選擇： [!UICONTROL 最近7天]，最 [!UICONTROL 近14天]，最 [!UICONTROL 近30天整天]，最 [!UICONTROL 近60天整天][!UICONTROL ，最近90天整天] |
 | 工作區：Line視覺化 [!UICONTROL 增強功能] | 2020 年 9 月 17 日 | <ul><li>You can show or hide the x-axis and y-axis of any [!UICONTROL Line] visualization. This can be especially helpful when your [!UICONTROL Line] visualizations are more compact.</li><li>You can overlay a minimum and maximum value label on any [!UICONTROL Line] visualization to quickly highlight the peaks and valleys in a metric.</li><li>You can overlay different regression trend lines on any [!UICONTROL Line] visualization to more easily see the trend in the data. Options include [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] and [!UICONTROL Quadratic].</li></ul> [更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/visualizations/line.html) |
