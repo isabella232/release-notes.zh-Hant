@@ -4,9 +4,9 @@ description: Adobe Experience Cloud 發行說明
 doc-type: release notes
 last-update: September 2020
 author: mfrei
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3de788a32337c5917e54eb6c23234c20c2910d98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '6745'
 ht-degree: 100%
 
@@ -139,7 +139,7 @@ Adobe Experience Platform 現有功能更新：
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| [!UICONTROL 工作區]的[!UICONTROL 「媒體同時檢閱者」]面板 | 2020 年 9 月 17 日 | [!UICONTROL 「媒體同時檢閱者」]面板可供您掌握何時最多人同時觀看媒體，以及趨勢反轉的時間。這項功能提供內容品質和檢視者互動的重要分析，有助於疑難排解或依數量/規模完成規劃。[更多詳情...](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
+| [!UICONTROL 工作區]的[!UICONTROL 「媒體同時檢閱者」]面板 | 2020 年 9 月 17 日 | [!UICONTROL 「媒體同時檢閱者」]面板可供您掌握何時最多人同時觀看媒體，以及趨勢反轉的時間。這項功能提供內容品質和檢視者互動的重要分析，有助於疑難排解或依數量/規模完成規劃。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
 
 ### Adobe Analytics 修正項目 {#aa-fixes}
 
