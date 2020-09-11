@@ -4,16 +4,16 @@ description: Adobe Experience Cloud 發行說明
 doc-type: release notes
 last-update: September 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3de788a32337c5917e54eb6c23234c20c2910d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6745'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Cloud發行說明- 2020年9月
+# Adobe Experience Cloud 發行說明 - 2020 年 9 月
 
 ![橫幅](/assets/experience-cloud-banner-3.png)
 
@@ -49,7 +49,7 @@ ht-degree: 99%
 
 [!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/tw/)。
 
-如需最新發行資訊，請參閱 [Adobe 系統狀態 - 2020 年 5 月 21 日](https://docs-stg.corp.adobe.com/content/help/en/release-notes/experience-cloud/previous/2020/05212020.html#status)。
+如需最新發行資訊，請參閱 [Adobe 系統狀態 - 2020 年 5 月 21 日](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/previous/2020/05212020.html#status)。
 
 ## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 介面 {#ecloud}
 
@@ -130,7 +130,7 @@ Adobe Experience Platform 現有功能更新：
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
-| Customer Journey Analytics 權限異動 | 2020 年 9 月 9 日 | CJA 不再將所有使用者一律視為管理員。下列動作僅限在 [Adobe Admin Console](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html) 中獲派為產品管理員的使用者執行：<ul><li>建立/更新/刪除[!UICONTROL 連線]或[!UICONTROL 資料檢視]</li><li>更新/刪除其他使用者建立的專案、篩選條件或計算量度</li><li>將工作區專案與所有使用者共用</li></ul>[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions) |
+| Customer Journey Analytics 權限異動 | 2020 年 9 月 9 日 | CJA 不再將所有使用者一律視為管理員。下列動作僅限在 [Adobe Admin Console](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html) 中獲派為產品管理員的使用者執行：<ul><li>建立/更新/刪除[!UICONTROL 連線]或[!UICONTROL 資料檢視]</li><li>更新/刪除其他使用者建立的專案、篩選條件或計算量度</li><li>將工作區專案與所有使用者共用</li></ul>[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions) |
 | 支援[!UICONTROL 異常偵測] | 2020 年 9 月 10 日 | [!UICONTROL 異常偵測]可協助您識別真正重要的統計波動。[!UICONTROL Customer Journey Analytics] 現已支援此功能。 |
 | 工作區新增日期範圍 | 2020 年 9 月 10 日 | 新增 5 個日期範圍，您可以選擇以下日期範圍，排除不完整的當天資料：[!UICONTROL 過去 7 天]、[!UICONTROL 過去 14 天]、[!UICONTROL 過去 30 天]、[!UICONTROL 過去 60 天]、[!UICONTROL 過去 90 天] |
 | 工作區：改良[!UICONTROL 線條]視覺化 | 2020 年 9 月 17 日 | <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺化效果的 x 軸與 y 軸。當[!UICONTROL 線條]視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何[!UICONTROL 線條]視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何[!UICONTROL 線條]視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/visualizations/line.html) |
