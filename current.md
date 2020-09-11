@@ -49,7 +49,7 @@ ht-degree: 99%
 
 [!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/tw/)。
 
-如需最新發行資訊，請參閱 [Adobe 系統狀態 - 2020 年 5 月 21 日](https://docs-stg.corp.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/previous/2020/05212020.html#status)。
+如需最新發行資訊，請參閱 [Adobe 系統狀態 - 2020 年 5 月 21 日](https://docs-stg.corp.adobe.com/content/help/en/release-notes/experience-cloud/previous/2020/05212020.html#status)。
 
 ## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 介面 {#ecloud}
 
@@ -75,11 +75,11 @@ Adobe Experience Platform 現有功能更新：
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 8 月 17 日 | [對 Launch 實作除錯](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/sites/integrations/experience-platform-launch/debug-launch-implementation.html) | 影片 | 介紹 Launch 實作除錯所需的幾項工具和技巧。了解如何使用瀏覽器的開發人員主控台和 Experience Platform Debugger 擴充功能，識別及疑難排解 Launch 實作的重大問題。 |
-| 2020 年 8 月 17 日 | [建立 Launch Cloud Service 設定](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/sites/integrations/experience-platform-launch/create-launch-cloud-service.html) | 影片 | 了解如何建立新的 Launch Cloud Services 設定。Launch Cloud Service 設定隨後可套用至現有的 Site，在「作者」和「發佈」環境中都能看見系統載入 Launch 資料庫。 |
-| 2020 年 8 月 17 日 | [使用 Adobe I/O 連線 AEM 與 Launch](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/sites/integrations/experience-platform-launch/connect-aem-launch-adobe-io.html) | 影片 | 了解如何使用 Adobe I/O 建立 IMS 設定，以便使用 Launch API 驗證 AEM。整合完成後，AEM 將可透過 Launch API 通訊，存取 Launch 屬性。 |
-| 2020 年 8 月 17 日 | [同意書管理 - Google IAB TCF 2.0 支援](https://docs.adobe.com/content/help/zh-Hant/platform-learn/tutorials/rtcdp/integrate-with-iab-transparency-and-consent-framework-2.html) | 影片 | 影片示範 Adobe 的即時客戶資料平台能如何協助品牌在消費者參與數位內容時，依其同意的事項提供服務。透過支援 IAB 透明與同意架構 2.0，品牌得以在與消費者互動時享有更大彈性，同時賦予消費者更多同意與否的控制權。 |
-| 2020 年 8 月 17 日 | [Google Customer Match](https://docs.adobe.com/content/help/zh-Hant/platform-learn/tutorials/rtcdp/integrate-with-google-customer-match.html) | 影片 | 影片示範 Adobe 的即時 CDP 和 Google 的 Customer Match 功能可如何協助品牌在 Google 擁有及運作的內容中與客戶互動，配合業務目標提升其宣傳成效。 |
+| 2020 年 8 月 17 日 | [對 Launch 實作除錯](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/debug-launch-implementation.html) | 影片 | 介紹 Launch 實作除錯所需的幾項工具和技巧。了解如何使用瀏覽器的開發人員主控台和 Experience Platform Debugger 擴充功能，識別及疑難排解 Launch 實作的重大問題。 |
+| 2020 年 8 月 17 日 | [建立 Launch Cloud Service 設定](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/create-launch-cloud-service.html) | 影片 | 了解如何建立新的 Launch Cloud Services 設定。Launch Cloud Service 設定隨後可套用至現有的 Site，在「作者」和「發佈」環境中都能看見系統載入 Launch 資料庫。 |
+| 2020 年 8 月 17 日 | [使用 Adobe I/O 連線 AEM 與 Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/connect-aem-launch-adobe-io.html) | 影片 | 了解如何使用 Adobe I/O 建立 IMS 設定，以便使用 Launch API 驗證 AEM。整合完成後，AEM 將可透過 Launch API 通訊，存取 Launch 屬性。 |
+| 2020 年 8 月 17 日 | [同意書管理 - Google IAB TCF 2.0 支援](https://docs.adobe.com/content/help/en/platform-learn/tutorials/rtcdp/integrate-with-iab-transparency-and-consent-framework-2.html) | 影片 | 影片示範 Adobe 的即時客戶資料平台能如何協助品牌在消費者參與數位內容時，依其同意的事項提供服務。透過支援 IAB 透明與同意架構 2.0，品牌得以在與消費者互動時享有更大彈性，同時賦予消費者更多同意與否的控制權。 |
+| 2020 年 8 月 17 日 | [Google Customer Match](https://docs.adobe.com/content/help/en/platform-learn/tutorials/rtcdp/integrate-with-google-customer-match.html) | 影片 | 影片示範 Adobe 的即時 CDP 和 Google 的 Customer Match 功能可如何協助品牌在 Google 擁有及運作的內容中與客戶互動，配合業務目標提升其宣傳成效。 |
 | 2020 年 8 月 17 日 | [資料工程師專用 Adobe Experience Platform 快速入門課程簡介](https://video.tv.adobe.com/v/39478?captions=chi_hant) | 影片 | [資料工程師專用 Adobe Experience Platform 快速入門](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.2)課程的簡介影片。 |
 | 2020 年 8 月 17 日 | [資料工程師專用 Adobe Experience Platform 快速入門](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.2) | 課程 | 了解如何在 Adobe Experience Platform 中完成資料工程師的主要職務。此入門課程利用影片和實作練習，協助您開始使用 Web SDK 擷取批次資料和串流資料，以及執行查詢等各項作業。 |
 | 2020 年 8 月 17 日 | [資料架構師專用 Adobe Experience Platform 快速入門課程簡介](https://video.tv.adobe.com/v/39477?captions=chi_hant) | 影片 | 影片提供[資料架構師專用 Adobe Experience Platform 快速入門](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1)課程概述。 |
@@ -122,37 +122,37 @@ Adobe Experience Platform 現有功能更新：
 | [!UICONTROL 跨裝置分析]：歐洲、中東和非洲地區及亞太地區的上市情況 | 2020 年 8 月 31 日 | 歐洲、中東和非洲地區及亞太地區皆已推出[跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/overview.html)和私密圖表，供客戶使用。 |
 | 改良[!UICONTROL 跨裝置分析]的欄位結合功能 (全球適用) | 2020 年 8 月 31 日 | 透過這套簡化的[!UICONTROL 跨裝置分析]新客戶實作方案，您可選擇根據 Analytics 欄位 (prop 或 eVar) 所儲存的使用者 ID，執行結合作業，而不使用裝置圖表 (co-op 或私密圖表)。此增強功能移除了實作 ECID 與以 CDA 為目的而實作 ID 同步的需求(部分功能仍需同步 ECID 和 ID)。 |
 | 蒐集中國資料 (第 2 階段) | 2020 年 9 月 1 日 | 擴大支援第一方 SSL。 |
-| Workspace 新增日期範圍 | 2020 年 9 月 10 日 | 新增 5 個日期範圍，您可以選擇以下日期範圍，排除不完整的當天資料：過去 7 天、過去 14 天、過去 30 天、過去 60 天、過去 90 天 |
-| Workspace：下載單一維度的 50,000 個項目 | 2020 年 9 月 17 日 | 您將能以自由格式表格，針對單一維度下載 50,000 個項目，並套用區段和篩選條件。這可讓您存取 Analysis Workspace 以外超過 400 列的資料。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) |
-| Workspace：改良[!UICONTROL 線條]視覺化 | 2020 年 9 月 17 日 | <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺化效果的 x 軸與 y 軸。當[!UICONTROL 線條]視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何[!UICONTROL 線條]視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何[!UICONTROL 線條]視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) |
+| 工作區新增日期範圍 | 2020 年 9 月 10 日 | 新增 5 個日期範圍，您可以選擇以下日期範圍，排除不完整的當天資料：過去 7 天、過去 14 天、過去 30 天、過去 60 天、過去 90 天 |
+| 工作區：下載單一維度的 50,000 個項目 | 2020 年 9 月 17 日 | 您將能以自由格式表格，針對單一維度下載 50,000 個項目，並套用區段和篩選條件。這可讓您存取 Analysis Workspace 以外超過 400 列的資料。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) |
+| 工作區：改良[!UICONTROL 線條]視覺化 | 2020 年 9 月 17 日 | <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺化效果的 x 軸與 y 軸。當[!UICONTROL 線條]視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何[!UICONTROL 線條]視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何[!UICONTROL 線條]視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
-| Customer Journey Analytics 權限異動 | 2020 年 9 月 9 日 | CJA 不再將所有使用者一律視為管理員。下列動作僅限在 [Adobe Admin Console](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html) 中獲派為產品管理員的使用者執行：<ul><li>建立/更新/刪除[!UICONTROL 連線]或[!UICONTROL 資料檢視]</li><li>更新/刪除其他使用者建立的專案、篩選條件或計算量度</li><li>將 Workspace 專案與所有使用者共用</li></ul>[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions) |
+| Customer Journey Analytics 權限異動 | 2020 年 9 月 9 日 | CJA 不再將所有使用者一律視為管理員。下列動作僅限在 [Adobe Admin Console](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html) 中獲派為產品管理員的使用者執行：<ul><li>建立/更新/刪除[!UICONTROL 連線]或[!UICONTROL 資料檢視]</li><li>更新/刪除其他使用者建立的專案、篩選條件或計算量度</li><li>將工作區專案與所有使用者共用</li></ul>[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions) |
 | 支援[!UICONTROL 異常偵測] | 2020 年 9 月 10 日 | [!UICONTROL 異常偵測]可協助您識別真正重要的統計波動。[!UICONTROL Customer Journey Analytics] 現已支援此功能。 |
-| Workspace 新增日期範圍 | 2020 年 9 月 10 日 | 新增 5 個日期範圍，您可以選擇以下日期範圍，排除不完整的當天資料：[!UICONTROL 過去 7 天]、[!UICONTROL 過去 14 天]、[!UICONTROL 過去 30 天]、[!UICONTROL 過去 60 天]、[!UICONTROL 過去 90 天] |
-| Workspace：改良[!UICONTROL 線條]視覺化 | 2020 年 9 月 17 日 | <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺化效果的 x 軸與 y 軸。當[!UICONTROL 線條]視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何[!UICONTROL 線條]視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何[!UICONTROL 線條]視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/visualizations/line.html) |
+| 工作區新增日期範圍 | 2020 年 9 月 10 日 | 新增 5 個日期範圍，您可以選擇以下日期範圍，排除不完整的當天資料：[!UICONTROL 過去 7 天]、[!UICONTROL 過去 14 天]、[!UICONTROL 過去 30 天]、[!UICONTROL 過去 60 天]、[!UICONTROL 過去 90 天] |
+| 工作區：改良[!UICONTROL 線條]視覺化 | 2020 年 9 月 17 日 | <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺化效果的 x 軸與 y 軸。當[!UICONTROL 線條]視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何[!UICONTROL 線條]視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何[!UICONTROL 線條]視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/visualizations/line.html) |
 
 ### [!UICONTROL Media Analytics] 新功能{#media-aa}
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| [!UICONTROL Workspace] 的[!UICONTROL 「媒體同時檢閱者」]面板 | 2020 年 9 月 17 日 | [!UICONTROL 「媒體同時檢閱者」]面板可供您掌握何時最多人同時觀看媒體，以及趨勢反轉的時間。這項功能提供內容品質和檢視者互動的重要分析，有助於疑難排解或依數量/規模完成規劃。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
+| [!UICONTROL 工作區]的[!UICONTROL 「媒體同時檢閱者」]面板 | 2020 年 9 月 17 日 | [!UICONTROL 「媒體同時檢閱者」]面板可供您掌握何時最多人同時觀看媒體，以及趨勢反轉的時間。這項功能提供內容品質和檢視者互動的重要分析，有助於疑難排解或依數量/規模完成規劃。[更多詳情...](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
 
 ### Adobe Analytics 修正項目 {#aa-fixes}
 
-* 修正無法以「未指定」維度篩選 [!UICONTROL Workspace] 資料欄的問題。(AN-222393)
+* 修正無法以「未指定」維度篩選[!UICONTROL 工作區]資料欄的問題。(AN-222393)
 * 修正[!UICONTROL 排程專案]無法傳送的連線逾時問題。(AN-223916)
 * 修正[!UICONTROL 虛擬報表套裝]中，[!UICONTROL 「造訪」]區段無法正常運作的問題。(AN-225719)
 * 修正 Adobe Report Builder 中的 Chrome 瀏覽器版本問題。(AN-226718)
 * 修正[!UICONTROL 虛擬報表套裝]組織完成後，仍可依 VRS 中任何維度/量度劃分的問題。(AN-228035)
 * 修正[!UICONTROL 區段管理員]中搜尋功能無法正常運作的問題。(AN-226954)
-* 修正在 [!UICONTROL Workspace] 中嘗試與一或兩名以上使用者共用專案時所發生的逾時錯誤問題。(AN-229443)
+* 修正在[!UICONTROL 工作區]中嘗試與一或兩名以上使用者共用專案時所發生的逾時錯誤問題。(AN-229443)
 * 修正 API 請求引發系統故障錯誤的問題。(AN-229537)
 * 修正導致索引鍵值未分類的[!UICONTROL 分類規則產生器]問題。(AN-229786、AN-230300、AN-230563)
-* 修正 [!UICONTROL Data Insertion] API 未回報某些資料的問題。(AN-230587)
+* 修正[!UICONTROL 資料插入] API 未回報某些資料的問題。(AN-230587)
 * 修正 [!UICONTROL Data Warehouse] 請求無法取得及驗證使用基本名稱之檔案的問題。(AN-230642)
 * ([!UICONTROL Customer Journey Analytics]) 修正在 CJA 中共用專案的權限問題。(AN-226592)
 
@@ -188,11 +188,11 @@ AN-215683、AN-216894、AN-226370、AN-227138、AN-227154、AN-227328、AN-22748
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 8 月 30 日 | [在 Analysis Workspace 中儲存、共用及協作專案](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace.html) | 影片 | 了解如何在 [!UICONTROL Analysis Workspace] 中為表格新增文字說明、建立專案的直接連結及共用專案。 |
+| 2020 年 8 月 30 日 | [在 Analysis Workspace 中儲存、共用及協作專案](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace.html) | 影片 | 了解如何在 [!UICONTROL Analysis Workspace] 中為表格新增文字說明、建立專案的直接連結及共用專案。 |
 | 2020 年 8 月 28 日 | [課程簡介 - 將值歸因於 Customer Journey 中的數位接觸點](https://video.tv.adobe.com/v/39380?captions=chi_hant) | 影片 | 此入門影片主要說明[將值歸因於 Customer Journey 中的數位接觸點](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.2)課程的先決條件和課程內容。 |
-| 2020 年 8 月 28 日 | [將值歸因於 Customer Journey 中的數位接觸點](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.2) | 課程 | 了解網站訪客的來源管道、如何針對不同管道評價網站上的轉換事件，甚至是網站上的其他項目能如何促進轉換，藉此掌握網站訪客的生態。本課程會介紹顯示此分析的主要視覺化效果，並說明如何使用 [!UICONTROL Attribution IQ]，在分析中指派歸因模型。 |
-| 2020 年 8 月 21 日 | [使用跨索引標籤分析，探索 Analysis Workspace 中的基本行銷歸因](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html) | 影片 | 想透過 Adobe Analytics 將歸因方法提升到全新層次，其實有許多方式。這部影片的重點，在於介紹如何使用 [!UICONTROL Workspace] 中的跨索引標籤分析，從[!UICONTROL 行銷管道]報表獲取更深入的寶貴見解。 |
-| 2020 年 8 月 21 日 | [以滑鼠右鍵提高 Workspace 效率](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/right-click-for-workspace-efficiency.html) | 影片 | 了解在 Analysis Workspace 中按一下滑鼠右鍵能使用哪些實用功能，並掌握其使用方法。按一下滑鼠右鍵即可使用自由表格和流失率視覺化效果等多項功能，協助您更有效地使用 Workspace，得心應手。 |
+| 2020 年 8 月 28 日 | [將值歸因於 Customer Journey 中的數位接觸點](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.2) | 課程 | 了解網站訪客的來源管道、如何針對不同管道評價網站上的轉換事件，甚至是網站上的其他項目能如何促進轉換，藉此掌握網站訪客的生態。本課程會介紹顯示此分析的主要視覺化效果，並說明如何使用[!UICONTROL 歸因 IQ]，在分析中指派歸因模型。 |
+| 2020 年 8 月 21 日 | [使用跨索引標籤分析，探索 Analysis Workspace 中的基本行銷歸因](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html) | 影片 | 想透過 Adobe Analytics 將歸因方法提升到全新層次，其實有許多方式。這部影片的重點，在於介紹如何使用[!UICONTROL 工作區]中的跨索引標籤分析，從[!UICONTROL 行銷管道]報表獲取更深入的寶貴見解。 |
+| 2020 年 8 月 21 日 | [以滑鼠右鍵提高工作區效率](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/right-click-for-workspace-efficiency.html) | 影片 | 了解在 Analysis Workspace 中按一下滑鼠右鍵能使用哪些實用功能，並掌握其使用方法。按一下滑鼠右鍵即可使用自由表格和流失率視覺化效果等多項功能，協助您更有效地使用工作區，得心應手。 |
 
 ### Analytics 說明資源
 
@@ -224,12 +224,12 @@ Audience Manager 的新功能、修正項目、說明文件和教學課程。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 8 月 17 日 | [將 Audience Manager 區段對應至目的地](https://docs.adobe.com/content/help/zh-Hant/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/mapping-audience-manager-segments-to-destinations.html) | 影片 | 介紹 Audience Manager 中的各種目的地類型，並說明將區段對應至各個目的地類型的詳細資訊。 |
-| 2020 年 8 月 14 日 | [充分運用設定檔合併規則：秘訣、技巧和策略](https://docs.adobe.com/content/help/zh-Hant/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/customer-tips-getting-the-most-out-of-profile-merge-rules.html) | 文章 | 由 [!DNL Accordant] 多重解決方案顧問 Varun Kalra 傳授選擇及使用[!UICONTROL 設定檔合併規則]的秘訣。 |
-| 2020 年 8 月 14 日 | [特徵和區段最佳作法](https://docs.adobe.com/content/help/zh-Hant/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/customer-tips-traits-and-segments-best-practices.html) | 文章 | 由 [!DNL Ally Financial] 資深行銷專員 Matt Vittorioso 傳授管理特徵的秘訣。 |
-| 2020 年 8 月 12 日 | [了解及設定 Google Customer Match 以人物為基礎的目的地](https://docs.adobe.com/content/help/zh-Hant/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-google-customer-match-pbd.html) | 影片 | 影片會逐步帶您了解 Google Customer Match [!UICONTROL 以人物為基礎的目的地]的詳細資訊和使用案例，包括逐步說明如何建立區段及對應至目的地。此外，影片也會示範 Google Ad Console 中的受眾登陸作業。 |
+| 2020 年 8 月 17 日 | [將 Audience Manager 區段對應至目的地](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/mapping-audience-manager-segments-to-destinations.html) | 影片 | 介紹 Audience Manager 中的各種目的地類型，並說明將區段對應至各個目的地類型的詳細資訊。 |
+| 2020 年 8 月 14 日 | [充分運用設定檔合併規則：秘訣、技巧和策略](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/customer-tips-getting-the-most-out-of-profile-merge-rules.html) | 文章 | 由 [!DNL Accordant] 多重解決方案顧問 Varun Kalra 傳授選擇及使用[!UICONTROL 設定檔合併規則]的秘訣。 |
+| 2020 年 8 月 14 日 | [特徵和區段最佳作法](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/customer-tips-traits-and-segments-best-practices.html) | 文章 | 由 [!DNL Ally Financial] 資深行銷專員 Matt Vittorioso 傳授管理特徵的秘訣。 |
+| 2020 年 8 月 12 日 | [了解及設定 Google Customer Match 以人物為基礎的目的地](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-google-customer-match-pbd.html) | 影片 | 影片會逐步帶您了解 Google Customer Match [!UICONTROL 以人物為基礎的目的地]的詳細資訊和使用案例，包括逐步說明如何建立區段及對應至目的地。此外，影片也會示範 Google Ad Console 中的受眾登陸作業。 |
 | 2020 年 8 月 13 日 | [課程簡介 - 對象區段建立與策略](https://video.tv.adobe.com/v/39091?captions=chi_hant) | 影片 | 此影片提供「對象區段建立與策略」課程的內容說明。 |
-| 2020 年 8 月 13 日 | [建立區段時使用程式碼檢視](https://docs.adobe.com/content/help/zh-Hant/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-when-building-segments.html) | 影片 | 了解如何使用程式碼檢視來定義區段，並且建立複雜的特徵組合，包括使用造訪間隔和頻率。 |
+| 2020 年 8 月 13 日 | [建立區段時使用程式碼檢視](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-when-building-segments.html) | 影片 | 了解如何使用程式碼檢視來定義區段，並且建立複雜的特徵組合，包括使用造訪間隔和頻率。 |
 | 2020 年 8 月 21 日 | [對象區段建立與策略](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.2) | 課程 | 本課程會詳細介紹區段，告訴您如何建立及管理區段，以及如何對目的地合作夥伴啟用區段。您可以查看幾個實用的使用案例，甚至向客戶學習幾項秘訣和技巧。 |
 
 ## ![圖示](/assets/aem.png) Adobe Experience Manager {#aem}
@@ -328,23 +328,23 @@ AEM 6.4 Service Pack 8 Cumulative Fix Pack 2 (6.4.8.2，已於 2020 年 9 月 3 
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 8 月 31 日 | [設定 XDP 範本，善用 AEM Forms 和 Adobe Sign 整合](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/forms/forms-and-sign/using-xdp-templates-with-adobe-sign.html) | 影片 | 透過 [!UICONTROL AEM Forms] 和 Sign 整合，善用現有的 XDP 範本。 |
-| 2020 年 8 月 17 日 | [審核及設定已轉換的最適化表單](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/forms/forms-and-sign/configure-converted-adaptive-form.html) | 影片 | 設定由自動化表單服務建立的最適化表單，以使用 Adobe Sign 整合。依需求變更面板標題，並重新排列某些欄位。 |
-| 2020 年 8 月 25 日 | [為 2 位簽署者設定最適化表單](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/forms/forms-and-sign/configure-adaptive-form-for-two-signers.html) | 影片 | 使用 Adaptive Forms 介面設定多位簽署者，並指定順序 (接續或同時簽署)。 |
+| 2020 年 8 月 31 日 | [設定 XDP 範本，善用 AEM Forms 和 Adobe Sign 整合](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/forms-and-sign/using-xdp-templates-with-adobe-sign.html) | 影片 | 透過 [!UICONTROL AEM Forms] 和 Sign 整合，善用現有的 XDP 範本。 |
+| 2020 年 8 月 17 日 | [審核及設定已轉換的最適化表單](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/forms-and-sign/configure-converted-adaptive-form.html) | 影片 | 設定由自動化表單服務建立的最適化表單，以使用 Adobe Sign 整合。依需求變更面板標題，並重新排列某些欄位。 |
+| 2020 年 8 月 25 日 | [為 2 位簽署者設定最適化表單](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/forms-and-sign/configure-adaptive-form-for-two-signers.html) | 影片 | 使用 Adaptive Forms 介面設定多位簽署者，並指定順序 (接續或同時簽署)。 |
 | 2020 年 8 月 17 日 | [設定 AEM 存取權](https://video.tv.adobe.com/v/39230?captions=chi_hant) | 影片 | 探索使用者如何使用 Adobe IMS 執行 [!UICONTROL AEM 雲端服務]驗證，以及如何使用 Adobe IMS 使用者、[!UICONTROL 使用者群組]和[!UICONTROL 產品設定檔]來控制 AEM 存取權及其功能。 |
-| 2020 年 8 月 17 日 | [AEM 存取權設定逐步說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/cloud-service/accessing/walk-through.html) | 影片 | 在 Adobe [!UICONTROL Admin Console] 中設定 Adobe IMS 使用者、[!UICONTROL 使用者群組]和[!UICONTROL 產品設定檔]的概要教學。同時，也說明如何在 [!UICONTROL AEM 作者]中善用這些 Adobe IMS 抽象化功能，定義及管理特定的群組型權限。 |
-| 2020 年 8 月 17 日 | [AEM 使用者、群組和權限](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html) | 影片 | Adobe Experience Manager 以 Adobe IMS 使用者、[!UICONTROL 使用者群組]和[!UICONTROL 產品設定檔]為基礎，提供可自訂的 AEM 存取權。了解如何定義 AEM 群組和權限，以及 AEM 群組和權限如何與 Adobe IMS 抽象化功能搭配運作，以提供順暢且可自訂的 AEM 存取權。 |
-| 2020 年 8 月 17 日 | [對 Launch 實作除錯](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/sites/integrations/experience-platform-launch/debug-launch-implementation.html) | 影片 | 介紹 Launch 實作除錯所需的幾項工具和技巧。了解如何使用瀏覽器的開發人員主控台和 [!UICONTROL Experience Platform Debugger] 擴充功能，識別及疑難排解 Experience Platform Launch 實作的重大問題。 |
-| 2020 年 8 月 17 日 | [建立 Launch Cloud Service 設定](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/sites/integrations/experience-platform-launch/create-launch-cloud-service.html) | 影片 | 了解如何建立新的 Experience Platform Launch Cloud Services 設定。Launch Cloud Service 設定隨後可套用至現有的 Site，在「作者」和「發佈」環境中都能看見系統載入 Launch 資料庫。 |
-| 2020 年 8 月 17 日 | [使用 Adobe I/O 連線 AEM 與 Launch](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/sites/integrations/experience-platform-launch/connect-aem-launch-adobe-io.html) | 影片 | 了解如何使用 Adobe I/O 建立 IMS 設定，以便使用 Experience Platform Launch API 驗證 AEM。整合完成後，AEM 將可透過 Launch API 通訊，存取 Launch 屬性。 |
-| 2020 年 8 月 17 日 | [建立 Launch 屬性](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/sites/integrations/experience-platform-launch/create-launch-property.html) | 影片 | 了解如何以設定其餘整合所需的最低設定，建立 Launch 屬性。使用者將能熟悉 Launch UI，並了解擴充功能、規則和發佈工作流程。 |
-| 2020 年 8 月 17 日 | [整合 Experience Platform Launch 和 AEM](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html) | 影片 | Experience Platform Launch 是 Adobe 的新一代標記管理平台，也是部署 Adobe Analytics、[!DNL Target]、Audience Manager 和其他解決方案的最佳方式。了解 Experience Platform Launch 的概要介紹，並熟悉建議的 Adobe Experience Manager 整合。 |
+| 2020 年 8 月 17 日 | [AEM 存取權設定逐步說明](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/walk-through.html) | 影片 | 在 Adobe [!UICONTROL Admin Console] 中設定 Adobe IMS 使用者、[!UICONTROL 使用者群組]和[!UICONTROL 產品設定檔]的概要教學。同時，也說明如何在 [!UICONTROL AEM 作者]中善用這些 Adobe IMS 抽象化功能，定義及管理特定的群組型權限。 |
+| 2020 年 8 月 17 日 | [AEM 使用者、群組和權限](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html) | 影片 | Adobe Experience Manager 以 Adobe IMS 使用者、[!UICONTROL 使用者群組]和[!UICONTROL 產品設定檔]為基礎，提供可自訂的 AEM 存取權。了解如何定義 AEM 群組和權限，以及 AEM 群組和權限如何與 Adobe IMS 抽象化功能搭配運作，以提供順暢且可自訂的 AEM 存取權。 |
+| 2020 年 8 月 17 日 | [對 Launch 實作除錯](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/debug-launch-implementation.html) | 影片 | 介紹 Launch 實作除錯所需的幾項工具和技巧。了解如何使用瀏覽器的開發人員主控台和 [!UICONTROL Experience Platform Debugger] 擴充功能，識別及疑難排解 Experience Platform Launch 實作的重大問題。 |
+| 2020 年 8 月 17 日 | [建立 Launch Cloud Service 設定](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/create-launch-cloud-service.html) | 影片 | 了解如何建立新的 Experience Platform Launch Cloud Services 設定。Launch Cloud Service 設定隨後可套用至現有的 Site，在「作者」和「發佈」環境中都能看見系統載入 Launch 資料庫。 |
+| 2020 年 8 月 17 日 | [使用 Adobe I/O 連線 AEM 與 Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/connect-aem-launch-adobe-io.html) | 影片 | 了解如何使用 Adobe I/O 建立 IMS 設定，以便使用 Experience Platform Launch API 驗證 AEM。整合完成後，AEM 將可透過 Launch API 通訊，存取 Launch 屬性。 |
+| 2020 年 8 月 17 日 | [建立 Launch 屬性](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/create-launch-property.html) | 影片 | 了解如何以設定其餘整合所需的最低設定，建立 Launch 屬性。使用者將能熟悉 Launch UI，並了解擴充功能、規則和發佈工作流程。 |
+| 2020 年 8 月 17 日 | [整合 Experience Platform Launch 和 AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html) | 影片 | Experience Platform Launch 是 Adobe 的新一代標記管理平台，也是部署 Adobe Analytics、[!DNL Target]、Audience Manager 和其他解決方案的最佳方式。了解 Experience Platform Launch 的概要介紹，並熟悉建議的 Adobe Experience Manager 整合。 |
 | 2020 年 8 月 17 日 | [為管理員設定 AEM Assets](https://video.tv.adobe.com/v/37647?captions=chi_hant) | 影片 | 管理員可觀看影片，了解如何設定 [!UICONTROL AEM Assets]。 |
 | 2020 年 8 月 12 日 | [透過 AEM 雲端服務 SDK 執行本機開發](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/commerce/develop.html) | 影片 | 了解如何為 [!UICONTROL AEM Commerce] 和 [!UICONTROL AEM 雲端服務] SDK 設定本機開發環境。 |
 | 2020 年 8 月 17 日 | [使用表單資料模型預先填寫最適化表單](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.forms) | 課程 | 您可以使用現有的資料，預先填寫最適化表單的欄位。本課程可協助您了解如何使用表單資料模型的請求屬性，預先填寫欄位。 |
-| 2020 年 8 月 17 日 | [Adobe IMS 產品設定檔](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/cloud-service/accessing/adobe-ims-product-profiles.html) | 影片 | Adobe IMS 產品設定檔能提供使用者登入 AEM 作者服務的權限，並根據使用者加入的產品設定檔提供最低存取權。 |
-| 2020 年 8 月 17 日 | [Adobe IMS 使用者群組](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/cloud-service/accessing/adobe-ims-user-groups.html) | 影片 | Adobe IMS 使用者群組會建立對 AEM 公開的使用者邏輯集，以便為 AEM 使用者定義更精細的權限。 |
-| 2020 年 8 月 17 日 | [Adobe IMS 使用者](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/cloud-service/accessing/adobe-ims-users.html) | 影片 | 了解何為 Adobe IMS 使用者，並熟悉如何在 Admin Console 中存取及管理 Adobe IMS 使用者，以及如何使用 Adobe IMS 使用者登入 AEM 雲端服務。 |
+| 2020 年 8 月 17 日 | [Adobe IMS 產品設定檔](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/adobe-ims-product-profiles.html) | 影片 | Adobe IMS 產品設定檔能提供使用者登入 AEM 作者服務的權限，並根據使用者加入的產品設定檔提供最低存取權。 |
+| 2020 年 8 月 17 日 | [Adobe IMS 使用者群組](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/adobe-ims-user-groups.html) | 影片 | Adobe IMS 使用者群組會建立對 AEM 公開的使用者邏輯集，以便為 AEM 使用者定義更精細的權限。 |
+| 2020 年 8 月 17 日 | [Adobe IMS 使用者](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/accessing/adobe-ims-users.html) | 影片 | 了解何為 Adobe IMS 使用者，並熟悉如何在 Admin Console 中存取及管理 Adobe IMS 使用者，以及如何使用 Adobe IMS 使用者登入 AEM 雲端服務。 |
 | 2020 年 8 月 17 日 | [開發人員適用的 HTML5 表單快速入門](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.forms) | 課程 | HTML5 表單提供 HTML5 格式的 XFA 表單範本轉譯功能。此功能可讓您在不支援 XFA 型 PDF 的行動裝置和電腦瀏覽器中轉譯表單。 |
 
 ### Experience Manager 發行資訊
