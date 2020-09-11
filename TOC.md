@@ -4,11 +4,11 @@ product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 發行說明
 user-guide-description: Learn about new features, fixes, and important notices in Adobe Experience Cloud.
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fe8d77d0f66d63ede020bfdf8339981d702a76ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 + [發行說明](current.md)
 + 上一版的發行說明 {#previous}
    + 2020 年{#2020}
-      + [2020年8月](c-legacy-releases/2020/08132020.md)
+      + [2020 年 8 月](c-legacy-releases/2020/08132020.md)
       + [2020 年 7 月](c-legacy-releases/2020/07162020.md)
       + [2020 年 6 月](c-legacy-releases/2020/06182020.md)
       + [2020 年 5 月](c-legacy-releases/2020/05212020.md)
