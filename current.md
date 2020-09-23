@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: September 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3de788a32337c5917e54eb6c23234c20c2910d98
+source-git-commit: d2be5336caa039c540df6076bef876dc1384cab2
 workflow-type: tm+mt
-source-wordcount: '6745'
-ht-degree: 100%
+source-wordcount: '6913'
+ht-degree: 97%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 100%
 
 產品的發行日期可能不盡相同。請時常回訪以取得更新內容。
 
-最新更新：**2020 年 9 月 10 日**
+最新更新：**2020 年 9 月 23 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) （2020年9月23日更新）和客 [戶歷程分析](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -111,7 +111,7 @@ Adobe Experience Platform 現有功能更新：
 * [Customer Journey Analytics 新功能](#cust-journey)
 * [Media Analytics 新功能](#media-aa)
 * [Adobe Analytics 修正項目](#aa-fixes)
-* [給 Analytics 管理員的重要通知](#aa-notices)
+* [給 Analytics 管理員的重要通知](#aa-notices) （2020年9月23日更新）
 * [Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -164,6 +164,7 @@ AN-215683、AN-216894、AN-226370、AN-227138、AN-227154、AN-227328、AN-22748
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| 變更為ECID Cookie設定 | 2020 年 9 月 22 日 | Chrome 80版隱私權設定的更新會影響Adobe Analytics追蹤檢視Google AMP頁面的部分使用者的能力。 具體來說，它可防止跨網域追蹤檢視Google代管AMP頁面的使用者。 這可能導致不重複訪客的數量增加。 此修正可讓使用者變更其ECID Cookie的設定，以解決此問題。 目前，Analytics會以在Chrome 80版之 `SameSite = Lax` 前允許跨網域追蹤的設定設定來設定ECID Cookie。 現在情況已經不同了。 這項變更可讓使用者將ECID Cookie的SameSite設定更新為 `None`。 請注意，這確實允許在更多情況下共用Analytics Cookie，但Analytics Cookie不包含任何敏感資訊。 此外，在選擇此設定時，Cookie必須設 `Secure` 定為，才能透過HTTPS連線傳送資料。 如果您想進行此項變更，請讓受支援使用者向客戶服務開啟票證。 |
 | 從 `omniture.com` 移轉至 `adobe.com` 網域 | 2020 年 8 月 21 日 | 2020 年 8 月 13 日，Adobe Analytics 將前端架構從 `omniture.com|http://omniture.com/` 移轉至 `adobe.com|http://adobe.com/` 網域。此變更應可紓解 2020 年 5 月 28 日初次統一產品網域後發生的第三方 Cookie 問題。更新後，瀏覽器可能會提示使用者將 `.adobe.com|http://an.adobe.com/` 或 `experience.adobe.com|http://experience.adobe.com/` 等新網域加入信任清單。 |
 | 更新 Ad Hoc Analysis Java 8 相容性 | 2020 年 8 月 21 日 | Ad Hoc Analysis 目前與 Java 8 1.8.0_261 以後的版本不相容。為確保您在[產品生命週期](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)結束前能順利存取此工具，建議您持續使用 1.8.0_261 之前的 Java 8 版本。 |
 | Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange 合作夥伴計畫已推出一項新標準](https://partners.adobe.com/tw/exchangeprogram/experiencecloud)，任何希望能繼續使用服務及取得支援的整合項目，都應採用此標準。確切日期仍未決定，但預計未來 12 至 18 個月內 (2021 年中至 2021 年底) 將會正式終止服務。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/import/dataconnectors/data-connectors-eol.html) |
