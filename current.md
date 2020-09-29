@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 發行說明
 doc-type: release notes
 last-update: September 2020
 author: mfrei
-translation-type: ht
-source-git-commit: d2be5336caa039c540df6076bef876dc1384cab2
-workflow-type: ht
-source-wordcount: '6913'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8077089a219abecb0c3522ae0768f25b9f249715
+workflow-type: tm+mt
+source-wordcount: '6970'
+ht-degree: 99%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 100%
 
 產品的發行日期可能不盡相同。請時常回訪以取得更新內容。
 
-最新更新：**2020 年 9 月 23 日**
+最新更新：**2020 年 9 月 29 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 介面](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) (2020 年 9 月 23 日更新) 和 [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) (2020 年 9 月 29 日更新) 和 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -111,7 +111,7 @@ Adobe Experience Platform 現有功能更新：
 * [Customer Journey Analytics 新功能](#cust-journey)
 * [Media Analytics 新功能](#media-aa)
 * [Adobe Analytics 修正項目](#aa-fixes)
-* [給 Analytics 管理員的重要通知](#aa-notices)¬(2020 年 9 月 23 日更新)
+* [給 Analytics 管理員的重要通知](#aa-notices)¬(2020 年 9 月 29 日更新)
 * [Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -164,6 +164,7 @@ AN-215683、AN-216894、AN-226370、AN-227138、AN-227154、AN-227328、AN-22748
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| 將HSTS標題新增至所有傳入的HTTPS要求 | 2020 年 9 月 29 日 | 在2020年9月29日，我們開始將HSTS標題新增至所有使用HTTPS的傳入請求。 這會指示瀏覽器／用戶端在HTTPS中提出所有未來要求，這被視為安全性最佳實務。 目前，我們不會針對使用HTTP的傳入請求強制執行此動作。 |
 | 變更 ECID Cookie 設定 | 2020 年 9 月 22 日 | 一項針對 Chrome 80 版本隱私權設定的更新影響 Adobe Analytics 追蹤部分檢視 Google AMP 頁面之使用者的能力。具體來說，這項更新會防止跨網域追蹤檢視 Google 託管 AMP 頁面的使用者。如此可能導致不重複訪客的數量增加。此修正可讓使用者透過變更 ECID Cookie 設定來解決此問題。目前，Analytics 的 ECID Cookie 設定為 `SameSite = Lax`，而此設定在 Chrome 80 版本之前皆允許進行跨網域追蹤。但如今情況有變。使用者可透過這項變更將 ECID Cookie 的 SameSite 設定更新為 `None`。請注意，如此雖然會允許在更多情況下共用 Analytics Cookie，不過 Analytics Cookie 本身並不包含任何敏感資料。此外，選擇這項設定時，Cookie 必須設定為 `Secure`，才能限制僅透過 HTTPS 連線傳送資料。若想進行此一變更，請由支援的使用者透過客戶服務建立票證。 |
 | 從 `omniture.com` 移轉至 `adobe.com` 網域 | 2020 年 8 月 21 日 | 2020 年 8 月 13 日，Adobe Analytics 將前端架構從 `omniture.com|http://omniture.com/` 移轉至 `adobe.com|http://adobe.com/` 網域。此變更應可紓解 2020 年 5 月 28 日初次統一產品網域後發生的第三方 Cookie 問題。更新後，瀏覽器可能會提示使用者將 `.adobe.com|http://an.adobe.com/` 或 `experience.adobe.com|http://experience.adobe.com/` 等新網域加入信任清單。 |
 | 更新 Ad Hoc Analysis Java 8 相容性 | 2020 年 8 月 21 日 | Ad Hoc Analysis 目前與 Java 8 1.8.0_261 以後的版本不相容。為確保您在[產品生命週期](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)結束前能順利存取此工具，建議您持續使用 1.8.0_261 之前的 Java 8 版本。 |
