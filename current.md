@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5790dfcacc451a044bc7d2f8431d759598643a9f
+source-git-commit: 2ed7bd9c020cac5cf282aafd0c3146b8e0661dce
 workflow-type: tm+mt
-source-wordcount: '6533'
+source-wordcount: '6530'
 ht-degree: 44%
 
 ---
@@ -298,13 +298,13 @@ Rich Text Editor文檔已更新，以列出RTE [中連結的所有支援的協�
 
 * 如果使用者修改了 [Apache Jackrabbit Oak TokenConfiguration](https://helpx.adobe.com/experience-manager/kb/How-to-set-token-session-expiration-AEM.html) ，將逾時設定設定為少於上傳資產所花的時間，則使用者會遇到作業逾時的情況。因此，使用者需要變更 `chunkUploadMinFileSize``chunksize`and，如此每個區塊請求就會重新整理作業。 如需詳細資訊，請參 [閱上傳資產](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#uploading-assets)。
 
-* 資產也可以 [使用拖曳作業移入同級資料夾](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) ，而移動(m) [!UICONTROL 作業則會開啟「移動資產」] 精靈  。
+* 資產也可以 [使用拖曳作業移入同級資料夾](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) ，除了 [!UICONTROL Move(m)] operation opens  Move Assets wizard外。
 
 * 若為資產見解，請使 [用Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)。 [DTM整合](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) ，在檔案中稱為已過時的方法。
 
 **[!DNL Adobe Experience Manager]案頭應用程式**
 
-* 登出或首次登入案頭應用程式的使用者應提供其伺服器 [!DNL Experience Manager] URL格式為https://[aem-server-url]:[port]/，然後選取「 [!UICONTROL Connect] 」選項，以避免「應用程式遇到未知錯誤」錯誤。 如需詳細資訊，請參 [閱「使用Adobe Experience Manager案頭應用程式」](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html)。
+* 登出或首次登入案頭應用程式的使用者應提供其伺服器 [!DNL Experience Manager] URL的格式，然後選取 `https://[aem-server-url]:[port]/`[!UICONTROL Connect] （連線）選項，以避免出現「應用程式遇到未知錯誤」錯誤。 如需詳細資訊，請參 [閱「使用Adobe Experience Manager案頭應用程式」](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html)。
 
 ### 社群
 
