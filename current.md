@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e6add243b6c74b59f138543c460d55817bddf761
+source-git-commit: 5790dfcacc451a044bc7d2f8431d759598643a9f
 workflow-type: tm+mt
-source-wordcount: '6448'
+source-wordcount: '6533'
 ht-degree: 44%
 
 ---
@@ -282,9 +282,15 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 ### 自助資源
 
+**[!DNL Experience Manager]網站**
+
+Rich Text Editor文檔已更新，以列出RTE [中連結的所有支援的協定](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles)。
+
 **[!DNL Experience Manager]Assets**
 
-* **[檢視模式參數](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/search-assets.html#assetpicker)** 會新增至資產選擇器（資產選擇器），以在搜尋模式中開啟資產選擇器。 若要在搜尋模式中開啟資產選擇器，並搭配使 `assettype` 用和 `mimetype`，使用者需要在URL `viewmode=search` 中加上參數尾碼 `https://[aem-server]:[port]/aem/assetpicker.html`。 例如：`https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`。
+* 有關AEM Assets如何 [可供所有使用者存取的](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/accessibility.html) ，有新說明內容可供使用。
+
+* **[檢視模式參數](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/search-assets.html#assetpicker)** 會新增至資產選擇器（資產選擇器），以在搜尋模式中開啟資產選擇器。 若要在搜尋模式中開啟資產選擇器並搭配使用 `assettype` 和 `mimetype`，使用者需要在URL `viewmode=search` 中加上參數尾碼 `https://[aem-server]:[port]/aem/assetpicker.html`。 例如：`https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`。
 
 * 在刪除專用資料夾時，會刪除專用資料夾的相關用戶組 [](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/private-folder.html#delete-private-folder)，並且可以使用JMX中的clean方法從儲存庫中清理現有冗餘、未使用和自動生成的用戶組。
 
@@ -293,6 +299,8 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 * 如果使用者修改了 [Apache Jackrabbit Oak TokenConfiguration](https://helpx.adobe.com/experience-manager/kb/How-to-set-token-session-expiration-AEM.html) ，將逾時設定設定為少於上傳資產所花的時間，則使用者會遇到作業逾時的情況。因此，使用者需要變更 `chunkUploadMinFileSize``chunksize`and，如此每個區塊請求就會重新整理作業。 如需詳細資訊，請參 [閱上傳資產](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#uploading-assets)。
 
 * 資產也可以 [使用拖曳作業移入同級資料夾](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) ，而移動(m) [!UICONTROL 作業則會開啟「移動資產」] 精靈  。
+
+* 若為資產見解，請使 [用Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)。 [DTM整合](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) ，在檔案中稱為已過時的方法。
 
 **[!DNL Adobe Experience Manager]案頭應用程式**
 
