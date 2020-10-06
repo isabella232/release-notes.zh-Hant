@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 554b01dd2fd709420cb046e37cc45f2f1331eb54
+source-git-commit: b3ba9bfac88074b9dd5838acd086bade5a43b734
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6617'
 ht-degree: 44%
 
 ---
@@ -49,6 +49,10 @@ ht-degree: 44%
 * [Document Cloud](#doc-cloud)
 
 需要協助嗎？請造訪 [Adobe Experience League](https://experienceleague.adobe.com/#home)，尋找產品和技術文件、Adobe 策畫的課程、教學課程影片、快速解答、社群見解，以及由講師授課的訓練課程。
+
+>[!NOTE]
+>
+>說明檔案正在移轉至Experience League。 在10月期間，所有發行說明、文章、影片和教學課程都將從目前位置移至Experience League `docs.adobe.com` ，並可隨附於Experience League。 此舉可確保從單一位置提供所有學習、自助、啟用和社群內容：體驗聯盟。 發生此變更時，您不需執行任何動作，因為所有連結都會重新導向至新位置。 當切換開始時，我們會更新版本注意事項。
 
 ## ![圖示](/assets/adobe.png) Adobe 系統狀態 {#status}
 
@@ -292,7 +296,7 @@ Rich Text Editor文檔已更新，以列出RTE [中連結的所有支援的協�
 
 * 有關AEM Assets如何 [可供所有使用者存取的](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/accessibility.html) ，有新說明內容可供使用。
 
-* **[檢視模式參數](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/search-assets.html#assetpicker)** 會新增至資產選擇器（資產選擇器），以在搜尋模式中開啟資產選擇器。 若要在搜尋模式中開啟資產選擇器，並搭配使 `assettype` 用和 `mimetype`，使用者需要在URL `viewmode=search` 中加上參數尾碼 `https://[aem-server]:[port]/aem/assetpicker.html`。 例如：`https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`。
+* **[檢視模式參數](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/search-assets.html#assetpicker)** 會新增至資產選擇器（資產選擇器），以在搜尋模式中開啟資產選擇器。 若要在搜尋模式中開啟資產選擇器並搭配使用 `assettype` 和 `mimetype`，使用者需要在URL `viewmode=search` 中加上參數尾碼 `https://[aem-server]:[port]/aem/assetpicker.html`。 例如：`https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`。
 
 * 在刪除專用資料夾時，會刪除專用資料夾的相關用戶組 [](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/private-folder.html#delete-private-folder)，並且可以使用JMX中的clean方法從儲存庫中清理現有冗餘、未使用和自動生成的用戶組。
 
@@ -399,9 +403,9 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 
 | 已發佈 | 名稱 | 解決方法 | 說明 |
 | ----------- | ----------- | ---------- | ---------- |
-| 2020 年 22 月 9 日 | [歷程AI —— 預測性傳送時間最佳化——視訊](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | 瞭解在 Adobe Campaign 和 Journey AI 模型之間同步資料所需的工作流程。瞭解如何在個別設定檔層級檢視傳送時間分數，以及如何使用傳送時間公式執行電子郵件傳遞。 |
-| 2020 年 22 月 9 日 | [歷程AI —— 預測性參與計分——視訊](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | 瞭解如何在個別設定檔層級檢視參與分數、使用分數來定位參與的使用者並抑制疲勞的使用者，以及如何建立樣態規則來管理客戶疲勞。 |
-| 2020 年 22 月 9 日 | [新增控制群組至傳送——視訊](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 瞭解如何為傳送定義控制組，以及如何在傳送後擷取指派給控制組的設定檔。 |
+| 2020 年 22 月 9 日 | [歷程AI —— 預測性傳送時間最佳化——視訊](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | 瞭解在 Adobe Campaign 和 Journey AI 模型之間同步資料所需的工作流程。瞭解如何在個別設定檔層級檢視傳送時間分數，以及如何使用傳送時間公式執行電子郵件傳遞。 |
+| 2020 年 22 月 9 日 | [歷程AI —— 預測性參與計分——視訊](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | 瞭解如何在個別設定檔層級檢視參與分數、使用分數來定位參與的使用者並抑制疲勞的使用者，以及如何建立樣態規則來管理客戶疲勞。 |
+| 2020 年 22 月 9 日 | [新增控制群組至傳送——視訊](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 瞭解如何為傳送定義控制組，以及如何在傳送後擷取指派給控制組的設定檔。 |
 | 2020年9月11日 | [委派子網域](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/subdomain-delegation.html) | Campaign Classic | Adobe Campaign 控制面板可以讓您將子網域完全委派給 Adobe Campaign。 |
 | 2020年9月3日 | [新增IP位址以允許清單](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | 「控制面板」可以讓您允許列出 IP 位址範圍，以便將新的連線設定到您的執行個體。依預設，Adobe Campaign Classic 執行個體無法從各種 IP 位址進行存取。 |
 | 2020年9月3日 | [控制面板——新增URL權限](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html) | Campaign Classic | 「控制面板」可以讓您允許列出 IP 位址範圍，以便將新的連線設定到您的執行個體。依預設，Adobe Campaign Classic 執行個體無法從各種 IP 位址進行存取。 |
