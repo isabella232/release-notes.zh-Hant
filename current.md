@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 70f1d8589fe94f37a3f9edc375f9efbf2b6d1c26
+source-git-commit: 1e425034bd7ac32833d74b826562f9761b2c05d5
 workflow-type: tm+mt
-source-wordcount: '6765'
+source-wordcount: '6775'
 ht-degree: 43%
 
 ---
@@ -137,7 +137,7 @@ Experience Cloud服務 _和管理檔案先前稱為_ Experience Cloud核心服�
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
 | 客戶歷程分析 檔案 | 2020 年 10 月 | 客戶歷程分析檔案即將移轉至Experience League。 在10月期間，所有文章、影片、發行說明和教學課程將從目前位置移 `docs.adobe.com` 至 `experienceleague.adobe.com`。 此舉可確保從單一位置提供所有學習、自助、啟用和社群內容。 發生此變更時，您無需執行任何操作，因為所有連結都會重新導向至Experience League。 當切換開始時，我們會更新版本注意事項。 |
-| [!UICONTROL 工作區]:下載單一維度的5萬個項目 | 2020 年 9 月 17 日 | 您將能以自由格式表格，針對單一維度下載 50,000 個項目，並套用區段和篩選條件。這可讓您存取 Analysis Workspace 以外超過 400 列的資料。[更多詳情...] |
+| [!UICONTROL 工作區]:下載單一維度的5萬個項目 | 2020 年 9 月 17 日 | 您將能以自由格式表格，針對單一維度下載 50,000 個項目，並套用區段和篩選條件。這可讓您存取 Analysis Workspace 以外超過 400 列的資料。[更多詳情...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/download-send.html) |
 | 工作區：改良[!UICONTROL 線條]視覺化 | 2020 年 9 月 17 日 | <ul><li>You can show or hide the X-axis and Y-axis of any [!UICONTROL Line] visualization. 當[!UICONTROL 線條]視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何[!UICONTROL 線條]視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何[!UICONTROL 線條]視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-workspace/visualizations/line.html) |
 | 「分析工作區：效能幫助」頁 | 2020年10月22日 | 「分析工作區」效能說明頁面顯示影響專案效能的不同因素以及最佳化秘訣的連結。 [更多詳情](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 線條視覺化] :移動平均趨勢線選項 | 2020年10月8日 | 「行」視覺化趨勢線設定已新增移動平均值。 移動平均值會計算指定前期的平均值，並將該平均值用作趨勢線資料點，然後移至下一期間。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) |
