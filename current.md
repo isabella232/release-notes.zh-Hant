@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1e425034bd7ac32833d74b826562f9761b2c05d5
+source-git-commit: 0eba5dbf803e9eefd45065b942fe49258c4c1d32
 workflow-type: tm+mt
-source-wordcount: '6775'
-ht-degree: 43%
+source-wordcount: '6846'
+ht-degree: 42%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 43%
 
 產品的發行日期可能不盡相同。請時常回訪以取得更新內容。
 
-最近更新: **2020 年 10 月 2 日**
+最近更新: **2020 年 10 月 7 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud服務與管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) （2020年10月2日更新）
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) （2020年10月7日更新）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -113,7 +113,7 @@ Experience Cloud服務 _和管理檔案先前稱為_ Experience Cloud核心服�
 發行日期: **2020 年 10 月 8 日**
 
 * [Adobe Analytics 新功能](#aa-features)
-* [Customer Journey Analytics 新功能](#cust-journey)
+* [Customer Journey Analytics 新功能](#cust-journey) （2020年10月7日更新）
 * [Media Analytics 新功能](#media-aa)
 * [Adobe Analytics 修正項目](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
@@ -142,6 +142,7 @@ Experience Cloud服務 _和管理檔案先前稱為_ Experience Cloud核心服�
 | 「分析工作區：效能幫助」頁 | 2020年10月22日 | 「分析工作區」效能說明頁面顯示影響專案效能的不同因素以及最佳化秘訣的連結。 [更多詳情](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 線條視覺化] :移動平均趨勢線選項 | 2020年10月8日 | 「行」視覺化趨勢線設定已新增移動平均值。 移動平均值會計算指定前期的平均值，並將該平均值用作趨勢線資料點，然後移至下一期間。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 移除回填限制 | 2020年10月19日 | 以前，建立連接時最多可以回填25億行。 我們移除回填限制，允許您回填最多13個月的資料，不論其大小。 |
+| 基於CJA域的拼接 | 2020 年 10 月 30 日 | CJA以欄位為基礎的拼接功能可讓客戶將Adobe Experience Platform資料湖中的Adobe Analytics（或其他）事件資料集從一個ID命名空間重新鍵入另一個。 通常，這表示將事件資料集從Cookie型ID重新輸入至個人型ID。 這樣，重新鍵入的資料集可以與CJA連接中的其他基於人的資料相結合，從而在分析工作區中實現跨設備／跨通道分析。 |
 
 ### [!UICONTROL Media Analytics] 新功能{#media-aa}
 
