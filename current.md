@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 40d088f169d1b0849a65ccfb42f3af8749005684
+source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
 workflow-type: tm+mt
 source-wordcount: '6879'
 ht-degree: 42%
@@ -21,7 +21,7 @@ ht-degree: 42%
 
 >[!IMPORTANT]
 >
->本頁可能包含某些產品的發行前內容，且可能會在發行日期之前變更。 請時常回訪以取得更新內容。
+>本頁面可能包含特定產品的發行前內容，且可能會在發行日期之前變更。 請時常回訪以取得更新內容。
 
 >[!NOTE]
 >
@@ -299,7 +299,7 @@ Rich Text Editor文檔已更新，以列出RTE [中連結的所有支援的協�
 
 * 有關AEM Assets如何 [可供所有使用者存取的](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/accessibility.html) ，有新說明內容可供使用。
 
-* **[檢視模式參數](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/search-assets.html#assetpicker)** 會新增至資產選擇器（資產選擇器），以在搜尋模式中開啟資產選擇器。 若要在搜尋模式中開啟資產選擇器，並搭配使 `assettype` 用和 `mimetype`，使用者需要在URL `viewmode=search` 中加上參數尾碼 `https://[aem-server]:[port]/aem/assetpicker.html`。 例如：`https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`。
+* **[檢視模式參數](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/search-assets.html#assetpicker)** 會新增至資產選擇器（資產選擇器），以在搜尋模式中開啟資產選擇器。 若要在搜尋模式中開啟資產選擇器並搭配使用 `assettype` 和 `mimetype`，使用者需要在URL `viewmode=search` 中加上參數尾碼 `https://[aem-server]:[port]/aem/assetpicker.html`。 例如：`https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`。
 
 * 在刪除專用資料夾時，會刪除專用資料夾的相關用戶組 [](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/private-folder.html#delete-private-folder)，並且可以使用JMX中的clean方法從儲存庫中清理現有冗餘、未使用和自動生成的用戶組。
 
