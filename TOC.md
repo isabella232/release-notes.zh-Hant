@@ -2,13 +2,13 @@
 cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 發行說明
-breadcrumb-title: 發行說明指南
+breadcrumb-title: 發行說明
 user-guide-description: 了解 Adobe Experience Cloud 中的新功能、修正和重要注意事項。
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: e6add243b6c74b59f138543c460d55817bddf761
+source-git-commit: f043f2e12fdb7fa72fa20e00198234a04a1367de
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '104'
 ht-degree: 100%
 
 ---
