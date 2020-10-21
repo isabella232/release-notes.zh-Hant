@@ -5,9 +5,9 @@ user-guide-title: Adobe Experience Cloud 發行說明
 breadcrumb-title: 發行說明
 user-guide-description: 了解 Adobe Experience Cloud 中的新功能、修正和重要注意事項。
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f043f2e12fdb7fa72fa20e00198234a04a1367de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 + [發行說明](current.md)
 + 上一版的發行說明 {#previous}
-   + 2020 年{#2020}
+   + 2020 年 {#2020}
       + [2020 年 9 月](c-legacy-releases/2020/09102020.md)
       + [2020 年 8 月](c-legacy-releases/2020/08132020.md)
       + [2020 年 7 月](c-legacy-releases/2020/07162020.md)
@@ -28,7 +28,7 @@ ht-degree: 100%
       + [2020 年 3 月](c-legacy-releases/2020/03122020.md)
       + [2020 年 2 月](c-legacy-releases/2020/02202020.md)
       + [2020 年 1 月](c-legacy-releases/2020/01162020.md)
-   + 2019 年{#2019}
+   + 2019 年 {#2019}
       + [2019 年 11 月](c-legacy-releases/2019/10312019.md)
       + [2019 年 10 月](c-legacy-releases/2019/10102019.md)
       + [2019 年 9 月](c-legacy-releases/2019/09122019.md)
@@ -41,7 +41,7 @@ ht-degree: 100%
       + [ 2019 年 2 月](c-legacy-releases/2019/02072019.md)
       + [2019 年 1 月](c-legacy-releases/2019/01172019.md)
    + 2018 年以前 {#legacy-rns}
-      + 2018 年{#2018}
+      + 2018 年 {#2018}
          + [2018 年 11 月](c-legacy-releases/2018/11012018.md)
          + [2018 年 10 月](c-legacy-releases/2018/10112018.md)
          + [2018 年 9 月](c-legacy-releases/2018/09132018.md)
@@ -53,7 +53,7 @@ ht-degree: 100%
          + [2018 年 3 月](c-legacy-releases/2018/03082018.md)
          + [2018 年 2 月](c-legacy-releases/2018/02082018.md)
          + [2018 年 1 月](c-legacy-releases/2018/01182018.md)
-      + 2017 年{#2017}
+      + 2017 年 {#2017}
          + [2017 年 11 月](c-legacy-releases/2017/11092017.md)
          + [2017 年 10 月](c-legacy-releases/2017/10262017.md)
          + [2017 年 9 月](c-legacy-releases/2017/09212017.md)
@@ -65,7 +65,7 @@ ht-degree: 100%
          + [2017 年 3 月](c-legacy-releases/2017/03092017.md)
          + [ 2017 年 2 月](c-legacy-releases/2017/02162017.md)
          + [2017 年 1 月](c-legacy-releases/2017/01192017.md)
-      + 2016 年{#2016}
+      + 2016 年 {#2016}
          + [2016 年 11 月](c-legacy-releases/2016/11102016.md)
          + [2016 年 10 月](c-legacy-releases/2016/10202016.md)
          + [2016 年 9 月](c-legacy-releases/2016/09152016.md)
@@ -77,7 +77,7 @@ ht-degree: 100%
          + [2016 年 3 月](c-legacy-releases/2016/03172016.md)
          + [ 2016 年 2 月](c-legacy-releases/2016/02182016.md)
          + [2016 年 1 月](c-legacy-releases/2016/01212016.md)
-      + 2015 年{#2015}
+      + 2015 年 {#2015}
          + [2015 年 11 月](c-legacy-releases/2015/11052015.md)
          + [2015 年 10 月](c-legacy-releases/2015/10152015.md)
          + [2015 年 9 月](c-legacy-releases/2015/09172015.md)
