@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 15322b62554e6ef8b5100ee43a231f59b3dd20a7
+source-git-commit: e3cd66e2ec665be1583b0a3ee3aaba05462c8407
 workflow-type: tm+mt
 source-wordcount: '6828'
 ht-degree: 97%
@@ -445,7 +445,6 @@ Adobe Advertising Cloud 發行說明。
 | 搜尋促銷活動 | 在「帳 [!UICONTROL 戶] 」檢視中，「存取」欄現在會指出 [!DNL Advertising Cloud Search] 何時無法登入已啟用的搜尋引擎帳戶。 要查看錯誤的原因，請將游標置於警告表徵圖上。 |
 | [!UICONTROL 自訂警報] | 以前的 [!UICONTROL 警報測試版] ，現在稱為 [!UICONTROL 自訂警報]。 |
 |  | 在自訂警報中，用以識別指定日期範圍的量度何時從上一時段的量度增加或減少的工作流程已簡化，並移至「篩選器  」標籤。 |
-
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
 
