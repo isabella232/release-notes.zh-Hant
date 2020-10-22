@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e3cd66e2ec665be1583b0a3ee3aaba05462c8407
+source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
 workflow-type: tm+mt
-source-wordcount: '6828'
-ht-degree: 97%
+source-wordcount: '6918'
+ht-degree: 96%
 
 ---
 
@@ -204,9 +204,15 @@ ht-degree: 97%
 
 Audience Manager 的新功能、修正項目、說明文件和教學課程。
 
-發行日期：**2020 年 10 月 8 日**&#x200B;當天結束
+更新日期:**2020 年 10 月 22 日**
 
-### Adobe Audience Manager 新功能和修正項目
+### Audience Manager 的新功能、增強功能和修正 {#aam-features}
+
+| 功能 | 新增或更新日期 | 說明 |
+|----|----|----|
+| [預測對象](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 2020 年 10 月 21 日 | <ul><li>**預測性觀眾模型仿製**:您現在可以複製現有機型，並根據需求變更其配置。 閱讀「 [仿製和編輯預測性受眾模型](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) 」以取得詳細資訊。</li><li>**預測性對象批次分類**:除了以不同角色即時分類訪客外，預測性觀眾現在還支援批次分類，協助您將已登入的使用者分類並啟動至批次目的地。</li></ul> |
+
+### 修正和改良 {#aam-fixes-and-improvements}
 
 * 修正 Audience Manager REST API 的下列問題：在篩選要求中的特性時，特性端點不會傳回跨裝置量度。(AAM-55878)
 * 修正「人物導向目的地」中的下列問題：Facebook 整合存取權杖到期提醒電子郵件未傳送給正確的收件者。(AAM-56215)
