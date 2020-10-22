@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
+source-git-commit: 15322b62554e6ef8b5100ee43a231f59b3dd20a7
 workflow-type: tm+mt
-source-wordcount: '6870'
-ht-degree: 100%
+source-wordcount: '6828'
+ht-degree: 97%
 
 ---
 
@@ -427,21 +427,25 @@ Adobe Advertising Cloud 發行說明。
 * [Advertising Cloud DSP 新功能](#adcloud-dsp)
 * [Advertising Cloud Search 新功能](#adcloud-search)
 
-### [!UICONTROL Advertising Cloud DSP] 新功能{#adcloud-dsp}
+### [!DNL Advertising Cloud DSP] {#adcloud-dsp} 中的新功能
+
+發行日期：2020 年 10 月 15 日
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 延長互動式影片前置內容的時間，加入 VAST 詳細目錄支援 | 現在，每個互動式影片前置內容版位和廣告均可支援 VPAID 和 VAST 詳細目錄。**注意：**&#x200B;如果您的主要 KPI 是檢視功能，請繼續建立個別的 VPAID 和 VAST 版位和廣告，因為可視度曝光率不適用於 VAST 廣告。 |
+| 專用庫存 | 現在，所有使用者都可以使用新的交易ID表單來設定和編輯交易ID詳細資訊，此表單是舊版智慧型廣告服務表單的簡 [!UICONTROL 化版本] 。 若要設定新的交易ID詳細資訊，請前往「 **[!UICONTROL 庫存>交易]**」，按一下「 **[!UICONTROL 建立]**」，然後按一下「交易 **[!UICONTROL ID測試版」]**。 |
+| 刊登版位預測 | 對於位置級別調整的位置，位置設定的「 [!UICONTROL Forecast] 」部分包括新的「 [!UICONTROL Estimated Maximums] 」部分，該部分指示當前定位配置中有多少容量可用。 |
 
-### [!UICONTROL Advertising Cloud Search] 新功能 {#adcloud-search}
+### [!DNL Advertising Cloud Search] {#adcloud-search} 中的新功能
 
-發行日期：**2020 年 8 月 8 日**
+發行日期：2020 年 10 月 17 日
 
 | 功能 | 說明 |
-| ----------- | ---------- |
-| [!UICONTROL 產品組合] | 產品組合設定不再提供產品組合層級的位置限制。先前建立的所有位置限制均已移除。 |
-| [!UICONTROL 限制] | 不再支援以位置為基礎的限制和限制條件：<br/> <ul><li>不再提供[!UICONTROL 「最小位置」]和[!UICONTROL 「最大位置」]等限制，並且已從先前建立的所有[!UICONTROL 「競價與位置」]限制和[!UICONTROL 「曝光共用」]限制中移除。</li><li>如果現有[!UICONTROL 「競價與位置」]限制內含位置限制，但無競價限制，均已一併暫停。上述限制仍可在 UI 和報表中使用。</li><li>[!UICONTROL 「競價與位置」]限制已重新命名為[!UICONTROL 「競價」]限制。</li><li>任意類型的限制中，所有以位置為基礎的條件 (使用[!UICONTROL 「平均位置」]、[!UICONTROL 「加權平均位置」]或[!UICONTROL 「最後已知位置」]量度) 均已移除。</li></ul> <br/> **注意：**&#x200B;如果從搜尋引擎能取得位置資料，系統仍會繼續將其填入。Microsoft Ads 將於 2020 年 9 月終止「位置」功能。 |
-| [!UICONTROL 行銷活動] | (Google Ads 行銷活動) Advertising Cloud Search 現在支援在回應式搜尋廣告 (RSA) 中自訂廣告。之前，RSA 以外的所有廣告類型皆已支援此功能。 |
+| -----------| ---------- |
+| 搜尋促銷活動 | 在「帳 [!UICONTROL 戶] 」檢視中，「存取」欄現在會指出 [!DNL Advertising Cloud Search] 何時無法登入已啟用的搜尋引擎帳戶。 要查看錯誤的原因，請將游標置於警告表徵圖上。 |
+| [!UICONTROL 自訂警報] | 以前的 [!UICONTROL 警報測試版] ，現在稱為 [!UICONTROL 自訂警報]。 |
+|  | 在自訂警報中，用以識別指定日期範圍的量度何時從上一時段的量度增加或減少的工作流程已簡化，並移至「篩選器  」標籤。 |
+
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
 
