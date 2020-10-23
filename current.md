@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
+source-git-commit: c1750aa7321e0eb6b929119f5c22101772af5a68
 workflow-type: tm+mt
-source-wordcount: '6918'
-ht-degree: 96%
+source-wordcount: '7000'
+ht-degree: 97%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 96%
 發行日期：**2020 年 10 月 8 日**&#x200B;當天結束
 
 * [Adobe Analytics 新功能](#aa-features)
-* [Customer Journey Analytics 新功能](#cust-journey) (2020 年 10 月 7 日更新)
+* [Customer Journey Analytics 新功能](#cust-journey) (2020 年 10 月 7 日更新)
 * [Media Analytics 新功能](#media-aa)
 * [Adobe Analytics 修正項目](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
@@ -204,13 +204,14 @@ ht-degree: 96%
 
 Audience Manager 的新功能、修正項目、說明文件和教學課程。
 
-更新日期:**2020 年 10 月 22 日**
+更新日期:**2020 年 10 月 23 日**
 
 ### Audience Manager 的新功能、增強功能和修正 {#aam-features}
 
 | 功能 | 新增或更新日期 | 說明 |
 |----|----|----|
 | [預測對象](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 2020 年 10 月 21 日 | <ul><li>**預測性觀眾模型仿製**:您現在可以複製現有機型，並根據需求變更其配置。 閱讀「 [仿製和編輯預測性受眾模型](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) 」以取得詳細資訊。</li><li>**預測性對象批次分類**:除了以不同角色即時分類訪客外，預測性觀眾現在還支援批次分類，協助您將已登入的使用者分類並啟動至批次目的地。</li></ul> |
+| [重疊報表](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/dynamic-reports.html) | 2020 年 10 月 23 日 | 我們已更新用於計算「重疊報表」([特徵對特徵](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/trait-trait-overlap-report.html)、 [區段對特徵](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-trait-overlap-report.html)、 [區段對區段](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-segment-overlap-report.html))的方法。 「重疊報表」計算現在是以報表唯一值和MinHash簽名(而非 [1/54資料取樣](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/report-sampling.html#data-sampling-ratio))為基礎。 |
 
 ### 修正和改良 {#aam-fixes-and-improvements}
 
@@ -439,8 +440,8 @@ Adobe Advertising Cloud 發行說明。
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 專用庫存 | 現在，所有使用者都可以使用新的交易ID表單來設定和編輯交易ID詳細資訊，此表單是舊版智慧型廣告服務表單的簡 [!UICONTROL 化版本] 。 若要設定新的交易ID詳細資訊，請前往「 **[!UICONTROL 庫存>交易]**」，按一下「 **[!UICONTROL 建立]**」，然後按一下「交易 **[!UICONTROL ID測試版」]**。 |
-| 刊登版位預測 | 對於位置級別調整的位置，位置設定的「 [!UICONTROL Forecast] 」部分包括新的「 [!UICONTROL Estimated Maximums] 」部分，該部分指示當前定位配置中有多少容量可用。 |
+| 私人詳細目錄 | 所有使用者現在都可以使用新交易 ID 表單，設定和編輯交易 ID 詳細資訊，此表單是舊版[!UICONTROL 「智慧型廣告服務」]表單的簡化版本。若要設定新交易 ID 詳細資訊，請前往&#x200B;**[!UICONTROL 「詳細目錄 > 交易」]**，按一下&#x200B;**[!UICONTROL 「建立」]**，然後按一下&#x200B;**[!UICONTROL 「交易 ID 測試版」]**。 |
+| 刊登版位預測 | 對於具刊登版位等級步調的刊登版位，刊登版位設定的[!UICONTROL 「預測」]區段加入新[!UICONTROL 「預估上限」]區段，說明目前鎖定目標設定有多少容量可用。 |
 
 ### [!DNL Advertising Cloud Search] {#adcloud-search} 中的新功能
 
@@ -448,9 +449,9 @@ Adobe Advertising Cloud 發行說明。
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 搜尋促銷活動 | 在「帳 [!UICONTROL 戶] 」檢視中，「存取」欄現在會指出 [!DNL Advertising Cloud Search] 何時無法登入已啟用的搜尋引擎帳戶。 要查看錯誤的原因，請將游標置於警告表徵圖上。 |
-| [!UICONTROL 自訂警報] | 以前的 [!UICONTROL 警報測試版] ，現在稱為 [!UICONTROL 自訂警報]。 |
-|  | 在自訂警報中，用以識別指定日期範圍的量度何時從上一時段的量度增加或減少的工作流程已簡化，並移至「篩選器  」標籤。 |
+| 搜尋促銷活動 | 在[!UICONTROL 「帳戶」]檢視中，[!UICONTROL 「存取」]欄現在會指出 [!DNL Advertising Cloud Search] 何時無法登入已啟用的搜尋引擎帳戶。若要查看錯誤的成因，請將游標放在警告圖示上。 |
+| [!UICONTROL 自訂警報] | 舊版[!UICONTROL 「警報測試版」]現在稱為[!UICONTROL 「自訂警報」]。 |
+|  | 在自訂警報中，已簡化用來識別指定日期範圍的量度比起上一個期間的量度何時增加或減少的工作流程，並移至[!UICONTROL 「篩選器」]索引標籤。 |
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
 
