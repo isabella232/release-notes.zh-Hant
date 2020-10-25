@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 684a0b00a2f2bdb2f7c92ca0b0552bc18fc8c19f
+source-git-commit: dba5bf9afced03536adb857f879bd1df349ebbbc
 workflow-type: tm+mt
 source-wordcount: '6960'
 ht-degree: 70%
@@ -56,7 +56,7 @@ ht-degree: 70%
 
 未更新。
 
-如需最新發行資訊，請參閱 [Adobe 系統狀態 - 2020 年 5 月 21 日](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/previous/2020/05212020.html#status)。
+如需最新發行資訊，請參閱 [Adobe 系統狀態 - 2020 年 5 月 21 日](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/previous/2020/05212020.html#status)。
 
 ## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 服務與管理 {#ecloud}
 
@@ -297,7 +297,7 @@ RTF 編輯器文件已更新，其中列出所有 [RTE 中連結的支援通訊�
 
 * 在用戶端上執行最適化表單預先填入資料動作。 [在用戶端預先填入](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-advanced-authoring/prepopulate-adaptive-form-fields.html) ，可大幅降低合併資料和轉換最適化表單的時間。
 * 對表 [單資料模型中的RESTful和SOAP web services使用憑證式相互驗證](https://docs.adobe.com/content/help/en/experience-manager-65/forms/form-data-model/configure-data-sources.html#mutual-authentication) 。
-* 將地 [區設定資訊加入為URL選擇器](https://docs.adobe.com/content/help/en/experience-manager-65/forms/manage-administer-aem-forms/supporting-new-language-localization.html)。 使用URL選擇器可協助快 [取調度器上轉譯的最適化表單](https://docs.adobe.com/content/help/en/experience-manager-65/forms/install-aem-forms/configure-aem-forms/configure-adaptive-forms-cache.html) 。
+* 將地 [區設定資訊加入為URL選擇器](https://docs.adobe.com/content/help/en/experience-manager-65/forms/manage-administer-aem-forms/supporting-new-language-localization.html)。 使用URL選擇器可協助快 [取調度器上轉譯的最適化表](https://docs.adobe.com/content/help/en/experience-manager-65/forms/install-aem-forms/configure-aem-forms/configure-adaptive-forms-cache.html) 格。
 * 將多 [個檔案附加到最適化表單的「檔案附件](https://docs.adobe.com/content/help/en/experience-manager-65/forms/getting-started/introduction-forms-authoring.html) 」元件。
 
 針對「自動化表單轉換」服務發行的下列功能提供檔案。 您現在可以：
