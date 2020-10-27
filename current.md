@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: dba5bf9afced03536adb857f879bd1df349ebbbc
 workflow-type: tm+mt
 source-wordcount: '6960'
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -188,7 +188,7 @@ Audience Manager 的新功能、修正項目、說明文件和教學課程。
 
 | 功能 | 新增或更新日期 | 說明 |
 |----|----|----|
-| [預測對象](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 2020 年 10 月 21 日 | <ul><li>**預測性觀眾模型仿製**:您現在可以複製現有機型，並根據需求變更其配置。 閱讀「 [仿製和編輯預測性受眾模型](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) 」以取得詳細資訊。</li><li>**預測性對象批次分類**:除了以不同角色即時分類訪客外，預測性觀眾現在還支援批次分類，協助您將已登入的使用者分類並啟動至批次目的地。</li></ul> |
+| [預測對象](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 2020 年 10 月 21 日 | <ul><li>**預測對象模型複製**：您現在可以複製現有模型，並根據需求變更設定。如需詳細資訊，請參閱[複製和編輯預測對象模型](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences)。</li><li>**預測對象批次分類**：除了即時以不同人物誌分類訪客外，「預測對象」現在還支援批次分類，讓您分類已開始使用的使用者並啟用至批次目的地。</li></ul> |
 | [重疊報表](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/dynamic-reports.html) | 2020 年 10 月 23 日 | 我們已更新用於計算「重疊報表」([特徵對特徵](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/trait-trait-overlap-report.html)、 [區段對特徵](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-trait-overlap-report.html)、 [區段對區段](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-segment-overlap-report.html))的方法。 「重疊報表」計算現在是以報表唯一值和MinHash簽名(而非 [1/54資料取樣](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/report-sampling.html#data-sampling-ratio))為基礎。 |
 
 ### 修正和改良 {#aam-fixes-and-improvements}
@@ -297,7 +297,7 @@ RTF 編輯器文件已更新，其中列出所有 [RTE 中連結的支援通訊�
 
 * 在用戶端上執行最適化表單預先填入資料動作。 [在用戶端預先填入](https://docs.adobe.com/content/help/en/experience-manager-65/forms/adaptive-forms-advanced-authoring/prepopulate-adaptive-form-fields.html) ，可大幅降低合併資料和轉換最適化表單的時間。
 * 對表 [單資料模型中的RESTful和SOAP web services使用憑證式相互驗證](https://docs.adobe.com/content/help/en/experience-manager-65/forms/form-data-model/configure-data-sources.html#mutual-authentication) 。
-* 將地 [區設定資訊加入為URL選擇器](https://docs.adobe.com/content/help/en/experience-manager-65/forms/manage-administer-aem-forms/supporting-new-language-localization.html)。 使用URL選擇器可協助快 [取調度器上轉譯的最適化表單](https://docs.adobe.com/content/help/en/experience-manager-65/forms/install-aem-forms/configure-aem-forms/configure-adaptive-forms-cache.html) 。
+* 將地 [區設定資訊加入為URL選擇器](https://docs.adobe.com/content/help/en/experience-manager-65/forms/manage-administer-aem-forms/supporting-new-language-localization.html)。 使用URL選擇器可協助快 [取調度器上轉譯的最適化表](https://docs.adobe.com/content/help/en/experience-manager-65/forms/install-aem-forms/configure-aem-forms/configure-adaptive-forms-cache.html) 格。
 * 將多 [個檔案附加到最適化表單的「檔案附件](https://docs.adobe.com/content/help/en/experience-manager-65/forms/getting-started/introduction-forms-authoring.html) 」元件。
 
 針對「自動化表單轉換」服務發行的下列功能提供檔案。 您現在可以：
