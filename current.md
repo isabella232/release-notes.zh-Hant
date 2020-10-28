@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 57c246240dfafcb30b791a4bbc0ba3b05774dd0c
+source-git-commit: 244301cf84111e61d3566fff5e515ee0960904c0
 workflow-type: tm+mt
-source-wordcount: '7479'
-ht-degree: 89%
+source-wordcount: '7549'
+ht-degree: 87%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (更新日期： **10/28/2020**)
 * [Campaign](#ac)
-* [Advertising Cloud](#adcloud)
+* [Advertising Cloud](#adcloud) (Updated: **10/28/2020**)
 * [[!DNL Target]](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
@@ -458,16 +458,18 @@ Adobe Advertising Cloud 發行說明。
 
 ### [!DNL Advertising Cloud DSP] {#adcloud-dsp} 中的新功能
 
-發行日期：2020 年 10 月 15 日
+已更新：2020年10月28日
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 私人詳細目錄 | 所有使用者現在都可以使用新交易 ID 表單，設定和編輯交易 ID 詳細資訊，此表單是舊版[!UICONTROL 「智慧型廣告服務」]表單的簡化版本。若要設定新交易 ID 詳細資訊，請前往&#x200B;**[!UICONTROL 「詳細目錄 > 交易」]**，按一下&#x200B;**[!UICONTROL 「建立」]**，然後按一下&#x200B;**[!UICONTROL 「交易 ID 測試版」]**。 |
-| 刊登版位預測 | 對於具刊登版位等級步調的刊登版位，刊登版位設定的[!UICONTROL 「預測」]區段加入新[!UICONTROL 「預估上限」]區段，說明目前鎖定目標設定有多少容量可用。 |
+| 新增 說明 | （10月28日發行）舊版說明已取代為更新頁面，這些頁面可從DSP主功能表的「說明」連結取得，也可隨時從 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html) |
+| 行銷活動 | （10月28日發行）先前的「促銷活動測試版」檢視現在是預設的「促銷活動」檢視，可讓您更快速地獲得見解、簡化的工作流程和自訂的檢視。 |
+| 私人詳細目錄 | (October 15 release) All users can now set up and edit deal ID details using a new deal ID form, which is a simplified version of the legacy [!UICONTROL Smart Ad Serving] form. 若要設定新交易 ID 詳細資訊，請前往&#x200B;**[!UICONTROL 「詳細目錄 > 交易」]**，按一下&#x200B;**[!UICONTROL 「建立」]**，然後按一下&#x200B;**[!UICONTROL 「交易 ID 測試版」]**。 |
+| 刊登版位預測 | (October 15 release) For placements with placement-level pacing, the [!UICONTROL Forecast] section of the placement settings includes a new [!UICONTROL Estimated Maximums] section, which indicates how much more capacity is available with the current targeting configuration. |
 
 ### [!DNL Advertising Cloud Search] {#adcloud-search} 中的新功能
 
-發行日期：2020 年 10 月 17 日
+發行日期：**2020 年 10 月 17 日**
 
 | 功能 | 說明 |
 | -----------| ---------- |
