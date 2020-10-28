@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: f16817c423635f6996dd729fe9e07e7d7e63fd06
+source-git-commit: 114222b4df9fd72691065a9a1cdf7bc1e7f95a5d
 workflow-type: tm+mt
-source-wordcount: '7324'
+source-wordcount: '7353'
 ht-degree: 90%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 90%
 * [Experience Cloud 服務與管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (2020 年 10 月 22 日更新)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (2020 年 10 月 28 日更新)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (更新日期： **10/28/2020**)
 * [Campaign](#ac)
@@ -100,7 +100,7 @@ ht-degree: 90%
 發行日期：**2020 年 10 月 29 日**
 
 * [Adobe Analytics 新功能](#aa-features)
-* [Customer Journey Analytics 新功能](#cust-journey)
+* [Customer Journey Analytics 新功能](#cust-journey) (2020 年 10 月 28 日更新)
 * [Media Analytics 新功能](#media-aa)
 * [Adobe Analytics 修正項目](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
@@ -111,7 +111,7 @@ ht-degree: 90%
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
-| Adobe Analytics 文件 | 2020 年 10 月 | Adobe Analytics 文件正移至 Experience League。所有文章、影片、發行說明和教學課程，都會在 10 月從 `docs.adobe.com` 的目前位置移至 `experienceleague.adobe.com`。如此能夠確保從單一位置提供所有學習、自助、培訓和社群內容。變更後，您無需執行任何操作，所有連結都將重新導向至 Experience League。開始切換後，我們會更新發行說明。 |
+| Adobe Analytics 文件 | 2020年10月/11月 | Adobe Analytics 文件正移至 Experience League。所有文章、影片、發行說明和教學課程，都會在 10 月從 `docs.adobe.com` 的目前位置移至 `experienceleague.adobe.com`。如此能夠確保從單一位置提供所有學習、自助、培訓和社群內容。變更後，您無需執行任何操作，所有連結都將重新導向至 Experience League。開始切換後，我們會更新發行說明。 |
 | [!UICONTROL 工作區][!UICONTROL 線條]視覺效果：移動平均趨勢線選項 | 2020 年 10 月 8 日 | Moving average has been added to [!UICONTROL Line] visualization trendline settings. 移動平均也稱為滾動平均，會使用特定數量的資料點 (由[!UICONTROL 期間]選項決定)、求取其平均值，並將平均值作為線條中的點。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | [!UICONTROL 資料修復 API] | 2020 年 10 月 8 日 | [!UICONTROL 資料修復] API 是從 Analytics 報表套裝中刪除資料的工具。The October release includes the ability to delete specified eVars, props, and [!UICONTROL Activity Map] variables for a specified date range. 未來將發行其他功能。Use of the [!UICONTROL Data Repair] API permanently deletes existing Adobe Analytics data. 建議在執行修復時應多加留意，盡可能避免意外刪除。Access to the [!UICONTROL Data Repair] API requires a contract - reach out to your account team for more details. [更多詳情](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) |
 | [!UICONTROL 工作區]：效能說明頁面 | 2020 年 10 月 22 日 | The [!UICONTROL Analysis Workspace] performance help page shows the different factors that impact project performance and links to tips for optimization. [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -121,9 +121,9 @@ ht-degree: 90%
 
 | 功能 | [一般可用性](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
-| 客戶歷程分析文件 | 2020 年 10 月 | Customer Journey Analytics 文件正移至 Experience League。所有文章、影片、發行說明和教學課程，都會在 10 月從 `docs.adobe.com` 的目前位置移至 `experienceleague.adobe.com`。如此能夠確保從單一位置提供所有學習、自助、培訓和社群內容。變更後，您無需執行任何操作，所有連結都將重新導向至 Experience League。開始切換後，我們會更新發行說明。 |
+| 客戶歷程分析文件 | 2020年10月/11月 | Customer Journey Analytics 文件正移至 Experience League。所有文章、影片、發行說明和教學課程，都會在 10 月從 `docs.adobe.com` 的目前位置移至 `experienceleague.adobe.com`。如此能夠確保從單一位置提供所有學習、自助、培訓和社群內容。變更後，您無需執行任何操作，所有連結都將重新導向至 Experience League。開始切換後，我們會更新發行說明。 |
 | [!UICONTROL 線條]視覺效果：移動平均趨勢線選項 | 2020 年 10 月 8 日 | 在「線條」視覺效果趨勢線設定中新增了移動平均。移動平均會計算指定前期的平均值，並將其作為趨勢線資料點，然後再計算下一個期間。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) |
-| 移除回填限制 | 2020 年 10 月 19 日 | 過去，在建立連線時最多可以回填 25 億列。我們移除了回填限制，讓您最多可回填 13 個月的資料，且無大小限制。 |
+| 移除回填限制 | 2020 年 10 月 19 日 | 為了提供改善的CJA體驗，我們移除回填（歷史資料匯入）限制。 以前，您可自行回填最多25億列，否則需要參與工程。 現在，您可以自行回填資料，但不受任何限制。 [更多詳情](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Analysis Workspace 效能說明頁面 | 2020 年 10 月 22 日 | Analysis Workspace 效能說明頁面會顯示對專案效能造成影響的不同因素，以及最佳化秘訣的連結。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | 「元件>使用者偏好設定」新增至CJA工作區 | 10月29日。 2020 | 「元件>使用者偏好設定」頁面可讓您管理使用者的分析工作區設定（及其相關元件）。 目前，這包括千位分隔符號和CSV分隔字元。 |
 | 歷程IQ:跨通道分析 | 2020 年 10 月 30 日 | 歷程IQ:跨通道分析可讓客戶將Adobe Experience Platform資料湖中的Adobe Analytics（或其他）事件資料集從一個ID命名空間重新鍵入到另一個。 這通常代表將事件資料集從 Cookie 型 ID 重新輸入為人員型 ID。如此一來，重新輸入的資料集可以與 CJA 連線中的其他人員型資料結合，從而在 Analysis Workspace 中進行跨裝置/跨管道分析。 |
