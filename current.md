@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 08f91c514f5ab3cef7b7a1b862260090892e8144
+source-git-commit: f16817c423635f6996dd729fe9e07e7d7e63fd06
 workflow-type: tm+mt
-source-wordcount: '7148'
-ht-degree: 93%
+source-wordcount: '7324'
+ht-degree: 90%
 
 ---
 
@@ -203,6 +203,10 @@ Audience Manager 的新功能、修正項目、說明文件和教學課程。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 10 月 28 日 | [瞭解特徵圖中的數字](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | 影片 | 取得一些秘訣，以瞭解特徵資訊畫面中特徵的報告數字。 |
+| 2020 年 10 月 23 日 | [從Analytics資料建立規劃特徵](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | 影片 | 瞭解一些秘訣和訣竅，以協助您在Audience Manager中規劃在特徵中使用Adobe Analytics資料。 |
+| 2020 年 10 月 23 日 | [建立特徵時選擇資料來源](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | 影片 | 建立特徵時要填寫的重要欄位之一是「資料來源」欄位。 取得有關為「規則型」和「已登入」特徵選擇正確資料來源的秘訣。 |
+| 2020 年 9 月 14 日 | [使用程式碼檢視來建立和編輯特徵](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-to-create-and-edit-traits.html?lang=en#build-and-manage-audiences) | 影片 | 瞭解如何在建立新特徵或編輯現有特徵時使用程式碼檢視。 設定特徵運算式時，程式碼檢視是運算式產生器的替代選項。 |
 | 2020 年 10 月 10 日 | [瞭解預測性受眾](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html) | 影片 | 在此影片中，我們將討論Audience Manager Predictive Audiences是什麼、提供其運作方式的詳細資訊，並指出使用案例。 |
 
 ## ![圖示](/assets/aem.png) Adobe Experience Manager {#aem}
