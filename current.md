@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3b533d52ae98c930c3e9af7470825d659ec9b0fe
+source-git-commit: 08f91c514f5ab3cef7b7a1b862260090892e8144
 workflow-type: tm+mt
-source-wordcount: '7024'
-ht-degree: 70%
+source-wordcount: '7148'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 70%
 >
 >訂閱 [Adobe Priority Product Update](https://www.adobe.com/tw/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。
 
-最近更新：**2020 年 10 月 23 日**
+最近更新：**2020 年 10 月 28 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 服務與管理](#ecloud)
@@ -35,7 +35,7 @@ ht-degree: 70%
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (2020 年 10 月 22 日更新)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem)
+* [Experience Manager](#aem) (更新日期： **10/28/2020**)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html)
@@ -290,6 +290,15 @@ RTF 編輯器文件已更新，其中列出所有 [RTE 中連結的支援通訊�
 * 除了會開啟[!UICONTROL 「移動資產」]精靈的[!UICONTROL 移動 (M)] 作業以外，資產也可以[使用拖曳作業移入同層級資料夾](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets)中。
 
 * 如需 Assets Insights，請使用 [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)。[DTM 整合](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html)在文件中列為淘汰的方法。
+
+Updated: **10/28/2020**
+
+* **品牌入口網站增強功能**:下列新功能和更多功能可在下列網站取得 [!DNL Brand Portal]:
+
+   * [增強下載體驗](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html) ，以簡化、快速下載。 管理員可設定其他下載組態，以提供符合使用者和企業需求的體驗。
+   * 現在，您可以在任何頁 [!UICONTROL 面上，按一下滑]鼠即可導覽 [至「檔案](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/share/brand-portal-share-collection.html)」、「系列」  和「共用連結」。
+   * 使用者現 [在可以選取並下載特定轉譯](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page) 。 新的轉譯下載選項可在「資產詳細資 [!UICONTROL 料」頁面的「轉譯] 」面板中使用。
+   * 來賓用戶會話超時15分鐘，可確保為所有併發用戶提供更好的體驗。
 
 ### [!DNL Experience Manager] 表單
 
