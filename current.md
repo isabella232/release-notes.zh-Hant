@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b21c2213d13cf58dded026bce77abd58ee038f1f
+source-git-commit: 48d79544adc9225c086b7574d522622df084623b
 workflow-type: tm+mt
-source-wordcount: '7670'
+source-wordcount: '7634'
 ht-degree: 89%
 
 ---
@@ -127,7 +127,6 @@ ht-degree: 89%
 | [!UICONTROL 線條]視覺效果：移動平均趨勢線選項 | 2020 年 10 月 8 日 | 在「線條」視覺效果趨勢線設定中新增了移動平均。移動平均會計算指定前期的平均值，並將其作為趨勢線資料點，然後再計算下一個期間。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 移除回填限制 | 2020 年 10 月 19 日 | 為了提供改善的CJA體驗，我們移除回填（歷史資料匯入）限制。 以前，您可自行回填最多25億列，否則需要參與工程。 現在，您可以自行回填資料，但不受任何限制。 [更多詳情](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Analysis Workspace 效能說明頁面 | 2020 年 10 月 22 日 | Analysis Workspace 效能說明頁面會顯示對專案效能造成影響的不同因素，以及最佳化秘訣的連結。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
-| CJA Workspace 新增了「元件 > 使用者偏好設定」 | 2020 年 10 月 29 日 | 「元件 > 使用者偏好設定」頁面可讓您管理使用者的 Analysis Workspace 設定 (及其相關元件)。這目前包括千位分隔符號和 CSV 分隔字元。 |
 | Journey IQ：跨頻道分析 | 2020 年 10 月 30 日 | Journey IQ：跨頻道分析讓客戶得以將 Adobe Experience Platform 資料湖的 Adobe Analytics (或其他) 事件資料集，從一個 ID 命名空間重新輸入至另一個 ID 命名空間。這通常代表將事件資料集從 Cookie 型 ID 重新輸入為人員型 ID。如此一來，重新輸入的資料集可以與 CJA 連線中的其他人員型資料結合，從而在 Analysis Workspace 中進行跨裝置/跨管道分析。 |
 
 ### [!UICONTROL Media Analytics] 新功能{#media-aa}
