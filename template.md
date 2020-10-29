@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ac62e2402e3d41cbcea6670b8e482bc295b9a14
+source-git-commit: 2626d0f793d4d7d59dc08527443bca66a3dbdd03
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1350'
 ht-degree: 94%
 
 ---
@@ -25,7 +25,7 @@ Adobe Experience Cloud 的新功能及修正項目。
 
 >[!NOTE]
 >
->訂閱 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。產品發行後才發佈的新資訊皆會標示發佈日期。
+>訂閱 [Adobe Priority Product Update](https://www.adobe.com/tw/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。產品發行後才發佈的新資訊皆會標示發佈日期。
 
 **發行日期：2020 年**
 
@@ -70,8 +70,6 @@ For product documentation, see [Experience Cloud interface](https://docs.adobe.c
 
 如需產品文件，請參閱[管理使用者和產品](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
-## [!UICONTROL Experience Platform] {#platform}
-
 ## ![圖示](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 [!DNL Experience Platform,] 的發行說明，內容包括 [!DNL Experience Platform Launch,] [!UICONTROL 歷程協調]、[!UICONTROL Offers]、[!UICONTROL People]、[!UICONTROL Places]、[!UICONTROL Mobile Services]、安全性公告。
@@ -99,7 +97,7 @@ For product documentation, see [Experience Cloud interface](https://docs.adobe.c
 
 #### [!UICONTROL 歷程協調]的其他資源
 
-[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/understanding-journey-orchestration.translate.html)
+[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/zh-Hant/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### [!UICONTROL Mobile Services] 與 [!UICONTROL Mobile SDK] {#mobile}
 
