@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: f3ee5a99df82abf91e09a74f3f808f8ab8cf177e
+source-git-commit: b21c2213d13cf58dded026bce77abd58ee038f1f
 workflow-type: tm+mt
-source-wordcount: '7550'
-ht-degree: 91%
+source-wordcount: '7670'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,8 @@ ht-degree: 91%
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 10 月 26 日 | [Offer Decisioning 簡介](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 影片 | 這部影片介紹 Offer Decisioning，這是以 Adobe Experience Platform 為基礎打造的應用程式服務。視訊涵蓋選件決策解決的商業挑戰、其主要功能、基本架構及主要使用案例。 |
+| 2020 年 10 月 26 日 | [Offer Decisioning 簡介](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 影片 | This video gives an overview of [!UICONTROL Offer Decisioning], an application service built on top of Adobe Experience Platform. 影片涵蓋選件決策解 [!UICONTROL 決的商業挑戰] 、其主要功能、基本架構及主要使用案例。 |
+| 2020 年 10 月 29 日 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=en) | 影片 | Learn how brands can use Adobe’s new [!UICONTROL Offer Decisioning] service to define and manage their offers,leverage real-time customer data, and deliver the right experiences their customers expect. |
 | 2020 年 9 月 14 日 | [Attribution AI 的商業價值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | 影片 | [!UICONTROL Attribution AI] 是 [!UICONTROL Intelligent Services] 的一部分，是一種多管道的演算法歸因服務，可計算客戶互動對指定結果的影響和累加影響。透過 [!UICONTROL Attribution AI]，行銷人員可經由了解每個客戶在客戶歷程各個階段的互動所產生的影響，來衡量行銷和廣告支出並予以最佳化。 |
 | 2020 年 9 月 14 日 | [Customer AI 的商業價值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-customer-ai.html) | 影片 | 此影片顯示客戶 [!UICONTROL Customer AI] 如何運用 AI 傾向豐富客戶個人檔案，以及執行客戶細分和目標定位工作。 |
 | 2020 年 9 月 14 日 | [Platform 和 Magento 的商業價值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/experience-cloud/business-value-of-platform-and-magento.html) | 影片 | 此影片顯示 Adobe Experience Platform 可與 [!DNL Magento] 商務搭配使用，以建立客戶的單一檢視，並在數位店面和各管道間聰明地打造個人化體驗。 |
@@ -204,6 +205,7 @@ Audience Manager 的新功能、修正項目、說明文件和教學課程。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 10 月 29 日 | [瞭解特徵圖中的數字](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | 影片 | 取得一些秘訣，以瞭解特徵資訊畫面中特徵的報告數字。 |
 | 2020 年 10 月 28 日 | [瞭解特徵圖中的數字](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | 影片 | 取得一些秘訣，以瞭解特徵資訊畫面中特徵的報告數字。 |
 | 2020 年 10 月 23 日 | [從Analytics資料建立規劃特徵](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | 影片 | 瞭解一些秘訣和訣竅，以協助您在Audience Manager中規劃在特徵中使用Adobe Analytics資料。 |
 | 2020 年 10 月 23 日 | [建立特徵時選擇資料來源](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | 影片 | 建立特徵時要填寫的重要欄位之一是「資料來源」欄位。 取得有關為「規則型」和「已登入」特徵選擇正確資料來源的秘訣。 |
@@ -352,6 +354,7 @@ Updated: **10/28/2020**
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 10 月 28 日 | [視訊智慧型標籤](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 影片 | Experience Manager Assets運用Adobe Sensei智慧地以描述視訊關鍵元素的關鍵字來標籤視訊資產，讓AEM使用者可以使用關鍵字搜尋輕鬆找到這些資產。 |
 | 2020 年 10 月 27 日 | [AEM Document Security Extension for Microsoft Office簡介](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 文章 | Adobe Experience Manager Document Security Extension for Microsoft Office可確保只有您授權的人員才能使用包含智慧財產的Word、Excel和PowerPoint檔案。 使用Document Security Extension for Microsoft Office，您就可將預先定義的機密設定套用至檔案。 |
 | 2020 年 10 月 7 日 | [在 Adobe Analytics 中檢視頁面量度](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | 文章 | 了解如何將從 Adobe Experience Manager Site 擷取的資料對應至 Adobe Analytics 報表套裝中的量度和維度。 |
 | 2020 年 10 月 8 日 | [個人化完整網頁體驗](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-web-page.html) | 影片 | 了解如何建立活動，使用 Adobe Target 將 AEM 上託管的網站頁面重新導向至新頁面。 |
