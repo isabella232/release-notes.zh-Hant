@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 48d79544adc9225c086b7574d522622df084623b
+source-git-commit: a30288a93dd262f9f9d770242a2bf4fda7812265
 workflow-type: tm+mt
-source-wordcount: '7634'
+source-wordcount: '7669'
 ht-degree: 89%
 
 ---
@@ -68,6 +68,8 @@ ht-degree: 89%
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
+包含Experience Platform和Experience Platform Launch的發行更新資訊，
+
 發行日期：**2020 年 10 月 14 日**
 
 如需下列項目之更新的相關資訊，請參閱 [Experience Platform 發行說明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)：
@@ -76,6 +78,10 @@ ht-degree: 89%
 * 即時客戶個人檔案
 * 細分服務
 * 來源
+
+### Experience Platform Launch
+
+如需 [Platform Launch的相關資訊](https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/release-notes/current.html) ，請參閱Experience Platform Launch發行說明。
 
 ### Experience Platform 和服務教學課程與其他課程
 
