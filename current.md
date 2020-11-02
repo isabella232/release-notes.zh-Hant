@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7e679c9acd5002ab3b6dd232b678f44661ad935a
+source-git-commit: 5050a05473619e75107b0874d592322ee5a70d44
 workflow-type: tm+mt
-source-wordcount: '7894'
+source-wordcount: '7947'
 ht-degree: 87%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 87%
 >
 >訂閱 [Adobe Priority Product Update](https://www.adobe.com/tw/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。
 
-最近更新：**2020 年 10 月 28 日**
+最新更新： **2020年11月2日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 服務與管理](#ecloud)
@@ -35,10 +35,10 @@ ht-degree: 87%
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (2020 年 10 月 28 日更新)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem) (更新日期： **10/28/2020**)
+* [Experience Manager](#aem) (更新日期： **2020年10月28日**)
 * [Campaign](#ac)
-* [Advertising Cloud](#adcloud) (Updated: **10/28/2020**)
-* [[!DNL Target]](#target)
+* [Advertising Cloud](#adcloud) (更新日期：**2020 年 10 月 28 日**)
+* [[!DNL Target]](#target) (更新日期: **2020 年 11 月 2 日**)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/zh-Hant/primetime/release-notes/home.html)
@@ -358,6 +358,7 @@ Updated: **10/28/2020**
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020年11月2日 | [載入並觸發Target呼叫](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/load-and-fire-target.html) | 影片 | 了解如何使用 Launch 規則將參數載入、傳遞至頁面請求，以及從您的網站頁面觸發 Target 呼叫。系統會使用 Adobe Client Data Layer 來擷取頁面資訊並以參數形式傳遞，此資料層可讓您收集和儲存訪客的網頁體驗相關資料，並且讓此資料易於存取。 |
 | 2020 年 10 月 28 日 | [視訊智慧型標籤](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 影片 | Experience Manager Assets運用Adobe Sensei智慧地以描述視訊關鍵元素的關鍵字來標籤視訊資產，讓AEM使用者可以使用關鍵字搜尋輕鬆找到這些資產。 |
 | 2020 年 10 月 27 日 | [AEM Document Security Extension for Microsoft Office簡介](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 文章 | Adobe Experience Manager Document Security Extension for Microsoft Office可確保只有您授權的人員才能使用包含智慧財產的Word、Excel和PowerPoint檔案。 使用Document Security Extension for Microsoft Office，您就可將預先定義的機密設定套用至檔案。 |
 | 2020 年 10 月 7 日 | [在 Adobe Analytics 中檢視頁面量度](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | 文章 | 了解如何將從 Adobe Experience Manager Site 擷取的資料對應至 Adobe Analytics 報表套裝中的量度和維度。 |
@@ -385,7 +386,6 @@ Updated: **10/28/2020**
 | 2020 年 9 月 30 日 | [探索 Adobe Client Data Layer](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | 文章 | 探索事件導向 Adobe Client Data Layer 的功能，及其與 AEM Sites 核心元件的整合。了解如何監聽事件、取得目前狀態及修改資料層。 |
 | 2020 年 9 月 30 日 | [Adobe Client Data Layer 簡介](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | 影片 | 了解事件導向的 Adobe Client Data Layer 如何公開 AEM Sites 核心元件中的資料。使用 Adobe Client Data Layer 時，Experience Platform Launch 之類的標記管理解決方案可將網站資料傳輸至 Analytics 和 Target 等應用程式。 |
 | 2020 年 10 月 8 日 | [將 Target 擴充功能新增至 Launch 屬性](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/add-target-launch-extension.html) | 影片 | 了解如何使用 Launch 規則將參數載入、傳遞至頁面請求，以及從您的網站頁面觸發 Target 呼叫。系統會使用 Adobe Client Data Layer 來擷取頁面資訊並以參數形式傳遞，此資料層可讓您收集和儲存訪客的網頁體驗相關資料，並且讓此資料易於存取。 |
-| 2020 年 10 月 8 日 | [將 Target 擴充功能新增至 Launch 屬性](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/add-target-launch-extension.html) | 影片 | 了解如何將 Adobe Target 擴充功能新增至您的 Launch 屬性 |
 | 2020 年 10 月 7 日 | [建立 Adobe Target 雲端服務帳戶](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/setup-aem-target-cloud-service.html) | 影片 | 了解如何使用雲端服務和 Adobe IMS 驗證整合 Adobe Experience Manager as a Cloud Service 與 Adobe Target。 |
 | 2020 年 10 月 2 日 | [AEM 和 Adobe Target 概觀](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/overview.html) | 影片 | AEM 和 Target 兩者都是強大的解決方案，且功能大致重疊。客戶有時不易了解搭配使用這兩種產品來提供個人化體驗的方式與時機。為了向每位一般使用者提供最佳化的體驗，組織內不同的團隊應密切合作，並定義各自的職責。 |
 | 2020 年 10 月 2 日 | [整合 AEM Forms 與 Adobe Sign](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.2.forms) | 課程 | Adobe Sign 和 AEM Forms 可搭配運作，使複雜的交易自動化，並加入安全、合法的電子簽名，以提供順暢的數位體驗。 |
@@ -445,8 +445,8 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 
 | 已發佈 | 名稱 | 解決方法 | 說明 |
 | ----------- | ----------- | ---------- | ---------- |
-| 2020 年 10 月 20 日 | [控制面板——生成SSH密鑰——功能視頻](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 瞭解如何使用終端產生SSH金鑰，以及如何在控制面板中儲存該金鑰的公開版本。 |
-| 2020 年 10 月 20 日 | [控制面板——連接至SFTP伺服器——功能視訊](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何使用用戶端 SFTP 應用程式，使用您儲存在控制面板的金鑰，連線至您的 SFTP 伺服器。 |
+| 2020年11月2日 | [控制面板——生成SSH密鑰——功能視頻](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 瞭解如何使用終端產生SSH金鑰，以及如何在控制面板中儲存該金鑰的公開版本。 |
+| 2020年11月2日 | [控制面板——連接至SFTP伺服器——功能視訊](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何使用用戶端 SFTP 應用程式，使用您儲存在控制面板的金鑰，連線至您的 SFTP 伺服器。 |
 | 2020 年 10 月 20 日 | [控制面板——控制面板快速入門——文章](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 本文將說明如何存取控制面板，以及使用控制面板的先決條件。 |
 | 2020 年 10 月 20 日 | [控制面板——控制面板快速入門——文章](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文將說明如何存取控制面板，以及使用控制面板的先決條件。 |
 | 2020 年 10 月 19 日 | [控制面板——將IP範圍添加到允許清單](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 瞭解如何在「控制面板」中將IP位址範圍新增至允許清單。 |
@@ -500,6 +500,8 @@ Adobe Advertising Cloud 發行說明。
 如需最新版本的資訊，請參閱 [[!DNL Target]  發行說明](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html)。
 
 ### 全新Adobe Target課程和教學課程
+
+更新日期: **2020 年 11 月 2 日**
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
