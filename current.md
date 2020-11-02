@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1dec5a72cc3a6c3592544ab198516f6253f5c50a
+source-git-commit: 7e679c9acd5002ab3b6dd232b678f44661ad935a
 workflow-type: tm+mt
-source-wordcount: '7635'
-ht-degree: 89%
+source-wordcount: '7894'
+ht-degree: 87%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 89%
 * [Experience Manager](#aem) (更新日期： **10/28/2020**)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud) (Updated: **10/28/2020**)
-* [[!DNL Target]](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html)
+* [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/zh-Hant/primetime/release-notes/home.html)
@@ -445,6 +445,10 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 
 | 已發佈 | 名稱 | 解決方法 | 說明 |
 | ----------- | ----------- | ---------- | ---------- |
+| 2020 年 10 月 20 日 | [控制面板——生成SSH密鑰——功能視頻](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 瞭解如何使用終端產生SSH金鑰，以及如何在控制面板中儲存該金鑰的公開版本。 |
+| 2020 年 10 月 20 日 | [控制面板——連接至SFTP伺服器——功能視訊](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何使用用戶端 SFTP 應用程式，使用您儲存在控制面板的金鑰，連線至您的 SFTP 伺服器。 |
+| 2020 年 10 月 20 日 | [控制面板——控制面板快速入門——文章](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 本文將說明如何存取控制面板，以及使用控制面板的先決條件。 |
+| 2020 年 10 月 20 日 | [控制面板——控制面板快速入門——文章](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文將說明如何存取控制面板，以及使用控制面板的先決條件。 |
 | 2020 年 10 月 19 日 | [控制面板——將IP範圍添加到允許清單](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 瞭解如何在「控制面板」中將IP位址範圍新增至允許清單。 |
 | 2020 年 10 月 19 日 | [控制面板——將IP範圍添加到允許清單](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 瞭解如何在「控制面板」中將IP位址範圍新增至允許清單。 |
 | 2020 年 10 月 16 日 | [控制面板 - 使用 CNAME 委派子網域 (測試版) - 功能影片](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | 了解如何使用「控制面板」中的 CNAME 來設定和提交子網域。 |
@@ -490,6 +494,16 @@ Adobe Advertising Cloud 發行說明。
 
 * [Magento Commerce 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-open-source.html)
 * [Magento Open Source 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-open-source.html)
+
+## ![圖示](/assets/target.png)[!DNL Target] {#target}
+
+如需最新版本的資訊，請參閱 [[!DNL Target]  發行說明](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html)。
+
+### 全新Adobe Target課程和教學課程
+
+| 已發佈 | 名稱 | 類型 | 說明 |
+| -----------| ---------- | ---------- | ---------- |
+| 2020 年 10 月 11 日 | [混合個人化部署模型](https://docs.adobe.com/content/help/en/target-learn/tutorials/implementation/hybrid-deployment.html) | 影片 | Adobe Target針對個人化提供獨特的混合部署模型——混合用戶端和伺服器端實作。 此混合模型可讓非技術使用者使用WYSIWYG Visual Experience Composer來製作實驗或個人化活動，並讓伺服器端執行、傳送和轉譯體驗，以提供高效能的發佈。 |
 
 ## ![圖示](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
