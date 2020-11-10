@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 27e6ef1fb123fd8a5d136f86c5df492ea6e79733
+source-git-commit: 46d20e153aaa57df2387c2d084b6c20b914bc8e1
 workflow-type: tm+mt
 source-wordcount: '8040'
 ht-degree: 100%
@@ -27,13 +27,13 @@ ht-degree: 100%
 >
 >訂閱 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)，即可透過電子郵件接收即將發行版本的相關通知。
 
-最近更新：**2020 年 11 月 2 日**
+最近更新：**2020 年 11 月 10 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 服務與管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：**2020 年 11 月 2 日**)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：**2020 年 11 月 10 日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (更新日期：**2020 年 10 月 28 日**)
 * [Campaign](#ac)
@@ -108,7 +108,7 @@ ht-degree: 100%
 發行日期：**2020 年 10 月 29 日**
 
 * [Adobe Analytics 新功能](#aa-features)
-* [Customer Journey Analytics 新功能](#cust-journey) (更新日期：2020 年 11 月 2 日)
+* [Customer Journey Analytics 新功能](#cust-journey) (更新日期：2020 年 11 月 10 日)
 * [Media Analytics 新功能](#media-aa)
 * [Adobe Analytics 修正項目](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
@@ -133,9 +133,9 @@ ht-degree: 100%
 | [!UICONTROL 線條]視覺效果：移動平均趨勢線選項 | 2020 年 10 月 8 日 | 在「線條」視覺效果趨勢線設定中新增了移動平均。移動平均會計算指定前期的平均值，並將其作為趨勢線資料點，然後再計算下一個期間。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 移除回填限制 | 2020 年 10 月 19 日 | 為改善 CJA 體驗，我們已移除回填 (匯入歷史資料) 限制。過去，您可以自行回填最多 25 億列的資料，若超過這個數字便需有工程技術介入。現在，您可以自行回填資料，沒有任何限制。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Analysis Workspace 效能說明頁面 | 2020 年 10 月 22 日 | Analysis Workspace 效能說明頁面會顯示對專案效能造成影響的不同因素，以及最佳化秘訣的連結。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
-| 歷程 IQ：跨頻道分析 | 2020 年 10 月 30 日 | 歷程 IQ：跨頻道分析讓客戶得以將 Adobe Experience Platform 資料湖的 Adobe Analytics (或其他) 事件資料集，從一個 ID 命名空間重新輸入至另一個 ID 命名空間。這通常代表將事件資料集從 Cookie 型 ID 重新輸入為人員型 ID。如此一來，重新輸入的資料集可以與 CJA 連線中的其他人員型資料結合，從而在 Analysis Workspace 中進行跨裝置/跨管道分析。 |
 | [!UICONTROL 「逗留時間」]量度和維度 | 2020 年 10 月 30 日 | [!UICONTROL 「逗留時間」]量度和維度可供您查看消費者在客戶歷程各階段所花費的時間，讓您能更全面掌握各管道的參與度和瓶頸所在。 |
 | [!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度 | 2020 年 10 月 30 日 | 現在，[!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度預設可在 [Adobe Analytics 來源連接器](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)的「全域查詢支援」專案中使用。這項備受期待的新功能可促進 [Adobe Analytics 與 CJA 之間的對等關係](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-aa.html)。 |
+| 歷程 IQ：跨頻道分析 | 2020 年 11 月 22 日 | 歷程 IQ：跨頻道分析讓客戶得以將 Adobe Experience Platform 資料湖的 Adobe Analytics (或其他) 事件資料集，從一個 ID 命名空間重新輸入至另一個 ID 命名空間。這通常代表將事件資料集從 Cookie 型 ID 重新輸入為人員型 ID。如此一來，重新輸入的資料集可以與 CJA 連線中的其他人員型資料結合，從而在 Analysis Workspace 中進行跨裝置/跨管道分析。 |
 
 ### [!UICONTROL Media Analytics] 新功能{#media-aa}
 
@@ -388,7 +388,7 @@ RTF 編輯器文件已更新，其中列出所有 [RTE 中連結的支援通訊�
 | 2020 年 9 月 30 日 | [探索 Adobe Client Data Layer](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | 文章 | 探索事件導向 Adobe Client Data Layer 的功能，及其與 AEM Sites 核心元件的整合。了解如何監聽事件、取得目前狀態及修改資料層。 |
 | 2020 年 9 月 30 日 | [Adobe Client Data Layer 簡介](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | 影片 | 了解事件導向的 Adobe Client Data Layer 如何公開 AEM Sites 核心元件中的資料。使用 Adobe Client Data Layer 時，Experience Platform Launch 之類的標記管理解決方案可將網站資料傳輸至 Analytics 和 Target 等應用程式。 |
 | 2020 年 10 月 8 日 | [將 Target 擴充功能新增至 Launch 屬性](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/add-target-launch-extension.html) | 影片 | 了解如何使用 Launch 規則將參數載入、傳遞至頁面請求，以及從您的網站頁面觸發 Target 呼叫。系統會使用 Adobe Client Data Layer 來擷取頁面資訊並以參數形式傳遞，此資料層可讓您收集和儲存訪客的網頁體驗相關資料，並且讓此資料易於存取。 |
-| 2020 年 10 月 7 日 | [建立 Adobe Target 雲端服務帳戶](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/setup-aem-target-cloud-service.html) | 影片 | 了解如何使用雲端服務和 Adobe IMS 驗證整合 Adobe Experience Manager as a Cloud Service 與 Adobe Target。 |
+| 2020 年 10 月 7 日 | [建立 Adobe Target 雲端服務帳戶](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/setup-aem-target-cloud-service.html) | 影片 | 了解如何使用 Cloud Service 和 Adobe IMS 驗證整合 Adobe Experience Manager as a Cloud Service 與 Adobe Target。 |
 | 2020 年 10 月 2 日 | [AEM 和 Adobe Target 概觀](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/overview.html) | 影片 | AEM 和 Target 兩者都是強大的解決方案，且功能大致重疊。客戶有時不易了解搭配使用這兩種產品來提供個人化體驗的方式與時機。為了向每位一般使用者提供最佳化的體驗，組織內不同的團隊應密切合作，並定義各自的職責。 |
 | 2020 年 10 月 2 日 | [整合 AEM Forms 與 Adobe Sign](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.2.forms) | 課程 | Adobe Sign 和 AEM Forms 可搭配運作，使複雜的交易自動化，並加入安全、合法的電子簽名，以提供順暢的數位體驗。 |
 | 2020 年 10 月 6 日 | [針對列印管道建立互動式文件](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.5.forms) | 課程 | 「互動式通訊」可集中處理及管理安全、個人化與互動式通信的建立、集合與傳遞，例如商業信函、文件、對帳單、利益通知、行銷郵件、帳單和歡迎套件。本課程將重點介紹如何建立構成互動式通訊文件的各種元件。 |
