@@ -4,9 +4,9 @@ description: Adobe Experience Cloud 發行說明
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46d20e153aaa57df2387c2d084b6c20b914bc8e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8040'
 ht-degree: 100%
 
