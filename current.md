@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 發行說明
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 73caf10aa872e7b98875bdd0b8050cc301e3d500
-workflow-type: ht
-source-wordcount: '8005'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d52b26253abaf781eade05e8925943c6b605ae60
+workflow-type: tm+mt
+source-wordcount: '9838'
+ht-degree: 85%
 
 ---
 
@@ -66,6 +66,17 @@ ht-degree: 100%
 
 如需最新發行資訊，請參閱 [Experience Cloud 服務的彙整發行說明](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/release-notes/release-notes.html)。
 
+### Experience Cloud教學課程
+
+Updated: **December 2, 2020**
+
+| 已發佈 | 名稱 | 類型 | 說明 |
+| -----------| ---------- | ---------- | ---------- |
+| 2020 年 11 月 4 日 | [DDOM揭露的見解](https://experienceleague.adobe.com/docs/csuite/using/ddom-insights.html) | 影片 | 瞭解DDOM協助Adobe發現的一些見解，並進一步瞭解在設定您自己的DDOM版本時需要考慮的事項。 |
+| 2020 年 11 月 4 日 | [DDOM的三大支柱](https://experienceleague.adobe.com/docs/csuite/using/ddom-components.html) | 影片 | 瞭解Adobe如何運用資料、KPI和流程與組織，以便與客戶歷程保持一致。 |
+| 2020 年 11 月 4 日 | [Adobe的數位轉型故事 ](https://experienceleague.adobe.com/docs/csuite/using/transformation-story.html) | 影片 | 進一步瞭解DDOM在Adobe數位轉型中所扮演的角色，以推動以客戶為中心的全通道體驗。 |
+| 2020 年 11 月 4 日 | [資料驅動操作模型簡介](https://experienceleague.adobe.com/docs/csuite/using/ddom-introduction.html) | 影片 | 概觀Adobe的資料導向式作業模型，以深入瞭解客戶歷程。 |
+
 ## ![圖示](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
 包含 Experience Platform 和 Experience Platform Launch 的版本更新資訊。
@@ -87,8 +98,11 @@ ht-degree: 100%
 
 針對 Experience Platform 和服務所發佈的新影片、教學課程或其他課程。
 
+Updated: **December 2, 2020**
+
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 11 月 23 日 | [設定檔案式雲端儲存空間或電子郵件行銷目標](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configuring-file-based-cloud-storage-or-email-marketing-destinations.html?lang=en#destinations) | 影片 | 在Adobe的即時CDP中，逐步瞭解以檔案為基礎的目的地設定時，可取得提示。 這套用至雲端儲存目標（例如S3或SFTP）以及電子郵件行銷目標。 |
 | 2020 年 10 月 26 日 | [Offer Decisioning 簡介](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 影片 | 這部影片主要概略介紹 [!UICONTROL Offer Decisioning]，這是以 Adobe Experience Platform 為基礎打造而成的應用程式服務。影片內容涵蓋 [!UICONTROL Offer Decisioning] 解決的企業難題、重要功能、基本架構和主要使用案例。 |
 | 2020 年 10 月 29 日 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=zh-Hant) | 影片 | 了解各大品牌如何善用 Adobe 的全新 [!UICONTROL Offer Decisioning] 服務來定義及管理選件、運用即時客戶資料，並提供客戶期望的合適體驗。 |
 | 2020 年 9 月 14 日 | [Attribution AI 的商業價值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | 影片 | [!UICONTROL Attribution AI] 是 [!UICONTROL Intelligent Services] 的一部分，是一種多管道的演算法歸因服務，可計算客戶互動對指定結果的影響和累加影響。透過 [!UICONTROL Attribution AI]，行銷人員可經由了解每個客戶在客戶歷程各個階段的互動所產生的影響，來衡量行銷和廣告支出並予以最佳化。 |
@@ -176,6 +190,7 @@ AN-224702、AN-232791、AN-233982、AN-234384、AN-235608、AN-236538、AN-23659
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 11 月 10 日 | [批量管理簡介(BAAM)](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/introduction-to-bulk-management-baaam.html?lang=en#build-and-manage-audiences) | 影片 | 瞭解「BAAM」，這是Audience Manager中特徵和區段的大量管理工具，包括如何設定它以備使用。 |
 | 2020 年 10 月 8 日 | [自由格式表格：分析的基礎](https://video.tv.adobe.com/v/41766?captions=chi_hant) | 影片 | 了解須知事項，以及您展開本課程後將學到的內容。 |
 | 2020 年 10 月 5 日 | [在 Analysis Workspace 中使用參與率量度](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-participation-metrics-in-analysis-workspace.html) | 影片 | 在 [!UICONTROL Analysis Workspace] 中隨時使用這個簡單的秘訣取得任何參與率量度。 |
 | 2020 年 10 月 5 日 | [在 Analysis Workspace 中自動建置自由格式表格](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html) | 影片 | 將元件直接拖放至空白專案、面板或自由格式表格中，系統就會自動以建議的格式為您建立表格。 |
@@ -210,8 +225,13 @@ Audience Manager 的新功能、修正項目、說明文件和教學課程。
 
 針對 Audience Manager 發佈的新影片、教學課程和其他課程。
 
+更新日期：**2020 年 12 月 2 日**
+
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 11 月 25 日 | [使用具有特徵和區段的趨勢報表](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/reports/using-trended-reports-with-traits-and-segments.html?lang=en#reports) | 影片 | 瞭解如何使用Audience Manager中的趨勢報表，以瞭解特性和區段隨時間的表現。 |
+| 2020 年 11 月 25 日 | [使用具有特徵和區段的一般報表](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/reports/using-general-reports-with-traits-and-segments.html?lang=en#reports) | 影片 | 在此影片中，瞭解如何使用Audience Manager中的一般報表來取得特徵和區段的數字。 |
+| 2020 年 11 月 2 日 | [設定預測性對象並報告](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/configure-and-report-on-predictive-audiences.html?lang=en#build-and-manage-audiences) | 影片 | 在此影片中，我們將逐步瞭解Audience Manager介面中的「預測性觀眾」設定。 我們也會看到顯示模型結果的報表。 |
 | 2020 年 10 月 28 日 | [了解特徵圖中的數據](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=zh-Hant#build-and-manage-audiences) | 影片 | 在特徵資訊畫面中取得相關秘訣，以利了解報告中的各項特徵數據。 |
 | 2020 年 10 月 23 日 | [以 Analytics 資料建立特徵的事前規劃](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=zh-Hant#build-and-manage-audiences) | 影片 | 了解幾項秘訣與技巧，以協助您在 Audience Manager 的特徵中順利使用 Adobe Analytics 資料。 |
 | 2020 年 10 月 23 日 | [建立特徵時選擇資料來源](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=zh-Hant#build-and-manage-audiences) | 影片 | 建立特徵時，「資料來源」欄位是必填的重要欄位之一。取得秘訣，為規則型特徵和已登錄特徵選擇正確資料來源。 |
@@ -354,12 +374,32 @@ RTF 編輯器文件已更新，其中列出所有 [RTE 中連結的支援通訊�
 
 ### 最新 Experience Manager 課程與教學課程 
 
-更新日期：**2020 年 10 月 21 日**
+Updated: **December 2, 2020**
 
 過去一個月內發佈的新影片、教學課程和其他課程。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 12 月 2 日 | [下載內容片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | 影片 | 內容片段下載功能的影片概觀。 |
+| 2020 年 12 月 2 日 | [內容片段編輯功能](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | 影片 | 內容片段編輯器進階功能的影片簡介。 瞭解如何使用註解和內容片段版本比較。 |
+| 2020 年 11 月 9 日 | [在您的本機AEM伺服器上部署資產](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/deploy-this-sample.html?lang=en#store-and-retrieve-af-with-2fa) | 影片 | 建立資料庫、部署自訂OSGi搭售，並匯入各種用戶端對象，以取得在本機AEM例項上執行的使用案例。 |
+| 2020 年 11 月 2 日 | [建立MyApplication表單](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-the-myaccount-form.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 建立MyApplication表單。 此表單用於確認嘗試擷取部分完成之調適性表單之人員的唯一應用程式識別碼和電話號碼。 |
+| 2020 年 11 月 10 日 | [設定管理員對AEM的存取權](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2020.1.aem) | 課程 | 探索使用者如何使用 Adobe IMS 執行 AEM as a Cloud Service驗證，以及如何使用 Adobe IMS 使用者、使用者群組和產品設定檔來控制 AEM 存取權及其功能。 |
+| 2020 年 11 月 11 日 | [建立要與表單關聯的用戶端程式庫](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-client-lib.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 瞭解如何建立兩個資料庫：一個要包括 `bootbox.js` 顯示對話框的。 以及用於處理「儲存並退出」按鈕上的點按事 [!UICONTROL 件的用戶端程式庫]。 |
+| 2020 年 11 月 11 日 | [使用資料模型整合建立與通訊服務供應商的整合](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/verify-users-with-otp.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 透過定義描述REST API的Swagger檔案、建立資料來源和表單資料模型，將AEM Forms與Nexmo REST API整合。 |
+| 2020 年 11 月 11 日 | [建立servlet以使用保存的資料呈現表單](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/retrieve-saved-form.html?lang=en#store-and-retrieve-af-with-2fa) | 影片 | 成功驗證電話號碼時，將調用此servlet。 |
+| 2020 年 11 月 2 日 | [建立StoreAFWithAttachments表單](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-the-main-adaptive-form.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 建立StoreAFWithAttachments表單。 這是擷取使用者資訊的主要應用程式表單，包括可新增附件的電話號碼。 |
+| 2020 年 11 月 2 日 | [整合Adobe Experience Manager和Adobe Analytics以收集頁面資料](https://video.tv.adobe.com/v/327293?captions=chi_hant) | 影片 | 本課程逐步帶您進行教學課程，說明如何將Adobe Analytics與Adobe Experience Manager Sites整合，以透過使用用戶端資料層收集頁面資料，然後在Adobe Analytics中建立分析工作區專案，來瞭解頁面上的使用者行為。 |
+| 2020 年 11 月 11 日 | [建立MySQL資料庫表和AEM資料源](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/configure-data-source.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 使用適當的欄建立MySQL資料庫表格，以及指向此資料庫的Apache Sling Connection Pooled Datasource。 |
+| 2020 年 11 月 11 日 | [建立servlet以處理POST調用](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-servlet.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 在AEM中建立servlet，方法是擴充 `SlingAllMethodsServlet` 並公開REST端點，以接受POST請求。 |
+| 2020 年 11 月 11 日 | [使用新的附件檔案映射儲存表單資料](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/store-form-data.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 在資料庫中插入由唯一GUID標識的新行。 |
+| 2020 年 11 月 11 日 | [將表單附件儲存到CRX中的新位置](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/store-form-attachments.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 表單附件的預設位置位於臨時資料夾中，該資料夾在一段時間後被刪除。 |
+| 2020 年 11 月 4 日 | [資產計算中繼資料轉譯](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/advanced/metadata.html) | 教學課程 | 將進階章節新增至「資產計算」教學課程，其中涵蓋產生中繼資料轉譯。 |
+| 2020 年 10 月 21 日 | [組合表單附件](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/document-services/assemble-form-attachments.html) | 影片 | 以特定順序將表單附件組合為一個PDF。 |
+| 2020 年 11 月 9 日 | [將WKND Assets示範程式新增至示範應用程式](http://bit.ly/demoAEM) | 示範 | 將WKND Asset Demo新增為Demo Utils的資訊卡，以推廣其存在／可用性／安裝指示。 |
+| 2020 年 11 月 2 日 | [建立內容片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | 影片 | 在Adobe Experience Manager(AEM)資產中建立內容片段的影片總覽。 |
+| 2020 年 11 月 2 日 | [在網站頁面上使用內容片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-delivery-feature-video-use.html) | 影片 | 瞭解如何在AEM Sites頁面上使用內容片段。 內容片段元件可使用AEM的Style System來設定樣式，以視需要顯示內容。 |
+| 2020 年 11 月 2 日 | [樣式系統](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html) | 影片 | 使用We.Retail List元件建立AEM 6.4的Style System影片。 |
 | 2020 年 11 月 2 日 | [載入及觸發 Target 呼叫](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/load-and-fire-target.html) | 影片 | 了解如何使用 Launch 規則將參數載入、傳遞至頁面請求，以及從您的網站頁面觸發 Target 呼叫。系統會使用 Adobe Client Data Layer 來擷取頁面資訊並以參數形式傳遞，此資料層可讓您收集和儲存訪客的網頁體驗相關資料，並且讓此資料易於存取。 |
 | 2020 年 10 月 28 日 | [影片智慧標籤](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 影片 | Experience Manager Assets 利用 Adobe Sensei 提供的技術，靈活地使用可描述影片中關鍵元素的關鍵字來標記影片資產，讓 AEM 使用者能使用關鍵字搜尋功能輕鬆找到影片。 |
 | 2020 年 10 月 27 日 | [AEM Document Security Extension for Microsoft Office 簡介](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 文章 | Adobe Experience Manager Document Security Extension for Microsoft Office 可確保只有您授權的人員才能使用內含您智慧財產權的 Word、Excel 和 PowerPoint 檔案。您可以使用 Document Security Extension for Microsoft Office，將預先定義的機密設定套用至您的檔案。 |
@@ -397,7 +437,6 @@ RTF 編輯器文件已更新，其中列出所有 [RTE 中連結的支援通訊�
 | 2020 年 10 月 6 日 | [建立第一個最適化表單](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.4.forms) | 課程 | AEM Forms 可讓您建立吸引人、回應式、動態且最適化的表單。本課程從建立自訂最適化表單範本開始，並逐步帶您了解使用各種表單元件建立最適化表單的過程。 |
 | 2020 年 10 月 21 日 | [本機 Dispatcher 工具](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html) | 文章 | AEM 的 Dispatcher 是 Apache HTTP Web 伺服器模組，可在 CDN 和 AEM Publish 層級之間提供安全性與效能層。了解如何將 Dispatcher 設定為本機開發環境的一部分。 |
 | 2020 年 10 月 14 日 | [開發人員專用 AEM Sites 快速入門](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.2.guided) | 課程 | 本課程更新 Experience League 上的[現有課程](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2019.2.guided)。 |
-| 2020 年 10 月 7 日 | [AEM 專案結構](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) | 影片 | 本文概述讓 Adobe Experience Manager Maven 專案與 AEM as a Cloud Service 相容所需的變更，確保專案遵守可變和不可變內容的分割，建立相依性以實現不衝突、確定性的部署，並封裝成可部署結構。 |
 
 ### Experience Manager 發行資訊
 
@@ -445,10 +484,23 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 
 過去一個月內發佈的新影片、教學課程或課程。
 
+更新日期：**2020 年 12 月 2 日**
+
 | 已發佈 | 名稱 | 解決方法 | 說明 |
 | ----------- | ----------- | ---------- | ---------- |
-| 2020 年 11 月 2 日 | [控制面板 - 產生 SSH 金鑰 - 功能影片](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 了解如何透過終端產生 SSH 金鑰，以及如何在控制面板中儲存公開版本的金鑰。 |
-| 2020 年 11 月 2 日 | [控制面板 - 連線至 SFTP 伺服器 - 功能影片](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何透過用戶端 SFTP 應用程式，使用您儲存在控制面板的金鑰，連線至您的 SFTP 伺服器。 |
+| 2020 年 11 月 23 日 | [設定和傳送推播通知](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html) | Campaign Classic | 瞭解如何設定推播通知並傳送給Android應用程式使用者。 |
+| 2020 年 11 月 19 日 | [在Campaign中設定Android服務並建立Android行動應用程式](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html) | Campaign Classic | 瞭解如何在Campaign中設定Android服務及建立Android行動應用程式。 |
+| 2020 年 11 月 2 日 | [控制面板——生成SSH密鑰](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 了解如何透過終端產生 SSH 金鑰，以及如何在控制面板中儲存公開版本的金鑰。 |
+| 2020 年 10 月 28 日 | [控制面板——監控資料庫使用情況](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html) | Campaign Classic | 瞭解如何使用控制面板監控實例的資料庫使用情況。 |
+| 2020 年 10 月 28 日 | [控制面板——監控資料庫](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html) | Campaign Standard | 瞭解如何使用控制面板監控實例的資料庫使用情況。 |
+| 2020 年 10 月 12 日 | [控制面板 - 新增 IP 範圍至允許清單](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 了解如何在控制面板中新增 IP 位址範圍至允許清單。 |
+| 2020 年 10 月 7 日 | [控制面板——生成SSH密鑰](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 了解如何透過終端產生 SSH 金鑰，以及如何在控制面板中儲存公開版本的金鑰。 |
+| 2020 年 10 月 2 日 | [控制面板——連接至SFTP伺服器](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何透過用戶端 SFTP 應用程式，使用您儲存在控制面板的金鑰，連線至您的 SFTP 伺服器。 |
+| 2020 年 10 月 2 日 | [控制面板——連接至SFTP伺服器](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Standard | 了解如何透過用戶端 SFTP 應用程式，使用您儲存在控制面板的金鑰，連線至您的 SFTP 伺服器。 |
+| 2020 年 10 月 2 日 | [控制面板——生成SSH密鑰](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Standard | 了解如何透過終端產生 SSH 金鑰，以及如何在控制面板中儲存公開版本的金鑰。 |
+| 2020 年 11 月 2 日 | [控制面板——連接至SFTP伺服器](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何透過用戶端 SFTP 應用程式，使用您儲存在控制面板的金鑰，連線至您的 SFTP 伺服器。 |
+| 2020 年 10 月 6 日 | [控制面板——控制面板快速入門](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 本文說明如何存取控制面板，以及使用控制面板的先決條件。 |
+| 2020 年 10 月 6 日 | [控制面板——控制面板快速入門](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文說明如何存取控制面板，以及使用控制面板的先決條件。 |
 | 2020 年 10 月 20 日 | [控制面板 - 控制面板快速入門 - 文章](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 本文說明如何存取控制面板，以及使用控制面板的先決條件。 |
 | 2020 年 10 月 20 日 | [控制面板 - 控制面板快速入門 - 文章](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文說明如何存取控制面板，以及使用控制面板的先決條件。 |
 | 2020 年 10 月 19 日 | [控制面板 - 新增 IP 範圍至允許清單](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 了解如何在控制面板中新增 IP 位址範圍至允許清單。 |
@@ -489,6 +541,21 @@ Adobe Advertising Cloud 發行說明。
 | 搜尋促銷活動 | 在[!UICONTROL 「帳戶」]檢視中，[!UICONTROL 「存取」]欄現在會指出 [!DNL Advertising Cloud Search] 何時無法登入已啟用的搜尋引擎帳戶。若要查看錯誤的成因，請將游標放在警告圖示上。 |
 | [!UICONTROL 自訂警報] | 舊版[!UICONTROL 「警報測試版」]現在稱為[!UICONTROL 「自訂警報」]。 |
 |  | 在自訂警報中，已簡化用來識別指定日期範圍的量度比起上一個期間的量度何時增加或減少的工作流程，並移至[!UICONTROL 「篩選器」]索引標籤。 |
+
+### Ad Cloud教學課程和課程
+
+Updated: **December 2, 2020**
+
+| 已發佈 | 名稱 | 解決方法 | 說明 |
+| ----------- | ----------- | ---------- | ---------- |
+| 2020 年 11 月 14 日 | [使用 Adobe Analytics 建立 Advertising Cloud 控制面板](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=en) | 影片 | 建立 Advertising Cloud 控制面板以即時監控行銷活動的技巧。 |
+| 2020 年 11 月 14 日 | [建立Advertising Cloud網站登入報表](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=en#analytics) | 影片 | 建立Advertising Cloud網站登入報表，以監控一週中的某天、一天中的某天、瀏覽器和地理影響。 |
+| 2020 年 11 月 14 日 | [使用 Advertising Cloud 資料建立 Analytics 自訂量度](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-custom-metrics-a4adc.html?lang=en#analytics) | 影片 | 在 Adobe Analytics 中使用 Advertising Cloud 資料時可建立的實用自訂度量。 |
+| 2020 年 11 月 14 日 | [建立 Analytics 區段以利執行啟動和報表彙整作業](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-segments-a4adc.html?lang=en#analytics) | 影片 | 使用 Advertising Cloud 維度建立區段，以簡化報表和分析作業。 |
+| 2020 年 11 月 14 日 | [了解預測對象](https://experienceleague.corp.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html?lang=en#build-and-manage-audiences) | 影片 | 此影片中，我們會說明何謂 Audience Manager 預測對象、詳細解說其運作方式，並提供使用案例。 |
+| 2020 年 11 月 14 日 | [建立Advertising Cloud啟用與報告的Analytics設定檔](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-profiles-a4adc.html?lang=en#analytics) | 影片 | 如何使用 Adobe Analytics 為 Advertising Cloud 再行銷工作，建立強大的網站重新鎖定群組。 |
+| 2020 年 11 月 14 日 | [使用Advertising Cloud行銷渠道進行報告](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=en#analytics) | 影片 | Advertising Cloud檢視和點進項目資料如何與Adobe Analytics行銷渠道搭配運作。 |
+| 2020 年 11 月 14 日 | [使用Adobe Analytics建立啟動前促銷活動分析](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-pre-launch-a4adc.html?lang=en) | 影片 | 如何使用 Adobe Analytics 為發起 Advertising Cloud 付費媒體行銷活動奠定基礎。 |
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
 
@@ -543,6 +610,7 @@ Adobe Document Cloud 的發行資訊和說明資源。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 11 月 2 日 | [使用GigaSign收集大量檔案](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/develop/custom/gigasign.html?lang=en#gather-high-volume-documents-using-gigasign) | 影片 | Gigasing可讓您同時傳送、收集及追蹤檔案以索取簽名給數以千計的人。 專為與員工和客戶進行大量溝通而設計。 GigaSign運用Adobe Sign API提供與MegaSign相同的功能，但包含對多個簽署者、收件者群組、收件者角色、合約名稱、碳複製等的額外支援。 |
 | 2020 年 9 月 29 日 | [Adobe Sign 快速導覽](https://docs.adobe.com/content/help/en/document-cloud-learn/sign-learning-hub/getting-started/getting-started-sending/quick-tour.html) | 影片 | 在此影片中，我們將從首頁畫面開始快速導覽 Adobe Sign。 |
 
 如需 Document Cloud 說明，請參閱：
