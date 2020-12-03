@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 發行說明
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 73caf10aa872e7b98875bdd0b8050cc301e3d500
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8005'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 * [Experience Cloud 服務與管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新 **日期：2020年12月2日**)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：**2020 年 12 月 2 日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (更新日期：**2020 年 10 月 28 日**)
 * [Campaign](#ac)
@@ -108,7 +108,7 @@ ht-degree: 99%
 發行日期：**2020 年 10 月 29 日**
 
 * [Adobe Analytics 新功能](#aa-features)
-* [Customer Journey Analytics 新功能](#cust-journey) （更新日期：2020年12月2日）
+* [Customer Journey Analytics 新功能](#cust-journey) (更新日期：2020 年 12 月 2 日)
 * [Media Analytics 新功能](#media-aa)
 * [Adobe Analytics 修正項目](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
