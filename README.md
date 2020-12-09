@@ -1,9 +1,9 @@
 ---
 source-git-commit: 13ad94d323a3ac655b93f10b11c5245fe00ee379
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '447'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 # 貢獻文章
@@ -13,7 +13,7 @@ ht-degree: 94%
 ## Adobe 開放原始碼行為準則
 
 
-此專案採行 [Adobe 開放原始碼行為準則](https://docs.adobe.com/content/help/en/contributor/contributor-guide/conduct-contributions/code-of-conduct.html)或 [.NET Foundation 行為準則](https://dotnetfoundation.org/code-of-conduct)。如需詳細資訊，請參閱[貢獻](https://docs.adobe.com/content/help/en/contributor/contributor-guide/conduct-contributions/contributing.html)文章。
+此專案採行 [Adobe 開放原始碼行為準則](https://docs.adobe.com/content/help/zh-Hant/contributor/contributor-guide/conduct-contributions/code-of-conduct.html)或 [.NET Foundation 行為準則](https://dotnetfoundation.org/code-of-conduct)。如需詳細資訊，請參閱[貢獻](https://docs.adobe.com/content/help/zh-Hant/contributor/contributor-guide/conduct-contributions/contributing.html)文章。
 
 ## 關於您對 Adobe 內容的貢獻
 
@@ -43,7 +43,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 社群貢獻者可使用 GitHub UI 進行基本編輯或建立存放庫複本，提交重要貢獻。
 
-如需詳細資訊，請參閱 [Adobe Docs 貢獻者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide-for-adobe-documentation/introduction.html)。
+如需詳細資訊，請參閱 [Adobe Docs 貢獻者指南](https://docs.adobe.com/content/help/zh-Hant/contributor/contributor-guide-for-adobe-documentation/introduction.html)。
 
 ## 如何使用 Markdown 設定主題格式
 
