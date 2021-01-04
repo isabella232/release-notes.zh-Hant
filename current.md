@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2f04d1dd4487a4e169360c0b23cdbef257121794
+source-git-commit: ec98405c2e3d4a712d42487917029dae7aa454f3
 workflow-type: tm+mt
-source-wordcount: '9815'
-ht-degree: 100%
+source-wordcount: '9816'
+ht-degree: 99%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 100%
 | 移除回填限制 | 2020 年 10 月 19 日 | 為改善 CJA 體驗，我們已移除回填 (匯入歷史資料) 限制。過去，您可以自行回填最多 25 億列的資料，若超過這個數字便需有工程技術介入。現在，您可以自行回填資料，沒有任何限制。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Analysis Workspace 效能說明頁面 | 2020 年 10 月 22 日 | Analysis Workspace 效能說明頁面會顯示對專案效能造成影響的不同因素，以及最佳化秘訣的連結。[深入了解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 「逗留時間」]量度和維度 | 2020 年 10 月 30 日 | [!UICONTROL 「逗留時間」]量度和維度可供您查看消費者在客戶歷程各階段所花費的時間，讓您能更全面掌握各管道的參與度和瓶頸所在。 |
-| [!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度 | 2020 年 10 月 30 日 | 現在，[!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度預設可在 [Adobe Analytics 來源連接器](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)的「全域查詢支援」專案中使用。這項備受期待的新功能可促進 [Adobe Analytics 與 CJA 之間的對等關係](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-aa.html)。 |
+| [!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度 | 2020 年 10 月 30 日 | [!UICONTROL 現] 在，Adobe   Analytics來源連接器中的全域外觀支援專案現在預設提供「裝置」和「地理 [](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#cja-usecases) 圖形」維度。這項備受期待的新功能可促進 [Adobe Analytics 與 CJA 之間的對等關係](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-aa.html)。 |
 | 歷程 IQ：跨頻道分析 | 2021 年 1 月 11 日 | 歷程 IQ：跨頻道分析讓客戶得以將 Adobe Experience Platform 資料湖的 Adobe Analytics (或其他) 事件資料集，從一個 ID 命名空間重新輸入至另一個 ID 命名空間。這通常代表將事件資料集從 Cookie 型 ID 重新輸入為人員型 ID。如此一來，重新輸入的資料集可以與 CJA 連線中的其他人員型資料結合，從而在 Analysis Workspace 中進行跨裝置/跨管道分析。[深入了解](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections) |
 
 ### [!UICONTROL Media Analytics] 新功能{#media-aa}
