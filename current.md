@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 發行說明
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ec98405c2e3d4a712d42487917029dae7aa454f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '9816'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -137,19 +137,19 @@ ht-degree: 99%
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
-| 功能 | [全面發佈](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
 | Customer Journey Analytics文件 | 2020 年 11 月 11 日 | Customer Journey Analytics 文件已移至 Experience League。所有文章、影片、發行說明和教學課程，均於 11 月從 `docs.adobe.com` 的目前位置移至 `experienceleague.adobe.com`。如此能夠確保從單一位置提供所有學習、自助、培訓和社群內容。所有連結都已重新導向至 Experience League。 |
-| [!UICONTROL 線條]視覺效果：移動平均趨勢線選項 | 2020 年 10 月 8 日 | 在「線條」視覺效果趨勢線設定中新增了移動平均。移動平均會計算指定前期的平均值，並將其作為趨勢線資料點，然後再計算下一個期間。[深入了解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
+| [!UICONTROL 線條]視覺效果：移動平均趨勢線選項 | 2020 年 10 月 8 日 | 在「線條」視覺效果趨勢線設定中新增了移動平均。移動平均會計算指定前期的平均值，並將其作為趨勢線資料點，然後再計算下一個期間。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 移除回填限制 | 2020 年 10 月 19 日 | 為改善 CJA 體驗，我們已移除回填 (匯入歷史資料) 限制。過去，您可以自行回填最多 25 億列的資料，若超過這個數字便需有工程技術介入。現在，您可以自行回填資料，沒有任何限制。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
-| Analysis Workspace 效能說明頁面 | 2020 年 10 月 22 日 | Analysis Workspace 效能說明頁面會顯示對專案效能造成影響的不同因素，以及最佳化秘訣的連結。[深入了解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
+| Analysis Workspace 效能說明頁面 | 2020 年 10 月 22 日 | Analysis Workspace 效能說明頁面會顯示對專案效能造成影響的不同因素，以及最佳化秘訣的連結。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 「逗留時間」]量度和維度 | 2020 年 10 月 30 日 | [!UICONTROL 「逗留時間」]量度和維度可供您查看消費者在客戶歷程各階段所花費的時間，讓您能更全面掌握各管道的參與度和瓶頸所在。 |
-| [!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度 | 2020 年 10 月 30 日 | [!UICONTROL 現] 在，Adobe   Analytics來源連接器中的全域外觀支援專案現在預設提供「裝置」和「地理 [](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#cja-usecases) 圖形」維度。這項備受期待的新功能可促進 [Adobe Analytics 與 CJA 之間的對等關係](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-aa.html)。 |
+| [!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度 | 2020 年 10 月 30 日 | 現在，[!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度預設可在 Adobe Analytics 來源連接器的[「全域查詢」](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=zh-Hant#cja-usecases)支援專案中使用。這項備受期待的新功能可促進 [Adobe Analytics 與 CJA 之間的對等關係](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-overview/cja-aa.html)。 |
 | 歷程 IQ：跨頻道分析 | 2021 年 1 月 11 日 | 歷程 IQ：跨頻道分析讓客戶得以將 Adobe Experience Platform 資料湖的 Adobe Analytics (或其他) 事件資料集，從一個 ID 命名空間重新輸入至另一個 ID 命名空間。這通常代表將事件資料集從 Cookie 型 ID 重新輸入為人員型 ID。如此一來，重新輸入的資料集可以與 CJA 連線中的其他人員型資料結合，從而在 Analysis Workspace 中進行跨裝置/跨管道分析。[深入了解](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections) |
 
 ### [!UICONTROL Media Analytics] 新功能{#media-aa}
 
-| 功能 | [全面發佈](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ---------- |
 | [!UICONTROL 工作區]的[!UICONTROL 「媒體同時檢閱者」]面板 | 2020 年 9 月 17 日 | [!UICONTROL 「媒體同時檢閱者」]面板可供您掌握何時最多人同時觀看媒體，以及趨勢反轉的時間。這項功能提供內容品質和檢視者互動的重要分析，有助於疑難排解或依數量/規模完成規劃。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
 
@@ -441,14 +441,14 @@ RTF 編輯器文件已更新，其中列出所有 [RTE 中連結的支援通訊�
 * [Experience Manager 版本更新和藍圖](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
 * [AEM as a Cloud Service 發行資訊](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/release-notes/home.html)
 * [AEM Cloud Manager 發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
-* [Automated Forms Conversion Service 發行說明](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/release-notes.html)
+* [Automated Forms Conversion Service 發行說明](https://docs.adobe.com/content/help/zh-Hant/aem-forms-automated-conversion-service/using/release-notes.html)
 * [AEM 6.5 Service Pack 發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
 * [AEM 6.4 Cumulative Fix Pack 發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-64/release-notes/cfp-release-notes.html)
 * [AEM Assets Dynamic Media 發行說明](https://docs.adobe.com/content/help/zh-Hant/dynamic-media-developer-resources/release-notes/s7rn2017.html)
 * [AEM Brand Portal 發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
 * [AEM 桌面應用程式發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-desktop-app/using/release-notes.translate.html)
 * [AEM Dispatcher 發行說明](https://docs.adobe.com/content/help/zh-Hant/experience-manager-dispatcher/using/getting-started/release-notes.html)
-* [Adobe Primetime 發行說明](https://docs.adobe.com/content/help/en/primetime/release-notes/home.html)
+* [Adobe Primetime 發行說明](https://docs.adobe.com/content/help/zh-Hant/primetime/release-notes/home.html)
 * [Livefyre 發行說明](https://docs.adobe.com/content/help/zh-Hant/livefyre/using/release-notes/c-rn.translate.html)
 
 ### AEM 其他說明資源
@@ -489,20 +489,20 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 | 2020 年 11 月 2 日 | [控制面板 - 產生 SSH 金鑰](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 了解如何透過終端產生 SSH 金鑰，以及如何在控制面板中儲存公開版本的金鑰。 |
 | 2020 年 10 月 28 日 | [控制面板 - 監控資料庫使用情況](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html) | Campaign Classic | 了解如何使用控制面板監控例項的資料庫使用情況。 |
 | 2020 年 10 月 28 日 | [控制面板 - 監控資料庫](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html) | Campaign Standard | 了解如何使用控制面板監控例項的資料庫使用情況。 |
-| 2020 年 10 月 12 日 | [控制面板 - 新增 IP 範圍至允許清單](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | 促銷活動標準 | 了解如何在控制面板中新增 IP 位址範圍至允許清單。 |
+| 2020 年 10 月 12 日 | [控制面板 - 新增 IP 範圍至允許清單](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 了解如何在控制面板中新增 IP 位址範圍至允許清單。 |
 | 2020 年 10 月 7 日 | [控制面板 - 產生 SSH 金鑰](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 了解如何透過終端產生 SSH 金鑰，以及如何在控制面板中儲存公開版本的金鑰。 |
 | 2020 年 10 月 2 日 | [控制面板 - 連線至 SFTP 伺服器](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何透過用戶端 SFTP 應用程式，使用您儲存在控制面板的金鑰，連線至您的 SFTP 伺服器。 |
-| 2020 年 10 月 2 日 | [控制面板 - 連線至 SFTP 伺服器](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html) | 促銷活動標準 | 了解如何透過用戶端 SFTP 應用程式，使用您儲存在控制面板的金鑰，連線至您的 SFTP 伺服器。 |
-| 2020 年 10 月 2 日 | [控制面板 - 產生 SSH 金鑰](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html) | 促銷活動標準 | 了解如何透過終端產生 SSH 金鑰，以及如何在控制面板中儲存公開版本的金鑰。 |
+| 2020 年 10 月 2 日 | [控制面板 - 連線至 SFTP 伺服器](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Standard | 了解如何透過用戶端 SFTP 應用程式，使用您儲存在控制面板的金鑰，連線至您的 SFTP 伺服器。 |
+| 2020 年 10 月 2 日 | [控制面板 - 產生 SSH 金鑰](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Standard | 了解如何透過終端產生 SSH 金鑰，以及如何在控制面板中儲存公開版本的金鑰。 |
 | 2020 年 11 月 2 日 | [控制面板 - 連線至 SFTP 伺服器](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何透過用戶端 SFTP 應用程式，使用您儲存在控制面板的金鑰，連線至您的 SFTP 伺服器。 |
 | 2020 年 10 月 6 日 | [控制面板 - 控制面板快速入門](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 本文說明如何存取控制面板，以及使用控制面板的先決條件。 |
-| 2020 年 10 月 6 日 | [控制面板 - 控制面板快速入門](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | 促銷活動標準 | 本文說明如何存取控制面板，以及使用控制面板的先決條件。 |
+| 2020 年 10 月 6 日 | [控制面板 - 控制面板快速入門](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文說明如何存取控制面板，以及使用控制面板的先決條件。 |
 | 2020 年 10 月 20 日 | [控制面板 - 控制面板快速入門 - 文章](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 本文說明如何存取控制面板，以及使用控制面板的先決條件。 |
-| 2020 年 10 月 20 日 | [控制面板 - 控制面板快速入門 - 文章](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | 促銷活動標準 | 本文說明如何存取控制面板，以及使用控制面板的先決條件。 |
+| 2020 年 10 月 20 日 | [控制面板 - 控制面板快速入門 - 文章](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文說明如何存取控制面板，以及使用控制面板的先決條件。 |
 | 2020 年 10 月 19 日 | [控制面板 - 新增 IP 範圍至允許清單](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 了解如何在控制面板中新增 IP 位址範圍至允許清單。 |
-| 2020 年 10 月 19 日 | [控制面板 - 新增 IP 範圍至允許清單](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | 促銷活動標準 | 了解如何在控制面板中新增 IP 位址範圍至允許清單。 |
+| 2020 年 10 月 19 日 | [控制面板 - 新增 IP 範圍至允許清單](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 了解如何在控制面板中新增 IP 位址範圍至允許清單。 |
 | 2020 年 10 月 16 日 | [控制面板 - 使用 CNAME 委派子網域 (測試版) - 功能影片](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | 了解如何使用「控制面板」中的 CNAME 來設定和提交子網域。 |
-| 2020 年 10 月 16 日 | [控制面板 - 使用 CNAME 委派子網域 (測試版) - 功能影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | 促銷活動標準 | 了解如何使用「控制面板」中的 CNAME 來設定和提交子網域。 |
+| 2020 年 10 月 16 日 | [控制面板 - 使用 CNAME 委派子網域 (測試版) - 功能影片](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Standard | 了解如何使用「控制面板」中的 CNAME 來設定和提交子網域。 |
 
 ### 說明資源
 
