@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3d0946fe6fc0bf74ec45a19931c106afb8a8208d
+source-git-commit: 5175e3e92bd445254532c614bda3f7a048f31a86
 workflow-type: tm+mt
-source-wordcount: '6185'
-ht-degree: 93%
+source-wordcount: '6419'
+ht-degree: 90%
 
 ---
 
@@ -135,6 +135,7 @@ iOS 4.21.0版
 * [Adobe Analytics 修正項目](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
 * [AppMeasurement](#appm)
+* [Report Builder](#arb)
 
 ### Adobe Analytics 新功能 {#aa-features}
 
@@ -181,6 +182,7 @@ AN-204659;AN-221726;AN-230949;AN-231984;AN-232835; AN-233989;AN-235593;AN-235989
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| 需要[!UICONTROL 報告建立工具]更新 | 2021 年 1 月 8 日 | 到2021年4月30日，所有[!UICONTROL 報告建立工具]使用者都必須將[!UICONTROL 報告建立工具]增益集更新至5.6.47版或更新版本。 此版本包含登入程式的重要更新。 未更新至5.6.47版或更新版本的使用者將無法在2021年4月30日之後登入。 [!UICONTROL 報表] 建立工具5.6.47版及更新版本僅支援Experience Cloud登入，不支援舊版登入，例如SiteCatalyst單一登入或標準登入。如需詳細資訊，請參閱[報告建立工具登入](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)。 |
 | 三種Analytics API服務的生命週期結束 | 2021 年 1 月 6 日 | 在2021年4月30日，下列Analytics舊版API服務預計會到期，並將關閉。 使用這些服務建立的任何目前整合將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供[舊版API EOL常見問答集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以協助您回答問題並提供如何繼續的指引。 採用這些服務的API整合可移轉至[1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email)和／或[2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。 Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
 | 為所有傳入的 HTTPS 要求加上 HSTS 標題 | 2020 年 9 月 29 日 | 自 2020 年 9 月 29 日起，我們開始為所有使用 HTTPS 的傳入要求加上 HSTS 標題。這會指示瀏覽器/用戶端日後一律透過 HTTPS 提出要求，以符合安全性最佳實務。目前我們還不會針對使用 HTTP 的傳入要求強制執行此規範。 |
 | 變更至[!UICONTROL Experience Cloud ID服務] Cookie設定 | 2020 年 9 月 22 日 | 一項針對 Chrome 80 版本隱私權設定的更新影響 Adobe Analytics 追蹤部分檢視 Google AMP 頁面之使用者的能力。具體來說，這項更新會防止跨網域追蹤檢視 Google 託管 AMP 頁面的使用者。如此可能導致不重複訪客的數量增加。此修正可讓使用者透過變更 ECID Cookie 設定來解決此問題。<br>目前，Analytics 的 Experience Cloud ID (ECID) 服務 Cookie 設定為 `SameSite = Lax`，而此設定在 Chrome 80 版本之前皆允許進行跨網域追蹤。但如今情況有變。使用者可透過這項變更將 ECID Cookie 的 SameSite 設定更新為 `None`。<br>請注意，這雖然會允許在更多情況下共用 Analytics Cookie，不過 Analytics Cookie 本身並不包含敏感資料。此外，選擇這項設定時，Cookie 必須設定為 `Secure`，才能僅透過 HTTPS 連線傳送資料。若想進行此一變更，請由支援的使用者透過客戶服務建立票證。 |
@@ -192,6 +194,12 @@ AN-204659;AN-221726;AN-230949;AN-231984;AN-232835; AN-233989;AN-235593;AN-235989
 ### AppMeasurement {#appm}
 
 如需 AppMeasurement 發行的最新消息，請參閱[適用於 JavaScript 的 AppMeasurement 發行說明](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/appmeasurement-updates.html)。
+
+### Report Builder {#arb}
+
+| 功能 | [全面發佈](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| ----------- | ---------- | ----- |
+| 登入更新至Analytics [!UICONTROL 報告建立工具] | 2021 年 1 月 14 日 | [!UICONTROL 報告建立工具]登入程式改進功能可移除對舊有技術的依賴，並將登入程式與Adobe Experience Cloud一致。 Experience Cloud登入可讓您使用Adobe ID或Enterprise ID（單一登入）登入Adobe Experience Cloud。 到2021年4月30日，所有[!UICONTROL 報告建立工具]使用者都必須將[!UICONTROL 報告建立工具]增益集更新至5.6.47版或更新版本。 [!UICONTROL 報] 告建立工具5.6.47版及更新版本僅支援Experience Cloud登入，不支援舊版登入，例如SiteCatalyst單一登入或標準登入。如需詳細資訊，請參閱[報告建立工具登入](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)。 |
 
 ### Analytics 說明資源
 
