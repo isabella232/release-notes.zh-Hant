@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4f4eac5843bd39369950c543749455580b1cb964
+source-git-commit: 23d521bb24f13ed6ad843b605f72f362262790c2
 workflow-type: tm+mt
-source-wordcount: '6184'
-ht-degree: 44%
+source-wordcount: '6183'
+ht-degree: 93%
 
 ---
 
@@ -103,7 +103,7 @@ iOS 4.21.0版
 | 2020 年 12 月 15 日 | [建立回退優惠方案](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/create-fallback-offers.html) | 影片 | 瞭解如何在[!UICONTROL 選件決策]中建立備援選件。 |
 | 2020年12月14日（更新） | [瞭解即時客戶個人檔案](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/understanding-the-real-time-customer-profile.html) | 影片 | 本影片說明Adobe Experience Platform如何組裝和更新即時客戶個人檔案，以及您如何存取和使用這些個人檔案。 |
 | 2020 年 12 月 10 日 | [建立標籤](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/create-tags.html) | 影片 | 瞭解如何在[!UICONTROL 選件決策]中建立標籤。 標籤是選件的選用建置區塊元件。 它們可用來組織選件，並將選件群組在動態系列中。 |
-| 2020 年 12 月 9 日 | [在選件決策中建立規則](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/create-rules.html) | 影片 | 瞭解如何在[!UICONTROL 選件決策]中建立規則。 規則是使用平台的「即時客戶個人檔案」中的事件和屬性來建立，並形成選件的資格限制。][!UICONTROL  |
+| 2020 年 12 月 9 日 | [在選件決策中建立規則](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/create-rules.html) | 影片 | 瞭解如何在[!UICONTROL 選件決策]中建立規則。 規則是使用平台的「即時客戶個人檔案」中的事件和屬性來建立，並形成選件的資格限制。 |
 | 2020 年 12 月 9 日 | [建立位置](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/create-placements.html) | 影片 | 瞭解如何在選件決策中建立位置。 位置是內容類型與頻道的組合，例如網站上電子郵件或HTML程式碼中的影像。 |
 | 2020年10月29日（更新） | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=zh-Hant) | 影片 | 了解各大品牌如何善用 Adobe 的全新 [!UICONTROL Offer Decisioning] 服務來定義及管理選件、運用即時客戶資料，並提供客戶期望的合適體驗。 |
 | 2020年10月26日（更新） | [Offer Decisioning 簡介](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 影片 | 這部影片主要概略介紹 [!UICONTROL Offer Decisioning]，這是以 Adobe Experience Platform 為基礎打造而成的應用程式服務。影片內容涵蓋 [!UICONTROL Offer Decisioning] 解決的企業難題、重要功能、基本架構和主要使用案例。 |
@@ -140,7 +140,7 @@ iOS 4.21.0版
 
 | 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
-| Analysis Workspace -元件選擇 | 2021 年 2 月 4 日 | 在[!UICONTROL Quick Insights]中找到的下拉／下拉區元件已新增至[!UICONTROL Workspace]中的所有下拉區。 此增強功能可讓您從相容元件的下拉式清單中挑選，或繼續將空間當做下拉區域使用。 |
+| 分析工作區——元件選擇 | 2021 年 2 月 4 日 | 在[!UICONTROL Quick Insights]中找到的下拉／下拉區元件已新增至[!UICONTROL Workspace]中的所有下拉區。 此增強功能可讓您從相容元件的下拉式清單中挑選，或繼續將空間當做下拉區域使用。 |
 | 分析工作區——影像URL | 2021 年 1 月 14 日 | 您可以參照公用影像URL，將影像新增至[!UICONTROL Workspace]專案。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
@@ -251,7 +251,7 @@ AEM 6.4、Service Pack 8、Cumulative Fix Pack 3（2020年11月26日發行的6.4
       * [!UICONTROL 現在] 您可透過以網站為基礎的核  心元件存取動態媒體。作者可以在建立網頁時快速設定元件，使用[!UICONTROL 影像預設集]、[!UICONTROL 智慧型裁切]和[!UICONTROL 影像修飾元]。
 請參閱[核心元件2.13.0版](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0)。
       * Experience Manager案頭應用程式可讓使用者從案頭應用程式介面的Windows檔案總管或Mac Finder中拖曳檔案，以上傳檔案和檔案夾。
-請參閱「使用案頭應用程式新增資產」。](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=en#upload-and-add-new-assets-to-aem)[
+請參閱「使用案頭應用程式新增資產」。[](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html?lang=en#upload-and-add-new-assets-to-aem)
    * **Adobe Experience Manager Commerce as a Cloud Service**
 
       * 發佈的CIF Venia參考網站- 2020.12.01，其中包含最新的CIF核心元件v1.6.0版。
@@ -453,7 +453,7 @@ Adobe Advertising Cloud 發行說明。
 
 ### Marketo Engage 核心更新
 
-如需最新版本的資訊，請參閱 [!DNL Marketo] [發行說明](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720)。
+如需最新版本的資訊，請參閱 [!DNL Marketo] [發行說明](https://docs.marketo.com/display/public/DOCS/Jan+%2721)。
 
 ### 即將推出的功能
 
@@ -469,7 +469,7 @@ Adobe Advertising Cloud 發行說明。
 * **資產 API「_method」參數：** 2020 年 9 月後，資產 API 端點將不再接受於 POST 主體中使用 `_method` 傳遞查詢參數，以略過 URI 長度限制。
 * **停止支援 Internet Explorer：**&#x200B;自 2020 年 7 月 31 日推出的版本開始，Marketo Engage 使用者介面將不再支援 Internet Explorer。
 
-如需彙整資料和過往的發行說明，請參閱 [Marketo 發行說明](https://docs.marketo.com/x/CgA6Ag)。
+如需彙整資料和過往的發行說明，請參閱 [Marketo 發行說明](https://docs.marketo.com/display/public/DOCS/Release+Notes)。
 
 ## ![圖示](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
 
