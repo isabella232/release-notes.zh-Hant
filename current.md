@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 783d8abc85c468f18d599d5ff5782dd01cb07e78
+source-git-commit: 40f7861366595738d6ba7b7ebcbbba514b2c98c7
 workflow-type: tm+mt
-source-wordcount: '6428'
-ht-degree: 90%
+source-wordcount: '6518'
+ht-degree: 89%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 90%
 * [Experience Cloud 服務與管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (發行日期：**2021 年 1 月 14 日**)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (已更新：**2021年1月12日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [促銷活動](#ac) (更新 **日期：2021年1月12日**)
@@ -141,8 +141,9 @@ iOS 4.21.0版
 
 | 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
+| 分析工作區——影像URL | 2021 年 1 月 14 日 | 您可以參照公用影像URL，將影像新增至[!UICONTROL Workspace]專案。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=en#analysis-workspace) |
+| 分析工作區——結合來源和設定管理員 | 2021 年 1 月 14 日 | 視覺化的資料來源管理員（點）和設定管理員（齒輪）已整合為單一對話方塊，因此您可以從相同位置輕鬆管理來源和設定。 |
 | 分析工作區——元件選擇 | 2021 年 2 月 4 日 | 在[!UICONTROL Quick Insights]中找到的下拉／下拉區元件已新增至[!UICONTROL Workspace]中的所有下拉區。 此增強功能可讓您從相容元件的下拉式清單中挑選，或繼續將空間當做下拉區域使用。 |
-| 分析工作區——影像URL | 2021 年 1 月 14 日 | 您可以參照公用影像URL，將影像新增至[!UICONTROL Workspace]專案。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
@@ -150,8 +151,9 @@ iOS 4.21.0版
 | ----------- | ---------- | ----- |
 | [!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度 | 2020 年 10 月 30 日 | 這些維度現在預設為Adobe Analytics [!UICONTROL Source Connector]中「全域查閱」支援專案的一部分。 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#use-global-lookups-with-adobe-data-connector-datasets)[這項備受期待的新功能可促進 [Adobe Analytics 與 CJA 之間的對等關係](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en#cja-overview)。 |
 | 歷程IQ:[!UICONTROL 跨通道分析] | 2021 年 1 月 11 日 | 歷程IQ:[!UICONTROL 跨通道Analytics]可讓您將Experience Platform資料湖中的Adobe Analytics（或其他）事件資料集從一個ID命名空間重新鍵入到另一個ID命名空間。 這通常代表將事件資料集從 Cookie 型 ID 重新輸入為人員型 ID。這樣，重新鍵入的資料集可以與CJA連接中的其他基於人的資料相結合，從而在分析工作區中實現跨設備和跨通道分析。 [深入了解](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections) |
-| 分析工作區——元件選擇 | 2021 年 2 月 4 日 | 在[!UICONTROL Quick Insights]中找到的下拉／下拉區元件已新增至[!UICONTROL Workspace]中的所有下拉區。 此增強功能可讓您從相容元件的下拉式清單中挑選，或繼續將空間當做下拉區域使用。 |
 | 分析工作區——影像URL | 2021 年 1 月 14 日 | 您可以參照公用影像URL，將影像新增至工作區專案。 |
+| 分析工作區——結合來源和設定管理員 | 2021 年 1 月 14 日 | 視覺化的資料來源管理員（點）和設定管理員（齒輪）已整合為單一對話方塊，因此您可以從相同位置輕鬆管理來源和設定。 |
+| 分析工作區——元件選擇 | 2021 年 2 月 4 日 | 在[!UICONTROL Quick Insights]中找到的下拉／下拉區元件已新增至[!UICONTROL Workspace]中的所有下拉區。 此增強功能可讓您從相容元件的下拉式清單中挑選，或繼續將空間當做下拉區域使用。 |
 
 ### Adobe Analytics 修正項目 {#aa-fixes}
 
