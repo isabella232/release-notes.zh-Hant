@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5175e3e92bd445254532c614bda3f7a048f31a86
+source-git-commit: d5d885d83774f8160e77ec34ddc4cfa92b7f10f4
 workflow-type: tm+mt
-source-wordcount: '6419'
+source-wordcount: '6414'
 ht-degree: 90%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 90%
 
 最新更新：**2020 年 12 月 9 日**
 
-如需套用至以下項目的最新更新，請參閱[Experience Platform發行說明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md):
+如需套用至以下項目的最新更新，請參閱[Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en):
 
 * [!UICONTROL 資料流]
 * [!UICONTROL Data Science Workspace]
@@ -81,7 +81,7 @@ ht-degree: 90%
 
 iOS 4.21.0版
 
-一般- SDK現在使用[!DNL XCFrameworks]進行分發，以便支援採用新Apple M1體系結構的硬體，同時保持對現有英特爾體系結構的支援。
+一般- SDK現在使用[!DNL XCFrameworks]來散發，以支援採用新Apple M1架構的硬體，同時仍支援現有的Intel架構。
 
 * 重要：升級至AdobeMobile [!DNL XCFrameworks]需要Xcode 12.0或更新版本。
 * 重要：如果使用[!DNL Cocoapods]，則升級至AdobeMobile [!DNL XCFrameworks]需要[!DNL Cocoapods] 1.10.0或更新版本。
