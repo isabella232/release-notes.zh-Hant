@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d5d885d83774f8160e77ec34ddc4cfa92b7f10f4
+source-git-commit: 783d8abc85c468f18d599d5ff5782dd01cb07e78
 workflow-type: tm+mt
-source-wordcount: '6414'
+source-wordcount: '6428'
 ht-degree: 90%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 90%
 >
 >訂閱每月[Adobe優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，以接收有關本頁更新的電子郵件通知。 本頁面會在整個月中維護，因此請定期回訪Adobe企業產品和Experience League檔案更新。
 
-最新更新：**2020年1月11日**
+最新更新：**2021年1月12日**
 
 * [Adobe系統狀態](#status) （未更新）
 * [Experience Cloud 服務與管理](#ecloud)
@@ -32,7 +32,7 @@ ht-degree: 90%
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (發行日期：**2021 年 1 月 14 日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac)
+* [促銷活動](#ac) (更新 **日期：2021年1月12日**)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
@@ -373,7 +373,7 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 
 #### Campaign Classic
 
-<!-- [Incident Response Bulletin](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (January 12) -->
+[事件回應公告](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (已更新： **(2021年1月12日**)
 
 * 20.3.3 版 - [深入了解](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
 * 20.3.1 版 - [深入了解](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
