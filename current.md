@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 40f7861366595738d6ba7b7ebcbbba514b2c98c7
+source-git-commit: 173c6f89606fb3a5fde4db91f66900476293f6b5
 workflow-type: tm+mt
-source-wordcount: '6518'
-ht-degree: 89%
+source-wordcount: '6601'
+ht-degree: 87%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 89%
 >
 >訂閱每月[Adobe優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，以接收有關本頁更新的電子郵件通知。 本頁面會在整個月中維護，因此請定期回訪Adobe企業產品和Experience League檔案更新。
 
-最新更新：**2021年1月12日**
+最新更新：**2021年1月13日**
 
 * [Adobe系統狀態](#status) （未更新）
 * [Experience Cloud 服務與管理](#ecloud)
-* [Experience Platform](#platform)
+* [Experience Platform](#platform) ( **2021年1月13日更新**)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (已更新：**2021年1月12日**)
 * [Audience Manager](#aam)
@@ -55,7 +55,10 @@ ht-degree: 89%
 
 本月無更新。
 
-如需最新發行資訊，請參閱 [Experience Cloud 服務的彙整發行說明](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/release-notes/release-notes.html)。
+**另請參閱**
+
+* [Experience Cloud服務的累計發行](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/release-notes/release-notes.html) 說明，以取得最新發行資訊。
+* [Experience Cloud ID服務發](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 行說明
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -75,7 +78,14 @@ ht-degree: 89%
 
 ### Experience Platform Launch
 
-如需 Platform Launch 的相關資訊，請參閱 [Experience Platform Launch 發行說明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html)。
+發行日期：**2021 年 1 月 13 日**
+
+**[!UICONTROL 啟動伺服器端]** ：傳送事件層級資料至AEP Edge Network，然後使用Launch Server Side，以低延遲的方式，使用Adobe的伺服器（而非用戶端）來轉換、豐富和傳送資料至非Adobe端點。[更多內容...](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+
+**另請參閱**
+
+* [Experience Platform Launch發行說](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html) 明，以取得Experience Platform Launch的相關資訊。
+* [Experience Cloud ID服務擴充版](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html) 本注意事項
 
 ### Adobe Mobile
 
@@ -149,7 +159,7 @@ iOS 4.21.0版
 
 | 功能 | [全面發佈](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
-| [!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度 | 2020 年 10 月 30 日 | 這些維度現在預設為Adobe Analytics [!UICONTROL Source Connector]中「全域查閱」支援專案的一部分。 ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#use-global-lookups-with-adobe-data-connector-datasets)[這項備受期待的新功能可促進 [Adobe Analytics 與 CJA 之間的對等關係](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en#cja-overview)。 |
+| [!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度 | 2020 年 10 月 30 日 | 這些維度現在預設為Adobe Analytics [!UICONTROL Source Connector]中「全域查閱」支援專案的一部分。 [](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#use-global-lookups-with-adobe-data-connector-datasets)這項備受期待的新功能可促進 [Adobe Analytics 與 CJA 之間的對等關係](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en#cja-overview)。 |
 | 歷程IQ:[!UICONTROL 跨通道分析] | 2021 年 1 月 11 日 | 歷程IQ:[!UICONTROL 跨通道Analytics]可讓您將Experience Platform資料湖中的Adobe Analytics（或其他）事件資料集從一個ID命名空間重新鍵入到另一個ID命名空間。 這通常代表將事件資料集從 Cookie 型 ID 重新輸入為人員型 ID。這樣，重新鍵入的資料集可以與CJA連接中的其他基於人的資料相結合，從而在分析工作區中實現跨設備和跨通道分析。 [深入了解](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections) |
 | 分析工作區——影像URL | 2021 年 1 月 14 日 | 您可以參照公用影像URL，將影像新增至工作區專案。 |
 | 分析工作區——結合來源和設定管理員 | 2021 年 1 月 14 日 | 視覺化的資料來源管理員（點）和設定管理員（齒輪）已整合為單一對話方塊，因此您可以從相同位置輕鬆管理來源和設定。 |
