@@ -23,7 +23,7 @@ ht-degree: 87%
 >
 >訂閱每月[Adobe優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，以接收有關本頁更新的電子郵件通知。 本頁面會在整個月中維護，因此請定期回訪Adobe企業產品和Experience League檔案更新。
 
-最新更新：**2021年1月13日**
+最新更新：**2021年1月12日**
 
 * [Adobe系統狀態](#status) （未更新）
 * [Experience Cloud 服務與管理](#ecloud)
