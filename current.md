@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 173c6f89606fb3a5fde4db91f66900476293f6b5
+source-git-commit: d6693c587c6622105b13410dad58ad28232388cc
 workflow-type: tm+mt
-source-wordcount: '6601'
+source-wordcount: '6618'
 ht-degree: 92%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 92%
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，接收本頁面更新的電子郵件通知。我們整個月都會維護本頁面，請定期回來查看 Adobe 企業產品和 Experience League 文件更新。
 
-最新更新：**2021年1月13日**
+最新更新：**2021年1月14日**
 
 * [Adobe 系統狀態](#status) (未更新)
 * [Experience Cloud 服務與管理](#ecloud)
-* [Experience Platform](#platform) ( **2021年1月13日更新**)
+* [Experience Platform](#platform) ( **2021年1月14日更新**)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：**2021 年 1 月 12 日**)
 * [Audience Manager](#aam)
@@ -89,9 +89,15 @@ ht-degree: 92%
 
 ### Adobe Mobile
 
+更新日期&#x200B;**2021年1月14日**
+
+iOS 4.21.1 版
+
+* 一般——修正在關閉應用程式時，可能導致sqlite例外的問題。
+
 iOS 4.21.0 版
 
-一般- SDK現在使用[!DNL XCFrameworks]來散發，以支援採用新Apple M1架構的硬體，同時仍支援現有的Intel架構。
+* 一般- SDK現在使用[!DNL XCFrameworks]來散發，以支援採用新Apple M1架構的硬體，同時仍支援現有的Intel架構。
 
 * 重要：需使用 Xcode 12.0 (含) 以上版本，才能升級至 AdobeMobile [!DNL XCFrameworks]。
 * 重要：如果使用 [!DNL Cocoapods]，升級至 AdobeMobile [!DNL XCFrameworks] 需有 [!DNL Cocoapods] 1.10.0 (含) 以上版本。
