@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 579b634c53f1a04a5c75f66e31de0dde5e5d1352
 workflow-type: tm+mt
 source-wordcount: '6788'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 * [Experience Cloud 服務與管理](#ecloud)
 * [Experience Platform](#platform) (**2021 年 1 月 14 日**&#x200B;更新)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：**2021 年 1 月 12 日**)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)(更新日期：**2021 年 1 月 12 日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac) (**2021 年 1 月 14 日**&#x200B;更新)
@@ -89,11 +89,11 @@ ht-degree: 97%
 
 ### Adobe Mobile
 
-更新日期&#x200B;**2021年1月14日**
+更新日期：**2021 年 1 月 14 日**
 
 iOS 4.21.1 版
 
-* 一般——修正在關閉應用程式期間可能導致SQLite例外的問題。
+* 一般 – 修正應用程式關閉期間可能導致 SQLite 例外的問題。
 
 iOS 4.21.0 版
 
@@ -411,13 +411,13 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 | 已發佈 | 名稱 | 解決方法 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
 | 2020 年 12 月 23 日 | [設定動態內容](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/configuring-dynamic-content.html#sending-messages) | Campaign Classic | (影片) 認識不同類型的動態內容，並了解如何建立個人化區塊和條件陳述式，套用於傳送作業。 |
-| 2020 年 12 月 23 日 | [設定和管理訂閱服務](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/configuring-and-managing-subscription-services.html) | Campaign Classic | （視訊）瞭解如何設定和管理訂閱並鎖定訂閱者。 |
-| 2020 年 12 月 22 日 | [存取內建報表](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/reporting/accessing-built-in-reports.html) | Campaign Classic | （視訊）  瞭解  在Campaign Classic中建立報告與分析，並瞭解如何產生傳送報表。 |
-| 2020 年 12 月 22 日 | [疑難排解電子郵件傳送問題](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/troubleshooting-email-delivery-issues.html) | Campaign Classic | （視訊）瞭解如何疑難排解傳送問題。 |
-| 2020 年 12 月 18 日 | [建立直接郵件傳送](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/tutorials/sending-messages/direct-mail/creating-direct-mail-deliveries.html) | Campaign Classic | （視訊）瞭解如何建立直接郵件傳送並在促銷活動中使用種子地址。 |
-| 2020 年 12 月 18 日 | [管理促銷活動中的核准  ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/managing-approvals.html) | Campaign Classic | （視訊）瞭解如何設定核准和促銷活動，以及如何區分傳送和工作流程核准。 |
-| 2020 年 12 月 18 日 | [執行促銷活動](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/orchestration/executing-a-campaign.html) | Campaign Classic | （視訊）瞭解如何執行促銷活動、檢閱電子郵件傳送和傳送屬性。 |
-| 2020 年 12 月 15 日 | [擴充應用程式訂閱結構以個人化推播通知](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html) | Campaign Classic | （視訊）瞭解如何延伸應用程式訂閱結構，以便能夠儲存Campaign從行動應用程式收到的個人化值。 |
+| 2020 年 12 月 23 日 | [設定及管理訂閱服務](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/configuring-and-managing-subscription-services.html) | Campaign Classic | (影片) 了解如何設定及管理訂閱和目標訂閱者。 |
+| 2020 年 12 月 22 日 | [存取內建報表](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/reporting/accessing-built-in-reports.html) | Campaign Classic | (影片) 了解 Campaign Classic 中的內建報表與分析，以及如何產生傳送報表。 |
+| 2020 年 12 月 22 日 | [疑難排解電子郵件傳送問題](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/troubleshooting-email-delivery-issues.html) | Campaign Classic | (影片) 了解如何疑難排解傳送問題。 |
+| 2020 年 12 月 18 日 | [建立直接郵件傳送](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/tutorials/sending-messages/direct-mail/creating-direct-mail-deliveries.html) | Campaign Classic | (影片) 了解如何建立直接郵件傳送，以及在行銷活動中使用種子地址。 |
+| 2020 年 12 月 18 日 | [管理行銷活動中的核准](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/managing-approvals.html) | Campaign Classic | (影片) 了解如何設定核准和行銷活動，以及如何區分傳送和工作流程核准。 |
+| 2020 年 12 月 18 日 | [執行行銷活動](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/orchestration/executing-a-campaign.html) | Campaign Classic | (影片) 了解如何執行行銷活動、審核電子郵件傳送和傳送屬性。 |
+| 2020 年 12 月 15 日 | [擴充應用程式訂閱結構，使推播通知個人化](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html) | Campaign Classic | (影片) 了解如何擴充應用程式訂閱結構，以儲存 Campaign 從行動應用程式收到的個人化值。 |
 
 ## ![圖示](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
