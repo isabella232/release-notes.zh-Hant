@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 579b634c53f1a04a5c75f66e31de0dde5e5d1352
 workflow-type: tm+mt
 source-wordcount: '6788'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 90%
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，接收本頁面更新的電子郵件通知。我們整個月都會維護本頁面，請定期回來查看 Adobe 企業產品和 Experience League 文件更新。
 
-最新更新：**2021年1月14日**
+最新更新：**2021 年 1 月 14 日**
 
 * [Adobe 系統狀態](#status) (未更新)
 * [Experience Cloud 服務與管理](#ecloud)
-* [Experience Platform](#platform) ( **2021年1月14日更新**)
+* [Experience Platform](#platform) (**2021 年 1 月 14 日**&#x200B;更新)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：**2021 年 1 月 12 日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [促銷活動](#ac) (更新 **日期：2021年1月14日**)
+* [Campaign](#ac) (**2021 年 1 月 14 日**&#x200B;更新)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
@@ -57,8 +57,8 @@ ht-degree: 90%
 
 **另請參閱**
 
-* [Experience Cloud服務的累計發行](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/release-notes/release-notes.html) 說明，以取得最新發行資訊。
-* [Experience Cloud ID服務發](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 行說明
+* [Experience Cloud 服務的彙整發行說明](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/release-notes/release-notes.html)，以獲得最新發佈資訊。
+* [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html)發行說明
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -70,7 +70,7 @@ ht-degree: 90%
 
 最新更新：**2020 年 12 月 9 日**
 
-如需適用於下列項目的最新更新，請參閱 [Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en)：
+如需適用於下列項目的最新更新，請參閱 [Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)：
 
 * [!UICONTROL 資料流]
 * [!UICONTROL Data Science Workspace]
@@ -80,12 +80,12 @@ ht-degree: 90%
 
 發行日期：**2021 年 1 月 13 日**
 
-**[!UICONTROL 啟動伺服器端]** ：傳送事件層級資料至AEP Edge Network，然後使用Launch Server Side，以低延遲的方式，使用Adobe的伺服器（而非用戶端）來轉換、豐富和傳送資料至非Adobe端點。[更多內容...](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+**[!UICONTROL Launch Server Side]：**&#x200B;將事件層級的資料傳送至 AEP Edge Network，然後使用 Launch Server Side，透過 Adobe 的伺服器 (而非用戶端) 低延遲轉換及充實該資料，並傳送至 Adobe 以外的端點。[深入了解...](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=zh-Hant#server-side-info)
 
 **另請參閱**
 
-* [Experience Platform Launch發行說](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html) 明，以取得Experience Platform Launch的相關資訊。
-* [Experience Cloud ID服務擴充版](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html) 本注意事項
+* [Experience Platform Launch 發行說明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html)，以獲得 Experience Platform Launch 的相關資訊。
+* [Experience Cloud ID 服務擴充功能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html)發行說明
 
 ### Adobe Mobile
 
@@ -97,7 +97,7 @@ iOS 4.21.1 版
 
 iOS 4.21.0 版
 
-* 一般- SDK現在使用[!DNL XCFrameworks]來散發，以支援採用新Apple M1架構的硬體，同時仍支援現有的Intel架構。
+* 一般 - 現已使用 [!DNL XCFrameworks] 發佈 SDK，以支援採用全新 Apple M1 架構的硬體，同時持續支援現有的 Intel 架構。
 
 * 重要：需使用 Xcode 12.0 (含) 以上版本，才能升級至 AdobeMobile [!DNL XCFrameworks]。
 * 重要：如果使用 [!DNL Cocoapods]，升級至 AdobeMobile [!DNL XCFrameworks] 需有 [!DNL Cocoapods] 1.10.0 (含) 以上版本。
@@ -157,8 +157,8 @@ iOS 4.21.0 版
 
 | 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
-| Analysis Workspace – 影像 URL | 2021 年 1 月 14 日 | 您可以參照公用影像 URL，將影像新增至 [!UICONTROL Workspace] 專案。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=en#analysis-workspace) |
-| 分析工作區——結合來源和設定管理員 | 2021 年 1 月 14 日 | 視覺化的資料來源管理員（點）和設定管理員（齒輪）已整合為單一對話方塊，因此您可以從相同位置輕鬆管理來源和設定。 |
+| Analysis Workspace – 影像 URL | 2021 年 1 月 14 日 | 您可以參照公用影像 URL，將影像新增至 [!UICONTROL Workspace] 專案。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=zh-Hant#analysis-workspace) |
+| Analysis Workspace - 整合來源和設定管理器 | 2021 年 1 月 14 日 | 視覺效果的資料來源管理器 (圓點) 和設定管理器 (齒輪) 已整合至同一個對話方塊，以便您在同一位置輕鬆管理來源和設定。 |
 | Analysis Workspace – 選取元件 | 2021 年 2 月 4 日 | [!UICONTROL Workspace] 的所有拖放區域已新增 [!UICONTROL Quick Insights] 的下拉/拖放區域元件。有了這項增強功能，您就能從相容元件的下拉式清單中挑選項目，或繼續將該空間作為拖放區域使用。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
@@ -168,7 +168,7 @@ iOS 4.21.0 版
 | [!UICONTROL 「裝置」]和[!UICONTROL 「地理位置」]維度 | 2020 年 10 月 30 日 | Adobe Analytics [!UICONTROL 來源連接器]的[「全域查詢」](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#use-global-lookups-with-adobe-data-connector-datasets)支援專案現已預設提供這些維度。這項備受期待的新功能可促進 [Adobe Analytics 與 CJA 之間的對等關係](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=zh-Hant#cja-overview)。 |
 | 歷程 IQ：[!UICONTROL 跨管道分析] | 2021 年 1 月 11 日 | 歷程 IQ：[!UICONTROL 跨管道分析]能協助您將 Experience Platform 資料湖的 Adobe Analytics (或其他) 事件資料集，從原 ID 命名空間重新輸入至其他 ID 命名空間。這通常代表將事件資料集從 Cookie 型 ID 重新輸入為人員型 ID。如此一來，重新輸入的資料集可與 CJA 連線中的其他人員型資料結合，從而在 Analysis Workspace 中執行跨裝置和跨管道分析。[深入了解](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections) |
 | Analysis Workspace – 影像 URL | 2021 年 1 月 14 日 | 您可以參照公用影像 URL，將影像新增至 Workspace 專案。 |
-| 分析工作區——結合來源和設定管理員 | 2021 年 1 月 14 日 | 視覺化的資料來源管理員（點）和設定管理員（齒輪）已整合為單一對話方塊，因此您可以從相同位置輕鬆管理來源和設定。 |
+| Analysis Workspace - 整合來源和設定管理器 | 2021 年 1 月 14 日 | 視覺效果的資料來源管理器 (圓點) 和設定管理器 (齒輪) 已整合至同一個對話方塊，以便您在同一位置輕鬆管理來源和設定。 |
 | Analysis Workspace – 選取元件 | 2021 年 2 月 4 日 | [!UICONTROL Workspace] 的所有拖放區域已新增 [!UICONTROL Quick Insights] 的下拉/拖放區域元件。有了這項增強功能，您就能從相容元件的下拉式清單中挑選項目，或繼續將該空間作為拖放區域使用。 |
 
 ### Adobe Analytics 修正項目 {#aa-fixes}
@@ -200,7 +200,7 @@ AN-204659；AN-221726；AN-230949；AN-231984；AN-232835；AN-233989；AN-23559
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| 需要[!UICONTROL 報告建立工具]更新 | 2021 年 1 月 8 日 | 到2021年4月30日，所有[!UICONTROL 報告建立工具]使用者都必須將[!UICONTROL 報告建立工具]增益集更新至5.6.47版或更新版本。 此版本包含登入程式的重要更新。 未更新至5.6.47版或更新版本的使用者將無法在2021年4月30日之後登入。 [!UICONTROL 報表] 建立工具5.6.47版及更新版本僅支援Experience Cloud登入，不支援舊版登入，例如SiteCatalyst單一登入或標準登入。如需詳細資訊，請參閱[報告建立工具登入](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)。 |
+| 務必更新 [!UICONTROL Report Builder] | 2021 年 1 月 8 日 | 2021 年 4 月 30 日前，所有 [!UICONTROL Report Builder] 使用者都必須將 [!UICONTROL Report Builder] 增益集更新至 5.6.47 版或更新版本。此版本包含登入程序的重大更新。如未更新至 5.6.47 版或更新版本，2021 年 4 月 30 日後將無法登入。[!UICONTROL Report Builder] 5.6.47 版及更新版本僅支援 Experience Cloud 登入，不支援 SiteCatalyst 單一登入或標準登入等舊版登入。如需詳細資訊，請參閱 [Report Builder 登入](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=zh-Hant#section_6D54B8ADAE7F416BB83F5082B3771CFA)。 |
 | 三個 Analytics API 服務終止運作 | 2021 年 1 月 6 日 | 下列 Analytics Legacy API 服務預計在 2021 年 4 月 30 日結束生命週期並關閉。所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合功能可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 及/或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
 | 為所有傳入的 HTTPS 要求加上 HSTS 標題 | 2020 年 9 月 29 日 | 自 2020 年 9 月 29 日起，我們開始為所有使用 HTTPS 的傳入要求加上 HSTS 標題。這會指示瀏覽器/用戶端日後一律透過 HTTPS 提出要求，以符合安全性最佳實務。目前我們還不會針對使用 HTTP 的傳入要求強制執行此規範。 |
 | 變更 [!UICONTROL Experience Cloud ID 服務] Cookie 設定 | 2020 年 9 月 22 日 | 一項針對 Chrome 80 版本隱私權設定的更新影響 Adobe Analytics 追蹤部分檢視 Google AMP 頁面之使用者的能力。具體來說，這項更新會防止跨網域追蹤檢視 Google 託管 AMP 頁面的使用者。如此可能導致不重複訪客的數量增加。此修正可讓使用者透過變更 ECID Cookie 設定來解決此問題。<br>目前，Analytics 的 Experience Cloud ID (ECID) 服務 Cookie 設定為 `SameSite = Lax`，而此設定在 Chrome 80 版本之前皆允許進行跨網域追蹤。但如今情況有變。使用者可透過這項變更將 ECID Cookie 的 SameSite 設定更新為 `None`。<br>請注意，這雖然會允許在更多情況下共用 Analytics Cookie，不過 Analytics Cookie 本身並不包含敏感資料。此外，選擇這項設定時，Cookie 必須設定為 `Secure`，才能僅透過 HTTPS 連線傳送資料。若想進行此一變更，請由支援的使用者透過客戶服務建立票證。 |
@@ -217,7 +217,7 @@ AN-204659；AN-221726；AN-230949；AN-231984；AN-232835；AN-233989；AN-23559
 
 | 功能 | [全面發佈](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
-| 登入更新至Analytics [!UICONTROL 報告建立工具] | 2021 年 1 月 14 日 | [!UICONTROL 報告建立工具]登入程式改進功能可移除對舊有技術的依賴，並將登入程式與Adobe Experience Cloud一致。 Experience Cloud登入可讓您使用Adobe ID或Enterprise ID（單一登入）登入Adobe Experience Cloud。 到2021年4月30日，所有[!UICONTROL 報告建立工具]使用者都必須將[!UICONTROL 報告建立工具]增益集更新至5.6.47版或更新版本。 [!UICONTROL 報] 告建立工具5.6.47版及更新版本僅支援Experience Cloud登入，不支援舊版登入，例如SiteCatalyst單一登入或標準登入。如需詳細資訊，請參閱[報告建立工具登入](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)。 |
+| Analytics [!UICONTROL Report Builder] 登入更新 | 2021 年 1 月 14 日 | [!UICONTROL Report Builder] 登入程序經過改善後，可擺脫對舊有技術的依賴，並與 Adobe Experience Cloud 維持一致。Experience Cloud 登入可讓您使用 Adobe ID 或 Enterprise ID (單一登入) 登入 Adobe Experience Cloud。2021 年 4 月 30 日前，所有 [!UICONTROL Report Builder] 使用者都必須將 [!UICONTROL Report Builder] 增益集更新至 5.6.47 版或更新版本。[!UICONTROL Report Builder] 5.6.47 版及更新版本僅支援 Experience Cloud 登入，不支援 SiteCatalyst 單一登入或標準登入等舊版登入。如需詳細資訊，請參閱 [Report Builder 登入](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)。 |
 
 ### Analytics 說明資源
 
@@ -385,7 +385,7 @@ Campaign Classic、Campaign Standard 和控制面板的發行資訊。
 
 #### Campaign Classic
 
-[事件回應公告](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (已更新： **(2021年1月12日**)
+[事件回應公告](https://helpx.adobe.com/tw/security/products/campaign/apsb21-04.html) (更新日期：**2021 年 1 月 12 日**)
 
 * 20.3.3 版 - [深入了解](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
 * 20.3.1 版 - [深入了解](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
