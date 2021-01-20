@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 579b634c53f1a04a5c75f66e31de0dde5e5d1352
+source-git-commit: 6d3d54f4926936ced5c9025e563cdfeec59f4a1f
 workflow-type: tm+mt
-source-wordcount: '6788'
-ht-degree: 100%
+source-wordcount: '6796'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 * [Experience Cloud 服務與管理](#ecloud)
 * [Experience Platform](#platform) (**2021 年 1 月 14 日**&#x200B;更新)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)(更新日期：**2021 年 1 月 12 日**)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)(更新日期：**2021 年 1 月 20 日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac) (**2021 年 1 月 14 日**&#x200B;更新)
@@ -149,7 +149,7 @@ iOS 4.21.0 版
 * [Adobe Analytics 新功能](#aa-features)
 * [Customer Journey Analytics 新功能](#cust-journey)
 * [Adobe Analytics 修正項目](#aa-fixes)
-* [給 Analytics 管理員的重要通知](#aa-notices)
+* [給 Analytics 管理員的重要通知](#aa-notices)（更新日期：2021年1月20日）
 * [AppMeasurement](#appm)
 * [Report Builder](#arb)
 
@@ -200,6 +200,7 @@ AN-204659；AN-221726；AN-230949；AN-231984；AN-232835；AN-233989；AN-23559
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| 終止 Ad Hoc Analysis 服務 | 2021年1月21日 | 在2021年3月1日，臨機分析即將終止。 屆時，所有運用本產品的專案和排程將停止運作。 如需詳細資訊，請造訪[探索工作區](https://adobe.ly/discoverworkspace)。 |
 | 務必更新 [!UICONTROL Report Builder] | 2021 年 1 月 8 日 | 2021 年 4 月 30 日前，所有 [!UICONTROL Report Builder] 使用者都必須將 [!UICONTROL Report Builder] 增益集更新至 5.6.47 版或更新版本。此版本包含登入程序的重大更新。如未更新至 5.6.47 版或更新版本，2021 年 4 月 30 日後將無法登入。[!UICONTROL Report Builder] 5.6.47 版及更新版本僅支援 Experience Cloud 登入，不支援 SiteCatalyst 單一登入或標準登入等舊版登入。如需詳細資訊，請參閱 [Report Builder 登入](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=zh-Hant#section_6D54B8ADAE7F416BB83F5082B3771CFA)。 |
 | 三個 Analytics API 服務終止運作 | 2021 年 1 月 6 日 | 下列 Analytics Legacy API 服務預計在 2021 年 4 月 30 日結束生命週期並關閉。所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合功能可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 及/或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
 | 為所有傳入的 HTTPS 要求加上 HSTS 標題 | 2020 年 9 月 29 日 | 自 2020 年 9 月 29 日起，我們開始為所有使用 HTTPS 的傳入要求加上 HSTS 標題。這會指示瀏覽器/用戶端日後一律透過 HTTPS 提出要求，以符合安全性最佳實務。目前我們還不會針對使用 HTTP 的傳入要求強制執行此規範。 |
@@ -207,7 +208,6 @@ AN-204659；AN-221726；AN-230949；AN-231984；AN-232835；AN-233989；AN-23559
 | 從 `omniture.com` 移轉至 `adobe.com` 網域 | 2020 年 8 月 21 日 | 2020 年 8 月 13 日，Adobe Analytics 將前端架構從 `omniture.com|http://omniture.com/` 移轉至 `adobe.com|http://adobe.com/` 網域。此變更應可紓解 2020 年 5 月 28 日初次統一產品網域後發生的第三方 Cookie 問題。更新後，瀏覽器可能會提示使用者將 `.adobe.com|http://an.adobe.com/` 或 `experience.adobe.com|http://experience.adobe.com/` 等新網域加入信任清單。 |
 | 更新 Ad Hoc Analysis Java 8 相容性 | 2020 年 8 月 21 日 | Ad Hoc Analysis 目前與 Java 8 1.8.0_261 以後的版本不相容。為確保您在[產品生命週期](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)結束前能順利存取此工具，建議您持續使用 1.8.0_261 之前的 Java 8 版本。 |
 | Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange 合作夥伴計畫已推出一項新標準](https://partners.adobe.com/tw/exchangeprogram/experiencecloud)，任何希望能繼續使用服務及取得支援的整合項目，都應採用此標準。確切日期仍未決定，但預計未來 12 至 18 個月內 (2021 年中至 2021 年底) 將會正式終止服務。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/import/dataconnectors/data-connectors-eol.html) |
-| 終止 Ad Hoc Analysis 服務 | 2018 年 8 月 6 日 | Adobe 已宣佈有意於 2021 年 3 月 1 日終止 Ad Hoc Analysis 服務。如需詳細資訊，請造訪[探索工作區](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 
 ### AppMeasurement {#appm}
 
