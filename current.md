@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 05cf9f34a835a5d51013789909508c353827315e
+source-git-commit: b974424e1aa557063f54a12aed537a62c283779b
 workflow-type: tm+mt
-source-wordcount: '6770'
+source-wordcount: '6772'
 ht-degree: 98%
 
 ---
@@ -23,20 +23,20 @@ ht-degree: 98%
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，接收本頁面更新的電子郵件通知。我們整個月都會維護本頁面，請定期回來查看 Adobe 企業產品和 Experience League 文件更新。
 
-最新更新：**2021 年 1 月 14 日**
+最新更新：**2021 年 1 月 22 日**
 
 * [Adobe 系統狀態](#status) (未更新)
 * [Experience Cloud 服務與管理](#ecloud)
-* [Experience Platform](#platform) (**2021 年 1 月 14 日**&#x200B;更新)
+* [Experience Platform](#platform) (2021 年 1 月 14 日更新)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：**2021 年 1 月 20 日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac) (**2021 年 1 月 14 日**&#x200B;更新)
-* [Advertising Cloud](#adcloud)
+* [Campaign](#ac) (2021 年 1 月 14 日更新)
+* [Advertising Cloud](#adcloud) ( **2021年1月22日更新**)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
-* [[!DNL Marketo Engage]](#marketo) (更新日期：**2021 年 1 月 11 日**)
+* [[!DNL Marketo Engage]](#marketo) (更新日期：2021 年 1 月 11 日)
 * [Document Cloud](#doc-cloud)
 
 需要協助嗎？請造訪 [Adobe Experience League](https://experienceleague.adobe.com/#home)，尋找產品和技術文件、Adobe 策畫的課程、教學課程影片、快速解答、社群見解，以及由講師授課的訓練課程。內容已從 `docs.adobe.com` 移至此處，請更新書籤。
