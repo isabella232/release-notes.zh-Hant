@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b974424e1aa557063f54a12aed537a62c283779b
+source-git-commit: 9f09b05b1764f65ec18f108b1e45942e58ce89fb
 workflow-type: tm+mt
 source-wordcount: '6772'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 * [Experience Cloud 服務與管理](#ecloud)
 * [Experience Platform](#platform) (2021 年 1 月 14 日更新)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：**2021 年 1 月 20 日**)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：**2021 年 1 月 25 日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac) (2021 年 1 月 14 日更新)
@@ -159,7 +159,7 @@ iOS 4.21.0 版
 | ----------- | ---------- | ------- |
 | Analysis Workspace – 影像 URL | 2021 年 1 月 14 日 | 您可以參照公用影像 URL，將影像新增至 [!UICONTROL Workspace] 專案。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=zh-Hant#analysis-workspace) |
 | Analysis Workspace - 整合來源和設定管理器 | 2021 年 1 月 14 日 | 視覺效果的資料來源管理器 (圓點) 和設定管理器 (齒輪) 已整合至同一個對話方塊，以便您在同一位置輕鬆管理來源和設定。 |
-| Analysis Workspace – 選取元件 | 2021 年 2 月 4 日 | [!UICONTROL Workspace] 的所有拖放區域已新增 [!UICONTROL Quick Insights] 的下拉/拖放區域元件。有了這項增強功能，您就能從相容元件的下拉式清單中挑選項目，或繼續將該空間作為拖放區域使用。 |
+| Analysis Workspace – 選取元件 | 2021 年 2 月 16 日 | [!UICONTROL Workspace] 的所有拖放區域已新增 [!UICONTROL Quick Insights] 的下拉/拖放區域元件。有了這項增強功能，您就能從相容元件的下拉式清單中挑選項目，或繼續將該空間作為拖放區域使用。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
@@ -169,7 +169,7 @@ iOS 4.21.0 版
 | 歷程 IQ：[!UICONTROL 跨管道分析] | 2021 年 1 月 11 日 | 歷程 IQ：[!UICONTROL 跨管道分析]能協助您將 Experience Platform 資料湖的 Adobe Analytics (或其他) 事件資料集，從原 ID 命名空間重新輸入至其他 ID 命名空間。這通常代表將事件資料集從 Cookie 型 ID 重新輸入為人員型 ID。如此一來，重新輸入的資料集可與 CJA 連線中的其他人員型資料結合，從而在 Analysis Workspace 中執行跨裝置和跨管道分析。[深入了解](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections) |
 | Analysis Workspace – 影像 URL | 2021 年 1 月 14 日 | 您可以參照公用影像 URL，將影像新增至 Workspace 專案。 |
 | Analysis Workspace - 整合來源和設定管理器 | 2021 年 1 月 14 日 | 視覺效果的資料來源管理器 (圓點) 和設定管理器 (齒輪) 已整合至同一個對話方塊，以便您在同一位置輕鬆管理來源和設定。 |
-| Analysis Workspace – 選取元件 | 2021 年 2 月 4 日 | [!UICONTROL Workspace] 的所有拖放區域已新增 [!UICONTROL Quick Insights] 的下拉/拖放區域元件。有了這項增強功能，您就能從相容元件的下拉式清單中挑選項目，或繼續將該空間作為拖放區域使用。 |
+| Analysis Workspace – 選取元件 | 2021 年 2 月 16 日 | [!UICONTROL Workspace] 的所有拖放區域已新增 [!UICONTROL Quick Insights] 的下拉/拖放區域元件。有了這項增強功能，您就能從相容元件的下拉式清單中挑選項目，或繼續將該空間作為拖放區域使用。 |
 
 ### Adobe Analytics 修正項目 {#aa-fixes}
 
