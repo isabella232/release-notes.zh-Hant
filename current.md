@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b974424e1aa557063f54a12aed537a62c283779b
 workflow-type: tm+mt
 source-wordcount: '6772'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -432,20 +432,20 @@ Adobe Advertising Cloud 發行說明。
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 新增說明 | （10月28日發行版）舊版說明已取代為更新頁面，這些頁面可從DSP主功能表的「說明」連結取得，而且隨時都可從[https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html)取得 |
-| Campaigns | （10月28日發行）先前的「促銷活動測試版」檢視現在是預設的「促銷活動」檢視，可讓您更快地獲得深入資訊、簡化工作流程和自訂檢視。 |
+| 新增說明 | (10 月 28 日發行) 舊版說明已更換為更新頁面，您可以透過 DSP 主功能表的「說明」連結加以存取，也可以隨時前往 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html) 參閱內容。 |
+| Campaigns | (10 月 28 日發行) 先前的 Campaigns 測試版檢視現已成為 Campaigns 預設檢視，能提供更快速的深入分析、簡潔的工作流程和自訂檢視。 |
 | 私人詳細目錄 | (10 月 15 日發行) 所有使用者現在都能使用新交易 ID 表單來設定及編輯交易 ID 詳細資訊，此表單是舊版[!UICONTROL 「智慧型廣告服務」]表單的簡化版本。若要設定新交易 ID 詳細資訊，請前往&#x200B;**[!UICONTROL 「詳細目錄 > 交易」]**，按一下&#x200B;**[!UICONTROL 「建立」]**，然後按一下&#x200B;**[!UICONTROL 「交易 ID 測試版」]**。 |
 | 刊登版位預測 | (10 月 15 日發行) 若刊登版位具有從刊登版位層級調整的設計，其設定的[!UICONTROL 「預測」]區段現已加入新的[!UICONTROL 「預估上限」]區段，能顯示目前的鎖定目標設定有多少容量可用。 |
 
 ### [!DNL Advertising Cloud Search] 中的新功能{#adcloud-search}
 
-上次更新日期：**2021年1月22日，1月23日發行**
+更新日期：**2021 年 1 月 22 日 (1 月 23 日發行)**
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| [!UICONTROL 搜尋 Campaigns]<br> 報表 | Advertising Cloud Search不再報告Microsoft Advertising促銷活動的新平均職位資料。 「平均位置」欄顯示從1月23日開始的日期的值為零(0)。 這是為微軟在2021年1月取消平均職位資料做準備。<br>截至1月22日的平均職位資料仍可用於報表。 |
+| [!UICONTROL 搜尋 Campaigns]<br> 報表 | Advertising Cloud Search 不再針對 Microsoft Advertising 促銷活動的新平均位置資料製作報表。從 1 月 23 日開始，「平均位置」欄的值會一律顯示為 0。這是為了因應 Microsoft 在 2021 年 1 月汰除平均位置資料所做的準備。<br>報表中仍會提供截至 1 月 22 日前所收集的平均位置資料。 |
 
-### Advertising Cloud教學課程和課程
+### Advertising Cloud 教學課程和課程
 
 更新日期：**2020 年 12 月 2 日**
 
