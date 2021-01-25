@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b974424e1aa557063f54a12aed537a62c283779b
 workflow-type: tm+mt
 source-wordcount: '6772'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac) (2021 年 1 月 14 日更新)
-* [Advertising Cloud](#adcloud) ( **2021年1月22日更新**)
+* [Advertising Cloud](#adcloud) (更新日期：**2021 年 1 月 22 日**)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo) (更新日期：2021 年 1 月 11 日)
