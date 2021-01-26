@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0c154b63cee0bd27b900101f535fc0224b82438c
+source-git-commit: 7f58dcf4014b96f0aa651b16b90427a2a81ba374
 workflow-type: tm+mt
-source-wordcount: '6776'
+source-wordcount: '6802'
 ht-degree: 99%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 99%
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，接收本頁面更新的電子郵件通知。我們整個月都會維護本頁面，請定期回來查看 Adobe 企業產品和 Experience League 文件更新。
 
-最新更新：**2021 年 1 月 22 日**
+最新更新：**2021 年 1 月 25 日**
 
 * [Adobe 系統狀態](#status) (未更新)
 * [Experience Cloud 服務與管理](#ecloud)
-* [Experience Platform](#platform) (2021 年 1 月 14 日更新)
+* [Experience Platform](#platform)**(2021 年 1 月 25 日更新**)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：**2021 年 1 月 25 日**)
 * [Audience Manager](#aam)
@@ -52,8 +52,6 @@ ht-degree: 99%
 ## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 服務與管理 {#ecloud}
 
 [Experience Cloud 服務與管理](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html)文件包含客戶屬性、對象庫 ([!UICONTROL People] 服務) 啟用、使用者和產品管理，以及 Experience Cloud Cookie。
-
-本月無更新。
 
 **另請參閱**
 
@@ -82,10 +80,14 @@ ht-degree: 99%
 
 **[!UICONTROL Launch Server Side]：**&#x200B;將事件層級的資料傳送至 AEP Edge Network，然後使用 Launch Server Side，透過 Adobe 的伺服器 (而非用戶端) 低延遲轉換及充實該資料，並傳送至 Adobe 以外的端點。[深入了解...](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=zh-Hant#server-side-info)
 
+更新日期：**2021 年 1 月 25 日**:
+
+Experience Cloud ID服務擴充功能&#x200B;**5.1.1**&#x200B;已發行。 如需詳細資訊，請參閱[Experience Cloud ID服務擴充功能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html)發行說明。
+
 **另請參閱**
 
 * [Experience Platform Launch 發行說明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html)，以獲得 Experience Platform Launch 的相關資訊。
-* [Experience Cloud ID 服務擴充功能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html)發行說明
+* [Experience Cloud ID 服務擴充功能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html)發行說明。
 
 ### Adobe Mobile
 
