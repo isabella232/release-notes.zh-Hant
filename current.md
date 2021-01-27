@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 7f58dcf4014b96f0aa651b16b90427a2a81ba374
 workflow-type: tm+mt
 source-wordcount: '6802'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -80,9 +80,9 @@ ht-degree: 99%
 
 **[!UICONTROL Launch Server Side]：**&#x200B;將事件層級的資料傳送至 AEP Edge Network，然後使用 Launch Server Side，透過 Adobe 的伺服器 (而非用戶端) 低延遲轉換及充實該資料，並傳送至 Adobe 以外的端點。[深入了解...](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=zh-Hant#server-side-info)
 
-更新日期：**2021 年 1 月 25 日**:
+更新日期：**2021 年 1 月 25 日**
 
-Experience Cloud ID服務擴充功能&#x200B;**5.1.1**&#x200B;已發行。 如需詳細資訊，請參閱[Experience Cloud ID服務擴充功能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html)發行說明。
+Experience Cloud ID 服務擴充功能 **5.1.1** 已正式發行。如需詳細資訊，請參閱 [Experience Cloud ID 服務擴充功能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html)發行說明。
 
 **另請參閱**
 
@@ -148,8 +148,8 @@ iOS 4.21.0 版
 
 發行日期：**2021 年 1 月 14 日**
 
-* [Adobe Analytics的新功能](#aa-features) （2021年1月25日更新）
-* [客戶歷程分析的新功能](#cust-journey) （2021年1月25日更新）
+* [Adobe Analytics 的新功能](#aa-features) (2021 年 1 月 25 日更新)
+* [Customer Journey Analytics 的新功能](#cust-journey) (2021 年 1 月 25 日更新)
 * [Adobe Analytics 修正項目](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices) (更新日期：2021 年 1 月 20 日)
 * [AppMeasurement](#appm)
@@ -445,7 +445,7 @@ Adobe Advertising Cloud 發行說明。
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| [!UICONTROL 搜尋 Campaigns]<br> 報表 | Advertising Cloud Search 不再針對 Microsoft Advertising 促銷活動的新平均位置資料製作報表。從 1 月 23 日開始，「平均位置」欄的值會一律顯示為 0。這是為了因應 Microsoft 在 2021 年 1 月汰除平均位置資料所做的準備。<br>報表中仍會提供截至 1 月 22 日前所收集的平均位置資料。 |
+| [!UICONTROL 搜尋 Campaigns]<br>報表 | Advertising Cloud Search 不再針對 Microsoft Advertising 促銷活動的新平均位置資料製作報表。從 1 月 23 日開始，「平均位置」欄的值會一律顯示為 0。這是為了因應 Microsoft 在 2021 年 1 月汰除平均位置資料所做的準備。<br>報表中仍會提供截至 1 月 22 日前所收集的平均位置資料。 |
 
 ### Advertising Cloud 教學課程和課程
 
