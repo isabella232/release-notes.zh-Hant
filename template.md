@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2626d0f793d4d7d59dc08527443bca66a3dbdd03
+source-git-commit: 336fa0b2b5b27060bcdb6590ba8e5795c2dbbf8f
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 94%
+source-wordcount: '1349'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Cloud 的新功能及修正項目。
 
 >[!IMPORTANT]
 >
->此頁面含有搶先版內容，於預計發行前可能會有所變更。
+>本頁包含發行前內容，並可能在發行日期之前有所變更。
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Experience Cloud 介面的新功能和修正項目，包括管理和核心服務
 
 功能和修正。
 
-For product documentation, see [Experience Cloud interface](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html)
+如需產品檔案，請參閱[Experience Cloud介面](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html)
 
 ### 管理與開發人員 {#admin}
 
@@ -307,7 +307,7 @@ Marketo Engage是銷售機會管理和B2B行銷人員的完整解決方案，希
    * 登陸頁面重新導向規則 API
 * **表單描述元快取：**&#x200B;改善登陸頁面與表單。
 
-See Marketo release notes for [February 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) for more information.
+如需詳細資訊，請參閱[ 2020年2月](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)的Marketo發行說明。
 
 ### 即將推出的功能
 
