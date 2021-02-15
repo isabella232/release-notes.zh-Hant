@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 10f5e323e30ed0c4c8b3b5b2e2236674b2ab6c69
+source-git-commit: 150911084be7da0d1f3c887d76a7b897ac94a173
 workflow-type: tm+mt
 source-wordcount: '6355'
 ht-degree: 32%
@@ -107,7 +107,7 @@ Experience Cloud解決方案和服務每月更新一次。 本頁是您尋找[!D
 
 ## ![圖示](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-發行日期：**2021 年 1 月 14 日**
+發行日期: **2021 年 2 月 18 日**
 
 * [Adobe Analytics 新功能](#aa-features)
 * [Customer Journey Analytics 新功能](#cust-journey)
