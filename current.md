@@ -60,7 +60,7 @@ Experience Cloud解決方案和服務每月更新一次。 本頁是您尋找[!D
 
 **2021 年 2 月 4 日**
 
-* **登入更新： Experience Cloud的** 更新會移除初始的Experience Cloud登入簡介畫面。從2月4日起，您將直接從`https://experience.adobe.com/login`傳送至Adobe登入畫面。
+* **登入更新： Experience Cloud的** 更新會移除初始的Experience Cloud登入簡介畫面。自 2 月 4 日起，系統會直接將您從 `https://experience.adobe.com/login` 導向 Adobe 登入畫面。
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
