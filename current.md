@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d24a0044604b068dd1a8b4a19084d982ed9f22ac
+source-git-commit: 6c462c5b447ac45ff9507a6242fec2aef478344a
 workflow-type: tm+mt
 source-wordcount: '6309'
 ht-degree: 33%
@@ -182,7 +182,7 @@ Audience Manager中的新功能、修正、檔案和教學課程。
 
 | 功能 | 新增或更新日期 | 說明 |
 |----|----|----|
-| [Audience Manager使用者移轉至Admin Console](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/admin-console-migration.html) | 2020 年 2 月 1 日 | Audience Manager使用者帳戶管理正移轉至Adobe Admin Console，以簡化整個Adobe解決方案的使用體驗。 <br>請依照本文所述的步驟，協助使用者移轉。所有Audience Manager管理員應盡快開始將其使用者帳戶移轉至Adobe Admin Console。 |
+| [Audience Manager使用者移轉至Admin Console](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/admin-console-migration.html) | 2021 年 2 月 1 日 | Audience Manager使用者帳戶管理正移轉至Adobe Admin Console，以簡化整個Adobe解決方案的使用體驗。 <br>請依照本文所述的步驟，協助使用者移轉。所有Audience Manager管理員應盡快開始將其使用者帳戶移轉至Adobe Admin Console。 |
 
 ### 修正和改良 {#aam-fixes-and-improvements}
 
