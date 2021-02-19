@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1ed740f01fa639793c4694d206c07728f523a4a5
+source-git-commit: b785653a7f35f188c17f2ed05ec7a8b143c192b4
 workflow-type: tm+mt
-source-wordcount: '6310'
-ht-degree: 33%
+source-wordcount: '6381'
+ht-degree: 32%
 
 ---
 
@@ -33,7 +33,8 @@ Experience Cloud解決方案和服務每月更新一次。 本頁是您尋找[!D
 * [Experience Cloud 服務與管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)`
+* [](#analytics) **Analytics更新日期2021年2月19日**
+* [Customer Journey Analytics](#cust-journey)`
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -112,7 +113,7 @@ Experience Cloud解決方案和服務每月更新一次。 本頁是您尋找[!D
 * [Adobe Analytics 新功能](#aa-features)
 * [Customer Journey Analytics 新功能](#cust-journey)
 * [Adobe Analytics 修正項目](#aa-fixes)
-* [給 Analytics 管理員的重要通知](#aa-notices)
+* [給 Analytics 管理員的重要通知](#aa-notices) **2021 年 2 月 19 日**&#x200B;更新
 * [Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -152,6 +153,7 @@ AN-224987;AN-229009;AN-239750;AN-239765;AN-241620;AN-242996;AN-243577;AN-243774;
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| 報告與分析著陸頁面選項 | 2021 年 2 月 19 日 | 在2021年3月25日，將移除設定新「報告與分析」控制面板或其他內容做為Adobe Analytics登陸頁面的選項。 如果您先前將「報告與分析」頁面設為自訂著陸頁面，則會持續運作，直到在[!UICONTROL 使用者偏好設定]中修改著陸頁面為止。 自2021年3月25日起，您無法再定義新的「報告與分析」自訂登陸頁面。 |
 | 終止 Ad Hoc Analysis 服務 | 2021年1月 | [!UICONTROL 臨機分] 析將於2021年3月1日結束生命週期。如需詳細資訊，請造訪[探索工作區](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | 三個 Analytics API 服務終止運作 | 2021 年 1 月 6 日 | 下列 Analytics Legacy API 服務預計在 2021 年 4 月 30 日結束生命週期並關閉。所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
 | Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange合作夥伴計畫](https://partners.adobe.com/tw/exchangeprogram/experiencecloud)中提供了新標準。 您可以針對任何整合使用該標準，以繼續提供並支援。 正式終止日期為2021年8月1日。 [深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/import/dataconnectors/data-connectors-eol.html) |
