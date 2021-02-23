@@ -1,14 +1,14 @@
 ---
 title: Experience Cloud和Experience Platform的發行說明
-description: 瞭解Experience Cloud和Experience Platform的最新發行說明、新功能和新檔案。 尋找適用於企業的Creative Cloud和Document Cloud的新說明和教學課程。
+description: 了解 Experience Cloud 和 Experience Platform 的最新版本注意事項、新功能和新文件。查看適用於企業的 Creative Cloud 和 Document Cloud 的新的支援和教學課程。
 doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b785653a7f35f188c17f2ed05ec7a8b143c192b4
+source-git-commit: 803595c63ab6db90fb17c9998c623c03e834aaa0
 workflow-type: tm+mt
-source-wordcount: '6381'
-ht-degree: 32%
+source-wordcount: '6384'
+ht-degree: 33%
 
 ---
 
@@ -122,7 +122,7 @@ Experience Cloud解決方案和服務每月更新一次。 本頁是您尋找[!D
 | 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
 | Analysis Workspace – 選取元件 | 2021 年 2 月 4 日 | [!UICONTROL Workspace] 的所有拖放區域已新增 [!UICONTROL Quick Insights] 的下拉/拖放區域元件。有了這項增強功能，您就能從相容元件的下拉式清單中挑選項目，或繼續將該空間作為拖放區域使用。 |
-| Analytics控制面板語言選擇 | 2021 年 1 月 14 日 | 您現在可以在Analytics儀表板中選取語言。 |
+| Analytics控制面板語言選擇 | 2021 年 1 月 14 日 | 導覽至「**[!UICONTROL 設定]** > **[!UICONTROL 偏好設定]** > **[!UICONTROL 語言]**」，以在「Analytics」控制面板中選取語言。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
