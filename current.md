@@ -153,7 +153,7 @@ AN-224987；AN-229009；AN-239750；AN-239765；AN-241620；AN-242996；AN-24357
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| 報告與分析著陸頁面選項 | 2021 年 19 月 2 日 | 在2021年3月25日，將移除設定新「報告與分析」控制面板或其他內容做為Adobe Analytics登陸頁面的選項。 如果您先前將「報告與分析」頁面設為自訂著陸頁面，則會持續運作，直到在[!UICONTROL 使用者偏好設定]中修改著陸頁面為止。 自2021年3月25日起，您無法再定義新的「報告與分析」自訂登陸頁面。 |
+| 報告與分析著陸頁面選項 | 2021 年 19 月 2 日 | 在2021年3月25日，將移除設定新「報告與分析」控制面板或其他內容做為您的Adobe Analytics登陸頁面的選項。 如果您先前將「報告與分析」頁面設為自訂著陸頁面，則會持續運作，直到在[!UICONTROL 使用者偏好設定]中修改著陸頁面為止。 自2021年3月25日起，您無法再定義新的「報告與分析」自訂登陸頁面。 |
 | 終止 Ad Hoc Analysis 服務 | 2021 年 1 月 | [!UICONTROL Ad Hoc Analysis] 的生命週期結束日期為 2021 年 3 月 1 日。如需詳細資訊，請瀏覽 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | 三個 Analytics API 服務終止運作 | 2021 年 1 月 6 日 | 下列 Analytics Legacy API 服務預計在 2021 年 4 月 30 日結束生命週期並關閉。所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
 | Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange 合作夥伴計劃](https://partners.adobe.com/tw/exchangeprogram/experiencecloud)中有提供新的標準。您可以針對任何整合使用該項標準，以繼續獲得產品供應和支援。生命週期結束的官方日期為 2021 年 8 月 1 日。[了解更多...](https://docs.adobe.com/content/help/zh-Hant/analytics/import/dataconnectors/data-connectors-eol.html) |
@@ -241,7 +241,7 @@ Experience Manager 的新功能、修正及更新。Adobe 建議使用內部部�
       * **漸進式網頁應用程式 (PWA)**
 
          * [網站的漸進式網頁應用程式 (PWA) 版本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hant)現在可透過簡易設定在專案層級啟用。
-   * **Experience Manager資產即雲端服務**
+   * **Experience Manager資產做為Cloud Service**
 
       * Experience Manager as a Cloud Service 會擴充智慧型標記功能來支援文字型資產中的關鍵字與實體的識別。該文字會被識別、編制索引，並當做中繼資料使用，以改善搜尋體驗，而不需要任何設定。請參閱[智慧型標記](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/smart-tags.html)。
       * 現在可支援 MXF 檔案格式。請參閱[支援的檔案格式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/file-format-support.html#video-formats)。
@@ -414,7 +414,7 @@ Adobe Advertising Cloud 版本注意事項。
 | 功能 | 說明 |
 | -----------| ---------- |
 | 全部 | 「工具> 「Adwords轉換標籤」現在是「Google Ads轉換標籤」。&quot; |
-| 全部 | 在4月，下列功能和檢視將不再提倡：<br><ul><li>最佳化>資料夾卡</li><li>最佳化>競標規則</li><li>前瞻分析與報告>儀表板</li><li>促銷活動： 大量編輯的擱置中和排程支援</li></ul> |
+| 全部 | 在4月，下列功能和檢視將不再提倡：<br><ul><li>最佳化>Portfolio卡</li><li>最佳化>競標規則</li><li>前瞻分析與報告>儀表板</li><li>促銷活動： 大量編輯的擱置中和排程支援</li></ul> |
 
 ### Advertising Cloud 教學課程和課程
 
@@ -422,7 +422,7 @@ Adobe Advertising Cloud 版本注意事項。
 
 | 教學課程 | 說明 |
 | -----------| ---------- |
-| [工作區與報告簡介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html) | 瞭解如何使用Advertising Cloud資料在Adobe Analytics分析工作區中建立視覺化報表。 |
+| [工作區與報告簡介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html) | 瞭解如何使用Advertising Cloud資料在Adobe AnalyticsAnalysis Workspace建立視覺化報表。 |
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
 
