@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d22f8bc718976f3aad6673473c4df66246f58022
+source-git-commit: c665df945df9f183549c7ca3e3a2e3bf0b04a3af
 workflow-type: tm+mt
-source-wordcount: '6403'
-ht-degree: 97%
+source-wordcount: '6428'
+ht-degree: 96%
 
 ---
 
@@ -19,19 +19,15 @@ ht-degree: 97%
 
 Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!DNL Experience Cloud] 和 Experience Platform 的最新版更新、文件與教學課程的中央位置。您也可以尋找適用於 [!DNL Creative Cloud for Enterprise] 和 [!DNL Document Cloud] 的新文件。
 
->[!IMPORTANT]
->
->此頁面包含預發佈內容，在發行日期之前可能會有變動。
-
 >[!NOTE]
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，接收本頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-上次更新日期：**2021 年 2 月 12 日**
+上次更新日期：**2021 年 2 月 21 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud 服務與管理](#ecloud)
-* [Experience Platform](#platform)
+* [Experience ](#platform) **Platform更新日期2021年2月21日**
 * [Journey Orchestration](#journey-orch)
 * [](#analytics) **Analytics更新日期2021年2月19日**
 * [Customer Journey Analytics](#cust-journey)`
@@ -76,6 +72,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021 年 26 月 2 日 | [Adobe Experience Platform監控資料流](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=en#data-ingestion) | 瞭解如何使用平台的UI和API監控及追蹤已收錄至Adobe Experience Platform的資料。 |
 | 2021 年 2 月 10 日 | [設定 Azure Blob 目的地](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=zh-Hant#destinations) | 影片 | 了解如何逐步進行在 Real-time Customer Data Platform (Real-time CDP) 中設定 Azure Blob Storage 目的地所需的步驟。 |
 | 2021 年 2 月 4 日 | [檢視身分圖](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/view-identity-graphs.html) | 影片 | 如何使用身分圖檢視器功能來搜尋、探索及篩選身分圖，以進行驗證和除錯。 |
 | 2021 年 2 月 3 日 | [批次資料擷取概觀](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html) | 影片 | Adobe Experience Platform 中批次資料擷取的概觀。了解如何使用 API 擷取批次資料。 |
