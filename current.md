@@ -1,13 +1,13 @@
 ---
-title: Experience Cloud 和 Experience Platform 版本注意事項
-description: 了解 Experience Cloud 和 Experience Platform 的最新版本注意事項、新功能和新文件。查看適用於企業的 Creative Cloud 和 Document Cloud 的最新說明和教學課程。
+title: 最新發行說明
+description: 「瞭解Experience Cloud產品和服務的最新發行說明、新功能和新檔案。 尋找有關Experience Cloud、企業Creative Cloud和Document Cloud的新說明和教學課程。」
 doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c665df945df9f183549c7ca3e3a2e3bf0b04a3af
+source-git-commit: 2f83677d5507bd917603ec8cfcbd08559a510a0f
 workflow-type: tm+mt
-source-wordcount: '6428'
+source-wordcount: '6425'
 ht-degree: 96%
 
 ---
