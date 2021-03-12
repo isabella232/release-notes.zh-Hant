@@ -4,9 +4,9 @@ description: 「了解 Experience Cloud 產品和服務的最新發行說明、�
 doc-type: release notes
 last-update: February 2021
 author: mfrei
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fad566f4a78d7963f450b9998c009a50d081a212
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '6479'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 ### Journey Orchestration 的其他資源
 
-[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/understanding-journey-orchestration.translate.html)
+[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [版本注意事項](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/understanding-journey-orchestration.translate.html)
 
 ## ![圖示](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
@@ -123,7 +123,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
-| 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| 功能 | [全面發佈](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
 | Analysis Workspace – 選取元件 | 2021 年 2 月 4 日 | [!UICONTROL Workspace] 的所有拖放區域已新增 [!UICONTROL Quick Insights] 的下拉/拖放區域元件。有了這項增強功能，您就能從相容元件的下拉式清單中挑選項目，或繼續將該空間作為拖放區域使用。 |
 | CJA API | 2021 年 2 月 18 日 | CJA API 現已推出。這些 API 可讓您以程式設計方式編輯元件及擷取報告。如需詳細資訊，請參閱[CJA API 文件](https://adobe.io/cja-apis/docs)。 |
@@ -239,7 +239,7 @@ Experience Manager 的新功能、修正及更新。Adobe 建議使用內部部�
       * **漸進式網頁應用程式 (PWA)**
 
          * [網站的漸進式網頁應用程式 (PWA) 版本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hant)現在可透過簡易設定在專案層級啟用。
-   * **Experience Manager Assets as a Cloud Service**
+   * **Experience Manager資產做為Cloud Service**
 
       * Experience Manager as a Cloud Service 會擴充智慧型標記功能來支援文字型資產中的關鍵字與實體的識別。該文字會被識別、編制索引，並當做中繼資料使用，以改善搜尋體驗，而不需要任何設定。請參閱[智慧型標記](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/smart-tags.html)。
       * 現在可支援 MXF 檔案格式。請參閱[支援的檔案格式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/file-format-support.html#video-formats)。
@@ -340,7 +340,7 @@ Experience Manager 的新功能、修正及更新。Adobe 建議使用內部部�
 | 2021 年 1 月 8 日 | [Adobe Cloud Manager 環境](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/environments.html) | 影片 | Cloud Manager 環境是由 Experience Manager Author、Experience Manager Publish 和 Dispatcher 服務所組成。不同的環境可支援角色，並使用不同的 CI/CD 管道與其互動。Cloud Manager 環境通常有一個生產環境、一個中繼環境及一個開發環境。 |
 | 2021 年 1 月 8 日 | [Headless GraphQL 概觀](https://internal.adobedemo.com/content/demo-hub/zh-Hant/demos/internal/aem-headless-graphql.html) | 示範 | Experience Manager 的 GraphQL API 會公開來自 Experience Manager 內容片段的內容給下游應用程式。GraphQL API 在 Headless 和混合式使用案例中都可以使用。 |
 | 2021 年 1 月 8 日 | [Adobe Cloud Manager 計劃](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/programs.html) | 影片 | Cloud Manager 計劃代表支援邏輯業務計劃集合的 Experience Manager 環境集合，通常會對應到已購買的服務等級協定 (SLA)。 |
-| 2021 年 1 月 8 日 | [權杖型驗證](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html?lang=zh-Hant#authentication) | 影片 | Cloud Manager 計劃代表支援邏輯業務計劃集合的 Experience Manager 環境集合，通常會對應到已購買的服務等級協定 (SLA)。 |
+| 2021 年 1 月 8 日 | [權杖型驗證](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html?lang=en#authentication) | 影片 | Cloud Manager 計劃代表支援邏輯業務計劃集合的 Experience Manager 環境集合，通常會對應到已購買的服務等級協定 (SLA)。 |
 | 2021 年 1 月 8 日 | [大量匯入](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/bulk-import.html) | 影片 | Experience Manager as a Cloud Service 中的大量匯入工具可讓管理員以安全又有效率的方式從雲端儲存空間 (Azure Blob Storage 或 Amazon S3) 大量匯入資產。 |
 
 ### 適用於 Experience Manager 的其他說明資源
@@ -383,8 +383,8 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### 說明資源
 
-* Adobe Campaign Standard：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-planning.html) - [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/campaign-classic-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign Standard：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) - [版本注意事項](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-planning.html) - [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/campaign-classic-home.html) - [版本注意事項](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)- [Campaign Standard](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html) 作法影片
 
 ## ![圖示](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
