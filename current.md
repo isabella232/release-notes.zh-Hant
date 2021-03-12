@@ -4,11 +4,11 @@ description: 「了解 Experience Cloud 產品和服務的最新發行說明、�
 doc-type: release notes
 last-update: February 2021
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fad566f4a78d7963f450b9998c009a50d081a212
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6479'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 >[!NOTE]
 >
->訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，接收本頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
+>訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，接收本頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
 上次更新日期：**2021 年 2 月 21 日**
 
@@ -29,7 +29,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 * [Experience Cloud 服務與管理](#ecloud)
 * [Experience Platform](#platform) **2021 年 2 月 21 日更新**
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) **更新日期：2021年3月10日**
+* [Analytics](#analytics)**2021 年 3 月 10 日更新**
 * [Customer Journey Analytics](#cust-journey)`
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -45,7 +45,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 ## ![圖示](/assets/adobe.png) Adobe 系統狀態 {#status}
 
-[!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/tw/)。
+[!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/)。
 
 本月無更新。
 
@@ -101,7 +101,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 ### Journey Orchestration 的其他資源
 
-[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [版本注意事項](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/understanding-journey-orchestration.translate.html)
+[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/understanding-journey-orchestration.translate.html)
 
 ## ![圖示](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
@@ -110,7 +110,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 * [Adobe Analytics 新功能](#aa-features)
 * [Customer Journey Analytics 新功能](#cust-journey)
 * [Adobe Analytics 修正項目](#aa-fixes)
-* [給 Analytics 管理員的重要通知](#aa-notices)  **更新日期：2021年3月10日**
+* [給 Analytics 管理員的重要通知](#aa-notices) **2021 年 3 月 10 日更新**
 * [Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -123,7 +123,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
-| 功能 | [全面發佈](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
 | Analysis Workspace – 選取元件 | 2021 年 2 月 4 日 | [!UICONTROL Workspace] 的所有拖放區域已新增 [!UICONTROL Quick Insights] 的下拉/拖放區域元件。有了這項增強功能，您就能從相容元件的下拉式清單中挑選項目，或繼續將該空間作為拖放區域使用。 |
 | CJA API | 2021 年 2 月 18 日 | CJA API 現已推出。這些 API 可讓您以程式設計方式編輯元件及擷取報告。如需詳細資訊，請參閱[CJA API 文件](https://adobe.io/cja-apis/docs)。 |
@@ -150,11 +150,11 @@ AN-224987；AN-229009；AN-239750；AN-239765；AN-241620；AN-242996；AN-24357
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| 完全處理資料來源的EOL | 2021 年 3 月 10 日 | Adobe計畫在未來淘汰完整處理的資料來源。 自2021年3月25日起，將無法再創造此類新進口產品。 請使用[大量資料插入API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)來匯入此類資料。 |
+| 全面處理資料來源的 EOL | 2021 年 3 月 10 日 | Adobe 計劃未來淘汰「全部處理資料來源」。自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。請利用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)匯入此類資料。 |
 | Reports &amp; Analytics 登陸頁面選項 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，將新 Reports＆Analytics 儀表板或其他內容設定為 Adobe Analytics 登陸頁面的選項將被刪除。如果您先前將 Reports &amp; Analytics 頁面設為自訂登陸頁面，則該頁面將繼續有效，直到您在「[!UICONTROL 用戶偏好設定]」中修改登陸頁面為止。從 2021 年 3 月 25 日起，您將無法再定義新的 Reports＆Analytics 自訂登陸頁面。 |
 | 終止 Ad Hoc Analysis 服務 | 2021 年 1 月 | [!UICONTROL Ad Hoc Analysis] 的生命週期在 2021 年 3 月 1 日結束。如需詳細資訊，請瀏覽 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | 三個 Analytics API 服務終止運作 | 2021 年 1 月 6 日 | 下列 Analytics Legacy API 服務預計在 2021 年 4 月 30 日結束生命週期並關閉。所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
-| Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange 合作夥伴計劃](https://partners.adobe.com/tw/exchangeprogram/experiencecloud)中有提供新的標準。您可以針對任何整合使用該項標準，以繼續獲得產品供應和支援。生命週期結束的官方日期為 2021 年 8 月 1 日。[了解更多...](https://docs.adobe.com/content/help/zh-Hant/analytics/import/dataconnectors/data-connectors-eol.html) |
+| Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange 合作夥伴計劃](https://partners.adobe.com/exchangeprogram/experiencecloud)中有提供新的標準。您可以針對任何整合使用該項標準，以繼續獲得產品供應和支援。生命週期結束的官方日期為 2021 年 8 月 1 日。[了解更多...](https://docs.adobe.com/content/help/zh-Hant/analytics/import/dataconnectors/data-connectors-eol.html) |
 | 為所有傳入的 HTTPS 要求加上 HSTS 標題 | 2020 年 9 月 29 日 | Adobe 已從 2020 年 9 月 29 日開始新增 HSTS 標頭到使用 HTTPS 的所有傳入要求。此標頭會指示瀏覽器或用戶端在 HTTPS 中提出所有未來的要求，這被視為安全性最佳做法。目前 Adobe 不會強制使用 HTTP 的傳入要求一定要採用這項做法。 |
 | 變更 [!UICONTROL Experience Cloud ID 服務] Cookie 設定 | 2020 年 9 月 22 日 | 一項針對 Chrome 80 版本隱私權設定的更新影響 Adobe Analytics 追蹤部分檢視 Google AMP 頁面之用戶的能力。具體來說，這項更新會防止跨網域追蹤檢視 Google 託管 AMP 頁面的用戶。如此可能導致不重複訪客的數量增加。此修正可讓用戶透過變更 ECID Cookie 設定來解決此問題。<br>目前，Analytics 的 Experience Cloud ID (ECID) 服務 Cookie 設定為 `SameSite = Lax`，而此設定在 Chrome 80 版本之前皆允許進行跨網域追蹤。但如今情況有變。用戶可透過這項變更將 ECID Cookie 的 SameSite 設定更新為 `None`。<br>此變更讓 Analytics Cookie 得以在更多情況下分享，但 Analytics Cookie 並未包含敏感資訊。此外，選擇這項設定時，Cookie 必須設定為 `Secure`，才能僅透過 HTTPS 連線傳送資料。如果您想要進行這項變更，受支援的用戶可以向客戶服務開啟支援服務單。 |
 
@@ -239,7 +239,7 @@ Experience Manager 的新功能、修正及更新。Adobe 建議使用內部部�
       * **漸進式網頁應用程式 (PWA)**
 
          * [網站的漸進式網頁應用程式 (PWA) 版本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hant)現在可透過簡易設定在專案層級啟用。
-   * **Experience Manager資產做為Cloud Service**
+   * **Experience Manager Assets as a Cloud Service**
 
       * Experience Manager as a Cloud Service 會擴充智慧型標記功能來支援文字型資產中的關鍵字與實體的識別。該文字會被識別、編制索引，並當做中繼資料使用，以改善搜尋體驗，而不需要任何設定。請參閱[智慧型標記](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/smart-tags.html)。
       * 現在可支援 MXF 檔案格式。請參閱[支援的檔案格式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/file-format-support.html#video-formats)。
@@ -340,18 +340,18 @@ Experience Manager 的新功能、修正及更新。Adobe 建議使用內部部�
 | 2021 年 1 月 8 日 | [Adobe Cloud Manager 環境](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/environments.html) | 影片 | Cloud Manager 環境是由 Experience Manager Author、Experience Manager Publish 和 Dispatcher 服務所組成。不同的環境可支援角色，並使用不同的 CI/CD 管道與其互動。Cloud Manager 環境通常有一個生產環境、一個中繼環境及一個開發環境。 |
 | 2021 年 1 月 8 日 | [Headless GraphQL 概觀](https://internal.adobedemo.com/content/demo-hub/zh-Hant/demos/internal/aem-headless-graphql.html) | 示範 | Experience Manager 的 GraphQL API 會公開來自 Experience Manager 內容片段的內容給下游應用程式。GraphQL API 在 Headless 和混合式使用案例中都可以使用。 |
 | 2021 年 1 月 8 日 | [Adobe Cloud Manager 計劃](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/programs.html) | 影片 | Cloud Manager 計劃代表支援邏輯業務計劃集合的 Experience Manager 環境集合，通常會對應到已購買的服務等級協定 (SLA)。 |
-| 2021 年 1 月 8 日 | [權杖型驗證](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html?lang=en#authentication) | 影片 | Cloud Manager 計劃代表支援邏輯業務計劃集合的 Experience Manager 環境集合，通常會對應到已購買的服務等級協定 (SLA)。 |
+| 2021 年 1 月 8 日 | [權杖型驗證](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html?lang=zh-Hant#authentication) | 影片 | Cloud Manager 計劃代表支援邏輯業務計劃集合的 Experience Manager 環境集合，通常會對應到已購買的服務等級協定 (SLA)。 |
 | 2021 年 1 月 8 日 | [大量匯入](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/bulk-import.html) | 影片 | Experience Manager as a Cloud Service 中的大量匯入工具可讓管理員以安全又有效率的方式從雲端儲存空間 (Azure Blob Storage 或 Amazon S3) 大量匯入資產。 |
 
 ### 適用於 Experience Manager 的其他說明資源
 
 * [Experience Manager as a Cloud Service 指南](https://docs.adobe.com/content/help/zh-Hant/experience-manager-cloud-service/landing/home.html)
-* [Experience Manager 6.5 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-5.html)
-* [Experience Manager 6.4 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [Experience Manager 6.3 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-3.html)
-* [Experience Manager 6.2 學習與支援首頁](https://helpx.adobe.com/support/experience-manager/6-2.html)
-* [Cloud Manager 使用手冊](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [舊版 Experience Manager 文件](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [Experience Manager 6.5 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-5.html)
+* [Experience Manager 6.4 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-4.html)
+* [Experience Manager 6.3 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-3.html)
+* [Experience Manager 6.2 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-2.html)
+* [Cloud Manager 使用手冊](https://helpx.adobe.com/tw/experience-manager/cloud-manager/user-guide.html)
+* [舊版 Experience Manager 文件](https://helpx.adobe.com/tw/experience-manager/aem-previous-versions.html)
 * [Dynamic Media Classic 說明首頁](https://docs.adobe.com/content/help/zh-Hant/dynamic-media-classic/using/home.html)
 
 ## ![圖示](/assets/campaign.png) [!DNL Adobe Campaign] {#ac}
@@ -383,8 +383,8 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### 說明資源
 
-* Adobe Campaign Standard：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) - [版本注意事項](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-planning.html) - [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/campaign-classic-home.html) - [版本注意事項](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign Standard：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-planning.html) - [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/campaign-classic-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)- [Campaign Standard](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html) 作法影片
 
 ## ![圖示](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
@@ -472,7 +472,7 @@ Adobe Advertising Cloud 版本注意事項。
 
 * [Adobe Acrobat 學習中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=zh-Hant)
 * [Adobe Sign 學習中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hant)
-* [Document Cloud 學習與支援](https://helpx.adobe.com/support/document-cloud.html)
+* [Document Cloud 學習與支援](https://helpx.adobe.com/tw/support/document-cloud.html)
 
 ## ![圖示](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
 
