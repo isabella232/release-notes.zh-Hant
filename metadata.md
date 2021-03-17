@@ -1,6 +1,7 @@
 ---
 cloud: experience-cloud
 solution-title: 學習與支援
+description: Experience Cloud解決方案的發行說明
 solution-hub-url: https://helpx.adobe.com/tw/support/experience-cloud.html
 solution-icon: assets/assets/experience-cloud-logo-24.png
 getting-started-title: 快速入門
@@ -11,10 +12,10 @@ mini-toc-levels: 3
 git-repo: https://git.corp.adobe.com/AdobeDocs/release-notes.zh-Hant
 index: true
 translation-type: tm+mt
-source-git-commit: d5f592e1e804a94619ccf3ce34a4a310867f9f70
+source-git-commit: 644ea51d605f87693109d6b0e96afbdf365aaa2b
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 96%
 
 ---
 
