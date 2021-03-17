@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 336fa0b2b5b27060bcdb6590ba8e5795c2dbbf8f
+source-git-commit: f981d08b9a7200776706028b0408bd94a1e5e246
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 93%
+source-wordcount: '1346'
+ht-degree: 92%
 
 ---
 
@@ -62,7 +62,7 @@ Experience Cloud 介面的新功能和修正項目，包括管理和核心服務
 
 功能和修正。
 
-如需產品檔案，請參閱[Experience Cloud介面](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html)
+有關產品文檔，請參閱[Experience Cloud介面](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html)
 
 ### 管理與開發人員 {#admin}
 
@@ -161,7 +161,7 @@ Adobe Analytics 的新功能和修正項目：
 * 修正
 * 修正
 
-請參閱 [AppMeasurement 版本歷史記錄](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，此為下列平台上 AppMeasurement 之版本歷史記錄的內容：
+請參閱 [AppMeasurement 版本歷史記錄](https://experienceleague.corp.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)，此為下列平台上 AppMeasurement 之版本歷史記錄的內容：
 
 * [!DNL JavaScript]
 * [!DNL iOS]
@@ -227,7 +227,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 * [AEM 6.2 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-2.html)
 * [Cloud Manager 使用手冊](https://helpx.adobe.com/tw/experience-manager/cloud-manager/user-guide.html)
 * [舊版 AEM 文件](https://helpx.adobe.com/tw/experience-manager/aem-previous-versions.html)
-* [Scene7 Publishing System發行說明](https://docs.adobe.com/content/help/zh-Hant/dynamic-media-developer-resources/release-notes/s7rn2017.html)
+* [Scene7出版系統發行說明](https://docs.adobe.com/content/help/zh-Hant/dynamic-media-developer-resources/release-notes/s7rn2017.html)
 * [Livefyre 發行說明](https://docs.adobe.com/content/help/zh-Hant/livefyre/using/release-notes/c-rn.translate.html)
 
 ### [!DNL Livefyre] {#livefyre}
@@ -328,7 +328,7 @@ Marketo Engage是銷售機會管理和B2B行銷人員的完整解決方案，希
 * **資產 API「_method」參數：** 2020 年 9 月後，資產 API 端點將不再接受於 POST 主體中使用「_method」傳遞查詢參數，以略過 URI 長度限制。
 * **Internet Explorer 支援淘汰：**&#x200B;從 2020 年 7 月 31 日推出的七月版開始，Marketo Engage 使用者介面將不再支援 Internet Explorer。
 
-如需彙整資料和過往的發行說明，請參閱 [Marketo 發行說明](https://docs.marketo.com/x/CgA6Ag)。
+如需彙整資料和過往的版本注意事項，請參閱 [Marketo 版本注意事項](https://docs.marketo.com/x/CgA6Ag)。
 
 ### 全新解決方案名稱課程與教學課程
 
