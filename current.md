@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bce06efc7248df1f1929838681e3fcf5adb8ebbd
+source-git-commit: 66a8238a7fc0a9b397bfab74b1b36d90be7ad842
 workflow-type: tm+mt
-source-wordcount: '6109'
+source-wordcount: '6141'
 ht-degree: 36%
 
 ---
@@ -55,7 +55,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 ## ![IconExperience Cloud ](/assets/ec_appicon_24.png) UI元件、服務和管理  {#ecloud}
 
-未更新。
+**統一搜尋：目** 前可供Experience Platform的統一搜尋現在支援針對Experience Platform使用者的來源和目的地搜尋。此功能可讓您搜尋區段、資料集、結構描述、來源和目標。
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
