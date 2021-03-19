@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 35b3735f74ec51bcdb850bbb5b03df823c9e0f38
+source-git-commit: cbad4628dc16c773db0d9985b9ab5b5ac2cdd360
 workflow-type: tm+mt
-source-wordcount: '5843'
+source-wordcount: '5857'
 ht-degree: 38%
 
 ---
@@ -224,7 +224,7 @@ AEM 6.5 Service Pack 8 (6.5.8.0，已於 2021 年 3 月 11 日發行) 是項重�
       * [在Experience Manager中編SPA輯外部](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/editing-external-spa.html?lang=en):新增將獨立單頁應用程式上傳至Experience Manager例項、新增可編輯的內容區段，以及啟用編寫功能的能力。
    * **Experience Manager Assets as a Cloud Service**
 
-      * Experience Manager資產做為Cloud Service，有權擁有預先設定的品牌入口網站例項。 Cloud Manager使用者可以啟動Experience Manager資產上的品牌入口網站作為Cloud Service。
+      * Experience Manager資產做為Cloud Service，有權擁有預先設定的品牌入口網站例項。 Cloud Manager使用者可以啟動Experience Manager資產上的品牌入口網站作為Cloud Service。 請參閱[使用品牌入口網站啟用品牌入口網站](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)。
       * 企業現在可以使用品牌入口網站來搜尋資產。 資產來源搜尋功能使用品牌入口網站，協助客戶與代理商使用者互動，為新的行銷宣傳、像片和專案尋找資產。 請參閱品牌入口網站指南中的[資產來源補充概述](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en)。
       * 「品牌入口網站」使用狀況報表現在只會顯示作用中的使用者。 現在不會顯示非作用中的使用者。 作用中使用者是指其帳戶已指派給Admin Console中產品設定檔的使用者。 請參閱品牌入口網站指南中的[使用報表](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/admin-tools/brand-portal-reports.html?lang=en)。
       * 在品牌入口網站中，推出新的下載設定，可讓您在下載檔案夾、系列等時，為每個資產建立個別的檔案夾。 請參閱品牌入口網站指南中&#x200B;**從品牌入口網站**&#x200B;下載資產中的[資產下載](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en)。
