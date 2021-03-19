@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: da0cc40fb828e5f64d832c2e4e5dba931d2f2e99
+source-git-commit: 1cde3fd4f91f53c6f2281b95397257bbcf1f5672
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6130'
 ht-degree: 36%
 
 ---
@@ -148,7 +148,7 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
 | [!UICONTROL 與SiteCatalyst相同的VISTA處理] =開啟 | 2021 年 3 月 17 日 | 在2021年6月17日，所有報表套裝都將更新為「與SiteCatalyst相同的VISTA處理」[!UICONTROL 設為「開啟」。  ]此變更會處理資料以符合處理規則，進而影響[!UICONTROL Data Warehouse]報告。  如有疑問或需要澄清，請洽詢Adobe客戶服務。 |
-| [!UICONTROL 完全處理] [!UICONTROL 資料源]的EOL | 2021 年 3 月 10 日 | Adobe計畫日後淘汰[!UICONTROL 完全處理] [!UICONTROL 資料來源]。 自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。請利用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)匯入此類資料。 |
+| [!UICONTROL 完全處理] [!UICONTROL 資料源]的EOL | 2021 年 3 月 10 日 | Adobe計畫日後淘汰[!UICONTROL 完全處理] [!UICONTROL 資料來源]。 自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。請利用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)匯入此類資料。[了解更多](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
 | Reports &amp; Analytics 登陸頁面選項 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，將新 Reports＆Analytics 儀表板或其他內容設定為 Adobe Analytics 登陸頁面的選項將被刪除。如果您先前將 Reports &amp; Analytics 頁面設為自訂登陸頁面，則該頁面將繼續有效，直到您在「[!UICONTROL 用戶偏好設定]」中修改登陸頁面為止。 |
 | 終止 Ad Hoc Analysis 服務 | 2021 年 1 月 | [!UICONTROL Ad Hoc Analysis] 的生命週期在 2021 年 3 月 1 日結束。如需詳細資訊，請瀏覽 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | 三個 Analytics API 服務終止運作 | 2021 年 1 月 6 日 | 下列 Analytics Legacy API 服務預計在 2021 年 4 月 30 日結束生命週期並關閉。所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
