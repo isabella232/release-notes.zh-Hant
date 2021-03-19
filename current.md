@@ -1,36 +1,40 @@
 ---
 title: 最新發行說明
-description: 「了解 Experience Cloud 產品和服務的最新發行說明、新功能和新文件。查看Experience Cloud、適用於企業的 Creative Cloud 和 Document Cloud 的最新說明和教學課程。」
+description: 了解 Experience Cloud 產品和服務的最新發行說明、新功能和新文件。查看 Experience Cloud、適用於企業的 Creative Cloud 和 Document Cloud 的最新說明和教學課程。
 doc-type: release notes
-last-update: February 2021
+last-update: March 2021
 author: mfrei
-translation-type: ht
-source-git-commit: 768fd5ede81679b7a084911f58ab9814b202fcd3
-workflow-type: ht
-source-wordcount: '6479'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0896f5a62cb6491ca26fb52b68d93014cab5e22
+workflow-type: tm+mt
+source-wordcount: '5845'
+ht-degree: 38%
 
 ---
 
 
-# Adobe Experience Cloud 版本注意事項 - 2021 年 2 月
+# 內部評論-Adobe Experience Cloud發行說明- 2021年3月
 
 ![橫幅](/assets/experience-cloud-banner-3.png)
 
 Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!DNL Experience Cloud] 和 Experience Platform 的最新版更新、文件與教學課程的中央位置。您也可以尋找適用於 [!DNL Creative Cloud for Enterprise] 和 [!DNL Document Cloud] 的新文件。
 
+>[!IMPORTANT]
+>
+>此頁面包含預發佈內容，在發行日期之前可能會有變動。
+
 >[!NOTE]
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，接收本頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-上次更新日期：**2021 年 3 月 10 日**
+上次更新日期：**2021 年 3 月 18 日**
 
-* [Adobe 系統狀態](#status)
-* [Experience Cloud 服務與管理](#ecloud)
-* [Experience Platform](#platform) **2021 年 2 月 21 日更新**
+* [Adobe 系統狀態](#status) (未更新)
+* [Experience CloudUI元件、服務與管理](#ecloud)
+* [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics)**2021 年 3 月 10 日更新**
-* [Customer Journey Analytics](#cust-journey)`
+* [Offer Decisioning](#offer-decisioning)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -47,41 +51,22 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 [!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/)。
 
-本月無更新。
+有關最新發行資訊，請在[Adobe系統狀態- 2020年5月21日](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/previous/2020/05212020.html#status)Adobe系統狀態的最新更新。
 
-如需最新發行資訊，請參閱 [Adobe 系統狀態 - 2020 年 5 月 21 日](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/previous/2020/05212020.html#status)。
+## ![IconExperience Cloud ](/assets/ec_appicon_24.png) UI元件、服務和管理  {#ecloud}
 
-## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 服務與管理 {#ecloud}
-
-[Experience Cloud 服務與管理](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html)文件包含客戶屬性、對象庫 ([!UICONTROL People] 服務) 啟用、用戶和產品管理，以及 Experience Cloud Cookie。
-
-**2021 年 2 月 4 日**
-
-* **登入更新：** Experience Cloud 的一項更新會移除初始 Experience Cloud 登入介紹畫面。自 2 月 4 日起，系統會直接將您從 `https://experience.adobe.com/login` 導向 Adobe 登入畫面。
+未更新。
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
 包含 Experience Platform 和 Experience Platform Launch 的版本更新資訊。
 
-* [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)。(2021 年 1 月 27 日)
+* [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html)。(2021 年 2 月 24 日)
 * [Experience Platform Launch 版本注意事項](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=zh-Hant)。(2021 年 1 月 13 日)
 
 ### Experience Platform 教學課程與其他課程
 
 針對 Experience Platform 和服務所發佈的新影片、教學課程或其他課程。
-
-| 已發佈 | 名稱 | 類型 | 說明 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 2 月 26 日 | [監控 Adobe Experience Platform 內的資料流量](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=zh-Hant#data-ingestion) | 了解如何使用平台的 UI 和 API 來監控和追蹤擷取到 Adobe Experience Platform 的資料。 |
-| 2021 年 2 月 10 日 | [設定 Azure Blob 目的地](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=zh-Hant#destinations) | 影片 | 了解如何逐步進行在 Real-time Customer Data Platform (Real-time CDP) 中設定 Azure Blob Storage 目的地所需的步驟。 |
-| 2021 年 2 月 4 日 | [檢視身分圖](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/view-identity-graphs.html?lang=zh-Hant) | 影片 | 如何使用身分圖檢視器功能來搜尋、探索及篩選身分圖，以進行驗證和除錯。 |
-| 2021 年 2 月 3 日 | [批次資料擷取概觀](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html?lang=zh-Hant) | 影片 | Adobe Experience Platform 中批次資料擷取的概觀。了解如何使用 API 擷取批次資料。 |
-| 2021 年 2 月 3 日 | [啟用非 Adobe 應用程式的資料](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/activate-data-to-non-adobe-applications.html?lang=zh-Hant) | 影片 | 了解 Adobe 的 Real-Time CDP 如何幫助您制定真正個人化策略來吸引您的受眾。此外，也了解它如何混入您現有的生態系統以及 Microsoft、Google 和 Facebook 提供的非 Adobe 應用程式。 |
-| 2021 年 1 月 21 日 | [行銷人員適用的 Intelligent Services 快速入門課程介紹](https://video.tv.adobe.com/v/330805?quality=12&learn=on) | 影片 | 行銷人員適用的 Intelligent Services 快速入門課程介紹。 |
-| 2021 年 1 月 13 日 | [行銷人員適用的 Offer Decisioning 快速入門課程介紹](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | 影片 | 行銷人員適用的 Offer Decisioning 快速入門課程介紹。 |
-| 2021 年 1 月 31 日 | [訓練、計分及產品化模型，包含配方產生器範本](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/train-score-and-productize-models.html?lang=zh-Hant) | 影片 | 了解如何使用更新的配方產生器範本來使用零售銷售結構與資料集產生配方。 |
-| 2021 年 1 月 31 日 | [將資料載入 JupyterLab Notebook](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=zh-Hant) | 影片 | 了解 Data Science Workspace 中的 JupyterLab。 |
-| 2021 年 1 月 12 日 | [建立合併原則](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hant) | 影片 | 了解如何在 Adobe Experience Platform 中建立合併原則。 |
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
@@ -89,7 +74,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 ### 最新產品發行版
 
-在 [Journey Orchestration 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html)中進一步了解最新的功能、改良與修正。
+2021年2月發行版本——在[Journey Orchestration發行說明](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html)中進一步瞭解最新功能、改進和修正。
 
 ### 最新 Journey Orchestration 課程與教學課程
 
@@ -97,20 +82,32 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 1 月 22 日 | [跳到另一段歷程](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hant) | 影片 | 了解如何將個人從一段歷程推向另一段歷程。 |
+| 2021 年 3 月 16 日 | [更新描述檔動作](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/update-profile-action.html?lang=en#building-a-journey) | 影片 | 瞭解如何使用來自事件、資料來源或使用特定值的資訊來更新現有的Adobe Experience Platform個人檔案。 |
 
 ### Journey Orchestration 的其他資源
 
-[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/zh-Hant/journey-orchestration-learn/tutorials/understanding-journey-orchestration.translate.html)
+[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [版本注意事項](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/zh-Hant/platform-learn/tutorials/journey-orchestration/introduction.html)
+
+## ![圖示選](/assets/experience_platform_appicon_24.png) 件決策  {#offer-decisioning}
+
+[!UICONTROL Offer ] Designing是與Adobe Experience Platform整合的應用程式服務。使用[!UICONTROL Offer decisioning]，在適當的時間跨所有觸點為客戶提供最佳優惠和體驗。
+
+### 最新產品發行版
+
+2021年2月發行版——進一步瞭解[Offer decisioning發行說明](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=en#new)中的最新功能。
+
+### 更多Offer decisioning資源
+
+[檔案](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=en) - [教學影片](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=en)
 
 ## ![圖示](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-發行日期：**2021 年 2 月 18 日**
+發行日期：**2021 年 3 月 25 日**
 
 * [Adobe Analytics 新功能](#aa-features)
 * [Customer Journey Analytics 新功能](#cust-journey)
 * [Adobe Analytics 修正項目](#aa-fixes)
-* [給 Analytics 管理員的重要通知](#aa-notices) **2021 年 3 月 10 日更新**
+* [給 Analytics 管理員的重要通知](#aa-notices)
 * [Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -118,45 +115,43 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 | 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
-| Analysis Workspace – 選取元件 | 2021 年 2 月 4 日 | [!UICONTROL Workspace] 的所有拖放區域已新增 [!UICONTROL Quick Insights] 的下拉/拖放區域元件。有了這項增強功能，您就能從相容元件的下拉式清單中挑選項目，或繼續將該空間作為拖放區域使用。 |
-| Analytics 儀表板語言選擇 | 2021 年 1 月 14 日 | 瀏覽至「**[!UICONTROL 設定]** > **[!UICONTROL 偏好設定]** > **[!UICONTROL 語言]**」，在 Analytics 儀表板選取一項語言。 |
+| 資料修復API更新 | 2021 年 3 月 25 日 | 資料修復API現在支援標準變數，包括[!UICONTROL Page]和[!UICONTROL IP位址]、行動與視訊變數，以及自訂prop和eVar。  可刪除變數中的值，或設定新值。 API現在也提供URL、查詢字串、符號等的篩選。 |
+| Analysis Workspace:[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] | 2021 年 3 月 25 日 | [!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]頁面可讓您管理使用者的[!UICONTROL Analysis Workspace]設定及其相關元件。 [!UICONTROL 使用] 者偏好套用至所有新專案和面板。**注意：下** 列設定已移至「使用者 [!UICONTROL 偏好] 設定」頁：<ul><li>報表設定：千位分隔符號（現在稱為「數字格式」）</li><li>報表設定：CSV分隔符號</li><li>工作區專案：說明>啟用提示</li><li>工作區專案：空白麵板「使用此面板開始新專案」選項</li></ul> |
+| Analysis Workspace:直方圖智慧桶預測 | 2021 年 3 月 25 日 | 直方圖智慧型桶預測功能可自動識別資料跨頁的適當桶寬和數目，以協助處理高基數量度直方圖。 對於低基數量度，視覺化的運作方式與先前相同。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
-| 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| 功能 | [全面發佈](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
-| Analysis Workspace – 選取元件 | 2021 年 2 月 4 日 | [!UICONTROL Workspace] 的所有拖放區域已新增 [!UICONTROL Quick Insights] 的下拉/拖放區域元件。有了這項增強功能，您就能從相容元件的下拉式清單中挑選項目，或繼續將該空間作為拖放區域使用。 |
-| CJA API | 2021 年 2 月 18 日 | CJA API 現已推出。這些 API 可讓您以程式設計方式編輯元件及擷取報告。如需詳細資訊，請參閱[CJA API 文件](https://adobe.io/cja-apis/docs)。 |
+| 支援Analytics儀表板 | 2021 年 3 月 25 日 | CJA現在支援Mobile Scorecard Builder和Mobile App。 這可讓主管和商業使用者從CJA資料中查看其跨通道KPI，並使用他們已用於Adobe Analytics的相同應用程式。 |
+| Analysis Workspace:[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] | 2021 年 3 月 25 日 | [!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]頁面可讓您管理使用者的[!UICONTROL Analysis Workspace]設定及其相關元件。 [!UICONTROL 使用] 者偏好套用至所有新專案和面板。**注意：下** 列設定已移至「使用者 [!UICONTROL 偏好] 設定」頁：<ul><li>工作區專案：說明>啟用提示</li><li>工作區專案：空白麵板「使用此面板開始新專案」選項</li></ul> |
+| Analysis Workspace:直方圖智慧桶預測 | 2021 年 3 月 25 日 | 直方圖智慧型桶預測功能可自動識別資料跨頁的適當桶寬和數目，以協助處理高基數量度直方圖。 對於低基數量度，視覺化的運作方式與先前相同。 |
 
 ### Adobe Analytics 修正項目 {#aa-fixes}
 
-* 已修正導致 Adobe Analytics 2.0 API 閘道逾時值增加到 300 秒 (5 分鐘) 的問題。(AN-232335)
-* 已修正 Workspace、API 2.0 和 Adobe Report Builder 報告的效能問題 (AN-245644、AN-244504、AN-243060)
-* 已修正按一下 Analytics [!UICONTROL 資料摘要]中的 **新增** 時導致錯誤的問題。(AN-243171)
-* 已修正無法分類資料的分類所發生的問題。(AN-243823、AN-247049、AN-244114)
-* 已修正已排定專案的問題：客戶只能看到他們負責的專案，無法看到所有排定的專案 (AN-246955)
-* 已修正 [!UICONTROL Workspace] 中導致專案無法開啟的 A4T 面板的問題。(AN-246881)
-* 已修正 [!UICONTROL Workspace] 中發生與 A4T [!UICONTROL 計算量度]相關之錯誤的問題。(AN-247082)
-* 已修正 Data Warehouse API 要求無法傳回資料的問題。(AN-236931)
-* 已修正對虛擬報告套裝的存取只有在一起存取上層報告套裝時才可行的問題。(AN-247042)
-* 已修正將專案從 [!UICONTROL Ad Hoc Analysis] 轉換到 [!UICONTROL Workspace] 時導致錯誤的問題。(AN-221215)
-* 已修正在 [!UICONTROL Workspace Project Manager] 中顯示的已篩選專案數目不正確的問題。(AN-244934)
+* 修正在編輯和儲存區段的新擁有者後，此新擁有者未反映在區段UI中的問題。 (AN-234502;AN-250970;AN-250286)
+* 修正造成應用程式報表套裝同時使用主要伺服器呼叫和行動主要伺服器呼叫的問題。 (AN-244029)
+* 修正開啟工作區專案時，UI回應時間緩慢的問題。 (AN-242553)
+* 修正升級至最新版本後無法登入Report Builder的問題。 (AN-248825)
+* 修正非管理員使用者的使用者權限問題：只要使用者已在Admin Console中新增至其中一個描述檔，就應擁有該權限。 將使用者新增至描述檔時，只應新增至他們擁有的權限，而不應移除他們已透過其他產品描述檔擁有的任何內容。 (AN-242723)
+* 修正「資料饋送」的語言編碼問題。 (AN-249862)
+* 修正使用者無法存取共用工作區專案的問題。 (AN-247814)
+* 修正警報預覽與觸發警報數目不符的問題。 (AN-249392;AN-250804)
 
 #### 其他 Adobe Analytics 修正項目
 
-AN-224987；AN-229009；AN-239750；AN-239765；AN-241620；AN-242996；AN-243577；AN-243774；AN-244509；AN-244746；AN-244763；AN-244868；AN-244960；AN-245016；AN-245097；AN-245727；AN-246141；AN-246283；AN-246340；AN-246532；AN-246669；AN-246744；246763；AN-246892；AN-246898；AN-246961；AN-247643；AN-247048；AN-247134；AN-247758；AN-247774；AN-248179；AN-248226；AN-248297；AN-248300；AN-248303；AN-248376；AN-248495；AN-248647
+AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;AN-247227;AN-248237;AN-248478;AN-248852;AN-249115;AN-249140;AN-249216;AN-249275;AN-249538;AN-249963;AN-250034;AN-250270;AN-250320;AN-250338;AN-250377;AN-250378;AN-250557;AN-250609;AN-250614;AN-250615;AN-250885;AN-251088;AN-251137;AN-251190;AN-251192;AN-251193;AN-251301;AN-251496;AN-251545;AN-251734;AN-251735;AN-251744;AN-251816;AN-251982;AN-251972;AN-252051;AN-252073;AN-252105;AN-252409;AN-252640
 
 ### 給 [!DNL Analytics] 管理員的重要通知 {#aa-notices}
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| 開啟與SiteCatalyst相同的VISTA處理 | 2021 年 3 月 17 日 | 在2021年6月17日，所有報表套裝都將更新為「與SiteCatalyst相同的VISTA處理」[!UICONTROL 設為「開啟」。  ]此變更會處理資料以符合處理規則，進而影響Data Warehouse報告。  如有疑問或需要澄清，請聯絡客戶服務。 |
 | 全面處理資料來源的 EOL | 2021 年 3 月 10 日 | Adobe 計劃未來淘汰「全部處理資料來源」。自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。請利用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)匯入此類資料。 |
-| Reports &amp; Analytics 登陸頁面選項 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，將新 Reports＆Analytics 儀表板或其他內容設定為 Adobe Analytics 登陸頁面的選項將被刪除。如果您先前將 Reports &amp; Analytics 頁面設為自訂登陸頁面，則該頁面將繼續有效，直到您在「[!UICONTROL 用戶偏好設定]」中修改登陸頁面為止。從 2021 年 3 月 25 日起，您將無法再定義新的 Reports＆Analytics 自訂登陸頁面。 |
+| Reports &amp; Analytics 登陸頁面選項 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，將新 Reports＆Analytics 儀表板或其他內容設定為 Adobe Analytics 登陸頁面的選項將被刪除。如果您先前將 Reports &amp; Analytics 頁面設為自訂登陸頁面，則該頁面將繼續有效，直到您在「[!UICONTROL 用戶偏好設定]」中修改登陸頁面為止。 |
 | 終止 Ad Hoc Analysis 服務 | 2021 年 1 月 | [!UICONTROL Ad Hoc Analysis] 的生命週期在 2021 年 3 月 1 日結束。如需詳細資訊，請瀏覽 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | 三個 Analytics API 服務終止運作 | 2021 年 1 月 6 日 | 下列 Analytics Legacy API 服務預計在 2021 年 4 月 30 日結束生命週期並關閉。所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
 | Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange 合作夥伴計劃](https://partners.adobe.com/exchangeprogram/experiencecloud)中有提供新的標準。您可以針對任何整合使用該項標準，以繼續獲得產品供應和支援。生命週期結束的官方日期為 2021 年 8 月 1 日。[了解更多...](https://docs.adobe.com/content/help/zh-Hant/analytics/import/dataconnectors/data-connectors-eol.html) |
-| 為所有傳入的 HTTPS 要求加上 HSTS 標題 | 2020 年 9 月 29 日 | Adobe 已從 2020 年 9 月 29 日開始新增 HSTS 標頭到使用 HTTPS 的所有傳入要求。此標頭會指示瀏覽器或用戶端在 HTTPS 中提出所有未來的要求，這被視為安全性最佳做法。目前 Adobe 不會強制使用 HTTP 的傳入要求一定要採用這項做法。 |
-| 變更 [!UICONTROL Experience Cloud ID 服務] Cookie 設定 | 2020 年 9 月 22 日 | 一項針對 Chrome 80 版本隱私權設定的更新影響 Adobe Analytics 追蹤部分檢視 Google AMP 頁面之用戶的能力。具體來說，這項更新會防止跨網域追蹤檢視 Google 託管 AMP 頁面的用戶。如此可能導致不重複訪客的數量增加。此修正可讓用戶透過變更 ECID Cookie 設定來解決此問題。<br>目前，Analytics 的 Experience Cloud ID (ECID) 服務 Cookie 設定為 `SameSite = Lax`，而此設定在 Chrome 80 版本之前皆允許進行跨網域追蹤。但如今情況有變。用戶可透過這項變更將 ECID Cookie 的 SameSite 設定更新為 `None`。<br>此變更讓 Analytics Cookie 得以在更多情況下分享，但 Analytics Cookie 並未包含敏感資訊。此外，選擇這項設定時，Cookie 必須設定為 `Secure`，才能僅透過 HTTPS 連線傳送資料。如果您想要進行這項變更，受支援的用戶可以向客戶服務開啟支援服務單。 |
 
 ### AppMeasurement {#appm}
 
@@ -166,31 +161,20 @@ AN-224987；AN-229009；AN-239750；AN-239765；AN-241620；AN-242996；AN-24357
 
 [!DNL Analytics] 和 [!UICONTROL Customer Journey Analytics] 的最新課程、教學課程和文章。
 
-| 已發佈 | 名稱 | 類型 | 說明 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 2 月 8 日 | [新增趨勢線到線條視覺化](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/adding-trendlines-to-line-visualizations.html?lang=zh-Hant) | 影片 | 在「視覺化設定」中，您可以選擇新增迴歸或移動平均趨勢線到您的線列。此功能有助於在資料中描繪更清楚的模式。 |
-| 2021 年 2 月 8 日 | [在 Platform Launch 中新增實作外掛程式](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=zh-Hant#implementation) | 影片 | 實作外掛程式是 JavaScript 程式碼的片段，您可以將其新增到您的 Analytics 實作來追蹤其他自訂資料。請在這段影片中了解如何在 Platform Launch 中新增程式碼，以及要新增到何處。 |
-| 2021 年 1 月 6 日 | [Analysis Workspace 中的「媒體同時檢閱者」面板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=zh-Hant#analysis-workspace) | 影片 | 了解尖峰並行存取發生在何處或是下降發生在何處。取得內容品質和檢閱者參與的寶貴見解，並取得疑難排解或規劃數量和規模的協助。 |
-
 ### Analytics 說明資源
 
-* [Adobe Analytics 產品文件與教學課程](https://experienceleague.corp.adobe.com/docs/analytics.html?lang=zh-Hant)
+* [Adobe Analytics 產品文件與教學課程](https://experienceleague.corp.adobe.com/docs/analytics.html)
 
 ## ![圖示](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
-Audience Manager 的新功能、修正項目、說明文件和教學課程。
-
-| 功能 | 新增或更新日期 | 說明 |
-|----|----|----|
-| [Audience Manager 用戶遷移到 Admin Console](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/admin-console-migration.html?lang=zh-Hant) | 2021 年 2 月 1 日 | Audience Manager 用戶帳戶管理已移至 Adobe Admin Console，以便在您的 Adobe 解決方案中提供更精簡的體驗。<br>請依照本文所述的步驟來促進用戶遷移。Audience Manager 管理員應該盡快開始將其用戶帳戶遷移到 Adobe Admin Console。 |
+AAM新功能。
 
 ### 修正和改良 {#aam-fixes-and-improvements}
 
 * 已修正[上線狀態報告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/onboarding-status-report.html?lang=zh-Hant)中的問題。在此問題中，該報告中的記錄與上線合作夥伴上傳的檔案中的記錄有所出入。(AAM-57415)
-* 已修正&#x200B;**[!UICONTROL 預測性受眾]**&#x200B;功能中的&#x200B;**[!UICONTROL 模型]**&#x200B;複製問題。(AAM-56775)
-* 已修正複製特徵或片段的問題 (複製錯誤的特徵或片段)。(AAM-57351)
-* 已修正 **[!UICONTROL 模型 > 排除特徵]** 中的 **[!UICONTROL 全選]** 核取方塊無法讓用戶點按的問題。(AAM-57366)
-* 已修正 **[!UICONTROL 片段產生器]** 中的問題 (**[!UICONTROL 全選]** 核取方塊無法選取所有特徵)。(AAM-55640)
+* 修正造成&#x200B;**[!UICONTROL 以人為本的目標]**&#x200B;重複區段對應驗證錯誤的問題。 (AAM-56631)
+* 修正部分使用者無法存取&#x200B;**[!UICONTROL 對象報表]**&#x200B;的問題。 (AAM-57412)
+* 已修補[!DNL Remote Code Execution]弱點，攻擊者可利用此弱點存取敏感資料。 (AAM-57495)
 
 ### Audience Manager 課程與教學課程 {#tutorials-aam}
 
@@ -198,15 +182,17 @@ Audience Manager 的新功能、修正項目、說明文件和教學課程。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 2 月 5 日 | [擷取檔案型資料的步驟](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/integrating-offline-data/steps-for-ingesting-file-based-data.html?lang=zh-Hant#integrating-offline-data) | 影片 | 了解當您將離線資料上線到 Audience Manager 時所必須考量的步驟 (包括資料檔案的檔案名稱要求)。 |
-| 2021 年 2 月 5 日 | [格式化及擷取檔案型資料](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/integrating-offline-data/formatting-and-ingesting-file-based-data.html?lang=zh-Hant#integrating-offline-data) | 影片 | 將您的第一方資料引進 Audience Manager 以便更加了解及更能鎖定您的客戶時，資料就存在著某些格式化需求。了解一些主要選項以及要到何處取得更多資訊。 |
-| 2021 年 2 月 5 日 | [建立跨裝置資料來源及驗證](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/setup-and-admin/data-sources/creating-a-cross-device-data-source-and-authenticating.html?lang=zh-Hant#setup-and-admin) | 影片 | 了解將您的第一方 CRM 資料引進 Audience Manager 時，如何建立跨裝置資料來源來儲存 CRM ID 和資料。這段影片會說明其做法以及如何在 Experience Platform Launch 中為登入設定 `setCustomerIDs()` 方法。 |
-| 2021 年 2 月 3 日 | [課程介紹 - 在 Audience Manager 中建立及管理資料啟用](https://video.tv.adobe.com/v/331001) | 影片 | 受眾片段沒有價值，除非您實際對其採取某些行動。此課程會教導您如何使用受眾來自訂用戶體驗。這段介紹影片可幫助您開始前進。 |
-| 2021 年 1 月 28 日 | [特徵建立與管理](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.3) | 課程 | 了解使用產品內的[!UICONTROL 特徵產生器]和[!UICONTROL 大量管理]工具建立及整理特徵的來龍去脈。也學習如何使用 [!UICONTROL Data Explorer] 工具來探索送入 Audience Manager 的重要訊號，並為這些訊號建立特徵。 |
-| 2021 年 1 月 22 日 | [使用 Audience Optimization 報告了解媒體效能](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/reports/using-audience-optimization-reports-to-understand-media-performance.html?lang=zh-Hant#reports) | 影片 | 學習如何使用 Audience Optimization 報告改進您的行銷活動，了解應該在何處投入行銷資金以及在何處停止投資。也學習如何決定最佳頻率限定並在這些報告中尋找其他寶藏。 |
-| 2021 年 1 月 15 日 | [透過重疊報表了解相關受眾](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/reports/understand-related-audiences-with-overlap-reports.html?lang=zh-Hant#reports) | 影片 | 重疊報表可讓您看到特徵與片段受眾如何彼此重疊 (多個特徵或片段中的相同訪客)，好讓您了解您可以在何處對資料採取行動，以提高轉換率或聚焦於擴大觸及率。 |
-| 2021 年 1 月 12 日 | [使用 Data Export Labels 控制資料流量](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/destinations-basics/using-data-export-labels-to-control-data-flow.html?lang=zh-Hant#data-activation) | 影片 | Data Export Labels 為您提供 Audience Manager 中的一項機制來控制不同資料類型/來源的流量，好讓您可以符合您的隱私權要求。了解如何設定 Data Export Controls 和 Data Export Labels 來為此目的協同運作。 |
-| 2021 年 1 月 22 日 | [從 Adobe Analytics 將片段匯入 Audience Manager](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/import-aa-segments-into-aam.html?lang=zh-Hant#build-and-manage-audiences) | 影片 | 除了從 Adobe Analytics 將即時資料轉送到 Audience Manager 之外，您也可以從 Analytics 透過 Experience Cloud 將包含已後續處理之資料的片段匯入到 Audience Manager。 |
+| 2021 年 3 月 21 日 | [在面向Audience Manager用戶的即時CDP中瞭解方案和XDM](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-schemas-xdm-for-aam-users.html?lang=en#other-integrations) | 影片 | 從Audience Manager到即時客戶資料平台（即時CDP），您將會遇到一些新概念和做法。 結構描述和XDM屬於該類別。 本影片說明這些概念。 |
+| 2021 年 3 月 17 日 | [瞭解面向Audience Manager用戶的即時CDP信號](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-signals-for-aam-users.html) | 影片 | 此視訊適用於Audience Manager使用者，他們正在移轉至即時客戶資料平台（即時CDP），並討論您在Audience Manager中用來建立特性的信號（關鍵值配對）如何在Platform中使用。 |
+| 2021 年 3 月 12 日 | [在面向Audience Manager用戶的即時CDP中瞭解方案和XDM](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-schemas-xdm-for-aam-users.html?lang=en#other-integrations) | 影片 | 從Audience Manager到即時客戶資料平台（即時CDP），您將會遇到一些新概念和做法。 結構描述和XDM屬於該類別。 本影片說明這些概念。 |
+| 2021 年 3 月 12 日 | [在Experience Manager Cloud Service時提供內容](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/content/feb2021/content-delivery.html#content) | 事件 | Adobe Experience Manager作為Cloud Service，具有強大的預先配置內容傳送體系結構。 示範如何最佳化內容傳送組態 |
+| 2021 年 3 月 3 日 | [瞭解面向Audience Manager用戶的即時CDP中的細分](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-segments-for-aam-users.html?lang=en#other-integrations) | 影片 | 從Audience Manager到即時客戶資料平台，瞭解概念的差異會很有幫助。 此視訊檢視了Audience Manager與即時CDP之間區段和區段建立的差異。 |
+| 2021 年 3 月 3 日 | [瞭解面向Audience Manager用戶的即時CDP特徵](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-traits-for-aam-users.html?lang=en#other-integrations) | 影片 | 從Audience Manager到即時客戶資料平台，瞭解概念的差異會很有幫助。 此視訊可解決Audience Manager中的特性，以及即時CDP中的等效特性。 |
+| 2021 年 3 月 3 日 | [課程簡介-Audience Manager高級技能](https://video.tv.adobe.com/v/331788/?quality=12&learn=on) | 影片 | 觀看此影片，瞭解Audience Manager進階技能課程中的預期內容。 |
+| 2021 年 3 月 3 日 | [瞭解面向Audience Manager用戶的即時CDP中的第一方資料接收](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-1pd-ingestion-for-aam-users.html?lang=en#other-integrations) | 影片 | 本視訊討論使用Adobe Audience Manager的客戶即時資料平台（即時CDP）的第一方離線資料擷取。 我們查看兩個產品在資料接收方面的一些主要差異，並說明在將流程移至即時CDP之前，如何將Audience Manager資料連接器用作停止間隙。 |
+| 2021 年 3 月 1 日 | [透過Audience Marketplace提供產品，將您擁有的受眾商業化](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/audience-marketplace/selling-data/commercialize-owned-audiences-on-marketplace.html?lang=en#audience-marketplace) | 影片 | 在此影片中，您將學習如何將資料設定為Audience Marketplace上的私人或公共資料饋送，讓您成為第二方或第三方資料的資料提供者。 |
+| 2021年3月 | [在Audience Manager中建立和管理資料激活](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.4) | 課程 | 在本課程中，請進一步瞭解如何「啟動」您的受眾，例如傳送受眾資料給目標合作夥伴，以便為您的使用者自訂體驗。 您將瞭解目的地的基本知識、如何選擇符合您需求的目的地，以及如何根據人而非cookies準備受眾資料並傳送至社交網路目的地。 |
+| 2021年3月 | [Audience Manager高級技能](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.5) | 課程 | 一旦您掌握了Audience Manager的基本知識，請參加本課程，瞭解如何將受眾管理提升到新的層次。 瞭解如何將人工智慧與演算法模型搭配使用、如何使用描述檔合併規則來瞭解客戶是否是人，而非裝置，以及其他絕佳主題來延伸DMP的使用。 |
 
 ## ![圖示](/assets/aem.png) Adobe Experience Manager {#aem}
 
@@ -214,63 +200,55 @@ Experience Manager 的新功能、修正及更新。Adobe 建議使用內部部�
 
 >[!NOTE]
 >
->Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)頁面，以掌握最新的版本資訊。
+>Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html)頁面，以掌握最新的版本資訊。
 
 ### 產品發行版
 
-* **Experience Manager as a Cloud Service**
+* **AEM 6.5.8.0**
+AEM 6.5 Service Pack 8 (6.5.8.0，已於 2021 年 3 月 11 日發行) 是項重要更新，其中包括自 2019 年 4 月 AEM 6.5 全面發行以來所推出的新功能、重要客戶增強功能，以及效能、穩定性和安全性等方面的改善項目。
+   * [版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=zh-Hant#service-pack)
+   * [AEM Forms 發行交付項目](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates)
 
-   Experience Manager as a Cloud Service 中的新功能
+   * **AEM  6.4.8.4 AEM 6.4, Service Pack 8, Cumulative Fix Pack 4（2021年2月25日發行的6.4.8.4）是重要的更新，包含自2020年3月AEM6.4, Service Pack 8(6.4.8.0)全面上市以來的數項內部和客戶修正。**
 
+   * [版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=zh-Hant)
+   * [AEM Forms 發行交付項目](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates)
+
+* **Adobe Experience Manager 雲端服務**
+
+   Experience Manager作為Cloud Service有什麼新意？
+
+   * **Experience Manager網站做為Cloud Service**
+
+      * [RemotePage元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/remote-page.html?lang=en):新增支援在Experience Manager中檢視和編SPA輯外部內容。
+      * [在Experience Manager中編SPA輯外部](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/editing-external-spa.html?lang=en):新增將獨立單頁應用程式上傳至Experience Manager例項、新增可編輯的內容區段，以及啟用編寫功能的能力。
    * **Experience Manager Assets as a Cloud Service**
 
-      * **Headless 內容管理服務**
-
-         * [用於內容片段傳送的 GraphQL API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/graphql-api-content-fragments.html?lang=zh-Hant)：能夠使用 GraphQL 語法以及根據內容片段模型的結構描述來查詢內容片段，以產生 JSON 格式的輸出。
-         * [GraphQL API 要求的驗證支援](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/graphql-authentication-content-fragments.html?lang=zh-Hant)：能夠使用伺服器端 API 的存取權杖來驗證 GraphQL API 要求。
-         * [RemotePage 元件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/remote-page.html?lang=zh-Hant)：已新增在 AEM 中對於檢視及編輯外部 SPA 的支援。
-         * [在 AEM 內編輯外部 SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/editing-external-spa.html?lang=zh-Hant)：已新增將獨立單頁應用程式上傳到 AEM 執行個體、新增可編輯的內容片段及啟用編寫的功能。
-         * 來自 GraphQL API 的增強型 JSON 輸出，包括輸出 JSON 格式的 RTF 和地區設定的功能。
-         * 對巢狀內容片段模型的支援，允許透過專用內容片段參考資料類型或內嵌在多個文字欄位中的內容片段參考來建立巢狀內容片段結構。
-         * 內容片段模型資料類型中有更多驗證規則，包括「唯一」、「必要」和「可轉譯」。
-         * 標記內容片段模型，以及允許在包含原則 (依標記或路徑) 的檔案夾中建立內容片段的功能。
-         * 內容片段編輯器中的可用性增強，包括發佈動作以及顯示片段所依據的模型。
-         * 直接在內容片段編輯器中預覽 JSON 輸出的功能。
-      * **漸進式網頁應用程式 (PWA)**
-
-         * [網站的漸進式網頁應用程式 (PWA) 版本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hant)現在可透過簡易設定在專案層級啟用。
-   * **Experience Manager Assets as a Cloud Service**
-
-      * Experience Manager as a Cloud Service 會擴充智慧型標記功能來支援文字型資產中的關鍵字與實體的識別。該文字會被識別、編制索引，並當做中繼資料使用，以改善搜尋體驗，而不需要任何設定。請參閱[智慧型標記](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/smart-tags.html?lang=zh-Hant)。
-      * 現在可支援 MXF 檔案格式。請參閱[支援的檔案格式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/file-format-support.html?lang=zh-Hant#video-formats)。
+      * Experience Manager資產做為Cloud Service，有權擁有預先設定的品牌入口網站例項。 Cloud Manager使用者可以啟動Experience Manager資產上的品牌入口網站作為Cloud Service。
+      * 企業現在可以使用品牌入口網站來搜尋資產。 資產來源搜尋功能使用品牌入口網站，協助客戶與代理商使用者互動，為新的行銷宣傳、像片和專案尋找資產。 請參閱品牌入口網站指南中的[資產來源補充概述](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en)。
+      * 「品牌入口網站」使用狀況報表現在只會顯示作用中的使用者。 現在不會顯示非作用中的使用者。 作用中使用者是指其帳戶已指派給Admin Console中產品設定檔的使用者。 請參閱品牌入口網站指南中的[使用報表](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/admin-tools/brand-portal-reports.html?lang=en)。
+      * 在品牌入口網站中，推出新的下載設定，可讓您在下載檔案夾、系列等時，為每個資產建立個別的檔案夾。 請參閱品牌入口網站指南中&#x200B;**從品牌入口網站**&#x200B;下載資產中的[資產下載](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en)。
    * **Experience Manager Commerce as a Cloud Service**
 
-      * **有哪些新增功能？**
+      * 產品體驗管理：使用體驗片段讓產品目錄頁面更加豐富。
+      * 延伸產品主控台屬性，以顯示連結的資產和體驗片段，包括快速導覽至相關內容的動作。
+      * 發佈的CIF Venia參考網站- 2021.02.24，其中包含最新的CIF核心元件1.8.0版。如需詳細資訊，請參閱[CIF文尼亞參考網站2021.02.24](https://github.com/adobe/aem-cif-guides-venia/releases/tag/venia-2021.02.24)。
+      * 已發行CIF核心元件1.8.0版。如需詳細資訊，請參閱[CIF核心元件1.8.0](https://github.com/adobe/aem-core-cif-components/releases/tag/core-cif-components-reactor-1.8.0)。
+   * **Cloud Manager**
 
-         * 產品體驗管理：資產和體驗片段的新「商業資產」索引標籤。此索引標籤可讓您將產品/類別連結到資產和體驗片段。此索引標籤也會顯示連結的產品/類別的即時資料，以及在產品主控台中顯示詳細資訊的連結。
-         * 已發行 CIF Venia Reference Site - 2021.02.02，其中包含最新 CIF Core Components 版本 v1.7.0。如需了解詳情，請參閱 [CIF Venia Reference Site](https://github.com/adobe/aem-cif-guides-venia/releases/tag/venia-2021.02.02)。
-         * 已發行 CIF Core Components v1.7.0。如需了解詳情，請參閱 [CIF Core Components](https://github.com/adobe/aem-core-cif-components/releases/tag/core-cif-components-reactor-1.7.0)。
-      * **SDK Build Analyzer**
-
-         Experience Manager as a Cloud Service SDK Build Analyzer Maven 外掛程式會偵測 maven 專案中的問題，包括遺漏的相依項目。它讓開發人員有機會在本機開發期間以及使用 Cloud Manager 部署到雲端環境之前找到問題。
-
-         已為此版本新增兩個新的分析工具：
-
-         * repoinit analyzer
-         * bundle-nativecode
-
-         如需詳細資訊，請參閱[這裡](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/build-analyzer-maven-plugin.html?lang=zh-Hant#developing)的文件。
-   * **雲端轉移工具**
-
-      * **內容轉移工具中有哪些新增功能**
-
-         * 已為內容轉移工具增加新功能和 UI – 用戶對應工具。此功能會在內容遷移活動中，自動將現有的用戶和群組對應到其 Adobe Identity Management 系統 ID。
-請參閱[使用用戶對應工具](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-user-mapping-tool.html?lang=zh-Hant)。
-         * 內容轉移工具現在會遷移在遷移集合中參考的所有群組和用戶 (包括子項)。
-         * 用戶在建立遷移集合時，可選取 `/etc` 底下的特定路徑。
-
-
-
+      * 具有[IP允許清單](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/ip-allow-lists/check-ip-allow-list-status.html?lang=en#pre-existing-cdn)、[SSL證書](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-ssl-certificates/check-status-ssl-certificate.html?lang=en#pre-existing-cdn)和[自定義域名](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/custom-domain-names/check-domain-name-status.html?lang=en#pre-existing-cdn)的現有自定義域名配置的客戶現在可以看到有關其先前現有配置的消息。 它們也可以透過使用者介面提供自助服務。
+      * 具備必要權限的使用者現在可以編輯程式，讓他們以自助方式進行下列作業：
+         * 將Sites解決方案新增至包含資產或反之的現有計畫。
+         * 將網站或資產從既有的計畫中移除，同時包含網站和資產。
+         * 將第二個未使用的解決方案權益新增至現有的程式，或新增為新的程式。
+      * **現AEM在會針對「管線執行」和「活動」畫** 面顯 *示推播更*  ** 新標籤。
+      * 如果某個環境已休眠，但也有Experience Manager更新可用，則&#x200B;**已休眠**&#x200B;狀態優先於&#x200B;**可用更新**。
+      * 用戶現在可以在導航到Unified Shell的「用戶配置檔案」表徵圖（右上）後，選擇&#x200B;**查看Cloud Manager角色**&#x200B;來查看其Cloud Manager角色。
+      * **申請批准**&#x200B;標籤已重新標籤至&#x200B;**生產批准**，以更清楚明瞭。
+      * **版本**&#x200B;標籤已重新標籤至「生產管線」執行畫面中的&#x200B;**Git Tag**。
+      * 當重要量度不符合定義的臨界值時，定義行為的標籤已重新標籤，以反映其真實行為：**取消立即**&#x200B;和&#x200B;**批准立即**。
+      * 類別和方法取代清單已根據Experience Manager Cloud ServiceSDK的`2021.3.4997.20210303T022849Z-210225`版本進行更新。
+      * Cloud Manager生產管道現在包含[自訂UI測試](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/test-results/functional-testing.html?lang=en#custom-ui-testing)功能。
 
 
 
@@ -279,11 +257,11 @@ Experience Manager 的新功能、修正及更新。Adobe 建議使用內部部�
 
 * **Adobe Developers Live 2021 | 完整諮詢清單**
 
-   根據常見要求，[這裡](https://adobe.ly/3cldljt)提供了 Adobe Developers Live 中所有 Experience Manager 諮詢的彙總清單。每次諮詢的所有錄音和問答都會公佈到其各自的相關對話。
+   [以](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-developers-live-2021-complete-session-list/m-p/394595#M27875) 下是「Experience Manager開發人員即時」中發生的所有Adobe作業 **匯總清單**。
 
-* **Experience League 上的最新 Adobe Experience Manager 內容清單 | 2021 年 1 月**
+* **2021年Adobe峰會 |完整的Experience Manager課程清單**
 
-   Adobe 製作的數位體驗技術內容的官方來源。請參閱[這裡](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/list-of-latest-adobe-experience-manager-content-on-experience/m-p/377452#M27156)的完整清單。
+   [以](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-complete-aem-session-list/td-p/398344) 下是2021年Experience Manager首腦會議所有Adobe會議 **的匯總清單**。
 
 ### Experience Manager 發行資訊
 
@@ -296,7 +274,7 @@ Experience Manager 的新功能、修正及更新。Adobe 建議使用內部部�
 * [Experience Manager 6.5 Service Pack 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
 * [Experience Manager 6.4 Cumulative Fix Pack 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/experience-manager-64/release-notes/cfp-release-notes.html)
 * [Experience Manager Assets Dynamic Media 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/dynamic-media-developer-resources/release-notes/s7rn2017.html)
-* [Experience Manager Brand Portal 版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=zh-Hant)
+* [Experience Manager Brand Portal 版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
 * [Experience Manager 桌面應用程式版本注意事項](https://docs.adobe.com/content/help/zh-Hant/experience-manager-desktop-app/using/release-notes.translate.html)
 * [Experience Manager Dispatcher 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/experience-manager-dispatcher/using/getting-started/release-notes.html)
 * [Livefyre 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/livefyre/using/release-notes/c-rn.translate.html)
@@ -307,41 +285,25 @@ Experience Manager 的新功能、修正及更新。Adobe 建議使用內部部�
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 2 月 11 日 | [從外部應用程式向 AEM as a Cloud Service 進行驗證](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.aemcs) | 課程 | 了解外部應用程式如何使用[!UICONTROL 本機開發存取權杖]和[!UICONTROL 服務認證]，以程式設計方式透過 HTTP 向 Experience Manager as a Cloud Service 進行驗證。 |
-| 2021 年 2 月 11 日 | [建立資產關聯及取消關聯](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/relate-unrelate.html?lang=zh-Hant) | 影片 | 了解如何在 Experience Manager 中建立及管理資產之間的關聯。 |
-| 2021 年 2 月 8 日 | [AEM Sites - WKND 教學課程](https://docs.adobe.com/content/help/zh-Hant/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) | 教學課程 | 歡迎使用專為 Experience Manager 的新手開發人員設計的多部分教學課程。此教學課程會逐步引導您為虛擬生活風格品牌 WKND 實作 Experience Manager 網站。 |
-| 2021 年 2 月 1 日 | [建立您的第一個 OSGi 套件](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/create-your-first-osgi-bundle.html?lang=zh-Hant) | 文章 | 了解如何使用 maven 和 eclipse 建立您的第一個 OSGi 套件。 |
-| 2021 年 2 月 1 日 | [發佈資產](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/sharing/publish.html?lang=zh-Hant) | 影片 | 了解如何從 Experience Manager Author 將資產及其轉譯內容發佈到 AEM Publish。 |
-| 2021 年 2 月 4 日 | [本機開發](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/local-development-environment.html?lang=zh-Hant) | 影片 | 了解如何使用 Experience Manager as a Cloud Service SDK 下載及設定本機開發環境。 |
-| 2021 年 2 月 4 日 | [專案結構](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/project-structure.html?lang=zh-Hant) | 影片 | 探索為 AEM as a Cloud Service 建構 Experience Manager Maven 專案的最佳做法。 |
-| 2021 年 2 月 4 日 | [遷移 Dispatcher 設定](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/dispatcher-configuration.html?lang=zh-Hant) | 影片 | Dispatcher 設定差異的概觀，以及從 Adobe Managed Services (AMS) 將 Dispatcher 遷移到 Experience Manager as a Cloud Service 的秘訣與技巧。 |
-| 2021 年 2 月 2 日 | [AEM SDK 簡介](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/aem-sdk.html?lang=zh-Hant) | 影片 | 針對 Experience Manager as a Cloud Service 使用及設定此 SDK。 |
-| 2021 年 2 月 2 日 | [什麼是 AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/what-is-aem-as-a-cloud-service.html?lang=zh-Hant) | 影片 | 探索什麼是 Experience Manager as a Cloud Service，以及它與其他 Adobe Experience Manager 版本的差異。 |
-| 2021 年 2 月 2 日 | [Cloud Manager 的角色](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/cloud-manager.html?lang=zh-Hant) | 影片 | 探索 [!UICONTROL Cloud Manager] 的用途以及它如何搭配 Experience Manager as a Cloud Service 使用。 |
-| 2021 年 2 月 2 日 | [AEM as a Cloud Service 的進化](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/evolution.html?lang=zh-Hant) | 影片 | 探索 Experience Manager 的歷史以及它與內部部署 Experience Manager、Adobe Managed Services AEM 和 Experience Manager as a Cloud Service 之間的差異。 |
-| 2021 年 2 月 2 日 | [AEM as a Cloud Service 的架構](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/architecture.html?lang=zh-Hant) | 影片 | 探索 Experience Manager as a Cloud Service 的基本架構及重要片段。深入探討 Cloud Manager 和 API。 |
-| 2021 年 2 月 2 日 | [使用 Cloud Manager API](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/cloud-manager-apis.html?lang=zh-Hant) | 影片 | 探索 Cloud Manager API 如何用來擴充及整合其他系統。 |
-| 2021 年 2 月 2 日 | [分析測試結果](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/analyze-test-results.html?lang=zh-Hant) | 影片 | 探索您的程式碼中的任何編譯錯誤，以及此程式碼是否有遵循 Experience Manager as a Cloud Service 的最佳做法 |
-| 2021 年 2 月 2 日 | [設定管道](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/configure-pipelines.html?lang=zh-Hant) | 影片 | 探索 Cloud Manager 中的不同管道類型，以及如何針對成功的專案設定這些管道。 |
-| 2021 年 2 月 2 日 | [管理 Dispatcher 設定](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/dispatcher-configurations.html?lang=zh-Hant) | 影片 | 使用最佳做法和範例來探索 Dispatcher 如何搭配 Experience Manager as Cloud Service 和 Cloud Manager 使用。 |
-| 2021 年 2 月 2 日 | [持續整合與 Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/continuous-integration.html?lang=zh-Hant) | 影片 | 了解使用 Adobe Cloud Manager 的最佳做法與持續整合。 |
-| 2021 年 2 月 2 日 | [合併 AEM 專案以使用 Cloud Manager 部署](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/merge-projects.html?lang=zh-Hant) | 影片 | 探索如何將多個專案合併到單一專案中，以使用 Cloud Manager 部署到 Experience Manager as a Cloud Service。 |
-| 2021 年 2 月 2 日 | [部署 Cloud Manager 專案](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/deploy-code.html?lang=zh-Hant) | 影片 | 將 Cloud Manager Git 儲存庫與外部 Git 儲存庫整合，並將專案部署到 Experience Manager as a Cloud Service。 |
-| 2021 年 2 月 2 日 | [內容發佈](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/content-publishing.html?lang=zh-Hant) | 影片 | 探索 Experience Manager as a Cloud Service 中內容發佈的運作方式，包括內容發佈的概念及 Adobe 管道。 |
-| 2021 年 2 月 2 日 | [權杖型驗證 - 服務認證](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials.html?lang=zh-Hant#authentication) | 影片 | 了解用來與 Experience Manager as a Cloud Service 整合的權杖型驗證。 |
-| 2021 年 2 月 2 日 | [簽署多個表單](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/sign-multiple-documents/introduction.html?lang=zh-Hant#sign-multiple-documents) | 教學課程 | 無論您是要申請抵押貸款還是要開立新的銀行帳戶，都需要填寫及簽署多個表單。Experience Manager Forms 與 Adobe Sign 之間的整合可讓您輕鬆地填寫及簽署多個表單。 |
-| 2021 年 1 月 28 日 | [權杖型驗證 - 本機開發存取權杖](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/local-development-access-token.html?lang=zh-Hant#authentication) | 影片 | 了解 Experience Manager 的 Developer Console 如何讓開發人員自行產生暫時性存取權杖，這些權杖可用來以程式設計方式存取 Experience Manager。 |
-| 2021 年 1 月 28 日 | [對 AEM as a Cloud Service 的權杖型驗證](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html?lang=zh-Hant#authentication) | 影片 | 了解外部應用程式如何以程式設計方式使用存取權杖並透過 HTTP 向 Experience Manager as a Cloud Service 進行驗證並與其互動。 |
-| 2021 年 1 月 24 日 | [建立主要表單以觸發此程序](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/sign-multiple-documents/create-initial-form.html?lang=zh-Hant) | 文章 | 初始表單 (再融資表單) 是用來簽署多個表單，其方式為觸發[!UICONTROL 簽署多個表單 AEM] 工作流程。 |
-| 2021 年 1 月 8 日 | [Adobe Cloud Manager CI/CD 生產管道執行](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/cicd-production-pipeline.html?lang=zh-Hant) | 影片 | CI/CD 生產管道設定會定義起始管道的觸發條件、控制生產部署的參數及效能測試參數。 |
-| 2021 年 1 月 8 日 | [Adobe Cloud Manager 活動](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/activity.html?lang=zh-Hant) | 影片 | Cloud Manager 會提供計劃活動的整合式檢視，列出所有 CI/CD 管道執行，無論是生產用還是非生產用。此功能可讓用戶檢視目前進行中的任何管道，並檢閱之前的部署。 |
-| 2021 年 1 月 8 日 | [Adobe Cloud Manager CI/CD 非生產用管道](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/cicd-non-production-pipeline.html?lang=zh-Hant) | 影片 | CI/CD 非生產用管道分成兩個類別：程式碼品質管道及部署管道。程式碼品質管道會從 Git 分支輸入所有程式碼，並根據 Cloud Manager 的程式碼品質掃描加以評估。 |
-| 2021 年 1 月 8 日 | [Adobe Cloud Manager CI/CD 生產管道設定](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/cicd-production-pipeline.html?lang=zh-Hant) | 影片 | CI/CD 生產管道設定會定義起始管道的觸發條件、控制生產部署的參數及效能測試參數。 |
-| 2021 年 1 月 8 日 | [Adobe Cloud Manager 環境](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/environments.html?lang=zh-Hant) | 影片 | Cloud Manager 環境是由 Experience Manager Author、Experience Manager Publish 和 Dispatcher 服務所組成。不同的環境可支援角色，並使用不同的 CI/CD 管道與其互動。Cloud Manager 環境通常有一個生產環境、一個中繼環境及一個開發環境。 |
-| 2021 年 1 月 8 日 | [Headless GraphQL 概觀](https://internal.adobedemo.com/content/demo-hub/zh-Hant/demos/internal/aem-headless-graphql.html) | 示範 | Experience Manager 的 GraphQL API 會公開來自 Experience Manager 內容片段的內容給下游應用程式。GraphQL API 在 Headless 和混合式使用案例中都可以使用。 |
-| 2021 年 1 月 8 日 | [Adobe Cloud Manager 計劃](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/programs.html?lang=zh-Hant) | 影片 | Cloud Manager 計劃代表支援邏輯業務計劃集合的 Experience Manager 環境集合，通常會對應到已購買的服務等級協定 (SLA)。 |
-| 2021 年 1 月 8 日 | [權杖型驗證](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html?lang=zh-Hant#authentication) | 影片 | Cloud Manager 計劃代表支援邏輯業務計劃集合的 Experience Manager 環境集合，通常會對應到已購買的服務等級協定 (SLA)。 |
-| 2021 年 1 月 8 日 | [大量匯入](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/bulk-import.html?lang=zh-Hant) | 影片 | Experience Manager as a Cloud Service 中的大量匯入工具可讓管理員以安全又有效率的方式從雲端儲存空間 (Azure Blob Storage 或 Amazon S3) 大量匯入資產。 |
+| 2021年2月 | [使用AEM Publish環境進行生產部署](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/production-deployment.html#graphql) | 教學課程 | 在本教學課程中，您將設定本機環境，以模擬內容從「作者」例項散發至「發佈」例項。 您也會使用GraphQL API，產生React App的生產組建版本，此應用程式設定為使用AEM Publish環境中的內容。 在此過程中，您將學習如何有效使用環境變數，以及如何更新AEMCORS組態。 |
+| 2021年2月 | [使用GraphQL API進行無頭內容管理](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.headless) | 課程 | 在本課程中，您將探AEM討如何使用GraphQL API和無頭功能來強化外部應用程式中呈現的體驗。 |
+| 2021年2月 | [啟動——功能視訊](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/launches.html) | 影片 | 在AEM Sites的發佈提供建立、製作和檢閱網站內容的方式，以供日後版本使用。 在建立產品期間，生產網站可以像平常一樣不斷改進和改變。 |
+| 2021年2月 | [連結關聯和取消關聯資產——功能視訊文字](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/relate-unrelate.html?lang=zh-Hant) | 影片 | 瞭解如何在中建立和管理資產之間的AEM關係。 |
+| 2021年2月 | [從外部應用程式向 AEM as a Cloud Service 進行驗證](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.aemcs) | 課程 | 在本課程中，您將瞭解外部應用程式如何使用本端開發存取Token和服務認證，以程式設計方式驗證AEM為透過HTTP的Cloud Service。 |
+| 2021年2月 | [在抵押申請書中填寫及簽署多個表格](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.7.forms) | 課程 | 使用AEM Forms與Sign整合，順暢地簽署檔案套件。 在表單中輸入的資料可用於在軟體包中預先填充後續表單。 |
+| 2021年2月 | [版本／時間彎AEM曲](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/timewarp-feature-video-use.html) | 影片 | 時間彎曲是Adobe Experience Manager Sites的一項功能，可讓作者快速檢視過去特定時間頁面的狀態。 |
+| 2021年2月 | [基礎——工作流程管理](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/workflow/use-workflow-management.html?lang=en#workflow) | 影片 | 此視訊使用「工作流程模型」來展示這組功能，但這些功能也適用於AEM啟動器。 |
+| 2021年2月 | [體驗片段區塊](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/building-blocks.html) | 影片 | 建立區塊是體驗片段的子功能。 建立區塊可讓內容作者在不同的「體驗片段」變數中重複使用元件。 |
+| 2021年2月 | [工作流程編輯器](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/workflow/use-the-workflow-editor.html?lang=en#workflow) | 影片 | 工作流在Experience Manager中實現了業務流程管理，並用於自動處理內容，以及促進需要人為決策的管理和流程。 |
+| 2021年2月 | [AEM Assets的封閉使用者群組](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/closed-user-groups.html) | 影片 | 「封閉使用者群組」(CUG)是一種功能，可用來限制對發佈網站上特定使用者群組的內容存取。 此影片顯示「關閉的使用者群組」如何與「Adobe Experience Manager資產」搭配使用，以限制對特定資產資料夾的存取。 |
+| 2021年2月 | [報表](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/asset-reports.html) | 影片 | AEM Assets公司提供企業級報告框架，可通過直觀的用戶體驗為大型儲存庫進行擴展。 |
+| 2021年2月 | [智慧型影像標籤與AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/image-smart-tags.html) | 影片 | 影像的智慧型標籤會根AEM據影像內容自動智慧地新增中繼資料標籤至影像資產，以增強搜尋功能。 |
+| 2021 年 2 月 24 日 | [中繼資料階層式、可見性](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/cascade-metadata-feature-video-use.html) | 影片 | 進階的中繼資料管理可讓使用者建立階層式欄位規則，以在AEM Assets的中繼資料之間建立內容相關關係。 以下視訊示範欄位需求、可見度和情境選擇的新動態規則。 視訊還詳細說明管理員將這些規則套用至自訂中繼資料架構所需的步驟。 |
+| 2021 年 2 月 24 日 | [專案主管](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/projects/use-project-masters.html?lang=en#delete-project-masters) | 影片 | 刪除主項目會導致衍生的項目無法使用。 |
+| 2021 年 2 月 24 日 | [自訂頁面屬性](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/developing/page-properties-technical-video-develop.html) | 影片 | 製作有關如何最佳延伸和自訂頁面屬性的技術影片。 |
+| 2021 年 2 月 24 日 | [翻譯內容片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-translation-feature-video-use.html) | 影片 | 瞭解內容片段如何以Adobe Experience Manager語本地化和翻譯。 與內容片段相關的混合媒體資產也符合擷取和翻譯的資格。 |
+| 2021 年 2 月 24 日 | [體驗片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html) | 影片 | 體驗片段可讓內容作者跨通道（包括網站頁面和協力廠商系統）重複使用內容。 |
+| 2021 年 2 月 24 日 | [增強的搜尋搜尋功能](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/search-and-discovery/search-boost.html) | 影片 | 瞭解Search Boost。 |
 
 ### 適用於 Experience Manager 的其他說明資源
 
@@ -360,7 +322,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### 最新產品發行版
 
-進一步了解已發行的最新功能、改良與修正：
+進一步瞭解已發佈的最新功能、改進和修正：
 
 * [Campaign Standard 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html)
 * [Campaign Classic 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html)
@@ -371,20 +333,30 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 | 已發佈 | 名稱 | 解決方法 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 2 月 5 日 | [適用於企業用戶的 Adobe Campaign Classic 快速入門](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.classic) | Campaign Classic | 完成此課程後，您將會了解 Adobe Campaign Classic 的概念及如何建立您的第一場行銷活動。 |
-| 2021 年 2 月 1 日 | [多管道和跨管道簡介](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/orchestration/introduction-to-cross-and-multi-channel-campaigns.html?lang=zh-Hant) | Campaign Classic | 了解多管道與跨管道行銷活動之間的差異，以及多管道與跨管道行銷活動的使用案例為何。 |
-| 2021 年 2 月 1 日 | [建立簡訊遞送](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/sms-channel/create-a-sms-delivery.html?lang=zh-Hant) | Campaign Classic | 了解如何建立簡訊遞送。 |
-| 2021 年 2 月 1 日 | [建立跨管道行銷活動](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/orchestration/cross-channel-campaigns.html?lang=zh-Hant) | Campaign Classic | 了解如何建立及執行跨管道行銷活動。 |
-| 2021 年 1 月 29 日 | [使用控制組](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/use-control-groups.html?lang=zh-Hant) | Campaign Classic | 了解控制組的概念及如何針對遞送使用控制組。 |
-| 2021 年 1 月 28 日 | [傳送及驗證證明](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/send-and-validate-proofs.html?lang=zh-Hant) | Campaign Classic | 了解如何傳送及驗證證明。 |
-| 2021 年 1 月 28 日 | [針對遞送功能設計電子郵件](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/design-emails-for-deliverability.html?lang=zh-Hant) | Campaign Classic | 了解如何套用遞送功能最佳做法。 |
-| 2021 年 1 月 28 日 | [建立及設計電子郵件遞送](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/create-and-design-email-deliveries.html?lang=zh-Hant) | Campaign Classic | 了解建立電子郵件遞送的程序，以及如何設計電子郵件內容並注入個人風格。 |
-| 2021 年 1 月 27 日 | [建立事件觸發的行銷活動](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/create-event-triggered-campaigns.html?lang=zh-Hant) | Campaign Classic | 了解如何建立事件觸發的行銷活動及其用途。 |
+| 2021 年 2 月 23 日 | [可傳遞性——可傳遞性指標](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/metrics-overview.html) | Campaign Classic/標準 | 瞭解要監控的關鍵傳遞能力指標，以及如何使用它們來識別信譽問題。 |
+| 2021 年 2 月 23 日 | [傳遞能力——彈回數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html) | Campaign Classic/標準 | 瞭解不同類型的彈回數。 |
+| 2021 年 2 月 23 日 | [交付能力——投訴](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) | Campaign Classic/標準 | 瞭解當使用者指出電子郵件不想要或未預期時，會註冊的投訴。 |
+| 2021 年 2 月 23 日 | [傳遞性——垃圾訊息陷阱](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/spam-traps.html) | Campaign Classic/標準 | 瞭解不同類型的彈回數。 |
+| 2021 年 2 月 23 日 | [傳遞能力——膨脹和封鎖](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bulking-and-blocking.html) | Campaign Classic/標準 | 瞭解ISP為何將電子郵件訊息放入大量資料夾或加以封鎖。 |
+| 2021 年 2 月 23 日 | [可交付性——過渡流程——基礎架構](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html) | Campaign Classic/標準 | 瞭解正確建構電子郵件基礎架構所需的內容。 |
+| 2021 年 2 月 23 日 | [傳遞能力——參與](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/engagement.html) | Campaign Classic/標準 | 瞭解不同類型的參與，以及參與為何對傳遞能力至關重要。 |
+| 2021 年 2 月 23 日 | [可傳遞性——轉換程式：定位條件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/targeting-criteria.html) | Campaign Classic/標準 | 瞭解如何從行動中建立良好聲譽，以有效建立信任，然後才能吸引參與度較低的受眾。 |
+| 2021 年 2 月 23 日 | [傳遞性——轉換過程- IP預熱期間的ISP特定考量](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/isp-specific-considerations-during-ip-warming.html) | Campaign Classic/標準 | 瞭解ISP提供商查看流量時的不同規則和方式 |
+| 2021 年 2 月 24 日 | [傳遞能力——第一印象——簡介](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/introduction.html) | Campaign Classic/標準 | 瞭解如何透過在這些領域留下良好的第一印象，為成功執行電子郵件計畫做好準備。 |
+| 2021 年 2 月 24 日 | [可傳遞性——轉換程式：卷](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/volume.html) | Campaign Classic/標準 | 瞭解傳送量如何影響電子郵件宣傳的傳遞能力。 |
+| 2021 年 2 月 24 日 | [可交付性——第一印象——地址收集和清單增長](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html) | Campaign Classic/標準 | 瞭解新電子郵件地址的最佳來源、如何確保高資料品質，以及符合法律准則。 |
+| 2021 年 2 月 25 日 | [傳遞性——第一印象——歡迎電子郵件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/welcome-emails.html) | Campaign Classic/標準 | 瞭解歡迎策略的關鍵要素。 |
+| 2021 年 2 月 25 日 | [可傳遞性——轉換程式：切換電子郵件平台](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html) | Campaign Classic/標準 | 瞭解如何在切換電子郵件平台時順暢地轉換。 |
+| 2021 年 2 月 26 日 | [可傳遞性——內容最佳實務，以最佳傳遞性](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html) | Campaign Classic/標準 | 最佳化電子郵件內容以提供內容的秘訣。 |
+| 2021 年 2 月 26 日 | [傳遞能力——傳送者永久性](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/sender-permanence.html) | Campaign Classic/標準 | 瞭解建立一致的傳送量為何重要。 |
+| 2021 年 2 月 26 日 | [可交付性——持續監控](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/ongoing-monitoring.html) | Campaign Classic/標準 | 瞭解監控交貨時需要注意的問題。 |
+| 2021 年 2 月 26 日 | [可傳遞性——付諸實踐](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/putting-it-in-practice.html) | Campaign Classic/標準 | 成功的四大關鍵支柱。 |
+| 2021 年 3 月 10 日 | [為領導者、企業使用者和管理員提供最佳實務](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.deliverability) | Campaign Classic | 了解傳遞能力的重要用語、概念和方法，讓您能夠確保行銷方案成功推行。 |
 
 ### 說明資源
 
-* Adobe Campaign Standard：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-planning.html) - [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/campaign-classic-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign Standard：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) - [版本注意事項](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-planning.html) - [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/campaign-classic-home.html) - [版本注意事項](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)- [Campaign Standard](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html) 作法影片
 
 ## ![圖示](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
@@ -407,20 +379,15 @@ Adobe Advertising Cloud 版本注意事項。
 
 ### [!DNL Advertising Cloud Search] 中的新功能{#adcloud-search}
 
-上次更新日期：**2021 年 2 月 23 日，針對 2 月 20 日版本**
+更新日期：**2021 年 1 月 22 日 (1 月 23 日發行)**
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 全部 | 工具 > 「Adwords 轉換標籤」現在是「Google Ads 轉換標籤」。“ |
-| 全部 | 四月起，以下功能和檢視將被淘汰不用：<br><ul><li>最佳化 > 產品組合卡</li><li>最佳化 > 出價規則</li><li>Insights &amp; Reports > 儀表板</li><li>行銷活動：大量編輯的待定和排程支援</li></ul> |
+| [!UICONTROL 搜尋 Campaigns]<br>報表 | Advertising Cloud Search不再報告Microsoft® Advertising促銷活動的新平均職位資料。 從 1 月 23 日開始，「平均位置」欄的值會一律顯示為 0。這是為了因應 Microsoft 在 2021 年 1 月汰除平均位置資料所做的準備。<br>報表中仍會提供截至 1 月 22 日前所收集的平均位置資料。 |
 
-### Advertising Cloud 教學課程和一般課程
+### Ad Cloud 教學課程和其他課程
 
-更新日期：**2021 年 2 月 23 日**
-
-| 教學課程 | 說明 |
-| -----------| ---------- |
-| [Workspace 和報表的簡介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=zh-Hant) | 了解如何使用 Advertising Cloud 資料在 Adobe Analytics Analysis Workspace 中建立視覺化報表。 |
+更新日期：**2020 年 12 月 2 日**
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
 
@@ -456,22 +423,10 @@ Adobe Advertising Cloud 版本注意事項。
 
 針對 Adobe Document Cloud 發佈的新影片、教學課程或其他課程。
 
-### Acrobat 教學課程
-
-| 已發佈 | 名稱 | 類型 | 說明 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 2 月 8 日 | [Acrobat 概觀登陸](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=zh-Hant) | 學習中心 | 歡迎使用 Adobe Acrobat 學習中心。您將會找到各式各樣聚焦於 Adobe Acrobat 的學習體驗。我們的教學課程、網路研討會和使用案例的設計目的是為了讓初學者和進階用戶都能快速掌握 Adobe Acrobat。 |
-
-### Adobe Sign 教學課程
-
-| 已發佈 | 名稱 | 類型 | 說明 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 2 月 8 日 | [登陸概觀 - 支援資產](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hant) | 學習中心 | 歡迎使用 Adobe Sign 學習中心。您將會找到各式各樣聚焦於 Adobe Sign 的學習體驗。我們的教學課程、網路研討會和使用案例的設計目的是為了讓初學者和管理員都能快速掌握 Adobe Sign。 |
-
 如需 Document Cloud 說明，請參閱：
 
-* [Adobe Acrobat 學習中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=zh-Hant)
-* [Adobe Sign 學習中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hant)
+* [Adobe Acrobat 學習中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html)
+* [Adobe Sign 學習中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html)
 * [Document Cloud 學習與支援](https://helpx.adobe.com/support/document-cloud.html)
 
 ## ![圖示](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
@@ -480,10 +435,11 @@ Creative Cloud Enterprise 的新教學課程。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 2 月 3 日 | [使用 Photoshop 建立動態靜圖](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/cinemagraphps.html?lang=zh-Hant#cceoverview) | 影片 | 了解如何將 Adobe Stock 中的影片與 Photoshop 中巧妙的遮色片技巧相結合，以創作栩栩如生的相片。 |
-| 2021 年 2 月 3 日 | [使用 Adobe Stock 和 Photoshop iPad 版創作獨特的複合影像](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/compositepsipad.html?lang=zh-Hant) | 影片 | 了解如何以全新方式使用您最愛的其中一個 Creative Cloud 應用程式，並搭配重新設計的觸控式介面。 |
-| 2021 年 2 月 3 日 | [使用 Dimension 和 Adobe Stock 自訂 3D 模型並將其品牌化](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/3doverview/3dtutorials/3ddimensionstock.html?lang=zh-Hant) | 影片 | 在 Dimension 中使用素材、環境資產、光線和攝影，為任何設計專案建立如相片般逼真的影像，以自訂 3D 模型並將其品牌化。 |
-| 2021 年 2 月 2 日 | [熟悉 Adobe XD 中的元件](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/xdoverview/components.html?lang=zh-Hant) | 影片 | 了解如何使用元件，讓您在將速度和一致性套用到設計工作流程時，擁有前所未有的靈活性。 |
-| 2021 年 2 月 2 日 | [在 CGI 中精通 3D 光線的秘訣與技巧](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/3doverview/3dtutorials/mastering3dlighting.html?lang=zh-Hant) | 文章 | 了解 3D 光線以及如何營造不同的光線條件，以徹底改變電腦產生的場景以及物件在場景中的面貌。 |
-| 2021 年 2 月 2 日 | [使用 3D 呈現和合成技術創作如相片般逼真的虛擬攝影](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/3doverview/3dtutorials/photorealistic.html?lang=zh-Hant#3doverview) | 文章 | 了解如何使用 3D 呈現和合成技術創作如相片般逼真的虛擬攝影。 |
-| 2021 年 1 月 29 日 | [CCE 快速參考指南](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/overview-ref.html?lang=zh-Hant) | 快速參考指南 | 存取快速參考指南，以幫助您了解 Creative Cloud 中的新功能。 |
+| 2021 年 3 月 5 日 | [自訂Adobe Stock向量插圖中的顏色](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/customizecolors.html) | 影片 | 使用美觀的插圖，為任何專案增添光彩。 在Adobe Stock尋找完美的向量圖，然後使用Adobe Illustrator將顏色與專案的調色盤搭配。 |
+| 2021 年 3 月 5 日 | [自訂Adobe Stock簡報範本，讓您看起來專業又搶眼](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/presentationtemplate.html) | 影片 | 使用Adobe Stock的影像和範本以及一些簡單易用的特效，在數分鐘內製作精美的樣式化簡報。 |
+| 2021 年 3 月 5 日 | [使用Adobe Stock和](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/loadingscreen.html) | 影片 | 從Adobe Stock自訂向量圖稿，為行動應用程式建立令人毛骨悚然的載入畫面動畫。 |
+| 2021 年 3 月 5 日 | [使用Adobe Stock影像建立逼真的像片構圖](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/realisticcomposite.html) | 影片 | 將兩張出色的Adobe Stock像片匯整在一起，將人們吸引到您的社交貼文中。 |
+| 2021 年 3 月 5 日 | [與Adobe Stock一起快速建立激發靈感的情緒板](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/moodboard.html) | 影片 | 建立專案情緒展示板，將資訊、概念、視覺效果和顏色面板傳達給團隊／客戶。 |
+| 2021 年 3 月 5 日 | [運用優美的漸層和Adobe Stock資產，建立連貫的品牌影像](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/brandgradients.html) | 影片 | 使用可編輯的向量圖形，將動畫帶入您的電子報圖片中，以供Adobe Stock使用。 |
+| 2021 年 3 月 5 日 | [使用Adobe Stock和Photoshop製作電子郵件動畫](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/animationemail.html) | 影片 | 使用Adobe Stock和Photoshop的停止動作動畫，讓您的電子郵件更有效。 |
+| 2021 年 3 月 5 日 | [使用Adobe Stock和](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/interactivetourismphoto.html) | 影片 | 使用Adobe Stock和Adobe的網站原型快速建立互動式像片XD。 |
