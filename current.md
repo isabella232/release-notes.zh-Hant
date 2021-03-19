@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 66a8238a7fc0a9b397bfab74b1b36d90be7ad842
+source-git-commit: da0cc40fb828e5f64d832c2e4e5dba931d2f2e99
 workflow-type: tm+mt
-source-wordcount: '6141'
+source-wordcount: '6120'
 ht-degree: 36%
 
 ---
@@ -231,11 +231,12 @@ AEM 6.5 Service Pack 8 (6.5.8.0，已於 2021 年 3 月 11 日發行) 是項重�
       * 在品牌入口網站中，推出新的下載設定，可讓您在下載檔案夾、系列等時，為每個資產建立個別的檔案夾。 請參閱品牌入口網站指南中&#x200B;**從品牌入口網站**&#x200B;下載資產中的[資產下載](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en)。
    * **Experience ManagerFormsCloud Service**
 
-      AEM Forms多年來協助多個組織提供絕佳的入職和註冊體驗。 這些體驗可協助組織將潛在客戶轉化為實際銷售、處理擷取的客戶資料、根據受眾個人檔案提供互動式體驗等。 現在，AEM Forms提供雲端服務。
+      AEM Forms多年來協助許多組織提供絕佳的入門和註冊體驗。 這些體驗可協助組織將潛在客戶轉化為銷售、處理擷取的客戶資料、根據受眾個人檔案提供互動式體驗等。 現在，AEM Forms提供雲端服務。
 
-      您可以使用AEM FormsCloud Service來建立數位表單、將表單連接至現有的資料來源、將表單與Adobe Sign整合以將電子簽名新增至表單，以及產生記錄檔案(DoR)，將填寫的表單封存為PDF檔案。 您也可以使用服務將現有的PDF forms轉換為數位表單。 除了標準的AEM Forms功能外，該服務還提供數種雲端原生功能，例如根據負載自動縮放、升級零停機以及雲端原生開發環境。 您可以閱讀[此部落格文章](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html)，以瞭解更多服務的功能與功能。
+      您可以使用AEM FormsCloud Service來建立數位表單、將表單連接至現有的資料來源、將表單與Adobe Sign整合以新增電子簽名至表單、產生記錄檔案(DoR)以將提交的表單封存為PDF檔案。 此服務也可將您現有的PDF forms轉換為數位表單。 除了標準的AEM Forms功能外，該服務還提供數種雲端原生功能，例如自動縮放、升級零停機和雲端原生開發環境。 閱讀[此部落格文章](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html)，瞭解AEM Forms作為Cloud Service的功能與功能。
 
-      AEM Forms作為Cloud Service的正式上市日期為3月25日。 您可以聯絡Adobe代表以取得示範或註冊服務。
+      您可以聯絡Adobe代表以取得示範或註冊服務。
+
 
    * **Experience Manager商務Cloud Service**
 
