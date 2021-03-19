@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: cbad4628dc16c773db0d9985b9ab5b5ac2cdd360
+source-git-commit: 9bf1dccf7e049c290e762410eb56a3f2c040c036
 workflow-type: tm+mt
-source-wordcount: '5857'
-ht-degree: 38%
+source-wordcount: '5917'
+ht-degree: 37%
 
 ---
 
@@ -117,26 +117,27 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 | ----------- | ---------- | ------- |
 | 資料修復API更新 | 2021 年 3 月 25 日 | 資料修復API現在支援標準變數，包括[!UICONTROL Page]和[!UICONTROL IP位址]、行動與視訊變數，以及自訂prop和eVar。  可刪除變數中的值，或設定新值。 API現在也提供URL、查詢字串、符號等的篩選。 |
 | Analysis Workspace:[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] | 2021 年 3 月 25 日 | [!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]頁面可讓您管理使用者的[!UICONTROL Analysis Workspace]設定及其相關元件。 [!UICONTROL 使用] 者偏好套用至所有新專案和面板。**注意：下** 列設定已移至「使用者 [!UICONTROL 偏好] 設定」頁：<ul><li>報表設定：千位分隔符號（現在稱為「數字格式」）</li><li>報表設定：CSV分隔符號</li><li>工作區專案：說明>啟用提示</li><li>工作區專案：空白麵板「使用此面板開始新專案」選項</li></ul> |
-| Analysis Workspace:直方圖智慧桶預測 | 2021 年 3 月 25 日 | 直方圖智慧型桶預測功能可自動識別資料跨頁的適當桶寬和數目，以協助處理高基數量度直方圖。 對於低基數量度，視覺化的運作方式與先前相同。 |
+| Analysis Workspace:[!UICONTROL 色階分佈圖]智慧型桶預測 | 2021 年 3 月 25 日 | [!UICONTROL 色階分] 布圖智慧型儲存貯體預測會自動識別資料跨頁的適當區間寬度和數目，協助處理高基數量度直方圖。對於低基數量度，視覺化的運作方式與先前相同。 |
+| [!UICONTROL 使用記] 錄API | 2021 年 3 月 25 日 | 這是新的v2.0 Analytics API，可讓您程式化存取[!UICONTROL Admin] > [!UICONTROL Log] > [!UICONTROL 使用與存取記錄]下的相同使用記錄資料。 有關驗證、架構和範例回應的其他詳細資訊，請參閱[這裡](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
 | 功能 | [全面發佈](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
-| 支援Analytics儀表板 | 2021 年 3 月 25 日 | CJA現在支援Mobile Scorecard Builder和Mobile App。 這可讓主管和商業使用者從CJA資料中查看其跨通道KPI，並使用他們已用於Adobe Analytics的相同應用程式。 |
+| 支援[!UICONTROL Adobe Analytics儀表板] | 2021 年 3 月 25 日 | [!UICONTROL Customer Journey Analytics] (CJA)現在支援 [!UICONTROL Adobe Analytics儀表板記分卡] 建立器和行動應用程式。這可讓主管和商業使用者根據CJA資料，使用他們已用於Adobe Analytics的相同應用程式，來查看其跨通道KPI。 |
 | Analysis Workspace:[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] | 2021 年 3 月 25 日 | [!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]頁面可讓您管理使用者的[!UICONTROL Analysis Workspace]設定及其相關元件。 [!UICONTROL 使用] 者偏好套用至所有新專案和面板。**注意：下** 列設定已移至「使用者 [!UICONTROL 偏好] 設定」頁：<ul><li>工作區專案：說明>啟用提示</li><li>工作區專案：空白麵板「使用此面板開始新專案」選項</li></ul> |
-| Analysis Workspace:直方圖智慧桶預測 | 2021 年 3 月 25 日 | 直方圖智慧型桶預測功能可自動識別資料跨頁的適當桶寬和數目，以協助處理高基數量度直方圖。 對於低基數量度，視覺化的運作方式與先前相同。 |
+| Analysis Workspace:[!UICONTROL 色階分佈圖]智慧型桶預測 | 2021 年 3 月 25 日 | [!UICONTROL 色階分] 布圖智慧型儲存貯體預測會自動識別資料跨頁的適當區間寬度和數目，協助處理高基數量度直方圖。對於低基數量度，視覺化的運作方式與先前相同。 |
 
 ### Adobe Analytics 修正項目 {#aa-fixes}
 
 * 修正在編輯和儲存區段的新擁有者後，此新擁有者未反映在區段UI中的問題。 (AN-234502;AN-250970;AN-250286)
 * 修正造成應用程式報表套裝同時使用主要伺服器呼叫和行動主要伺服器呼叫的問題。 (AN-244029)
-* 修正開啟工作區專案時，UI回應時間緩慢的問題。 (AN-242553)
-* 修正升級至最新版本後無法登入Report Builder的問題。 (AN-248825)
-* 修正非管理員使用者的使用者權限問題：只要使用者已在Admin Console中新增至其中一個描述檔，就應擁有該權限。 將使用者新增至描述檔時，只應新增至他們擁有的權限，而不應移除他們已透過其他產品描述檔擁有的任何內容。 (AN-242723)
-* 修正「資料饋送」的語言編碼問題。 (AN-249862)
-* 修正使用者無法存取共用工作區專案的問題。 (AN-247814)
-* 修正警報預覽與觸發警報數目不符的問題。 (AN-249392;AN-250804)
+* 修正開啟[!UICONTROL Workspace]專案時，UI回應時間緩慢的問題。 (AN-242553)
+* 修正升級至最新版本後無法登入[!UICONTROL Report Builder]的問題。 (AN-248825)
+* 修正非管理員使用者的使用者權限問題：只要使用者已新增至[!UICONTROL Admin Console]中的至少一個描述檔，就應擁有該權限。 將使用者新增至描述檔時，只應新增至他們擁有的權限，而不應移除他們已透過其他產品描述檔擁有的任何內容。 (AN-242723)
+* 修正[!UICONTROL 資料饋送]的語言編碼問題。 (AN-249862)
+* 修正使用者無法存取共用[!UICONTROL Workspace]專案的問題。 (AN-247814)
+* 修正[!UICONTROL 警報預覽]不符合觸發[!UICONTROL 警報]數目的問題。 (AN-249392;AN-250804)
 
 #### 其他 Adobe Analytics 修正項目
 
@@ -146,8 +147,8 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| 開啟與SiteCatalyst相同的VISTA處理 | 2021 年 3 月 17 日 | 在2021年6月17日，所有報表套裝都將更新為「與SiteCatalyst相同的VISTA處理」[!UICONTROL 設為「開啟」。  ]此變更會處理資料以符合處理規則，進而影響Data Warehouse報告。  如有疑問或需要澄清，請聯絡客戶服務。 |
-| 全面處理資料來源的 EOL | 2021 年 3 月 10 日 | Adobe 計劃未來淘汰「全部處理資料來源」。自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。請利用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)匯入此類資料。 |
+| [!UICONTROL 與SiteCatalyst相同的VISTA處理] =開啟 | 2021 年 3 月 17 日 | 在2021年6月17日，所有報表套裝都將更新為「與SiteCatalyst相同的VISTA處理」[!UICONTROL 設為「開啟」。  ]此變更會處理資料以符合處理規則，進而影響[!UICONTROL Data Warehouse]報告。  如有疑問或需要澄清，請洽詢Adobe客戶服務。 |
+| [!UICONTROL 完全處理] [!UICONTROL 資料源]的EOL | 2021 年 3 月 10 日 | Adobe計畫日後淘汰[!UICONTROL 完全處理] [!UICONTROL 資料來源]。 自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。請利用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)匯入此類資料。 |
 | Reports &amp; Analytics 登陸頁面選項 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，將新 Reports＆Analytics 儀表板或其他內容設定為 Adobe Analytics 登陸頁面的選項將被刪除。如果您先前將 Reports &amp; Analytics 頁面設為自訂登陸頁面，則該頁面將繼續有效，直到您在「[!UICONTROL 用戶偏好設定]」中修改登陸頁面為止。 |
 | 終止 Ad Hoc Analysis 服務 | 2021 年 1 月 | [!UICONTROL Ad Hoc Analysis] 的生命週期在 2021 年 3 月 1 日結束。如需詳細資訊，請瀏覽 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | 三個 Analytics API 服務終止運作 | 2021 年 1 月 6 日 | 下列 Analytics Legacy API 服務預計在 2021 年 4 月 30 日結束生命週期並關閉。所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
