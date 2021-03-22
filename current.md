@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1cde3fd4f91f53c6f2281b95397257bbcf1f5672
+source-git-commit: ebeebdb7c1a534934a0e70c6ab2588a96442192f
 workflow-type: tm+mt
-source-wordcount: '6130'
-ht-degree: 36%
+source-wordcount: '6141'
+ht-degree: 35%
 
 ---
 
@@ -17,17 +17,13 @@ ht-degree: 36%
 
 ![橫幅](/assets/experience-cloud-banner-3.png)
 
-Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!DNL Experience Cloud] 和 Experience Platform 的最新版更新、文件與教學課程的中央位置。您也可以尋找適用於 [!DNL Creative Cloud for Enterprise] 和 [!DNL Document Cloud] 的新文件。
-
->[!IMPORTANT]
->
->此頁面包含預發佈內容，在發行日期之前可能會有變動。
+Experience Cloud 解決方案和服務每月都會更新。本頁是您尋找[!DNL Experience Cloud]產品與服務最新版本更新、檔案和教學課程的中心位置。 您也可以尋找適用於 [!DNL Creative Cloud for Enterprise] 和 [!DNL Document Cloud] 的新文件。
 
 >[!NOTE]
 >
->訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，接收本頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
+>訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，接收本頁面更新的電子郵件通知。本頁面會在整個月中維護，可能包含在發行日期之前可能會變更的內容。 定期回訪以取得Adobe企業產品和Experience League檔案的更新。
 
-上次更新日期：**2021 年 3 月 19 日**
+上次更新日期：**2021 年 3 月 22 日**
 
 * [Adobe 系統狀態](#status) (未更新)
 * [Experience CloudUI元件、服務與管理](#ecloud)
@@ -51,7 +47,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 [!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/)。
 
-有關最新發行資訊，請在[Adobe系統狀態- 2020年5月21日](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/previous/2020/05212020.html#status)Adobe系統狀態的最新更新。
+有關Adobe系統狀態的最新更新，請參見[Adobe系統狀態- 2020年5月21日](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/previous/2020/05212020.html#status)。
 
 ## ![IconExperience Cloud ](/assets/ec_appicon_24.png) UI元件、服務和管理  {#ecloud}
 
@@ -335,7 +331,11 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 進一步瞭解已發佈的最新功能、改進和修正：
 
 * [Campaign Standard 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html)
-* [Campaign Classic 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html)
+* [Campaign Classic 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html)。
+
+>[!IMPORTANT]
+>
+>瞭解Adobe Campaign Classic的[必要組態更新](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/acc-config-updates.html?lang=en)。
 
 ### 最新 Campaign 課程與教學課程
 
