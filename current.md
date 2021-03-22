@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ebeebdb7c1a534934a0e70c6ab2588a96442192f
+source-git-commit: ffd0377c6309d206bbb98ddc9c7e74f938ad4081
 workflow-type: tm+mt
-source-wordcount: '6141'
-ht-degree: 35%
+source-wordcount: '6263'
+ht-degree: 34%
 
 ---
 
@@ -57,8 +57,8 @@ Experience Cloud 解決方案和服務每月都會更新。本頁是您尋找[!D
 
 包含 Experience Platform 和 Experience Platform Launch 的版本更新資訊。
 
-* [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html)。(2021 年 2 月 24 日)
-* [Experience Platform Launch 版本注意事項](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=zh-Hant)。(2021 年 1 月 13 日)
+* [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html)。(2021 年 2 月 24 日更新)
+* [Experience Platform Launch 版本注意事項](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=zh-Hant)。(2021 年 2 月 18 日更新)
 
 ### Experience Platform 教學課程與其他課程
 
@@ -115,6 +115,7 @@ Experience Cloud 解決方案和服務每月都會更新。本頁是您尋找[!D
 | Analysis Workspace:[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] | 2021 年 3 月 25 日 | [!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]頁面可讓您管理使用者的[!UICONTROL Analysis Workspace]設定及其相關元件。 [!UICONTROL 使用] 者偏好套用至所有新專案和面板。**注意：下** 列設定已移至「使用者 [!UICONTROL 偏好] 設定」頁：<ul><li>報表設定：千位分隔符號（現在稱為「數字格式」）</li><li>報表設定：CSV分隔符號</li><li>工作區專案：說明>啟用提示</li><li>工作區專案：空白麵板「使用此面板開始新專案」選項</li></ul> |
 | Analysis Workspace:[!UICONTROL 色階分佈圖]智慧型桶預測 | 2021 年 3 月 25 日 | [!UICONTROL 色階分] 布圖智慧型儲存貯體預測會自動識別資料跨頁的適當區間寬度和數目，協助處理高基數量度直方圖。對於低基數量度，視覺化的運作方式與先前相同。 |
 | [!UICONTROL 使用記] 錄API | 2021 年 3 月 25 日 | 這是新的v2.0 Analytics API，可讓您程式化存取[!UICONTROL Admin] > [!UICONTROL Log] > [!UICONTROL 使用與存取記錄]下的相同使用記錄資料。 有關驗證、架構和範例回應的其他詳細資訊，請參閱[這裡](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)。 |
+| 自訂日期範圍的Analytics儀表板支援 | 2021 年 3 月 25 日 | 記分卡建立者可以建立自定義日期範圍並將其應用於移動記分卡項目。 創作者可從熟悉的工作區和行動日期範圍預設集中選擇，或建立自訂日期範圍。 此功能將於3月25日開始推出。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
@@ -123,6 +124,7 @@ Experience Cloud 解決方案和服務每月都會更新。本頁是您尋找[!D
 | 支援[!UICONTROL Adobe Analytics儀表板] | 2021 年 3 月 25 日 | [!UICONTROL Customer Journey Analytics] (CJA)現在支援 [!UICONTROL Adobe Analytics儀表板記分卡] 建立器和行動應用程式。這可讓主管和商業使用者根據CJA資料，使用他們已用於Adobe Analytics的相同應用程式，來查看其跨通道KPI。 |
 | Analysis Workspace:[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] | 2021 年 3 月 25 日 | [!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]頁面可讓您管理使用者的[!UICONTROL Analysis Workspace]設定及其相關元件。 [!UICONTROL 使用] 者偏好套用至所有新專案和面板。**注意：下** 列設定已移至「使用者 [!UICONTROL 偏好] 設定」頁：<ul><li>工作區專案：說明>啟用提示</li><li>工作區專案：空白麵板「使用此面板開始新專案」選項</li></ul> |
 | Analysis Workspace:[!UICONTROL 色階分佈圖]智慧型桶預測 | 2021 年 3 月 25 日 | [!UICONTROL 色階分] 布圖智慧型儲存貯體預測會自動識別資料跨頁的適當區間寬度和數目，協助處理高基數量度直方圖。對於低基數量度，視覺化的運作方式與先前相同。 |
+| 分析控制面板支援Customer Journey Analytics | 2021 年 3 月 25 日 | Analytics儀表板應用程式現在支援Customer Journey Analytics。 具有Customer Journey Analytics的使用者可在Analytics儀表板應用程式中，從任何已傳入Adobe Experience Platform的資料呈現KPI。 Customer Journey Analytics可讓您結合多個資料來源，以真實、多通道的方式檢視客戶體驗。 現在，有了Analytics儀表板應用程式，您隨時隨地都能獲得最新的整體業務檢視。 |
 
 ### Adobe Analytics 修正項目 {#aa-fixes}
 
