@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c26e0c1775dfdeb00ca99ff2492f58519f55fc43
+source-git-commit: bb6a42b34458a8f1959d4206f546992f4c8e5747
 workflow-type: tm+mt
-source-wordcount: '7052'
-ht-degree: 32%
+source-wordcount: '7120'
+ht-degree: 31%
 
 ---
 
@@ -179,7 +179,7 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 
 ## ![圖示](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
-AAM新功能。
+修正和改進Audience Manager。
 
 ### 修正和改良 {#aam-fixes-and-improvements}
 
@@ -453,6 +453,11 @@ Adobe Advertising Cloud 版本注意事項。
 ## ![圖示](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
 
 針對 Adobe Document Cloud 發佈的新影片、教學課程或其他課程。
+
+| 已發佈 | 名稱 | 解決方法 | 說明 |
+| -----------| ---------- | ---------- | ---------- |
+| 2021 年 2 月 25 日 | [第一印象——歡迎電子郵件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/welcome-emails.html) | 影片 | 瞭解歡迎策略的關鍵要素。 |
+| 2021 年 2 月 25 日 | [第一印象——處理系列和清單成長](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html) | 影片 | 瞭解新電子郵件地址的最佳來源、如何確保高資料品質，以及符合法律准則。 |
 
 如需 Document Cloud 說明，請參閱：
 
