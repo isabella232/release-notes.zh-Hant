@@ -225,7 +225,7 @@ AEM 6.5 Service Pack 8 (6.5.8.0，已於 2021 年 3 月 11 日發行) 是項重�
    * [版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=zh-Hant#service-pack)
    * [AEM Forms 發行交付項目](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates)
 
-   * **AEM  6.4.8.4 AEM 6.4, Service Pack 8, Cumulative Fix Pack 4（2021年2月25日發行的6.4.8.4）是重要的更新，包含自2020年3月AEM6.4, Service Pack 8(6.4.8.0)全面上市以來的數項內部和客戶修正。**
+* **AEM  6.4.8.4 AEM 6.4, Service Pack 8, Cumulative Fix Pack 4（2021年2月25日發行的6.4.8.4）是重要的更新，包含自2020年3月AEM6.4, Service Pack 8(6.4.8.0)全面上市以來的數項內部和客戶修正。**
 
    * [版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=zh-Hant)
    * [AEM Forms 發行交付項目](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates)
