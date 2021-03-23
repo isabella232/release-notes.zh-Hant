@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bb6a42b34458a8f1959d4206f546992f4c8e5747
+source-git-commit: b563bfd3582fbbf197dbe3b6590b1f681b7e38cc
 workflow-type: tm+mt
-source-wordcount: '7120'
+source-wordcount: '7045'
 ht-degree: 31%
 
 ---
@@ -451,13 +451,6 @@ Adobe Advertising Cloud 版本注意事項。
 * **停止支援 Internet Explorer：**&#x200B;自 2020 年 7 月 31 日推出的版本開始，Marketo Engage 用戶介面將不再支援 Internet Explorer。
 
 ## ![圖示](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
-
-針對 Adobe Document Cloud 發佈的新影片、教學課程或其他課程。
-
-| 已發佈 | 名稱 | 解決方法 | 說明 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 2 月 25 日 | [第一印象——歡迎電子郵件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/welcome-emails.html) | 影片 | 瞭解歡迎策略的關鍵要素。 |
-| 2021 年 2 月 25 日 | [第一印象——處理系列和清單成長](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html) | 影片 | 瞭解新電子郵件地址的最佳來源、如何確保高資料品質，以及符合法律准則。 |
 
 如需 Document Cloud 說明，請參閱：
 
