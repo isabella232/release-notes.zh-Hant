@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3763705cd932a91c26d5c0e6166758241969126d
+source-git-commit: 8c48b768b004298dd4b80da04db7c6b5e536a0e0
 workflow-type: tm+mt
-source-wordcount: '7139'
-ht-degree: 32%
+source-wordcount: '7549'
+ht-degree: 30%
 
 ---
 
@@ -23,9 +23,10 @@ Experience Cloud 解決方案和服務每月都會更新。本頁是您尋找[!D
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，接收本頁面更新的電子郵件通知。本頁面會在整個月中維護，可能包含在發行日期之前可能會變更的內容。 定期回訪以取得Adobe企業產品和Experience League檔案的更新。
 
-上次更新日期：**2021 年 3 月 22 日**
+上次更新日期：**2021 年 3 月 24 日**
 
-* [Adobe 系統狀態](#status) (未更新)
+* [數位體驗藍圖](#blueprints) （新的實作檔案）
+* [Adobe 系統狀態](#status)
 * [Experience CloudUI元件、服務與管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
@@ -43,6 +44,23 @@ Experience Cloud 解決方案和服務每月都會更新。本頁是您尋找[!D
 
 需要協助嗎？請造訪 [Adobe Experience League](https://experienceleague.adobe.com/#home)，尋找產品和技術文件、Adobe 策畫的課程、教學課程影片、快速解答、社群見解，以及由講師授課的訓練課程。
 
+## ![圖](/assets/adobe.png) 示數位體驗藍圖  {#blueprints}
+
+數位體驗藍圖是可重複實施的，可解決策略和解決現有的業務問題。 藍圖可加速實現價值，並提供快速的成功之路。
+
+| 已發佈 | 說明 |
+| -----------| ---------- |
+| [數位體驗藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/overview.html) | [!UICONTROL 數位藍圖概觀]。 每個Blueprint都提供一系列工件，可說明高價值商業問題、架構、實作步驟、技術考量，以及相關檔案的連結。 |
+| [Audience Activation藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html) | 此受眾優先啟動機制可讓品牌跨多個通道連接客戶互動，以提供集中化的受眾，並可啟動至所有通道。 |
+| [客戶活動中心藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture//customer-activity-hub/overview.html) | 瞭解外部應用程式如何存取Adobe Experience Platform的[!UICONTROL 即時客戶資料]。 |
+| [Customer Journey Analytics藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html) | 瞭解品牌如何從各種互動通道和來源統一客戶資料和行為，以建立所有客戶互動的歷程檢視。 |
+| [描述檔擴充藍圖的自訂資料科學](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-science/overview.html) | 瞭解[!UICONTROL 資料科學工作區]如何使用Adobe Experience Platform的資料來訓練、部署和評分模型，以提供機器學習見解。 |
+| [資料準備和擷取藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/overview.html) | 瞭解如何將來源資料映射至[!UICONTROL 體驗資料模型](XDM)架構。 此藍圖還包括對資料執行轉換，包括日期格式、欄位分割、串連和轉換，以及記錄的連結、合併和重新輸入。 |
+| [企業資料探索與報告藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/overview.html) | Experience Platform的[!UICONTROL 查詢服務]允許對資料執行SQL查詢。 瞭解[!UICONTROL Data Science Workspace]如何讓資料探索、資料科學和機器學習工作負載對資料執行。 |
+| [多通道消息協調藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/overview.html) | 瞭解品牌如何透過電子郵件、簡訊和行動提醒等通道，主動與客戶互動並溝通。 |
+| [伺服器端企業資料收集藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/server-side-enterprise-data-collection/overview.html) | 瞭解使用Adobe Experience Platform網路和行動SDK收集的資料如何從Experience Platform[!UICONTROL Edge Network]轉送至所需的目的地。 |
+| [網頁與行動個人化藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html) | 瞭解如何在多個應用程式中使用受眾細分，以個人化和最佳化客戶體驗。 您可以使用客戶行為、人口統計、忠誠度等級和先前交易來個人化版面、行動要求和內容。 |
+
 ## ![圖示](/assets/adobe.png) Adobe 系統狀態 {#status}
 
 [!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/)。
@@ -51,7 +69,9 @@ Experience Cloud 解決方案和服務每月都會更新。本頁是您尋找[!D
 
 ## ![IconExperience Cloud ](/assets/ec_appicon_24.png) UI元件、服務和管理  {#ecloud}
 
-**統一搜尋：目** 前可供Experience Platform的統一搜尋現在支援針對Experience Platform使用者的來源和目的地搜尋。此功能可讓您搜尋區段、資料集、結構描述、來源和目標。
+| 功能 | 說明 |
+| -----------| ---------- |
+| 統一搜尋 | 統一搜尋目前可供Experience Platform，現在支援針對Experience Platform使用者的來源和目的地搜尋。 此功能可讓您搜尋區段、資料集、結構描述、來源和目標。 |
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
