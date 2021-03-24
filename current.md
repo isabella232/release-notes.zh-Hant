@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8c48b768b004298dd4b80da04db7c6b5e536a0e0
+source-git-commit: 17179b1ec08435b065a940850b52bb36183276f7
 workflow-type: tm+mt
-source-wordcount: '7549'
+source-wordcount: '7534'
 ht-degree: 30%
 
 ---
@@ -87,8 +87,7 @@ Experience Cloud 解決方案和服務每月都會更新。本頁是您尋找[!D
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021年3月 | [監控控制面板](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/monitoring-dashboard.html) | 影片 | 瞭解如何使用「監控儀表板」監控及追蹤傳入Adobe Experience Platform的資料。 此監控儀表板提供從上到下的源資料處理視圖，可通過資料湖到源、資料流和資料流運行級別上的Profile和Identity Services，並及時提供可操作的建議。 |
-| 2021年3月 | [使用伺服器串流連接器來收集資料](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/streaming-ingestion-source-connector.html) | 影片 | 此視訊示範如何即時從雲端儲存來源串流至平台，並即時使用資料以吸引客戶。 |
-| 2021年3月 | [資料工程師的資料擷取](https://video.tv.adobe.com/v/331971?quality=12&learn=on) | 影片 | 資料擷取課程概觀。 |
+| 2021年3月 | [使用來源連接器串流資料](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/streaming-ingestion-source-connector.html) | 影片 | 此視訊示範如何即時從雲端儲存來源串流至平台，並即時使用資料以吸引客戶。 |
 | 2021 年 3 月 5 日 | [資料工程師的資料擷取](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) | 課程 | 如何將來自多個來源的資料匯入Adobe Experience Platform等。 |
 | 2021年3月 | [設定 Azure Blob 目的地](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=zh-Hant#destinations) | 影片 | 瞭解如何逐步瞭解在[!UICONTROL 即時客戶資料平台]（即時CDP）中設定和配置以及Azure Blob儲存目標所需的步驟。 |
 | 2021 年 3 月 5 日 | [行銷人員Offer decisioning入門](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2020.1.offerdecisioning) | 課程 | 瞭解以Adobe Experience Platform為基礎的[!UICONTROL Offer decisioning]應用程式服務。 本課程專為想要透過為客戶提供最佳優惠來提升營收、客戶體驗和忠誠度的行銷人員所設計。 |
