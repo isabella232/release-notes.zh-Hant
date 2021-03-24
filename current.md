@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d7c6508201971164b63a0d0d9490f66a2a87adf6
+source-git-commit: 3763705cd932a91c26d5c0e6166758241969126d
 workflow-type: tm+mt
-source-wordcount: '7026'
+source-wordcount: '7139'
 ht-degree: 32%
 
 ---
@@ -128,7 +128,7 @@ Experience Cloud 解決方案和服務每月都會更新。本頁是您尋找[!D
 
 | 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
-| 資料修復API更新 | 2021 年 3 月 25 日 | 資料修復API現在支援標準變數，包括[!UICONTROL Page]和[!UICONTROL IP位址]、行動與視訊變數，以及自訂prop和eVar。  可刪除變數中的值，或設定新值。 API現在也提供URL、查詢字串、符號等的篩選。 |
+| 資料修復API更新 | 2021 年 3 月 25 日 | 資料修復API現在支援標準變數，包括[!UICONTROL Page]和[!UICONTROL IP位址]、行動與視訊變數，以及自訂[!UICONTROL props]和[!UICONTROL eVars]。  可刪除變數中的值，或設定新值。 API現在也提供URL、查詢字串、符號等的篩選。 |
 | Analysis Workspace:[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] | 2021 年 3 月 25 日 | [!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]頁面可讓您管理使用者的[!UICONTROL Analysis Workspace]設定及其相關元件。 [!UICONTROL 使用] 者偏好套用至所有新專案和面板。<br>**注意：下** 列設定已移至「使用者 [!UICONTROL 偏好] 設定」頁：<ul><li>報表設定：千分位分隔符（現在稱為&#x200B;_Number format_）</li><li>報表設定：CSV分隔符號</li><li>工作區專案：說明>啟用提示</li><li>工作區專案：空白麵板&#x200B;_使用此面板_&#x200B;選項開始新專案</li></ul> |
 | Analysis Workspace:[!UICONTROL 色階分佈圖智慧型桶預測] | 2021 年 3 月 25 日 | [!UICONTROL 色階分佈圖智] 慧型儲存貯體預測功能可自動識別資料跨頁的適當區間寬度和數目，協助處理高基數量度直方圖。對於低基數量度，視覺化的運作方式與先前相同。 |
 | [!UICONTROL 使用記] 錄API | 2021 年 3 月 25 日 | 這是新的v2.0 Analytics API，可讓您程式化存取&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL Log]** > **[!UICONTROL 使用與存取記錄]**&#x200B;下的相同使用記錄資料。 有關驗證、架構和範例回應的其他詳細資訊，請參閱[這裡](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)。 |
@@ -162,6 +162,7 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| Analytics功能表即將變更的通知 | 2021 年 3 月 24 日 | 在2021年4月22日，我們將更新&#x200B;**[!UICONTROL 元件]**、**[!UICONTROL 工具]**&#x200B;和&#x200B;**[!UICONTROL 管理]**&#x200B;下拉式功能表，以提升效能。 所有這些頁面仍可在&#x200B;**[!UICONTROL 所有元件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理員]**&#x200B;連結下使用——這些頁面將會從下拉式選單中移除。 以下是將從下拉式功能表移除並置於其個別連結頁面上的功能表項目：<br><br> [!UICONTROL 元件]<ul><li>[!UICONTROL 書籤]</li><li>[!UICONTROL 儀表板]</li><li>[!UICONTROL 目標]</li><li>[!UICONTROL 日曆事件]</li><li>[!UICONTROL 排程報表]</li><li>[!UICONTROL 報表設定]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic ]</li><li>[!UICONTROL Search&amp;Promote]</li></ul>[!UICONTROL 管理]<ul><li>[!UICONTROL 使用者管理]</li><li>[!UICONTROL 分類匯入工具]</li><li>[!UICONTROL 分類規則產生器]</li><li>[!UICONTROL 資料來源]</li><li>[!UICONTROL Data Connectors ]</li><li>[!UICONTROL 公司設定]</li><li>[!UICONTROL 記錄檔]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL 代碼管理器]</li><li>[!UICONTROL 依IP排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
 | [!UICONTROL 與SiteCatalyst相同的VISTA處理] =開啟 | 2021 年 3 月 17 日 | 在2021年6月17日，所有報表套裝都將更新為「與SiteCatalyst相同的VISTA處理」[!UICONTROL 設為「開啟」。 ]此變更會處理資料以符合處理規則，進而影響[!UICONTROL Data Warehouse]報告。 如有疑問或需要澄清，請洽詢Adobe客戶服務。 |
 | [!UICONTROL 完全處理] [!UICONTROL 資料源]的EOL | 2021 年 3 月 10 日 | Adobe計畫日後淘汰[!UICONTROL 完全處理] [!UICONTROL 資料來源]。 自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。使用[大量資料插入API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)來匯入此類型的資料。 [了解更多](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
 | Reports &amp; Analytics 登陸頁面選項 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，將新 Reports＆Analytics 儀表板或其他內容設定為 Adobe Analytics 登陸頁面的選項將被刪除。如果您先前將 Reports &amp; Analytics 頁面設為自訂登陸頁面，則該頁面將繼續有效，直到您在「[!UICONTROL 用戶偏好設定]」中修改登陸頁面為止。 |
