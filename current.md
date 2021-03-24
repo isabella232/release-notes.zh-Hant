@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b563bfd3582fbbf197dbe3b6590b1f681b7e38cc
+source-git-commit: d7c6508201971164b63a0d0d9490f66a2a87adf6
 workflow-type: tm+mt
-source-wordcount: '7045'
-ht-degree: 31%
+source-wordcount: '7026'
+ht-degree: 32%
 
 ---
 
@@ -204,7 +204,6 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 | 2021 年 3 月 12 日 | [瞭解面向Audience Manager用戶的即時CDP中的Web資料接收](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-web-ingestion-for-aam-users.html) | 影片 | 瞭解將網站資料帶入即時客戶資料平台（即時CDP）的概念，並包含對Audience Manager資料連接器適用位置的深入瞭解，以及資料如何直接透過Web SDK從網站移入即時CDP。 |
 | 2021 年 3 月 3 日 | [瞭解面向Audience Manager用戶的即時CDP中的細分](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-segments-for-aam-users.html?lang=en#other-integrations) | 影片 | 瞭解Audience Manager和即時CDP在細分和細分建立方面的差異。 |
 | 2021 年 3 月 3 日 | [瞭解面向Audience Manager用戶的即時CDP特徵](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-traits-for-aam-users.html?lang=en#other-integrations) | 影片 | 瞭解Audience Manager的特點，以及即時CDP中的對應特性。 |
-| 2021 年 3 月 3 日 | [課程簡介-Audience Manager高級技能](https://video.tv.adobe.com/v/331788/?quality=12&learn=on) | 影片 | 透過Audience Manager進階技能課程瞭解您即將學習的內容。 |
 | 2021 年 3 月 3 日 | [瞭解面向Audience Manager用戶的即時CDP中的第一方資料接收](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-1pd-ingestion-for-aam-users.html?lang=en#other-integrations) | 影片 | 瞭解第一方離線資料擷取到即時客戶資料平台（即時CDP）的相關資訊。 瞭解兩個產品之間在資料接收方面的一些主要差異，並說明如何將Audience Manager資料連接器用作停止間隙，直到將進程移至即時CDP。 |
 | 2021 年 3 月 1 日 | [透過Audience Marketplace提供產品，將您擁有的受眾商業化](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/audience-marketplace/selling-data/commercialize-owned-audiences-on-marketplace.html?lang=en#audience-marketplace) | 影片 | 瞭解如何在Audience Marketplace上將資料設定為私人或公共資料饋送，讓您成為第二方或第三方資料的資料提供者。 |
 | 2021年3月 | [在Audience Manager中建立和管理資料激活](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.4) | 課程 | 在本課程中，請進一步瞭解如何啟動您的受眾，例如傳送受眾資料給目標合作夥伴，以便為您的使用者自訂體驗。 瞭解目的地的基本概念、如何選擇正確的目的地，以及如何根據人而非Cookie準備受眾資料並傳送至社交網路目的地。 |
@@ -365,10 +364,10 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | 已發佈 | 名稱 | 解決方法 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 2 月 23 日 | [可傳遞性——可傳遞性指標](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/metrics-overview.html) | Campaign Classic/標準 | 瞭解要監控的關鍵傳遞能力指標，以及如何使用它們來識別信譽問題。 |
-| 2021 年 2 月 23 日 | [傳遞能力——彈回數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html) | Campaign Classic/標準 | 瞭解不同類型的彈回數。 |
-| 2021 年 2 月 23 日 | [交付能力——投訴](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) | Campaign Classic/標準 | 瞭解當使用者指出電子郵件不想要或未預期時，會註冊的投訴。 |
-| 2021 年 2 月 23 日 | [傳遞性——垃圾訊息陷阱](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/spam-traps.html) | Campaign Classic/標準 | 瞭解不同類型的彈回數。 |
-| 2021 年 2 月 23 日 | [傳遞能力——膨脹和封鎖](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bulking-and-blocking.html) | Campaign Classic/標準 | 瞭解ISP為何將電子郵件訊息放入大量資料夾或加以封鎖。 |
+| 2021 年 2 月 23 日 | [傳遞能力——彈回數](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html) | Campaign Classic/標準 | 瞭解不同類型的跳出. |
+| 2021 年 2 月 23 日 | [交付能力——投訴](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) | Campaign Classic/標準 | 瞭解當使用者指出收到不想要或未預期的電子郵件時會提出的投訴。 |
+| 2021 年 2 月 23 日 | [傳遞性——垃圾訊息陷阱](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/spam-traps.html) | Campaign Classic/標準 | 瞭解不同類型的跳出. |
+| 2021 年 2 月 23 日 | [傳遞能力——膨脹和封鎖](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bulking-and-blocking.html) | Campaign Classic/標準 | 瞭解 ISP 為何將電子郵件訊息放入大量資料夾或加以封鎖。 |
 | 2021 年 2 月 23 日 | [可交付性——過渡流程——基礎架構](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html) | Campaign Classic/標準 | 瞭解正確建構電子郵件基礎架構所需的內容。 |
 | 2021 年 2 月 23 日 | [傳遞能力——參與](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/engagement.html) | Campaign Classic/標準 | 瞭解不同類型的參與，以及參與為何對傳遞能力至關重要。 |
 | 2021 年 2 月 23 日 | [可傳遞性——轉換程式：定位條件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/targeting-criteria.html) | Campaign Classic/標準 | 瞭解如何從行動中建立良好聲譽，以有效建立信任，然後才能吸引參與度較低的受眾。 |
