@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99f32ddc69aa869be32186b9b0746aae27a79113
+source-git-commit: 153ab33f4f0e709d606efd5121b7e65bb1b9caf2
 workflow-type: tm+mt
-source-wordcount: '7556'
-ht-degree: 30%
+source-wordcount: '7773'
+ht-degree: 29%
 
 ---
 
@@ -429,15 +429,21 @@ Adobe Advertising Cloud 版本注意事項。
 
 ### [!DNL Advertising Cloud Search] 中的新功能{#adcloud-search}
 
-更新日期：**2021 年 1 月 22 日 (1 月 23 日發行)**
+上次更新日期：**2022年3月29日，針對3月27日發行**
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| [!UICONTROL 搜尋 Campaigns]<br>報表 | Advertising Cloud Search不再報告Microsoft® Advertising促銷活動的新平均職位資料。 從 1 月 23 日開始，「平均位置」欄的值會一律顯示為 0。這是為了因應 Microsoft 在 2021 年 1 月汰除平均位置資料所做的準備。<br>報表中仍會提供截至 1 月 22 日前所收集的平均位置資料。 |
+| [!UICONTROL 搜尋 Campaigns]<br>報表 | （Microsoft廣告促銷活動）現在，Microsoft增強的每次點按成本(eCPC)競標策略（Microsoft廣告促銷活動的預設競標策略）可提供競標支援。 您現在可以為促銷活動指定促銷活動層級[!UICONTROL 競標策略]。 選項包括[!UICONTROL 手動CPC]和[!UICONTROL 增強CPC]。 您可將[!UICONTROL 增強的CPC]與搜尋、現有的動態搜尋廣告和購物促銷活動搭配使用。<br>當您將包含eCPC的促銷活動新增至最佳化的Advertising Cloud產品組合時，Advertising Cloud會最佳化基本競標，以及 啟用「自動調整促銷活動預算限制」選項時— 促銷活動預算。Microsoft會套用所有競標調整，並可能會根據專屬資料和見解，在使用者查詢時變更Advertising Cloud產生的競標。<br>「競 [!UICONTROL 標策] 略自訂」欄可在「促銷活動  檢視」和報表中使用。 |
+| [!UICONTROL 搜尋 Campaigns]<br> [!UICONTROL Bulksheets] | （Microsoft廣告促銷活動）對於擴充的文字廣告，現在支援選用的第三個標題（[!UICONTROL 廣告標題3]）和選用的第二個說明（[!UICONTROL 說明2]）。 [!UICONTROL Ads]檢視和[!UICONTROL Bulksheets]中都提供支援。 |
+| [!UICONTROL Advertising Insights] | 提供兩個新的[!UICONTROL 廣告洞察]:<ul><li>[!UICONTROL 延遲的收入]:測量投資組合的轉換延遲（SEM點按和後續轉換之間經過的時間），並顯示由於延遲而造成的加權收入、ROI和模型準確度的任何差異。</li><li>[!UICONTROL 查詢交叉匹配]:尋找Google符合多個關鍵字的搜尋查詢例項，並提供指向流量所在位置的建議。</li></ul> |
 
-### Ad Cloud 教學課程和其他課程
+### Advertising Cloud 教學課程和一般課程
 
-更新日期：**2020 年 12 月 2 日**
+更新日期：**2021 年 2 月 23 日**
+
+| 教學課程 | 說明 |
+| -----------| ---------- |
+| [Workspace 和報表的簡介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=zh-Hant) | 了解如何使用 Advertising Cloud 資料在 Adobe Analytics Analysis Workspace 中建立視覺化報表。 |
 
 ## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
 
