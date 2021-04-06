@@ -4,14 +4,14 @@ description: 了解 Experience Cloud 產品和服務的最新版本注意事項�
 doc-type: release notes
 last-update: March 2021
 author: mfrei
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 153ab33f4f0e709d606efd5121b7e65bb1b9caf2
+source-git-commit: 6146981c558499f22dbdc56bc12e2ebce2d00439
 workflow-type: tm+mt
-source-wordcount: '7773'
-ht-degree: 89%
+source-wordcount: '7872'
+ht-degree: 88%
 
 ---
-
 
 # Adobe Experience Cloud 版本注意事項 - 2021 年 3 月
 
@@ -23,7 +23,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。我們會在整個月維護此頁面，其中可能包含在發行日期之前更動的內容。請定期回來查看 Adobe 企業產品和 Experience League 文件的更新。
 
-上次更新日期：**2021 年 3 月 24 日**
+最新更新：**2021 年 4 月 6 日**
 
 * [數位體驗藍圖](#blueprints) （新的實作檔案）
 * [Adobe 系統狀態](#status)
@@ -31,7 +31,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) **（2021年4月6日更新）** 與 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -140,7 +140,7 @@ Adobe 系統狀態的最新更新位在 [Adobe 系統狀態 - 2020 年 5 月 21 
 * [Adobe Analytics 新功能](#aa-features)
 * [Customer Journey Analytics 新功能](#cust-journey)
 * [Adobe Analytics 修正項目](#aa-fixes)
-* [給 Analytics 管理員的重要通知](#aa-notices)
+* [給 Analytics 管理員的重要通知](#aa-notices)  **（更新日期：2021年4月6日）**
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics 新功能 {#aa-features}
@@ -181,6 +181,7 @@ AN-206099；AN-237460；AN-241803；AN-243735；AN-244081；AN-244615；AN-24468
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| 資料饋送和Data WarehouseIP位址變更 | 2021年4月6日 | 從6月17日起，資料饋送和Data Warehouse傳送系統將重新定位在我們的資料中心，因此可能會導致您看見的外部IP位址變更。  您應該確認，您的報告和源資料中心的所有IP CIDR塊都存在於任何防火牆中，並且存在於您控制的任何目標系統中。 [以下是IP位址範圍的完整清單，可放入防火牆的允許清單中](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks)。 |
 | Analytics功能表即將變更的通知 | 2021 年 3 月 24 日 | 在2021年4月22日，我們將更新&#x200B;**[!UICONTROL 元件]**、**[!UICONTROL 工具]**&#x200B;和&#x200B;**[!UICONTROL 管理]**&#x200B;下拉式功能表，以提升效能。 所有這些頁面仍可在&#x200B;**[!UICONTROL 所有元件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理員]**&#x200B;連結下使用——這些頁面將會從下拉式選單中移除。 以下是將從下拉式功能表移除並置於其個別連結頁面上的功能表項目：<br><br> [!UICONTROL 元件]<ul><li>[!UICONTROL 書籤]</li><li>[!UICONTROL 儀表板]</li><li>[!UICONTROL 目標]</li><li>[!UICONTROL 日曆事件]</li><li>[!UICONTROL 排程報表]</li><li>[!UICONTROL 報表設定]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic ]</li><li>[!UICONTROL Search&amp;Promote]</li></ul>[!UICONTROL 管理]<ul><li>[!UICONTROL 使用者管理]</li><li>[!UICONTROL 分類匯入工具]</li><li>[!UICONTROL 分類規則產生器]</li><li>[!UICONTROL 資料來源]</li><li>[!UICONTROL Data Connectors ]</li><li>[!UICONTROL 公司設定]</li><li>[!UICONTROL 記錄檔]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL 代碼管理器]</li><li>[!UICONTROL 依IP排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
 | [!UICONTROL Same-as-SiteCatalyst VISTA Processing] = ON | 2021 年 3 月 17 日 | 在 2021 年 6 月 17 日，所有報表套裝都將更新：將 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 設定為 ON。此變更會透過處理資料以符合處理規則來影響[!UICONTROL 資料倉儲]報告。如有疑問或需要釐清一些事情，請聯繫 Adobe 客戶服務。 |
 | [!UICONTROL 完整處理][!UICONTROL 資料來源]的生命週期結束 | 2021 年 3 月 10 日 | Adobe 計畫在未來淘汰[!UICONTROL 完整處理][!UICONTROL 資料來源]。自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。使用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 可匯入此類型的資料。[了解更多](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
