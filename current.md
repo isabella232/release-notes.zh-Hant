@@ -6,9 +6,9 @@ last-update: March 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 437662b982b90a8c48094846f2f07cc4f3ddd3b2
+source-git-commit: c2746e2d0b558ce60d6af679cf29110d238426ad
 workflow-type: tm+mt
-source-wordcount: '7946'
+source-wordcount: '7943'
 ht-degree: 87%
 
 ---
@@ -181,7 +181,7 @@ AN-206099；AN-237460；AN-241803；AN-243735；AN-244081；AN-244615；AN-24468
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| 登入更新至[!UICONTROL Report Builder] | 2021 年 4 月 9 日 | 自2021年1月14日起生效：[!UICONTROL Report Builder]登入程式改進功能可移除對舊有技術的依賴，並將登入程式與Adobe Experience Cloud協調。 Experience Cloud使用您的Enterprise ID（電子郵件和密碼）。 <br>為確保不間斷地存 [!UICONTROL 取Report Builder]，請在2021年7月22日之前將 [!UICONTROL Report ] Builderadd-in更新至5.6.47版或更新版本。Report Builder5.6.47版及更新版本僅支援Experience Cloud登入，不支援單一登入。 |
+| 登入更新至[!UICONTROL Report Builder] | 2021 年 4 月 9 日 | 2021年1月14日，[!UICONTROL Report Builder]登入更新移除了對舊有技術的依賴，並將登入程式與Experience Cloud對齊。 Experience Cloud使用您的Enterprise ID（電子郵件和密碼）。 為確保不間斷地訪問[!UICONTROL Report Builder]，請在2021年7月22日之前將[!UICONTROL Report Builder]插件更新至5.6.47版或更高版本。 Report Builder5.6.47版及更新版本僅支援Experience Cloud登入，不支援單一登入。 |
 | 資料饋送和Data WarehouseIP位址變更 | 2021年4月6日 | 從6月17日起，資料饋送和Data Warehouse傳送系統將重新定位在我們的資料中心，因此可能會導致您看見的外部IP位址變更。  您應該確認，您的報告和源資料中心的所有IP CIDR塊都存在於任何防火牆中，並且存在於您控制的任何目標系統中。 [以下是IP位址範圍的完整清單，可放入防火牆的允許清單中](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks)。 |
 | Analytics功能表即將變更的通知 | 2021 年 3 月 24 日 | 在2021年4月22日，我們將更新&#x200B;**[!UICONTROL 元件]**、**[!UICONTROL 工具]**&#x200B;和&#x200B;**[!UICONTROL 管理]**&#x200B;下拉式功能表，以提升效能。 所有這些頁面仍可在&#x200B;**[!UICONTROL 所有元件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理員]**&#x200B;連結下使用——這些頁面將會從下拉式選單中移除。 以下是將從下拉式功能表移除並置於其個別連結頁面上的功能表項目：<br><br> [!UICONTROL 元件]<ul><li>[!UICONTROL 書籤]</li><li>[!UICONTROL 儀表板]</li><li>[!UICONTROL 目標]</li><li>[!UICONTROL 日曆事件]</li><li>[!UICONTROL 排程報表]</li><li>[!UICONTROL 報表設定]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic ]</li><li>[!UICONTROL Search&amp;Promote]</li></ul>[!UICONTROL 管理]<ul><li>[!UICONTROL 使用者管理]</li><li>[!UICONTROL 分類匯入工具]</li><li>[!UICONTROL 分類規則產生器]</li><li>[!UICONTROL 資料來源]</li><li>[!UICONTROL Data Connectors ]</li><li>[!UICONTROL 公司設定]</li><li>[!UICONTROL 記錄檔]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL 代碼管理器]</li><li>[!UICONTROL 依IP排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
 | [!UICONTROL Same-as-SiteCatalyst VISTA Processing] = ON | 2021 年 3 月 17 日 | 在 2021 年 6 月 17 日，所有報表套裝都將更新：將 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 設定為 ON。此變更會透過處理資料以符合處理規則來影響[!UICONTROL 資料倉儲]報告。如有疑問或需要釐清一些事情，請聯繫 Adobe 客戶服務。 |
