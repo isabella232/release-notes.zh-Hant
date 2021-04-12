@@ -6,10 +6,10 @@ last-update: March 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: c2746e2d0b558ce60d6af679cf29110d238426ad
+source-git-commit: 0739cde779fe6271e48cdba662eeadadf186944a
 workflow-type: tm+mt
-source-wordcount: '7943'
-ht-degree: 87%
+source-wordcount: '7942'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 最新更新：**2021 年 4 月 6 日**
 
-* [數位體驗藍圖](#blueprints) （新的實作檔案）
+* [數位體驗藍圖](#blueprints) (新的實施文件)
 * [Adobe 系統狀態](#status)
 * [Experience Cloud UI 元件、服務和管理](#ecloud)
 * [Experience Platform](#platform)
@@ -44,22 +44,22 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 需要協助嗎？請造訪 [Adobe Experience League](https://experienceleague.adobe.com/#home)，尋找產品和技術文件、Adobe 策畫的課程、教學課程影片、快速解答、社群見解，以及由講師授課的訓練課程。
 
-## ![圖](/assets/adobe.png) 示數位體驗藍圖  {#blueprints}
+## ![圖示](/assets/adobe.png)數位體驗藍圖{#blueprints}
 
-數位體驗藍圖是可重複實施的，可解決策略和解決現有的業務問題。 藍圖可加速實現價值，並提供快速的成功之路。
+數位體驗藍圖是可重複的實施，用於處理策略和解決既定的業務問題。藍圖可加快實現價值的時間，並提供了通往成功的快速途徑。
 
 | 已發佈 | 說明 |
 | -----------| ---------- |
-| [數位體驗藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/overview.html) | [!UICONTROL 數位藍圖概觀]。 每個Blueprint都提供一系列工件，可說明高價值商業問題、架構、實作步驟、技術考量，以及相關檔案的連結。 |
-| [Audience Activation藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html) | 此受眾優先啟動機制可讓品牌跨多個通道連接客戶互動，以提供集中化的受眾，並可啟動至所有通道。 |
-| [客戶活動中心藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture//customer-activity-hub/overview.html) | 瞭解外部應用程式如何存取Adobe Experience Platform的[!UICONTROL 即時客戶資料]。 |
-| [Customer Journey Analytics藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html) | 瞭解品牌如何從各種互動通道和來源統一客戶資料和行為，以建立所有客戶互動的歷程檢視。 |
-| [描述檔擴充藍圖的自訂資料科學](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-science/overview.html) | 瞭解[!UICONTROL 資料科學工作區]如何使用Adobe Experience Platform的資料來訓練、部署和評分模型，以提供機器學習見解。 |
-| [資料準備和擷取藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/overview.html) | 瞭解如何將來源資料映射至[!UICONTROL 體驗資料模型](XDM)架構。 此藍圖還包括對資料執行轉換，包括日期格式、欄位分割、串連和轉換，以及記錄的連結、合併和重新輸入。 |
-| [企業資料探索與報告藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/overview.html) | Experience Platform的[!UICONTROL 查詢服務]允許對資料執行SQL查詢。 瞭解[!UICONTROL Data Science Workspace]如何讓資料探索、資料科學和機器學習工作負載對資料執行。 |
-| [多通道消息協調藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/overview.html) | 瞭解品牌如何透過電子郵件、簡訊和行動提醒等通道，主動與客戶互動並溝通。 |
-| [伺服器端企業資料收集藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/server-side-enterprise-data-collection/overview.html) | 瞭解使用Adobe Experience Platform網路和行動SDK收集的資料如何從Experience Platform[!UICONTROL Edge Network]轉送至所需的目的地。 |
-| [網頁與行動個人化藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html) | 瞭解如何在多個應用程式中使用受眾細分，以個人化和最佳化客戶體驗。 您可以使用客戶行為、人口統計、忠誠度等級和先前交易來個人化版面、行動要求和內容。 |
+| [數位體驗藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/overview.html) | [!UICONTROL 數位藍圖]概觀。每個藍圖都提供一系列成品，解釋高價值業務問題、架構、實施步驟、技術考量以及相關文件的連結。 |
+| [Audience Activation 藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html) | 這是對象優先的啟用方式，可讓品牌跨多個通道連接客戶互動，以提供可在所有通道啟用的集中對象。 |
+| [客戶活動中心藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture//customer-activity-hub/overview.html) | 了解外部應用程式如何存取 Adobe Experience Platform 的[!UICONTROL 即時客戶個人檔案]。 |
+| [Customer Journey Analytics 藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html) | 了解品牌如何整合各種互動通道和來源的客戶資料與行為，以建立所有客戶互動的旅程型檢視。 |
+| [個人檔案擴充藍圖的自訂資料科學](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-science/overview.html) | 了解 [!UICONTROL Data Science Workspace] 如何使用 Adobe Experience Platform 中的資料來訓練、部署和評分模型以提供機器學習深入分析。 |
+| [資料準備與擷取藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/overview.html) | 了解如何將來源資料對應至[!UICONTROL 體驗資料模型] (XDM) 結構。此藍圖也包括對資料執行轉換，包括日期格式、欄位分割、串聯和轉換，以及聯結、合併和重新輸入記錄。 |
+| [企業資料探索和報告藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/overview.html) | Experience Platform 的[!UICONTROL 查詢服務]允許對資料執行 SQL 查詢。了解 [!UICONTROL Data Science Workspace] 如何提供在資料上執行資料探索、資料科學和機器學習工作負載的能力。 |
+| [多通道訊息協調藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/overview.html) | 了解品牌如何透過電子郵件、簡訊和行動提醒等通道，主動與客戶互動及溝通。 |
+| [伺服器端企業資料收集藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/server-side-enterprise-data-collection/overview.html) | 了解如何從 Experience Platform [!UICONTROL 邊緣網路]，將使用 Adobe Experience Platform Web 和 Mobile SDK 收集的資料轉送至所需目的地。 |
+| [網頁與行動個人化藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html) | 了解如何在多個應用程式中使用對象細分來個人化和最佳化客戶體驗。您可以使用客戶行為、人口統計、忠誠度等級和先前的交易來個人化版面、行動號召和內容。 |
 
 ## ![圖示](/assets/adobe.png) Adobe 系統狀態 {#status}
 
@@ -71,7 +71,7 @@ Adobe 系統狀態的最新更新位在 [Adobe 系統狀態 - 2020 年 5 月 21 
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 統一搜尋 | 統一搜尋目前可供Experience Platform，現在支援針對Experience Platform使用者的來源和目的地搜尋。 此功能可讓您搜尋區段、資料集、資料結構、來源和目的地。 |
+| 整合式搜尋 | 目前適用於 Experience Platform 的整合式搜尋現在支援 Experience Platform 用戶的來源和目的地搜尋。此功能可讓您搜尋區段、資料集、資料結構、來源和目的地。 |
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -147,11 +147,11 @@ Adobe 系統狀態的最新更新位在 [Adobe 系統狀態 - 2020 年 5 月 21 
 
 | 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
-| 資料修復 API 更新 | 2021 年 3 月 25 日 | 資料修復API現在支援標準變數，包括[!UICONTROL Page]和[!UICONTROL IP位址]、行動與視訊變數，以及自訂[!UICONTROL props]和[!UICONTROL eVars]。  您可以刪除變數中的值或設定新的值。此 API 現在也提供 URL、查詢字串、@ 符號等項目的篩選功能。 |
+| 資料修復 API 更新 | 2021 年 3 月 25 日 | 資料修復 API 現在支援標準變數 (包括[!UICONTROL 頁面]和 [!UICONTROL IP 位址])、行動和影片變數，以及自訂 [!UICONTROL prop] 和 [!UICONTROL eVar]。您可以刪除變數中的值或設定新的值。此 API 現在也提供 URL、查詢字串、@ 符號等項目的篩選功能。 |
 | Analysis Workspace：[!UICONTROL 元件] > [!UICONTROL 用戶偏好設定] | 2021 年 3 月 25 日 | 「[!UICONTROL 元件] > [!UICONTROL 用戶偏好設定]」頁面可讓您為用戶管理 [!UICONTROL Analysis Workspace] 設定及其相關元件。「[!UICONTROL 用戶偏好設定]」會套用到所有新的專案和面板。<br>**注意：**&#x200B;以下設定已移至「[!UICONTROL 用戶偏好設定]」頁面：<ul><li>報表設定：千位分隔符號 (現在稱為&#x200B;_數字格式_)</li><li>報表設定：CSV 分隔符號</li><li>Workspace 專案：說明 > 啟用秘訣</li><li>Workspace 專案：空白面板 _使用此面板開始新專案_&#x200B;選項</li></ul> |
 | Analysis Workspace：[!UICONTROL 長條圖智慧值區預測] | 2021 年 3 月 25 日 | [!UICONTROL 長條圖智慧值區預測]會藉由自動識別資料分配的正確寬度和值區數，協助處理高基數度量的長條圖。對於低基數度量，此視覺化效果的行為模式與先前相同。 |
 | [!UICONTROL 使用記錄] API | 2021 年 3 月 25 日 | 這是新的 v2.0 Analytics API，可讓您以程式設計方式存取 **[!UICONTROL 管理員]** > **[!UICONTROL 記錄]** > **[!UICONTROL 使用和存取記錄]** 底下所提供的相同使用記錄資料。[這裡](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)有提供有關驗證、資料結構和範例回應的其他詳細資訊。 |
-| Analytics 儀表板對自訂日期範圍的支援 | 2021 年 4 月 22 日 | 計分卡建立者可以建立自訂日期範圍，並將其套用到行動計分卡專案。建立者可以從熟悉的 Workspace 及行動日期範圍預設集中選擇，或是建立自訂日期範圍。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html#mobapp). |
+| Analytics 儀表板對自訂日期範圍的支援 | 2021 年 4 月 22 日 | 計分卡建立者可以建立自訂日期範圍，並將其套用到行動計分卡專案。建立者可以從熟悉的 Workspace 及行動日期範圍預設集中選擇，或是建立自訂日期範圍。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html#mobapp)。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
@@ -160,7 +160,7 @@ Adobe 系統狀態的最新更新位在 [Adobe 系統狀態 - 2020 年 5 月 21 
 | 對 [!UICONTROL Adobe Analytics 儀表板]的支援 | 2021 年 3 月 25 日 | [!UICONTROL Customer Journey Analytics] (CJA) 現在可支援 [!UICONTROL Adobe Analytics 儀表板計分卡產生器]和此行動應用程式。這樣可讓主管和商務用戶使用他們可能已針對 Adobe Analytics 使用的相同應用程式來查看以 CJA 資料為根據的跨通路 KPI。 |
 | Analysis Workspace：**[!UICONTROL 元件]** > **[!UICONTROL 用戶偏好設定]** | 2021 年 3 月 25 日 | 「[!UICONTROL 元件] > [!UICONTROL 用戶偏好設定]」頁面可讓您為用戶管理 [!UICONTROL Analysis Workspace] 設定及其相關元件。「[!UICONTROL 用戶偏好設定]」會套用到所有新的專案和面板。<br>**注意：**&#x200B;以下設定已移至「[!UICONTROL 用戶偏好設定]」頁面：<ul><li>Workspace 專案：說明 > 啟用秘訣</li><li>Workspace 專案：空白面板 _使用此面板開始新專案_&#x200B;選項</li></ul> |
 | Analysis Workspace：[!UICONTROL 長條圖智慧值區預測] | 2021 年 3 月 25 日 | [!UICONTROL 長條圖智慧值區預測]會藉由自動識別資料分配的正確寬度和值區數，協助處理高基數度量的長條圖。對於低基數度量，此視覺化效果的行為模式與先前相同。 |
-| Analytics 儀表板對 Customer Journey Analytics 的支援 | 2021 年 3 月 25 日 | Analytics 儀表板應用程式現在可支援 Customer Journey Analytics。Customer Journey Analytics 用戶現在可以在 Analytics 儀表板應用程式中顯示擷取到 Adobe Experience Platform 中的任何資料的 KPI。Customer Journey Analytics 可讓您合併多個資料來源，以提供客戶體驗的真正多通路檢視。現在有了 Analytics 儀表板應用程式，您就可以隨時隨地取得您企業的最新整體檢視。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/curator.html?lang=en#cja-dashboards). |
+| Analytics 儀表板對 Customer Journey Analytics 的支援 | 2021 年 3 月 25 日 | Analytics 儀表板應用程式現在可支援 Customer Journey Analytics。Customer Journey Analytics 用戶現在可以在 Analytics 儀表板應用程式中顯示擷取到 Adobe Experience Platform 中的任何資料的 KPI。Customer Journey Analytics 可讓您合併多個資料來源，以提供客戶體驗的真正多通路檢視。現在有了 Analytics 儀表板應用程式，您就可以隨時隨地取得您企業的最新整體檢視。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/curator.html?lang=zh-Hant#cja-dashboards)。 |
 
 ### Adobe Analytics 中的修正項目 {#aa-fixes}
 
@@ -181,11 +181,11 @@ AN-206099；AN-237460；AN-241803；AN-243735；AN-244081；AN-244615；AN-24468
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| [!UICONTROL 完整處理][!UICONTROL 資料來源]的生命週期結束 | 2021年4月12日 | Adobe計畫於2021年7月31日淘汰[!UICONTROL 完全處理] [!UICONTROL 資料來源]。 自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。使用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 可匯入此類型的資料。[了解更多](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
 | 登入更新至[!UICONTROL Report Builder] | 2021 年 4 月 9 日 | 2021年1月14日，[!UICONTROL Report Builder]登入更新移除了對舊有技術的依賴，並將登入程式與Experience Cloud對齊。 Experience Cloud使用您的Enterprise ID（電子郵件和密碼）。 為確保不間斷地訪問[!UICONTROL Report Builder]，請在2021年7月22日之前將[!UICONTROL Report Builder]插件更新至5.6.47版或更高版本。 Report Builder5.6.47版及更新版本僅支援Experience Cloud登入，不支援單一登入。 |
-| 資料饋送和Data WarehouseIP位址變更 | 2021年4月6日 | 從6月17日起，資料饋送和Data Warehouse傳送系統將重新定位在我們的資料中心，因此可能會導致您看見的外部IP位址變更。  您應該確認，您的報告和源資料中心的所有IP CIDR塊都存在於任何防火牆中，並且存在於您控制的任何目標系統中。 [以下是IP位址範圍的完整清單，可放入防火牆的允許清單中](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks)。 |
-| Analytics功能表即將變更的通知 | 2021 年 3 月 24 日 | 在2021年4月22日，我們將更新&#x200B;**[!UICONTROL 元件]**、**[!UICONTROL 工具]**&#x200B;和&#x200B;**[!UICONTROL 管理]**&#x200B;下拉式功能表，以提升效能。 所有這些頁面仍可在&#x200B;**[!UICONTROL 所有元件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理員]**&#x200B;連結下使用——這些頁面將會從下拉式選單中移除。 以下是將從下拉式功能表移除並置於其個別連結頁面上的功能表項目：<br><br> [!UICONTROL 元件]<ul><li>[!UICONTROL 書籤]</li><li>[!UICONTROL 儀表板]</li><li>[!UICONTROL 目標]</li><li>[!UICONTROL 日曆事件]</li><li>[!UICONTROL 排程報表]</li><li>[!UICONTROL 報表設定]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic ]</li><li>[!UICONTROL Search&amp;Promote]</li></ul>[!UICONTROL 管理]<ul><li>[!UICONTROL 使用者管理]</li><li>[!UICONTROL 分類匯入工具]</li><li>[!UICONTROL 分類規則產生器]</li><li>[!UICONTROL 資料來源]</li><li>[!UICONTROL Data Connectors ]</li><li>[!UICONTROL 公司設定]</li><li>[!UICONTROL 記錄檔]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL 代碼管理器]</li><li>[!UICONTROL 依IP排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
+| 資料饋送和Data WarehouseIP位址變更 | 2021 年 4 月 6 日 | 從6月17日起，資料饋送和Data Warehouse傳送系統將重新定位在我們的資料中心，因此可能會導致您看見的外部IP位址變更。  您應該確認，您的報告和源資料中心的所有IP CIDR塊都存在於任何防火牆中，並且存在於您控制的任何目標系統中。 [以下是IP位址範圍的完整清單，可放入防火牆的允許清單中](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks)。 |
+| 即將推出之 Analytics 選單變更的通知 | 2021 年 3 月 24 日 | 於 2021 年 4 月 22 日，我們將更新「**[!UICONTROL 元件]**」、「**[!UICONTROL 工具]**」和「**[!UICONTROL 管理員]**」下拉選單，以提高效能。所有這些頁面仍可在「**[!UICONTROL 所有元件]**」、「**[!UICONTROL 所有工具]**」和「**[!UICONTROL 所有管理員]**」連結下取得 - 只是從下拉選單中移除而已。以下是將從下拉選單中移除並放置在其相對應連結頁面上的選單項目：<br><br> [!UICONTROL 元件]<ul><li>[!UICONTROL 書籤]</li><li>[!UICONTROL 儀表板]</li><li>[!UICONTROL 目標]</li><li>[!UICONTROL 日曆事件]</li><li>[!UICONTROL 排程報告]</li><li>[!UICONTROL 報表設定]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 管理員]<ul><li>[!UICONTROL 用戶管理]</li><li>[!UICONTROL 分類匯入工具]</li><li>[!UICONTROL 分類規則產生器]</li><li>[!UICONTROL 資料來源]</li><li>[!UICONTROL 資料連接器]</li><li>[!UICONTROL 公司設定]</li><li>[!UICONTROL 記錄]</li><li>[!UICONTROL 動態標籤管理]</li><li>[!UICONTROL 代碼管理器]</li><li>[!UICONTROL 依 IP 排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
 | [!UICONTROL Same-as-SiteCatalyst VISTA Processing] = ON | 2021 年 3 月 17 日 | 在 2021 年 6 月 17 日，所有報表套裝都將更新：將 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 設定為 ON。此變更會透過處理資料以符合處理規則來影響[!UICONTROL 資料倉儲]報告。如有疑問或需要釐清一些事情，請聯繫 Adobe 客戶服務。 |
-| [!UICONTROL 完整處理][!UICONTROL 資料來源]的生命週期結束 | 2021 年 3 月 10 日 | Adobe 計畫在未來淘汰[!UICONTROL 完整處理][!UICONTROL 資料來源]。自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。使用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 可匯入此類型的資料。[了解更多](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
 | Reports &amp; Analytics 登陸頁面選項 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，將新 Reports &amp; Analytics 儀表板或其他內容設定為 Adobe Analytics 登陸頁面的選項將被刪除。如果您先前將 Reports &amp; Analytics 頁面設為自訂登陸頁面，則該頁面將持續有效，直到您在「[!UICONTROL 用戶偏好設定]」中修改登陸頁面為止。 |
 | Ad Hoc Analysis 生命週期結束 | 2021 年 1 月 | [!UICONTROL Ad Hoc Analysis] 的生命週期在 2021 年 3 月 1 日結束。如需詳細資訊，請瀏覽 [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | 三個 Analytics API 服務終止運作 | 2021 年 1 月 6 日 | 下列 Analytics Legacy API 服務預計在 2021 年 4 月 30 日結束生命週期並關閉。所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
@@ -220,7 +220,7 @@ Audience Manager 中的修正與改良。
 | 2021 年 3 月 19 日 | [兩種見解的故事 - 品牌與消費者](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/brands-vs-consumers.html) | 影片 | 在此網路研討會中，Adobe 揭露了廣告商和發佈者對無 Cookie 未來的了解和準備程度、對其使用案例的影響，以及他們對更廣泛的生態系統的見解。 |
 | 2021 年 3 月 5 日 | [負責任的客戶資料管理的十大考量因素](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/ten-considerations-for-responsible-customer-data-management.html) | 事件 | 聽取 Adobe 和 Scotiabank Digital 對於負責任的資料管理的主要考量因素。 |
 | 2021 年 3 月 19 日 | [資料管理的未來和不斷變化的環境](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/the-future-of-data-management-and-the-changing-environment.html) | 事件 | 在此網路研討會中，了解 Adobe 和 451 Research 如何思考技術和資料的未來，以應對新的行銷環境，並開始讓您的企業做好準備，以迎接資料管理的未來。 |
-| 2021 年 3 月 21 日 | [了解適用於 Audience Manager 用戶的 Real-time CDP 中的資料結構和 XDM](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-schemas-xdm-for-aam-users.html?lang=en#other-integrations) | 影片 | 當您從 Audience Manager 轉移到 Real-time Customer Data Platform (Real-time CDP) 時，您將會遇到一些新的概念和做法。資料結構和 XDM 就屬於該類別。此影片會說明這些概念。 |
+| 2021 年 3 月 21 日 | [了解適用於 Audience Manager 用戶的 Real-time CDP 中的資料結構和 XDM](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-schemas-xdm-for-aam-users.html?lang=zh-Hant#other-integrations) | 影片 | 當您從 Audience Manager 轉移到 Real-time Customer Data Platform (Real-time CDP) 時，您將會遇到一些新的概念和做法。資料結構和 XDM 就屬於該類別。此影片會說明這些概念。 |
 | 2021 年 3 月 17 日 | [了解適用於 Audience Manager 用戶的 Real-time CDP 中的訊號](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-signals-for-aam-users.html) | 影片 | 此影片是專為正移轉到 Real-time Customer Data Platform (Real-time CDP) 的 Audience Manager 用戶所提供，影片中會討論您在 Audience Manager 中建立特性所使用的訊號 (機碼值組) 如何用於 Platform。 |
 | 2021 年 3 月 12 日 | [了解適用於 Audience Manager 用戶的 Real-time CDP 中的資料結構和 XDM](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-schemas-xdm-for-aam-users.html) | 影片 | 當您從 Audience Manager 轉移到 Real-time Customer Data Platform (Real-time CDP) 時，您將會遇到一些新的概念和做法。資料結構和 XDM 就屬於該類別。此影片會說明這些概念。 |
 | 2021 年 3 月 12 日 | [了解適用於 Audience Manager 用戶的 Real-time CDP 中的 Web 資料擷取](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-web-ingestion-for-aam-users.html) | 影片 | 了解將網站資料引進 Real-time Customer Data Platform (Real-time CDP) 的相關概念，並以高層級方式介紹 Audience Manager 資料連接器適合的位置，以及資料如何從網站直接通過 Web SDK 移轉到 Real-time CDP。 |
@@ -431,13 +431,13 @@ Adobe Advertising Cloud 版本注意事項。
 
 ### [!DNL Advertising Cloud Search] 中的新功能{#adcloud-search}
 
-上次更新日期：**2022年3月29日，針對3月27日發行**
+最新更新：**2022 年 3 月 29 日 (3 月 27 日版本)**
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| [!UICONTROL 搜尋 Campaigns]<br>報表 | （Microsoft廣告促銷活動）現在，Microsoft增強的每次點按成本(eCPC)競標策略（Microsoft廣告促銷活動的預設競標策略）可提供競標支援。 您現在可以為促銷活動指定促銷活動層級[!UICONTROL 競標策略]。 選項包括[!UICONTROL 手動CPC]和[!UICONTROL 增強CPC]。 您可將[!UICONTROL 增強的CPC]與搜尋、現有的動態搜尋廣告和購物促銷活動搭配使用。<br>當您將包含eCPC的促銷活動新增至最佳化的Advertising Cloud產品組合時，Advertising Cloud會最佳化基本競標，以及 啟用「自動調整促銷活動預算限制」選項時— 促銷活動預算。Microsoft會套用所有競標調整，並可能會根據專屬資料和見解，在使用者查詢時變更Advertising Cloud產生的競標。<br>「競 [!UICONTROL 標策] 略自訂」欄可在「促銷活動  檢視」和報表中使用。 |
-| [!UICONTROL 搜尋 Campaigns]<br> [!UICONTROL Bulksheets] | （Microsoft廣告促銷活動）對於擴充的文字廣告，現在支援選用的第三個標題（[!UICONTROL 廣告標題3]）和選用的第二個說明（[!UICONTROL 說明2]）。 [!UICONTROL Ads]檢視和[!UICONTROL Bulksheets]中都提供支援。 |
-| [!UICONTROL Advertising Insights] | 提供兩個新的[!UICONTROL 廣告洞察]:<ul><li>[!UICONTROL 延遲的收入]:測量投資組合的轉換延遲（SEM點按和後續轉換之間經過的時間），並顯示由於延遲而造成的加權收入、ROI和模型準確度的任何差異。</li><li>[!UICONTROL 查詢交叉匹配]:尋找Google符合多個關鍵字的搜尋查詢例項，並提供指向流量所在位置的建議。</li></ul> |
+| [!UICONTROL 搜尋 Campaigns]<br>報表 | (Microsoft Ads 行銷活動) 現已為 Microsoft 增強型每次點按成本 (eCPC) 競標策略提供競標支援，這是 Microsoft Advertising 行銷活動的預設競標策略。您現在可以為行銷活動指定行銷活動等級的[!UICONTROL 競標策略]。選項包括[!UICONTROL 手動 CPC] 和[!UICONTROL 增強型 CPC]。您可以將[!UICONTROL 增強型 CPC] 搭配搜尋、現有的動態搜尋廣告和購物行銷活動使用。<br>當您將具有 eCPC 的行銷活動新增到最佳化的 Advertising Cloud 產品組合時，Advertising Cloud 會最佳化基本競標，並且在啟用「自動調整行銷活動預算限制」選項時最佳化行銷活動預算。Microsoft 會套用所有競標調整，並可能會在用戶查詢時根據專有資料和深入分析變更 Advertising Cloud 產生的競標。<br>[!UICONTROL 行銷活動]檢視和報告中提供「[!UICONTROL 競標策略]」自訂欄。 |
+| [!UICONTROL 搜尋 Campaigns]<br> [!UICONTROL Bulksheets] | (Microsoft Advertising 行銷活動) 對於展開的文字廣告，現在支援選用的第三個標題 ([!UICONTROL 廣告標題 3)] 和選用的第二個說明 ([!UICONTROL 說明 2])。在「[!UICONTROL 廣告]」檢視和「[!UICONTROL Bulksheets]」中提供支援。 |
+| [!UICONTROL Advertising Insights] | 提供兩種新的 [!UICONTROL Advertising Insights]：<ul><li>[!UICONTROL 延遲收入]：衡量產品組合的轉換延遲 (從 SEM 點按到後續轉換的經過時間)，並顯示由於延遲而導致的加權收入、ROI 和模型準確性方面的差異。</li><li>[!UICONTROL 查詢交叉符合]：尋找 Google 符合多個關鍵字的搜尋查詢例項，並提供將流量導向到何處的建議。</li></ul> |
 
 ### Advertising Cloud 教學課程和一般課程
 
