@@ -264,7 +264,7 @@ AEM 6.4 Service Pack 8 Cumulative Fix Pack 4 (6.4.8.4 已於 2021 年 2 月 25 �
       * Experience Manager Assets as a Cloud Service 有權擁有預先設定的 Brand Portal 執行個體。Cloud Manager 用戶可以在 Experience Manager Assets as a Cloud Service 上啟用 Brand Portal。請參閱「[使用 Brand Portal 啟用 Brand Portal](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)」。
       * 企業現在可以使用 Brand Portal 獲取資產。資產獲取功能會使用 Brand Portal 幫助客戶與機構用戶互動，以獲取資產用於新的行銷活動、照片拍攝和專案。請參閱 Brand Portal 指南中的「[資產獲取概觀](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=zh-Hant)」。
       * Brand Portal 使用報表現在只會顯示作用中的用戶。現在不會顯示非作用中的用戶。作用中的用戶是指已在 Admin Console 中將其帳戶指派給產品設定檔的用戶。請參閱 Brand Portal 指南中的「[使用報表](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/admin-tools/brand-portal-reports.html?lang=zh-Hant)」。
-      * 在 Brand Portal 中引進了新的下載設定，此設定可讓您在下載檔案夾、集合等項目時，為每個資產建立個別檔案夾。請參閱 Brand Portal 指南中[從 Brand Portal 下載資產](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=zh-Hant)內的 **資產下載**。
+      * 在 Brand Portal 中引進了新的下載設定，此設定可讓您在下載檔案夾、集合等項目時，為每個資產建立個別檔案夾。請參閱 Brand Portal 指南中[從 Brand Portal 下載資產](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=zh-Hant)內的&#x200B;**資產下載**。
    * **Experience Manager Forms as a Cloud Service**
 
       AEM Forms 在多年來已幫助許多組織提供絕佳的上線和註冊體驗。這些體驗已幫助組織將銷售線索轉換為銷售、處理擷取的客戶資料、根據受眾個人資料提供回應靈敏的體驗等事項。現在，AEM Forms 以雲端服務的形式提供。
@@ -287,12 +287,12 @@ AEM 6.4 Service Pack 8 Cumulative Fix Pack 4 (6.4.8.4 已於 2021 年 2 月 25 �
          * 將網站解決方案新增到有資產的現有方案中，反之亦然。
          * 從包含網站和資產的現有方案中移除網站或資產。
          * 在現有方案中新增第二個未使用的解決方案權利，或當做新的方案。
-      * **AEM 推播更新** 標籤現在會顯示在 *管線執行* 和 *活動* 畫面中。
-      * 如果環境處於休眠狀態，但同時有 Experience Manager 更新可用，則 **已休眠** 狀態會優先於 **有可用的更新**。
-      * 用戶現在可以在瀏覽至 Unified Shell 的用戶個人資料圖示 (右上方) 後選取 **檢視 Cloud Manager 角色**，以查看其 Cloud Manager 角色。
-      * **申請核准** 標籤現在已重新標記為 **生產核准**，好讓人更容易了解。
-      * **版本** 標籤現已在生產管線執行畫面中重新標記為 **Git Tag**。
-      * 定義重要度量不符合定義之臨界值時的行為模式的標籤已重新標記，以反映其真正的行為：**立即取消** 和 **立即核准**。
+      * **AEM 推播更新**&#x200B;標籤現在會顯示在&#x200B;*管線執行*&#x200B;和&#x200B;*活動*&#x200B;畫面中。
+      * 如果環境處於休眠狀態，但同時有 Experience Manager 更新可用，則&#x200B;**已休眠**&#x200B;狀態會優先於&#x200B;**有可用的更新**。
+      * 用戶現在可以在瀏覽至 Unified Shell 的用戶個人資料圖示 (右上方) 後選取&#x200B;**檢視 Cloud Manager 角色**，以查看其 Cloud Manager 角色。
+      * **申請核准**&#x200B;標籤現在已重新標記為&#x200B;**生產核准**，好讓人更容易了解。
+      * **版本**&#x200B;標籤現已在生產管線執行畫面中重新標記為 **Git Tag**。
+      * 定義重要度量不符合定義之臨界值時的行為模式的標籤已重新標記，以反映其真正的行為：**立即取消**&#x200B;和&#x200B;**立即核准**。
       * 已根據 Experience Manager Cloud Service SDK 的版本 `2021.3.4997.20210303T022849Z-210225` 更新了類別和方法淘汰清單。
       * Cloud Manager 生產管線現在包含[自訂 UI 測試](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/test-results/functional-testing.html?lang=zh-Hant#custom-ui-testing)功能。
 
