@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: April 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e5c34b37703cc4aaf0c6711dc5da7857321375ae
+source-git-commit: 21fdbc0a354a87723097e294db15d88e9877061c
 workflow-type: tm+mt
-source-wordcount: '5431'
+source-wordcount: '5430'
 ht-degree: 42%
 
 ---
@@ -343,7 +343,7 @@ Adobe Advertising Cloud 版本注意事項。
 | -----------| ---------- |
 | 新增說明 | (10 月 28 日發行) 舊版說明已更換為更新頁面，您可以透過 DSP 主功能表的「說明」連結加以存取，也可以隨時前往 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=zh-Hant](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=zh-Hant) 參閱內容。 |
 | Campaigns | (10 月 28 日發行) 先前的 Campaigns 測試版檢視現已成為 Campaigns 預設檢視，能提供更快速的深入分析、簡潔的工作流程和自訂檢視。 |
-| 私人詳細目錄 | (10 月 15 日發行) 所有用戶現在都能使用新交易 ID 表單來設定及編輯交易 ID 詳細資訊，此表單是舊版[!UICONTROL 「智慧型廣告服務」]表單的簡化版本。要設定新的交易ID詳細資訊，請轉至&#x200B;**[!UICONTROL Inventory]** > **!UICONTROL Deals]**，按一下&#x200B;**[!UICONTROL Create]**，然後按一下&#x200B;**[!UICONTROL Deal ID Beta]**。 |
+| 私人詳細目錄 | (10 月 15 日發行) 所有用戶現在都能使用新交易 ID 表單來設定及編輯交易 ID 詳細資訊，此表單是舊版「智慧型廣告服務」表單的簡化版本。要設定新的交易ID詳細資訊，請轉至&#x200B;**[!UICONTROL Inventory]** > **[!UICONTROL Deals]** > **[!UICONTROL Create]**，然後按一下&#x200B;**[!UICONTROL Deal ID Beta]**。 |
 | 刊登版位預測 | (10 月 15 日發行) 若刊登版位具有從刊登版位層級調整的設計，其設定的[!UICONTROL 「預測」]區段現已加入新的[!UICONTROL 「預估上限」]區段，能顯示目前的鎖定目標設定有多少容量可用。 |
 
 ### [!DNL Advertising Cloud Search] 中的新功能{#adcloud-search}
