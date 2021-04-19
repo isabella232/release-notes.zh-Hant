@@ -4,14 +4,14 @@ description: 了解 Experience Cloud 產品和服務的最新版本注意事項�
 doc-type: release notes
 last-update: April 2021
 author: mfrei
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: a030b00ce834306ccf5da00e0c8757e3a2b4fa02
+source-git-commit: 75fc19a753d94ad35337ad43f98aaa0aff52bdc1
 workflow-type: tm+mt
-source-wordcount: '5426'
+source-wordcount: '5384'
 ht-degree: 43%
 
 ---
-
 
 # Adobe Experience Cloud 發行說明 - 2021 年 4 月
 
@@ -63,8 +63,8 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 包含 Experience Platform 和 Experience Platform Launch 的版本更新資訊。
 
-* [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html)。(已發行：（2021年3月31日）
-* [Experience Platform Launch 版本注意事項](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html)。(已發行：（2021年2月18日）
+* [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)。(已發行：（2021年3月31日）
+* [Experience Platform Launch 版本注意事項](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=zh-Hant)。(已發行：（2021年2月18日）
 
 ### Experience Platform 教學課程與其他課程
 
@@ -144,7 +144,7 @@ AN-248451;AN-250461;AN-251157; AN-251481;AN-251756;AN-252604;AN-252822;AN-252941
 | ----------- | ---------- | ---------- |
 | 全面處理資料來源的 EOL | 2021 年 4 月 12 日 | Adobe計畫於2021年7月31日取消完整處理資料來源。 自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。請利用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)匯入此類資料。 |
 | [!UICONTROL Report Builder] 登入更新 | 2021 年 4 月 9 日 | 2021年1月14日，[!UICONTROL Report Builder]登入更新移除了對舊有技術的依賴，並將登入程式與Experience Cloud一致。 Experience Cloud 使用您的 Enterprise ID (電子郵件和密碼)。為確保對 [!UICONTROL Report Builder] 的存取不中斷，請於 2021 年 7 月 22 日前將 [!UICONTROL Report Builder] 增益集更新至 5.6.47 版或更新版本。Report Builder5.6.47版及更新版本僅支援Experience Cloud登入，不支援單一登入。 |
-| 資料摘要和 Data Warehouse IP 位址變更 | 2021 年 4 月 6 日 | 自 6 月 17 日起，資料摘要和 Data Warehouse 傳遞系統將在我們的資料中心內搬遷，因此您可能會看到外部 IP 位址變更。您應確認，您的報表和資料摘要之來源資料中心的所有 IP CIDR 區塊，都存在於您所控制的任何目標系統的任何防火牆內。[這裡的 IP 位址範圍完整清單可放入您的防火牆允許清單中](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks)。 |
+| 資料摘要和 Data Warehouse IP 位址變更 | 2021 年 4 月 6 日 | 自 6 月 17 日起，資料摘要和 Data Warehouse 傳遞系統將在我們的資料中心內搬遷，因此您可能會看到外部 IP 位址變更。您應確認，您的報表和資料摘要之來源資料中心的所有 IP CIDR 區塊，都存在於您所控制的任何目標系統的任何防火牆內。[這裡的 IP 位址範圍完整清單可放入您的防火牆允許清單中](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant#data-collection-and-ftp-ip-address-blocks)。 |
 | 即將推出之 Analytics 選單變更的通知 | 2021 年 3 月 24 日 | 於 2021 年 4 月 22 日，我們將更新「**[!UICONTROL 元件]**」、「**[!UICONTROL 工具]**」和「**[!UICONTROL 管理員]**」下拉選單，以提高效能。所有這些頁面仍可在&#x200B;**[!UICONTROL 所有元件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理員]**&#x200B;連結下使用——它們將從下拉式選單中移除。 以下是將從下拉選單中移除並放置在其相對應連結頁面上的選單項目：<br><br> [!UICONTROL 元件]<ul><li>[!UICONTROL 書籤]</li><li>[!UICONTROL 儀表板]</li><li>[!UICONTROL 目標]</li><li>[!UICONTROL 日曆事件]</li><li>[!UICONTROL 排程報告]</li><li>[!UICONTROL 報表設定]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 管理員]<ul><li>[!UICONTROL 用戶管理]</li><li>[!UICONTROL 分類匯入工具]</li><li>[!UICONTROL 分類規則產生器]</li><li>[!UICONTROL 資料來源]</li><li>[!UICONTROL 資料連接器]</li><li>[!UICONTROL 公司設定]</li><li>[!UICONTROL 記錄]</li><li>[!UICONTROL 動態標籤管理]</li><li>[!UICONTROL 代碼管理器]</li><li>[!UICONTROL 依 IP 排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
 | 開啟與SiteCatalyst相同的VISTA處理 | 2021 年 3 月 17 日 | 在 2021 年 6 月 17 日，所有報表套裝都將更新：將 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 設定為 ON。此變更會透過處理資料以符合處理規則來影響資料倉儲報告。如有疑問或需要釐清一些事情，請聯繫 客戶服務。 |
 | Reports &amp; Analytics 登陸頁面選項 | 2021 年 2 月 19 日 | 在2021年3月25日，設定新「報告與分析」控制面板或其他內容的選項已移除，因為您的Adobe Analytics登陸頁面已移除。 如果您先前將「報告與分析」頁面設為自訂著陸頁面，它會持續運作，直到在[!UICONTROL 使用者偏好設定]中修改著陸頁面為止。 |
@@ -186,13 +186,12 @@ Audience Manager 中的修正與改良。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [課程簡介——瞭解面向Audience Manager用戶的即時CDP](https://video.tv.adobe.com/v/332230) | 影片 | 從Audience Manager過渡到[!UICONTROL 即時客戶資料平台]（即時CDP）在某些領域的范式發生了轉變。 這段影片介紹了幫助您進行此動作的課程。 |
+| 2021 年 4 月 | [瞭解面向Audience Manager用戶的即時CDP](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1.rtcdp) | 課程 | Audience Manager客戶正在轉向Adobe的即時客戶資料平台（即時CDP），重新設想其內容管理。 本課程採用概念逐一的方法，幫助Audience Manager用戶瞭解這些概念在即時CDP中的處理方式。 |
 | 2021 年 4 月 | [瞭解面向Audience Manager用戶的即時CDP目標](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-destinations-for-aam-users.html?lang=en) | 影片 | 當您從Audience Manager移至[!UICONTROL 即時客戶資料平台]（即時CDP）時，您必須瞭解目標，以便瞭解如何將受眾細分激活到目標合作夥伴。 本視頻討論不同的目標類型以及它們在何處是即時CDP。 |
 | 2021 年 4 月 | [了解適用於 Audience Manager 用戶的 Real-time CDP 中的資料控管](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-data-gov-for-aam-users.html?lang=en#other-integrations) | 影片 | 此視訊會帶領Audience Manager使用者瞭解[!UICONTROL 即時客戶資料平台]中的資料管理功能，並與Audience Manager中提供的資料進行比較。 它討論[!UICONTROL 資料使用與標籤實施](DULE)架構，以及在平台中可套用它的位置。 |
 | 2021 年 4 月 | [品牌與消費者——事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/brands-vs-consumers.html?lang=en#industry) | 文章 | 如今，行銷人員被埋在與身分實務相關的資訊雜亂無章。 據Adobe和Advanis最近的研究，只有37%的營銷專業人士表示，他們已準備好迎接一個沒有Cookie的未來。 在此網路研討會中，Adobe 揭露了廣告商和發佈者對無 Cookie 未來的了解和準備程度、對其使用案例的影響，以及他們對更廣泛的生態系統的見解。 |
 | 2021 年 4 月 | [負責客戶資料管理的10項考慮事項——事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/ten-considerations-for-responsible-customer-data-management.html?lang=en#industry) | 文章 | 波動的市場力量和分散的消費者隱私要求可能會給數位行銷人員帶來令人畏懼的情境。 為了讓宣傳活動在法規的正確面前進行，行銷團隊需要IT對手擁有簡化的流程，以便在未來為資料治理流程提供適應。 這包括最理想的功能，讓每個人都能遵循並強制執行負責使用消費者資料的規則。 聽聽Adobe和[!DNL Scotiabank] [!DNL Digital]有關負責資料管理的主要考慮事項。 |
 | 2021 年 4 月 | [資料管理的未來和不斷變化的環境——事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/the-future-of-data-management-and-the-changing-environment.html?lang=en#industry) | 文章 | 隨著市場力量給我們的數位版圖帶來改變，企業需要適應資料治理、身分識別解決方案，以及如何以有意義的內容吸引潛在客戶和假名訪客的新現實。 |
-| 2021 年 4 月 | [瞭解面向Audience Manager用戶的即時CDP](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1.rtcdp) | 課程 | Audience Manager客戶正在轉向Adobe的即時客戶資料平台（即時CDP），重新設想其內容管理。 本課程採用概念逐一的方法，幫助Audience Manager用戶瞭解這些概念在即時CDP中的處理方式。 |
 
 ## ![圖示](/assets/aem.png) Adobe Experience Manager {#aem}
 
@@ -215,7 +214,7 @@ Experience Manager 的新功能、修正及更新。Adobe建議使用內部部�
       * 內容片段編輯器UX增強功能——巢狀子片段現在顯示在階層連結中，並改善發佈、儲存和儲存與退出動作的檢視
    * **Experience Manager Assets as a Cloud Service**
 
-      * Experience Manager擴充了「連接的資產」功能，以支援在支援的核心元件中使用Dynamic Media影像。 請參閱[使用連線資產在Experience Manager網站中共用DAM資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/use-assets-across-connected-assets-instances.html)。
+      * Experience Manager擴充了「連接的資產」功能，以支援在支援的核心元件中使用Dynamic Media影像。 請參閱[使用連線資產在Experience Manager網站中共用DAM資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/use-assets-across-connected-assets-instances.html?lang=zh-Hant)。
       * Experience Manager管理員可以在特定日期或時間排程大量資產收錄。 此外，管理員也可以根據日期和時間排程週期性收錄。 請參閱[Asset bulk ingestor tool](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)影片。
    * **Experience Manager Forms as a Cloud Service**
 
@@ -420,8 +419,8 @@ Adobe Advertising Cloud 版本注意事項。
 
 如需 Document Cloud 說明，請參閱：
 
-* [Adobe Acrobat 學習中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html)
-* [Adobe Sign 學習中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html)
+* [Adobe Acrobat 學習中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=zh-Hant)
+* [Adobe Sign 學習中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hant)
 * [Document Cloud 學習與支援](https://helpx.adobe.com/tw/support/document-cloud.html)
 
 <!-- ## ![Icon](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
