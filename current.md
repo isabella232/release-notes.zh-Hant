@@ -400,7 +400,7 @@ Adobe Advertising Cloud 版本注意事項。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [[Adobe Sign]使用Adobe Sign傳送提醒，讓Salesforce和Marketo —— 功能視訊](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | 影片 | 在本教學課程影片中，您將學習如何在合約在一段時間後仍未簽署時，從Market傳送電子郵件提醒。 此整合使用Adobe Sign的Salesforce、Marketo和Marketo和Salesforce同步。 |
+| 2021 年 4 月 | [[Adobe Sign]使用Adobe Sign傳送提醒，讓Salesforce和Marketo使用——功能視訊](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | 影片 | 在本教學課程影片中，您將學習如何在合約在一段時間後仍未簽署時，從Marketo傳送電子郵件提醒。 此整合將Adobe Sign用於Salesforce、Marketo、Marketo和Salesforce同步。 |
 
 ### Document Cloud教學課程
 
