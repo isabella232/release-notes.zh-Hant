@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: d5ac0d91d5d4aa4a7661c529b5a7d85e0cb65d14
+source-git-commit: 1f88b532306f86768a9981d6bba06a21050affe7
 workflow-type: tm+mt
-source-wordcount: '5370'
-ht-degree: 42%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 [!UICONTROL Adobe 系統狀態]提供 Adobe 雲端產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。請造訪 [status.adobe.com](https://status.adobe.com/)。
 
-有關最新發行資訊，請在[Adobe系統狀態- 2020年5月21日](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/previous/2020/05212020.html#status)Adobe系統狀態的最新更新。
+有關最新發行資訊，請在[Adobe系統狀態- 2020年5月21日](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=en)Adobe系統狀態的最新更新。
 
 ## ![圖示](/assets/ec_appicon_24.png) Experience Cloud UI 元件、服務和管理{#ecloud}
 
@@ -59,8 +59,8 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 包含 Experience Platform 和 Experience Platform Launch 的版本更新資訊。
 
-* [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)。(已發行：**2021年4月21日**)
-* [Experience Platform Launch 版本注意事項](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=zh-Hant)。(已發行：（2021年2月18日）
+* [Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant) (已發行： **2021年4月21日**)
+* [Experience Platform Launch發行說明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=zh-Hant) (已發行：（2021年2月18日）
 
 ### Experience Platform 教學課程與其他課程
 
@@ -77,11 +77,11 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 ### 最新產品發行版
 
-在 [Journey Orchestration 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html)中進一步了解最新的功能、改良與修正。
+在 [Journey Orchestration 版本注意事項](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en)中進一步了解最新的功能、改良與修正。
 
 ### Journey Orchestration 的其他資源
 
-[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [版本注意事項](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/zh-Hant/platform-learn/tutorials/journey-orchestration/introduction.html)
+[文件](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=en) - [版本注意事項](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [做法影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=en)
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Offer Decisioning {#offer-decisioning}
 
@@ -108,14 +108,14 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 ### Adobe Analytics 新功能 {#aa-features}
 
-| 功能 | [全面發佈](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| 功能 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
 | Analytics控制面板：自訂日期範圍 | 2021 年 4 月 22 日 | 讓Analytics行動應用程式的使用者除了可用的現成日期範圍外，還可將自訂日期範圍套用至其記分卡。 |
 | 工作區：舊版專案 | 2021年5月13日 | 可讓您載入工作區專案的舊版，以還原不想要的變更，或只回復為偏好的舊版。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
-| 功能 | [全面發佈](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目標日期 | 說明 |
+| 功能 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 目標日期 | 說明 |
 | ----------- | ---------- | ----- |
 | 增強的CJA資料檢視 | 2021 年 4 月 22 日 | 增強的資料檢視可大幅提升您從XDM架構欄位建立度量和維度的彈性。 您可以使用字串欄位作為度量。 您可以使用數值欄位作為維度，從具有不同歸因模型和回顧視窗的相同欄位建立多個量度。 此外，您還可讓度量和維度在資料檢視間相容、隱藏元件以避免報告，並包含／排除值、使用分區等。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html) |
 | 工作區：支援排程報表 | 2021 年 4 月 7 日 | CJA現在支援排程報表。 |
@@ -145,11 +145,11 @@ AN-248451;AN-250461;AN-251157; AN-251481;AN-251756;AN-252604;AN-252822;AN-252941
 | 開啟與SiteCatalyst相同的VISTA處理 | 2021 年 3 月 17 日 | 在 2021 年 6 月 17 日，所有報表套裝都將更新：將 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 設定為 ON。此變更會透過處理資料以符合處理規則來影響資料倉儲報告。如有疑問或需要釐清一些事情，請聯繫 客戶服務。 |
 | Reports &amp; Analytics 登陸頁面選項 | 2021 年 2 月 19 日 | 在2021年3月25日，設定新「報告與分析」控制面板或其他內容的選項已移除，因為您的Adobe Analytics登陸頁面已移除。 如果您先前將「報告與分析」頁面設為自訂著陸頁面，它會持續運作，直到在[!UICONTROL 使用者偏好設定]中修改著陸頁面為止。 |
 | 三個 Analytics API 服務終止運作 | 2021 年 1 月 6 日 | 下列 Analytics Legacy API 服務預計在 2021 年 4 月 30 日結束生命週期並關閉。使用這些服務建立的任何目前整合，都會在當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。舊版OAuth帳戶可移轉至[Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics整合帳戶，可用來存取1.4 Analytics API和2.0 Analytics API。 |
-| Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange 合作夥伴計劃](https://partners.adobe.com/exchangeprogram/experiencecloud)中有提供新的標準。您可以針對任何整合使用該項標準，以繼續獲得產品供應和支援。生命週期結束的官方日期為 2021 年 8 月 1 日。[了解更多...](https://docs.adobe.com/content/help/zh-Hant/analytics/import/dataconnectors/data-connectors-eol.html) |
+| Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange 合作夥伴計劃](https://partners.adobe.com/exchangeprogram/experiencecloud)中有提供新的標準。您可以針對任何整合使用該項標準，以繼續獲得產品供應和支援。生命週期結束的官方日期為 2021 年 8 月 1 日。[了解更多...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=en) |
 
 ### AppMeasurement {#appm}
 
-如需 AppMeasurement 發行的最新消息，請參閱[適用於 JavaScript 的 AppMeasurement 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/appmeasurement-updates.html)。
+如需 AppMeasurement 發行的最新消息，請參閱[適用於 JavaScript 的 AppMeasurement 版本注意事項](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)。
 
 ### Analytics 課程與教學課程 {#tutorials-analytics}
 
@@ -265,8 +265,8 @@ Experience Manager 的新功能、修正及更新。Adobe建議使用內部部�
 * [Experience Manager Brand Portal 版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=zh-Hant)
 * [Experience Manager 桌面應用程式版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=en)
 * [Experience Manager Dispatcher 版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=en)
-* [Adobe Primetime 發行說明](https://docs.adobe.com/content/help/zh-Hant/primetime/release-notes/home.html)
-* [Livefyre 發行說明](https://docs.adobe.com/content/help/zh-Hant/livefyre/using/release-notes/c-rn.translate.html)
+* [Adobe Primetime 發行說明](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html?lang=en)
+* [Livefyre 發行說明](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html?lang=en)
 
 ### 最新 Experience Manager 課程與教學課程
 
@@ -302,8 +302,8 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 進一步了解已發行的最新功能、改良與修正：
 
-* [Campaign Standard 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html)
-* [Campaign Classic 版本注意事項](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/release-notes/latest-release.html)
+* [Campaign Standard 版本注意事項](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en)
+* [Campaign Classic 版本注意事項](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en)
 
 ### 最新 Campaign 課程與教學課程
 
@@ -312,16 +312,16 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | 已發佈 | 名稱 | 解決方法 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 4 月 12 日 | [在Analytics中追蹤傳送的成功](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/track-the-success-of-your-deliveries-in-analytics.html?lang=en#integrations) | Campaign Standard | 瞭解如何設定Campaign Standard與分析整合。 瞭解如何使用從Campaign Standard收到的資料以及哪些KPI可用，在Analytics中建立報表。 |
-| 2021 年 4 月 12 日 | [使用即時事件資料配置事務性消息](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/configure-transactional-messages-using-realtime-event-data.html) | Campaign Standard | 瞭解如何使用觸發器提供的即時事件資料來設定交易訊息。 |
+| 2021 年 4 月 12 日 | [使用即時事件資料來設定交易訊息](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/configure-transactional-messages-using-realtime-event-data.html) | Campaign Standard | 瞭解如何使用觸發器產生的即時事件資料來設定交易訊息。 |
 | 2021 年 4 月 12 日 | [在Campaign Standard中建立觸發事件](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/create-a-trigger-event.html) | Campaign Standard | 瞭解如何在Campaign Standard中建立觸發器事件，此事件會連結至現有的Experience Cloud觸發器。 |
 | 2021 年 4 月 12 日 | [在Experience Cloud中建立觸發器](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/create-a-trigger-in-experience-cloud.html) | Campaign Standard | 瞭解如何在Experience Cloud中設定觸發器。 |
 | 2021 年 4 月 12 日 | [使用事務性消息的觸發器](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/using-triggers-for-transactional-messaging-overview.html#integrations) | Campaign Standard | 瞭解如何針對交易訊息使用觸發器。 |
 
 ### 說明資源
 
-* Adobe Campaign Standard：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/campaign-standard-home.html) - [版本注意事項](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-planning.html) - [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic：[說明中心](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/campaign-classic-home.html) - [版本注意事項](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) - [作法影片](https://docs.adobe.com/content/help/zh-Hant/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文件更新內容](https://docs.adobe.com/content/help/zh-Hant/campaign-classic/using/documentation-updates.html)
-* Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) - [版本注意事項](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)- [Campaign Standard](https://docs.adobe.com/content/help/zh-Hant/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/zh-Hant/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html) 作法影片
+* Adobe Campaign Standard：[說明中心](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=en) - [版本注意事項](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [作法影片](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=en) - [發行規劃](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=en) - [最新文件更新內容](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=en)
+* Adobe Campaign Classic：[說明中心](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=en) - [版本注意事項](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [作法影片](https://experienceleague.adobe.com/docs/campaign-learn/campaign-classic-tutorials/overview.html?lang=en)- [最新文件更新內容](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=en)
+* Adobe Campaign 控制面板：[文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [版本注意事項](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en)- [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html?lang=en) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html?lang=en) 作法影片
 
 ## ![圖示](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -336,7 +336,7 @@ Adobe Advertising Cloud 版本注意事項。
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 新增說明 | (10 月 28 日發行) 舊版說明已更換為更新頁面，您可以透過 DSP 主功能表的「說明」連結加以存取，也可以隨時前往 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=zh-Hant](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=zh-Hant) 參閱內容。 |
+| 新增說明 | （10月28日發行）舊版說明已取代為更新的頁面。 可從主菜單的「幫助」鏈DSP接獲得幫助，並始終可在[https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=zh-Hant)獲得幫助 |
 | Campaigns | (10 月 28 日發行) 先前的 Campaigns 測試版檢視現已成為 Campaigns 預設檢視，能提供更快速的深入分析、簡潔的工作流程和自訂檢視。 |
 | 私人詳細目錄 | (10 月 15 日發行) 所有用戶現在都能使用新交易 ID 表單來設定及編輯交易 ID 詳細資訊，此表單是舊版「智慧型廣告服務」表單的簡化版本。要設定新的交易ID詳細資訊，請轉至&#x200B;**[!UICONTROL Inventory]** > **[!UICONTROL Deals]** > **[!UICONTROL Create]**，然後按一下&#x200B;**[!UICONTROL Deal ID Beta]**。 |
 | 刊登版位預測 | (10 月 15 日發行) 若刊登版位具有從刊登版位層級調整的設計，其設定的[!UICONTROL 「預測」]區段現已加入新的[!UICONTROL 「預估上限」]區段，能顯示目前的鎖定目標設定有多少容量可用。 |
@@ -364,7 +364,7 @@ Adobe Advertising Cloud 版本注意事項。
 
 ## ![圖示](/assets/target.png)[!DNL Target] {#target}
 
-如需最新版本的資訊，請參閱 [[!DNL Target]  版本注意事項](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html)。
+如需最新版本的資訊，請參閱 [[!DNL Target]  版本注意事項](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=en)。
 
 ## ![圖示](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
@@ -396,27 +396,27 @@ Adobe Advertising Cloud 版本注意事項。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [[Adobe Sign]使用Adobe Sign傳送提醒，讓Salesforce和Marketo使用——功能視訊](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | 影片 | 在本教學課程影片中，您將學習如何在合約在一段時間後仍未簽署時，從Marketo傳送電子郵件提醒。 此整合將Adobe Sign用於Salesforce、Marketo、Marketo和Salesforce同步。 |
+| 2021 年 4 月 | [[Adobe Sign]使用Adobe Sign傳送提醒，讓Salesforce和Marketo使用——功能視訊](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | 影片 | 瞭解如何在合約在一段時間後仍未簽署時，從Marketo傳送電子郵件提醒。 此整合將Adobe Sign用於Salesforce、Marketo、Marketo和Salesforce同步。 |
 
 ### Document Cloud教學課程
 
 | 已發佈 | 名稱 | 解決方法 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 4 月 | [控制您的PDF線上體驗並收集分析](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html) | 文章 | 貴組織是否會在您的網站上發佈PDF? 瞭解如何使用Adobe PDF內嵌API來控制外觀、啟用協作，並收集有關使用者與PDF互動的分析，包括花在頁面和搜尋上的時間。 |
-| 2021 年 4 月 | [使用Java中的Adobe檔案服務API管理財務檔案工作流程](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | 文章 | 瞭解如何針對Java Spring Boot應用程式使用Adobe檔案服務API，並建立模型檢視控制器(MVC)應用程式，從PDF檔案擷取內容、將它轉換為其他資料格式，例如Excel、結合多個PDF，以及密碼保護資源。 |
+| 2021 年 4 月 | [使用Java™中的Adobe檔案服務API管理財務檔案工作流程](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | 文章 | 瞭解如何使用Adobe文檔服務API進行Java™ Spring Boot應用程式。 建立模型檢視控制器(MVC)應用程式，從PDF檔案擷取內容、將它轉換為其他資料格式，例如Excel、結合多個PDF，以及密碼保護資源。 |
 | 2021 年 4 月 | [HR檔案工作流程與Java™中的Adobe檔案服務API](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/HRAgreementWorkflowsJava.html) | 教學課程 | 許多企業都需要有關新員工的檔案，例如在家工作的員工的工作場所合約。 傳統上，企業會以難以管理和儲存的表單實際管理這些檔案。 在切換至電子檔案時，PDF檔案是最理想的選擇，因為它們比其他檔案類型更安全，而且可修改性更低。 此外，他們還支援數位簽名。 |
 | 2021 年 4 月 | [使用Node.js中的Adobe檔案服務API的合約工作流程](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/AgreementWorkflowsNodejs.html) | 教學課程 | 許多商業應用程式和程式都需要檔案，例如提案和合約。 PDF檔案可確保檔案更安全，而且可修改性更低。 他們也提供數位簽章支援，讓您的客戶可以快速輕鬆地完成檔案。 Adobe檔案服務API可輕鬆將PDF功能整合在您的網頁應用程式中。 |
-| 2021 年 4 月 | [設定條件式內容](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggerconditional.html) | 影片 | 在此影片中，瞭解如何使用Adobe檔案產生標籤，在Microsoft Word範本中輕鬆設定章節，以利用Adobe檔案產生API，根據資料動態包含或排除檔案的章節。 |
-| 2021 年 4 月 | [[Doc Services]設定數值計算標籤——功能視頻](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggercalculations.html) | 影片 | 在此影片中，您將瞭解如何使用Adobe檔案產生標籤在Microsoft Word範本中輕鬆設定數值計算標籤，以使用Adobe檔案產生API來計算資料值的匯整或算術。 |
-| 2021 年 4 月 | [添加表和清單標籤](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggertables.html) | 影片 | 在此影片中，您將瞭解如何使用Adobe檔案產生標籤，輕鬆將表格和清單標籤新增至Microsoft Word範本，以使用Adobe檔案產生API，根據資料動態新增表格或清單列。 |
-| 2021 年 4 月 | [新增影像標籤](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddimagetags.html) | 影片 | 在此影片中，您將瞭解如何使用「Adobe檔案產生標籤」輕鬆將影像標籤新增至Microsoft Word範本，以使用「Adobe檔案產生API」將影像動態推送至檔案。 |
-| 2021 年 4 月 | [新增文字標籤](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddtexttags.html) | 影片 | 在此影片中，您將瞭解如何使用Adobe檔案產生標籤(與Adobe檔案產生API搭配使用)輕鬆將標籤新增至Microsoft Word範本。 |
-| 2021 年 4 月 | [Adobe文檔生成標籤概覽](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeroverview.html) | 影片 | 在此影片中，您將簡要瞭解如何使用Adobe檔案產生標籤來標籤Word範本，以便與Adobe檔案產生API搭配使用。 |
+| 2021 年 4 月 | [設定條件式內容](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggerconditional.html) | 影片 | 在此影片中，瞭解如何使用Adobe檔案產生標籤在Microsoft® Word範本中輕鬆設定章節，以利用Adobe檔案產生API根據資料動態包含或排除檔案的章節。 |
+| 2021 年 4 月 | [[Doc Services]設定數值計算標籤——功能視頻](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggercalculations.html) | 影片 | 瞭解如何使用Adobe檔案產生標籤在Microsoft® Word範本中輕鬆設定數值計算標籤，以使用Adobe檔案產生API來計算資料值的匯整或算術。 |
+| 2021 年 4 月 | [添加表和清單標籤](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggertables.html) | 影片 | 瞭解如何使用Adobe檔案產生標籤，輕鬆將表格和清單標籤新增至Microsoft® Word範本，以使用Adobe檔案產生API，根據資料動態新增表格或清單列。 |
+| 2021 年 4 月 | [新增影像標籤](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddimagetags.html) | 影片 | 瞭解如何使用Adobe檔案產生標籤輕鬆將影像標籤新增至Microsoft® Word範本，以使用Adobe檔案產生API將影像動態推送至檔案。 |
+| 2021 年 4 月 | [新增文字標籤](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddtexttags.html) | 影片 | 瞭解如何使用Adobe檔案產生標籤輕鬆將標籤新增至Microsoft® Word範本，以便與Adobe檔案產生API搭配使用。 |
+| 2021 年 4 月 | [Adobe文檔生成標籤概覽](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeroverview.html) | 影片 | 瞭解如何使用Adobe檔案產生標籤標籤[!DNL Word]範本，以便與Adobe檔案產生API搭配使用。 |
 
 如需 Document Cloud 說明，請參閱：
 
-* [Adobe Acrobat 學習中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=zh-Hant)
-* [Adobe Sign 學習中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hant)
+* [Adobe Acrobat](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=zh-Hant)
+* [Adobe Sign](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hant)
 * [Document Cloud 學習與支援](https://helpx.adobe.com/tw/support/document-cloud.html)
 
 <!-- ## ![Icon](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
