@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 7b542cb233b84542e0058ac2f4c39b0349e3fb73
+source-git-commit: d5ac0d91d5d4aa4a7661c529b5a7d85e0cb65d14
 workflow-type: tm+mt
-source-wordcount: '5381'
-ht-degree: 43%
+source-wordcount: '5370'
+ht-degree: 42%
 
 ---
 
@@ -19,15 +19,11 @@ ht-degree: 43%
 
 Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!DNL Experience Cloud] 和 Experience Platform 的最新版更新、文件與教學課程的中央位置。您也可以尋找適用於 [!DNL Creative Cloud for Enterprise] 和 [!DNL Document Cloud] 的新文件。
 
->[!IMPORTANT]
->
->本頁包含發行前內容，並可能在發行日期之前變更。
-
 >[!NOTE]
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最新更新：**2021 年 4 月 16 日**
+最新更新：**2021 年 4 月 22 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud UI 元件、服務和管理](#ecloud)
@@ -63,7 +59,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 包含 Experience Platform 和 Experience Platform Launch 的版本更新資訊。
 
-* [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)。(已發行：（2021年3月31日）
+* [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)。(已發行：**2021年4月21日**)
 * [Experience Platform Launch 版本注意事項](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=zh-Hant)。(已發行：（2021年2月18日）
 
 ### Experience Platform 教學課程與其他課程
@@ -143,9 +139,9 @@ AN-248451;AN-250461;AN-251157; AN-251481;AN-251756;AN-252604;AN-252822;AN-252941
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
 | 全面處理資料來源的 EOL | 2021 年 4 月 12 日 | Adobe計畫於2021年7月31日取消完整處理資料來源。 自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。請利用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)匯入此類資料。 |
-| [!UICONTROL Report Builder] 登入更新 | 2021 年 4 月 9 日 | 2021年1月14日，[!UICONTROL Report Builder]登入更新移除了對舊有技術的依賴，並將登入程式與Experience Cloud一致。 Experience Cloud 使用您的 Enterprise ID (電子郵件和密碼)。為確保對 [!UICONTROL Report Builder] 的存取不中斷，請於 2021 年 7 月 22 日前將 [!UICONTROL Report Builder] 增益集更新至 5.6.47 版或更新版本。Report Builder5.6.47版及更新版本僅支援Experience Cloud登入，不支援單一登入。 |
-| 資料摘要和 Data Warehouse IP 位址變更 | 2021 年 4 月 6 日 | 自 6 月 17 日起，資料摘要和 Data Warehouse 傳遞系統將在我們的資料中心內搬遷，因此您可能會看到外部 IP 位址變更。您應確認，您的報表和資料摘要之來源資料中心的所有 IP CIDR 區塊，都存在於您所控制的任何目標系統的任何防火牆內。[這裡的 IP 位址範圍完整清單可放入您的防火牆允許清單中](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant#data-collection-and-ftp-ip-address-blocks)。 |
-| 即將推出之 Analytics 選單變更的通知 | 2021 年 3 月 24 日 | 於 2021 年 4 月 22 日，我們將更新「**[!UICONTROL 元件]**」、「**[!UICONTROL 工具]**」和「**[!UICONTROL 管理員]**」下拉選單，以提高效能。所有這些頁面仍可在&#x200B;**[!UICONTROL 所有元件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理員]**&#x200B;連結下使用——它們將從下拉式選單中移除。 以下是將從下拉選單中移除並放置在其相對應連結頁面上的選單項目：<br><br> [!UICONTROL 元件]<ul><li>[!UICONTROL 書籤]</li><li>[!UICONTROL 儀表板]</li><li>[!UICONTROL 目標]</li><li>[!UICONTROL 日曆事件]</li><li>[!UICONTROL 排程報告]</li><li>[!UICONTROL 報表設定]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 管理員]<ul><li>[!UICONTROL 用戶管理]</li><li>[!UICONTROL 分類匯入工具]</li><li>[!UICONTROL 分類規則產生器]</li><li>[!UICONTROL 資料來源]</li><li>[!UICONTROL 資料連接器]</li><li>[!UICONTROL 公司設定]</li><li>[!UICONTROL 記錄]</li><li>[!UICONTROL 動態標籤管理]</li><li>[!UICONTROL 代碼管理器]</li><li>[!UICONTROL 依 IP 排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
+| 登入[!UICONTROL Report Builder]的更新 | 2021 年 4 月 9 日 | 2021年1月14日，[!UICONTROL Report Builder]登入更新移除了對舊有技術的依賴，並將登入程式與Experience Cloud一致。 Experience Cloud 使用您的 Enterprise ID (電子郵件和密碼)。為確保對 [!UICONTROL Report Builder] 的存取不中斷，請於 2021 年 7 月 22 日前將 [!UICONTROL Report Builder] 增益集更新至 5.6.47 版或更新版本。Report Builder5.6.47版及更新版本僅支援Experience Cloud登入，不支援單一登入。 |
+| 資料摘要和 Data Warehouse IP 位址變更 | 2021 年 4 月 6 日 | 自6月17日起，資料饋送和Data Warehouse傳送系統將重新定位在Adobe的資料中心，因此可能會造成外部IP位址變更，讓您看到。 Adobe建議您確認，您所控制的目標系統的防火牆中存在源自報告和饋送的資料中心的所有IP CIDR塊。 [這裡的 IP 位址範圍完整清單可放入您的防火牆允許清單中](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant#data-collection-and-ftp-ip-address-blocks)。 |
+| 即將推出之 Analytics 選單變更的通知 | 2021 年 3 月 24 日 | 在2021年4月22日，Adobe將更新&#x200B;**[!UICONTROL 元件]**、**[!UICONTROL 工具]**&#x200B;和&#x200B;**[!UICONTROL 管理]**&#x200B;下拉式選單，以取得一些效能提升。 所有這些頁面仍可在&#x200B;**[!UICONTROL 所有元件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理員]**&#x200B;連結下使用——它們將從下拉式選單中移除。 以下是將從下拉選單中移除並放置在其相對應連結頁面上的選單項目：<br><br> [!UICONTROL 元件]<ul><li>[!UICONTROL 書籤]</li><li>[!UICONTROL 儀表板]</li><li>[!UICONTROL 目標]</li><li>[!UICONTROL 日曆事件]</li><li>[!UICONTROL 排程報告]</li><li>[!UICONTROL 報表設定]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 管理員]<ul><li>[!UICONTROL 用戶管理]</li><li>[!UICONTROL 分類匯入工具]</li><li>[!UICONTROL 分類規則產生器]</li><li>[!UICONTROL 資料來源]</li><li>[!UICONTROL 資料連接器]</li><li>[!UICONTROL 公司設定]</li><li>[!UICONTROL 記錄]</li><li>[!UICONTROL 動態標籤管理]</li><li>[!UICONTROL 代碼管理器]</li><li>[!UICONTROL 依 IP 排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
 | 開啟與SiteCatalyst相同的VISTA處理 | 2021 年 3 月 17 日 | 在 2021 年 6 月 17 日，所有報表套裝都將更新：將 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 設定為 ON。此變更會透過處理資料以符合處理規則來影響資料倉儲報告。如有疑問或需要釐清一些事情，請聯繫 客戶服務。 |
 | Reports &amp; Analytics 登陸頁面選項 | 2021 年 2 月 19 日 | 在2021年3月25日，設定新「報告與分析」控制面板或其他內容的選項已移除，因為您的Adobe Analytics登陸頁面已移除。 如果您先前將「報告與分析」頁面設為自訂著陸頁面，它會持續運作，直到在[!UICONTROL 使用者偏好設定]中修改著陸頁面為止。 |
 | 三個 Analytics API 服務終止運作 | 2021 年 1 月 6 日 | 下列 Analytics Legacy API 服務預計在 2021 年 4 月 30 日結束生命週期並關閉。使用這些服務建立的任何目前整合，都會在當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>我們提供 [Legacy API EOL 常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來協助回答您的問題，並指引您展開後續操作。採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。舊版OAuth帳戶可移轉至[Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics整合帳戶，可用來存取1.4 Analytics API和2.0 Analytics API。 |
@@ -161,11 +157,11 @@ AN-248451;AN-250461;AN-251157; AN-251481;AN-251756;AN-252604;AN-252822;AN-252941
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [Adobe Analytics的用戶首選項](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences.html) | 影片 | 「元件——使用者」偏好設定頁面可讓您在使用者層級管理Analysis Workspace及其相關元件的設定。 例如，您可以選擇預設報表套裝和色盤。 使用者偏好設定會套用至所有新專案和新面板。 |
-| 2021 年 4 月 | [在工作區中使用元件下拉式清單](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-component-dropdowns-in-workspace.html) | 影片 | 元件下拉式清單可讓您從相容元件清單中挑選，以建立分析。 如果您找不到所需項目，也可以直接從下拉式清單建立新元件。 如果您有更進階的使用案例，這些空格也會繼續當做放置區。 |
+| 2021 年 4 月 | [Adobe Analytics 中的用戶偏好設定](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences.html) | 影片 | 「元件——使用者」偏好設定頁面可讓您在使用者層級管理Analysis Workspace及其相關元件的設定。 例如，您可以選擇預設報表套裝和色盤。 使用者偏好設定會套用至所有新專案和新面板。 |
+| 2021 年 4 月 | [使用 Workspace 中的元件下拉選單](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-component-dropdowns-in-workspace.html) | 影片 | 元件下拉式清單可讓您從相容元件清單中挑選，以建立分析。 如果您找不到所需的項目，也可以直接從下拉式清單建立元件。 如果您有更進階的使用案例，這些空格也會繼續當做放置區。 |
 | 2021 年 4 月 | [將資料帶入視覺效果中](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/getting-data-into-visualizations.html?lang=en#analysis-workspace) | 影片 | 在Analysis Workspace新增視覺化時，有幾種不同的方式可將資料新增至它們，視視覺化類型而定。 此影片示範這些方法。選項 |
-| 2021 年 4 月 | [將自訂日期範圍套用至Mobile Scorecard專案](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/apply-custom-date-ranges-to-mobile-scorecard-projects.html) | 影片 | 此影片顯示如何在您為行動裝置設定分析專案時，管理不同日期範圍選項，包括選擇您要顯示的現成可用範圍，以及建立您自己的自訂日期範圍。選項 |
-| 2021 年 4 月 | [設定一般帳戶設定](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-general-account-settings.html) | 影片 | 當您設定Adobe Analytics時，設定設定會影響資料的收集和儲存方式。 此影片會涵蓋一些一般設定。 您也可以在實施後變更這些項目，因為要讓資料更正確一點永遠不會太遲。 |
+| 2021 年 4 月 | [將自訂日期範圍套用至Mobile Scorecard專案](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/apply-custom-date-ranges-to-mobile-scorecard-projects.html) | 影片 | 此影片說明當您針對行動裝置設定分析專案時，如何管理日期範圍的不同選項。 此設定包括選擇您要顯示的現成範圍，以及如何建立您自己的自訂日期範圍。 |
+| 2021 年 4 月 | [設定一般帳戶設定](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-general-account-settings.html) | 影片 | 當您設定Adobe Analytics時，設定設定會影響資料的收集和儲存方式。 此影片會涵蓋一些一般設定。 您也可以在實施後變更這些設定，因為要讓資料更正確永遠不會太遲。 |
 
 ### Analytics 說明資源
 
@@ -190,7 +186,7 @@ Audience Manager 中的修正與改良。
 | 2021 年 4 月 | [瞭解面向Audience Manager用戶的即時CDP目標](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-destinations-for-aam-users.html?lang=en) | 影片 | 當您從Audience Manager移至[!UICONTROL 即時客戶資料平台]（即時CDP）時，您必須瞭解目標，以便瞭解如何將受眾細分激活到目標合作夥伴。 本視頻討論不同的目標類型以及它們在何處是即時CDP。 |
 | 2021 年 4 月 | [了解適用於 Audience Manager 用戶的 Real-time CDP 中的資料控管](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-data-gov-for-aam-users.html?lang=en#other-integrations) | 影片 | 此視訊會帶領Audience Manager使用者瞭解[!UICONTROL 即時客戶資料平台]中的資料管理功能，並與Audience Manager中提供的資料進行比較。 它討論[!UICONTROL 資料使用與標籤實施](DULE)架構，以及在平台中可套用它的位置。 |
 | 2021 年 4 月 | [品牌與消費者——事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/brands-vs-consumers.html?lang=en#industry) | 文章 | 如今，行銷人員被埋在與身分實務相關的資訊雜亂無章。 據Adobe和Advanis最近的研究，只有37%的營銷專業人士表示，他們已準備好迎接一個沒有Cookie的未來。 在此網路研討會中，Adobe 揭露了廣告商和發佈者對無 Cookie 未來的了解和準備程度、對其使用案例的影響，以及他們對更廣泛的生態系統的見解。 |
-| 2021 年 4 月 | [負責客戶資料管理的10項考慮事項——事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/ten-considerations-for-responsible-customer-data-management.html?lang=en#industry) | 文章 | 波動的市場力量和分散的消費者隱私要求可能會給數位行銷人員帶來令人畏懼的情境。 為了讓宣傳活動在法規的正確面前進行，行銷團隊需要IT對手擁有簡化的流程，以便在未來為資料治理流程提供適應。 這包括最理想的功能，讓每個人都能遵循並強制執行負責使用消費者資料的規則。 聽聽Adobe和[!DNL Scotiabank] [!DNL Digital]有關負責資料管理的主要考慮事項。 |
+| 2021 年 4 月 | [負責客戶資料管理的10項考慮事項——事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/ten-considerations-for-responsible-customer-data-management.html?lang=en#industry) | 文章 | 波動的市場力量和分散的消費者隱私要求可能會給數位行銷人員帶來令人畏懼的情境。 為了讓宣傳活動在法規的正確面前進行，行銷團隊需要IT對手擁有簡化的流程，以便在未來為資料治理流程提供適應。 此程式應讓每個人都能遵守並強制執行負責使用消費者資料的規則。 聽聽Adobe和[!DNL Scotiabank] [!DNL Digital]有關負責資料管理的主要考慮事項。 |
 | 2021 年 4 月 | [資料管理的未來和不斷變化的環境——事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/the-future-of-data-management-and-the-changing-environment.html?lang=en#industry) | 文章 | 隨著市場力量給我們的數位版圖帶來改變，企業需要適應資料治理、身分識別解決方案，以及如何以有意義的內容吸引潛在客戶和假名訪客的新現實。 |
 
 ## ![圖示](/assets/aem.png) Adobe Experience Manager {#aem}
@@ -281,10 +277,10 @@ Experience Manager 的新功能、修正及更新。Adobe建議使用內部部�
 | 2021 年 4 月 | [建立第一個 [!UICONTROL 最適化表單]](https://video.tv.adobe.com/v/332571) | 影片 | 瞭解如何建立第一個最適化表單。 |
 | 2021 年 4 月 | [在按鈕的點按事件上，測試Salesforce中銷售線索的建立](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/create-lead-click-event.html?lang=en#forms) | 影片 | 通過在按鈕的按一下事件上調用表單資料模型的POST操作來建立Lead對象。 |
 | 2021 年 4 月 | [整合表 [!UICONTROL AEM單] 與 [!DNL Salesforce]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/introduction.html?lang=en#forms) | 影片 | Forms+ Salesforce整合課程的簡介影片。 |
-| 2021 年 4 月 | [已過時的有序屬性索引](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/dopi.html) | 文章 | 舊項目具有不支援的「有序屬性」索引類型。 由於當前限制建議對[!UICONTROL 作AEM為Cloud Service]的索引管理僅支援類型lucene的索引。 |
+| 2021 年 4 月 | [已過時的有序屬性索引](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/dopi.html) | 文章 | 舊項目具有不支援的「有序屬性」索引類型。 如當前限制所建議的，僅支援類型&#x200B;_lucene_&#x200B;的索引，AEM[!UICONTROL 作為Cloud Service]的索引管理。 |
 | 2021 年 4 月 | [測試Lead  [!DNL Salesforce] inon表單提交](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/create-lead-submitting-form.html?lang=en#forms) | 影片 | 根據表單資料模型建立最適化表單。 在提交表單時，確認Lead物件是在Salesforce資料庫中建立。 |
-| 2021 年 4 月 | [INST:第三方安裝的對象](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/inst.html) | 參考 | 舊版專案依賴第三方套件或連接器，並將其安裝為專案的一部分或透過套件管理員。 |
-| 2021 年 4 月 | [[!UICONTROL URC：執行模式]](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/urc.html) | 參考 | 展示客戶如何讓[!UICONTROL runmodes]組態與雲端服務相容的範例，因為現在只有AEM作者和發佈[!UICONTROL runmodes]。 |
+| 2021 年 4 月 | [INST:第三方安裝的對象](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/inst.html) | 參考 | 舊項目依賴於第三方軟體包或連接器，並將其作為項目的一部分或通過軟體包管理器進行安裝。 |
+| 2021 年 4 月 | [[!UICONTROL 不支援的執行模式設定]](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/urc.html) | 參考 | 如何使[!UICONTROL runmode]組態與Experience ManagerCloud Service相容，因為現在只有作者和發佈是[!UICONTROL runmodes]。 |
 
 ### 適用於 Experience Manager 的其他說明資源
 
