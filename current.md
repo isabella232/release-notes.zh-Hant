@@ -6,9 +6,9 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: c4023721667178357047047573997bbdd67944ab
+source-git-commit: fe66c16cb5f021c1c3039c04a8498beef2eaeb9b
 workflow-type: tm+mt
-source-wordcount: '5690'
+source-wordcount: '5689'
 ht-degree: 80%
 
 ---
@@ -140,7 +140,7 @@ AN-248451; AN-250461、AN-251157、 AN-251481、AN-251756、AN-252604、AN-25282
 | ----------- | ---------- | ---------- |
 | 全面處理資料來源的 EOL | 2021 年 4 月 12 日 | Adobe 計劃在 2021 年 7 月 31 日淘汰完整處理資料來源。自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。請利用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)匯入此類資料。 |
 | 登入[!UICONTROL Report Builder]的更新 | 2021 年 4 月 9 日 | 在 2021 年 1 月 14 日，[!UICONTROL Report Builder] 登入更新淘汰對舊版技術的相依性，並使登入程序符合 Experience Cloud。Experience Cloud 使用您的 Enterprise ID (電子郵件和密碼)。為確保對 [!UICONTROL Report Builder] 的存取不中斷，請於 2021 年 7 月 22 日前將 [!UICONTROL Report Builder] 增益集更新至 5.6.47 版或更新版本。Report Builder 5.6.47 版或更新版本只支援 Experience Cloud 登入，不支援單一登入。 |
-| 資料摘要和 Data Warehouse IP 位址變更 | 2021 年 4 月 6 日 | 自6月17日起，資料饋送和Data Warehouse傳送系統將重新定位在Adobe的資料中心，因此可能會造成外部IP位址變更，讓您看到。 Adobe建議您確認，您所控制的目標系統的防火牆中存在源自報告和饋送的資料中心的所有IP CIDR塊。 [這裡的 IP 位址範圍完整清單可放入您的防火牆允許清單中](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant#data-collection-and-ftp-ip-address-blocks)。 |
+| 資料摘要和 Data Warehouse IP 位址變更 | 2021 年 4 月 6 日 | 自6月17日起，資料饋送和Data Warehouse傳送系統將重新定位在Adobe的資料中心，因此可能會造成外部IP位址變更，讓您看到。 Adobe建議您確認，您所控制的目標系統的防火牆中存在源自報告和饋送的資料中心的所有IP CIDR塊。 [這裡的 IP 位址範圍完整清單可放入您的防火牆允許清單中](://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant#data-collection-and-ftp-ip-address-blocks)。 |
 | 即將推出之 Analytics 選單變更的通知 | 2021 年 3 月 24 日 | 在2021年4月22日，Adobe更新了&#x200B;**[!UICONTROL 元件]**、**[!UICONTROL 工具]**&#x200B;和&#x200B;**[!UICONTROL 管理]**&#x200B;下拉式選單，以取得一些效能提升。 所有這些頁面仍可在「**[!UICONTROL 所有元件]**」、「**[!UICONTROL 所有工具]**」和「**[!UICONTROL 所有管理員員]**」連結下取得 - 從下拉選單中移除。以下是將從下拉選單中移除並放置在其相對應連結頁面上的選單項目：<br><br> [!UICONTROL 元件]<ul><li>[!UICONTROL 書籤]</li><li>[!UICONTROL 儀表板]</li><li>[!UICONTROL 目標]</li><li>[!UICONTROL 日曆事件]</li><li>[!UICONTROL 排程報告]</li><li>[!UICONTROL 報表設定]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 管理員]<ul><li>[!UICONTROL 用戶管理]</li><li>[!UICONTROL 分類匯入工具]</li><li>[!UICONTROL 分類規則產生器]</li><li>[!UICONTROL 資料來源]</li><li>[!UICONTROL 資料連接器]</li><li>[!UICONTROL 公司設定]</li><li>[!UICONTROL 記錄]</li><li>[!UICONTROL 動態標籤管理]</li><li>[!UICONTROL 代碼管理器]</li><li>[!UICONTROL 依 IP 排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
 | Same-as-SiteCatalyst VISTA Processing ON | 2021 年 3 月 17 日 | 在 2021 年 6 月 17 日，所有報表套裝都將更新：將 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 設定為 ON。此變更會透過處理資料以符合處理規則來影響資料倉儲報告。如有疑問或需要釐清一些事情，請聯繫客戶服務。 |
 | Reports &amp; Analytics 登陸頁面選項 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，將新 Reports &amp; Analytics 儀表板或其他內容設定為 Adobe Analytics 登陸頁面的選項將被刪除。如果您先前將 Reports &amp; Analytics 頁面設為自訂登陸頁面，則該頁面將繼續有效，直到您在「[!UICONTROL 用戶偏好設定]」中修改登陸頁面為止。 |
