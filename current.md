@@ -6,7 +6,7 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 88813a1c8a3510b84057dff39603fb30e252c64b
+source-git-commit: c4023721667178357047047573997bbdd67944ab
 workflow-type: tm+mt
 source-wordcount: '5690'
 ht-degree: 80%
@@ -23,7 +23,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最新更新：**2021 年 4 月 22 日**
+最新更新：**2021 年 4 月 29 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud UI 元件、服務和管理](#ecloud)
