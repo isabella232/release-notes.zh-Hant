@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: fe66c16cb5f021c1c3039c04a8498beef2eaeb9b
+source-git-commit: 2659558cae189222d57865d7027115f024dac44d
 workflow-type: tm+mt
 source-wordcount: '5689'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ AN-248451; AN-250461、AN-251157、 AN-251481、AN-251756、AN-252604、AN-25282
 
 ### Analytics 說明資源
 
-* [Adobe Analytics 產品文件與教學課程](https://experienceleague.corp.adobe.com/docs/analytics.html?lang=zh-Hant)
+* [Adobe Analytics 產品文件與教學課程](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## ![圖示](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
@@ -423,8 +423,8 @@ Adobe Advertising Cloud 版本注意事項。
 
 如需 Document Cloud 說明，請參閱：
 
-* [Adobe Acrobat](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=zh-Hant)
-* [Adobe Sign](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hant)
+* [Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=zh-Hant)
+* [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hant)
 * [Document Cloud 學習與支援](https://helpx.adobe.com/tw/support/document-cloud.html)
 
 <!-- ## ![Icon](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
