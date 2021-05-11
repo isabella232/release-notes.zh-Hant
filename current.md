@@ -6,9 +6,9 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 2659558cae189222d57865d7027115f024dac44d
+source-git-commit: 7ba8d1728f066499f8b0cdb8fb5fad1abe83ec53
 workflow-type: tm+mt
-source-wordcount: '5689'
+source-wordcount: '5695'
 ht-degree: 99%
 
 ---
@@ -23,14 +23,14 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最新更新：**2021 年 4 月 29 日**
+最新更新：**2021 年 5 月 11 日**
 
 * [Adobe 系統狀態](#status)
 * [Experience Cloud UI 元件、服務和管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)
+* [分](#analytics) 析與 [Customer Journey Analytics](#cust-journey) （2021年5月11日更新）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -99,8 +99,8 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 發行日期：**2021 年 4 月 22 日**
 
-* [Adobe Analytics 新功能](#aa-features)
-* [Customer Journey Analytics 新功能](#cust-journey)
+* [Adobe Analytics的新功能](#aa-features) （2021年5月11日更新）
+* [Customer Journey Analytics的新功能](#cust-journey) （2021年5月11日更新）
 * [Adobe Analytics 修正項目](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
 * [Analytics 課程與教學課程](#tutorials-analytics)
@@ -111,7 +111,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 | 功能 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=zh-Hant) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
 | Analytics 儀表板：自訂日期範圍 | 2021 年 4 月 22 日 | 除了目前可用的現成日期範圍之外，還可讓 Analytics 行動應用程式的使用者套用日期範圍至計分卡。 |
-| Workspace：先前專案版本 | 2021 年 5 月 13 日 | 讓您載入先前版本的 Workspace 專案，以復原不必要的變更或僅是還原成慣用的之前版本。 |
+| Workspace：先前專案版本 | 2021 年 5 月 20 日 | 讓您載入先前版本的 Workspace 專案，以復原不必要的變更或僅是還原成慣用的之前版本。 |
 
 ### Customer Journey Analytics 新功能 {#cust-journey}
 
@@ -120,7 +120,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 | 增強 CJA 資料檢視 | 2021 年 4 月 22 日 | 增強資料檢視可大幅提升從 XDM 結構元素欄位建立量度和維度的彈性。您可以將字串欄位做為量度使用。您可以將數值欄位做為維度使用，以不同的歸因模型和回顧視窗，從相同的欄位建立多個量度。您可以讓量度和維度在資料檢視間相容、隱藏要排除報告的元件，以及包含/排除值、使用分組等等。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hant) |
 | Workspace：支援排程報告 | 2021 年 4 月 7 日 | 目前在 CJA 中支援排程報告。 |
 | Analytics 儀表板：自訂日期範圍 | 2021 年 4 月 22 日 | 除了目前可用的現成日期範圍之外，還可讓 Analytics 行動應用程式的使用者套用日期範圍至計分卡。 |
-| Workspace：先前專案版本 | 2021 年 5 月 13 日 | 讓您載入先前版本的 Workspace 專案，以復原不必要的變更或僅是還原成慣用的之前版本。 |
+| Workspace：先前專案版本 | 2021 年 5 月 20 日 | 讓您載入先前版本的 Workspace 專案，以復原不必要的變更或僅是還原成慣用的之前版本。 |
 
 ### Adobe Analytics 中的修正項目 {#aa-fixes}
 
