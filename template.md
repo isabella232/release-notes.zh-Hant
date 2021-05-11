@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: f981d08b9a7200776706028b0408bd94a1e5e246
+source-git-commit: 4cad20ae0aa6d4a6e9776aa7861e2ba3b39f9e6b
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 92%
@@ -161,7 +161,7 @@ Adobe Analytics 的新功能和修正項目：
 * 修正
 * 修正
 
-請參閱 [AppMeasurement 版本歷史記錄](https://experienceleague.corp.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)，此為下列平台上 AppMeasurement 之版本歷史記錄的內容：
+請參閱 [AppMeasurement 版本歷史記錄](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)，此為下列平台上 AppMeasurement 之版本歷史記錄的內容：
 
 * [!DNL JavaScript]
 * [!DNL iOS]
@@ -224,7 +224,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 * [AEM 6.4 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-4.html)
 * [AEM 6.3 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-3.html)
-* [AEM 6.2 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-2.html)
+* [AEM 6.2 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-2.html.html)
 * [Cloud Manager 使用手冊](https://helpx.adobe.com/tw/experience-manager/cloud-manager/user-guide.html)
 * [舊版 AEM 文件](https://helpx.adobe.com/tw/experience-manager/aem-previous-versions.html)
 * [Scene7出版系統發行說明](https://docs.adobe.com/content/help/zh-Hant/dynamic-media-developer-resources/release-notes/s7rn2017.html)
@@ -307,7 +307,7 @@ Marketo Engage是銷售機會管理和B2B行銷人員的完整解決方案，希
    * 登陸頁面重新導向規則 API
 * **表單描述元快取：**&#x200B;改善登陸頁面與表單。
 
-如需詳細資訊，請參閱[ 2020年2月](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)的Marketo發行說明。
+如需詳細資訊，請參閱2020年2月[的Marketo發行說明。](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)
 
 ### 即將推出的功能
 
