@@ -5,7 +5,6 @@ doc-type: release notes
 last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-translation-type: tm+mt
 source-git-commit: 7ba8d1728f066499f8b0cdb8fb5fad1abe83ec53
 workflow-type: tm+mt
 source-wordcount: '5695'
@@ -41,7 +40,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 * [Document Cloud](#doc-cloud)
 * [Creative Cloud Enterprise](#creative-cloud)
 
-需要協助嗎？請造訪 [Adobe Experience League](https://experienceleague.adobe.com/#home)，尋找產品和技術文件、Adobe 策畫的課程、教學課程影片、快速解答、社群見解，以及由講師授課的訓練課程。
+需要協助嗎？請造訪 [Adobe Experience League](https://experienceleague.adobe.com/?lang=zh-Hant/#home)，尋找產品和技術文件、Adobe 策畫的課程、教學課程影片、快速解答、社群見解，以及由講師授課的訓練課程。
 
 ## ![圖示](/assets/adobe.png) Adobe 系統狀態 {#status}
 
@@ -49,7 +48,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 如需最新版本的資訊，Adobe 系統狀態的最新更新位在 [Adobe 系統狀態 - 2020 年 5 月 21 日](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=zh-Hant)。
 
-## ![圖示](/assets/ec_appicon_24.png) Experience Cloud UI 元件、服務和管理{#ecloud}
+## ![圖示](/assets/ec_appicon_24.png) Experience Cloud UI 元件、服務和管理 {#ecloud}
 
 | 功能 | Date | 說明 |
 | ------- | ------- | ------- |
@@ -101,7 +100,7 @@ Experience Cloud 解決方案和服務每月都會更新。此頁面是尋找 [!
 
 * [Adobe Analytics的新功能](#aa-features) （2021年5月11日更新）
 * [Customer Journey Analytics的新功能](#cust-journey) （2021年5月11日更新）
-* [Adobe Analytics 修正項目](#aa-fixes)
+* [Adobe Analytics 中的修正項目](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
 * [Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
@@ -166,7 +165,7 @@ AN-248451; AN-250461、AN-251157、 AN-251481、AN-251756、AN-252604、AN-25282
 
 ### Analytics 說明資源
 
-* [Adobe Analytics 產品文件與教學課程](https://experienceleague.adobe.com/docs/analytics.html)
+* [Adobe Analytics 產品文件與教學課程](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## ![圖示](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
@@ -183,7 +182,7 @@ Audience Manager 中的修正與改良。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [了解適用於 Audience Manager 用戶的 Real-time CDP](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.1.rtcdp) | 課程 | Audience Manager 客戶透過轉移到 Real-time Customer Data Platform (Real-time CDP) 的方式，構想其內容管理。此課程採用概念到概念 (concept-by-concept) 方法，協助 Audience Manager 用戶了解如何在 Real-time CDP 中處理這些概念。 |
+| 2021 年 4 月 | [了解適用於 Audience Manager 用戶的 Real-time CDP](https://experienceleague.adobe.com/?lang=zh-Hant?recommended=AudienceManager-U-1-2020.1.rtcdp) | 課程 | Audience Manager 客戶透過轉移到 Real-time Customer Data Platform (Real-time CDP) 的方式，構想其內容管理。此課程採用概念到概念 (concept-by-concept) 方法，協助 Audience Manager 用戶了解如何在 Real-time CDP 中處理這些概念。 |
 | 2021 年 4 月 | [了解適用於 Audience Manager 用戶的 Real-time CDP 中的目的地](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-destinations-for-aam-users.html?lang=zh-Hant) | 影片 | 從 Audience Manager 轉移到 [!UICONTROL Real-time Customer Data Platform] (Real-time CDP) 時，必須了解目的地，以便於您知道如何對目的地合作夥伴啟用對象區段。此影片討論不同的目的地類型及其 Real-time CDP 的位置。 |
 | 2021 年 4 月 | [了解適用於 Audience Manager 用戶的 Real-time CDP 中的資料控管](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-data-gov-for-aam-users.html?lang=zh-Hant#other-integrations) | 影片 | 此影片會為 Audience Manager 用戶逐步解說 [!UICONTROL Real-time Customer Data Platform] 中的資料控管功能，並將此功能與 Audience Manager 中提供的功能進行比較。此影片討論 [!UICONTROL Data Usage and Labeling Enforcement] (DULE) 框架及其可以在 Platform 中套用的位置。 |
 | 2021 年 4 月 | [兩種見解的故事 - 品牌與消費者 - 事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/brands-vs-consumers.html?lang=zh-Hant#industry) | 文章 | 現今的行銷人員被埋沒在身分識別專門的雜亂資訊之中。根據 Adobe 和 Advanis 最近的研究指出，唯有 37% 的行銷專業人員表示其準備好迎接無 Cookie 的未來。在此網路研討會中，Adobe 揭露了廣告商和發佈者對無 Cookie 未來的了解和準備程度、對其使用案例的影響，以及他們對更廣泛的生態系統的見解。 |
