@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9e29b645302ecff11108f8d265a1e4ec3e06a755
+source-git-commit: 9c51e3e514064371614c7379ae7f87ff194159e8
 workflow-type: tm+mt
-source-wordcount: '5365'
+source-wordcount: '5360'
 ht-degree: 42%
 
 ---
@@ -75,7 +75,7 @@ Experience Cloud應用程式和服務每月更新。 此頁面是您尋找[!DNL 
 
 ### Journey Orchestration 的其他資源
 
-[文件](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [做法影片](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=zh-Hant)
+[文件](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [做法影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=en)
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Offer Decisioning{#offer-decisioning}
 
@@ -105,7 +105,7 @@ Experience Cloud應用程式和服務每月更新。 此頁面是您尋找[!DNL 
 | 功能 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=zh-Hant) - 目標日期 | 說明 |
 | ----------- | ---------- | ------- |
 | Workspace：先前專案版本 | 2021 年 5 月 20 日 | 讓您載入先前版本的 Workspace 專案，以復原不必要的變更或僅是還原成慣用的之前版本。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/save-projects.html?lang=en#previous-version) |
-| Data WarehouseAPI要求現在支援「小時」 | 2021 年 5 月 20 日 | Data WarehouseAPI在請求內文中提供參數`"fuzzyDates”:false`時，會以`Y-m-d h:m:s`格式要求支援日期。 這可讓您要求當天的Data Warehouse資料，而之前，必須在資料傳回前完成該日。 [更多詳情](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md) |
+| Data WarehouseAPI要求現在支援「小時」 | 2021 年 5 月 20 日 | Data WarehouseAPI在請求內文中提供參數`"fuzzyDates”:false`時，會以`Y-m-d h:m:s`格式要求支援日期。 此更新可讓您要求當天的Data Warehouse資料，而之前，該日必須在資料傳回前完成。 [更多詳情](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -133,7 +133,7 @@ AN-240821;AN-243625;AN-243958;AN-248728;AN-249877;AN-250151;AN-251273;AN-251334;
 | ----------- | ---------- | ---------- |
 | 瀏覽器使用者代理反映的macOS作業系統版本不正確 | 2021 年 5 月 19 日 | 所有主要瀏覽器目前都會以使用macOS 10的方式，錯誤報告macOS X 11及以上版本的使用者，如瀏覽器的使用者代理字串所記錄。 此問題會影響Adobe Analytics報表，因為報表會使用使用者代理來判斷裝置資訊，例如作業系統。 這種不正確顯然是為了防止某些網站出現相容性問題。 請參閱此[Bugzilla票證](https://bugs.webkit.org/show_bug.cgi?id=213622&amp;utm_source=convertkit&amp;utm_medium=email&amp;utm_campaign=User+Agent+strings%2C+new+BigQuery+features%2C+custom+Google+Tag+Manager+loader...+%E2%80%93+Simmer+Newsletter+%2311%20-%205873454)以獲得參考。 目前尚不清楚該問題何時或是否會得到糾正。<br>有些瀏覽器最初正確記錄了macOS 11，因此可能會有一些流量符合此值。但是，由於報告不準確，對作業系統macOS 11進行篩選並不實用。<br>此問題相當重要，因為自macOS 11上的Safari開始，Apple已更新ITP Cookie過期限制，以套用至CNAME實作(請參閱 [WebKit部落格文章](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/))。<br>在此更新前，這些限制僅套用至透過JavaScript設定的用戶端Cookie。這種不準確性使得很難評估使用OS 11的流量，並因此受到ITP變更的影響。 您可以在此處](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#cookies)進一步了解Cookie和Adobe Analytics [。 |
 | 三個 Analytics API 服務終止運作 | 2021 年 5 月 19 日 | 下列Analytics Legacy API服務於2021年8月18日終止服務並關閉。 所有目前使用這些服務建立的整合功能當天都停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>Adobe提供[舊版API EOL常見問題集](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)以協助回答您的問題，並提供如何進行的指引。 採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
-| 2021 ISO地區更新 | 2021 年 5 月 13 日 | Adobe將於2021年5月21日執行2021 ISO地區更新。 在此版本之後，您應會看到微幅更新。 |
+| 2021 ISO地區更新 | 2021 年 5 月 13 日 | Adobe將於2021年5月21日執行2021 ISO地區更新。 預期在此版本後會出現微幅更新。 |
 | 全面處理資料來源的 EOL | 2021 年 4 月 12 日 | Adobe 計劃在 2021 年 7 月 31 日淘汰完整處理資料來源。自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。請利用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)匯入此類資料。 |
 | [!UICONTROL Report Builder] 登入更新 | 2021 年 4 月 9 日 | 在 2021 年 1 月 14 日，[!UICONTROL Report Builder] 登入更新淘汰對舊版技術的相依性，並使登入程序符合 Experience Cloud。Experience Cloud 使用您的 Enterprise ID (電子郵件和密碼)。為確保對 [!UICONTROL Report Builder] 的存取不中斷，請於 2021 年 7 月 22 日前將 [!UICONTROL Report Builder] 增益集更新至 5.6.47 版或更新版本。Report Builder 5.6.47 版或更新版本只支援 Experience Cloud 登入，不支援單一登入。 |
 | 資料摘要和 Data Warehouse IP 位址變更 | 2021 年 4 月 6 日 | 自 6 月 17 日起，資料摘要和 Data Warehouse 傳遞系統將在 Adobe 的資料中心內重新配置，因此您可能會看到外部 IP 位址變更。 Adobe 建議您最好確認，您的報表和資料摘要之來源資料中心的所有 IP CIDR 區塊，都存在於您所控制的目標系統的防火牆內。[以下是要放入防火牆允許清單的IP位址範圍完整清單](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant#data-collection-and-ftp-ip-address-blocks)。 |
@@ -361,10 +361,10 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 [!DNL Adobe Advertising]的發行說明。
 
-* [Advertising Cloud DSP 新功能](#adcloud-dsp)
-* [Advertising Cloud Search 新功能](#adcloud-search)
+* [Advertising DSP 新功能](#adcloud-dsp)
+* [Advertising Search 新功能](#adcloud-search)
 
-### [!DNL Advertising Cloud DSP] 中的新功能{#adcloud-dsp}
+### [!DNL Advertising DSP] 中的新功能{#adcloud-dsp}
 
 上次更新：**2021年5月19日（5月5日）發行**
 
@@ -374,7 +374,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 {style=&quot;table-layout:auto&quot;}
 
-### [!DNL Advertising Cloud Search] 中的新功能{#adcloud-search}
+### [!DNL Advertising Search] 中的新功能{#adcloud-search}
 
 上次更新：**2021年5月19日（5月18日發行）**
 
@@ -409,7 +409,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 5 月 | [建立內嵌的電子簽名和文檔體驗](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/develop/custom/embeddedesignature.html#develop) | 文章 | 了解如何使用Adobe Sign API將電子簽名和檔案體驗內嵌至您的網頁平台、內容和檔案管理系統。 （四部分） |
-| 2021 年 5 月 | [使用Adobe Sign for Microsoft Power Platform實現文檔自動化](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html#integrations) | 文章 | 了解如何啟用和使用適用於Microsoft Power應用程式的Adobe Sign和Adobe PDF工具連接器。 建立工作流程，讓業務核准和簽名流程快速且安全地自動化，無需任何程式碼。 （四部分） |
+| 2021 年 5 月 | [使用Adobe Sign for Microsoft® Power Platform實現文檔自動化](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html) | 文章 | 了解如何啟用和使用適用於Microsoft® Power Apps的Adobe Sign和Adobe PDF工具連接器。 建立工作流程，讓業務核准和簽名流程快速且安全地自動化，無需任何程式碼。 （四部分） |
 
 {style=&quot;table-layout:auto&quot;}
 
