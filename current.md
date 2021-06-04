@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9c51e3e514064371614c7379ae7f87ff194159e8
+source-git-commit: 710ca78745979b414c4299ff20561b07bc698478
 workflow-type: tm+mt
 source-wordcount: '5360'
-ht-degree: 42%
+ht-degree: 45%
 
 ---
 
@@ -52,9 +52,9 @@ Experience Cloud應用程式和服務每月更新。 此頁面是您尋找[!DNL 
 
 | 功能 | Date | 說明 |
 | ------- | ------- | ------- |
-| Experience Cloud標題和導覽 | 2021 年 5 月 20 日 | Adobe Experience Cloud更新包含標題的淺色主題變更，可輕鬆切換回深色主題和連結，從Experience Cloud設定檔選單中的使用者頭像控制其他偏好設定。 雖然並非所有Experience Cloud應用程式都支援主題，但此功能可解鎖未來的主題支援。 |
-| Experience Cloud全域搜尋 | 2021 年 5 月 20 日 | 透過此版本，Experience Cloud全域搜尋可讓您搜尋任何[Experience League](https://experienceleague.adobe.com/#home)檔案、課程和教學課程。 (目前，全域搜尋僅適用於Experience Platform使用者。 [!UICONTROL Platform]的全域搜尋可讓您搜尋Experience Cloud中的任何業務物件，例如區段、資料集、結構等。) |
-| Experience Cloud語言偏好設定 | 2021 年 5 月 20 日 | 此更新包含以Experience Cloud[Preferences](https://experience.adobe.com/preferences)設定您偏好語言的功能。 |
+| Experience Cloud 標頭與導覽 | 2021 年 5 月 20 日 | Adobe Experience Cloud更新包含標題的淺色主題變更，可輕鬆切換回深色主題和連結，從Experience Cloud設定檔選單中的使用者頭像控制其他偏好設定。 雖然並非 Experience Cloud 中的所有應用程式都有支援，這項功能開啟了將來主題支援的可能性。 |
+| Experience Cloud 全域搜尋 | 2021 年 5 月 20 日 | 在這個版本中，Experience Cloud 全域搜尋可讓您搜尋任何 [Experience League](https://experienceleague.adobe.com/#home) 文件、課程和教學課程。 (目前，全域搜尋僅適用於 Experience Platform 使用者。 [!UICONTROL Platform] 適用的全域搜尋可讓您搜尋 Experience Cloud 中的任何商業物件，例如區段、資料集、結構描述等。) |
+| Experience Cloud 語言偏好設定 | 2021 年 5 月 20 日 | 此更新包含在 Experience Cloud [偏好設定](https://experience.adobe.com/preferences)中設定慣用語言的功能。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -409,7 +409,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 5 月 | [建立內嵌的電子簽名和文檔體驗](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/develop/custom/embeddedesignature.html#develop) | 文章 | 了解如何使用Adobe Sign API將電子簽名和檔案體驗內嵌至您的網頁平台、內容和檔案管理系統。 （四部分） |
-| 2021 年 5 月 | [使用Adobe Sign for Microsoft® Power Platform實現文檔自動化](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html) | 文章 | 了解如何啟用和使用適用於Microsoft® Power Apps的Adobe Sign和Adobe PDF工具連接器。 建立工作流程，讓業務核准和簽名流程快速且安全地自動化，無需任何程式碼。 （四部分） |
+| 2021 年 5 月 | [使用Adobe Sign for Microsoft® Power Platform實現文檔自動化](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html) | 文章 | 了解如何啟用和使用適用於Microsoft® Power Apps的Adobe Sign和Adobe PDF工具連接器。 建立工作流程，讓業務核准和簽名流程快速且安全地自動化，無需任何程式碼。 （四部分） |
 
 {style=&quot;table-layout:auto&quot;}
 
