@@ -4,10 +4,10 @@ description: Experience Cloud 發行說明
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-source-git-commit: 48000898226fa1d926948dedc64610cee0bc7f65
+source-git-commit: e01e0ceec2a3aec43f7a64b7c2f3fb9e24b76cc9
 workflow-type: tm+mt
 source-wordcount: '1344'
-ht-degree: 92%
+ht-degree: 72%
 
 ---
 
@@ -35,14 +35,14 @@ Adobe Experience Cloud 的新功能及修正項目。
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
-* [Target](https://docs.adobe.com/content/help/zh-Hant/target/using/release-notes/target-release-notes.html) （解決方案說明連結）
+* [Target](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=zh-Hant) （解決方案說明連結）
 * [廣告](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
-* [Primetime](https://helpx.adobe.com/tw/primetime/user-guide.html) (解決方案說明連結)
+* [Primetime](https://experienceleague.adobe.com/docs/primetime.html) (解決方案說明連結)
 * [新文件與教學課程](#selfhelp)
 
-在找說明首頁嗎？請參閱 [Adobe Experience Cloud 檔案](https://docs.adobe.com/content/help/zh-Hant/experience-cloud/user-guides/home.html)。
+在找說明首頁嗎？請參閱 [Adobe Experience Cloud 檔案](https://experienceleague.adobe.com/docs/home.html?lang=en)。
 
 ## Adobe 系統狀態 {#status}
 
@@ -61,34 +61,34 @@ Experience Cloud 介面的新功能和修正項目，包括管理和核心服務
 
 功能和修正。
 
-如需產品檔案，請參閱[Experience Cloud介面](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/experience-cloud.html)
+如需產品檔案，請參閱[Experience Cloud介面](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-tw)
 
 ### 管理與開發人員 {#admin}
 
 功能和修正。
 
-如需產品文件，請參閱[管理使用者和產品](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html)。
+如需產品文件，請參閱[管理使用者和產品](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=en)。
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 [!DNL Experience Platform,] 的發行說明，內容包括 [!DNL Experience Platform Launch,] [!UICONTROL 歷程協調]、[!UICONTROL Offers]、[!UICONTROL People]、[!UICONTROL Places]、[!UICONTROL Mobile Services]、安全性公告。
 
 * [Experience Cloud ID 服務](#ecid)
-* [Experience Platform 發行說明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
+* [Experience Platform 發行說明](https://www.adobe.com/go/platform-release-notes-en)
 * [Experience Platform Launch](#launch)
 * [Journey Orchestration](#journey)
 * [Mobile Services 與 Mobile SDK](#mobile)
 * [安全性佈告和諮詢](https://helpx.adobe.com/tw/security.html) (所有 Adobe 產品)
 
-### [!UICONTROL Experience Cloud ID Service] {#ecid}
+### [!UICONTROL Experience Cloud ID 服務] {#ecid}
 
 功能和修正。
 
-如需產品文件，請參閱 [Experience Cloud ID 服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。
+如需產品文件，請參閱 [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 
 ### [!UICONTROL Experience Platform Launch] {#launch}
 
-如需發行說明和產品文件，請參閱 [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/release-notes/current.html)。
+如需發行說明和產品文件，請參閱 [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=en)。
 
 ### [!UICONTROL Journey Orchestration] {#journey}
 
@@ -96,7 +96,7 @@ Experience Cloud 介面的新功能和修正項目，包括管理和核心服務
 
 #### [!UICONTROL 歷程協調]的其他資源
 
-[文件](https://docs.adobe.com/content/help/zh-Hant/journeys/using/journey-orchestration-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/journeys/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/zh-Hant/platform-learn/tutorials/journey-orchestration/introduction.html)
+[文件](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hant) - [發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=zh-Hant) - [做法影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=en)
 
 ### [!UICONTROL Mobile Services] 與 [!UICONTROL Mobile SDK] {#mobile}
 
@@ -111,19 +111,19 @@ Experience Cloud 介面的新功能和修正項目，包括管理和核心服務
 * 修正
 * 修正
 
-如需產品文件，請參閱 [Mobile Services](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)。
+如需產品文件，請參閱 [Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)。
 
-如需 Mobile SDK 的詳細資訊，請參閱[適用於 Experience 解決方案的 Android SDK 4.x](https://docs.adobe.com/content/help/zh-Hant/mobile-services/android/overview.html) 和[適用於 Experience Cloud 解決方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/zh-Hant/mobile-services/ios/overview.html)。
+如需Mobile SDK的詳細資訊，請參閱：適用於Experience解決方案的[Android™ SDK 4.x](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en)和適用於Experience Cloud解決方案的[iOS SDK 4.x](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en)。
 
 ## Analytics {#analytics}
 
 Adobe Analytics 的新功能和修正項目：
 
 * [Adobe Analytics 新功能](#aa-features)
-* [適用於 iOS 與 Android 的 Media Analytics SDK  (原稱 VHL SDK)](#aa-va)
+* [適用於iOS與Android™的Media Analytics SDK（原稱VHL SDK）](#aa-va)
 * [給 Analytics 管理員的重要通知](analytics-important-notices.md)
 
-如需產品文件，請參閱 [Adobe Analytics 說明首頁](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html)。
+如需產品文件，請參閱 [Adobe Analytics 說明首頁](https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=en)。
 
 ### Adobe Analytics 的新功能 {#aa-features}
 
@@ -133,7 +133,7 @@ Adobe Analytics 的新功能和修正項目：
 | 功能 B | 文字 |
 | 功能 C | 文字 |
 
-### 適用於 [!DNL iOS] 與 [!DNL Android] 的 [!DNL Media Analytics] SDK (原稱 VHL SDK){#aa-va}
+### 適用於 [!DNL iOS] 與 [!DNL Android™] 的 [!DNL Media Analytics] SDK (原稱 VHL SDK){#aa-va}
 
 | 功能 | 說明 |
 | ------- | ------- |
@@ -143,7 +143,7 @@ Adobe Analytics 的新功能和修正項目：
 
 ### Data Workbench {#aa-dwb}
 
-如需最新資訊，請參閱 [Data Workbench 發行說明](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/release-notes/release-notes.translate.html)。
+如需最新資訊，請參閱 [Data Workbench 發行說明](https://experienceleague.adobe.com/docs/data-workbench/using/release-notes/release-notes.html?lang=en)。
 
 ### AppMeasurement {#appm}
 
@@ -164,14 +164,14 @@ Adobe Analytics 的新功能和修正項目：
 
 * [!DNL JavaScript]
 * [!DNL iOS]
-* [!DNL Android]
+* [!DNL Android™]
 * [!DNL Flash-Flex]
-* [!DNL OSX]
+* [!DNL OS X]
 * [!DNL Windows Phone,] [!DNL XBOX,] [!DNL Silverlight,] 和 [!DNL .NET]
-* [!DNL BlackBerry]
-* Java
+* [!DNL BlackBerry®]
+* Java™
 * PHP
-* Symbian
+* Symbian™
 
 ## Audience Manager {#aam}
 
@@ -210,7 +210,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 說明
 
-### 自助說明
+### 自助式
 
 **協作文件**
 
@@ -221,13 +221,13 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 
 ### 其他資源
 
-* [AEM 6.4 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-4.html)
+* [AEM 6.4 學習與支援首頁](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=zh-Hant)
 * [AEM 6.3 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-3.html)
-* [AEM 6.2 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-2.html.html)
-* [Cloud Manager 使用手冊](https://helpx.adobe.com/tw/experience-manager/cloud-manager/user-guide.html)
-* [舊版 AEM 文件](https://helpx.adobe.com/tw/experience-manager/aem-previous-versions.html)
-* [Scene7 Publishing System發行說明](https://docs.adobe.com/content/help/zh-Hant/dynamic-media-developer-resources/release-notes/s7rn2017.html)
-* [Livefyre 發行說明](https://docs.adobe.com/content/help/zh-Hant/livefyre/using/release-notes/c-rn.translate.html)
+* [AEM 6.2 學習與支援首頁](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html)
+* [Cloud Manager 使用手冊](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=zh-Hant)
+* [舊版 AEM 文件](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en)
+* [Scene7 Publishing System發行說明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html?lang=zh-Hant)
+* [Livefyre 發行說明](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html?lang=zh-Hant)
 
 ### [!DNL Livefyre] {#livefyre}
 
@@ -265,9 +265,9 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### 其他資源
 
-* Adobe Campaign Standard：[文件](https://helpx.adobe.com/tw/support/campaign/standard.html) - [版本說明](https://docs.adobe.com/content/help/zh-Hant/campaign-standard/using/release-notes/release-notes.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [發行規劃](https://helpx.adobe.com/tw/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic：[文件](https://helpx.adobe.com/tw/support/campaign/classic.html) - [版本說明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [做法影片](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
-* Adobe Campaign 控制面板：[文件](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/control-panel-home.html) - [發行說明](https://docs.adobe.com/content/help/zh-Hant/control-panel/using/release-notes.html)
+* Adobe Campaign Standard：[文件](https://experienceleague.adobe.com/docs/campaign-standard.html) - [版本說明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [做法影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en) - [發行規劃](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=zh-Hant)
+* Adobe Campaign Classic：[文件](https://experienceleague.adobe.com/docs/campaign-classic.html) - [版本說明](https://final-docs.campaign.adobe.com/doc/AC/en/RN.html) - [做法影片](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=en)
+* Adobe Campaign 控制面板：[文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [發行說明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en)
 
 ## 廣告 {#adcloud}
 
@@ -299,7 +299,7 @@ Marketo Engage是銷售機會管理的完整解決方案，適合B2B行銷人員
 
 發行日期：2020 年 2 月 21 日
 
-* **_Microsoft Dynamics_在 Microsoft Flow Action 中的變更負責人：**&#x200B;直接從 Marketo Engage 變更銷售機會或連絡負責人。
+* **Microsoft® Dynamics在Microsoft®  _Flow Action中的更改所有者_ :** 直接從Marketo Engage更改銷售機會或聯繫所有者。
 * **增強 API 呼叫功能：**
    * 使用者管理 API
    * 自訂物件結構描述 API
@@ -320,14 +320,14 @@ Marketo Engage是銷售機會管理的完整解決方案，適合B2B行銷人員
 
 ### 公告
 
-**Marketo Engage Success Center：**&#x200B;預計於 2020 年 2 月推出。Success Center 是產品內的說明中心，可讓您搜尋產品檔案和社群、啟動操作指南、存取採用內容等等。注意：此功能將會以測試版的形式在澳洲與紐西蘭推出，並預計於本季末在北美地區推出。
+**Marketo Engage Success Center：**&#x200B;預計於 2020 年 2 月推出。Success Center 是產品內的說明中心，可讓您搜尋產品檔案和社群、啟動操作指南、存取採用內容等等。注意：此功能已在澳新銀行測試版推出，預計於本季末在北美地區推出。
 
 ### 淘汰
 
 * **資產 API「_method」參數：** 2020 年 9 月後，資產 API 端點將不再接受於 POST 主體中使用「_method」傳遞查詢參數，以略過 URI 長度限制。
 * **Internet Explorer 支援淘汰：**&#x200B;從 2020 年 7 月 31 日推出的七月版開始，Marketo Engage 使用者介面將不再支援 Internet Explorer。
 
-如需彙整資料和過往的版本注意事項，請參閱 [Marketo 版本注意事項](https://docs.marketo.com/x/CgA6Ag)。
+如需彙整資料和過往的版本注意事項，請參閱 [Marketo 版本注意事項](https://experienceleague.adobe.com/docs/marketo/using/home.html)。
 
 ### 最新解決方案名稱課程與教學課程
 
@@ -335,13 +335,13 @@ Marketo Engage是銷售機會管理的完整解決方案，適合B2B行銷人員
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020年日期 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
-| 2020年日期 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
-| 2020年日期 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
-| 2020年日期 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
-| 2020年日期 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
-| 2020年日期 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
-| 2020年日期 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
-| 2020年日期 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
-| 2020年日期 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
-| 2020年日期 | [Linktext](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 影片 | 說明。 |
+| 2020年日期 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 影片 | 說明。 |
+| 2020年日期 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 影片 | 說明。 |
+| 2020年日期 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 影片 | 說明。 |
+| 2020年日期 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 影片 | 說明。 |
+| 2020年日期 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 影片 | 說明。 |
+| 2020年日期 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 影片 | 說明。 |
+| 2020年日期 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 影片 | 說明。 |
+| 2020年日期 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 影片 | 說明。 |
+| 2020年日期 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 影片 | 說明。 |
+| 2020年日期 | [Linktext](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/creating-your-first-adaptive-form/introduction-and-setup.html?lang=en) | 影片 | 說明。 |
