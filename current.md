@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: June 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 22f12b5bc45f0ed2c191c395c55314e646a330f2
+source-git-commit: 8adc3fe8f3f4b174d1c41cc7c3162d38a984d661
 workflow-type: tm+mt
 source-wordcount: '5062'
 ht-degree: 40%
@@ -413,7 +413,7 @@ Adobe[!DNL Workfront]是一個統一的工作管理應用程式，用於共用�
 ## ![圖示](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
 
 | 已發佈 | 名稱 | 類型 | 說明 |
-| -----------| ---------- | ---------- | ---------- |
+| ----------| --------- | --------- | --------- |
 | 2021 年 6 月 | [在iPad（和iPhone）上，用Fresco試試手](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html) | 影片 | 在這個15分鐘的實作研討會上，與Adobe Fresco一起探索全新的數位繪圖世界。 快速學習如何使用圖層和剪裁蒙版，以將油漆和紋理與基本形狀一致。 |
 | 2021 年 6 月 | [圖式字母湯的解碼](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html) | 影片 | PG、PNG、SVG、GIF和EPS檔案均常用於設計，有些用於網頁，有些用於演示文稿、出版物和創意項目。 但……他們什麼意思，你該選哪個？ 在這15分鐘的實作研討會中了解詳情。 |
 
