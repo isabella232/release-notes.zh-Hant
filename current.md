@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e198a57703d4be29e32e9b2919af157858651d74
+source-git-commit: c6aea555356863f7674dcda54fad19ea31394775
 workflow-type: tm+mt
-source-wordcount: '4926'
+source-wordcount: '4930'
 ht-degree: 41%
 
 ---
@@ -51,7 +51,7 @@ Experience Cloud中央介面元件包括可從統一產品標題存取的更新�
 | 功能 | Date | 說明 |
 | ------- | ------- | ------- |
 | AdobeFederated ID的單一登入支援 | 2021 年 6 月 17 日 | 如果您使用Federated ID，則無需輸入電子郵件地址或密碼即可登入Experience Cloud。 若要使用此功能，請將&#x200B;**#/sso:@domain**&#x200B;新增至Experience CloudURL。 <br><br>例如，假設您擁有網域 **adobecustomer.** com且想登入Adobe Analytics。URL會是：**https://experience.adobe.com/#/sso:@adobecustomer.com/analytics**。 |
-| Experience League搜尋 | 2021 年 6 月 1 日 | Experience League檔案搜尋功能已改善。 導覽至[Experience League](https://experienceleague.adobe.com/docs/?lang=en)並使用&#x200B;**[!UICONTROL Search]**&#x200B;欄位來尋找教學課程、檔案、課程等。 |
+| Experience League搜尋 | 2021 年 6 月 1 日 | Experience League檔案搜尋功能已改善。 導覽至[Experience League](https://experienceleague.adobe.com/docs/?lang=en)並使用&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位來尋找教學課程、檔案、課程等。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -89,7 +89,7 @@ Experience Cloud中央介面元件包括可從統一產品標題存取的更新�
 | 2021 年 6 月 | [建立資料類型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html) | 影片 | 了解如何在Adobe Experience Platform中建立您自己的資料類型，以便用於Experience Data Model(XDM)結構。 |
 | 2021 年 6 月 | [將您的資料模型轉換為體驗資料模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/convert-your-data-model-to-xdm.html) | 影片 | 了解資料架構師如何運用現有的交易式資料模型，並將其轉換為體驗資料模型。 此影片說明使用實體關係圖的建模方法之差異。 |
 | 2021 年 6 月 | [規劃您的資料模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/plan-your-data-model.html) | 影片 | 在Adobe Experience Platform中開始建立綱要之前，請先了解該做什麼。 記錄您的業務使用案例、了解您的Platform授權、了解產品護欄，以及在最終確定您的資料模型之前識別要擷取的資料。 |
-| 2021 年 6 月 | [塔布洛](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | 影片 | 了解如何從支援`PostgreSQL`協定的各種案頭客戶端應用程式連接到[!UICONTROL 查詢服務]，以及如何使用`PostgreSQL`工具和驅動程式連接和寫入查詢。 |
+| 2021 年 6 月 | [將Tableau連接至查詢服務](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | 影片 | 了解如何從支援`PostgreSQL`協定的各種案頭客戶端應用程式連接到[!UICONTROL 查詢服務]，以及如何使用`PostgreSQL`工具和驅動程式連接和寫入查詢。 |
 | 2021 年 6 月 | [Adobe定義的函式](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html) | 影片 | 了解如何使用Adobe Experience Platform [!UICONTROL 查詢服務]中的Adobe定義函式，對體驗事件資料執行常見的業務相關工作。 |
 | 2021 年 6 月 | [資料探索](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html) | 影片 | 了解如何使用SQL函式驗證所擷取的資料、預覽資料，以及探索資料的統計和分析屬性。 |
 | 2021 年 6 月 | [查詢服務概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html) | 影片 | 了解Adobe Experience Platform中的Query Service，以及它如何協助您了解客戶行為並產生具影響力的深入分析。 |
@@ -183,7 +183,7 @@ AN-246344;AN-250035;AN-250354;AN-252482;AN-254661;AN-254965;AN-255424;AN-256515;
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 6 月 | [管理員專用 Customer Journey Analytics 快速入門](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | 課程 | 了解如何設定、設定和管理Customer Journey Analytics。 了解一些基本概念，為您奠定基礎，然後進入更多設定步驟。 接著，我們會針對從Adobe Analytics移轉計算量度和區段至Customer Journey Analytics提供一些建議，來限制課程內容。 |
+| 2021 年 6 月 | [管理員專用 Customer Journey Analytics 快速入門](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | 課程 | 了解如何設定、設定和管理Customer Journey Analytics。 了解一些基本概念，為您奠定基礎，然後進入更多設定步驟。 接著，我們會針對從Adobe Analytics移轉計算量度和區段至Customer Journey Analytics提供一些建議，讓課程內容受限。 |
 | 2021 年 6 月 | [設定內部網站搜尋報告](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-use-cases/internal-site-search/configure-internal-site-search-reports.html?lang=en) | 影片 | 在Analysis Workspace中建立並設定自由表格，以分析網站上的內部搜尋功能。 |
 | 2021 年 6 月 | [將 Web SDK 變數對應至 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-use-cases/internal-site-search/map-web-sdk-variables-into-adobe-analytics.html?lang=en) | 影片 | 了解如何使用處理規則將分析變數從Web SDK對應至Adobe Analytics。 |
 | 2021 年 6 月 | [使用 Web SDK 實作內部搜尋變數](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-use-cases/internal-site-search/implement-internal-search-variables-using-web-sdk.html?lang=en) | 影片 | 了解如何使用Web SDK為內部搜尋詞追蹤使用案例實作Adobe Analytics變數。 查看從頁面到Experience Edge，再到Adobe Analytics的資料流程。 |
@@ -257,7 +257,7 @@ Audience Manager 中的修正與改良。
 
 * [提交新Experience Manager構想的准則](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/guidelines-for-submitting-a-new-experience-manager-aem-idea/td-p/382376)
 
-* [Adobe峰會2021年與丹·利維交談](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-sneaks-with-dan-levy/td-p/405865):每年，每位Adobe員工（從工程師、資料科學家到UX設計師和產品經理）都有機會分享創新想法，以改進品牌與客戶互動的方式。和我們一起參加「Adobe斯尼克斯」(Sneaks)，我們在這裡分享前七大項目，在人工智慧和低代碼應用等領域利用最新技術。
+* [Adobe Summit2021年與丹·利維的秘密](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-sneaks-with-dan-levy/td-p/405865):每年，每位Adobe員工（從工程師、資料科學家到UX設計師和產品經理）都有機會分享創新想法，以改進品牌與客戶互動的方式。和我們一起參加「Adobe斯尼克斯」(Sneaks)，我們在這裡分享前七大項目，在人工智慧和低代碼應用等領域利用最新技術。
 
 ### Experience Manager 發行資訊
 
