@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 42bcb928d8eb34cc13017dab09f8490a673368a5
+source-git-commit: 823476f3b4553a0bd9aae8670652bec1259cd84f
 workflow-type: tm+mt
-source-wordcount: '4910'
+source-wordcount: '4914'
 ht-degree: 40%
 
 ---
@@ -213,16 +213,16 @@ Audience Manager 中的修正與改良。
 >
 >Adobe建議瀏覽[Experience Manager版本更新和路線圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)頁面，以保持最新的發行資訊。
 
-### AEM產品更新
+### Experience Manager產品更新
 
 * **Experience Manager 6.5.9.0**
 
-   AEM 6.5 Service Pack 9.0（6.5.9.0，已於2021年5月27日發行）是項重要更新，其中包括自2019年4月AEM 6.5全面發行以來所推出的新功能、客戶要求的重要增強功能，以及效能、穩定性和安全性等方面的改善項目。
+   Experience Manager6.5 Service Pack 9.0（6.5.9.0，已於2021年5月27日發行）是項重要更新，其中包括自2019年4月AEM 6.5全面發行以來所推出的新功能、客戶要求的重要增強功能，以及效能、穩定性和安全性的改善項目。
 
    * [版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=zh-Hant)
    * [AEM Forms 發行交付項目](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en)
 
-### AEM產品發行
+### Experience Manager產品發行
 
 * **Experience Manager as a Cloud Service**
 
@@ -251,7 +251,7 @@ Audience Manager 中的修正與改良。
 
 
 
-### **AEM社群**
+### **Experience Manager社群**
 
 * [為所有Experience Manager部落格一站式服務](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/bd-p/adobe-experience-manager-discussions)
 
