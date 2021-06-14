@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 26fb9b46a6cf48db7cd98a75439f35a98e342898
+source-git-commit: 42bcb928d8eb34cc13017dab09f8490a673368a5
 workflow-type: tm+mt
-source-wordcount: '5042'
+source-wordcount: '4910'
 ht-degree: 40%
 
 ---
@@ -235,15 +235,9 @@ Audience Manager 中的修正與改良。
       * [Experience Manager作為Cloud ServiceSDK建置分析器Maven外掛程式](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/build-analyzer-maven-plugin.html?lang=en):將您的Maven專案更新至最新版本，其中包括已棄用的Java™ API檢查和其他改善。
    * **Experience Manager Sites as a Cloud Service**
 
-      * **GraphQL端點：** 現在可以為個別Experience Manager網站設定啟用Experience ManagerGraphQL API，並可使用新的GraphQL主控台UI為這些設定建立自訂GraphQL端點。用戶介面還允許管理GraphQL端點。
-      * **內容模型、增強的日期與時間資料類型：** 現在可以設定日期與時間日期類型，僅允許編寫日期、時間或日期和時間資訊。
-      * **內容模型、增強標籤資料類型：** 現在可以設定「標籤」資料類型，以允許編寫單一或多個標籤。
-      * **內容模型、新的標籤預留位置資料類型：** 新的標籤預留位置資料類型可讓您將資料類型分組到內容片段編輯器中標籤下呈現的區段。
+      您現在可以在新的[預覽層級](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en)上驗證內容，以模擬最終的體驗外觀，如同您在發佈層級上一樣。 此新功能由「Experience Manager網站管理的出版物」精靈啟用，可讓您在[!UICONTROL Publish]或[!UICONTROL Preview]之間選擇發佈目的地。 接著，您就可以透過專用URL存取[!UICONTROL 預覽]上的體驗。 在[!UICONTROL 預覽]上進行驗證後，您可以照常從[!UICONTROL 作者]發佈內容至[!UICONTROL 發佈]。 在Experience Manager中啟用[!UICONTROL 預覽]服務，因為Cloud Service環境將在未來幾週逐步推出。
+
    * **Experience Manager Assets as a Cloud Service**
-
-      您現在可以在新的[預覽層級](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en)上驗證內容，以模擬最終的體驗外觀，如同您在發佈層級上一樣。 此新功能由「Experience Manager網站管理的出版物」精靈啟用，可讓您在[!UICONTROL Publish]或[!UICONTROL Preview]之間選擇發佈目的地。 接著，您就可以透過專用URL存取[!UICONTROL 預覽]上的體驗。 在[!UICONTROL 預覽]上進行驗證後，內容可照常從[!UICONTROL 作者]發佈至[!UICONTROL 發佈]。 在Experience Manager中啟用[!UICONTROL 預覽]服務，因為Cloud Service環境在未來幾週內逐漸推出。
-
-   * **Experience Manager資產作為Cloud Service**
 
       發行前管道的新功能：
 
@@ -254,7 +248,6 @@ Audience Manager 中的修正與改良。
       [!UICONTROL Dynamic Media]中的新功能：
 
       * 智慧型影像設備像素比(DPR)和網路頻寬優化使您能夠在具有高解析度顯示器且網路頻寬受限的設備上高效地提供最佳質量影像。 請參閱[智慧影像常見問題集](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/imaging-faq.html?lang=en)。
-
 
 
 
