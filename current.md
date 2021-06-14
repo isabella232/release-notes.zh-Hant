@@ -6,10 +6,10 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 823476f3b4553a0bd9aae8670652bec1259cd84f
+source-git-commit: b0ad7a5c45760fba6a1a4e7e0f6dbbedbef93355
 workflow-type: tm+mt
-source-wordcount: '4914'
-ht-degree: 40%
+source-wordcount: '4913'
+ht-degree: 41%
 
 ---
 
@@ -23,7 +23,7 @@ Experience Cloud應用程式和服務每月更新。 此頁面是您尋找[!DNL 
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最近更新：**2021 年 6 月 11 日**
+最近更新：**2021 年 6 月 14 日**
 
 * [Experience Cloud中心介面元件](#ecloud)
 * [Adobe 系統狀態](#status)
@@ -311,11 +311,11 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 進一步了解已發行的最新功能、改良與修正：
 
-* **全新Adobe Campaign v8** ，具備重大基礎架構、安全性、傳遞能力及監控增強功能。透過使用[!DNL Snowflake]雲端資料庫技術，Adobe Campaign大幅改善其規模和速度，並具備管理更多客戶設定檔的能力，以及更高的每小時傳送率和交易。 進一步了解[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)。
+* **新的Adobe Campaign v8** 提供重要的基礎架構、安全性、傳遞能力及監控增強功能。Adobe Campaign v8可大幅改善其規模和速度，並能管理更多客戶設定檔，以及更高的每小時傳送率和交易。 進一步了解[Campaign v8檔案](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)。
 
-* **Adobe Campaign Classic v7 21.1.3版**:了解更多 [Campaign Classicv7發行說明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html)。
+* **Adobe Campaign Classic v7 21.1.3版：** 了解更多 [Campaign Classicv7發行說明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant)。
 
-* **Adobe Campaign Standard 21.2版**:了解更多資訊，請參 [閱Campaign Standard發行說明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html)。
+* **Adobe Campaign Standard 21.2版：** 進一步了解 [Campaign Standard發行說明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=zh-Hant)。
 
 ### 最新[!UICONTROL Campaign]課程與教學課程{#tutorials-campaign}
 
