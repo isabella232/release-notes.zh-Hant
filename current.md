@@ -6,10 +6,10 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c6aea555356863f7674dcda54fad19ea31394775
+source-git-commit: 4fc39c45e2b9eef506acbbaa04bf7302b53003fa
 workflow-type: tm+mt
-source-wordcount: '4930'
-ht-degree: 41%
+source-wordcount: '4941'
+ht-degree: 40%
 
 ---
 
@@ -80,18 +80,18 @@ Experience Cloud中央介面元件包括可從統一產品標題存取的更新�
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 6 月 | [準備資料](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/prepare-data.html) | 影片 | 了解如何清除、準備和結合多個資料集的資料，以使用「建立表格AS」(CTAS)和Spark SQL函式建立資料集，以便製作報表和控制面板。 |
+| 2021 年 6 月 | [使用Query Service準備資料](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/prepare-data.html) | 影片 | 了解如何清除、準備和結合多個資料集的資料，以使用「建立表格AS」(CTAS)和Spark SQL函式建立資料集，以便製作報表和控制面板。 |
 | 2021 年 6 月 | [在沙箱之間複製結構](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/copy-schemas-between-sandboxes.html) | 影片 | 了解如何使用[!UICONTROL 匯出/匯入結構API]，將結構從Adobe Experience Platform的一個沙箱複製到另一個沙箱。 在開發沙箱中建置並測試您的結構，然後複製到生產環境。 |
 | 2021 年 6 月 | [更新結構](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/update-schemas.html) | 影片 | 了解更新Adobe Experience Platform中現有結構時應注意的基本事項。 |
 | 2021 年 6 月 | [架構建置區塊](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schema-building-blocks.html) | 影片 | 了解Experience Data Model(XDM)結構描述的重要建置區塊元素，包括欄位、資料類型、結構欄位群組、類別和行為。 |
-| 2021 年 6 月 | [建立類](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-classes.html) | 影片 | 了解如何在Adobe Experience Platform中建立類別，以便用於Experience Data Model(XDM)結構。 |
+| 2021 年 6 月 | [建立架構類](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-classes.html) | 影片 | 了解如何在Adobe Experience Platform中建立類別，以便用於Experience Data Model(XDM)結構。 |
 | 2021 年 6 月 | [配置結構之間的關係](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html) | 影片 | 了解如何在Adobe Experience Platform中設定兩個結構之間的關係。 關係可讓您使用一個資料集作為另一個資料集的查閱表格。 |
-| 2021 年 6 月 | [建立資料類型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html) | 影片 | 了解如何在Adobe Experience Platform中建立您自己的資料類型，以便用於Experience Data Model(XDM)結構。 |
+| 2021 年 6 月 | [建立架構資料類型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html) | 影片 | 了解如何在Adobe Experience Platform中建立您自己的資料類型，以便用於Experience Data Model(XDM)結構。 |
 | 2021 年 6 月 | [將您的資料模型轉換為體驗資料模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/convert-your-data-model-to-xdm.html) | 影片 | 了解資料架構師如何運用現有的交易式資料模型，並將其轉換為體驗資料模型。 此影片說明使用實體關係圖的建模方法之差異。 |
 | 2021 年 6 月 | [規劃您的資料模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/plan-your-data-model.html) | 影片 | 在Adobe Experience Platform中開始建立綱要之前，請先了解該做什麼。 記錄您的業務使用案例、了解您的Platform授權、了解產品護欄，以及在最終確定您的資料模型之前識別要擷取的資料。 |
 | 2021 年 6 月 | [將Tableau連接至查詢服務](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | 影片 | 了解如何從支援`PostgreSQL`協定的各種案頭客戶端應用程式連接到[!UICONTROL 查詢服務]，以及如何使用`PostgreSQL`工具和驅動程式連接和寫入查詢。 |
-| 2021 年 6 月 | [Adobe定義的函式](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html) | 影片 | 了解如何使用Adobe Experience Platform [!UICONTROL 查詢服務]中的Adobe定義函式，對體驗事件資料執行常見的業務相關工作。 |
-| 2021 年 6 月 | [資料探索](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html) | 影片 | 了解如何使用SQL函式驗證所擷取的資料、預覽資料，以及探索資料的統計和分析屬性。 |
+| 2021 年 6 月 | [Adobe定義的查詢服務函式](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html) | 影片 | 了解如何使用Adobe Experience Platform [!UICONTROL 查詢服務]中的Adobe定義函式，對體驗事件資料執行常見的業務相關工作。 |
+| 2021 年 6 月 | [使用Query Service進行資料探索](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html) | 影片 | 了解如何使用SQL函式驗證所擷取的資料、預覽資料，以及探索資料的統計和分析屬性。 |
 | 2021 年 6 月 | [查詢服務概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html) | 影片 | 了解Adobe Experience Platform中的Query Service，以及它如何協助您了解客戶行為並產生具影響力的深入分析。 |
 | 2021 年 6 月 | [查詢服務UI概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/query-service-ui.html) | 影片 | 了解如何在Adobe Experience Platform Query Service中撰寫和執行查詢、檢視先前執行的查詢，以及存取由您IMS組織內其他使用者儲存的查詢。 |
 | 2021 年 6 月 | [查詢 API](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/query-service-api.html) | 影片 | 了解如何使用Adobe Experience Platform [!UICONTROL 查詢服務API]來撰寫和執行查詢、建立排程查詢及建立查詢範本。 |
