@@ -1,8 +1,8 @@
 ---
 cloud: Experience Cloud, Experience Platform
 product: experience cloud
-user-guide-title: Adobe Experience Cloud 版本注意事項
-breadcrumb-title: 版本注意事項
+user-guide-title: Adobe Experience Cloud 發行說明
+breadcrumb-title: 發行說明
 user-guide-description: 了解 Adobe Experience Cloud 和 Experience Platform 的新功能、修正和重要注意事項。
 user-guide-url: https://www.adobe.com
 source-git-commit: f6be8c7c3f91824d79618f7f3f1088ddba8a419d
@@ -13,10 +13,10 @@ ht-degree: 100%
 ---
 
 
-# Adobe Experience Cloud 新增功能{#experience-cloud}
+# Adobe Experience Cloud 新增功能 {#experience-cloud}
 
-+ [最新版本注意事項](current.md)
-+ 舊版版本注意事項 {#previous}
++ [最新發行說明](current.md)
++ 舊版發行說明 {#previous}
    + 2021 年 {#2021}
       + [2021 年 5 月](c-legacy-releases/2021/05202021.md)
       + [2021 年 4 月](c-legacy-releases/2021/04222021.md)
