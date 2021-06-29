@@ -6,10 +6,10 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 4fc39c45e2b9eef506acbbaa04bf7302b53003fa
+source-git-commit: 6778e1f9e6d8059d0453eb0cc5e572d16a7a7e7c
 workflow-type: tm+mt
-source-wordcount: '4941'
-ht-degree: 52%
+source-wordcount: '4958'
+ht-degree: 51%
 
 ---
 
@@ -183,7 +183,7 @@ AN-246344;AN-250035;AN-250354;AN-252482;AN-254661;AN-254965;AN-255424;AN-256515;
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 6 月 | [管理員專用 Customer Journey Analytics 快速入門](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | 課程 | 了解如何設定、設定和管理Customer Journey Analytics。 了解一些基本概念，為您奠定基礎，然後進入更多設定步驟。 接著，我們會針對從Adobe Analytics移轉計算量度和區段至Customer Journey Analytics提供一些建議，讓課程內容受限。 |
+| 2021 年 6 月 | [管理員專用 Customer Journey Analytics 快速入門](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | 課程 | 了解如何設定、設定和管理Customer Journey Analytics。 了解一些基本概念，為您奠定基礎，然後進入更多設定步驟。 接著，我們會針對從Adobe Analytics移轉計算量度和區段至Customer Journey Analytics提供一些建議，來限制課程內容。 |
 | 2021 年 6 月 | [設定內部網站搜尋報告](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-use-cases/internal-site-search/configure-internal-site-search-reports.html?lang=en) | 影片 | 在Analysis Workspace中建立並設定自由表格，以分析網站上的內部搜尋功能。 |
 | 2021 年 6 月 | [將 Web SDK 變數對應至 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-use-cases/internal-site-search/map-web-sdk-variables-into-adobe-analytics.html?lang=en) | 影片 | 了解如何使用處理規則將分析變數從Web SDK對應至Adobe Analytics。 |
 | 2021 年 6 月 | [使用 Web SDK 實作內部搜尋變數](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-use-cases/internal-site-search/implement-internal-search-variables-using-web-sdk.html?lang=en) | 影片 | 了解如何使用Web SDK為內部搜尋詞追蹤使用案例實作Adobe Analytics變數。 查看從頁面到Experience Edge，再到Adobe Analytics的資料流程。 |
@@ -264,7 +264,8 @@ Audience Manager 中的修正與改良。
 所有 Experience Manager 的發行說明都會保留在以下頁面：
 
 * [Experience Manager as a Cloud Service 發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=en)
-* [Experience Manager Cloud Manager 發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=zh-Hant)
+* [Experience Manager作為Cloud Service發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=en)
+* [Experience Manager Cloud Manager 發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en)
 * [Automated Forms Conversion Service 發行說明](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=en)
 * [Experience Manager 6.5 Service Pack 發行說明](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=en)
 * [Experience Manager 6.4 Cumulative Fix Pack 發行說明](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=zh-Hant)
