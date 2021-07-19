@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 96f2c28dfcebf903d11fa5fc02ab90405e0e4888
+source-git-commit: d33f6947012a86061ab4431f1b58c56dfa53910a
 workflow-type: tm+mt
-source-wordcount: '3950'
-ht-degree: 47%
+source-wordcount: '3936'
+ht-degree: 46%
 
 ---
 
@@ -47,7 +47,7 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 
 ## ![](/assets/ec_appicon_24.png) 圖示Experience Cloud中央UI元件 {#ecloud}
 
-Experience Cloud中央介面元件包括可從統一產品標題存取的更新，例如自助服務、搜尋和使用者帳戶偏好設定。 您可以在此處找到人員、位置（位置）和產品管理的更新。
+Experience Cloud中央介面元件包括從統一產品標題存取的更新，例如自助、搜尋和使用者帳戶偏好設定。 您可以在此處找到人員、位置（位置）和產品管理的更新。
 
 | 功能 | Date | 說明 |
 | ------- | ------- | -------|
@@ -72,7 +72,7 @@ Experience Cloud中央介面元件包括可從統一產品標題存取的更新�
 包含發行更新資訊以及Experience Platform和Experience Platform Launch的新檔案。
 
 * **2021年6月30日** [Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)
-* **2021年5月17日** [Experience Platform資料收集發行說明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=zh-Hant) (原稱Experience Platform Launch)
+* **2021年5月17日** [Experience Platform資料收集發行說明](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html) (原稱Experience Platform Launch)
 
 ### Experience Platform 教學課程與其他課程 {#tutorials-platform}
 
@@ -138,7 +138,7 @@ Experience Cloud中央介面元件包括可從統一產品標題存取的更新�
 
 | 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=zh-Hant) - 目標日期 |
 | ----------- | ---------- | ------- |
-| 新Adobe Analytics登陸頁面（公開測試版） | Adobe Analytics的新登陸頁面將Analysis Workspace和Reports &amp; Analytics整合在「工作區」傘下的單一介面和存取點中。 此頁面特色是有一個全新的項目經理首頁、更新的報告選單和現代化報告，以及一個全新學習區段，可幫助您更有效地快速入門。此新頁面可改善探索能力，並引導Reports &amp; Analytics使用者改善工作區中的報表體驗。 [了解更多](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) | 2021 年 7 月 26 日 |
+| 新Adobe Analytics登陸頁面（公開測試版） | Adobe Analytics的新登陸頁面將Analysis Workspace和Reports &amp; Analytics整合在「工作區」傘下的單一介面和存取點中。 它提供新的專案管理員首頁、更新的報表功能表、現代化的報表，以及新的學習區段，協助您更有效率地開始使用。 此新頁面可改善探索能力，並引導Reports &amp; Analytics使用者改善工作區中的報表體驗。 [了解更多](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) | 2021 年 7 月 26 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -152,7 +152,7 @@ Experience Cloud中央介面元件包括可從統一產品標題存取的更新�
 
 ### Adobe Analytics 中的修正 {#aa-fixes}
 
-* 修正建立新警報時未傳送警報及顯示錯誤的問題。 (AN-263962)
+* 修正建立警報時未傳送警報及顯示錯誤的問題。 (AN-263962)
 * 修正Analysis Workspace中虛擬報表套裝的問題：已擷取指定日期範圍以外的資料。 (AN-263121)
 * 修正工作區專案未開啟（逾時）的問題。 (AN-247248)
 * 修正無法在[!UICONTROL 伺服器呼叫使用量]下載入報表套裝使用量資料的問題。 (AN-264215)
@@ -202,16 +202,14 @@ Audience Manager 中的修正與改良。
 
 ## ![圖示](/assets/aem.png) Experience Manager {#aem}
 
-Experience Manager 中的新功能、修正及更新。Adobe 建議使用內部部署的客戶部署最新修補程式，以確保擁有更出色的穩定性、安全性及效能。
+Adobe建議瀏覽[Experience Manager版本更新和路線圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)常見頁面，以隨時掌握最新的發行資訊。
 
->[!NOTE]
->
->Adobe建議瀏覽[Experience Manager版本更新和路線圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)常見頁面，以隨時掌握最新的發行資訊。
+### Experience Manager 發行資訊 {#aem-links}
 
-Experience Manager發行資訊連結：
+Experience Manager的發行說明和其他發行資訊連結如下：
 
-* [Experience Manager as a Cloud Service 發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=zh-Hant)
 * [Experience Manager作為Cloud Service發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=en)
+* [Experience Manager as a Cloud Service 發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=en)
 * [Experience Manager Cloud Manager 發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en)
 * [Automated Forms Conversion Service 發行說明](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=en)
 * [Experience Manager 6.5 Service Pack 發行說明](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=zh-Hant)
@@ -234,12 +232,12 @@ Experience Manager發行資訊連結：
 
 {style=&quot;table-layout:auto&quot;}
 
-### 適用於 Experience Manager 的其他說明資源
+### 其他Experience Manager資源
 
 * [Experience Manager as a Cloud Service 指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hant)
 * [Experience Manager 6.5 學習與支援首頁](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html?lang=zh-Hant)
 * [Experience Manager 6.4 學習與支援首頁](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=zh-Hant)
-* [Experience Manager 6.3 學習與支援首頁](https://helpx.adobe.com/tw/support/experience-manager/6-3.html)
+* [Experience Manager 6.3 學習與支援首頁](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hant)
 * [Experience Manager 6.2 學習與支援首頁](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hant#previous-updates)
 * [舊版 Experience Manager 文件](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
 * [Cloud Manager 使用手冊](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=zh-Hant)
@@ -335,14 +333,14 @@ Adobe[!DNL Workfront]是一個統一的工作管理應用程式，用於共用�
 | 2021 年 7 月 | [液態模式在Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/mobile/mobile-tutorials/liquidmode.html) | 影片 | 了解液態模式如何改善行動簽署體驗。 它可減少夾入和縮放，以輕鬆聚焦於可填寫的欄位。 |
 | 2021 年 7 月 | [開始使用Adobe Sign API](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/signapi.html) | 文章 | 了解開發人員如何使用Sign API，增強使用Adobe檔案服務建立的應用程式和工作流程。 |
 | 2021 年 7 月 | [使用Adobe PDF Embed API進行數位檔案發佈](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/ddppdfembedapi.html) | 文章 | 將PDF檢視器內嵌在您的網頁中，可讓使用者檢視檔案，而不需重新設計HTML和CSS，或妨礙您存取網站。 |
-| 2021 年 7 月 | [使用Adobe檔案服務API進行學生與教師協作](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/educationcollab.html) | 文章 | 了解用於`Node.js`應用程式的官方SDK，以存取PDF服務API。 這可讓您將Microsoft Word或Microsoft Excel等檔案轉換為PDF。 |
+| 2021 年 7 月 | [使用Adobe檔案服務API進行學生與教師協作](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/educationcollab.html) | 文章 | 了解用於`Node.js`應用程式的官方SDK，以存取PDF服務API。 這可讓您將Microsoft® Word或Microsoft® Excel等檔案轉換為PDF。 |
 | 2021 年 7 月 | [使用Adobe文檔服務API發佈作業](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/jobposting.html?lang=en) | 文章 | 在以多位使用者操作網站時，設計體驗以確保每個人都能獲得順暢的體驗至關重要。 了解如何將所有已上傳的檔案自動轉換為PDF，並在貼文中內嵌這些檔案。 |
 | 2021 年 7 月 | [使用Adobe檔案服務API建立和編輯報表](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/reportcreation.html?lang=en) | 文章 | PDF可讓每個人都能檢視的格式，輕鬆與表格、圖形和互動式內容共用豐富的檔案。 了解如何與高管、股東、捐贈者或其他利益相關方分享這些統計資料。 |
 | 2021 年 7 月 | [使用Adobe檔案服務API審核和核准](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/reviews.html?lang=en) | 文章 | 了解如何使用數個Adobe檔案服務API解決實作審核和核准使用案例。 |
 | 2021 年 7 月 | [使用Adobe文檔服務API搜索和編製索引](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/searching.html?lang=en) | 文章 | 本教學課程探討Adobe檔案服務API的絕佳功能，以及如何輕鬆用於檔案封存和數位化。 我們通過構建Express NodeJS應用程式，然後整合文檔服務API以進行歸檔、數字化和文檔轉換，來探索這些功能。 |
-| 2021 年 7 月 | [使用Adobe文檔服務API管理員工優惠方案](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/offer.html) | 文章 | 本教學課程會逐步說明如何設定Node Express專案，該專案會顯示網頁表單，供使用者填入員工詳細資訊。 這些詳細資訊將使用網路上的檔案服務產生優惠方案信函，並以PDF格式傳送給客戶，供其使用Adobe Sign API簽署。 |
+| 2021 年 7 月 | [使用Adobe文檔服務API管理員工優惠方案](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/offer.html) | 文章 | 本教學課程會逐步說明如何設定Node Express專案，該專案會顯示網頁表單，供使用者填入員工詳細資訊。 這些詳細資訊會透過網路上的檔案服務產生優惠方案信函，並以PDF格式傳送給客戶，供客戶使用Adobe Sign API簽署。 |
 | 2021 年 7 月 | [使用Adobe文檔服務API管理法律合同](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/legal.html) | 文章 | 在本教學課程中，我們將探討Adobe檔案服務API的功能，以產生檔案中的自訂輸入欄位。 我們也探討如何輕鬆將這些產生的檔案轉換為受保護的可攜式檔案格式(PDF)，以防止資料操控。 |
-| 2021 年 7 月 | [使用Adobe檔案服務API建立NDA](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/nda.html) | 文章 | 了解如何為貴公司NDA建立Microsoft Word範本。 Adobe的Microsoft Word免費附加元件「Adobe文檔生成標籤」可幫助您插入「標籤」以輸入動態值。 您也將學習如何將JSON資料傳遞至範本及建立動態PDF。 然後，您可以透過電子郵件傳送該PDF，或根據您的業務需求和目標，在其瀏覽器中顯示給您的共同作業人員。 |
+| 2021 年 7 月 | [使用Adobe檔案服務API建立NDA](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/nda.html) | 文章 | 了解如何為貴公司NDA建立Microsoft® Word模板。 Adobe的Microsoft® Word免費外接程式Adobe文檔生成標籤，可幫助您插入「標籤」以輸入動態值。 您也可以了解如何將JSON資料傳遞至範本及建立動態PDF。 然後，您可以透過電子郵件傳送該PDF，或根據您的業務需求和目標，在其瀏覽器中顯示給您的共同作業人員。 |
 | 2021 年 7 月 | [使用Adobe文檔服務API管理銷售建議書和合同](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/sales.html) | 文章 | 了解如何使用動態資料和工作流程來建立建立銷售建議的有效流程。 |
 | 2021 年 7 月 | [使用Adobe文檔生成API處理髮票](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/invoices.html?lang=en) | 文章 | 了解如何使用Adobe檔案產生API來自動產生髮票、以密碼保護PDF，以及傳送發票給每位客戶。 只需要略懂Node.js、JavaScript、Express.js、HTML和CSS即可。 |
 
