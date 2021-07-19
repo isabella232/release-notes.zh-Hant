@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: db12e3c3021aa572c3f0e22be5c96e52fae78131
+source-git-commit: 109c72d5e703d63ea7870ea9558c5499c289434a
 workflow-type: tm+mt
-source-wordcount: '3904'
+source-wordcount: '3913'
 ht-degree: 48%
 
 ---
@@ -254,6 +254,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 進一步了解已發行的最新功能、改良與修正：
 
+* ![Campaign v8 文件](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)
 * [Campaign Standard 發行說明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=zh-Hant)
 * [Campaign Classic 發行說明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant)
 
