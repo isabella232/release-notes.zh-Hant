@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: bd6b98b1decdcf563421c1f828d3fb068fb6ca33
+source-git-commit: 906530244a4f60dd032aaafb772025478c42c017
 workflow-type: tm+mt
-source-wordcount: '4863'
+source-wordcount: '4867'
 ht-degree: 40%
 
 ---
@@ -23,7 +23,7 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最近更新日期：**2021 年 7 月 16 日**
+最近更新日期：**2021 年 7 月 19 日**
 
 * [Experience Cloud 中央介面元件](#ecloud)
 * [Adobe 系統狀態](#status)
@@ -31,7 +31,7 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)
+* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey) （更新日期： 2021年7月19日）
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -128,7 +128,7 @@ Experience Cloud中央介面元件包括可從統一產品標題存取的更新�
 發行日期：**2021 年 7 月 22 日**
 
 * [Adobe Analytics 新功能](#aa-features)
-* [Customer Journey Analytics 新功能](#cust-journey)
+* [Customer Journey Analytics 新功能](#cust-journey) (更新日期：2021 年 7 月 19 日)
 * [Adobe Analytics 中的修正](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
 * [Analytics 課程與教學課程](#tutorials-analytics)
@@ -146,7 +146,7 @@ Experience Cloud中央介面元件包括可從統一產品標題存取的更新�
 
 | 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 目標日期 |
 | ----------- | ---------- | ----- |
-| 新的連線資訊體驗 | 此「連線UI」增強功能可讓您知道資料是否已準備好在報表中使用。 它也可讓您追蹤處理資料的任何問題。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en) | 2021 年 8 月 19 日 |
+| 新的連線資訊體驗 | 此「連線UI」增強功能可讓您知道資料是否已準備好在報表中使用。 它也可讓您追蹤處理資料的任何問題。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=en) | 2021 年 8 月 10 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
