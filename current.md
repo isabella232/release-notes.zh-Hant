@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 906530244a4f60dd032aaafb772025478c42c017
+source-git-commit: db12e3c3021aa572c3f0e22be5c96e52fae78131
 workflow-type: tm+mt
-source-wordcount: '4867'
-ht-degree: 40%
+source-wordcount: '3904'
+ht-degree: 48%
 
 ---
 
@@ -50,14 +50,14 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 Experience Cloud中央介面元件包括可從統一產品標題存取的更新，例如自助服務、搜尋和使用者帳戶偏好設定。 您可以在此處找到人員、位置（位置）和產品管理的更新。
 
 | 功能 | Date | 說明 |
-| ------- | ------- | ------- |
-| Experience Cloud 全域搜尋 | 2021 年 7 月 5 日 | 在此版本中，「Experience Cloud全域搜尋」為Experience Cloud中的業務物件（例如區段、資料集、結構等）的搜尋新增Journey Orchestration。 |
+| ------- | ------- | -------|
+| Experience Cloud![全域搜尋](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en#globally-search-for-objects-and-entities) | 2021 年 7 月 5 日 | 在此版本中，「Experience Cloud全域搜尋」為Experience Cloud中的業務物件（例如區段、資料集、結構等）的搜尋新增Journey Orchestration。 |
 
 {style=&quot;table-layout:auto&quot;}
 
 **更多說明資源**
 
-* [中央介面元件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-tw)和用戶管理的管理幫助
+* [中央介面元件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en)和用戶管理的管理幫助
 * [Places - Location Service](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)的說明和發行說明
 * [People — 客戶屬性和受眾程式庫](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)相關說明。
 
@@ -93,9 +93,9 @@ Experience Cloud中央介面元件包括可從統一產品標題存取的更新�
 
 透過Adobe Journey Optimizer，您可以管理單一應用程式中數百萬客戶的計畫全通路行銷活動和一對一交流，而整個歷程都透過智慧決策和深入分析而最佳化。
 
-### 最新產品發行版
+### 最新Journey Optimizer產品發行
 
-* Journey Optimizer現已推出。 [閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en).
+* **2021年7月：** Journey Optimizer已推出。[閱讀全文](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=en).
 
 **更多Journey Optimizer資源**
 
@@ -206,87 +206,9 @@ Experience Manager 中的新功能、修正及更新。Adobe 建議使用內部�
 
 >[!NOTE]
 >
->Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)頁面，以掌握最新的版本資訊。
+>Adobe建議瀏覽[Experience Manager版本更新和路線圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)常見頁面，以隨時掌握最新的發行資訊。
 
-### Experience Manager產品發行
-
-* **Experience Manager as a Cloud Service**
-
-   Experience Manager as a Cloud Service 中的新功能：
-
-   * **Adobe Experience Manager as aCloud Service的XML檔案**
-
-      * **雲端原生元件內容管理系統**  — 以Cloud Service形式提供Adobe Experience Manager的XML檔案。取得可讓您大規模製作、管理及傳送檔案和內容的環境。
-      * **AI支援的檔案**  — 智慧標籤功能，可自動識別並擷取文字中的相關中繼資料關鍵字，以進行中繼資料標籤。
-      * **網頁編輯器的全新外觀**  - UI變更可讓內容更符合直覺，提供全新的外觀與風格。基礎架構已從珊瑚變為反應型頻譜。
-   * **Experience Manager作為Cloud Service**
-
-      * [!UICONTROL 預] 覽服務是以滾動方式部署到所有程式。為[!UICONTROL 預覽服務]啟用其程式時，產品內會通知客戶。 請參閱[存取預覽服務](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#access-preview-service)。
-      * 現在，系統會在管道執行之間快取建置步驟期間下載的Maven相依性。 未來數週內將為客戶啟用此功能。
-      * 您現在可以透過[!UICONTROL Edit Program]對話方塊編輯程式的名稱。
-      * 在專案建立期間和透過管理Git工作流程的預設[!UICONTROL Push]命令中使用的預設分支名稱已變更為`main`。
-      * 已重新整理介面中的編輯程式體驗。
-      * 品質規則`ImmutableMutableMixCheck`已更新，將`/oak:index`節點分類為不可變。
-      * 品質規則`CQBP-84andCQBP-84--dependencies`已整合為單一規則。 作為此整合的一部分，對依賴項的掃描可以更準確地識別部署到Experience Manager運行時的第三方依賴項中的問題。
-      * 為避免混淆，「環境詳細資料」頁面上的「發佈Experience Manager」和「發佈Dispatcher」區段列已整合。
-      * 已新增新的程式碼品質規則，以驗證`damAssetLucene`索引的結構。 請參閱[自訂DAM資產Lucene Oak Indexes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/test-results/custom-code-quality-rules.html?lang=en#oakpal-damAssetLucene-sanity-check)。
-      * 環境詳細資訊頁面現在會針對「發佈」和「預覽」服務顯示多個網域名稱（如適用）。 請參閱[環境詳細資訊](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#viewing-environment)。
-   * **Experience Manager Assets as a Cloud Service**
-
-      Assets的新功能：
-
-      * [!UICONTROL 內容] 自動化功能可讓Experience Manager資產使用Adobe Creative Cloud API，大規模自動化資產生產。它可大幅減少建立相同資產變異所需的時間和迭代次數，借此改善內容速度。 此功能不需要任何程式設計，也可在DAM內運作。 請參閱[使用Adobe Creative Cloud整合產生資產變異](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/cc-api-integration.html?lang=en)。
-      * [Adobe Photoshop、Adobe Illustrator和Adobe InDesign適用的Adobe資產連結3.0](https://helpx.adobe.com/tw/enterprise/using/adobe-asset-link.html) ，以及Adobe XD適 [用的AdobeAdobe資產連結2.0](https://helpx.adobe.com/tw/enterprise/using/adobe-asset-link-for-xd.html) 。它支援Assets Essentials，並能以Cloud Service或Assets Essentials的形式自動連線至Experience Manager。
-      * [資產大量內嵌工具](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hant#asset-bulk-ingestor)可讓您在大量內嵌期間新增中繼資料。
-
-      資產發行前管道的新功能：
-
-      * 檢視設定已增強，可讓您選擇預設檢視和預設排序參數。
-      * [!UICONTROL 連結共用]下載功能使用非同步下載來提升下載速度。 請參閱[下載使用連結共用的共用資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=en#link-share-download)。
-      * 您可以根據屬性述詞來搜尋和篩選資料夾。
-      * Experience Manager資產內嵌PDF檢視器，以預覽支援的檔案格式。 由Adobe Document Cloud提供。 此功能可讓您預覽PDF和其他多頁檔案，而不需進行任何複雜的處理。 它改善了與Experience Manager6.5的同等功能。預覽中可用的控制項是縮放、導覽至頁面、取消固定控制項，以及全螢幕檢視。 整合的PDF檢視器支援AI、DOCX、INDD、PDF和PSD檔案格式。 您可以對資產本身加上註解，但不支援在PDF檔案中加上註解和註解。
-      * 使用者體驗增強功能會顯示資料夾中存在的資產數量。 若資料夾中有超過1000個資產，資產會顯示1000個以上。
-      * 您可以將中繼資料結構直接套用至其「屬性」中的資料夾。
-   * **Experience Manager Sites as a Cloud Service**
-
-      新功能:
-
-      * 發佈至預覽層級現在在Sites管理員UI中顯示為頁面狀態。
-      * 發佈到預覽層現在會在動作結束時呈現預覽URL，並將URL保留在頁面屬性中以供稍後參考。
-   * **Experience Manager Forms as a Cloud Service**
-
-      新功能:
-
-      * 中繼資料結構可直接套用至資料夾屬性。
-      * 「資產大量內嵌」工具可讓您在大量內嵌期間新增中繼資料。
-      * 使用者體驗增強功能會顯示資料夾中存在的資產數量。 若資料夾中有超過1000個資產，「Experience Manager資產」會顯示1000個以上。
-
-      Forms的測試版功能：
-
-      * **Experience ManagerForms as aCloud Service — 通訊**  — 通訊API可協助您結合XDP範本和XML資料，以產生各種格式的列印檔案。此服務可讓您以同步模式產生檔案。 API可讓您建立應用程式，以便您：
-         * 使用XML資料填入範本檔案，以產生檔案。
-         * 以各種格式產生輸出表單，包括非互動式PDF列印資料流。
-         * 從XFA表單產生列印PDF PDF和Adobe Acrobat表單(AcroForm)。
-
-      您可以寫入[formscsbeta@adobe.com](mailto:formscsbeta@adobe.com)以註冊測試版程式。
-
-   * **Experience Manager Screens作為Cloud Service**
-
-      * 批量設備註冊管理意味著提供大量播放器設備更快、更高效。
-      * 改善裝置、顯示和管道詳細目錄檢視的搜尋和篩選選項。
-      * 設備健康快照通過提供關鍵狀態如一覽而節省時間。
-      * 「對象詳細資訊」頁為項目中的每個對象提供了最相關資訊的摘要。
-
-
-
-
-
-
-
-
-### Experience Manager 發行資訊
-
-所有 Experience Manager 的發行說明都會保留在以下頁面：
+Experience Manager發行資訊連結：
 
 * [Experience Manager as a Cloud Service 發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=zh-Hant)
 * [Experience Manager作為Cloud Service發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=en)
