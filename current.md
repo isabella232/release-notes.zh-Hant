@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: d33f6947012a86061ab4431f1b58c56dfa53910a
+source-git-commit: fbea6cb1eb34af8d7957451bb7c9117202e002d4
 workflow-type: tm+mt
-source-wordcount: '3936'
+source-wordcount: '3934'
 ht-degree: 46%
 
 ---
@@ -202,7 +202,7 @@ Audience Manager 中的修正與改良。
 
 ## ![圖示](/assets/aem.png) Experience Manager {#aem}
 
-Adobe建議瀏覽[Experience Manager版本更新和路線圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)常見頁面，以隨時掌握最新的發行資訊。
+Adobe建議您經常瀏覽[Experience Manager版本更新和路線圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)以隨時了解最新的發行資訊。
 
 ### Experience Manager 發行資訊 {#aem-links}
 
