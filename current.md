@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 722ad9ef37f15c3c6070ccaa66c9b55e25b4e35d
+source-git-commit: 3621c31c456cf7fc9de8ed65991aeab9fc8fedc8
 workflow-type: tm+mt
-source-wordcount: '4899'
+source-wordcount: '4909'
 ht-degree: 38%
 
 ---
@@ -37,7 +37,7 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 * [[!DNL Campaign]](#ac)
 * [[!DNL Advertising]](#adcloud)
 * [[!DNL Target]](#target)
-* [[!DNL Magento]](#magento)
+* [[!DNL Commerce]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Workfront]](#workfront)
 * [Document Cloud](#doc-cloud)
@@ -374,9 +374,12 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 {style=&quot;table-layout:auto&quot;}
 
-## ![圖示](/assets/magento.png) [!DNL Magento] {#magento}
+## ![圖示](/assets/magento.png) [!DNL Commerce] (Magento) {#magento}
 
-請參閱 Magento Commerce 和 Open Source [發行說明](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html)，以取得最新版本資訊。
+如需Adobe商務發行說明，請參閱下列連結：
+
+* [Magento Commerce和開放原始碼](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html)
+* [雲端套裝](https://devdocs.magento.com/cloud/release-notes/cloud-tools.html)
 
 ## ![圖示](/assets/target.png) [!DNL Target] {#target}
 
