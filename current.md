@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 7c57afe86724db59e8696b3e034a82d5ba6f9153
+source-git-commit: 5de9bc92bc3752726b7af80dd0abf91e253a5c33
 workflow-type: tm+mt
-source-wordcount: '4923'
-ht-degree: 38%
+source-wordcount: '5139'
+ht-degree: 44%
 
 ---
 
@@ -23,6 +23,14 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
+## Experience League上線
+
+[Adobe Analytics實作 — 秘訣與技巧](https://www.youtube.com/watch?v=lxOvLCzEGBI)
+
+你在薩米特看過他。 你聽過他在Adobe內幕者之旅分享專家建議。 您甚至可能有機會在您自己的Adobe Analytics實作中與他合作。 現在，Eric Matisoff將他最喜愛的三項Adobe Analytics實作秘訣帶入這個專屬的Experience League即時討論。
+
+請和我們一起聽聽每個Adobe Analytics實作團隊應了解的具體秘訣，並在聊天窗格中讓Eric回答您的問題。 這是現場活動，因此不需要提前註冊，但請務必將其放在日曆上，這樣您就不會錯過！
+
 最近更新日期：**2021 年 7 月 20 日**
 
 * [Experience Cloud 中央介面元件](#ecloud)
@@ -31,7 +39,7 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey) （更新日期： 2021年7月19日）
+* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：2021 年 7 月 19 日)
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -41,13 +49,13 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Workfront]](#workfront)
 * [Document Cloud](#doc-cloud)
-* [Creative Cloud 企業版](#creative-cloud)
+* [適用於企業的 Creative Cloud](#creative-cloud)
 
-需要協助嗎？請造訪 [Adobe Experience League](https://experienceleague.adobe.com/?lang=zh-Hant/#home)，尋找產品和技術文件、Adobe 策畫的課程、教學課程影片、快速解答、社群見解，以及由講師授課的訓練課程。
+需要協助嗎？請造訪 [Adobe Experience League](https://experienceleague.adobe.com/?lang=zh-Hant#home)，尋找產品和技術文件、Adobe 策畫的課程、教學課程影片、快速解答、社群見解，以及由講師授課的訓練課程。
 
-## ![](/assets/ec_appicon_24.png) 圖示Experience Cloud中央UI元件 {#ecloud}
+## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 中央 UI 元件 {#ecloud}
 
-Experience Cloud中央介面元件包括從統一產品標題存取的更新，例如自助、搜尋和使用者帳戶偏好設定。 您可以在此處找到人員、位置（位置）和產品管理的更新。
+Experience Cloud中央介面元件包括從統一產品標題存取的更新，例如自助、搜尋和使用者帳戶偏好設定。  您可以在此處找到人員、地點 (定位) 和產品管理的更新。
 
 | 功能 | Date | 說明 |
 | ------- | ------- | -------|
@@ -57,9 +65,9 @@ Experience Cloud中央介面元件包括從統一產品標題存取的更新，�
 
 **更多說明資源**
 
-* [中央介面元件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en)和用戶管理的管理幫助
-* [Places - Location Service](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)的說明和發行說明
-* [People — 客戶屬性和受眾程式庫](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)相關說明。
+* [中央介面元件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en)和使用者管理的管理說明
+* [地點 - 定位服務](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)的協助和發行說明
+* [人員 - 客戶屬性和對象庫](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)說明。
 
 ## ![圖示](/assets/adobe.png) Adobe 系統狀態 {#status}
 
@@ -69,7 +77,7 @@ Experience Cloud中央介面元件包括從統一產品標題存取的更新，�
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-包含發行更新資訊以及Experience Platform和Experience Platform Launch的新檔案。
+包含 Experience Platform 和 Experience Platform Launch 的版本更新資訊和新文件。
 
 * **2021年6月30日** [Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)
 * **2021年5月17日** [Experience Platform資料收集發行說明](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html) (原稱Experience Platform Launch)
@@ -103,7 +111,7 @@ Experience Cloud中央介面元件包括從統一產品標題存取的更新，�
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
-運用Experience Platform聰明地即時預測每個人的需求，以大規模協調不同體驗管道的客戶歷程。
+運用 Experience Platform 聰明地即時預測每個人的需求，在不同體驗管道大規模地協調客戶歷程。
 
 在 [Journey Orchestration 發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=zh-Hant)中進一步了解最新的功能、改良與修正。
 
@@ -134,6 +142,20 @@ Experience Cloud中央介面元件包括從統一產品標題存取的更新，�
 * [Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
+### Experience League上線事件通知 — Analytics實作
+
+請和我們一起聽聽每個Adobe Analytics實作團隊應了解的具體秘訣，並在聊天窗格中讓Eric Matisoff回答您的問題。 這是現場活動，因此不需要提前註冊，但請務必將其放在日曆上，這樣您就不會錯過！
+
+[Adobe Analytics實作 — 秘訣與技巧](https://www.youtube.com/watch?v=lxOvLCzEGBI)
+
+**時間：** 2021年7月29日上午9點
+
+**Adobe演示者**
+
+* Eric Matisoff,AdobeAnalytics與資料科學主要宣傳專員
+* Dasha Fitzpatrick,Adobe首席技術顧問
+* Doug Moore,Adobe技術行銷工程師
+
 ### Adobe Analytics 新功能 {#aa-features}
 
 | 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=zh-Hant) - 目標日期 |
@@ -157,7 +179,7 @@ Experience Cloud中央介面元件包括從統一產品標題存取的更新，�
 * 修正工作區專案未開啟（逾時）的問題。 (AN-247248)
 * 修正無法在[!UICONTROL 伺服器呼叫使用量]下載入報表套裝使用量資料的問題。 (AN-264215)
 
-#### Adobe Analytics或CJA中的其他修正
+#### Adobe Analytics 或 CJA 中的其他修正
 
 AN-160022;AN-186365;AN-234768(CJA);AN-253041;AN-255098;AN-256319;AN-256566;AN-256903;AN-257111;AN-259614;AN-259960;AN-260422;AN-260926;AN-260962;AN-261310;AN-261442;AN-261483(CJA);AN-261589;AN-261949;AN-262025;AN-262295;AN-262330;AN-262348;AN-262356;AN-262461;AN-262462;AN-262465;AN-262888;AN-262944;AN-262952;AN-262974;AN-263027;AN-263105;AN-263175;AN-263183;AN-263244;AN-263888;AN-263930;AN-263953
 
@@ -254,9 +276,9 @@ Adobe建議您經常瀏覽[Experience Manager版本更新和路線圖](https://e
 
       新功能:
 
-      * 中繼資料結構可直接套用至資料夾屬性。
-      * 「資產大量內嵌」工具可讓您在大量內嵌期間新增中繼資料。
-      * 使用者體驗增強功能會顯示資料夾中存在的資產數量。 若資料夾中有超過1000個資產，「Experience Manager資產」會顯示1000個以上。
+      * 中繼資料方案可直接套用至資料夾屬性。
+      * 資產大量擷取工具可讓您在大量擷取期間新增中繼資料。
+      * 使用者體驗增強功能會顯示資料夾中存在的資產數量。 若資料夾中有超過 1000 個資產，Experience Manager 資產會顯示 1000 個以上。
 
       Forms的測試版功能：
 
@@ -299,12 +321,12 @@ Experience Manager的發行說明和其他發行資訊連結如下：
 * [Experience Manager作為Cloud Service發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=en)
 * [Experience Manager as a Cloud Service 發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=en)
 * [Experience Manager Cloud Manager 發行說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en)
-* [Automated Forms Conversion Service 發行說明](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=en)
+* [Automated Forms Conversion Service 發行說明](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=zh-Hant)
 * [Experience Manager 6.5 Service Pack 發行說明](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=zh-Hant)
 * [Experience Manager 6.4 Cumulative Fix Pack 發行說明](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=zh-Hant)
 * [Experience Manager Assets Dynamic Media 發行說明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html?lang=zh-Hant)
 * [Experience Manager Brand Portal 發行說明](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=zh-Hant)
-* [Experience Manager 桌面應用程式發行說明](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=en)
+* [Experience Manager 桌面應用程式發行說明](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=zh-Hant)
 * [Experience Manager Dispatcher 發行說明](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=zh-Hant)
 * [Adobe Primetime 發行說明](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html)
 * [Livefyre 發行說明](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html)
@@ -333,7 +355,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 * [Campaign Standard 發行說明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=zh-Hant)
 * [Campaign Classic 發行說明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant)
 
-### 最新[!UICONTROL Campaign]課程與教學課程 {#tutorials-campaign}
+### 最新 [!UICONTROL Campaign] 課程與教學課程 {#tutorials-campaign}
 
 | 已發佈 | 名稱 | 解決方案 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
@@ -348,7 +370,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 * Adobe Campaign v8:[說明中心](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html) - [發行說明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=en) - [實作指南](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
 * Adobe Campaign Standard：[說明中心](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hant) - [發行說明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [做法影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en) - [發行規劃](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=zh-Hant) - [最新文件更新內容](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=en)
 * Adobe Campaign Classic：[說明中心](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hant) - [發行說明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [做法影片](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=en)- [最新文件更新內容](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=en)
-* Adobe Campaign 控制面板：[文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [發行說明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en)- [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hant) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hant) 做法影片
+* Adobe Campaign 控制面板：[文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [發行說明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant)- [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hant) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hant) 做法影片
 
 ## ![圖示](/assets/advertising-cloud.png) Advertising {#adcloud}
 
@@ -359,11 +381,11 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### [!DNL Advertising DSP] 中的新功能 {#adcloud-dsp}
 
-上次更新：**2021年6月10日（6月16日發行）**
+上次更新日期：**2021 年 6 月 10 日 (6 月 16 日版本)**
 
 | 功能 | 說明 |
 | -----------| ---------- |
-| 行銷活動管理 | （6月16日發行版本）標準顯示版位具有版位層級的步調和預算，可提供預測功能。 |
+| 行銷活動管理 | (6 月 16 日版本) 標準顯示版位具有版位層級的步調和預算，可提供預測功能。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -394,19 +416,19 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### Marketo Engage 核心更新
 
-如需最新發行計畫資訊和發行說明，請參閱[!DNL Marketo Engage] [發行計畫](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=en) 。
+如需最新發行版排程資訊和發行說明，請參閱「[!DNL Marketo Engage] [發行排程](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=en)」。
 
 ## ![圖示](/assets/workfront.png) [!DNL Workfront] {#workfront}
 
-Adobe[!DNL Workfront]是一個統一的工作管理應用程式，用於共用思想、建立內容、管理複雜的流程並執行其最佳工作。
+Adobe [!DNL Workfront] 是統一的工作管理應用程式，用於共用構想、建立內容、管理複雜的流程並執行其最佳工作。
 
-請參閱[[!DNL Workfront] 發行版本](https://one.workfront.com/s/product-releases)頁面，以取得所有產品的最新資訊匯總。
+請參閱 [[!DNL Workfront]  發行版本](https://one.workfront.com/s/product-releases)頁面，以取得所有產品的最新資訊匯總。
 
 ## ![圖示](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
 
 針對 Adobe Document Cloud 發佈的新影片、教學課程或其他課程。
 
-### Document Cloud課程與教學課程 {#tutorials-doc-cloud}
+### Document Cloud 課程與教學課程 {#tutorials-doc-cloud}
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
@@ -432,14 +454,14 @@ Adobe[!DNL Workfront]是一個統一的工作管理應用程式，用於共用�
 * [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hant)
 * [Document Cloud 學習與支援](https://helpx.adobe.com/tw/support/document-cloud.html)
 
-## ![](/assets/creative-cloud-24.png) 圖示適用於企業的Creative Cloud {#creative-cloud}
+## ![圖示](/assets/creative-cloud-24.png) 適用於企業的 Creative Cloud {#creative-cloud}
 
-針對企業Creative Cloud發佈的新影片、教學課程或課程。
+針對適用於企業的 Creative Cloud 發佈的新影片、教學課程或其他課程。
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | ----------| --------- | --------- | --------- |
-| 2021 年 6 月 | [在iPad（和iPhone）上，用Fresco試試手](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html) | 影片 | 在這個15分鐘的實作研討會上，與Adobe Fresco一起探索全新的數位繪圖世界。 快速學習如何使用圖層和剪裁蒙版，以將油漆和紋理與基本形狀一致。 |
-| 2021 年 6 月 | [圖式字母湯的解碼](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html) | 影片 | PG、PNG、SVG、GIF和EPS檔案均常用於設計，有些用於網頁，有些用於演示文稿、出版物和創意項目。 但……他們什麼意思，你該選哪個？ 在這15分鐘的實作研討會中了解詳情。 |
+| 2021 年 6 月 | [在 iPad (和 iPhone) 上，以 Fresco 試用您的手](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html) | 影片 | 在這個 15 分鐘的實作講座上，與 Adobe Fresco 一起探索全新的數位繪圖世界。快速學習如何使用圖層和剪裁遮色片，以將油漆和紋理與基本形狀一致。 |
+| 2021 年 6 月 | [圖式字母湯的解碼](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html) | 影片 | PG、PNG、SVG、GIF 和 EPS 檔案均常用於設計，有些用於網頁，有些用於簡報、出版物和創意項目。但……這些是什麼意思？你該選哪個？請在這個 15 分鐘的實作講座中了解詳情。 |
 
 {style=&quot;table-layout:auto&quot;}
 
