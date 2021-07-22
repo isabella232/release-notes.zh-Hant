@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 272c8da44a241b5a8eb5930462cc53b3e6c43297
+source-git-commit: 563d306d19333cdfe78c7eb1077b9b8309fadd4e
 workflow-type: tm+mt
-source-wordcount: '5023'
-ht-degree: 45%
+source-wordcount: '5036'
+ht-degree: 44%
 
 ---
 
@@ -23,8 +23,9 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最近更新日期：**2021 年 7 月 20 日**
+最近更新日期：**2021 年 7 月 22 日**
 
+* [Experience League上線事件通知](#events)  -  **2021年7月29日**
 * [Experience Cloud 中央介面元件](#ecloud)
 * [Adobe 系統狀態](#status)
 * [Experience Platform](#platform)
@@ -127,6 +128,7 @@ Experience Cloud中央介面元件包括從統一產品標題存取的更新，�
 
 發行日期：**2021 年 7 月 22 日**
 
+* [Experience League上線事件通知](#events)
 * [Adobe Analytics 新功能](#aa-features)
 * [Customer Journey Analytics 新功能](#cust-journey) (更新日期：2021 年 7 月 19 日)
 * [Adobe Analytics 中的修正](#aa-fixes)
@@ -134,7 +136,7 @@ Experience Cloud中央介面元件包括從統一產品標題存取的更新，�
 * [Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
-### Experience League上線事件通知 — Analytics實作
+## Experience League上線事件通知 — Analytics實作 {#events}
 
 請和我們一起聽聽每個Adobe Analytics實作團隊應了解的具體秘訣，並在聊天窗格中讓Eric Matisoff回答您的問題。 這是現場活動，因此不需要提前註冊，但請務必將其放在日曆上，這樣您就不會錯過！
 
