@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 563d306d19333cdfe78c7eb1077b9b8309fadd4e
+source-git-commit: 1d747dd10da74db31ce6195c43f6529a2663d1a0
 workflow-type: tm+mt
-source-wordcount: '5036'
-ht-degree: 44%
+source-wordcount: '5035'
+ht-degree: 45%
 
 ---
 
@@ -73,7 +73,7 @@ Experience Cloud中央介面元件包括從統一產品標題存取的更新，�
 包含 Experience Platform 和 Experience Platform Launch 的版本更新資訊和新文件。
 
 * **2021年6月30日** [Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)
-* **2021年5月17日** [Experience Platform資料收集發行說明](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html) (原稱Experience Platform Launch)
+* **2021年5月17日** [Experience Platform標籤發行說明](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html) (原稱Experience Platform Launch)
 
 ### Experience Platform 教學課程與其他課程 {#tutorials-platform}
 
