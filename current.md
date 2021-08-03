@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 0a6bbad001bc4aeb0b8f6537d87d8d98131af5d5
+source-git-commit: b3b30ac28d820aa30482c823ccd537bcf9cdcfb3
 workflow-type: tm+mt
-source-wordcount: '5034'
-ht-degree: 44%
+source-wordcount: '5036'
+ht-degree: 45%
 
 ---
 
@@ -23,7 +23,7 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最近更新日期：**2021 年 7 月 22 日**
+最新更新：**2021 年 8 月 3 日**
 
 * [Experience League上線事件通知](#events)  -  **2021年7月29日**
 * [Experience Cloud 中央介面元件](#ecloud)
@@ -32,7 +32,7 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：2021 年 7 月 19 日)
+* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey) **(2021 年 8 月 3 日更新)**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -132,7 +132,7 @@ Experience Cloud中央介面元件包括從統一產品標題存取的更新，�
 * [Adobe Analytics 新功能](#aa-features)
 * [Customer Journey Analytics 新功能](#cust-journey) (更新日期：2021 年 7 月 19 日)
 * [Adobe Analytics 中的修正](#aa-fixes)
-* [給 Analytics 管理員的重要通知](#aa-notices)
+* [Analytics管理員重要事項](#aa-notices)（2021年8月3日更新）
 * [Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -154,7 +154,7 @@ Experience Cloud中央介面元件包括從統一產品標題存取的更新，�
 
 | 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=zh-Hant) - 目標日期 |
 | ----------- | ---------- | ------- |
-| 新Adobe Analytics登陸頁面（公開測試版） | Adobe Analytics的新登陸頁面將Analysis Workspace和Reports &amp; Analytics整合在「工作區」傘下的單一介面和存取點中。 它提供新的專案管理員首頁、更新的報表功能表、現代化的報表，以及新的學習區段，協助您更有效率地開始使用。 此新頁面可改善探索能力，並引導Reports &amp; Analytics使用者改善工作區中的報表體驗。 [了解更多](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) | 2021 年 7 月 26 日 |
+| 新Adobe Analytics登陸頁面（公開測試版） | Adobe Analytics的新登陸頁面將Analysis Workspace和Reports &amp; Analytics整合在「工作區」傘下的單一介面和存取點中。 它提供新的專案管理員首頁、更新的報表功能表、現代化的報表，以及新的學習區段，協助您更有效率地開始使用。 新頁面能改善可發現性並引導 Reports &amp; Analytics 用戶，讓他們在 Workspace 獲得更好的報告體驗。[了解更多](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) | 2021 年 7 月 26 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -181,8 +181,8 @@ AN-160022;AN-186365;AN-234768(CJA);AN-253041;AN-255098;AN-256319;AN-256566;AN-25
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| 三個 Analytics API 服務終止運作 | 2021 年 7 月 15 日 | 2021年8月18日&#x200B;**下列Analytics舊版API服務將到期並關閉。**&#x200B;所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>Adobe 提供了[舊版 API 生命週期結束常見問答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來回答您的問題，並指引您展開後續操作。 採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
-| Adobe Data Connectors 終止服務 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange 合作夥伴計劃](https://partners.adobe.com/exchangeprogram/experiencecloud)中有提供新的標準。您可以針對任何整合使用該項標準，以繼續獲得產品供應和支援。正式終止服務日期為&#x200B;**2021年8月1日**。 [了解更多...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=zh-Hant) |
+| Adobe Data Connectors 終止服務 | 2021 年 8 月 3 日 | Adobe [!UICONTROL Data Connectors] 的舊技術已無法使用或不再支援。[Adobe Exchange 合作夥伴計劃](https://partners.adobe.com/exchangeprogram/experiencecloud)中有提供新的標準。您可以針對任何整合使用該項標準，以繼續獲得產品供應和支援。正式終止服務日期為&#x200B;**2021年8月19日**。 [了解更多...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=zh-Hant) |
+| 三個 Analytics API 服務結束生命週期 | 2021 年 7 月 15 日 | 2021年8月18日&#x200B;**下列Analytics舊版API服務將到期並關閉。**&#x200B;所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>Adobe 提供了[舊版 API 生命週期結束常見問答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來回答您的問題，並指引您展開後續操作。 採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
 | 完整處理資料來源的生命週期結束 | 2021 年 4 月 12 日 | Adobe計畫於2021年7月31日淘汰完全處理資料來源&#x200B;**。**&#x200B;自 2021 年 3 月 25 日起，將無法再建立此類型的新匯入。請利用[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)匯入此類資料。 |
 | [!UICONTROL Report Builder] 登入更新 | 2021 年 4 月 9 日 | 在 2021 年 1 月 14 日，[!UICONTROL Report Builder] 登入更新淘汰對舊版技術的相依性，並使登入程序符合 Experience Cloud。Experience Cloud 使用您的 Enterprise ID (電子郵件和密碼)。為確保不間斷地訪問[!UICONTROL Report Builder]，請在2021年7月22日前將[!UICONTROL Report Builder]增益集更新至5.6.47版或更新版&#x200B;**。** Report Builder 5.6.47 版或更新版本只支援 Experience Cloud 登入，不支援單一登入。 |
 
