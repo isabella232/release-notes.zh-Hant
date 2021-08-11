@@ -6,7 +6,7 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: a93d9deb8ad36d396899d0b0505b1d6bf9441c3b
+source-git-commit: a802b3ea8757944a04c24b3f7b8992e1ffe9bac8
 workflow-type: tm+mt
 source-wordcount: '5002'
 ht-degree: 98%
@@ -389,7 +389,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 | 功能 | 說明 |
 | ------- | ----------- |
-| [!UICONTROL 工具] | 如果您的廣告商帳戶設定為使用混合最佳化，則Advertising Cloud可選擇將帳戶的目標上傳至Google Ads和Microsoft Ads作為轉換，以便您將其用於混合最佳化。 您可以從[!UICONTROL Search] > [!UICONTROL Tools] > [!UICONTROL Conversion Upload Setup]啟用功能。 |
+| [!UICONTROL 工具] | 如果您的廣告商帳戶設定為使用混合最佳化，則Advertising Cloud可選擇將帳戶的目標上傳至Google Ads和Microsoft Ads作為轉換，以便您將其用於混合最佳化。 您可以從&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Tools]** > **[!UICONTROL Conversion Upload Setup]**&#x200B;啟用功能。 |
 
 {style=&quot;table-layout:auto&quot;}
 
