@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 6c6ebfbf878dcdd9db406789f1350e04b42f3d85
+source-git-commit: 7a9c166e6b3efc239e039f7aa2c2d52a7fadd680
 workflow-type: tm+mt
-source-wordcount: '5004'
+source-wordcount: '5003'
 ht-degree: 98%
 
 ---
@@ -385,11 +385,11 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### [!DNL Advertising Cloud Search] 中的新功能 {#adcloud-search}
 
-上次更新：**7月24日版本**
+上次更新：**8月11日7月24日發行**
 
 | 功能 | 說明 |
 | ------- | ----------- |
-| [!UICONTROL 工具] | 如果您的廣告商帳戶設定為使用混合最佳化，則Advertising Cloud可選擇將帳戶的目標上傳至Google Ads和Microsoft Ads作為轉換，以便您將其用於混合最佳化。 您可以從&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Tools]** > **[!UICONTROL Conversion Upload Setup]**&#x200B;啟用功能。 |
+| [!UICONTROL 工具] | 如果您的廣告商帳戶設定為使用混合最佳化，則[!DNL Advertising Cloud Search]可選擇將帳戶產品組合的目標上傳至Google Ads作為轉換，以便您將其用於混合最佳化。 您可以從&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Tools]** > **[!UICONTROL Conversion Upload Setup]**&#x200B;啟用功能。 |
 
 {style=&quot;table-layout:auto&quot;}
 
