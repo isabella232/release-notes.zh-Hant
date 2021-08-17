@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c0e65e13f424913c82f6608b24a8f797ee7a0341
+source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
 workflow-type: tm+mt
-source-wordcount: '4360'
+source-wordcount: '4374'
 ht-degree: 51%
 
 ---
@@ -23,7 +23,7 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最新更新：**2021 年 8 月 13 日**
+最新更新：**2021 年 8 月 17 日**
 
 * [Experience Cloud 中央介面元件](#ecloud)
 * [Experience Platform](#platform)
@@ -31,7 +31,7 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)
+* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey) 2021年8月17日更新&#x200B;****
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -135,9 +135,9 @@ Experience Cloud 中央介面元件包括可從統一產品標題存取的更新
 發行日期：**2021 年 19 月 8 日**
 
 * [Adobe Analytics 新功能](#aa-features)
-* [Customer Journey Analytics 新功能](#cust-journey)
+* [Customer Journey Analytics 新功能](#cust-journey) （2021年8月17日更新&#x200B;****）
 * [Adobe Analytics 中的修正](#aa-fixes)
-* [Analytics管理員重要事項](#aa-notices)（2021年8月3日更新）
+* [給 Analytics 管理員的重要通知](#aa-notices)
 * [Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -154,7 +154,7 @@ Experience Cloud 中央介面元件包括可從統一產品標題存取的更新
 | 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 目標日期 |
 | ----------- | ---------- | ----- |
 | 新的連線資訊體驗 | 此連線 UI 增強功能可讓您知道您的資料是否準備好及何時準備好可用於報告中。 它也可讓您追蹤資料處理的任何問題。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant) | 2021 年 8 月 19 日 |
-| 控制資料檢視維度的區分大小寫功能 | 可讓您控制Customer Journey Analytics是否將維度值視為區分大小寫。 這允許對具有相同值但大小寫不同的列執行去重複化。 | 2021 年 8 月 19 日 |
+| 控制資料檢視維度的區分大小寫功能 | 可讓您控制Customer Journey Analytics是否將維度值視為區分大小寫。 這允許對具有相同值但大小寫不同的列執行去重複化。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings) | 2021 年 8 月 19 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
