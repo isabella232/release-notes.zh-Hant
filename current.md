@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9b538a541f0211a3026fb3f8bdd7de834bced917
+source-git-commit: c47b884401c2d9b4cce5d6b56252c58acccc598c
 workflow-type: tm+mt
-source-wordcount: '4444'
+source-wordcount: '4427'
 ht-degree: 52%
 
 ---
@@ -23,7 +23,7 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最新更新：**2021 年 8 月 17 日**
+最新更新：**2021 年 8 月 20 日**
 
 * [Experience Cloud 中央介面元件](#ecloud)
 * [Experience Platform](#platform)
@@ -31,7 +31,7 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey) 2021年8月17日更新&#x200B;****
+* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey) (**2021 年 8 月 17 日**&#x200B;更新)
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -71,8 +71,7 @@ Experience Cloud 中央介面元件包括可從統一產品標題存取的更新
 
 包含 Experience Platform 和 Platform 標記的版本更新資訊和新文件。
 
-* **2021年7月28日** [Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant) (下次計畫發行： **8月19日**)
-* **2021年7月19日** [Experience Platform標籤發行說明](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html?lang=zh-Hant) (先前稱為Experience Platform Launch)
+* **2021年7月28日** [Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant) (下次計畫發行 —  **8月25日**)
 
 ### Experience Platform 教學課程與其他課程 {#tutorials-platform}
 
