@@ -6,10 +6,10 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
+source-git-commit: 9b538a541f0211a3026fb3f8bdd7de834bced917
 workflow-type: tm+mt
-source-wordcount: '4363'
-ht-degree: 51%
+source-wordcount: '4444'
+ht-degree: 52%
 
 ---
 
@@ -109,10 +109,10 @@ Experience Cloud 中央介面元件包括可從統一產品標題存取的更新
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 8 月 | [建立歷程的簡介](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html) | 影片 | 了解在歷程畫布中建立歷程的基本概念。 |
-| 2021 年 8 月 | [設定資料 — 概觀](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/set-up-data-overview.html) | 影片 | 了解即時客戶設定檔資料，以及為Journey Optimizer設定客戶設定檔資料所需的步驟。 |
-| 2021 年 8 月 | [對應身分](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/map-identities.html) | 影片 | 了解如何將架構欄位標示為身分、如何建立命名空間、何時將身分設為主要身分，以及如何內嵌及驗證身分資料。 |
-| 2021 年 8 月 | [使用案例：突發消息](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-read-burst-message.html) | 影片 | 了解突發報文傳送的適用使用案例。 了解如何設定突發訊息的歷程，以及套用哪些最佳實務。 |
+| 2021 年 8 月 | [建立歷程簡介](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html) | 影片 | 瞭解在歷程畫布中建立歷程的基本概念。 |
+| 2021 年 8 月 | [設定資料 — 概觀](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/set-up-data-overview.html) | 影片 | 瞭解即時客戶設定檔資料，以及為 Journey Optimizer 設定客戶設定檔資料的所需步驟。 |
+| 2021 年 8 月 | [對應身分](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/map-identities.html) | 影片 | 瞭解如何將方案欄位標示為身分、如何建立命名空間、何時將身分設為主要身分，以及如何內嵌及驗證身分資料。 |
+| 2021 年 8 月 | [使用案例：突發消息](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-read-burst-message.html) | 影片 | 瞭解突發訊息的適用使用案例。 瞭解如何設定突發訊息的歷程，以及可套用的最佳實務。 |
 
 **Journey Orchestration 的其他資源**
 
@@ -373,10 +373,11 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### [!DNL Advertising Cloud Search] 中的新功能 {#adcloud-search}
 
-上次更新：**2021年8月12日，8月21日發行**
+上次更新：**2021年8月20日（8月21日發行）**
 
 | 功能 | 說明 |
 | ------- | ----------- |
+| — | 新的測試版Advertising Cloud Javascript標籤會使用Adobe Experience Cloud ID(ECID)服務，以及舊有ef_id和gsurferid來測量轉換。 新標籤會建立[第一方Experience Clouds_ecid cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html)，並提供與其他Experience Cloud產品更緊密的整合。<br><br>具有ITP對應的舊版Advertising Cloud Javascript標籤將於2021年9月淘汰。<br><br>您的Adobe客戶經理會聯絡您，取得更多資訊和實作指示。 |
 | [!UICONTROL 產品組合] | 所有使用者皆可使用具有自動加權建議的新[!UICONTROL 目標Beta]。 新的介面包括關於建立目標和設定初始目標權重的更多指導。 權重建議僅適用於協助量度。 |
 
 {style=&quot;table-layout:auto&quot;}
