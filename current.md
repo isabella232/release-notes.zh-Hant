@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: fd638c92e6804ccdec2adfc9aec1f571c610b798
+source-git-commit: 0f1c37e20e20740e60c6e6c72e465c8611e4a60b
 workflow-type: tm+mt
-source-wordcount: '4430'
+source-wordcount: '4445'
 ht-degree: 52%
 
 ---
@@ -23,10 +23,10 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最新更新：**2021 年 8 月 20 日**
+最新更新：**2021 年 8 月 25 日**
 
 * [Experience Cloud 中央介面元件](#ecloud)
-* [Experience Platform](#platform)
+* [Experience Platform](#platform) (2021 **年8月25日**&#x200B;更新)
 * [Adobe 系統狀態](#status)
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
@@ -71,7 +71,13 @@ Experience Cloud 中央介面元件包括可從統一產品標題存取的更新
 
 包含 Experience Platform 和 Platform 標記的版本更新資訊和新文件。
 
-* **2021年7月28日** [Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant) (下次計畫發行 —  **8月25日**)
+**2021年8月25日** Experience Platform中現有功能的更新包括：
+
+* 可觀察性深入分析
+* 即時客戶個人檔案
+* 來源
+
+如需詳細資訊，請參閱[Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)。
 
 ### Experience Platform 教學課程與其他課程 {#tutorials-platform}
 
