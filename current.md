@@ -6,10 +6,10 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 0f1c37e20e20740e60c6e6c72e465c8611e4a60b
+source-git-commit: 8b1a49bf761607dccb2793e0223c072cd6121be3
 workflow-type: tm+mt
-source-wordcount: '4445'
-ht-degree: 52%
+source-wordcount: '4503'
+ht-degree: 51%
 
 ---
 
@@ -23,8 +23,9 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最新更新：**2021 年 8 月 25 日**
+最新更新：**2021 年 8 月 26 日**
 
+* [Experience League上線事件通知](#events)  -  **2021年8月26日**
 * [Experience Cloud 中央介面元件](#ecloud)
 * [Experience Platform](#platform) (2021 **年8月25日**&#x200B;更新)
 * [Adobe 系統狀態](#status)
@@ -44,6 +45,14 @@ Experience Cloud 應用程式和服務每月都會更新。 此頁面是尋找 [
 * [適用於企業的 Creative Cloud](#creative-cloud)
 
 需要協助嗎？請造訪 [Adobe Experience League](https://experienceleague.adobe.com/#home)，尋找產品和技術文件、Adobe 策畫的課程、教學課程影片、快速解答、社群見解，以及由講師授課的訓練課程。
+
+## Experience League上線事件通知 — 讓您的下一個受眾區段比以往更聰明 {#events}
+
+透過Aaron Shields、Yaya Wang和Andres Monroy，了解「Experience Platform即時」的區段產生器！
+
+**事件：** [讓您的下一個受眾區段比以往更聰明](https://www.youtube.com/watch?v=rogVKsTFbWk)
+
+**時間：** 2021年8月26日上午9點（太平洋標準時間）
 
 ## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 中央 UI 元件 {#ecloud}
 
