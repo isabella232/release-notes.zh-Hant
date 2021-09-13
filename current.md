@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 331a26c572b1fc08fe46bd95ed80df1df1986077
+source-git-commit: 86c72625cfc50612c0a7cf0c9893b3d6dc4e90f4
 workflow-type: tm+mt
-source-wordcount: '6307'
+source-wordcount: '6299'
 ht-degree: 30%
 
 ---
@@ -194,12 +194,10 @@ AN-224899;AN-239753;AN-256295;AN-262122;AN-262449;AN-263969;AN-264665;AN-265223;
 
 Journey Orchestration的功能、修正及新說明內容。
 
-**2021 年 8 月**
-
 * **動態標題：** 您現在可以以HTTP標題參數傳遞動態資料。這些參數可供接收歷程動作HTTP呼叫的整合系統使用，例如時間戳記或追蹤ID。 [閱讀全文...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
 * **動態URL路徑：** 您現在可以為自訂動作設定動態URL路徑。[閱讀全文...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
 
-如需詳細資訊，請參閱[Journey Orchestration發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=zh-Hant)。
+* **2021年8月**  — 請參閱 [Journey Orchestration發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=zh-Hant)
 
 #### 最新Journey Orchestration教學課程和課程 {#tutorials-ajo}
 
@@ -361,7 +359,7 @@ Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experie
 * [[!DNL Experience Manager as a Cloud Service] 版本說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=zh-Hant)
 * [[!DNL Experience Manager as a Cloud Service] 發行資訊](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=zh-Hant)
 * [[!DNL Experience Manager Cloud Manager] 版本說明](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=zh-Hant)
-* [Automated Forms Conversion Service 發行說明](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=zh-Hant)
+* [!DNL [Automated Forms Conversion Service] release notes](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=zh-Hant)
 * [Experience Manager 6.5 Service Pack 發行說明](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=zh-Hant)
 * [Experience Manager 6.4 Cumulative Fix Pack 發行說明](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=zh-Hant)
 * [[!DNL Experience Manager Assets Dynamic Media] 版本說明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html?lang=zh-Hant)

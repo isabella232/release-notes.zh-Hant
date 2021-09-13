@@ -4,9 +4,9 @@ description: Experience Cloud 發行說明
 doc-type: release notes
 last-update: June 2021
 author: mfrei
-source-git-commit: 48c0f82523382da9a78a78d850432c0bafd7cee7
+source-git-commit: b83f085d9fca7c4ae2b3519d32033a03aec28026
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '725'
 ht-degree: 86%
 
 ---
@@ -26,20 +26,25 @@ Adobe Experience Cloud 的新功能及修正項目。
 >
 >產品發行後才發佈的新資訊皆會標示發佈日期。
 
-**發行日期：2021 年**
+最新更新：**2021年9月**
 
-* [Adobe 系統狀態](#status)
-* [Experience Cloud 介面](#ecloud)
+* [Experience League即時事件](#events)
+* [Experience Cloud 中央介面元件](#ecloud)
 * [Experience Platform](#platform)
-* [Analytics](#analytics)
-* [Audience Manager](#aam)
-* [Experience Manager](#aem)
-* [Campaign](#ac)
-* [Advertising](#adcloud)
-* [Magento](#magento)
-* [Marketo](#marketo)
-* [Primetime](https://experienceleague.adobe.com/docs/primetime.html) (解決方案說明連結)
-* [新文件與教學課程](#selfhelp)
+* [Experience Platform應用程式服務](#services)
+* [Adobe 系統狀態](#status)
+* [Journey Optimizer](#journey-opt)
+* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)
+* [[!DNL Audience Manager]](#aam)
+* [[!DNL Experience Manager]](#aem)
+* [[!DNL Campaign]](#ac)
+* [[!DNL Advertising Cloud]](#adcloud)
+* [[!DNL Target]](#target)
+* [[!DNL Commerce]](#magento) (Magento)
+* [[!DNL Marketo Engage]](#marketo)
+* [[!DNL Workfront]](#workfront)
+* [Document Cloud](#doc-cloud)
+* [適用於企業的 Creative Cloud](#creative-cloud)
 
 ## Adobe 系統狀態 {#status}
 
@@ -47,12 +52,15 @@ Adobe Experience Cloud 的新功能及修正項目。
 
 請參閱 [Adobe 系統狀態](https://status.adobe.com/)。
 
-## Experience Cloud 介面{#ecloud}
+## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 中央 UI 元件 {#ecloud}
 
-Experience Cloud 介面的新功能和修正項目，包括管理和核心服務 (客戶屬性、對象、觸發器、Cookie 等)。
+Experience Cloud 中央介面元件包括可從統一產品標題存取的更新，例如自助服務、搜尋和使用者帳戶偏好設定。  您可以在此處找到人員、地點 (定位) 和產品管理的更新。
 
-* [[!UICONTROL 核心服務]](#core-services)
-* [管理與開發人員](#admin)
+| 功能 | Date | 說明 |
+| ------- | ------- | -------|
+| 功能 | 2021 年 9 月 | 說明 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### [!UICONTROL 核心服務] {#core-services}
 
@@ -220,7 +228,7 @@ Adobe Experience Manager (AEM) 的新功能、修正及更新項目。Adobe 建�
 * 修正
 * 修正
 
-## 行銷活動 {#ac}
+## Campaign {#ac}
 
 Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法提供一對一訊息。您現在可以使用客戶習慣和偏好判斷其體驗，預測他們想要的東西。
 
@@ -228,7 +236,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 文字
 
-## 廣告 {#adcloud}
+## Advertising {#adcloud}
 
 | 功能 | 說明 |
 | ------- | ------- |
