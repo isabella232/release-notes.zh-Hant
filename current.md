@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: fcba6592d43896676fff4a62d15756823c8a1b20
+source-git-commit: f94180b097c70ad3b4c8b93599c0d26db15892c6
 workflow-type: tm+mt
 source-wordcount: '6343'
 ht-degree: 35%
@@ -129,7 +129,7 @@ ht-degree: 35%
 
 ### AppMeasurement {#appm}
 
-如需 AppMeasurement 版本 (版本 2.22.2) 最新的更新，請參閱 [AppMeasurement for JavaScript 發行說明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)。
+如需 AppMeasurement 版本 (版本 2.22.2) 最新的更新，請參閱 [AppMeasurement for JavaScript 發行說明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hant)。
 
 ### 最新 Analytics 課程與教學課程 {#tutorials-analytics}
 
