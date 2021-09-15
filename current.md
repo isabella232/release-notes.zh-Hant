@@ -137,7 +137,7 @@ ht-degree: 35%
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 9 月 | [Adobe Analytics的基礎量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/foundational-metrics-in-adobe-analytics.html) | 影片 | 取得Adobe Analytics中基本訪客量度的概念說明，以及其彼此的關聯性。 了解在報表中使用[!UICONTROL 頁面檢視]、[!UICONTROL 造訪]和[!UICONTROL 獨特訪客]的幾個使用案例。 |
+| 2021 年 9 月 | [Adobe Analytics 的基礎量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/foundational-metrics-in-adobe-analytics.html) | 影片 | 取得Adobe Analytics中基本訪客量度的概念說明，以及其彼此的關聯性。 了解在報表中使用[!UICONTROL 頁面檢視]、[!UICONTROL 造訪]和[!UICONTROL 獨特訪客]的幾個使用案例。 |
 | 2021 年 9 月 | [[!UICONTROL 表格和視覺效果資料來源設定]](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/table-and-visualization-data-source-settings.html?lang=en) | 影片 | 了解表格和視覺效果如何透過設定系結在一起，並了解如何針對不同的分析使用案例設定這些設定。 |
 | 2021 年 9 月 | [透過 SFTP 傳送 Data Warehouse 請求](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-warehouse/send-data-warehouse-request-via-sftp.html?lang=en) | 影片 | 了解如何透過SFTP傳送[!UICONTROL Data Warehouse]要求。 [!UICONTROL Data ] Warehouse是指用於儲存和自訂報表的Analytics資料復本，您可透過篩選資料來執行。您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。 |
 | 2021 年 9 月 | [檢查綁定的 IMS ID 以防止登入問題](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/user-management/check-linked-ims-id-to-prevent-login-issues.html?lang=en) | 影片 | Adobe Analytics中的連結IMS ID不正確或遺失，可能會導致使用者的登入問題。 使用者可自行檢查連結的IMS ID，並聯絡客戶支援以了解任何問題，省下執行常見疑難排解步驟的麻煩。 |
