@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 0f0032bbcf0c0fa46caaf1604a0c5aceaffbbe8e
+source-git-commit: dfec28cdcc99e9f8840e0eb1dec5c721775d65b8
 workflow-type: tm+mt
-source-wordcount: '6485'
+source-wordcount: '6533'
 ht-degree: 36%
 
 ---
@@ -97,10 +97,10 @@ ht-degree: 36%
 
 | 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 目標日期 |
 | ----------- | ---------- | ----- |
-| 量度重複資料刪除 | Customer Journey Analytics(CJA)現在可以刪除量度的重複例項。 如果某欄（本身或其他欄）顯示相同的值，您就可以防止量度增加。 重複資料刪除可防止關鍵量度的過量計數，並提高對資料的信任度。 | 2021 年 9 月 16 日 |
-| 報表的日光節約時間支援 | CJA中的所有資料都會以UTC儲存（不是特定時區）。 [!UICONTROL CJA] 中的資料檢視現在可以移轉資料，以根據日光節約時間計算1小時的增加或減少。 | 2021 年 9 月 16 日 |
-| [!UICONTROL 自訂日曆] | 可讓您為資料檢視選取不同的日曆類型(例如[!UICONTROL retail 4-4-5])。 您可以根據相同的連線建立多個資料檢視，以不同日曆格式查看相同的資料。 | 2021 年 9 月 16 日 |
-| 布林欄位支援 | CJA現在支援布林欄位。 | 2021 年 9 月 16 日 |
+| 量度重複資料刪除 | Customer Journey Analytics(CJA)現在可以刪除量度的重複例項。 如果某欄（本身或其他欄）顯示相同的值，您就可以防止量度增加。 重複資料刪除可防止關鍵量度的過量計數，並提高對資料的信任度。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication.html?lang=en) | 2021 年 9 月 16 日 |
+| 報表的日光節約時間支援 | CJA中的所有資料都會以UTC儲存（不是特定時區）。 [!UICONTROL CJA] 中的資料檢視現在可以移轉資料，以根據日光節約時間計算1小時的增加或減少。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#calendar) | 2021 年 9 月 16 日 |
+| [!UICONTROL 自訂日曆] | 可讓您為資料檢視選取不同的日曆類型(例如[!UICONTROL retail 4-4-5])。 您可以根據相同的連線建立多個資料檢視，以不同日曆格式查看相同的資料。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#calendar) | 2021 年 9 月 16 日 |
+| 布林欄位支援 | CJA現在支援布林欄位。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/behavior.html?lang=en) | 2021 年 9 月 16 日 |
 | 新[!UICONTROL 連線]資訊體驗 | 此[!UICONTROL 連線] UI增強功能可讓您知道資料是否已準備好在報表中使用。 它也可讓您追蹤資料處理的任何問題。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hant) | 2021 年 9 月 20 日 |
 
 {style=&quot;table-layout:auto&quot;}
