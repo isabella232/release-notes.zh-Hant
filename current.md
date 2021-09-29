@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9ab0cd435039085791c186a439f16954c317c2df
+source-git-commit: e12356a1860ce775f703426a7bf7e883ad69e404
 workflow-type: tm+mt
 source-wordcount: '6533'
 ht-degree: 98%
@@ -206,8 +206,6 @@ Journey Orchestration 的功能、修正和全新說明內容。
 
 如需詳細資訊，請參閱 [Journey Orchestration 發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html)。
 
-{style=&quot;table-layout:auto&quot;}
-
 #### Journey Orchestration 的其他資源
 
 [說明中心](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html) - [發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html) - [最新文件更新](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html)
@@ -247,6 +245,8 @@ Journey Orchestration 的功能、修正和全新說明內容。
 | 2021 年 8 月 | [設定客戶個人檔案資料 - 概觀](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/set-up-data-overview.html) | 影片 | 了解即時客戶個人檔案資料，以及為 Journey Optimizer 設定客戶個人檔案資料所需的步驟。 |
 | 2021 年 8 月 | [對應身分](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/map-identities.html) | 影片 | 瞭解如何將方案欄位標示為身分、如何建立命名空間、何時將身分設為主要身分，以及如何內嵌及驗證身分資料。 |
 | 2021 年 8 月 | [使用案例 - 突發訊息](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html) | 影片 | 瞭解突發訊息的適用使用案例。 瞭解如何設定突發訊息的歷程，以及可套用的最佳實務。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Journey Optimizer 的其他資源
 
