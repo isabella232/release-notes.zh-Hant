@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 705386fb5b736ff9bf05219162697926821cd686
+source-git-commit: acd15846c8be6d3fd4ad9bdb8688912013d92f74
 workflow-type: tm+mt
 source-wordcount: '6533'
 ht-degree: 98%
@@ -212,7 +212,7 @@ Experience Platform 現有功能的 **2021 年 8 月 25 日**&#x200B;更新包�
 
 如需詳細資訊，請參閱 [Journey Optimizer 發行說明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html)。
 
-#### 最新Journey Optimizer教學課程和課程 {#tutorials-ajo}
+### 最新Journey Optimizer教學課程和課程 {#tutorials-ajo}
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
