@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e12356a1860ce775f703426a7bf7e883ad69e404
+source-git-commit: 705386fb5b736ff9bf05219162697926821cd686
 workflow-type: tm+mt
 source-wordcount: '6533'
 ht-degree: 98%
@@ -195,31 +195,6 @@ Experience Platform 現有功能的 **2021 年 8 月 25 日**&#x200B;更新包�
 
 {style=&quot;table-layout:auto&quot;}
 
-### Journey Orchestration {#journey-orch}
-
-Journey Orchestration 的功能、修正和全新說明內容。
-
-**2021 年 8 月**
-
-* **動態標頭：**&#x200B;您現在可以在 HTTP 標頭參數中傳遞動態資料。 接收歷程動作 HTTP 呼叫 (例如時間戳記或追蹤 ID) 的整合系統可使用這些參數。 [閱讀更多資訊...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
-* **動態 URL 路徑：**&#x200B;您現在可以為自訂動作設定動態 URL 路徑。 [閱讀更多資訊...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
-
-如需詳細資訊，請參閱 [Journey Orchestration 發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html)。
-
-#### Journey Orchestration 的其他資源
-
-[說明中心](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html) - [發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html) - [最新文件更新](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html)
-
-### [!UICONTROL Offer Decisioning] {#offer-decisioning}
-
-**呈現流程：**&#x200B;您在建立選件時新增及設定呈現的方式已更新，以改善用戶體驗
-
-* 如需詳細資訊，請參閱 [[!UICONTROL Offer Decisioning] 發行說明](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html)。
-
-#### [!UICONTROL Offer Decisioning] 的更多資源
-
-[說明中心](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html) - [發行說明](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html#new) - [做法影片](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html) - [最新文件更新](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/documentation-updates.html)
-
 ### Adobe Mobile SDK
 
 如需了解 Adobe Experience Platform Mobile SDK，請參閱[發行說明和變更記錄](https://aep-sdks.gitbook.io/docs/release-notes)。
@@ -251,6 +226,31 @@ Journey Orchestration 的功能、修正和全新說明內容。
 ### Journey Optimizer 的其他資源
 
 [說明中心](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html) - [發行說明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html)
+
+### Journey Orchestration {#journey-orch}
+
+Journey Orchestration 的功能、修正和全新說明內容。
+
+**2021 年 8 月**
+
+* **動態標頭：**&#x200B;您現在可以在 HTTP 標頭參數中傳遞動態資料。 接收歷程動作 HTTP 呼叫 (例如時間戳記或追蹤 ID) 的整合系統可使用這些參數。 [閱讀更多資訊...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
+* **動態 URL 路徑：**&#x200B;您現在可以為自訂動作設定動態 URL 路徑。 [閱讀更多資訊...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
+
+如需詳細資訊，請參閱 [Journey Orchestration 發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html)。
+
+#### Journey Orchestration 的其他資源
+
+[說明中心](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html) - [發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html) - [最新文件更新](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html)
+
+### [!UICONTROL Offer Decisioning] {#offer-decisioning}
+
+**呈現流程：**&#x200B;您在建立選件時新增及設定呈現的方式已更新，以改善用戶體驗
+
+* 如需詳細資訊，請參閱 [[!UICONTROL Offer Decisioning] 發行說明](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html)。
+
+#### [!UICONTROL Offer Decisioning] 的更多資源
+
+[說明中心](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html) - [發行說明](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html#new) - [做法影片](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html) - [最新文件更新](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/documentation-updates.html)
 
 ## ![圖示](/assets/aem.png) Experience Manager {#aem}
 
