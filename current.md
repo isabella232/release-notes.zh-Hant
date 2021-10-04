@@ -5,10 +5,11 @@ doc-type: release notes
 last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
-source-git-commit: ff7a3736e7490af8b815eda72e4ba0b363aef472
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
+source-git-commit: 2ad6cb4ae1ae0c9a9414df7c1360a3d4d428f1e5
 workflow-type: tm+mt
-source-wordcount: '5136'
-ht-degree: 40%
+source-wordcount: '5271'
+ht-degree: 39%
 
 ---
 
@@ -339,9 +340,13 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 適用於Adobe Campaign的最新教學課程和課程。
 
-| 已發佈 | 名稱 | 應用程式 | 說明 |
+| 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 10 月 | [使用Adobe Campaign V8為商業使用者建立進階行銷活動](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | Campaign V8 | 了解如何使用Adobe Campaign V8設定及執行進階行銷活動。 了解必要條件、建立和設定進階行銷活動、傳送及管理訂閱。 |
+| 2021 年 10 月 | [使用Adobe Campaign V8為商業使用者建立進階行銷活動](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | 課程 | 了解如何使用Adobe Campaign V8設定及執行進階行銷活動。 了解必要條件、建立和設定進階行銷活動、傳送及管理訂閱。 |
+| 2021 年 10 月 | [在工作流程中使用SOAP API — 簡介](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | 教學課程 | 了解如何使用Adobe Campaign Soap API，並根據透過API收到的資料，建立進階的傳送工作流程。 |
+| 2021 年 10 月 | [建立事件](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/create-events.html?lang=en) | 教學課程 | 了解如何設定事件、指定串流端點和事件的裝載。 |
+| 2021 年 10 月 | [設定資料來源](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | 教學課程 | 了解什麼是資料來源，並了解如何設定Experience Platform和外部資料來源。 |
+| 2021 年 10 月 | [使用案例 — 突發報文](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=en) | 教學課程 | 瞭解突發訊息的適用使用案例。 瞭解如何設定突發訊息的歷程，以及可套用的最佳實務。 |
 
 {style=&quot;table-layout:auto&quot;}
 
