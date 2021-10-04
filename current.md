@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 2ad6cb4ae1ae0c9a9414df7c1360a3d4d428f1e5
+source-git-commit: 614e6d1d0f003ed788aafd806d25afdf3cd723e9
 workflow-type: tm+mt
-source-wordcount: '5271'
+source-wordcount: '5278'
 ht-degree: 39%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 39%
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最近更新：**2021 年 10 月 1 日**
+最近更新：**2021 年 10 月 4 日**
 
 * [[!DNL Experience League] 直播活動](#events)
 * [[!DNL Experience Cloud Central Interface Components] 與管理](#ecloud)
@@ -50,6 +50,7 @@ ht-degree: 39%
 
 | 活動日期 | 活動名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021 年 10 月 21 日 | TBD | 直播視訊活動 | 詳情將於隨時公佈。 |
 | 2021 年 9 月 23 日 | [讓您的假日行銷活動脫穎而出的專家秘訣](https://www.youtube.com/watch?v=bsU1lAv0xes) | 直播視訊活動 | 就像開始您的節日購物永遠都不嫌早一樣，開始規劃大獲成功的節日行銷活動也永遠都不嫌早。 有了 Adobe Campaign，您可以設計、規劃及執行行銷活動，好讓貴組織的所有節日願望都成真。<br>但您知道在一年結束時，要推出哪些宣傳技巧嗎？與桑德拉一起參加一場現場討論，三位Adobe專家在這方面擁有豐富的集體經驗。 |
 | 2021 年 8 月 26 日 | [讓您的下一個受眾區段比以往都還要聰明](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=zh-Hant) | 活動錄製 | 每一個出色的行銷活動的成功都取決於精確鎖定您的對象。 有了全新的 Adobe Experience Platform [!UICONTROL 區段產生器]，您可以使用各個管道中的個人檔案資料及取決於時間的用戶行為來建立您的下一個受眾區段。 沒有比這個更好的方式可確保您的訊息能傳達給最需要聽到的人了。 |
 | 2021 年 7 月 29 日 | [我最愛的三個 Adobe Analytics 實作秘訣](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=zh-Hant) | 活動錄製 | 他之前曾經出現在 Summit 的講台上。 他也曾經在 Adobe Insider Tour 中分享專家建議。 您或許也曾經在自己的 Adobe Analytics 實作中跟他合作過而受益。 現在，Eric Matisoff 帶著他最愛的三個 Adobe Analytics 實作秘訣來參加這場獨家的 Experience League 直播討論會。 |
