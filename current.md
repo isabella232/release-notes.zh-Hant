@@ -6,7 +6,7 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 614e6d1d0f003ed788aafd806d25afdf3cd723e9
+source-git-commit: e3a7e1b80d25a3b9625ca0ee31a07bae674eda6f
 workflow-type: tm+mt
 source-wordcount: '5278'
 ht-degree: 39%
@@ -444,4 +444,4 @@ Adobe [!DNL Workfront] 是統一的工作管理應用程式，用於共用構想
 
 ## ![圖示](/assets/creative-cloud-24.png) 適用於企業的 Creative Cloud {#creative-cloud}
 
-如需了解最新教學課程，請參閱[適用於企業的 Creative Cloud 教學課程](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/overview.html?lang=zh-Hant)。
+如需最新教學課程，請參閱[企業教學課程Creative Cloud](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/overview.html?lang=zh-Hant)。
