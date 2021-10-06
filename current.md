@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 6665a58ee466e984524e883a5dab84f7edf55fa2
+source-git-commit: f0bc233f66b61333fee0cf07f816918d61c0776e
 workflow-type: tm+mt
-source-wordcount: '5378'
+source-wordcount: '5394'
 ht-degree: 39%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 39%
 
 | 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hant) - 目標日期 |
 | ----------- | ---------- | ------- |
-| Analytics控制面板的視覺效果 | Analytics [!UICONTROL 控制面板]推出三種新的視覺效果，讓執行人員和決策者更容易了解其資料。 新的[!UICONTROL Dougnut]、[!UICONTROL Line]和[!UICONTROL Horizontal]長條圖都使查看單個維項的資料更加容易，而無需開啟詳細資訊視圖。 （後續檔案連結） | 2021 年 10 月 7 日 |
+| Analytics控制面板的視覺效果 | Analytics [!UICONTROL 控制面板]推出三種新的視覺效果，讓執行人員和決策者更容易了解其資料。 新的[!UICONTROL Dougnut]、[!UICONTROL Line]和[!UICONTROL Horizontal]長條圖都使查看單個維項的資料更加容易，而無需開啟詳細資訊視圖。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) | 2021 年 10 月 7 日 |
 | [!UICONTROL 媒體播放逗留時間] | Adobe串流媒體播放[!UICONTROL 逗留時間]提供檢視者參與的寶貴分析，並可讓媒體組織透過具有日劃分功能的進階逗留時間分析，針對每分鐘的使用者參與，取得更深入、更精細的深入分析。 您可以觀察在特定時間點檢視媒體資料流所花費的時間。 您可以依不同的粒度來分割播放持續時間，包括新的5分鐘、15分鐘和30分鐘粒度。 [了解更多](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021 年 10 月 18 日 |
 | 快速[!UICONTROL 區段產生器] | 可讓商務使用者以簡化的串列專案工作流程，快速套用基本區段。 無需前往[!UICONTROL 區段產生器]。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021 年 10 月 21 日 |
 | Analysis Workspace左側邊欄搜尋改善 | 除了繼續考慮元件時近和相關性外，左側邊欄搜尋會1)將完全相符的項目排在廣泛相符項目之上。 2)突出顯示匹配的字元，使搜索結果更易理解。 3)更容易找到與維度相關的分類。 4)最後，它支援通配符(`*`)搜索，以便更輕鬆地查找所需的特定元件。 注意：尚未在維度項目層級使用萬用字元搜尋。 | 2021 年 10 月 21 日 |
@@ -110,7 +110,7 @@ ht-degree: 39%
 | 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 目標日期 |
 | ----------- | ---------- | ----- |
 | Report Builder支援 | Report Builder是Microsoft® [!DNL Excel]增益集，可讓您使用Customer Journey Analytics資料輕鬆建立、編輯和重新整理自訂報表。 透過Report Builder和Excel，您可以使用簡單但有彈性的拖放UI，輕鬆建立複雜的資料請求。 使用Report BuilderCustomer Journey Analytics，您可以：<ul><li>參考現有的工作表儲存格，以取得完美的列順序、日期範圍或篩選</li><li>使用日曆、儲存格參考或日期數學建立自訂日期</li><li>使用熟悉的Excel格式工具設計表格和視覺效果</li><li>在macOS、Microsoft 365上提供網頁版和Microsoft Windows</li></ul> | 2021 年 10 月 7 日 |
-| Analytics控制面板的視覺效果 | Analytics [!UICONTROL 控制面板]推出三種新的視覺效果，讓執行人員和決策者更容易一目瞭然地了解其資料。 新的環圈圖、折線圖和水準條圖都可讓您更輕鬆地查看個別維度項目的資料，而無須開啟詳細資訊檢視。 （後續檔案連結） | 2021 年 10 月 7 日 |
+| Analytics控制面板的視覺效果 | Analytics [!UICONTROL 控制面板]推出三種新的視覺效果，讓執行人員和決策者更容易一目瞭然地了解其資料。 新的環圈圖、折線圖和水準條圖都可讓您更輕鬆地查看個別維度項目的資料，而無須開啟詳細資訊檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=en#apply-visualizations) | 2021 年 10 月 7 日 |
 | Customer Journey Analytics稽核記錄API | [稽核記錄](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) API端點可讓您從Adobe請求稽核記錄資料。 它是安全法規遵從性、審核資料或用戶操作的重要部分。 | 2021 年 10 月 7 日 |
 | 快速[!UICONTROL 篩選產生器] | 可讓商務使用者以簡化的串列專案工作流程，快速套用基本區段。 無需前往[!UICONTROL 篩選產生器]。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=en) | 2021 年 10 月 21 日 |
 | Analysis Workspace左側邊欄搜尋改善 | 除了繼續考慮元件時近和相關性外，左側邊欄搜尋會1)將完全相符的項目排在廣泛相符項目之上。 2)突出顯示匹配的字元，使搜索結果更易理解。 3)更容易找到與維度相關的分類。 4)最後，它支援通配符(`*`)搜索，以便更輕鬆地查找所需的特定元件。 注意：尚未在維度項目層級使用萬用字元搜尋。 | 2021 年 10 月 21 日 |
