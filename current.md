@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 7cf9cf52da1afbbad7f5457077759b127a2e2312
+source-git-commit: e3facdc781ebcea6c4e623799ba1c431c83ae05f
 workflow-type: tm+mt
-source-wordcount: '5405'
+source-wordcount: '5537'
 ht-degree: 38%
 
 ---
@@ -23,12 +23,12 @@ ht-degree: 38%
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最近更新：**2021 年 10 月 4 日**
+最近更新：**2021 年 10 月 7 日**
 
 * [[!DNL Experience League] 直播活動](#events)
 * [[!DNL Experience Cloud Central Interface Components] 與管理](#ecloud)
 * [Adobe [!UICONTROL 系統狀態]](#status)
-* [[!DNL Adobe Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)
+* [[!DNL Adobe Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)  **更新日期： 2021年10月7日**
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Platform]](#platform)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
@@ -87,7 +87,7 @@ ht-degree: 38%
 發行日期：**2021 年 10 月 7 日**
 
 * [Adobe Analytics 新功能](#aa-features)
-* [Customer Journey Analytics 新功能](#cust-journey)
+* [Customer Journey Analytics 新功能](#cust-journey)  **更新日期： 2021年10月7日**
 * [Adobe Analytics 中的修正](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
 * [Analytics 課程與教學課程](#tutorials-analytics)
@@ -109,6 +109,7 @@ ht-degree: 38%
 
 | 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 目標日期 |
 | ----------- | ---------- | ----- |
+| [!UICONTROL 連線]資料保留的滾動窗口 | **注意：請連絡客戶服務或您的Adobe客戶經理，以實作此設定。尚未透過CJA UI提供。**<p>可讓您將CJA資料保留設定定義為月（3個月、6個月等）中，[!UICONTROL 連線]層級（而非[!UICONTROL 資料集]層級）的滾動式視窗。 資料保留是根據事件資料集時間戳記，並僅套用至事件資料集。 設定檔或查詢資料集沒有資料保留設定，因為沒有適用的時間戳記。 主要優點是您只能儲存或報告適用且實用的資料，並刪除不再有用的舊資料。 它有助於您保持在合約限制之下，並降低超額成本的風險。 | 2021 年 10 月 7 日 |
 | Report Builder支援 | Report Builder是Microsoft® [!DNL Excel]增益集，可讓您使用Customer Journey Analytics資料輕鬆建立、編輯和重新整理自訂報表。 透過Report Builder和Excel，您可以使用簡單但有彈性的拖放UI，輕鬆建立複雜的資料請求。 使用Report BuilderCustomer Journey Analytics，您可以：<ul><li>參考現有的工作表儲存格，以取得完美的列順序、日期範圍或篩選</li><li>使用日曆、儲存格參考或日期數學建立自訂日期</li><li>使用熟悉的Excel格式工具設計表格和視覺效果</li><li>可在macOS、Microsoft 365（網頁版）和Microsoft Windows上使用Excel</li></ul>[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html#) | 2021 年 10 月 7 日 |
 | Analytics控制面板的視覺效果 | Analytics [!UICONTROL 控制面板]推出三種新的視覺效果，讓執行人員和決策者更容易一目瞭然地了解其資料。 新的環圈圖、折線圖和水準條圖都可讓您更輕鬆地查看個別維度項目的資料，而無須開啟詳細資訊檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=en#apply-visualizations) | 2021 年 10 月 7 日 |
 | Customer Journey Analytics稽核記錄API | [稽核記錄](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) API端點可讓您從Adobe請求稽核記錄資料。 它是安全法規遵從性、審核資料或用戶操作的重要部分。 | 2021 年 10 月 7 日 |
