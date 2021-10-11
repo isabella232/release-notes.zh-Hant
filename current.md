@@ -6,7 +6,7 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e3facdc781ebcea6c4e623799ba1c431c83ae05f
+source-git-commit: bc6e1a293674c9554cb5c4bb18e3e39bb8c38213
 workflow-type: tm+mt
 source-wordcount: '5537'
 ht-degree: 38%
@@ -98,7 +98,7 @@ ht-degree: 38%
 | 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hant) - 目標日期 |
 | ----------- | ---------- | ------- |
 | Analytics控制面板的視覺效果 | Analytics [!UICONTROL 控制面板]推出三種新的視覺效果，讓執行人員和決策者更容易了解其資料。 新的[!UICONTROL Dougnut]、[!UICONTROL Line]和[!UICONTROL Horizontal]長條圖都使查看單個維項的資料更加容易，而無需開啟詳細資訊視圖。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) | 2021 年 10 月 7 日 |
-| [!UICONTROL 媒體播放逗留時間] | Adobe串流媒體播放[!UICONTROL 逗留時間]提供檢視者參與的寶貴分析，並可讓媒體組織透過具有日劃分功能的進階逗留時間分析，針對每分鐘的使用者參與，取得更深入、更精細的深入分析。 您可以觀察在特定時間點檢視媒體資料流所花費的時間。 您可以依不同的粒度來分割播放持續時間，包括新的5分鐘、15分鐘和30分鐘粒度。 [了解更多](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021 年 10 月 18 日 |
+| [!UICONTROL 媒體播放時間] | Adobe串流媒體播放[!UICONTROL 逗留時間]提供檢視者參與的寶貴分析，並可讓媒體組織透過具有日劃分功能的進階逗留時間分析，針對每分鐘的使用者參與，取得更深入、更精細的深入分析。 您可以觀察在特定時間點檢視媒體資料流所花費的時間。 您可以依不同的粒度來分割播放持續時間，包括新的5分鐘、15分鐘和30分鐘粒度。 [了解更多](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021 年 10 月 18 日 |
 | 快速[!UICONTROL 區段產生器] | 可讓商務使用者以簡化的串列專案工作流程，快速套用基本區段。 無需前往[!UICONTROL 區段產生器]。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021 年 10 月 21 日 |
 | Analysis Workspace左側邊欄搜尋改善 | 除了繼續考慮元件時近和相關性外，左側邊欄搜尋會1)將完全相符的項目排在廣泛相符項目之上。 2)突出顯示匹配的字元，使搜索結果更易理解。 3)更容易找到與維度相關的分類。 4)最後，它支援通配符(`*`)搜索，以便更輕鬆地查找所需的特定元件。 注意：尚未在維度項目層級使用萬用字元搜尋。 | 2021 年 10 月 21 日 |
 | Analysis Workspace暗主題 | 深色主題可作為顯示選項使用。 | 2021 年 10 月 21 日 |
@@ -132,7 +132,7 @@ AN-256136;AN-265420;AN-268455;AN-269768;AN-270276;AN-270287;AN-271601;AN-271969;
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| 三個 Analytics API 服務生命週期結束 | 2021 年 9 月 16 日 | 2021年10月28日&#x200B;**當天，下列Analytics Legacy API服務將到期並關閉。**&#x200B;所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>Adobe 提供了[舊版 API 生命週期結束常見問答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來回答您的問題，並指引您展開後續操作。 採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe I/O](https://developer.adobe.com/console) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
+| 三個 Analytics API 服務生命週期結束 | 2021 年 9 月 16 日 | 2021年10月20日&#x200B;**下列Analytics舊版API服務將到期並關閉。**&#x200B;所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>Adobe 提供了[舊版 API 生命週期結束常見問答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來回答您的問題，並指引您展開後續操作。 採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe I/O](https://developer.adobe.com/console) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
 
 {style=&quot;table-layout:auto&quot;}
 
