@@ -21,7 +21,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
+>訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
 最近更新：**2021 年 10 月 7 日**
 
@@ -152,7 +152,7 @@ AN-256136;AN-265420;AN-268455;AN-269768;AN-270276;AN-270287;AN-271601;AN-271969;
 
 ### Analytics 說明資源
 
-* [Adobe Analytics 產品文件與教學課程](https://experienceleague.adobe.com/docs/analytics.html)
+* [Adobe Analytics 產品文件與教學課程](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## ![圖示](/assets/audience-manager.png) Audience Manager {#aam}
 
@@ -175,7 +175,7 @@ Audience Manager 中的新功能 - 更新日期：**2021 年 9 月 14 日**：
 | [未到期的憑據](https://experienceleague.adobe.com/docs/experience-platform/query/ui/credentials.html) | [!UICONTROL 查詢服務]使用者的非到期憑證允許更永久地連線至外部用戶端，而非每24小時續約一次憑證。 |
 | [[!UICONTROL 目的地SDK]](https://www.adobe.com/go/destination-sdk-overview-en) | 使用[!UICONTROL 目標SDK]與[!DNL Platform]整合，並貢獻不斷成長的目標目錄。 只有Experience Platform啟用客戶才能存取此功能。 |
 
-如需所有詳細資訊，請參閱 [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html)。
+如需所有詳細資訊，請參閱 [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)。
 
 ### Experience Platform 教學課程與其他課程 {#tutorials-platform}
 
@@ -193,7 +193,7 @@ Audience Manager 中的新功能 - 更新日期：**2021 年 9 月 14 日**：
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Journey Optimizer {#journey-opt}
 
-進一步了解 [Journey Optimizer 版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html)中最新功能、改良功能和修復。
+進一步了解 [Journey Optimizer 版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=zh-Hant)中最新功能、改良功能和修復。
 
 ### Journey Optimizer教學課程和課程 {#tutorials-ajo}
 
@@ -209,7 +209,7 @@ Audience Manager 中的新功能 - 更新日期：**2021 年 9 月 14 日**：
 
 ### [!DNL Journey Optimizer]的更多資源
 
-[說明中心](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html) - [版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html)
+[說明中心](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant)
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) [!DNL Journey Orchestration] {#journey-orch}
 
@@ -217,11 +217,11 @@ Audience Manager 中的新功能 - 更新日期：**2021 年 9 月 14 日**：
 
 ### 最新[!DNL Journey Orchestration]產品發行
 
-進一步了解 [[!DNL Journey Orchestration]  版本注意事項](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html)中最新功能、改良功能和修復。
+進一步了解 [[!DNL Journey Orchestration]  版本注意事項](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=zh-Hant)中最新功能、改良功能和修復。
 
 #### [!DNL Journey Orchestration]的更多資源
 
-[說明中心](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html) - [版本注意事項](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html) - [最新文件更新](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html)
+[說明中心](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=zh-Hant) - [最新文件更新](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=zh-Hant)
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) Offer Decisioning {#offer-decisioning}
 
@@ -233,11 +233,11 @@ Audience Manager 中的新功能 - 更新日期：**2021 年 9 月 14 日**：
 
 #### [!UICONTROL Offer Decisioning] 的更多資源
 
-[說明中心](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html) - [最新文件更新](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html)
+[說明中心](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=zh-Hant) - [最新文件更新](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html)
 
 ## ![圖示](/assets/aem.png) Experience Manager {#aem}
 
-Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html)頁面，以掌握最新的版本資訊。
+Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)頁面，以掌握最新的版本資訊。
 
 ### 社群
 
@@ -311,15 +311,15 @@ Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experie
 * [[!DNL Experience Manager Brand Portal] 版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=zh-Hant)
 * [Experience Manager 桌面應用程式版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=zh-Hant)
 * [[!DNL Experience Manager Dispatcher] 版本注意事項](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=zh-Hant)
-* [Adobe Primetime 版本注意事項](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html)
-* [Livefyre 版本注意事項](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html)
+* [Adobe Primetime 版本注意事項](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html?lang=zh-Hant)
+* [Livefyre 版本注意事項](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html?lang=zh-Hant)
 
 ### 適用於 Experience Manager 的其他說明資源
 
 * [[!DNL Experience Manager as a Cloud Service] 指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hant)
 * [Experience Manager 6.5 學習與支援首頁](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html?lang=zh-Hant)
-* [Experience Manager 6.4 學習與支援首頁](https://experienceleague.adobe.com/docs/experience-manager-64.html)
-* [Experience Manager 6.3 學習與支援首頁](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html)
+* [Experience Manager 6.4 學習與支援首頁](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=zh-Hant)
+* [Experience Manager 6.3 學習與支援首頁](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hant)
 * [Experience Manager 6.2 學習與支援首頁](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hant#previous-updates)
 * [舊版 Experience Manager 文件](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
 * [[!DNL Cloud Manager] 使用手冊](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=zh-Hant)
@@ -334,9 +334,9 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 進一步了解已發行的最新功能、改良與修正：
 
-* [Campaign v8 版本注意事項](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html)
-* [Campaign Classic v7 版本注意事項](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html)
-* [Campaign Standard 版本注意事項](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html)
+* [Campaign v8 版本注意事項](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html?lang=zh-Hant)
+* [Campaign Classic v7 版本注意事項](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hant)
+* [Campaign Standard 版本注意事項](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=zh-Hant)
 
 ### 最新 [!UICONTROL Campaign] 課程與教學課程 {#tutorials-campaign}
 
@@ -354,10 +354,10 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### Campaign 說明資源
 
-* Adobe Campaign v8：[說明中心](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html) - [版本注意事項](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html) - [實作指南](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)
-* Adobe Campaign Standard：[Campaign Standard 文件](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html) - [版本注意事項](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html) - [發行規劃](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html) - [最新文件更新](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic：[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html) - [版本注意事項](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) - [做法影片](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) - [最新文件更新](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html)
-* Adobe Campaign 控制面板：[文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) - [版本注意事項](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant)- [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html) 做法影片
+* Adobe Campaign v8：[說明中心](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=zh-Hant) - [實作指南](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=zh-Hant)
+* Adobe Campaign Standard：[Campaign Standard 文件](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hant) - [發行規劃](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=zh-Hant) - [最新文件更新](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=zh-Hant)
+* Adobe Campaign Classic：[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) - [做法影片](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hant) - [最新文件更新](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=zh-Hant)
+* Adobe Campaign 控制面板：[文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant)- [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hant) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hant) 做法影片
 
 ## ![圖示](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -439,9 +439,9 @@ Adobe [!DNL Workfront] 是統一的工作管理應用程式，用於共用構想
 
 如需 Document Cloud 說明，請參閱：
 
-* [Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html)
-* [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html)
-* [Document Cloud 學習與支援](https://helpx.adobe.com/support/document-cloud.html)
+* [Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=zh-Hant)
+* [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hant)
+* [Document Cloud 學習與支援](https://helpx.adobe.com/tw/support/document-cloud.html)
 
 ## ![圖示](/assets/creative-cloud-24.png) 適用於企業的 Creative Cloud {#creative-cloud}
 
