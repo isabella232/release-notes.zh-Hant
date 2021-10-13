@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: bc6e1a293674c9554cb5c4bb18e3e39bb8c38213
+source-git-commit: d2d02b2130c11f1971220646ac19f4fa6f0ab5da
 workflow-type: tm+mt
-source-wordcount: '5537'
+source-wordcount: '5553'
 ht-degree: 38%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 38%
 >
 >訂閱每月 [Adobe 優先產品更新](https://www.adobe.com/tw/subscription/priority-product-update.html)，以接收此頁面更新的電子郵件通知。此頁面會在整個月進行維護，請定期回來查看是否有 Adobe 企業產品和 Experience League 文件的更新。
 
-最近更新：**2021 年 10 月 7 日**
+最近更新：**2021 年 10 月 13 日**
 
 * [[!DNL Experience League] 直播活動](#events)
 * [[!DNL Experience Cloud Central Interface Components] 與管理](#ecloud)
@@ -32,7 +32,7 @@ ht-degree: 38%
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Platform]](#platform)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
-* [[!DNL Adobe Experience Manager]](#aem)
+* [[!DNL Adobe Experience Manager]](#aem) (2021 **年10月13日更新**)
 * [[!DNL Adobe Campaign]](#ac)
 * [[!DNL Adobe Advertising Cloud]](#adcloud)
 * [[!DNL Adobe Target]](#target)
@@ -238,6 +238,8 @@ Audience Manager 中的新功能 - 更新日期：**2021 年 9 月 14 日**：
 ## ![圖示](/assets/aem.png) Experience Manager {#aem}
 
 Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)頁面，以掌握最新的版本資訊。
+
+**更新10/13/2021:** 查看2021年9 [月版](https://video.tv.adobe.com/v/337381) 本概述影片，以了解新功能。
 
 ### 社群
 
