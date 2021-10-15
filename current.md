@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 506c543d97a19bf88e7ba767c82893b02704ea8b
+source-git-commit: 964c92bb129753615edf68c14eb443e312e5c868
 workflow-type: tm+mt
-source-wordcount: '5631'
+source-wordcount: '5633'
 ht-degree: 37%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 37%
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
 * [[!DNL Adobe Experience Manager]](#aem) (2021 **年10月13日更新**)
 * [[!DNL Adobe Campaign]](#ac)
-* [[!DNL Adobe Advertising Cloud]](#adcloud)
+* [[!DNL Adobe Advertising Cloud]](#adcloud) (2021 **年10月7日更新**)
 * [[!DNL Adobe Target]](#target)
 * [[!DNL Adobe Commerce]](#magento)
 * [[!DNL Adobe Marketo Engage]](#marketo)
