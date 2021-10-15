@@ -6,10 +6,10 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: d2d02b2130c11f1971220646ac19f4fa6f0ab5da
+source-git-commit: 506c543d97a19bf88e7ba767c82893b02704ea8b
 workflow-type: tm+mt
-source-wordcount: '5553'
-ht-degree: 38%
+source-wordcount: '5631'
+ht-degree: 37%
 
 ---
 
@@ -349,7 +349,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | 2021 年 10 月 | [使用Adobe Campaign V8為商業使用者建立進階行銷活動](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | 課程 | 了解如何使用Adobe Campaign V8設定及執行進階行銷活動。 了解必要條件、建立和設定進階行銷活動、傳送及管理訂閱。 |
 | 2021 年 10 月 | [在工作流程中使用SOAP API — 簡介](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | 教學課程 | 了解如何使用Adobe Campaign Soap API，並根據透過API收到的資料，建立進階的傳送工作流程。 |
 | 2021 年 10 月 | [建立事件](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/create-events.html?lang=en) | 教學課程 | 了解如何設定事件、指定串流端點和事件的裝載。 |
-| 2021 年 10 月 | [設定資料來源](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | 教學課程 | 了解什麼是資料來源，並了解如何設定Experience Platform和外部資料來源。 |
+| 2021 年 10 月 | [設定資料來源](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | 教學課程 | 瞭解什麼是資料來源，並瞭解如何設定 Experience Platform 和外部資料來源。 |
 | 2021 年 10 月 | [使用案例 — 突發報文](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=en) | 教學課程 | 瞭解突發訊息的適用使用案例。 瞭解如何設定突發訊息的歷程，以及可套用的最佳實務。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -370,22 +370,21 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### [!DNL Advertising Cloud DSP] 中的新功能 {#adcloud-dsp}
 
-上次更新：**2021年9月28日**
+最新更新：**2021 年 10 月 7 日**
 
 | 功能 | 說明 |
 | ------- | ----------- |
-| 行銷活動管理檢視 | 「[!UICONTROL 建立日期]」欄現在可在[!UICONTROL 促銷活動]、[!UICONTROL 套件]、[!UICONTROL 版位]和[!UICONTROL 廣告]檢視的自訂欄集中使用。 您也可以依據[!UICONTROL 建立日期]來篩選[!UICONTROL 版位]和[!UICONTROL 廣告]檢視。 |
-| 程式擔保交易 | （9月8日發行版本）您現在可以編輯程式化保證(PG)交易的預設位置的[!UICONTROL 最高競價]。 但是，由於PG交易一律有固定的CPM，因此只有國際客戶才應編輯[!UICONTROL 最高競價]以將貨幣兌換費用納入考量。 |
-|  | （9月8日發行）擁有「[!DNL FreeWheel Programmatic Guaranteed]」權限的使用者現在可以從[!UICONTROL 廣告]檢視或[!UICONTROL 版位]檢視，將廣告提交至[!DNL FreeWheel Programmatic Creative API]。 您仍可從[!UICONTROL Deals]檢視提交廣告。 |
+| 文件 | [!DNL Experience League]上的所有[DSP和其他Advertising Cloud檔案](https://experienceleague.adobe.com/docs/advertising-cloud.html)現在都是機器翻譯成所有可用語言。 若要變更顯示的語言，請使用任何頁面左下角的「變更語言」功能表。 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### [!DNL Advertising Cloud Search] 中的新功能 {#adcloud-search}
 
-上次更新：**2021年9月28日**
+最新更新：**2021 年 10 月 7 日**
 
 | 功能 | 說明 |
 | ------- | ----------- |
+| [!UICONTROL 報表]、通 [!UICONTROL 知中心] | （10月9日發行）自訂或排程報表完成或失敗時，Advertising Cloud Search會傳送報表的所有電子郵件通知，現在由[!UICONTROL Notification Center]處理。 預設會為報表啟用電子郵件通知和網路通知，但您可以選擇變更通知設定。 透過這項變更：<ul><li>電子郵件收件者僅限於已註冊、已驗證Advertising Cloud Search使用者且可存取廣告商帳戶的使用者。 這可確保不會將機密資料傳送給未授權的使用者。</li><li>電子郵件的格式和內容使用[!UICONTROL 通知中心]範本，其中包含報表的更多詳細資料，並包含所有報表格式的直接下載連結。</li><li>報表通知是一種新的通知類型，在[!UICONTROL Notification Center]中具有自己的通知首選項。</li></ul>如果您使用任何自動化功能從電子郵件通知中提取報表，則可能需要更新篩選邏輯以確保流程的連續性。 |
 | Advertising Insights | 測試版模式提供其他深入分析。 |
 
 {style=&quot;table-layout:auto&quot;}
