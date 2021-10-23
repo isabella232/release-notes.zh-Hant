@@ -5,9 +5,9 @@ user-guide-title: Adobe Experience Cloud 版本注意事項
 breadcrumb-title: 版本注意事項
 user-guide-description: 了解 Adobe Experience Cloud 和 Experience Platform 的新功能、修正和重要注意事項。
 user-guide-url: https://www.adobe.com
-source-git-commit: 0e785c327c5921c79d54619cbddbf74e2c38fbad
+source-git-commit: 5ecebcc5427c9b7be82f1772b79d0cc254b1559e
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '61'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 100%
 + [最新版本注意事項](current.md)
 + 舊版版本注意事項 {#previous}
    + 2021 年 {#2021}
+      + [2021 年 10 月](c-legacy-releases/2021/10072021.md)
       + [2021 年 9 月](c-legacy-releases/2021/09152021.md)
       + [2021 年 8 月](c-legacy-releases/2021/08192021.md)
       + [2021 年 7 月](c-legacy-releases/2021/07222021.md)
