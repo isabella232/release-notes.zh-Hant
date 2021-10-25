@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: c22db21d36f9ff7309f1ca835ff3241f87b86286
+source-git-commit: f348d6153d81dae8ef84cd1aeb797e707104f392
 workflow-type: tm+mt
-source-wordcount: '4190'
+source-wordcount: '4128'
 ht-degree: 60%
 
 ---
@@ -30,17 +30,18 @@ ht-degree: 60%
 * [[!DNL Experience League] 直播活動](#events)
 * [[!DNL Experience Cloud Central Interface Components] 與管理](#ecloud)
 * [Adobe [!UICONTROL 系統狀態]](#status)
+* [[!DNL Adobe Experience Platform]](#platform)
 * [[!DNL Adobe Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
-* [[!DNL Adobe Experience Platform]](#platform)
-* [[!DNL Adobe Journey Optimizer]](#journey-opt)
 * [[!DNL Adobe Experience Manager]](#aem)
-* [[!DNL Adobe Campaign]](#ac)
-* [[!DNL Adobe Advertising Cloud]](#adcloud)
-* [[!DNL Adobe Target]](#target)
 * [[!DNL Adobe Commerce]](#magento)
+* [[!DNL Adobe Target]](#target)
+* [[!DNL Adobe Campaign]](#ac)
+* [[!DNL Adobe Journey Optimizer]](#journey-opt)
+* [[!DNL Journey Orchestration]](#journey-orch)
 * [[!DNL Adobe Marketo Engage]](#marketo)
 * [[!DNL Adobe Workfront]](#workfront)
+* [[!DNL Adobe Advertising Cloud]](#adcloud)
 * [[!DNL Document Cloud]](#doc-cloud)
 * [[!DNL Creative Cloud for enterprise]](#creative-cloud)
 
@@ -64,7 +65,7 @@ ht-degree: 60%
 | 功能 | 說明 |
 | ------- | ------- |
 | 首頁 | Experience Cloud首頁頁尾資訊已移至使用者設定檔卡片，包括「偏好設定」中的「法律注意事項」和語言選取。 |
-| AEP控制面板 | [!DNL Helios Lite] 在Experience Platform介面工具集建立工作流程中提供圖表建議。 在資料選取（目前為單一變數資料選取）的情況下，helios建議在資料選取時搭配適當的視覺效果。 |
+| AEP控制面板 | [!DNL Helios Lite] 在Experience Platform介面工具集建立工作流程中提供圖表建議。 提供資料選取（目前為單一變數資料選取）, [!DNL Helios] 建議在選取資料時使用適當的視覺效果。 |
 | AEP控制面板 | [!DNL Instory] 為圖表提供基於ML的書面旁白和字幕。 它可解除AEP控制面板頁面中的圖表設定，並附上相關項目符號，指出圖表資料中的重大變更和事件。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -80,6 +81,29 @@ ht-degree: 60%
 [!DNL Adobe System Status]會提供有關 Adobe 產品及服務中斷、作業中斷和維護事件的詳細資訊、狀態更新和電子郵件通知。 請造訪 [status.adobe.com](https://status.adobe.com/) 來查看。
 
 (如需 [!DNL Adobe System Status]的最新版本資訊，請參閱 [2020 年 5 月 21 日](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=zh-Hant)版本注意事項。)
+
+## ![圖示](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
+
+包含 Experience Platform 和 [!UICONTROL Mobile SDK]  的版本更新資訊和新文件。
+
+**2021 年 9 月 29 日**
+
+如需所有詳細資訊，請參閱 [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)。
+
+### Experience Platform 教學課程與其他課程 {#tutorials-platform}
+
+針對 Experience Platform 和服務所發佈的最新影片、教學課程或其他課程。
+
+| 已發佈 | 名稱 | 類型 | 說明 |
+| -----------| ---------- | ---------- | ---------- |
+| 2021 年 11 月 | [ 第一方資料內容中的資料協作 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/industry/data-collaboration-in-the-first-party-data-context.html?lang=en#) | 影片 | 實現體驗承諾，並能存取更少的資料。 無論您是廣告商、發行商或代理商，此網路研討會都能協助您在未來不使用第三方Cookie的情況下，充分發掘資料協作的機會。 |
+| 2021 年 10 月 | [[!DNL Platform] 管理](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-A-1-2021.1.admin) | 課程 | 了解 Experience Platform 的管理活動，包括權限和沙箱管理。 |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Adobe Mobile SDK
+
+如需了解 Adobe Experience Platform Mobile SDK，請參閱[版本注意事項和變更記錄](https://aep-sdks.gitbook.io/docs/release-notes)。
 
 ## ![圖示](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
@@ -175,78 +199,6 @@ Audience Manager 中的修正與改良。
 * 解決在某些情況下，會將錯誤的使用者角色指派給合作夥伴的問題。 (AAM-59451)
 * 解決導致API需要區分大小寫驗證標題的問題。 (AAM-58528)
 
-
-## ![圖示](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
-
-包含 Experience Platform 和 [!UICONTROL Mobile SDK]  的版本更新資訊和新文件。
-
-**2021 年 9 月 29 日**
-
-如需所有詳細資訊，請參閱 [Experience Platform 版本注意事項](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)。
-
-### Experience Platform 教學課程與其他課程 {#tutorials-platform}
-
-針對 Experience Platform 和服務所發佈的最新影片、教學課程或其他課程。
-
-| 已發佈 | 名稱 | 類型 | 說明 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 11 月 | [ 第一方資料內容中的資料協作 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/industry/data-collaboration-in-the-first-party-data-context.html?lang=en#) | 影片 | 實現體驗承諾，並能存取更少的資料。 無論您是廣告商、發行商或代理商，此網路研討會都能協助您在未來不使用第三方Cookie的情況下，充分發掘資料協作的機會。 |
-| 2021 年 10 月 | [[!DNL Platform] 管理](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-A-1-2021.1.admin) | 課程 | 了解 Experience Platform 的管理活動，包括權限和沙箱管理。 |
-
-{style=&quot;table-layout:auto&quot;}
-
-### Adobe Mobile SDK
-
-如需了解 Adobe Experience Platform Mobile SDK，請參閱[版本注意事項和變更記錄](https://aep-sdks.gitbook.io/docs/release-notes)。
-
-## ![圖示](/assets/experience_platform_appicon_24.png) Journey Optimizer {#journey-opt}
-
-有了 Adobe Journey Optimizer，您就可以從單一應用程式為幾百萬名客戶管理排程的全通道行銷活動及一對一時刻，還有智慧型決策和見解讓整個旅程最佳化。
-
-### 最新 Journey Optimizer 產品發行版
-
-進一步了解 [Journey Optimizer 版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=zh-Hant)中最新功能、改良功能和修復。
-
-### Journey Optimizer 教學課程和課程 {#tutorials-ajo}
-
-最新的 Journey Optimizer 教學課程：
-
-| 已發佈 | 名稱 | 類型 | 說明 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 10 月 | [針對資料工程師設定並管理  [!DNL Journey Optimizer]  中的資料](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.2) | 課程 | 了解如何設定並管理 Journey Optimizer 中歷程管理所需的資料。 |
-| 2021 年 10 月 | [開始使用 Journey Administrators 和 Managers 的  [!DNL Journey Optimizer] ](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.1) | 課程 | 了解建立第一個歷程所須了解的一切。 |
-| 2021 年 10 月 | [設定 Journey Administrators 的 [!DNL Journey Optimizer] ](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-A-1-2021.1) | 課程 | 了解 [!DNL Journey Optimizer] 架構和整合點。了解如何設定 [!DNL Journey Optimizer]。 |
-
-{style=&quot;table-layout:auto&quot;}
-
-### [!DNL Journey Optimizer] 的更多資源
-
-[文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant)
-
-## ![圖示](/assets/experience_platform_appicon_24.png) [!DNL Journey Orchestration] {#journey-orch}
-
-運用 Experience Platform 聰明地即時預測每個人的需求，在不同體驗管道大規模地協調客戶歷程。
-
-### 最新 [!DNL Journey Orchestration] 產品發行版
-
-進一步了解 [[!DNL Journey Orchestration]  版本注意事項](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=zh-Hant)中最新功能、改良功能和修復。
-
-### [!DNL Journey Orchestration] 的更多資源
-
-[檔案](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hant) - [發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [作法影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=zh-Hant) - [最新檔案更新](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=zh-Hant)
-
-## ![圖示](/assets/experience_platform_appicon_24.png) 決策管理 {#offer-decisioning}
-
-[!UICONTROL offer decisioning] 是與Adobe Experience Platform整合的服務。 使用 [!UICONTROL Offer Decisioning] 可在適當的時間為所有接觸點的客戶提供最佳優惠方案和體驗。
-
-### 最新Decision Management產品發行
-
-進一步了解 [決策管理發行說明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html).
-
-### 更多資源 [!UICONTROL 決策管理]
-
-[檔案](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant) - [發行說明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [作法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html) - [最新檔案更新](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html)
-
 ## ![圖示](/assets/aem.png) Experience Manager {#aem}
 
 Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)頁面，以掌握最新的版本資訊。
@@ -311,6 +263,25 @@ Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experie
 * [[!DNL Dynamic Media Classic] 說明首頁](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hant)
 * [Experience Manager 文件：最近更新](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/doc-updates/documentation-updates.html?lang=zh-Hant#aem-as-a-cloud-service)
 
+## ![圖示](/assets/magento.png) [!DNL Commerce] (Magento) {#magento}
+
+請參閱以下 Adobe Commerce 版本注意事項連結：
+
+* [Adobe Commerce 和 Magento Open Source](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html)
+* [Cloud Suite for Adobe Commerce](https://devdocs.magento.com/cloud/release-notes/cloud-tools.html)
+
+### 全新Adobe Commerce教學課程 {#commerce-tutorials}
+
+| 已發佈 | 名稱 | 類型 | 說明 |
+| -----------| ---------- | ---------- | ---------- |
+| 2021 年 11 月 | [Adobe Commerce影片和Tutorials](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/overview.html?lang=en) | 教學課程首頁 | 這些教學課程資源包括提供主題高階檢視的影片系列，以及針對特定工作和程式的個別影片。 此集合的設計用途是為後端開發人員、前端開發人員、系統管理員、商家以及組織內的其他角色提供實用內容。 |
+
+## ![圖示](/assets/target.png) [!DNL Target] {#target}
+
+上次更新： **2021年10月20日**
+
+如需最新版本資訊，請參閱 [[!DNL Target]  版本注意事項](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=zh-Hant)。
+
 ## ![圖示](/assets/campaign.png) [!DNL Adobe Campaign] {#ac}
 
 Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法提供一對一訊息。您現在可以使用客戶習慣和偏好判斷其體驗，預測他們想要的東西。
@@ -343,6 +314,57 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 * Adobe Campaign Classic：[Campaign Classic v7 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) - [做法影片](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hant) - [最新文件更新](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=zh-Hant)
 * Adobe Campaign 控制面板：[文件](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hant)- [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hant) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hant) 做法影片
 
+## ![圖示](/assets/experience_platform_appicon_24.png) Journey Optimizer {#journey-opt}
+
+有了 Adobe Journey Optimizer，您就可以從單一應用程式為幾百萬名客戶管理排程的全通道行銷活動及一對一時刻，還有智慧型決策和見解讓整個旅程最佳化。
+
+### 最新 Journey Optimizer 產品發行版
+
+進一步了解 [Journey Optimizer 版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=zh-Hant)中最新功能、改良功能和修復。
+
+### Journey Optimizer 教學課程和課程 {#tutorials-ajo}
+
+最新的 Journey Optimizer 教學課程：
+
+| 已發佈 | 名稱 | 類型 | 說明 |
+| -----------| ---------- | ---------- | ---------- |
+| 2021 年 10 月 | [針對資料工程師設定並管理  [!DNL Journey Optimizer]  中的資料](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.2) | 課程 | 了解如何設定並管理 Journey Optimizer 中歷程管理所需的資料。 |
+| 2021 年 10 月 | [開始使用 Journey Administrators 和 Managers 的  [!DNL Journey Optimizer] ](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-U-1-2021.1) | 課程 | 了解建立第一個歷程所須了解的一切。 |
+| 2021 年 10 月 | [設定 Journey Administrators 的 [!DNL Journey Optimizer] ](https://experienceleague.adobe.com/?recommended=JourneyOptimizer-A-1-2021.1) | 課程 | 了解 [!DNL Journey Optimizer] 架構和整合點。了解如何設定 [!DNL Journey Optimizer]。 |
+
+{style=&quot;table-layout:auto&quot;}
+
+### [!DNL Journey Optimizer] 的更多資源
+
+* [Journey Optimizer檔案](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hant) - [發行說明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [作法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant)
+* [決策管理檔案](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant) - [發行說明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [作法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html) - [最新檔案更新](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html)
+
+## ![圖示](/assets/experience_platform_appicon_24.png) [!DNL Journey Orchestration] {#journey-orch}
+
+運用 Experience Platform 聰明地即時預測每個人的需求，在不同體驗管道大規模地協調客戶歷程。
+
+### 最新 [!DNL Journey Orchestration] 產品發行版
+
+進一步了解 [[!DNL Journey Orchestration] 發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=zh-Hant).
+
+#### [!DNL Journey Orchestration] 的更多資源
+
+* [Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hant) - [發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [作法影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=zh-Hant) - [最新檔案更新](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=zh-Hant)
+
+## ![圖示](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
+
+[!DNL Marketo Engage] 是適用於潛在客戶管理以及想要透過參與複雜購買旅程的每個階段來轉換客戶體驗的 B2B 行銷人員的完整應用程式。
+
+### Marketo Engage 核心更新
+
+如需最新發行排程資訊和版本注意事項，請參閱「[!DNL Marketo Engage] [發行排程](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=zh-Hant)」。
+
+## ![圖示](/assets/workfront.png) [!DNL Workfront] {#workfront}
+
+Adobe [!DNL Workfront] 是統一的工作管理應用程式，用於共用構想、建立內容、管理複雜的流程並執行其最佳工作。
+
+請參閱 [[!DNL Workfront]  發行版本](https://one.workfront.com/s/product-releases)頁面，以取得所有產品的最新資訊匯總。
+
 ## ![圖示](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
 [!DNL Adobe Advertising Cloud] 版本注意事項。
@@ -370,39 +392,6 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 | 廣告分析 | Beta 版模式提供其他深入分析。 |
 
 {style=&quot;table-layout:auto&quot;}
-
-## ![圖示](/assets/magento.png) [!DNL Commerce] (Magento) {#magento}
-
-請參閱以下 Adobe Commerce 版本注意事項連結：
-
-* [Adobe Commerce 和 Magento Open Source](https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html)
-* [Cloud Suite for Adobe Commerce](https://devdocs.magento.com/cloud/release-notes/cloud-tools.html)
-
-### 全新Adobe Commerce教學課程 {#commerce-tutorials}
-
-| 已發佈 | 名稱 | 類型 | 說明 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 11 月 | [Adobe Commerce影片和Tutorials](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/overview.html?lang=en) | 教學課程首頁 | 這些教學課程資源包括提供主題高階檢視的影片系列，以及針對特定工作和程式的個別影片。 此集合的設計用途是為後端開發人員、前端開發人員、系統管理員、商家以及組織內的其他角色提供實用內容。 |
-
-## ![圖示](/assets/target.png) [!DNL Target] {#target}
-
-上次更新： **2021年10月20日**
-
-如需最新版本資訊，請參閱 [[!DNL Target]  版本注意事項](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=zh-Hant)。
-
-## ![圖示](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
-
-[!DNL Marketo Engage] 是適用於潛在客戶管理以及想要透過參與複雜購買旅程的每個階段來轉換客戶體驗的 B2B 行銷人員的完整應用程式。
-
-### Marketo Engage 核心更新
-
-如需最新發行排程資訊和版本注意事項，請參閱「[!DNL Marketo Engage] [發行排程](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=zh-Hant)」。
-
-## ![圖示](/assets/workfront.png) [!DNL Workfront] {#workfront}
-
-Adobe [!DNL Workfront] 是統一的工作管理應用程式，用於共用構想、建立內容、管理複雜的流程並執行其最佳工作。
-
-請參閱 [[!DNL Workfront]  發行版本](https://one.workfront.com/s/product-releases)頁面，以取得所有產品的最新資訊匯總。
 
 ## ![圖示](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
 
