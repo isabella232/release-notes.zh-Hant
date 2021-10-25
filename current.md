@@ -1,6 +1,6 @@
 ---
 title: 最新版本注意事項
-description: 了解  [!DNL Experience Cloud]  產品和服務的最新發行說明、新功能和新文件。 尋找  [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise], and [!DNL Document Cloud] 最新的說明與教學課程
+description: 了解  [!DNL Experience Cloud]  產品和服務的最新版本注意事項、新功能和新文件。尋找  [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise], and [!DNL Document Cloud] 最新的說明與教學課程。
 doc-type: release notes
 last-update: November 2021
 author: mfrei
@@ -9,7 +9,7 @@ exl-id: null
 source-git-commit: c22db21d36f9ff7309f1ca835ff3241f87b86286
 workflow-type: tm+mt
 source-wordcount: '4190'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -158,7 +158,7 @@ AN-270649
 | 2021 年 11 月 | [Adobe Analytics中的區段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=en) | 視訊（已更新） | 此影片會說明如何使用容器，並聆聽每種容器類型的一些範例。 |
 | 2021 年 11 月 | [Adobe Analytics中的循序分段](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation.html?lang=en#) | 視訊（已更新） | 了解如何從您網站或應用程式中的一系列行為，在Analysis Workspace中建立區段。 |
 | 2021 年 11 月 | [在偱序分段中的前/後順序](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/before-after-sequences-in-sequential-segmentation.html?lang=en) | 視訊（已更新） | 了解如何在Adobe Analytics中分段，以便只取得特定使用者路徑之前或之後的資料。 |
-| 2021 年 11 月 | [Report BuilderCustomer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/report-builder-for-customer-journey-analytics.html) | 影片 | 透過Report Builder簡單而有彈性的拖放UI，您可以從Customer Journey Analytics資料建立複雜的資料查詢和自訂報表，全部在Excel中完成。 |
+| 2021 年 11 月 | [適用於 Customer Journey Analytics 的 Report Builder](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/report-builder-for-customer-journey-analytics.html) | 影片 | 透過 Report Builder 簡單靈活拖放 UI，就能在 Excel 中從 Customer Journey Analytics 資料建立複雜的資料查詢和自訂報表。 |
 | 2021 年 10 月 | [使用視覺效果訴說您的資料故事](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2021.1.visualizations) | 課程 | 了解視覺效果的基本概念，包括如何將視覺效果新增至專案、將資料匯入專案，以及每個視覺效果可顯示的內容。 了解如何進行設定，以取得您所需的確切資料。此外，取得一些秘訣和使用案例，協助您讓視覺效果為定期分析助一臂之力。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -221,7 +221,7 @@ Audience Manager 中的修正與改良。
 
 ### [!DNL Journey Optimizer] 的更多資源
 
-[文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hant) - [發行說明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant)
+[文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant)
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) [!DNL Journey Orchestration] {#journey-orch}
 
@@ -396,7 +396,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### Marketo Engage 核心更新
 
-如需最新發行版排程資訊和版本注意事項，請參閱「[!DNL Marketo Engage] [發行排程](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=zh-Hant)」。
+如需最新發行排程資訊和版本注意事項，請參閱「[!DNL Marketo Engage] [發行排程](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=zh-Hant)」。
 
 ## ![圖示](/assets/workfront.png) [!DNL Workfront] {#workfront}
 
