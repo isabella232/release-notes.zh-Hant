@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: f348d6153d81dae8ef84cd1aeb797e707104f392
+source-git-commit: 99bb9c88f2aa8b9f62cf2f088671fe60c1e684ab
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4131'
 ht-degree: 60%
 
 ---
@@ -203,7 +203,10 @@ Audience Manager 中的修正與改良。
 
 Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)頁面，以掌握最新的版本資訊。
 
-**更新10/13/2021:** 查看 [2021年9月發行概述](https://video.tv.adobe.com/v/337381) 新功能概觀影片。
+### 發行概述影片
+
+* [2021年10月發行概述](https://video.tv.adobe.com/v/338253) 新功能的影片。
+* [2021年9月發行概述](https://video.tv.adobe.com/v/337381) 新功能的影片。
 
 ### 社群
 
