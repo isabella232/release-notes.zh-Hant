@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 99bb9c88f2aa8b9f62cf2f088671fe60c1e684ab
+source-git-commit: ed5f9c6b35b65bab0c26887788e2232a0e9a6ab5
 workflow-type: tm+mt
-source-wordcount: '4131'
+source-wordcount: '4147'
 ht-degree: 60%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 60%
 | [!UICONTROL 媒體播放時間] | Adobe 串流媒體播放[!UICONTROL 時間]提供寶貴的觀眾參與度深入分析，並可讓媒體組織透過進階花費時間分析及時段功能，以每分鐘的使用者參與度取得更深入、更細微的分析。您可以觀察在特定時間點觀看您的媒體串流所花費的時間多寡。您可以依不同的粒度來分割播放持續時間，包括新的5分鐘、15分鐘和30分鐘粒度。 [了解更多](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021 年 10 月 18 日 |
 | 快速[!UICONTROL 區段產生器] | 允許業務使用者快速在簡化的內嵌專案工作流程套用基本區段。無須前往「[!UICONTROL 區段生產器]」。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021 年 10 月 21 日 |
 | Analysis Workspace 左側邊欄搜尋改進 | 左側邊欄搜尋1)除了繼續考慮元件時近和相關性外，還會將完全相符的項目排在廣泛相符項目之上。 2) 它會醒目提示符合的字元，以讓搜尋結果更能理解。3) 更輕鬆找到與維度相關的分類。4) 最後支援萬用字元 (`*`) 搜尋，以便更輕鬆找到所需的特定元件。注意：萬用字元搜尋在維度項目層級尚不可用。 | 2021 年 10 月 21 日 |
-| Analysis Workspace 深色主題  | 深色主題作為顯示選項提供。 | 2021 年 10 月 21 日 |
+| 深色主題 | [深色主題作為顯示選項提供。](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme) | 2021 年 10 月 21 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -135,7 +135,7 @@ ht-degree: 60%
 | Analysis Workspace中的分鐘層級日期範圍 | 您可以在面板日曆的進階設定或建立自訂日期範圍時，套用分鐘層級的日期範圍。 如果您報告的日期範圍跨越多天，則開始時間會套用至第一天，而結束時間則套用至範圍中的最後一天。 | 2021 年 10 月 18 日 |
 | 快速[!UICONTROL 篩選產生器] | 允許業務使用者快速在簡化的內嵌專案工作流程套用基本區段。無須前往「[!UICONTROL 篩選產生器]」。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 2021 年 10 月 21 日 |
 | Analysis Workspace 左側邊欄搜尋改進 | 左側邊欄搜尋1)除了繼續考慮元件時近和相關性外，還會將完全相符的項目排在廣泛相符項目之上。 2) 它會醒目提示符合的字元，以讓搜尋結果更能理解。3) 更輕鬆找到與維度相關的分類。4) 最後支援萬用字元 (`*`) 搜尋，以便更輕鬆找到所需的特定元件。注意：萬用字元搜尋在維度項目層級尚不可用。 | 2021 年 10 月 21 日 |
-| Analysis Workspace 深色主題  | 深色主題作為顯示選項提供。 | 2021 年 10 月 21 日 |
+| 深色主題 | [深色主題作為顯示選項提供。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme) | 2021 年 10 月 21 日 |
 | 維度配置的回顧期間 | 在「資料檢視」設定的「持續性」下，會新增最多90天的回顧期間至維度配置設定。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html) | 2021 年 10 月 28 日 |
 
 {style=&quot;table-layout:auto&quot;}
