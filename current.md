@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: ed5f9c6b35b65bab0c26887788e2232a0e9a6ab5
+source-git-commit: 4dfe2c2ab39fe82b40fc87e289d2c55c6ccc6735
 workflow-type: tm+mt
-source-wordcount: '4147'
-ht-degree: 60%
+source-wordcount: '4456'
+ht-degree: 56%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 60%
 
 發行月： **2021年11月**
 
-最近更新：**2021 年 10 月 22 日**
+最近更新：**2021 年 10 月 28 日**
 
 * [[!DNL Experience League] 直播活動](#events)
 * [[!DNL Experience Cloud Central Interface Components] 與管理](#ecloud)
@@ -41,7 +41,7 @@ ht-degree: 60%
 * [[!DNL Journey Orchestration]](#journey-orch)
 * [[!DNL Adobe Marketo Engage]](#marketo)
 * [[!DNL Adobe Workfront]](#workfront)
-* [[!DNL Adobe Advertising Cloud]](#adcloud)
+* [[!DNL Adobe Advertising Cloud]](#adcloud) (**2021 年 10 月 27 日**)
 * [[!DNL Document Cloud]](#doc-cloud)
 * [[!DNL Creative Cloud for enterprise]](#creative-cloud)
 
@@ -372,16 +372,32 @@ Adobe [!DNL Workfront] 是統一的工作管理應用程式，用於共用構想
 
 [!DNL Adobe Advertising Cloud] 版本注意事項。
 
+* [跨 [!DNL Advertising Cloud]](#adcloud-all)
 * [ [!DNL Advertising Cloud DSP] 中的新功能](#adcloud-dsp)
 * [ [!DNL Advertising Cloud Search] 中的新功能](#adcloud-search)
 
-### [!DNL Advertising Cloud DSP] 中的新功能 {#adcloud-dsp}
+### 跨 [!DNL Advertising Cloud] {#adcloud-all}
 
-最新更新：**2021 年 10 月 7 日**
+最新更新：**2021 年 10 月 27 日**
 
 | 功能 | 說明 |
 | ------- | ----------- |
-| 文件 | 全部 [DSP和其他Advertising Cloud檔案](https://experienceleague.adobe.com/docs/advertising-cloud.html) on [!DNL Experience League] 現在，機器已翻譯成所有可用語言。 若要變更顯示的語言，請使用任何頁面左下角的「變更語言」功能表。 |
+| Analytics for Advertising Cloud | 如果貴組織想從使用舊版Adobe Analytics切換 `visitorAPI.js` 資料庫至Adobe Experience Platform資料庫(`alloy.js`)資料收集，您必須進行一些變更以啟用ID匯整。 請參閱「[使用 [!DNL Last Event Service] JavaScript程式庫與Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html).&quot; |
+
+{style=&quot;table-layout:auto&quot;}
+
+### [!DNL Advertising Cloud DSP] 中的新功能 {#adcloud-dsp}
+
+最新更新：**2021 年 10 月 27 日**
+
+| 功能 | 說明 |
+| ------- | ----------- |
+| 自訂報表 | 您現在可以建立和管理 [!DNL Amazon S3] 和不同類型的FTP傳送位置，稱為 *[!DNL report destinations]*，用於自訂報表。 設定報表目的地後，您可以設定每個新的自訂報表，以傳送至單一目的地類型的一或多個位置，或傳送至電子郵件收件者。 更新至 [!DNL Amazon S3] 和FTP憑證不會中斷報表傳送。<br><br>您的現有報表仍會傳送給指定的電子郵件收件者。 若要設定傳送至不同報表目的地，請使用新目的地建立新報表。 |
+| [!UICONTROL 套件], [!UICONTROL 版位]，和 [!UICONTROL 廣告] 檢視 | 當您檢視單一天的資料時，趨勢圖現在會包含每小時資料。 將游標停留在任一點上，即可查看該小時的資料。 |
+| [!UICONTROL 版位] | 版位 [!UICONTROL 檢查員] 現在包含 [!UICONTROL 庫存] 標籤中，此標籤會顯示所有交易及其投放位置的相關量度。 使用資訊進行快速調整或疑難排解問題，而不產生自訂報表。 |
+| [!UICONTROL 廣告] | （有權在其廣告中加入Clearcastclock編號的使用者）如果您使用附加至其他廣告的時鐘編號，DSP不再顯示錯誤。 **注意：**  最佳實務是為每個視訊廣告使用唯一的時鐘號碼。 否則，發佈者不會核准所有廣告。 |
+| [!UICONTROL 交易ID] | 此 [!UICONTROL 交易ID] 設定和使用者介面中的其他位置會反映 [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot;([!DNL Telaria])現在為「[!DNL Magnite CTV].&quot;</li><li>在接下來的幾週裡， [!DNL Rubicon]&quot;將更改為&quot;[!DNL Magnite DV+],&quot;其中 [!DNL DV+] 代表顯示、視訊和其他格式，例如音訊。</li></ul> |
+| [!DNL Freewheel] 程式保證的交易 | 您現在可以找到 [!DNL Freewheel] 程式保證的交易 [!UICONTROL 廣告] 檢視。 以前，您只能從 [!UICONTROL 交易] 檢視。 |
 
 {style=&quot;table-layout:auto&quot;}
 
