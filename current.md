@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 4dfe2c2ab39fe82b40fc87e289d2c55c6ccc6735
+source-git-commit: 88923d059ec73215facae2efc1888b07b2e60fc7
 workflow-type: tm+mt
-source-wordcount: '4456'
-ht-degree: 56%
+source-wordcount: '4513'
+ht-degree: 55%
 
 ---
 
@@ -53,7 +53,8 @@ ht-degree: 56%
 
 | 活動日期 | 時間 | 活動名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021 年 10 月 21 日 | 隨選 | [誰按一下該連結？使用 Adobe Analytics 提供連結點選數的進階報告](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | 即時視訊活動 | 使用者與您的網頁或行動屬性互動的報告是了解客戶歷程的關鍵要素。您可以使用 Adobe Analytics 了解應用程式的每一次點選是由誰、什麼、為什麼，以及在哪裡。向 Adobe Analytics 專家學習使用 Activity Map 分類和自訂歸因的主要秘訣，以更清楚了解使用者參與。 |
+| 2021 年 11 月 18 日 | TBA | 以Experience Manager快速建立網站，讓生活速度比以往更快 | 直播視訊活動 | Experience Manager Sites包含數項功能，可加速提供引人入勝的網頁體驗。 了解如何使用預先定義的網站範本，以使用低程式碼方法在Adobe Experience Manager中建立網站。 更多細節待定！ |
+| 2021 年 10 月 21 日 | 隨選 | [誰按一下該連結？使用 Adobe Analytics 提供連結點選數的進階報告](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | 直播視訊活動 | 使用者與您的網頁或行動屬性互動的報告是了解客戶歷程的關鍵要素。您可以使用 Adobe Analytics 了解應用程式的每一次點選是由誰、什麼、為什麼，以及在哪裡。向 Adobe Analytics 專家學習使用 Activity Map 分類和自訂歸因的主要秘訣，以更清楚了解使用者參與。 |
 | 2021 年 10 月 4 日 | 隨選 | [Adobe開發人員上線](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 影片 | 是否錯過了該活動或正在查找特定會話的重播？ 在Experience League上找到。 Developers Live展示最新的技術進步和開發人員工具，推動各行業的設計、內容建立工作流程、檔案服務和客戶體驗管理。 檢視主旨演講、了解Analytics API、用戶端資料層、Adobe I/O開放原始碼專案等。 |
 
 {style=&quot;table-layout:auto&quot;}
