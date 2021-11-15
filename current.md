@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 18e7570cc950555d53a82bbb67555c3a273e2cbc
+source-git-commit: 2877f5206f1baeb4d9ea33529e476bbfe220ac7a
 workflow-type: tm+mt
-source-wordcount: '4782'
+source-wordcount: '4804'
 ht-degree: 83%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 83%
 
 ## ![圖示](/assets/experience-league.png) [!DNL Experience League] 事件 {#events}
 
-Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 看看我們的
+Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 可用事件如下：
 
-* 社群問答茶歇
-* Experience League即時視訊事件（也可隨選取）
-* Adobe開發人員正式啟用
+* [Experience League上線](#exl-live):YouTube上的即時和隨選影片事件
+* [社群問答茶歇](#coffee):與社區論壇產品經理的交流
+* [Adobe開發人員正式啟用](#dev-live):可供Experience League的隨選視訊事件
 
 排程和事件如下：
 
@@ -76,8 +76,8 @@ Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 看
 
 | 活動名稱 | 日期和時間 | 應用程式 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| Adobe Target — 設定和管理UI、A4T整合、AEM整合、一般UI  | 12月8日（星期三） @ 8 am PT | Adobe Target | 論壇問答 | 我們將與Adobe Target社區的Adobe Target高級產品經理Robert Calangiu(又名@Robert_Calangiu)一起，直接與您討論您有關Adobe Target專業領域問題。 <br>[詳細資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
-| Adobe Campaign — 透過其他應用程式匯入資料 | 2021年12月2日早8點，品脫 | Adobe Campaign | 論壇問答 | 透過其他應用程式匯入資料 — 透過高級技術顧問Zariely Garcia，使用技術工作流程透過SFTP/API匯入資料的最佳實務。 <br>[詳細資訊](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
+| Adobe Target — 設定和管理UI、A4T整合、AEM整合、一般UI  | 12月8日，星期三早8點，品脫 | Adobe Target | 論壇問答 | 我們將與Adobe Target社區的Adobe Target高級產品經理Robert Calangiu(又名@Robert_Calangiu)一起，直接與您討論您有關Adobe Target專業領域問題。 <br>[詳細資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
+| Adobe Campaign — 透過其他應用程式匯入資料 | 2021年12月2日，星期四早8點，品脫 | Adobe Campaign | 論壇問答 | 透過其他應用程式匯入資料 — 透過高級技術顧問Zariely Garcia，使用技術工作流程透過SFTP/API匯入資料的最佳實務。 <br>[詳細資訊](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -86,6 +86,8 @@ Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 看
 | 活動名稱 | 日期和時間 | 主題 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |---------- |
 | 2021年10月4日至5日 | 隨選 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 影片 | 錯過活動或尋找特定會議重播嗎？請在 Experience League 上尋找。Developers Live 會展示最新的技術進展和開發人員工具，藉以促進各產業的設計、內容創作工作流程、文件服務和客戶體驗管理。檢視專題演講、了解 Analytics API、客戶資料層、Adobe I/O 開放原始碼專案等等。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 如需更多影片，請造訪 YouTube 上的 [Adobe Experience League 頻道](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)。
 
