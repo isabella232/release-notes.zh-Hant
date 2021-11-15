@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: f5fa780e217bd43eb835442326692e3a056f16c3
+source-git-commit: 18e7570cc950555d53a82bbb67555c3a273e2cbc
 workflow-type: tm+mt
-source-wordcount: '5070'
+source-wordcount: '4782'
 ht-degree: 83%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 83%
 
 發行月份：**2021 年 11 月**
 
-最近更新：**2021 年 10 月 28 日**
+最近更新：**2021 年 11 月 15 日**
 
-* [[!DNL Experience League] 直播活動](#events)
+* [[!DNL Experience League] 事件](#events) （更新日期：2021年11月15日）
 * [[!DNL Experience Cloud Central Interface Components] 與管理](#ecloud)
 * [Adobe [!UICONTROL 系統狀態]](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
@@ -49,7 +49,13 @@ ht-degree: 83%
 
 ## ![圖示](/assets/experience-league.png) [!DNL Experience League] 事件 {#events}
 
-Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 看看我們的 _社群問答茶歇_、Experience League即時視訊事件（也可隨選取）和Adobe開發人員即時報告。 排程和事件如下：
+Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 看看我們的
+
+* 社群問答茶歇
+* Experience League即時視訊事件（也可隨選取）
+* Adobe開發人員正式啟用
+
+排程和事件如下：
 
 ### Experience League上線{#exl-live}
 
@@ -57,25 +63,21 @@ Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 看
 
 | 活動日期 | 時間 | 活動名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021 年 11 月 18 日 | 下午 12 點 (EST) | [在Adobe Experience Manager中快速建立網站，讓生活速度比以往更快](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 即時視訊活動 | 幾天內即可部署功能豐富且個人化的網頁體驗，無需後端開發。 了解如何使用預先定義的網站範本，以使用低程式碼方法在Adobe Experience Manager中建立網站。 與我們一起，與Adobe產品經理Shankari Panchapakesan和Gabriel Walt一起參加現場演示和演示。 你甚至能看到一些即時編碼！ |
+| 2021 年 11 月 18 日 | 下午 12 點 (EST) | [在Adobe Experience Manager中快速建立網站，讓生活速度比以往更快](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 即時視訊活動 | 幾天內即可部署功能豐富且個人化的網頁體驗，無需後端開發。 了解如何使用預先定義的低程式碼方法，在Adobe Experience Manager中建立網站 [!UICONTROL 網站範本]. 與我們一起，與Adobe產品經理Shankari Panchapakesan、Gabriel Walt和Danny Gordon一起進行現場演示和演示。 你甚至能看到一些即時編碼！ |
 | 2021 年 10 月 21 日 | 下午 12 點 (EST) | [誰按一下該連結？使用 Adobe Analytics 提供連結點選數的進階報告](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | 隨選 | 使用者與您的網頁或行動屬性互動的報告是了解客戶歷程的關鍵要素。您可以使用 Adobe Analytics 了解應用程式的每一次點選是由誰、什麼、為什麼，以及在哪裡。向 Adobe Analytics 專家學習使用 Activity Map 分類和自訂歸因的主要秘訣，以更清楚了解使用者參與。 |
-| 2021 年 9 月 23 日 | 隨選 | [讓您的假日行銷活動脫穎而出的專家秘訣](https://www.youtube.com/watch?v=bsU1lAv0xes) | 直播視訊活動 | 就像開始您的節日購物永遠都不嫌早一樣，開始規劃大獲成功的節日行銷活動也永遠都不嫌早。 有了 Adobe Campaign，您可以設計、規劃及執行行銷活動，好讓貴組織的所有節日願望都成真。<br>但是您知道在年底之前讓執行的行銷活動大獲成功的所有秘訣嗎？ 請加入 Sandra 的即時討論會，我們將邀請三位 Adobe 專家加入討論，他們在這方面擁有累積多年的專業知識。  |
-| 2021 年 8 月 26 日 | 隨選 | [讓您的下一個受眾區段比以往都還要聰明](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=zh-Hant) | 活動錄製 | 每一個出色的行銷活動的成功都取決於精確鎖定您的對象。 有了全新的 Adobe Experience Platform [!UICONTROL 區段產生器]，您可以使用各個管道中的個人檔案資料及取決於時間的用戶行為來建立您的下一個受眾區段。 沒有比這個更好的方式可確保您的訊息能傳達給最需要聽到的人了。 |
-| 2021 年 7 月 29 日 | 隨選 | [我最愛的三個 Adobe Analytics 實作秘訣](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=zh-Hant) | 活動錄製 | 他之前曾經出現在 Summit 的講台上。 他也曾經在 Adobe Insider Tour 中分享專家建議。 您或許也曾經在自己的 Adobe Analytics 實作中跟他合作過而受益。 現在，Eric Matisoff 帶著他最愛的三個 Adobe Analytics 實作秘訣來參加這場獨家的 Experience League 直播討論會。 |
 
 {style=&quot;table-layout:auto&quot;}
 
+如需過去集數，請參閱 [Experience League上線](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
+
 ### 社群問答茶歇{#coffee}
 
-與Adobe專家和特別客人討論，這些專家和特別客人在為您帶來Adobe技術方面發揮了重要作用。 社群問答茶歇查看下列排程，加入我們即時或觀看先前錄制的活動。
+請與特殊訪客共處一小時，並在Experience League社群中提交您的問題，讓Adobe的產品專家回答您的問題！
 
-請與特殊訪客共處一小時，並在Experience League社群中提交您的問題，讓Adobe的產品專家回答您的問題。
-
-| 活動名稱 | 日期和時間 | 主題 | 類型 | 說明 |
+| 活動名稱 | 日期和時間 | 應用程式 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 社群問答茶歇 | 11月10日（星期三） @ 8am PT | Adobe Target | 論壇問答 | 與產品經理Cristinel Anastasoaie共度一小時。 取得您有關Adobe Target介面、整合以及企業權限和工作區的問題解答。 <br>[詳細資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696) |
-|  | 11月11日（下午） @ 8 am PT | Adobe Target | 論壇問答 | 與產品經理Cristinel Anastasoaie共度一小時。 取得您有關Adobe Target介面、整合以及企業權限和工作區的問題解答。 <br>[詳細資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696) |
-| 2021 年 11 月 18 日 | TBA | 以Experience Manager快速建立網站，讓生活速度比以往更快 | 直播視訊活動 | Experience Manager Sites包含數項功能，可加速提供引人入勝的網頁體驗。 了解如何使用預先定義的網站範本，以使用低程式碼方法在Adobe Experience Manager中建立網站。 更多細節待定！ |
+| Adobe Target — 設定和管理UI、A4T整合、AEM整合、一般UI  | 12月8日（星期三） @ 8 am PT | Adobe Target | 論壇問答 | 我們將與Adobe Target社區的Adobe Target高級產品經理Robert Calangiu(又名@Robert_Calangiu)一起，直接與您討論您有關Adobe Target專業領域問題。 <br>[詳細資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
+| Adobe Campaign — 透過其他應用程式匯入資料 | 2021年12月2日早8點，品脫 | Adobe Campaign | 論壇問答 | 透過其他應用程式匯入資料 — 透過高級技術顧問Zariely Garcia，使用技術工作流程透過SFTP/API匯入資料的最佳實務。 <br>[詳細資訊](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -83,7 +85,7 @@ Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 看
 
 | 活動名稱 | 日期和時間 | 主題 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021 年 10 月 4 日 | 隨選 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 影片 | 錯過活動或尋找特定會議重播嗎？請在 Experience League 上尋找。Developers Live 會展示最新的技術進展和開發人員工具，藉以促進各產業的設計、內容創作工作流程、文件服務和客戶體驗管理。檢視專題演講、了解 Analytics API、客戶資料層、Adobe I/O 開放原始碼專案等等。 |
+| 2021年10月4日至5日 | 隨選 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 影片 | 錯過活動或尋找特定會議重播嗎？請在 Experience League 上尋找。Developers Live 會展示最新的技術進展和開發人員工具，藉以促進各產業的設計、內容創作工作流程、文件服務和客戶體驗管理。檢視專題演講、了解 Analytics API、客戶資料層、Adobe I/O 開放原始碼專案等等。 |
 
 如需更多影片，請造訪 YouTube 上的 [Adobe Experience League 頻道](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)。
 
