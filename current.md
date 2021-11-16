@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 2877f5206f1baeb4d9ea33529e476bbfe220ac7a
+source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
 workflow-type: tm+mt
-source-wordcount: '4804'
-ht-degree: 83%
+source-wordcount: '4724'
+ht-degree: 92%
 
 ---
 
@@ -61,10 +61,11 @@ Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 可
 
 [Experience League上線](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) 是由Experience League團隊製作的即時串流節目。 這是您與Adobe產品專家連絡，並學習可與Adobe Experience Cloud應用程式套用的可操作秘訣、訣竅和策略的機會。
 
+近期活動：
+
 | 活動日期 | 時間 | 活動名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |---------- |
 | 2021 年 11 月 18 日 | 下午 12 點 (EST) | [在Adobe Experience Manager中快速建立網站，讓生活速度比以往更快](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 即時視訊活動 | 幾天內即可部署功能豐富且個人化的網頁體驗，無需後端開發。 了解如何使用預先定義的低程式碼方法，在Adobe Experience Manager中建立網站 [!UICONTROL 網站範本]. 與我們一起，與Adobe產品經理Shankari Panchapakesan、Gabriel Walt和Danny Gordon一起進行現場演示和演示。 你甚至能看到一些即時編碼！ |
-| 2021 年 10 月 21 日 | 下午 12 點 (EST) | [誰按一下該連結？使用 Adobe Analytics 提供連結點選數的進階報告](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | 隨選 | 使用者與您的網頁或行動屬性互動的報告是了解客戶歷程的關鍵要素。您可以使用 Adobe Analytics 了解應用程式的每一次點選是由誰、什麼、為什麼，以及在哪裡。向 Adobe Analytics 專家學習使用 Activity Map 分類和自訂歸因的主要秘訣，以更清楚了解使用者參與。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -96,7 +97,7 @@ Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 可
 | 功能 | 說明 |
 | ------- | ------- |
 | 首頁 | Experience Cloud 首頁頁尾資訊已移至用戶個人資料卡片，包括偏好設定中的法律注意事項和語言選擇。 |
-| AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform Widget 建立工作流程中提供圖表推薦。提供資料選取（目前為單一變數資料選取）, [!DNL Helios] 建議在選取資料時使用適當的視覺效果。 |
+| AEP 儀表板 | [!DNL Helios Lite]在 Experience Platform Widget 建立工作流程中提供圖表推薦。指定資料選擇 (目前為單一變數資料選擇)，[!DNL Helios] 會推薦適當的視覺化來配合該資料選擇。 |
 | AEP 儀表板 | [!DNL Instory] 為圖表提供機器學習式書面敘述和字幕。它會在 AEP 儀表板頁面中裝飾圖表，並用相關的要點標註圖形資料中的主要變化和事件。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -149,13 +150,13 @@ Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 可
 
 ### Adobe Analytics 新功能 {#aa-features}
 
-| 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hant) - 目標日期 |
+| 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 目標日期 |
 | ----------- | ---------- | ------- |
 | 在 Analysis Workspace 中分鐘層級的日期範圍 | 您可以在面板行事曆的進階設定下或在建立字訂日期範圍時，套用分鐘層級的日期範圍。如果您報告橫跨許多天的日期範圍，開始時間會套用至第一天，結束時間套用至您範圍中的最後一天。 | 2021 年 10 月 18 日 |
-| [!UICONTROL 媒體播放時間] | Adobe 串流媒體播放[!UICONTROL 時間]提供寶貴的觀眾參與度深入分析，並可讓媒體組織透過進階花費時間分析及時段功能，以每分鐘的使用者參與度取得更深入、更細微的分析。您可以觀察在特定時間點觀看您的媒體串流所花費的時間多寡。您可以依不同的粒度來分割播放持續時間，包括新的5分鐘、15分鐘和30分鐘粒度。 [了解更多](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021 年 10 月 18 日 |
+| [!UICONTROL 媒體播放時間] | Adobe 串流媒體播放[!UICONTROL 時間]提供寶貴的觀眾參與度深入分析，並可讓媒體組織透過進階花費時間分析及時段功能，以每分鐘的使用者參與度取得更深入、更細微的分析。您可以觀察在特定時間點觀看您的媒體串流所花費的時間多寡。您可以依不同的資料粒度 (包括新的 5 分鐘、15 分鐘和 30 分鐘資料粒度) 分割播放持續時間。[了解更多](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021 年 10 月 18 日 |
 | 快速[!UICONTROL 區段產生器] | 允許業務使用者快速在簡化的內嵌專案工作流程套用基本區段。無須前往「[!UICONTROL 區段生產器]」。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021 年 10 月 21 日 |
 | Analysis Workspace 左側邊欄搜尋改進 | 除了繼續說明元件造訪間隔和相關性之外，左側邊欄搜尋將 1) 以完全相符的搜尋結果為優先，優先程度高於廣泛的搜尋結果。2) 它會醒目提示符合的字元，以讓搜尋結果更能理解。3) 更輕鬆找到與維度相關的分類。4) 最後支援萬用字元 (`*`) 搜尋，以便更輕鬆找到所需的特定元件。注意：萬用字元搜尋在維度項目層級尚不可用。 | 2021 年 10 月 21 日 |
-| 深色主題 | [深色主題作為顯示選項提供。](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme) | 2021 年 10 月 21 日 |
+| 深色主題 | [深色主題](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme)會作為顯示選項提供。 | 2021 年 10 月 21 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -166,7 +167,7 @@ Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 可
 | 在 Analysis Workspace 中分鐘層級的日期範圍 | 您可以在面板行事曆的進階設定下或在建立字訂日期範圍時，套用分鐘層級的日期範圍。如果您報告橫跨許多天的日期範圍，開始時間會套用至第一天，結束時間套用至您範圍中的最後一天。 | 2021 年 10 月 18 日 |
 | 快速[!UICONTROL 篩選產生器] | 允許業務使用者快速在簡化的內嵌專案工作流程套用基本區段。無須前往「[!UICONTROL 篩選產生器]」。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 2021 年 10 月 21 日 |
 | Analysis Workspace 左側邊欄搜尋改進 | 除了繼續說明元件造訪間隔和相關性之外，左側邊欄搜尋將 1) 以完全相符的搜尋結果為優先，優先程度高於廣泛的搜尋結果。2) 它會醒目提示符合的字元，以讓搜尋結果更能理解。3) 更輕鬆找到與維度相關的分類。4) 最後支援萬用字元 (`*`) 搜尋，以便更輕鬆找到所需的特定元件。注意：萬用字元搜尋在維度項目層級尚不可用。 | 2021 年 10 月 21 日 |
-| 深色主題 | [深色主題作為顯示選項提供。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme) | 2021 年 10 月 21 日 |
+| 深色主題 | [深色主題](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme)會作為顯示選項提供。 | 2021 年 10 月 21 日 |
 | 維度位置的回顧視窗 | 最多 90 天的回顧視窗新增至資料檢視設定中持續性下方的維度配置設定。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html) | 2021 年 10 月 28 日 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -234,10 +235,10 @@ Audience Manager 中的修正與改良。
 
 Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hant)頁面，以掌握最新的版本資訊。
 
-### 發行概述影片
+### 版本總覽影片
 
-* [2021年10月發行概述](https://video.tv.adobe.com/v/338253) 新功能的影片。
-* [2021年9月發行概述](https://video.tv.adobe.com/v/337381) 新功能的影片。
+* [2021 年 10 月版本總覽](https://video.tv.adobe.com/v/338253) 新功能影片。
+* [2021 年 9 月版本總覽](https://video.tv.adobe.com/v/337381) 新功能影片。
 
 ### 社群
 
@@ -263,7 +264,7 @@ Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experie
 | 2021 年 11 月 | [規劃邁向 AEM as a Cloud Service 之旅](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2021.1.migration) | 課程 | 了解邁向 AEM as a Cloud Service 的考量及簡化程序的可用工具。 | AEM CS |
 | 2021 年 11 月 | [邁向 AEM as a Cloud Service](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2021.1.migration) | 課程 | 了解如何從 AEM 6 成功邁向 Experience Manager as a Cloud Service。 | AEM CS |
 | 2021 年 11 月 | [下載互動式 DoR](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-interactive-dor.html?lang=en#create-custom-servlet) | 影片 | 了解如何下載包含 Adaptive Form 資料的互動式 DoR。 | AEM Forms |
-| 2021 年 11 月 | [Adobe Experience Manager as a Cloud Service 專家系列](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/aem-experts-series.html?lang=en) | 影片系列 | 了解從Adobe的專業工程師那裡as a Cloud Service的Adobe Experience Manager(AEM)，以及由專業服務團隊提供。 加入 Adobe 專家的行列，探索什麼是 AEM as a Cloud Service、其與 AEM 6 的比較，以及如何從 AEM 6 邁向 AEM as a Cloud Service。 | AEM CS |
+| 2021 年 11 月 | [Adobe Experience Manager as a Cloud Service 專家系列](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/aem-experts-series.html?lang=en) | 影片系列 | 向建置 Adobe Experience Manager (AEM) as a Cloud Service 的 Adobe 專家工程師與提供該產品的 Professional Services 團隊學習。加入 Adobe 專家的行列，探索什麼是 AEM as a Cloud Service、其與 AEM 6 的比較，以及如何從 AEM 6 邁向 AEM as a Cloud Service。 | AEM CS |
 | 2021 年 11 月 | [服務用戶](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/advanced/service-users.html?lang=en)  | 影片 | 了解如何在您的 AEM 程式碼中建立和使用服務用戶，以提供 AEM 存放庫的受控制程式設計存取權。 | AEM CS |
 
 {style=&quot;table-layout:auto&quot;}
@@ -314,7 +315,7 @@ Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experie
 
 最新更新：**2021 年 10 月 20 日**
 
-如需最新版本資訊，請參閱 [[!DNL Target]  版本注意事項](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=zh-Hant)。
+如需最新版本資訊，請參閱 [[!DNL Target]  版本注意事項](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=en)。
 
 ## ![圖示](/assets/campaign.png) [!DNL Adobe Campaign] {#ac}
 
@@ -354,7 +355,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### 最新 Journey Optimizer 產品發行版
 
-進一步了解 [Journey Optimizer 版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=zh-Hant)中最新功能、改良功能和修復。
+進一步了解 [Journey Optimizer 版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html)中最新功能、改良功能和修復。
 
 ### Journey Optimizer 教學課程和課程 {#tutorials-ajo}
 
@@ -370,8 +371,8 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ### [!DNL Journey Optimizer] 的更多資源
 
-* [Journey Optimizer檔案](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hant) - [發行說明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [作法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant)
-* [決策管理檔案](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant) - [發行說明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [作法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html) - [最新檔案更新](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html)
+* [Journey Optimizer 文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hant)
+* [決策管理文件](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html) - [最新文件更新](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html)
 
 ## ![圖示](/assets/experience_platform_appicon_24.png) [!DNL Journey Orchestration] {#journey-orch}
 
@@ -383,7 +384,7 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 #### [!DNL Journey Orchestration] 的更多資源
 
-* [Journey Orchestration檔案](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hant) - [發行說明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [作法影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=zh-Hant) - [最新檔案更新](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=zh-Hant)
+* [Journey Orchestration 文件](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hant) - [版本注意事項](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [做法影片](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=zh-Hant) - [最新文件更新](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=zh-Hant)
 
 ## ![圖示](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
@@ -403,17 +404,17 @@ Adobe [!DNL Workfront] 是統一的工作管理應用程式，用於共用構想
 
 [!DNL Adobe Advertising Cloud] 版本注意事項。
 
-* [跨 [!DNL Advertising Cloud]](#adcloud-all)
+* [ [!DNL Advertising Cloud] 的新功能](#adcloud-all)
 * [ [!DNL Advertising Cloud DSP] 中的新功能](#adcloud-dsp)
 * [ [!DNL Advertising Cloud Search] 中的新功能](#adcloud-search)
 
-### 跨 [!DNL Advertising Cloud] {#adcloud-all}
+### [!DNL Advertising Cloud] 的新功能 {#adcloud-all}
 
 最新更新：**2021 年 10 月 27 日**
 
 | 功能 | 說明 |
 | ------- | ----------- |
-| Analytics for Advertising Cloud | 如果貴組織想從使用舊版Adobe Analytics切換 `visitorAPI.js` 資料庫至Adobe Experience Platform資料庫(`alloy.js`)資料收集，您必須進行一些變更以啟用ID匯整。 請參閱「[使用 [!DNL Last Event Service] JavaScript程式庫與Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html).&quot; |
+| Analytics for Advertising Cloud | 如果您的組織想從使用舊版 Adobe Analytics `visitorAPI.js`資料庫切換到使用 Adobe Experience Platform 資料庫 (`alloy.js`) 進行資料彙集，您需要進行一些變更以啟用識別碼拼接。請參閱「[在 Adobe Experience Platform 中使用  [!DNL Last Event Service] JavaScript 資料庫 [!DNL Web SDK]](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html)」。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -423,12 +424,12 @@ Adobe [!DNL Workfront] 是統一的工作管理應用程式，用於共用構想
 
 | 功能 | 說明 |
 | ------- | ----------- |
-| 自訂報表 | 您現在可以建立和管理 [!DNL Amazon S3] 和不同類型的FTP傳送位置，稱為 *[!DNL report destinations]*，用於自訂報表。 設定報表目的地後，您可以設定每個新的自訂報表，以傳送至單一目的地類型的一或多個位置，或傳送至電子郵件收件者。 更新至 [!DNL Amazon S3] 和FTP憑證不會中斷報表傳送。<br><br>您的現有報表仍會傳送給指定的電子郵件收件者。 若要設定傳送至不同報表目的地，請使用新目的地建立新報表。 |
-| [!UICONTROL 套件], [!UICONTROL 版位]，和 [!UICONTROL 廣告] 檢視 | 當您檢視單一天的資料時，趨勢圖現在會包含每小時資料。 將游標停留在任一點上，即可查看該小時的資料。 |
-| [!UICONTROL 版位] | 版位 [!UICONTROL 檢查員] 現在包含 [!UICONTROL 庫存] 標籤中，此標籤會顯示所有交易及其投放位置的相關量度。 使用資訊進行快速調整或疑難排解問題，而不產生自訂報表。 |
-| [!UICONTROL 廣告] | （有權在其廣告中加入Clearcastclock編號的使用者）如果您使用附加至其他廣告的時鐘編號，DSP不再顯示錯誤。 **注意：**  最佳實務是為每個視訊廣告使用唯一的時鐘號碼。 否則，發佈者不會核准所有廣告。 |
-| [!UICONTROL 交易ID] | 此 [!UICONTROL 交易ID] 設定和使用者介面中的其他位置會反映 [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot;([!DNL Telaria])現在為「[!DNL Magnite CTV].&quot;</li><li>在接下來的幾週裡， [!DNL Rubicon]&quot;將更改為&quot;[!DNL Magnite DV+],&quot;其中 [!DNL DV+] 代表顯示、視訊和其他格式，例如音訊。</li></ul> |
-| [!DNL Freewheel] 程式保證的交易 | 您現在可以找到 [!DNL Freewheel] 程式保證的交易 [!UICONTROL 廣告] 檢視。 以前，您只能從 [!UICONTROL 交易] 檢視。 |
+| 自訂報告 | 您現在可以為自訂報告建立和管理 [!DNL Amazon S3] 和不同類型的 FTP 傳送位置，稱為 *[!DNL report destinations]*。設定報告目標後，您可以將每個新的自訂報告設為傳送到單一目標類型的一個或多個位置，或傳送到電子郵件收件者。更新您的 [!DNL Amazon S3]，則 FTP 認證將不會中斷報告傳遞。<br><br>您現有的報告仍會傳送到指定的電子郵件收件者。若要設定傳遞到不同的報告目標，請使用新目標建立新報告。 |
+| [!UICONTROL 套件]，[!UICONTROL 位置]，和 [!UICONTROL 廣告]檢視 | 當您查看某一天的資料時，趨勢圖表將包括每小時資料。將游標放在任意點上可查看該小時的資料。 |
+| [!UICONTROL 位置] | 位置[!UICONTROL 檢查]現在包含[!UICONTROL 詳細目錄]標籤，顯示位置的所有交易及其相關指標。使用這些資訊進行快速調整或疑難排解問題，而無需產生自訂報告。 |
+| [!UICONTROL 廣告] | (有權在其廣告中包含 Clearcastclock 數字的用戶) 如果您使用附加到其他廣告的時鐘數字，DSP 將不再顯示錯誤。**請注意：**&#x200B;最佳實務是為每個廣告影片使用唯一的時鐘數字。否則，發佈者將不會核准所有廣告。 |
+| [!UICONTROL 交易識別碼] | [!UICONTROL 交易識別碼]設定和用戶界面中的其他地方反映了 [!DNL Magnite]SSP<br> 的新品牌：<ul><li>SSP「[!DNL Tremor]」([!DNL Telaria]) 現為「[!DNL Magnite CTV]」。</li><li>在接下來的幾週內，「[!DNL Rubicon]」將變更為「[!DNL Magnite DV+]」，其中 [!DNL DV+] 代表顯示、影片和其他格式，例如音訊。</li></ul> |
+| [!DNL Freewheel]程式化預留交易 | 現在您可以從[!UICONTROL 廣告]檢視中找到 [!DNL Freewheel] 程式化預留交易的廣告狀態。以前您只能從[!UICONTROL 交易]檢視中查看狀態。 |
 
 {style=&quot;table-layout:auto&quot;}
 
