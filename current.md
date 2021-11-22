@@ -9,7 +9,7 @@ exl-id: null
 source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
 workflow-type: tm+mt
 source-wordcount: '4724'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 
 最近更新：**2021 年 11 月 15 日**
 
-* [[!DNL Experience League] 事件](#events) （更新日期：2021年11月15日）
+* [[!DNL Experience League] 活動](#events) (2021 年 11 月 15 日更新)
 * [[!DNL Experience Cloud Central Interface Components] 與管理](#ecloud)
 * [Adobe [!UICONTROL 系統狀態]](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
@@ -47,46 +47,46 @@ ht-degree: 92%
 
 需要協助嗎？請造訪 [Adobe Experience League](https://experienceleague.adobe.com/#home)，尋找產品和技術文件、Adobe 策畫的課程、教學課程影片、快速解答、社群見解，以及由講師授課的訓練課程。
 
-## ![圖示](/assets/experience-league.png) [!DNL Experience League] 事件 {#events}
+## ![圖示](/assets/experience-league.png) [!DNL Experience League]活動 {#events}
 
-Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 可用事件如下：
+若想了解 Adobe 產品專家的答案，Experience League Events 會是個好選擇。以下是可用的活動：
 
-* [Experience League上線](#exl-live):YouTube上的即時和隨選影片事件
-* [社群問答茶歇](#coffee):與社區論壇產品經理的交流
-* [Adobe開發人員正式啟用](#dev-live):可供Experience League的隨選視訊事件
+* [Experience League Live](#exl-live)：YouTube 上的直播和隨選視訊活動
+* [社群問答咖啡會](#coffee)：在社群論壇中與產品經理聊天
+* [Adobe Developer&#39;s Live](#dev-live)：Experience League 提供的隨選視訊活動
 
-排程和事件如下：
+時間表和活動如下：
 
-### Experience League上線{#exl-live}
+### Experience League Live{#exl-live}
 
-[Experience League上線](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) 是由Experience League團隊製作的即時串流節目。 這是您與Adobe產品專家連絡，並學習可與Adobe Experience Cloud應用程式套用的可操作秘訣、訣竅和策略的機會。
+[Experience League LIVE](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=zh-Hant) 是 Experience League 團隊製作的直播串流節目。您可以藉此機會與 Adobe 產品專家交流，並學到您可以透過 Adobe Experience Cloud 應用程式應用可落實的秘訣、技巧和策略。
 
-近期活動：
+即將到來的活動：
 
 | 活動日期 | 時間 | 活動名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021 年 11 月 18 日 | 下午 12 點 (EST) | [在Adobe Experience Manager中快速建立網站，讓生活速度比以往更快](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 即時視訊活動 | 幾天內即可部署功能豐富且個人化的網頁體驗，無需後端開發。 了解如何使用預先定義的低程式碼方法，在Adobe Experience Manager中建立網站 [!UICONTROL 網站範本]. 與我們一起，與Adobe產品經理Shankari Panchapakesan、Gabriel Walt和Danny Gordon一起進行現場演示和演示。 你甚至能看到一些即時編碼！ |
+| 2021 年 11 月 18 日 | 下午 12 點 (EST) | [透過 Adobe Experience Manager 中的快速網站建立，以前所未有的速度直播](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 即時視訊活動 | 只需幾天即可內部署功能豐富的個人化 Web 體驗，而無需後端開發。了解如何使用低程式碼方法，利用預先定義的[!UICONTROL 網站範本]在 Adobe Experience Manager 中建立網站。加入我們，與 Adobe 產品經理 Shankari Panchapakesan、Gabriel Walt 和 Danny Gordon 一起進行現場說明和示範。您甚至有機會看到現場編碼！ |
 
 {style=&quot;table-layout:auto&quot;}
 
-如需過去集數，請參閱 [Experience League上線](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
+若想了解過去的影片內容，請參閱 [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en)。
 
-### 社群問答茶歇{#coffee}
+### 社群問答咖啡會{#coffee}
 
-請與特殊訪客共處一小時，並在Experience League社群中提交您的問題，讓Adobe的產品專家回答您的問題！
+與特邀嘉賓共度一小時，並在 Experience League Communities 中提交您的問題，即可獲得 Adobe 產品專家的解答！
 
-| 活動名稱 | 日期和時間 | 應用程式 | 類型 | 說明 |
+| 活動名稱 | 日期與時間 | 應用程式 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| Adobe Target — 設定和管理UI、A4T整合、AEM整合、一般UI  | 12月8日，星期三早8點，品脫 | Adobe Target | 論壇問答 | 我們將與Adobe Target社區的Adobe Target高級產品經理Robert Calangiu(又名@Robert_Calangiu)一起，直接與您討論您有關Adobe Target專業領域問題。 <br>[詳細資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
-| Adobe Campaign — 透過其他應用程式匯入資料 | 2021年12月2日，星期四早8點，品脫 | Adobe Campaign | 論壇問答 | 透過其他應用程式匯入資料 — 透過高級技術顧問Zariely Garcia，使用技術工作流程透過SFTP/API匯入資料的最佳實務。 <br>[詳細資訊](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
+| Adobe Target - 設定和管理 UI、A4T 整合、AEM 整合、通用 UI | 太平洋時間 12 月 8 日星期三上午 8 點 | Adobe Target | 論壇問答 | Adobe Target 資深產品經理 Robert Calangiu (也就是 @Robert_Calangiu) 將與我們一起進入 Adobe Target 社群，直接和您討論有關他專業領域的 Adobe Target 問題。<br>[詳細資訊](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
+| Adobe Campaign - 透過其他應用程式匯入資料 | 太平洋時間 2021 年 12 月 2 日星期四上午 8 點 | Adobe Campaign | 論壇問答 | 透過其他應用程式匯入資料 - 資深技術顧問 Zariely Garcia 將說明使用技術工作流程，透過 SFTP/API 匯入資料的最佳做法。<br>[詳細資訊](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9)。 |
 
 {style=&quot;table-layout:auto&quot;}
 
-### Adobe開發人員正式啟用{#dev-live}
+### Adobe Developer&#39;s Live{#dev-live}
 
-| 活動名稱 | 日期和時間 | 主題 | 類型 | 說明 |
+| 活動名稱 | 日期與時間 | 主題 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021年10月4日至5日 | 隨選 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 影片 | 錯過活動或尋找特定會議重播嗎？請在 Experience League 上尋找。Developers Live 會展示最新的技術進展和開發人員工具，藉以促進各產業的設計、內容創作工作流程、文件服務和客戶體驗管理。檢視專題演講、了解 Analytics API、客戶資料層、Adobe I/O 開放原始碼專案等等。 |
+| 2021 年 10 月 4 日至 5 日 | 隨選 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=zh-Hant) | 影片 | 錯過活動或尋找特定會議重播嗎？請在 Experience League 上尋找。Developers Live 會展示最新的技術進展和開發人員工具，藉以促進各產業的設計、內容創作工作流程、文件服務和客戶體驗管理。檢視專題演講、了解 Analytics API、客戶資料層、Adobe I/O 開放原始碼專案等等。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -128,7 +128,7 @@ Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 可
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 11 月 | [ 在第一方資料內容中的資料共同作業 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/industry/data-collaboration-in-the-first-party-data-context.html?lang=en#) | 影片 | 實踐體驗承諾，存取較少的資料。無論您是否為廣告商、發佈者或機關，此網路研討會有助於未來在無第三方 Cookies 的情況下解放共同作業機會。 |
+| 2021 年 11 月 | [ 在第一方資料內容中的資料共同作業 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/industry/data-collaboration-in-the-first-party-data-context.html?lang=zh-Hant#) | 影片 | 實踐體驗承諾，存取較少的資料。無論您是否為廣告商、發佈者或機關，此網路研討會有助於未來在無第三方 Cookies 的情況下解放共同作業機會。 |
 | 2021 年 10 月 | [[!DNL Platform] 管理](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-A-1-2021.1.admin) | 課程 | 了解 Experience Platform 的管理活動，包括權限和沙箱管理。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -150,13 +150,13 @@ Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 可
 
 ### Adobe Analytics 新功能 {#aa-features}
 
-| 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 目標日期 |
+| 功能 | 說明 | [全面發佈](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hant) - 目標日期 |
 | ----------- | ---------- | ------- |
 | 在 Analysis Workspace 中分鐘層級的日期範圍 | 您可以在面板行事曆的進階設定下或在建立字訂日期範圍時，套用分鐘層級的日期範圍。如果您報告橫跨許多天的日期範圍，開始時間會套用至第一天，結束時間套用至您範圍中的最後一天。 | 2021 年 10 月 18 日 |
-| [!UICONTROL 媒體播放時間] | Adobe 串流媒體播放[!UICONTROL 時間]提供寶貴的觀眾參與度深入分析，並可讓媒體組織透過進階花費時間分析及時段功能，以每分鐘的使用者參與度取得更深入、更細微的分析。您可以觀察在特定時間點觀看您的媒體串流所花費的時間多寡。您可以依不同的資料粒度 (包括新的 5 分鐘、15 分鐘和 30 分鐘資料粒度) 分割播放持續時間。[了解更多](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021 年 10 月 18 日 |
-| 快速[!UICONTROL 區段產生器] | 允許業務使用者快速在簡化的內嵌專案工作流程套用基本區段。無須前往「[!UICONTROL 區段生產器]」。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021 年 10 月 21 日 |
+| [!UICONTROL 媒體播放時間] | Adobe 串流媒體播放[!UICONTROL 時間]提供寶貴的觀眾參與度深入分析，並可讓媒體組織透過進階花費時間分析及時段功能，以每分鐘的使用者參與度取得更深入、更細微的分析。您可以觀察在特定時間點觀看您的媒體串流所花費的時間多寡。您可以依不同的資料粒度 (包括新的 5 分鐘、15 分鐘和 30 分鐘資料粒度) 分割播放持續時間。[了解更多](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=zh-Hant) | 2021 年 10 月 18 日 |
+| 快速[!UICONTROL 區段產生器] | 允許業務使用者快速在簡化的內嵌專案工作流程套用基本區段。無須前往「[!UICONTROL 區段生產器]」。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hant) | 2021 年 10 月 21 日 |
 | Analysis Workspace 左側邊欄搜尋改進 | 除了繼續說明元件造訪間隔和相關性之外，左側邊欄搜尋將 1) 以完全相符的搜尋結果為優先，優先程度高於廣泛的搜尋結果。2) 它會醒目提示符合的字元，以讓搜尋結果更能理解。3) 更輕鬆找到與維度相關的分類。4) 最後支援萬用字元 (`*`) 搜尋，以便更輕鬆找到所需的特定元件。注意：萬用字元搜尋在維度項目層級尚不可用。 | 2021 年 10 月 21 日 |
-| 深色主題 | [深色主題](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme)會作為顯示選項提供。 | 2021 年 10 月 21 日 |
+| 深色主題 | [深色主題](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=zh-Hant#dark-theme)會作為顯示選項提供。 | 2021 年 10 月 21 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -167,7 +167,7 @@ Experience League活動是向Adobe產品專家尋求答案的絕佳場所。 可
 | 在 Analysis Workspace 中分鐘層級的日期範圍 | 您可以在面板行事曆的進階設定下或在建立字訂日期範圍時，套用分鐘層級的日期範圍。如果您報告橫跨許多天的日期範圍，開始時間會套用至第一天，結束時間套用至您範圍中的最後一天。 | 2021 年 10 月 18 日 |
 | 快速[!UICONTROL 篩選產生器] | 允許業務使用者快速在簡化的內嵌專案工作流程套用基本區段。無須前往「[!UICONTROL 篩選產生器]」。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 2021 年 10 月 21 日 |
 | Analysis Workspace 左側邊欄搜尋改進 | 除了繼續說明元件造訪間隔和相關性之外，左側邊欄搜尋將 1) 以完全相符的搜尋結果為優先，優先程度高於廣泛的搜尋結果。2) 它會醒目提示符合的字元，以讓搜尋結果更能理解。3) 更輕鬆找到與維度相關的分類。4) 最後支援萬用字元 (`*`) 搜尋，以便更輕鬆找到所需的特定元件。注意：萬用字元搜尋在維度項目層級尚不可用。 | 2021 年 10 月 21 日 |
-| 深色主題 | [深色主題](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme)會作為顯示選項提供。 | 2021 年 10 月 21 日 |
+| 深色主題 | [深色主題](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=zh-Hant#dark-theme)會作為顯示選項提供。 | 2021 年 10 月 21 日 |
 | 維度位置的回顧視窗 | 最多 90 天的回顧視窗新增至資料檢視設定中持續性下方的維度配置設定。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html) | 2021 年 10 月 28 日 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -197,7 +197,7 @@ AN-270649
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
 | 三個 Analytics API 服務生命週期結束 | 2021 年 9 月 16 日 | 下列 Analytics Legacy API 服務將在 **2021 年 10 月 20 日**&#x200B;結束生命週期並關閉。 所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>Adobe 提供了[舊版 API 生命週期結束常見問答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來回答您的問題，並指引您展開後續操作。 採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe I/O](https://developer.adobe.com/console) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
-| 資料來源中完整處理的生命週期結束 | 2021 年 10 月 18 日 | 在 **2022 年 1 月 31 日**，Adobe 將終止完整處理的服務。此服務可讓用戶將離線點擊資料擷取至 Analytics。此功能透過 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 提供。[了解更多](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-Hant?lang=en) |
+| 資料來源中完整處理的生命週期結束 | 2021 年 10 月 18 日 | 在 **2022 年 1 月 31 日**，Adobe 將終止完整處理的服務。此服務可讓用戶將離線點擊資料擷取至 Analytics。此功能透過 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 提供。[了解更多](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-Hant?lang=zh-Hant) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -211,9 +211,9 @@ AN-270649
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 11 月 | [Adobe Analytics 中的區段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=en) | 影片 (已更新) | 在此影片中，了解如何使用容器並聆聽每種容器類型的部分範例。 |
-| 2021 年 11 月 | [Adobe Analytics 中的順序分段](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation.html?lang=en#) | 影片 (已更新) | 了解如何依據您的網站上或應用程式中的行為順序，在 Analysis Workspace 中建立區段。 |
-| 2021 年 11 月 | [在順序分段中的前/後順序](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/before-after-sequences-in-sequential-segmentation.html?lang=en) | 影片 (已更新) | 了解如何在 Adobe Analytics 中分段，以便於僅從特定用戶路徑前或後取得資料。 |
+| 2021 年 11 月 | [Adobe Analytics 中的區段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=zh-Hant) | 影片 (已更新) | 在此影片中，了解如何使用容器並聆聽每種容器類型的部分範例。 |
+| 2021 年 11 月 | [Adobe Analytics 中的順序分段](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation.html?lang=zh-Hant#) | 影片 (已更新) | 了解如何依據您的網站上或應用程式中的行為順序，在 Analysis Workspace 中建立區段。 |
+| 2021 年 11 月 | [在順序分段中的前/後順序](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/before-after-sequences-in-sequential-segmentation.html?lang=zh-Hant) | 影片 (已更新) | 了解如何在 Adobe Analytics 中分段，以便於僅從特定用戶路徑前或後取得資料。 |
 | 2021 年 11 月 | [適用於 Customer Journey Analytics 的 Report Builder](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/report-builder-for-customer-journey-analytics.html) | 影片 | 透過 Report Builder 簡單靈活拖放 UI，就能在 Excel 中從 Customer Journey Analytics 資料建立複雜的資料查詢和自訂報表。 |
 | 2021 年 10 月 | [使用視覺效果訴說您的資料故事](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2021.1.visualizations) | 課程 | 學習視覺效果的基本知識，包括如何將視覺效果新增至專案、讓資料融入視覺效果，以及每個視覺效果可以向您顯示的內容。了解如何進行設定，以取得您所需的確切資料。此外，取得一些秘訣和使用案例，協助您讓視覺效果為定期分析助一臂之力。 |
 
@@ -260,12 +260,12 @@ Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experie
 
 | 已發佈 | 名稱 | 說明 | 類型 | 版本 |
 | -----------| ---------- | ---------- |---------- | ---------- |
-| 2021 年 11 月 | [Adobe Experience Manager Sites 基本知識](https://experienceleague.adobe.com/docs/experience-manager-skill-builder/skill-builder/2021/authoring-fundamentals.html?lang=en) | 影片系列 | 在此 5 節的網路研討會系列，了解如何在 Adobe Experience Manager 中打造豐富、精彩的客戶體驗。從內容製作的組成要素開始，同時學習基礎概念與作業。學習網站管理功能與在 AEM 內處理數位資產的基本知識。之後透過重複使用內容並在通路間提供內容的方式，探索有助於節省時間、變得更有效率的功能。 | AEM Sites |
+| 2021 年 11 月 | [Adobe Experience Manager Sites 基本知識](https://experienceleague.adobe.com/docs/experience-manager-skill-builder/skill-builder/2021/authoring-fundamentals.html?lang=zh-Hant) | 影片系列 | 在此 5 節的網路研討會系列，了解如何在 Adobe Experience Manager 中打造豐富、精彩的客戶體驗。從內容製作的組成要素開始，同時學習基礎概念與作業。學習網站管理功能與在 AEM 內處理數位資產的基本知識。之後透過重複使用內容並在通路間提供內容的方式，探索有助於節省時間、變得更有效率的功能。 | AEM Sites |
 | 2021 年 11 月 | [規劃邁向 AEM as a Cloud Service 之旅](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2021.1.migration) | 課程 | 了解邁向 AEM as a Cloud Service 的考量及簡化程序的可用工具。 | AEM CS |
 | 2021 年 11 月 | [邁向 AEM as a Cloud Service](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2021.1.migration) | 課程 | 了解如何從 AEM 6 成功邁向 Experience Manager as a Cloud Service。 | AEM CS |
-| 2021 年 11 月 | [下載互動式 DoR](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-interactive-dor.html?lang=en#create-custom-servlet) | 影片 | 了解如何下載包含 Adaptive Form 資料的互動式 DoR。 | AEM Forms |
-| 2021 年 11 月 | [Adobe Experience Manager as a Cloud Service 專家系列](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/aem-experts-series.html?lang=en) | 影片系列 | 向建置 Adobe Experience Manager (AEM) as a Cloud Service 的 Adobe 專家工程師與提供該產品的 Professional Services 團隊學習。加入 Adobe 專家的行列，探索什麼是 AEM as a Cloud Service、其與 AEM 6 的比較，以及如何從 AEM 6 邁向 AEM as a Cloud Service。 | AEM CS |
-| 2021 年 11 月 | [服務用戶](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/advanced/service-users.html?lang=en)  | 影片 | 了解如何在您的 AEM 程式碼中建立和使用服務用戶，以提供 AEM 存放庫的受控制程式設計存取權。 | AEM CS |
+| 2021 年 11 月 | [下載互動式 DoR](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-interactive-dor.html?lang=zh-Hant#create-custom-servlet) | 影片 | 了解如何下載包含 Adaptive Form 資料的互動式 DoR。 | AEM Forms |
+| 2021 年 11 月 | [Adobe Experience Manager as a Cloud Service 專家系列](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/aem-experts-series.html?lang=zh-Hant) | 影片系列 | 向建置 Adobe Experience Manager (AEM) as a Cloud Service 的 Adobe 專家工程師與提供該產品的 Professional Services 團隊學習。加入 Adobe 專家的行列，探索什麼是 AEM as a Cloud Service、其與 AEM 6 的比較，以及如何從 AEM 6 邁向 AEM as a Cloud Service。 | AEM CS |
+| 2021 年 11 月 | [服務用戶](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/advanced/service-users.html?lang=zh-Hant)  | 影片 | 了解如何在您的 AEM 程式碼中建立和使用服務用戶，以提供 AEM 存放庫的受控制程式設計存取權。 | AEM CS |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -309,13 +309,13 @@ Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experie
 
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 11 月 | [Adobe Commerce 影片和教學課程](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/overview.html?lang=en) | 教學課程首頁 | 這些教學課程資源包括提供主題高階檢視的影片系列，以及針對特定任務和程序的個別影片。此系列旨在為後端開發人員、前端開發人員、系統管理員、商家及您組織中的其他角色，提供實用的內容 。 |
+| 2021 年 11 月 | [Adobe Commerce 影片和教學課程](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/overview.html?lang=zh-Hant) | 教學課程首頁 | 這些教學課程資源包括提供主題高階檢視的影片系列，以及針對特定任務和程序的個別影片。此系列旨在為後端開發人員、前端開發人員、系統管理員、商家及您組織中的其他角色，提供實用的內容 。 |
 
 ## ![圖示](/assets/target.png) [!DNL Target] {#target}
 
 最新更新：**2021 年 10 月 20 日**
 
-如需最新版本資訊，請參閱 [[!DNL Target]  版本注意事項](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=en)。
+如需最新版本資訊，請參閱 [[!DNL Target]  版本注意事項](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=zh-Hant)。
 
 ## ![圖示](/assets/campaign.png) [!DNL Adobe Campaign] {#ac}
 
@@ -335,10 +335,10 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 | 已發佈 | 名稱 | 說明 | 類型 | 版本 |
 | -----------| ---------- | ---------- |---------- | ---------- |
-| 2021 年 11 月 | [將 Campaign 連線至 Experience Platform 作為目的地](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/connect-campaign-to-experience-platform-as-destination.html?lang=en) | 影片 | 了解如何使用 Amazon S3 連線類型啟用 Adobe Experience Platform 區段至目的地。 | AEP &amp; Campaign V8 |
-| 2021 年 11 月 | [與 Experience Platform 整合 — 概覽](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/overview.html?lang=en) | 影片 | 了解如何在 Campaign 和 Experience Cloud 之間共用資料。 | AEP與行銷活動V8 |
-| 2021 年 11 月 | [從 Experience Platform 匯入收件者資料並傳送電子郵件](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/import-recipient-data-from-platform.html?lang=en) | 影片 | 了解如何在 Adobe Campaign 中設定外部帳戶，將收件者資料從 Adobe Experience Platform 匯入至 Campaign。 了解如何建立工作流程來上傳和定位從 Experience Platform 接收的收件者。 | AEP與行銷活動V8 |
-| 2021 年 11 月 | [在工作流程中使用 SOAP API](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | 教學影片 | 了解如何使用 Adobe Campaign Soap API 並根據透過 API 接收的資料建立進階傳送工作流程。 | Campaign V8 |
+| 2021 年 11 月 | [將 Campaign 連線至 Experience Platform 作為目的地](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/connect-campaign-to-experience-platform-as-destination.html?lang=zh-Hant) | 影片 | 了解如何使用 Amazon S3 連線類型啟用 Adobe Experience Platform 區段至目的地。 | AEP &amp; Campaign V8 |
+| 2021 年 11 月 | [與 Experience Platform 整合 — 概覽](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/overview.html?lang=zh-Hant) | 影片 | 了解如何在 Campaign 和 Experience Cloud 之間共用資料。 | AEP與行銷活動V8 |
+| 2021 年 11 月 | [從 Experience Platform 匯入收件者資料並傳送電子郵件](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/import-recipient-data-from-platform.html?lang=zh-Hant) | 影片 | 了解如何在 Adobe Campaign 中設定外部帳戶，將收件者資料從 Adobe Experience Platform 匯入至 Campaign。 了解如何建立工作流程來上傳和定位從 Experience Platform 接收的收件者。 | AEP與行銷活動V8 |
+| 2021 年 11 月 | [在工作流程中使用 SOAP API](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=zh-Hant) | 教學影片 | 了解如何使用 Adobe Campaign Soap API 並根據透過 API 接收的資料建立進階傳送工作流程。 | Campaign V8 |
 
 {style=&quot;table-layout:auto&quot;}
 
