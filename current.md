@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e4a4bc3cb484b045f0f1b400e1ba77d0178a90fd
+source-git-commit: 81cf97e0a4f0280549c23a68b45ff3a7088dd644
 workflow-type: tm+mt
-source-wordcount: '4811'
-ht-degree: 99%
+source-wordcount: '4902'
+ht-degree: 97%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 99%
 
 發行月份：**2021 年 11 月**
 
-最新更新：**2021 年 11 月 22 日**
+最新更新：**2022 年 1 月 4 日**
 
 * [[!DNL Experience League] 活動](#events) (2021 年 11 月 15 日更新)
 * [[!DNL Experience Cloud Central Interface Components] 與管理](#ecloud)
 * [Adobe [!UICONTROL 系統狀態]](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
-* [[!DNL Adobe Analytics]](#analytics) (2021 年 11 月 22 日更新)
+* [[!DNL Adobe Analytics]](#analytics) (**更新日期： 2022年1月4日**)
 * [Customer Journey Analytics](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Manager]](#aem)
@@ -145,7 +145,7 @@ ht-degree: 99%
 * [Adobe Analytics 新功能](#aa-features)
 * [Customer Journey Analytics 新功能](#cust-journey)
 * [Adobe Analytics 中的修正](#aa-fixes)
-* [Analytics 管理員重要通知](#aa-notices) (2021 年 11 月 22 日更新)
+* [給Analytics管理員的重要通知](#aa-notices) （更新日期：2022年1月4日）
 * [Analytics 課程與教學課程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -197,8 +197,9 @@ AN-270649
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| Reports &amp; Analytics終止服務 | 2022 年 1 月 4 日 | 有效 **2023年12月31日**,Adobe打算終止Reports &amp; Analytics及其隨附的報表和功能。 支援「Reports &amp; Analytics」的報表、視覺效果和基礎技術已不符合Adobe的技術標準。 大部分的Reports &amp; Analytics功能都可在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant). 自2015年發行Analysis Workspace以來，Reports &amp; Analytics的功能已移至Analysis Workspace，並達到工作流程對等臨界值。 [此通知](https://spark.adobe.com/page/6WnF8JK6IRDhf) 說明生命週期結束的過程。 |
 | 「全球 + 中國」RDC 類型 | 2021 年 11 月 22 日 | 「全球 + 中國」是一種新的地區資料收集 (RDC) 類型，它使用[!UICONTROL 中國效能最佳化附加元件套件]簡化了全球客戶的流量路由。在過去，您必須決定資料應該路由至中國收集端點或其中一個全球收集端點。現在您可以選擇這個 RDC **類型**，讓 Adobe 根據用戶的地理位置來決定最佳收集端點。 |
-| 三個 Analytics API 服務生命週期結束 | 2021 年 9 月 16 日 | 下列 Analytics Legacy API 服務將在 **2021 年 10 月 20 日**&#x200B;結束生命週期並關閉。 所有目前使用這些服務建立的整合功能將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>Adobe 提供了[舊版 API 生命週期結束常見問答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來回答您的問題，並指引您展開後續操作。 採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe I/O](https://developer.adobe.com/console) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
+| 三個 Analytics API 服務生命週期結束 | 2021 年 9 月 16 日 | 開啟 **2021年10月20日**，下列Analytics舊版API服務即將終止並關閉。 目前使用這些服務建立的所有整合功能都將於當天停止運作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>Legacy OAuth 驗證 (OAuth 和 JWT)</li></ul>Adobe 提供了[舊版 API 生命週期結束常見問答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)來回答您的問題，並指引您展開後續操作。 採用這些服務的 API 整合應用可移轉為 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。Legacy OAuth 帳戶可移轉為 [Adobe I/O](https://developer.adobe.com/console) Analytics 整合帳戶，藉以存取 1.4 Analytics API 和 2.0 Analytics API。 |
 | 資料來源中完整處理的生命週期結束 | 2021 年 10 月 18 日 | 在 **2022 年 1 月 31 日**，Adobe 將終止完整處理的服務。此服務可讓用戶將離線點擊資料擷取至 Analytics。此功能透過 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 提供。[了解更多](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-Hant?lang=zh-Hant) |
 
 {style=&quot;table-layout:auto&quot;}
