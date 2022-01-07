@@ -1,6 +1,6 @@
 ---
 title: 最新版本注意事項
-description: 了解  [!DNL Experience Cloud]  產品和服務的最新版本注意事項、新功能和新文件。尋找關於 [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise]，和 [!DNL Document Cloud].
+description: 了解  [!DNL Experience Cloud]  產品和服務的最新版本注意事項、新功能和新文件。尋找有關 [!DNL Experience Cloud]、 [!DNL Creative Cloud for enterprise] 和 [!DNL Document Cloud] 最新的說明與教學課程
 doc-type: release notes
 last-update: November 2021
 author: mfrei
@@ -240,7 +240,7 @@ Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experie
 
 ### 版本總覽影片
 
-* [2021年12月發行概述](https://video.tv.adobe.com/v/339278) 新功能的影片。
+* [2021 年 12 月版本總覽](https://video.tv.adobe.com/v/339278)新功能影片。
 * [2021 年 10 月版本總覽](https://video.tv.adobe.com/v/338253) 新功能影片。
 * [2021 年 9 月版本總覽](https://video.tv.adobe.com/v/337381) 新功能影片。
 
