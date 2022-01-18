@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e8e9579245a74552a4dc9ee88eb45375162de6e1
+source-git-commit: 1b16256611eb979c223368409f6887d8c6826332
 workflow-type: tm+mt
-source-wordcount: '6416'
-ht-degree: 40%
+source-wordcount: '6587'
+ht-degree: 39%
 
 ---
 
@@ -289,6 +289,28 @@ Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experie
 
 
 
+
+### 社群
+
+* **Experience ManagerGEM線上講座 — Experience Manageras a Cloud Service** | 2021年審查和2022年展望
+
+   **日期**:2022年1月25日星期二
+   **時間**:上午8:00（太平洋標準時間）或下午5:00（太平洋標準時間）或晚上9:30（太平洋標準時間）
+   **持續時間**:60分鐘
+   **成本**:自由！
+
+   * [按一下這裡報名](https://adobe.ly/3tAh3OC)
+   * [提問](https://adobe.ly/3zJrS0f)
+
+* [宣佈2021年社區成員](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-community-members-of-the-year-2021/td-p/436782)
+
+   我們要向所有參與 [Experience Manager社群](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community) 2021年，他們幫助其他人解決了問題。
+
+   每年，Experience Cloud社群都會向在服務中超越和超越職能的成員致敬，並透過「社群年度成員」獎為其他人提供令人難以置信的支援。 我們在此宣佈，我們承認以公開方式作出的努力 [@Asutosh_Jena_](https://experienceleaguecommunities.adobe.com/t5/user/viewprofilepage/user-id/7532759)  和 [@Vijayalakshmi_S](https://experienceleaguecommunities.adobe.com/t5/user/viewprofilepage/user-id/11077056) 作為2021年共同體成員。
+
+* [2022年1月的Experience League內容](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/experience-league-content-for-month-of-january-2022/td-p/437137)
+
+   [發佈在Experience Manager中的所有Experience League內容的清單](https://adobe.ly/3tuGuRH)
 
 ### 最新 Experience Manager 課程與教學課程 {#tutorials-aem}
 
