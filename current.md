@@ -6,9 +6,9 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 1b16256611eb979c223368409f6887d8c6826332
+source-git-commit: 5f66a23cec9c0a92528f3ccb96b4a7889fd38b46
 workflow-type: tm+mt
-source-wordcount: '6587'
+source-wordcount: '6585'
 ht-degree: 39%
 
 ---
@@ -78,8 +78,8 @@ ht-degree: 39%
 
 | 活動名稱 | Date | 應用程式 | 格式 | 說明 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| Customer Journey Analytics 分析學的未來 | 2022年1月18日太平洋標準時間早8點 | Adobe Analytics, Customer Journey Analytics, Experience Platform | 論壇問答 | 在Adobe Analytics的Group Product Manager的Trevor Paulsen分析社區發佈您的問題。<br>[詳細資訊和註冊](https://analyticscommunityqacoffeebrea.splashthat.com/?utm_source=community-thread&amp;utm_campaign=coffee_talk_AA&amp;utm_content=220118) |
-| Adobe Target與Journey Optimizer、Adobe Target介面和一般目標專題的整合 | 2022年1月19日太平洋標準時間早9點 | Adobe Target,Journey Optimizer | 論壇問答 | 和喬恩·特赫羅呆一個小時，在Adobe Target社區提問。<br>[Details and registration](https://communitycoffeebreakadobetarge.splashthat.com/?utm_source=email&amp;utm_campaign=coffee_talk_AT&amp;utm_content=210119) |
+| Customer Journey Analytics 分析學的未來 | 2022年1月18日太平洋標準時間早8點 | Adobe Analytics,Customer Journey Analytics,Experience Platform | 論壇問答 | 在Adobe Analytics的Group Product Manager的Trevor Paulsen分析社區發佈您的問題。<br>[詳細資訊和註冊](https://analyticscommunityqacoffeebrea.splashthat.com/?utm_source=community-thread&amp;utm_campaign=coffee_talk_AA&amp;utm_content=220118) |
+| Adobe Target與Journey Optimizer、Adobe Target介面和一般目標專題的整合 | 2022年1月19日太平洋標準時間早9點 | Adobe Target,Journey Optimizer | 論壇問答 | 和喬恩·特赫羅呆一個小時，在Adobe Target社區提問。<br>[詳細資訊和註冊](https://communitycoffeebreakadobetarge.splashthat.com/?utm_source=email&amp;utm_campaign=coffee_talk_AT&amp;utm_content=210119) |
 
 {style=&quot;table-layout:auto&quot;&quot;
 
@@ -184,9 +184,9 @@ AN-253294;AN-254976;AN-255377;AN-255561;AN-258550;AN-259336;AN-263935;AN-265094;
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| 舊式分析OAuth/JWT整合的允許清單EOL擴展過期 | 2022 年 1 月 14 日 | 2022年5月25日， [分析1.3 API、1.4 SOAP API和Legacy Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允許清單擴展，提供給使用舊版 [!DNL Analytics] OAuth/JWT憑據將其客戶端整合遷移到 [Adobe IMS憑據](https://developer.adobe.com/console) 將過期。 此到期影響（但不限於） [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 尚未完成其所需IMS遷移的客戶。 當前使用舊式服務的客戶 [!DNL Analytics] 通過允許清單擴展的OAuth/JWT憑據以及在2022年5月25日之前未完成到IMS憑據的遷移的憑據將無法訪問Adobe服務。 LiveStream客戶可以參考以下 [說明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) 將其客戶端應用程式遷移到IMS憑據。 [!DNL Campaign] 客戶可以聯繫其Adobe客戶團隊，瞭解升級到 [!DNL Campaign]。 |
+| 舊式分析OAuth/JWT整合的允許清單EOL擴展過期 | 2022 年 1 月 14 日 | 開 **2022年5月25日**，也請參見Wiki頁。 [分析1.3 API、1.4 SOAP API和Legacy Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) allowlist擴展將過期。 它旨在為使用傳統產品的客戶提供 [!DNL Adobe Analytics] OAuth/JWT憑據將其客戶端整合遷移到 [Adobe IMS憑據](https://developer.adobe.com/console)。 此到期影響（但不限於） [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 尚未完成其所需IMS遷移的客戶。 當前使用舊式服務的客戶 [!DNL Analytics] 通過允許清單擴展的OAuth/JWT憑據以及在2022年5月25日之前未完成到IMS憑據的遷移的憑據將無法訪問Adobe服務。 LiveStream客戶可以參考以下 [說明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) 將其客戶端應用程式遷移到IMS憑據。 [!DNL Campaign] 客戶可以聯繫其Adobe客戶團隊，瞭解升級到 [!DNL Campaign]。 |
 | Reports &amp; Analytics 生命週期結束 | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。支援Reports &amp; Analytics的報告、可視化和底層技術不再滿足Adobe的技術標準。 大多數報告和分析功能都可在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)。 自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束程序。 |
-| 安全檔案傳輸協定(SFTP)服務升級 | 2022 年 1 月 13 日 | 開 **2022年5月2日**,Adobe Analytics將升級其安全檔案傳輸協定(SFTP)服務，以提高檔案傳輸的安全性。 通過此更改，將不再支援某些SFTP客戶端配置。 我們還將添加一些連接選項， **2022年3月1日**。 這只會影響使用SFTP發送到Adobe Analytics或從其檢索到的資料。 FTP協定將不受影響。 為避免服務中斷，請確保您的SFTP客戶端（代碼、工具、服務）將符合詳細更改 [這裡](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html)。 |
+| 安全檔案傳輸協定(SFTP)服務升級 | 2022 年 1 月 13 日 | 開 **2022年5月2日**。 [!DNL Adobe Analytics] 將升級其安全檔案傳輸協定(SFTP)服務，以提高檔案傳輸的安全性。 通過此更改，將不再支援某些SFTP客戶端配置。 我們還將添加一些連接選項， **2022年3月1日**。 這只會影響使用SFTP發送到Adobe Analytics或從其檢索到的資料。 FTP協定將不受影響。 為避免服務中斷，請確保您的SFTP客戶端（代碼、工具、服務）將符合詳細更改 [這裡](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html)。 |
 | _全球+中國_ RDC類型 | 2021 年 11 月 22 日 | _全球+中國_ 是一種新的區域資料收集(RDC)類型，它使用 [!UICONTROL 中國效能優化附加包]。 在過去，您必須決定資料應該路由至中國收集端點或其中一個全球收集端點。現在您可以選擇這個 RDC *類型*，讓 Adobe 根據用戶的地理位置來決定最佳收集端點。 |
 | 資料來源中完整處理的生命週期結束 | 2021 年 10 月 18 日 | 在 **2022 年 1 月 31 日**，Adobe 將終止完整處理的服務。此服務可讓用戶將離線點擊資料擷取至 Analytics。此功能透過 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 提供。[了解更多](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-Hant?lang=zh-Hant) |
 
@@ -209,7 +209,7 @@ AN-253294;AN-254976;AN-255377;AN-255561;AN-258550;AN-259336;AN-263935;AN-265094;
 | 2022 年 1 月 | [配置清單變數](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-list-variables.html?lang=en) | 影片 | 瞭解如何配置和使用清單變數的Adobe Analytics。 清單變數使您能夠將多個值放入eVar。 |
 | 2022 年 1 月 | [配置流量變數(props)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-traffic-variables-props.html?lang=en) | 影片 | 瞭解流量變數的配置，也稱為 _道_，在分析Admin Console中。 |
 | 2022 年 1 月 | [使用處理規則處理傳入資料](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/manipulating-incoming-data-with-processing-rules.html?lang=en) | 影片 | 瞭解在Adobe Analytics處理規則以及您可以使用它們的內容。 獲取有關使用「處理規則」的一些提示、示例，甚至警告。 |
-| 2022 年 1 月 | [在 Analysis Workspace 中將區段用作維度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=zh-Hant) | 已更新視頻 | Learn how to compare and visualize segments by using them as a dimension in Analysis Workspace. |
+| 2022 年 1 月 | [在 Analysis Workspace 中將區段用作維度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=zh-Hant) | 已更新視頻 | 瞭解如何通過將段用作Analysis Workspace的維來比較和可視化它們。 |
 | 2022 年 1 月 | [分部管理與分享在Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=en) | 已更新視頻 | 在此更新的視頻中，瞭解共用和管理段的一些提示。 |
 | 2022 年 1 月 | [在 Analysis Workspace 中使用區段來限制資料](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-to-limit-data-in-analysis-workspace.html?lang=en) | 已更新視頻 | 瞭解如何將Analysis Workspace項目的用戶限制在使用該工具時的特定段（或段）。 |
 | 2022 年 1 月 | [Analysis Workspace 中的區段比較](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace.html?lang=en) | 已更新視頻 | 瞭解Segment IQ(Adobe AnalyticsAnalysis Workspace州的一部分)如何通過檢查所有維度和指標的任何兩個分析段來自動發現它們在統計上最顯著的差異，從而簡化分析。 |
@@ -280,7 +280,7 @@ Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experie
       * [!UICONTROL 程式建立] 現在可以通過公開的API獲得。
       * [!UICONTROL 環境建立] 現在可通過公開的API獲得。
       * 的 `x-request-id` 響應標頭現在可在上的API Ploagn中看到 [www.adobe.io](https://www.adobe.io/)。 此標題在提交客戶關心問題以進行故障排除時非常有用。
-      * A new [!UICONTROL Activity] page is available where activities like pipeline and code runs can be viewed along with their associated details. 隨著時間的推移，此頁中列出的活動在範圍內擴展，並提供詳細資訊。
+      * 新 [!UICONTROL 活動] 頁面可用，其中可以查看管道和代碼運行等活動及其關聯的詳細資訊。 隨著時間的推移，此頁中列出的活動在範圍內擴展，並提供詳細資訊。
       * 新 [!UICONTROL 管線] 現在可以使用「狀態跨距」(status popover)來輕鬆查看詳細資訊摘要。 您可以查看 [!UICONTROL 管線] 與相關詳細資訊一起運行。
       * 的 [!UICONTROL 編輯管線] API現在支援更改部署階段中使用的環境。
       * 在 [!DNL OakPal] 掃描過程現在可用於大型包。
