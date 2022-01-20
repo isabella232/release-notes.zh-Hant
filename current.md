@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 5f66a23cec9c0a92528f3ccb96b4a7889fd38b46
+source-git-commit: a5fd2d7d8668a3b75718d24a8af14498e2192a1a
 workflow-type: tm+mt
-source-wordcount: '6585'
-ht-degree: 39%
+source-wordcount: '6575'
+ht-degree: 40%
 
 ---
 
@@ -185,8 +185,8 @@ AN-253294;AN-254976;AN-255377;AN-255561;AN-258550;AN-259336;AN-263935;AN-265094;
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
 | 舊式分析OAuth/JWT整合的允許清單EOL擴展過期 | 2022 年 1 月 14 日 | 開 **2022年5月25日**，也請參見Wiki頁。 [分析1.3 API、1.4 SOAP API和Legacy Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) allowlist擴展將過期。 它旨在為使用傳統產品的客戶提供 [!DNL Adobe Analytics] OAuth/JWT憑據將其客戶端整合遷移到 [Adobe IMS憑據](https://developer.adobe.com/console)。 此到期影響（但不限於） [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 尚未完成其所需IMS遷移的客戶。 當前使用舊式服務的客戶 [!DNL Analytics] 通過允許清單擴展的OAuth/JWT憑據以及在2022年5月25日之前未完成到IMS憑據的遷移的憑據將無法訪問Adobe服務。 LiveStream客戶可以參考以下 [說明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) 將其客戶端應用程式遷移到IMS憑據。 [!DNL Campaign] 客戶可以聯繫其Adobe客戶團隊，瞭解升級到 [!DNL Campaign]。 |
-| Reports &amp; Analytics 生命週期結束 | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。支援Reports &amp; Analytics的報告、可視化和底層技術不再滿足Adobe的技術標準。 大多數報告和分析功能都可在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)。 自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束程序。 |
-| 安全檔案傳輸協定(SFTP)服務升級 | 2022 年 1 月 13 日 | 開 **2022年5月2日**。 [!DNL Adobe Analytics] 將升級其安全檔案傳輸協定(SFTP)服務，以提高檔案傳輸的安全性。 通過此更改，將不再支援某些SFTP客戶端配置。 我們還將添加一些連接選項， **2022年3月1日**。 這只會影響使用SFTP發送到Adobe Analytics或從其檢索到的資料。 FTP協定將不受影響。 為避免服務中斷，請確保您的SFTP客戶端（代碼、工具、服務）將符合詳細更改 [這裡](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html)。 |
+| EOL [!DNL Reports & Analytics] | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 及其隨附的報告和功能。[!DNL Reports & Analytics]報告、可視化和底層技術 [!DNL Reports & Analytics] 不再符合Adobe的技術標準。 最多 [!DNL Reports & Analytics] 功能 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)。 自2015年Analysis Workspace釋放以來， [!DNL Reports & Analytics] 功能和功能已移至Analysis Workspace，並已達到工作流奇偶校驗的閾值。 [本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束程序。 |
+| 安全檔案傳輸協定(SFTP)服務升級 | 2022 年 1 月 13 日 | 開 **2022年5月2日**。 [!DNL Adobe Analytics] 將升級其安全檔案傳輸協定(SFTP)服務，以提高檔案傳輸的安全性。 在這次變更後，我們將不再支援某些 SFTP 用戶端設定。我們也會新增一些連線選項，這些選項將會在 **2022 年 3 月 1 日**&#x200B;之前提供。這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。FTP 通訊協定將不受影響。為避免服務中斷，請確保您的SFTP客戶端（代碼、工具、服務）將符合詳細更改 [這裡](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html)。 |
 | _全球+中國_ RDC類型 | 2021 年 11 月 22 日 | _全球+中國_ 是一種新的區域資料收集(RDC)類型，它使用 [!UICONTROL 中國效能優化附加包]。 在過去，您必須決定資料應該路由至中國收集端點或其中一個全球收集端點。現在您可以選擇這個 RDC *類型*，讓 Adobe 根據用戶的地理位置來決定最佳收集端點。 |
 | 資料來源中完整處理的生命週期結束 | 2021 年 10 月 18 日 | 在 **2022 年 1 月 31 日**，Adobe 將終止完整處理的服務。此服務可讓用戶將離線點擊資料擷取至 Analytics。此功能透過 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 提供。[了解更多](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-Hant?lang=zh-Hant) |
 
@@ -206,9 +206,9 @@ AN-253294;AN-254976;AN-255377;AN-255561;AN-258550;AN-259336;AN-263935;AN-265094;
 | 2022 年 1 月 | [媒體播放時間面板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel.html?lang=en) | 影片 | 瞭解媒體播放花費時間面板如何使媒體用戶能夠根據在一天中按選定粒度查看的時間量來瞭解他們的收視率。 |
 | 2022 年 1 月 | [Adobe Analytics客戶細分策略與最佳實踐](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/customer-segmentation-strategies.html?lang=en) | 影片 | 與分析內部人員一起參加週四的分析會議，重點討論客戶細分基礎知識、戰略和最佳實踐。 |
 | 2022 年 1 月 | [設定付費搜尋偵測](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-paid-search-detection.html#) | 影片 | 瞭解如何瀏覽Adobe AnalyticsAdmin Console付費搜索檢測部分的配置，包括一些建議。 |
-| 2022 年 1 月 | [配置清單變數](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-list-variables.html?lang=en) | 影片 | 瞭解如何配置和使用清單變數的Adobe Analytics。 清單變數使您能夠將多個值放入eVar。 |
-| 2022 年 1 月 | [配置流量變數(props)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-traffic-variables-props.html?lang=en) | 影片 | 瞭解流量變數的配置，也稱為 _道_，在分析Admin Console中。 |
-| 2022 年 1 月 | [使用處理規則處理傳入資料](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/manipulating-incoming-data-with-processing-rules.html?lang=en) | 影片 | 瞭解在Adobe Analytics處理規則以及您可以使用它們的內容。 獲取有關使用「處理規則」的一些提示、示例，甚至警告。 |
+| 2022 年 1 月 | [設定清單變數](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-list-variables.html?lang=en) | 影片 | 瞭解如何配置和使用清單變數的Adobe Analytics。 清單變數使您能夠將多個值放入eVar。 |
+| 2022 年 1 月 | [設定流量變數 (Prop)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-traffic-variables-props.html?lang=en) | 影片 | 瞭解流量變數的配置，也稱為 _道_，在分析Admin Console中。 |
+| 2022 年 1 月 | [使用處理規則操控傳入的資料](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/manipulating-incoming-data-with-processing-rules.html?lang=en) | 影片 | 瞭解在Adobe Analytics處理規則以及您可以使用它們的內容。 獲取有關使用「處理規則」的一些提示、示例，甚至警告。 |
 | 2022 年 1 月 | [在 Analysis Workspace 中將區段用作維度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=zh-Hant) | 已更新視頻 | 瞭解如何通過將段用作Analysis Workspace的維來比較和可視化它們。 |
 | 2022 年 1 月 | [分部管理與分享在Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=en) | 已更新視頻 | 在此更新的視頻中，瞭解共用和管理段的一些提示。 |
 | 2022 年 1 月 | [在 Analysis Workspace 中使用區段來限制資料](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-to-limit-data-in-analysis-workspace.html?lang=en) | 已更新視頻 | 瞭解如何將Analysis Workspace項目的用戶限制在使用該工具時的特定段（或段）。 |
