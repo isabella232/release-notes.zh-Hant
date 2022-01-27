@@ -6,9 +6,9 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 3ecd5dfeeee5692b7fb5c5fa4dcac497b3c49ce0
+source-git-commit: e50b1d99621d2a32597e7a28c1602decef814ead
 workflow-type: tm+mt
-source-wordcount: '6573'
+source-wordcount: '6590'
 ht-degree: 98%
 
 ---
@@ -135,7 +135,6 @@ Experience Platform 和 [!UICONTROL Mobile SDK] 的版本更新資訊和新文�
 發行日期：**2022 年 1 月 19 日**
 
 * [Adobe Analytics 新功能](#aa-features)
-* [Customer Journey Analytics 新功能](#cust-journey)
 * [Adobe Analytics 中的修正](#aa-fixes)
 * [給 Analytics 管理員的重要通知](#aa-notices)
 * [Analytics 課程與教學課程](#tutorials-analytics)
@@ -148,18 +147,6 @@ Experience Platform 和 [!UICONTROL Mobile SDK] 的版本更新資訊和新文�
 | 不適用 |  | 參閱[一般可用性](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hant) |
 
 {style=&quot;table-layout:auto&quot;&quot;
-
-### Customer Journey Analytics 新功能 {#cust-journey}
-
-| 功能 | 說明 | 目標日期 |
-| ----------- | ---------- | ----- |
-| 綁定維度和綁定量度的[!UICONTROL 持續性]選項 | 建立或編輯資料視圖時，可以將維度的持續性綁定到另一個維度或度量標準。本概念在 Reports &amp; Analytics 中稱為&#x200B;_銷售_；CJA 現在支援本概念。[進一步了解](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) | 2022 年 1 月 19 日 |
-| 「[!UICONTROL 最先已知]」和「[!UICONTROL 最後已知]」配置模式 | 這兩種新配置模式採取指定持續性範圍 (工作階段、人員或具回顧的自訂時段) 內某維度的第一個或最後一個觀察值。 然後這些會將配置模式套用至指定範圍內的全部事件。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings) | 2022 年 1 月 19 日 |
-| [!UICONTROL PersonID] 和 [!UICONTROL PersonID 命名空間] (依維度) | 將 `personID` (或 `customerID`，或是您在連接內合併資料使用的任何 ID) 顯示為資料視圖中的維度。 此改善功能讓您更易透過從連線中獲取 ID，然後將 `personID` 加入為資料視圖中的維度。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional-standard-components) | 2022 年 1 月 19 日 |
-
-{style=&quot;table-layout:auto&quot;&quot;
-
-如需版本資訊，請參閱 [一般可用性](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hant)。
 
 ### Adobe Analytics 和 Customer Journey Analytics 的漏洞修復 {#aa-fixes}
 
@@ -175,7 +162,7 @@ Experience Platform 和 [!UICONTROL Mobile SDK] 的版本更新資訊和新文�
 * 修正因日光節約時間而使排程報告過早發送的問題。 (AN-276410；AN-276305)
 * 修正在 Workspace 內無法將專案下載至 `.csv` 檔案的問題。 (AN-275834)
 
-#### Adobe Analytics 和 CJA 中的其他修正
+#### Adobe Analytics 中的其他修正
 
 AN-253294；AN-254976；AN-255377；AN-255561；AN-258550；AN-259336；AN-263935；AN-265094；AN-269441；AN-269486；AN-269855；AN-271166；AN-271588；AN-272088；AN-272249；AN-272859；AN-272873；AN-272885；AN-273229；AN-273913；AN-274237；AN-274472；AN-274491；AN-274619；AN-274766；AN-275248；AN-275259；AN-275271；AN-275315；AN-275388；AN-275418；AN-275597；AN-275643；AN-275650；AN-275651；AN-275675；AN-275682；AN-275704；AN-275711；AN-275796；AN-275834；AN-275923；AN-275941；AN-276044；AN-276125；AN-276157；AN-276397；AN-276597；AN-276789；AN-276834；AN-276861；AN-276870；AN-276963；AN-276975；AN-277000；AN-277044；AN-277093；AN-277200；AN-277215；AN-277271；AN-277281；AN-277362；AN-277419；AN-277492；AN-277498；AN-277533；AN-277619；AN-277675；AN-277681；AN-277767；AN-277805；AN-277810；AN-277818；AN-277875；AN-277933；AN-277988；AN-278105；AN-278115；AN-278122；AN-278192；AN-278407；AN-278437；AN-278559；AN-278604；AN-278610；AN-278709；AN-278835；AN-278849；AN-278881；AN-279067；AN-279103；AN-279111；AN-279219；AN-279237；AN-279312
 
@@ -218,6 +205,28 @@ AN-253294；AN-254976；AN-255377；AN-255561；AN-258550；AN-259336；AN-26393
 ### Analytics 說明資源
 
 * [Adobe Analytics 產品文件與教學課程](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
+
+## [!DNL Customer Journey Analytics] {#cja}
+
+* [Customer Journey Analytics 新功能](#cust-journey)
+
+發行日期：**2022 年 1 月 19 日**
+
+### Customer Journey Analytics 新功能 {#cust-journey}
+
+| 功能 | 說明 | 目標日期 |
+| ----------- | ---------- | ----- |
+| 綁定維度和綁定量度的[!UICONTROL 持續性]選項 | 建立或編輯資料視圖時，可以將維度的持續性綁定到另一個維度或度量標準。本概念在 Reports &amp; Analytics 中稱為&#x200B;_銷售_；CJA 現在支援本概念。[進一步了解](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) | 2022 年 1 月 19 日 |
+| 「[!UICONTROL 最先已知]」和「[!UICONTROL 最後已知]」配置模式 | 這兩種新配置模式採取指定持續性範圍 (工作階段、人員或具回顧的自訂時段) 內某維度的第一個或最後一個觀察值。 然後這些會將配置模式套用至指定範圍內的全部事件。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings) | 2022 年 1 月 19 日 |
+| [!UICONTROL PersonID] 和 [!UICONTROL PersonID 命名空間] (依維度) | 將 `personID` (或 `customerID`，或是您在連接內合併資料使用的任何 ID) 顯示為資料視圖中的維度。 此改善功能讓您更易透過從連線中獲取 ID，然後將 `personID` 加入為資料視圖中的維度。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional-standard-components) | 2022 年 1 月 19 日 |
+
+{style=&quot;table-layout:auto&quot;&quot;
+
+如需版本資訊，請參閱 [一般可用性](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hant)。
+
+### Analytics 說明資源
+
+* [Customer Journey Analytics 產品文件](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=en)
 
 ## ![圖示](/assets/audience-manager.png) Audience Manager {#aam}
 
