@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: e50b1d99621d2a32597e7a28c1602decef814ead
 workflow-type: tm+mt
 source-wordcount: '6590'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,9 +111,9 @@ ht-degree: 98%
 
 Experience Platform 和 [!UICONTROL Mobile SDK] 的版本更新資訊和新文件：
 
-* 版本： **2022年1月26日**
+* 發行版本：**2022 年 1 月 26 日**
 
-請參閱 [Experience Platform發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant) 來閱讀最新的。
+請參閱 [Experience Platform 發行說明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hant)以了解最新資訊。
 
 ### 最新 Experience Platform 教學課程與其他課程 {#tutorials-platform}
 
@@ -170,9 +170,9 @@ AN-253294；AN-254976；AN-255377；AN-255561；AN-258550；AN-259336；AN-26393
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| 舊版 Analytics 整合的允許清單 EOL 擴充功能到期日 | 2022 年 1 月 14 日 | 開 **2022年5月25日**，也請參見Wiki頁。 [分析1.3 API、1.4 SOAP API和Legacy Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) allowlist擴展將過期。 它旨在為使用傳統產品的客戶提供 [!DNL Adobe Analytics] OAuth/JWT憑據將其客戶端整合遷移到 [Adobe IMS憑據](https://developer.adobe.com/console)。 這項到期會影響 (但不限於) 尚未完成所需 IMS 移轉的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客戶。 目前透過允許清單擴展功能使用舊版 [!DNL Analytics] OAuth/JWT 憑證的客戶，以及在 2022 年 5 月 25 日尚未完成移轉至 IMS 的客戶，都將會失去使用 Adobe 服務的權限。直播串流客戶可參考這些將其客戶應用程式移轉至 IMS 憑證的[說明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。 [!DNL Campaign] 客戶可與他們的 Adobe 帳戶團隊聯絡，了解關於升級至最新版本 [!DNL Campaign] 的詳情。 |
-| EOL [!DNL Reports & Analytics] | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 及其隨附的報告和功能。[!DNL Reports & Analytics]報告、可視化和底層技術 [!DNL Reports & Analytics] 不再符合Adobe的技術標準。 最多 [!DNL Reports & Analytics] 功能 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)。 自2015年Analysis Workspace釋放以來， [!DNL Reports & Analytics] 功能和功能已移至Analysis Workspace，並已達到工作流奇偶校驗的閾值。 [本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束程序。 |
-| 安全檔案傳輸通訊協定 (SFTP) 服務升級 | 2022 年 1 月 13 日 | 在 **2022 年 5 月 2 日**， 將會升級其安全檔案傳輸通訊協定 (SFTP) 服務，以提供改良的檔案傳輸安全性功能。 [!DNL Adobe Analytics]在這次變更後，我們將不再支援某些 SFTP 用戶端設定。 我們也會新增一些連線選項，這些選項將會在 **2022 年 3 月 1 日**&#x200B;之前提供。 這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。 FTP 通訊協定將不受影響。 為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 將符合[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html)詳述的變更。 |
+| 舊版 Analytics OAuth/JWT 整合的允許清單 EOL 延長到期 | 2022 年 1 月 14 日 | 在 **2022 年 5 月 25 日**，[Analytics 1.3 API、1.4 SOAP API 和舊版 Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允許清單延長即將到期。此延長是為了讓使用舊版 [!DNL Adobe Analytics] OAuth/JWT 認證的客戶有更多時間，以便將其用戶端整合移轉至 [Adobe IMS 認證](https://developer.adobe.com/console)。這項到期會影響 (但不限於) 尚未完成所需 IMS 移轉的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客戶。 目前透過允許清單擴展功能使用舊版 [!DNL Analytics] OAuth/JWT 憑證的客戶，以及在 2022 年 5 月 25 日尚未完成移轉至 IMS 的客戶，都將會失去使用 Adobe 服務的權限。直播串流客戶可參考這些將其客戶應用程式移轉至 IMS 憑證的[說明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。 [!DNL Campaign] 客戶可與他們的 Adobe 帳戶團隊聯絡，了解關於升級至最新版本 [!DNL Campaign] 的詳情。 |
+| [!DNL Reports & Analytics] EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術等功能，不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束程序。 |
+| 安全檔案傳輸通訊協定 (SFTP) 服務升級 | 2022 年 1 月 13 日 | 在 **2022 年 5 月 2 日**，[!DNL Adobe Analytics] 將會升級其安全檔案傳輸通訊協定 (SFTP) 服務，以提供改良的檔案傳輸安全性功能。在這次變更後，我們將不再支援某些 SFTP 用戶端設定。 我們也會新增一些連線選項，這些選項將會在 **2022 年 3 月 1 日**&#x200B;之前提供。 這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。 FTP 通訊協定將不受影響。 為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 將符合[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html)詳述的變更。 |
 | 「_全球 + 中國_」RDC 類型 | 2021 年 11 月 22 日 | 「_全球 + 中國_」是一種新的地區資料收集 (RDC) 類型，它使用[!UICONTROL 中國效能最佳化附加元件套件]簡化了全球客戶的流量路由。在過去，您必須決定資料應該路由至中國收集端點或其中一個全球收集端點。現在您可以選擇這個 RDC *類型*，讓 Adobe 根據用戶的地理位置來決定最佳收集端點。 |
 | 資料來源中完整處理的生命週期結束 | 2021 年 10 月 18 日 | 在 **2022 年 1 月 31 日**，Adobe 將終止完整處理的服務。此服務可讓用戶將離線點擊資料擷取至 Analytics。此功能透過 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 提供。[了解更多](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-Hant?lang=zh-Hant) |
 
