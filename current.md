@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c73e91e379acb34734b4ed3a1d267688ea3f1222
+source-git-commit: 9e16facc25424bb8ce23e35230b7503195cf1a3d
 workflow-type: tm+mt
-source-wordcount: '6611'
-ht-degree: 99%
+source-wordcount: '6534'
+ht-degree: 98%
 
 ---
 
@@ -527,12 +527,11 @@ Adobe [!DNL Workfront] 是統一的工作管理應用程式，用於共用構想
 
 ### [!DNL Advertising Cloud Search] 中的新功能 {#adcloud-search}
 
-最新更新：**2021 年 10 月 7 日**
+上次更新時間： **2022年2月4日**
 
 | 功能 | 說明 |
 | ------- | ----------- |
-| [!UICONTROL 報告]、[!UICONTROL 通知中心] | (10 月 9 日發行) 報告的所有電子郵件通知目前都由[!UICONTROL 通知中心]處理。這些通知是 Advertising Cloud Search 在自訂或排程報告完成或失敗時傳送。報告預設為啟用電子郵件通知與 Web 通知預設，但您可以選擇變更通知設定。進行此變更：<ul><li>電子郵件收件者限為已註冊的用戶、已驗證身分的 Advertising Cloud Search 用戶，以及存取廣告商帳戶的用戶。此功能可確保不會將機密資訊傳送給未經授權的用戶。</li><li>電子郵件的格式與內容使用[!UICONTROL 通知中心]範本，其中包括報告的詳細資訊與所有報告格式的直接下載連結。</li><li>報告通知是[!UICONTROL 通知中心]中新的通知類型，有自己的通知偏好設定。</li></ul>如果您有任何從電子郵件通知提取報告的自動化作業，您可能需要更新篩選邏輯，以確保程序不中斷。 |
-| 廣告分析 | Beta 版模式提供其他深入分析。 |
+| [!UICONTROL 布爾克謝特]。 [!UICONTROL 通知中心] | （1月22日發佈）現在由Advertising Cloud Search處理的所有針對牛咭操作完成或失敗時發送的有關牛蒡子的電子郵件通知 [!UICONTROL 通知中心]。<br><br>[!UICONTROL 布爾克謝特] 是具有自己的通知首選項的新通知類型，在 [!UICONTROL 通知中心]。 預設情況下會啟用電子郵件通知和Web通知，但您可以選擇更改通知設定。<br><br>電子郵件通知的格式和內容使用 [!UICONTROL 通知中心] 模板，並包括關聯的工作表檔案或錯誤檔案的直接下載連結。 |
 
 {style=&quot;table-layout:auto&quot;&quot;
 
