@@ -4,9 +4,9 @@ description: Experience Cloud 發行說明
 doc-type: release notes
 last-update: June 2021
 author: mfrei
-source-git-commit: b83f085d9fca7c4ae2b3519d32033a03aec28026
+source-git-commit: e415b562703712157d907d3e3995ff5adad4db1e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '716'
 ht-degree: 86%
 
 ---
@@ -20,19 +20,19 @@ Adobe Experience Cloud 的新功能及修正項目。
 
 >[!IMPORTANT]
 >
->本頁面包含搶鮮版內容，於發行日期前可能會有所變更。
+>此頁包含預發行內容，在發行日期之前可能會更改。
 
 >[!NOTE]
 >
 >產品發行後才發佈的新資訊皆會標示發佈日期。
 
-最新更新：**2021年9月**
+最新更新： **2021年9月**
 
-* [Experience League即時事件](#events)
+* [Experience League Live 活動](#events)
 * [Experience Cloud 中央介面元件](#ecloud)
+* [Adobe 系統狀態](#status)
 * [Experience Platform](#platform)
 * [Experience Platform應用程式服務](#services)
-* [Adobe 系統狀態](#status)
 * [Journey Optimizer](#journey-opt)
 * [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)
 * [[!DNL Audience Manager]](#aam)
@@ -55,12 +55,6 @@ Adobe Experience Cloud 的新功能及修正項目。
 ## ![圖示](/assets/ec_appicon_24.png) Experience Cloud 中央 UI 元件 {#ecloud}
 
 Experience Cloud 中央介面元件包括可從統一產品標題存取的更新，例如自助服務、搜尋和使用者帳戶偏好設定。  您可以在此處找到人員、地點 (定位) 和產品管理的更新。
-
-| 功能 | Date | 說明 |
-| ------- | ------- | -------|
-| 功能 | 2021 年 9 月 | 說明 |
-
-{style=&quot;table-layout:auto&quot;}
 
 ### [!UICONTROL 核心服務] {#core-services}
 
@@ -257,13 +251,13 @@ Adobe Campaign 可以在線上和離線行銷管道以直觀的自動化方法�
 
 ## Marketo {#marketo}
 
-Marketo Engage是銷售機會管理的完整解決方案，適合B2B行銷人員使用，而透過該解決方案，他們可參與複雜購買歷程的每個階段，從中轉變客戶體驗。
+Marketo Engage是銷售線索管理和B2B營銷人員的一個完整解決方案，他們希望通過參與複雜購買過程的每個階段來轉變客戶體驗。
 
 ### Marketo Engage 核心更新
 
 發行日期：2020 年 2 月 21 日
 
-* **Microsoft® Dynamics在Microsoft®  _Flow Action中的更改所有者_ :** 直接從Marketo Engage更改銷售機會或聯繫所有者。
+* **Microsoft®動力學 _更改Microsoft®中的所有者_ 流操作：** 直接從Marketo Engage更改潛在顧客或聯繫人責任人。
 * **增強 API 呼叫功能：**
    * 使用者管理 API
    * 自訂物件結構描述 API
@@ -282,13 +276,13 @@ Marketo Engage是銷售機會管理的完整解決方案，適合B2B行銷人員
 
 ### 公告
 
-**Marketo Engage Success Center：**&#x200B;預計於 2020 年 2 月推出。Success Center 是產品內的說明中心，可讓您搜尋產品檔案和社群、啟動操作指南、存取採用內容等等。注意：此功能已在澳新銀行測試版推出，預計於本季末在北美地區推出。
+**Marketo Engage Success Center：**&#x200B;預計於 2020 年 2 月推出。Success Center 是產品內的說明中心，可讓您搜尋產品檔案和社群、啟動操作指南、存取採用內容等等。注：這項功能作為測試版在澳新銀行推出，並將在本季度晚些時候向北美推出。
 
 ### 淘汰
 
 * **資產 API「_method」參數：** 2020 年 9 月後，資產 API 端點將不再接受於 POST 主體中使用「_method」傳遞查詢參數，以略過 URI 長度限制。
 * **Internet Explorer 支援淘汰：**&#x200B;從 2020 年 7 月 31 日推出的七月版開始，Marketo Engage 使用者介面將不再支援 Internet Explorer。
 
-### 最新解決方案名稱課程與教學課程
+### 新的解決方案名稱課程和教程
 
 過去一個月內發佈的新影片、教學課程或課程。
