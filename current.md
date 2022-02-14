@@ -6,7 +6,7 @@ last-update: February 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e9a119ac8351d6431039b1e0387db1d4875a91bb
+source-git-commit: 85a73da3f5957c5d073d9b0018d1758f14432252
 workflow-type: tm+mt
 source-wordcount: '4933'
 ht-degree: 49%
@@ -96,7 +96,7 @@ ht-degree: 49%
 
 **新功能**
 
-* Adobe狀態現在在產品級別報告事件。 「狀態雲」和「產品」頁基於事件的產品級報告具有新的外觀和增強的篩選器。 這使您能夠更輕鬆地瞭解您的產品受到的影響 [狀態.adobe.com](https://status.adobe.com/) 和您的電子郵件通知。 如果您未訂閱，請使用此連結設定您的個性化訂閱首選項 [https://status.adobe.com/proactive-notifications/manage](https://status.adobe.com/proactive-notifications/manage)
+* Adobe狀態現在在產品級別報告事件。 「狀態雲」和「產品」頁基於事件的產品級報告具有新的外觀和增強的篩選器。 這使您能夠更輕鬆地瞭解您的產品受到的影響 [狀態.adobe.com](https://status.adobe.com/) 和您的電子郵件通知。 如果您未訂閱，請使用此連結設定您的個性化訂閱首選項 [https://status.adobe.com/proactive-notifications/manage](https://status.adobe.com/proactive-notifications/manage)。
 
 * 現在，狀態首頁已個性化，並根據您的權利和產品訂閱篩選了事件。 請在 **狀態.adobe.com** > **[!UICONTROL 我的事件]** 頁籤。
 
@@ -179,9 +179,9 @@ ht-degree: 49%
 | 2022 年 2 月 | [使用處理規則操控傳入的資料](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/manipulating-incoming-data-with-processing-rules.html?lang=en) | 影片 | 獲取Adobe Analytics處理規則的概述，並瞭解它們的用途。 瞭解一些提示、示例，甚至警告。 |
 | 2022 年 2 月 | [設定清單變數](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-list-variables.html?lang=en) | 影片 | 當您必須一次將多個值放入eVar（轉換變數）時，您將做什麼？ 列出解救的變數！ 了解如何以及為何要在 Adobe Analytics 中設定和使用清單變數。  |
 | 2022 年 2 月 | [配置通信分類](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-traffic-classifications.html?lang=en) | 影片 | 瞭解如何為通信量變數配置分類(通常稱為 _道_&#x200B;的 _pagename_&#x200B;等等。 |
-| 2022 年 2 月 | [配置轉換分類](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-conversion-classifications.html?lang=en) | 影片 | 瞭解如何為轉換變數配置分類，也稱為 _埃瓦爾_。 此配置也適用於產品和清單變數。 |
+| 2022 年 2 月 | [Configure conversion classifications](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-conversion-classifications.html?lang=en) | 影片 | 瞭解如何為轉換變數配置分類，也稱為 _埃瓦爾_。 此配置也適用於產品和清單變數。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ## ![圖示](/assets/audience-manager.png) Audience Manager {#aam}
 
@@ -268,13 +268,13 @@ Adobe 建議您造訪 [Experience Manager 版本更新與藍圖](https://experie
 
 * **Experience ManagerGEM網路研討會： _使用無Experience Manager頭和App Builder更快地構建站點_**
 
-   **日期**:2022年3月23日星期三
+   **Date**: Wednesday, March 23, 2022
    **時間**:上午8點(PST)、5:00(CET)或9:00(IST)
    **揚聲器**:Duy Nguyen,Adobe軟體開發工程師
-   [註冊參加網路研討會，網址為https://adobe.ly/3oCkEsh](https://adobe.ly/3oCkEsh)
+   [Register for the webinar at https://adobe.ly/3oCkEsh](https://adobe.ly/3oCkEsh)
    [關於網路研討會的常見問題](https://adobe.ly/3LkSWdm)
 
-* 播放2022年1月Experience ManagerGEM。網路研討會： [_Experience Manageras a Cloud Service2021年回顧和2022年展望_](https://adobe.ly/3rqbSOz)
+* Play the January 2022 Experience Manager GEMs Webinar: [_Experience Manager as a Cloud Service 2021 review and 2022 outlook_](https://adobe.ly/3rqbSOz)
 
 ### 最新 Experience Manager 課程與教學課程 {#tutorials-aem}
 
@@ -356,7 +356,7 @@ Adobe Experience Manager 的 XML 文件是部署至 AEM 的應用程式。 這�
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
 | 2022 年 2 月 | [升級Adobe Commerce/Magento Open Source](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) | 使用手冊 | 獲取完成升級過程所需的所有幫助。 |
-| 2022 年 2 月 | [Adobe Commerce2.4升級研討會](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/upgrade-workshop.html?lang=en) | 影片 | 瞭解準備下次升級到2.4.4或更高版本時要遵循的步驟和最佳做法。 |
+| 2022 年 2 月 | [Adobe Commerce2.4升級研討會](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/upgrade-workshop.html?lang=en) | 影片 | Learn the steps and best practices to follow when preparing for your next upgrade to 2.4.4 or higher. |
 | 2022 年 2 月 | [在 PhpStorm 上使用升級相容性工具](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/uct-phpstorm.html?lang=en) | 影片 | 瞭解如何使用 `PhpStorm` 插件 |
 
 {style=&quot;table-layout:auto&quot;&quot;
@@ -519,6 +519,6 @@ Adobe [!DNL Workfront] 是統一的工作管理應用程式，用於共用構想
 | 已發佈 | 名稱 | 類型 | 說明 |
 | -----------| ---------- | ---------- | ---------- |
 | 2022 年 2 月 | [客戶歷程](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=en) | 影片 | Customer Journeys解決了品牌通過電子郵件、SMS和移動警報等渠道主動接觸客戶並與其進行溝通的能力。 |
-| 2022 年 2 月 | [市場活動v7藍圖](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/campaign-v7/campaign-v7.html?lang=en) | 影片 | Adobe Campaignv7是為電子郵件和直郵等傳統營銷渠道構建的宣傳工具。 它提供強大的ETL和資料管理功能，幫助制定和組織完美的活動。 |
+| 2022 年 2 月 | [Campaign v7 Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/campaign-v7/campaign-v7.html?lang=en) | 影片 | Adobe Campaign v7 is a campaigning tool built for traditional marketing channels such as email and direct mail. 它提供強大的ETL和資料管理功能，幫助制定和組織完美的活動。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
