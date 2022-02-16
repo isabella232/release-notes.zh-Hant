@@ -6,9 +6,9 @@ last-update: February 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 10b5876c8ea0e21f0e10ea36165c0e3f1dab9665
+source-git-commit: f4b652db4759a65f38afe0fbd6dca07301875277
 workflow-type: tm+mt
-source-wordcount: '4940'
+source-wordcount: '4963'
 ht-degree: 49%
 
 ---
@@ -168,7 +168,7 @@ ht-degree: 49%
 
 版本： **2.22.4**
 
-* [JavaScript 適用的 AppMeasurement 版本注意事項](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hant)
+* [JavaScript 適用的 AppMeasurement 版本注意事項](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)
 
 ### 最新 Analytics 教學課程與其他課程 {#tutorials-analytics}
 
@@ -473,10 +473,11 @@ Adobe [!DNL Workfront] 是統一的工作管理應用程式，用於共用構想
 
 ### [!DNL Advertising Cloud Search] 中的新功能 {#adcloud-search}
 
-上次更新時間： **2022年2月4日**
+上次更新時間： **2022年2月16日**
 
 | 功能 | 說明 |
 | ------- | ----------- |
+| [!UICONTROL 行銷活動], [!UICONTROL Bulksheets] | （1月22日發佈）([!DNL Microsoft Advertising accounts])現在，您可以通過 [!UICONTROL 市場活動] > [!UICONTROL 廣告] 查看和 [!UICONTROL 市場活動] > [!UICONTROL 布爾克謝特]。 |
 | [!UICONTROL 布爾克謝特]。 [!UICONTROL 通知中心] | （1月22日發佈）現在由Advertising Cloud Search處理的所有針對牛咭操作完成或失敗時發送的有關牛蒡子的電子郵件通知 [!UICONTROL 通知中心]。<br><br>[!UICONTROL 布爾克謝特] 是具有自己的通知首選項的新通知類型，在 [!UICONTROL 通知中心]。 預設情況下會啟用電子郵件通知和Web通知，但您可以選擇更改通知設定。<br><br>電子郵件通知的格式和內容使用 [!UICONTROL 通知中心] 模板，並包括關聯的工作表檔案或錯誤檔案的直接下載連結。 |
 
 {style=&quot;table-layout:auto&quot;&quot;
